@@ -26,5 +26,5 @@ with open("README.md", "r") as fh:
         install_requires=[
             "fatcat-openapi-client",
         ],
-        extras_require={"dev": ["yapf", "twine", "isort", "pytest"],},
+        extras_require={"dev": ["yapf", "twine", "isort", "pytest", "pytest-cov"],},
     )

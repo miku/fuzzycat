@@ -1,16 +1,17 @@
 SHELL := /bin/bash
 
-.PHONY: deps
-deps: ## Install dependencies from setup.py into pipenv
-	# We need to use --pre, because e.g. black is considered a pre-release
-	# version, https://github.com/microsoft/vscode-python/issues/5171
-	pipenv install --pre '-e .[dev]'
-
 .PHONY: help
 help: ## Print info about all commands
 	@echo "Commands:"
 	@echo
 	@grep -E '^[/.a-zA-Z_-]+:.*?## .*$$' $(MAKEFILE_LIST) | awk 'BEGIN {FS = ":.*?## "}; {printf "    \033[01;32m%-40s\033[0m %s\n", $$1, $$2}'
+
+
+.PHONY: deps
+deps: ## Install dependencies from setup.py into pipenv
+	# We need to use --pre, because e.g. black is considered a pre-release
+	# version, https://github.com/microsoft/vscode-python/issues/5171
+	pipenv install --pre '-e .[dev]'
 
 data/release_export_expanded.json.gz: ## Download release export
 	mkdir -p data
@@ -25,6 +26,10 @@ style: ## Apply import sorting and black source formatting on all files
 .PHONY: dist
 dist: ## Create source distribution and wheel
 	python setup.py sdist bdist_wheel
+
+.PHONY: cov
+cov: ## Run coverage report
+	<pytest --cov=fuzzycat tests/
 
 .PHONY: clean
 clean: ## Clean all artifacts
