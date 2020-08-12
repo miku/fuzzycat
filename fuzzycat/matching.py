@@ -4,7 +4,7 @@ import string
 from ftfy import fix_text
 from unidecode import unidecode
 
-from fuzzycat import MatchStatus, StringAnnotator, StringPipeline
+from fuzzycat.status import MatchStatus
 from fuzzycat.utils import *
 
 
