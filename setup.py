@@ -1,11 +1,12 @@
 import setuptools
+from fuzzycat import __version__
 
 with open("README.md", "r") as fh:
     long_description = fh.read()
 
     setuptools.setup(
         name="fuzzycat",
-        version="0.1.0",
+        version=__version__,
         author="Martin Czygan",
         author_email="martin@archive.org",
         description="Fuzzy matching utilities for scholarly metadata",
