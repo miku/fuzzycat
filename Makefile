@@ -18,8 +18,9 @@ data/release_export_expanded.json.gz: ## Download release export
 
 .PHONY: style
 style: ## Apply import sorting and black source formatting on all files
-	isort -c --atomic .
-	find . -name "*.py" -exec black {} \;
+	isort --atomic .
+	yapf -p -i -r fuzzycat
+	yapf -p -i -r tests
 
 .PHONY: dist
 dist: ## Create source distribution and wheel

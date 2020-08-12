@@ -5,7 +5,6 @@ import itertools
 import re
 import string
 from typing import Any, Callable, DefaultDict, Dict, List, Optional, Sequence
-
 """
 A couple of utilities, may be split up into separate modules.
 """
@@ -26,7 +25,6 @@ class StringPipeline:
         input and output
 
     """
-
     def __init__(self, fs: List[Callable[[str], str]]):
         self.fs = fs
 
@@ -73,7 +71,6 @@ class StringAnnotator:
     * string_utils.py or similar
     * maybe adopt SpaCy or similar
     """
-
     def __init__(self, fs: List[Callable[[str], Dict[str, Any]]]):
         self.fs = fs
 

@@ -1,5 +1,6 @@
 from enum import Enum
 
+
 class MatchStatus(Enum):
     """
     When matching two entities, use these levels to express match strength.

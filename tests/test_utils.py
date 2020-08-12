@@ -1,6 +1,7 @@
 # coding: utf-8
 
 from typing import List, NamedTuple
+
 import pytest
 
 from fuzzycat.utils import *
@@ -105,10 +106,22 @@ def test_keys_with_values():
     cases = (
         Case({}, []),
         Case({"a": "v"}, ["a"]),
-        Case({"a": "", "b": "v"}, ["b"]),
-        Case({"a": None, "b": "v"}, ["b"]),
-        Case({"a": [], "b": "v"}, ["b"]),
-        Case({"a": 0, "b": "v"}, ["b"]),
+        Case({
+            "a": "",
+            "b": "v"
+        }, ["b"]),
+        Case({
+            "a": None,
+            "b": "v"
+        }, ["b"]),
+        Case({
+            "a": [],
+            "b": "v"
+        }, ["b"]),
+        Case({
+            "a": 0,
+            "b": "v"
+        }, ["b"]),
     )
     for case in cases:
         result = keys_with_values(case.d)

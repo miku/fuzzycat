@@ -24,5 +24,5 @@ with open("README.md", "r") as fh:
         zip_safe=False,
         entry_points={"console_scripts": ["fuzzycat=fuzzycat.main:main",],},
         install_requires=[],
-        extras_require={"dev": ["black", "twine", "isort", "pytest"],},
+        extras_require={"dev": ["yapf", "twine", "isort", "pytest"],},
     )
