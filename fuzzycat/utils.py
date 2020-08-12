@@ -4,7 +4,7 @@ import collections
 import itertools
 import re
 import string
-from typing import Any, Callable, DefaultDict, Dict, List
+from typing import Any, Callable, DefaultDict, Dict, List, Optional, Sequence
 
 """
 A couple of utilities, may be split up into separate modules.
