@@ -140,7 +140,8 @@ def match_container_names(a: str, b: str) -> MatchStatus:
         return MatchStatus.WEAK
 
     # Address e.g. a char flip, but only, if we do not have diacritics.
-    if (not asa["is_short_string"] and not asa["is_single_token"] and not asa["has_diacritics"] and hamming_distance(a, b) < 2):
+    if (not asa["is_short_string"] and not asa["is_single_token"] and not asa["has_diacritics"]
+            and hamming_distance(a, b) < 2):
         return MatchStatus.STRONG
 
     return MatchStatus.AMBIGIOUS
