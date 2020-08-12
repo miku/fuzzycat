@@ -24,7 +24,9 @@ with open("README.md", "r") as fh:
         zip_safe=False,
         entry_points={"console_scripts": ["fuzzycat=fuzzycat.main:main",],},
         install_requires=[
+            "ftfy",
             "fatcat-openapi-client",
+            "unidecode",
         ],
-        extras_require={"dev": ["yapf", "twine", "isort", "pytest", "pytest-cov"],},
+        extras_require={"dev": ["yapf", "twine", "isort", "pytest", "pytest-cov", "ipython"],},
     )
