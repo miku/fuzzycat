@@ -7,6 +7,7 @@
 ## Containers
 
 * [ ] create notebook on duplicates
+* [ ] static mapping, that is efficient to store, maybe via: https://github.com/pytries/marisa-trie
 
 ## Bulk
 
