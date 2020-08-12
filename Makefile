@@ -2,7 +2,9 @@ SHELL := /bin/bash
 
 .PHONY: deps
 deps: ## Install dependencies from setup.py into pipenv
-	pipenv install '-e .'
+	# We need to use --pre, because e.g. black is considered a pre-release
+	# version, https://github.com/microsoft/vscode-python/issues/5171
+	pipenv install --pre '-e .[dev]'
 
 .PHONY: help
 help: ## Print info about all commands
