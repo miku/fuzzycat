@@ -1,18 +1,17 @@
-import string
 import re
-from unidecode import unidecode
-from ftfy import fix_text
+import string
 
-from fuzzycat import MatchStatus, StringPipeline, StringAnnotator
+from ftfy import fix_text
+from unidecode import unidecode
+
+from fuzzycat import MatchStatus, StringAnnotator, StringPipeline
 from fuzzycat.utils import *
 
 
 def match_container_names(a: str, b: str) -> MatchStatus:
     """
-    Given two strings representing container names, return a match status. This
-    would be a subproblem of verify_container_match in cases where only a
-    string is given or the entity has only a name. Factored out for ease of
-    testing. TODO(martin): incorporate abbreviations mapping, other synonyms.
+    Given two strings representing container names, return a match status.
+    TODO(martin): incorporate abbreviations mapping, other synonyms.
 
     Some name stats over 146302 real names from fatcat.
 
@@ -51,12 +50,12 @@ def match_container_names(a: str, b: str) -> MatchStatus:
         34681             حولیة کلیة أصول الدین والدعوة بالمنوفیة    39          False
         132251  Известия Российской академии наук Теория и сис...    61          False
 
-
     """
+
     if a is None or b is None:
         raise ValueError("strings required, got: a = {}, b = {}".format(a, b))
 
-    # Whitespace cleanup.Try to remove superfluous whitespace, which should
+    # Basic normalisation, try to remove superfluous whitespace, which should
     # never matter, "HNO    Praxis"
     string_cleanups = StringPipeline([
         str.lower,
