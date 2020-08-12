@@ -32,12 +32,14 @@ with open("README.md", "r") as fh:
             "unidecode",
         ],
         extras_require={"dev": [
-            "yapf",
-            "twine",
+            "ipython",
             "isort",
+            "jupyter",
+            "matplotlib",
+            "pandas",
             "pytest",
             "pytest-cov",
-            "ipython",
-            "jupyter",
+            "twine",
+            "yapf",
         ],},
     )
