@@ -29,7 +29,7 @@ dist: ## Create source distribution and wheel
 
 .PHONY: cov
 cov: ## Run coverage report
-	<pytest --cov=fuzzycat tests/
+	pytest --cov=fuzzycat tests/
 
 .PHONY: clean
 clean: ## Clean all artifacts
