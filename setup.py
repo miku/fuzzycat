@@ -1,4 +1,5 @@
 import setuptools
+
 from fuzzycat import __version__
 
 with open("README.md", "r") as fh:
@@ -23,5 +24,5 @@ with open("README.md", "r") as fh:
         zip_safe=False,
         entry_points={"console_scripts": ["fuzzycat=fuzzycat.main:main",],},
         install_requires=[],
-        extras_require={"dev": ["black", "twine"],},
+        extras_require={"dev": ["black", "twine", "isort"],},
     )

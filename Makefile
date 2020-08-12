@@ -16,8 +16,9 @@ data/release_export_expanded.json.gz: ## Download release export
 	mkdir -p data
 	wget -c https://archive.org/download/fatcat_bulk_exports_2020-08-05/release_export_expanded.json.gz -O $@
 
-.PHONY: black
-black: ## Format all Python files
+.PHONY: style
+style: ## Apply import sorting and black source formatting on all files
+	isort -c --atomic .
 	find . -name "*.py" -exec black {} \;
 
 .PHONY: dist
