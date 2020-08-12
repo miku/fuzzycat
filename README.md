@@ -1,6 +1,8 @@
-# fcfuzzy
+# fuzzycat
 
 Fuzzy matching publications for [fatcat](https://fatcat.wiki).
+
+* [fuzzycat](https://pypi.org/project/fuzzycat/)
 
 ## Motivation
 
