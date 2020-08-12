@@ -14,14 +14,6 @@ deps: ## Install dependencies from setup.py into pipenv
 	# version, https://github.com/microsoft/vscode-python/issues/5171
 	pipenv install --pre '-e .[dev]'
 
-data/release_export_expanded.json.gz: ## Download release export
-	mkdir -p data
-	wget -c https://archive.org/download/$(FATCAT_BULK_EXPORT_ITEM)/release_export_expanded.json.gz -O $@
-
-data/container_export.json.gz: ## Download container export
-	mkdir -p data
-	wget -c https://archive.org/download/$(FATCAT_BULK_EXPORT_ITEM)/container_export.json.gz -O $@
-
 .PHONY: style
 style: ## Apply import sorting and black source formatting on all files
 	isort --atomic .
@@ -58,3 +50,15 @@ upload: dist
 	# For automatic package deployments, also see: .gitlab-ci.yml.
 	twine upload $(TWINE_OPTS) dist/*
 
+# ==== data related targets
+
+data/release_export_expanded.json.gz: ## Download release export
+	mkdir -p data
+	wget -c https://archive.org/download/$(FATCAT_BULK_EXPORT_ITEM)/release_export_expanded.json.gz -O $@
+
+data/container_export.json.gz: ## Download container export
+	mkdir -p data
+	wget -c https://archive.org/download/$(FATCAT_BULK_EXPORT_ITEM)/container_export.json.gz -O $@
+
+data/name_to_issn.json: data/issn.ndj ## Create a name to ISSN mapping (needs an ISSN JSON dump)
+	fuzzycat-issn --make-mapping $^ > $@
