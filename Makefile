@@ -1,4 +1,5 @@
 SHELL := /bin/bash
+FATCAT_BULK_EXPORT_ITEM := fatcat_bulk_exports_2020-08-05
 
 .PHONY: help
 help: ## Print info about all commands
@@ -15,7 +16,11 @@ deps: ## Install dependencies from setup.py into pipenv
 
 data/release_export_expanded.json.gz: ## Download release export
 	mkdir -p data
-	wget -c https://archive.org/download/fatcat_bulk_exports_2020-08-05/release_export_expanded.json.gz -O $@
+	wget -c https://archive.org/download/$(FATCAT_BULK_EXPORT_ITEM)/release_export_expanded.json.gz -O $@
+
+data/container_export.json.gz: ## Download container export
+	mkdir -p data
+	wget -c https://archive.org/download/$(FATCAT_BULK_EXPORT_ITEM)/container_export.json.gz -O $@
 
 .PHONY: style
 style: ## Apply import sorting and black source formatting on all files
