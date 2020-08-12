@@ -27,9 +27,17 @@ with open("README.md", "r") as fh:
             "fuzzycat-issn=fuzzycat.issn:main",
         ],},
         install_requires=[
-            "ftfy",
             "fatcat-openapi-client",
+            "ftfy",
             "unidecode",
         ],
-        extras_require={"dev": ["yapf", "twine", "isort", "pytest", "pytest-cov", "ipython"],},
+        extras_require={"dev": [
+            "yapf",
+            "twine",
+            "isort",
+            "pytest",
+            "pytest-cov",
+            "ipython",
+            "jupyter",
+        ],},
     )
