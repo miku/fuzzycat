@@ -23,6 +23,8 @@ with open("README.md", "r") as fh:
         python_requires=">=3.6",
         zip_safe=False,
         entry_points={"console_scripts": ["fuzzycat=fuzzycat.main:main",],},
-        install_requires=[],
+        install_requires=[
+            "fatcat-openapi-client",
+        ],
         extras_require={"dev": ["yapf", "twine", "isort", "pytest"],},
     )
