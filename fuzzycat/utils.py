@@ -2,12 +2,28 @@
 
 import collections
 import itertools
+import json
 import re
 import string
 from typing import Any, Callable, DefaultDict, Dict, List, Optional, Sequence
 """
 A couple of utilities, may be split up into separate modules.
 """
+
+
+class SetEncoder(json.JSONEncoder):
+    """
+    Helper to encode python sets into JSON lists.
+    So you can write something like this:
+        json.dumps({"things": set([1, 2, 3])}, cls=SetEncoder)
+    """
+    def default(self, obj):
+        """
+        Decorate call to standard implementation.
+        """
+        if isinstance(obj, set):
+            return list(obj)
+        return json.JSONEncoder.default(self, obj)
 
 
 class StringPipeline:
