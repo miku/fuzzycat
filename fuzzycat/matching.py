@@ -7,7 +7,7 @@ from fuzzycat import MatchStatus, StringPipeline, StringAnnotator
 from fuzzycat.utils import *
 
 
-def compare_container_name(a: str, b: str) -> MatchStatus:
+def match_container_names(a: str, b: str) -> MatchStatus:
     """
     Given two strings representing container names, return a match status. This
     would be a subproblem of verify_container_match in cases where only a
