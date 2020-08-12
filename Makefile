@@ -26,6 +26,7 @@ dist: ## Create source distribution and wheel
 
 .PHONY: clean
 clean: ## Clean all artifacts
+	rm -rf build
 	rm -rf dist
 	rm -rf fuzzycat.egg-info/
 
