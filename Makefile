@@ -19,11 +19,27 @@ black: ## Format all Python files
 	find . -name "*.py" -exec black {} \;
 
 .PHONY: dist
-dist: ## Create source distribution
-	python setup.py sdist
+dist: ## Create source distribution and wheel
+	python setup.py sdist bdist_wheel
 
 .PHONY: clean
 clean: ## Clean all artifacts
 	rm -rf dist
 	rm -rf fuzzycat.egg-info/
+
+# Upload requires https://github.com/pypa/twine and some configuration.
+.PHONY: upload
+upload: dist
+	# https://pypi.org/account/register/
+	# $ cat ~/.pypirc
+	# [pypi]
+	# username:abc
+	# password:secret
+	#
+	# For internal repositories, name them in ~/.pypirc (e.g. "internal"), then
+	# run: make upload TWINE_OPTS="-r internal" to upload to hosted pypi
+	# repository.
+	#
+	# For automatic package deployments, also see: .gitlab-ci.yml.
+	twine upload $(TWINE_OPTS) dist/*
 
