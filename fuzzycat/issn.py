@@ -155,7 +155,6 @@ Example JSON LD response from ISSN:
   ]
 }
 
-
 """
 
 import argparse
@@ -163,14 +162,14 @@ import collections
 import itertools
 import json
 import os
-import sys
 import re
-from typing import Iterable, Dict, List, Union
+import sys
+from typing import Dict, Iterable, List, Union
 
 from fuzzycat.utils import SetEncoder
 
 
-def listify(v : Union[str, List[str]]) -> List[str]:
+def listify(v: Union[str, List[str]]) -> List[str]:
     """
     Sensible create a list.
     """
@@ -179,6 +178,7 @@ def listify(v : Union[str, List[str]]) -> List[str]:
     if isinstance(v, str):
         return [v]
     return v
+
 
 def jsonld_minimal(v: Dict) -> Dict:
     """
@@ -212,7 +212,8 @@ def jsonld_minimal(v: Dict) -> Dict:
             # if we do not have ISSN-L yet, check "exampleOfWork",
             # "resource/ISSN/2658-0705"
             if not "issnl" in doc:
-                match = re.match(r"^resource/ISSN-L/([0-9]{4,4}-[0-9]{3,3}[0-9xX])$", item.get("exampleOfWork", ""))
+                match = re.match(r"^resource/ISSN-L/([0-9]{4,4}-[0-9]{3,3}[0-9xX])$",
+                                 item.get("exampleOfWork", ""))
                 if match:
                     doc["issnl"] = match.group(1)
 
@@ -243,6 +244,7 @@ def jsonld_minimal(v: Dict) -> Dict:
 
     return doc
 
+
 def de_jsonld(lines: Iterable):
     """
     Convert to a minimal JSON format.
@@ -250,30 +252,37 @@ def de_jsonld(lines: Iterable):
     for line in lines:
         line = line.strip()
         try:
-            doc = json.loads(line)
-            doc = jsonld_minimal(doc)
+            doc = jsonld_minimal(json.loads(line))
         except json.decoder.JSONDecodeError as exc:
             print("failed to parse json: {}, data: {}".format(exc, line), file=sys.stderr)
             continue
         else:
             print(json.dumps(doc, cls=SetEncoder))
 
+
 def generate_name_pairs(lines: Iterable):
     """
-    Given JSON lines, yield a tuple (issn, a, b) of test data. Will skip on
+    Given JSON lines, yield a tuple (issnl, a, b) of test data. Will skip on
     errors.
+
+    Example output:
+
+    0013-211X       Eendracht-bode (Tholen) Eendracht-bode.
+    0012-7388       Dynamic maturity        Dynamic maturity.
+    0012-6055       Drehpunkt.      Drehpunkt (Basel. 1968)
+
+    Basically, these would be free test cases, since we would like to report "match" on most of these.
+
     """
     for line in lines:
         line = line.strip()
         try:
-            doc = json.loads(line)
-            doc = jsonld_minimal(doc)
+            doc = jsonld_minimal(json.loads(line))
         except json.decoder.JSONDecodeError as exc:
             print("failed to parse json: {}, data: {}".format(exc, line), file=sys.stderr)
             continue
-        for issn in doc.get("issns", []):
-            for a, b in itertools.combinations(doc.get("names", []), 2):
-                yield (issn, a, b)
+        for a, b in itertools.combinations(doc.get("names", []), 2):
+            yield (doc["issnl"], a, b)
 
 
 def generate_name_issn_mapping(lines: Iterable):
@@ -282,9 +291,9 @@ def generate_name_issn_mapping(lines: Iterable):
     might be reused.
     """
     mapping = collections.defaultdict(set)
-    for issn, a, b in generate_name_pairs(lines):
-        mapping[a].add(issn)
-        mapping[b].add(issn)
+    for issnl, a, b in generate_name_pairs(lines):
+        mapping[a].add(issnl)
+        mapping[b].add(issnl)
     return mapping
 
 
@@ -300,9 +309,7 @@ def main():
     parser.add_argument("--make-mapping",
                         action="store_true",
                         help="generate JSON mapping from name to list of ISSN")
-    parser.add_argument("--de-jsonld",
-                        action="store_true",
-                        help="break up the jsonld")
+    parser.add_argument("--de-jsonld", action="store_true", help="break up the jsonld")
 
     args = parser.parse_args()
 
