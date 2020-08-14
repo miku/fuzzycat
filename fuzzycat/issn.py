@@ -165,10 +165,20 @@ import json
 import os
 import sys
 import re
-from typing import Iterable, Dict
+from typing import Iterable, Dict, List, Union
 
 from fuzzycat.utils import SetEncoder
 
+
+def listify(v : Union[str, List[str]]) -> List[str]:
+    """
+    Sensible create a list.
+    """
+    if v is None:
+        return []
+    if isinstance(v, str):
+        return [v]
+    return v
 
 def jsonld_minimal(v: Dict) -> Dict:
     """
@@ -189,35 +199,64 @@ def jsonld_minimal(v: Dict) -> Dict:
         id = item.get("@id")
         if not id:
             continue
+
+        # ISSN-L
         match = re.match(r"^resource/ISSN-L/([0-9]{4,4}-[0-9]{3,3}[0-9xX])$", id)
         if match:
             doc["issnl"] = match.group(1)
             continue
+
+        # The "main" issn entry.
         match = re.match(r"^resource/ISSN/([0-9]{4,4}-[0-9]{3,3}[0-9xX])$", id)
         if match:
-            # Collect ids.
+            # if we do not have ISSN-L yet, check "exampleOfWork",
+            # "resource/ISSN/2658-0705"
+            if not "issnl" in doc:
+                match = re.match(r"^resource/ISSN-L/([0-9]{4,4}-[0-9]{3,3}[0-9xX])$", item.get("exampleOfWork", ""))
+                if match:
+                    doc["issnl"] = match.group(1)
+
+            # note material
+            doc["material"] = listify(item.get("material", []))
+
+            # collect ids
             issns = set([match.group(1)])
             if item.get("identifier"):
                 issns.add(item.get("identifier"))
             if item.get("issn"):
                 issns.add(item.get("issn"))
             doc["issns"] = issns
+            # add urls
+            doc["urls"] = listify(item.get("url", []))
+            # add names, variants
+            names = listify(item.get("name")) + listify(item.get("alternateName"))
+            doc["names"] = list(set(names))
 
-            names = item.get("name")
-            if isinstance(names, str):
-                names = [names]
-            if isinstance(names, list):
-                doc["names"] = names
-
-            isFormatOf = item.get("isFormatOf", [])
-            if isinstance(isFormatOf, str):
-                isFormatOf = [isFormatOf]
-
-            for v in isFormatOf:
+            # add related issn
+            for v in listify(item.get("isFormatOf", [])):
                 match = re.match(r"^resource/ISSN/([0-9]{4,4}-[0-9]{3,3}[0-9xX])$", v)
                 if match:
                     doc["issns"].add(match.group(1))
+
+    if "issnl" not in doc:
+        raise ValueError("entry without issnl: {}".format(item))
+
     return doc
+
+def de_jsonld(lines: Iterable):
+    """
+    Convert to a minimal JSON format.
+    """
+    for line in lines:
+        line = line.strip()
+        try:
+            doc = json.loads(line)
+            doc = jsonld_minimal(doc)
+        except json.decoder.JSONDecodeError as exc:
+            print("failed to parse json: {}, data: {}".format(exc, line), file=sys.stderr)
+            continue
+        else:
+            print(json.dumps(doc, cls=SetEncoder))
 
 def generate_name_pairs(lines: Iterable):
     """
@@ -261,9 +300,9 @@ def main():
     parser.add_argument("--make-mapping",
                         action="store_true",
                         help="generate JSON mapping from name to list of ISSN")
-    parser.add_argument("--make-module",
+    parser.add_argument("--de-jsonld",
                         action="store_true",
-                        help="generate Python lookup table module and write to stdout")
+                        help="break up the jsonld")
 
     args = parser.parse_args()
 
@@ -273,3 +312,6 @@ def main():
     if args.make_pairs:
         for issn, a, b in generate_name_pairs(args.file):
             print("{}\t{}\t{}".format(issn, a, b))
+
+    if args.de_jsonld:
+        de_jsonld(args.file)
