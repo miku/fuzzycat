@@ -62,3 +62,6 @@ data/container_export.json.gz: ## Download container export
 
 data/name_to_issn.json: data/issn.ndj ## Create a name to ISSN mapping (needs an ISSN JSON dump)
 	fuzzycat-issn --make-mapping $^ > $@
+
+names.db: data/issn.ndj
+	fuzzycat-issn --make-shelve -c basic -o names $^

@@ -274,7 +274,7 @@ def de_jsonld(lines: Iterable):
             print(json.dumps(doc, cls=SetEncoder))
 
 
-def generate_name_pairs(lines: Iterable, cleanup_pipeline=None):
+def generate_name_pairs(lines: Iterable, cleanup_pipeline=None, keep_original=True):
     """
     Given JSON lines, yield a tuple (issnl, a, b) of test data. Will skip on
     errors. Proto unit test data.
@@ -297,7 +297,7 @@ def generate_name_pairs(lines: Iterable, cleanup_pipeline=None):
     0040-2249       Tehnika kino i televideniâ      Техника кино и телевидения.
     0040-2249       Техника кино и телевидения      Техника кино и телевидения.
 
-    New: apply transformations on keys.
+    If cleanup_pipeline is given, additionally add
     """
     for line in lines:
         line = line.strip()
@@ -307,11 +307,12 @@ def generate_name_pairs(lines: Iterable, cleanup_pipeline=None):
             print("failed to parse json: {}, data: {}".format(exc, line), file=sys.stderr)
             continue
         for a, b in itertools.combinations(doc.get("names", []), 2):
+            if cleanup_pipeline is None or (cleanup_pipeline is not None and keep_original):
+                yield (doc["issnl"], a, b)
             if cleanup_pipeline:
                 a = cleanup_pipeline(a)
                 b = cleanup_pipeline(b)
-            yield (doc["issnl"], a, b)
-
+                yield (doc["issnl"], a, b)
 
 def generate_name_issn_mapping(lines: Iterable, cleanup_pipeline=None):
     """
@@ -327,7 +328,8 @@ def generate_name_issn_mapping(lines: Iterable, cleanup_pipeline=None):
 
 def generate_shelve(lines: Iterable, output: str, cleanup_pipeline=None):
     """
-    Generate a persistent key value store from name issn mappings.
+    Generate a persistent key value store from name issn mappings. 5015523
+    entries, 1.1G take about 5min.
     """
     with shelve.open(output) as db:
         for name, issnls in generate_name_issn_mapping(lines, cleanup_pipeline=cleanup_pipeline).items():

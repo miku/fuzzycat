@@ -15,7 +15,10 @@ class JournalLookup:
         {'1857-9272', '2232-299X', '2232-3007', '2232-3015'}
 
     """
-    def __init__(self, namedb='namedb'):
+    def __init__(self, namedb='names'):
+        """
+        Note that shelve appends "db" to the name automatically.
+        """
         self.db = shelve.open(namedb)
 
     def __getitem__(self, v):
@@ -23,8 +26,8 @@ class JournalLookup:
 
     def get(self, v, cleanup_pipeline=None):
         if not cleanup_pipeline:
-            return self.db[v]
-        return self.db[cleanup_pipeline(v)]
+            return self.db.get(v)
+        return self.db.get(cleanup_pipeline(v))
 
     def close(self):
         self.db.close()
