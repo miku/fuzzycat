@@ -163,10 +163,11 @@ import itertools
 import json
 import os
 import re
+import shelve
 import sys
 from typing import Dict, Iterable, List, Union
 
-from fuzzycat.utils import SetEncoder
+from fuzzycat.utils import (SetEncoder, StringPipeline, normalize_ampersand, normalize_whitespace)
 
 
 def listify(v: Union[str, List[str]]) -> List[str]:
@@ -182,10 +183,21 @@ def listify(v: Union[str, List[str]]) -> List[str]:
 
 def jsonld_minimal(v: Dict) -> Dict:
     """
-    Turn a JSON from issn.org into a smaller dict with a few core fields.
+    Turn a JSON from issn.org into a smaller dict with a few core fields.  Will
+    fail, if no ISSN-L is found in the input.
 
-    Example result: {'issnl': '0008-2554', 'issns': {'0008-2554'}, 'names':
-        ['Canada agriculture (Ottawa)', 'Canada agriculture.']}
+    {
+      "issnl": "0001-4125",
+      "material": [],
+      "issns": [
+	"0001-4125"
+      ],
+      "urls": [],
+      "names": [
+	"Bulletin de l'Académie Polonaise des Sciences. Série des Sciences Techniques"
+      ]
+    }
+
     """
     items = v.get("@graph")
     if not items:
@@ -247,7 +259,7 @@ def jsonld_minimal(v: Dict) -> Dict:
 
 def de_jsonld(lines: Iterable):
     """
-    Convert to a minimal JSON format.
+    Batch convert to minimal JSON.
     """
     for line in lines:
         line = line.strip()
@@ -260,10 +272,19 @@ def de_jsonld(lines: Iterable):
             print(json.dumps(doc, cls=SetEncoder))
 
 
-def generate_name_pairs(lines: Iterable):
+# These transformations should not affect the name or a journal.
+cleanup_pipeline = StringPipeline([
+    str.lower,
+    normalize_whitespace,
+    normalize_ampersand,
+    lambda v: v.rstrip("."),
+])
+
+
+def generate_name_pairs(lines: Iterable, cleanup_pipeline=cleanup_pipeline):
     """
     Given JSON lines, yield a tuple (issnl, a, b) of test data. Will skip on
-    errors.
+    errors. Proto unit test data.
 
     Example output:
 
@@ -271,8 +292,19 @@ def generate_name_pairs(lines: Iterable):
     0012-7388       Dynamic maturity        Dynamic maturity.
     0012-6055       Drehpunkt.      Drehpunkt (Basel. 1968)
 
-    Basically, these would be free test cases, since we would like to report "match" on most of these.
+    Basically, these would be free test cases, since we would like to report
+    "match" on most of these.
 
+    That can be useful to detect various scripts refering to the same journal.
+
+    0040-2249       Tehnika kino i televideniâ.     Tehnika kino i televideniâ
+    0040-2249       Tehnika kino i televideniâ.     Техника кино и телевидения
+    0040-2249       Tehnika kino i televideniâ.     Техника кино и телевидения.
+    0040-2249       Tehnika kino i televideniâ      Техника кино и телевидения
+    0040-2249       Tehnika kino i televideniâ      Техника кино и телевидения.
+    0040-2249       Техника кино и телевидения      Техника кино и телевидения.
+
+    New: apply transformations on keys.
     """
     for line in lines:
         line = line.strip()
@@ -282,6 +314,8 @@ def generate_name_pairs(lines: Iterable):
             print("failed to parse json: {}, data: {}".format(exc, line), file=sys.stderr)
             continue
         for a, b in itertools.combinations(doc.get("names", []), 2):
+            a = cleanup_pipeline.run(a)
+            b = cleanup_pipeline.run(b)
             yield (doc["issnl"], a, b)
 
 
@@ -297,6 +331,16 @@ def generate_name_issn_mapping(lines: Iterable):
     return mapping
 
 
+def generate_shelve(lines: Iterable, output: str):
+    """
+    Generate a persistent key value store from name issn mappings.
+    """
+    with shelve.open(output) as db:
+        for name, issnls in generate_name_issn_mapping(lines).items():
+            db[name] = issnls
+        print("wrote {} keys to {}".format(len(db), output), file=sys.stderr)
+
+
 def main():
     parser = argparse.ArgumentParser()
     parser.add_argument("file",
@@ -309,16 +353,24 @@ def main():
     parser.add_argument("--make-mapping",
                         action="store_true",
                         help="generate JSON mapping from name to list of ISSN")
+    parser.add_argument("--make-shelve",
+                        action="store_true",
+                        help="generate trie mapping from name to list of ISSN")
+    parser.add_argument("-o",
+                        "--output",
+                        type=str,
+                        default="output.file",
+                        help="write output to file")
     parser.add_argument("--de-jsonld", action="store_true", help="break up the jsonld")
 
     args = parser.parse_args()
 
     if args.make_mapping:
         print(json.dumps(generate_name_issn_mapping(args.file), cls=SetEncoder))
-
     if args.make_pairs:
         for issn, a, b in generate_name_pairs(args.file):
             print("{}\t{}\t{}".format(issn, a, b))
-
     if args.de_jsonld:
         de_jsonld(args.file)
+    if args.make_shelve:
+        generate_shelve(args.file, output=args.output)
