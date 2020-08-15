@@ -44,6 +44,9 @@ class StringPipeline:
     def __init__(self, fs: List[Callable[[str], str]]):
         self.fs = fs
 
+    def __call__(self, s: str) -> str:
+        return self.run(s)
+
     def run(self, s: str) -> str:
         """
         Apply all function and return result.

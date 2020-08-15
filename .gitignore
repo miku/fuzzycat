@@ -130,3 +130,4 @@ dmypy.json
 
 # Data dir
 /data
+*file.db

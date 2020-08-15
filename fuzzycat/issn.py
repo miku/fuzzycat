@@ -167,7 +167,9 @@ import shelve
 import sys
 from typing import Dict, Iterable, List, Union
 
+from fuzzycat import cleanups
 from fuzzycat.utils import (SetEncoder, StringPipeline, normalize_ampersand, normalize_whitespace)
+
 
 
 def listify(v: Union[str, List[str]]) -> List[str]:
@@ -272,16 +274,7 @@ def de_jsonld(lines: Iterable):
             print(json.dumps(doc, cls=SetEncoder))
 
 
-# These transformations should not affect the name or a journal.
-cleanup_pipeline = StringPipeline([
-    str.lower,
-    normalize_whitespace,
-    normalize_ampersand,
-    lambda v: v.rstrip("."),
-])
-
-
-def generate_name_pairs(lines: Iterable, cleanup_pipeline=cleanup_pipeline):
+def generate_name_pairs(lines: Iterable, cleanup_pipeline=None):
     """
     Given JSON lines, yield a tuple (issnl, a, b) of test data. Will skip on
     errors. Proto unit test data.
@@ -314,29 +307,30 @@ def generate_name_pairs(lines: Iterable, cleanup_pipeline=cleanup_pipeline):
             print("failed to parse json: {}, data: {}".format(exc, line), file=sys.stderr)
             continue
         for a, b in itertools.combinations(doc.get("names", []), 2):
-            a = cleanup_pipeline.run(a)
-            b = cleanup_pipeline.run(b)
+            if cleanup_pipeline:
+                a = cleanup_pipeline(a)
+                b = cleanup_pipeline(b)
             yield (doc["issnl"], a, b)
 
 
-def generate_name_issn_mapping(lines: Iterable):
+def generate_name_issn_mapping(lines: Iterable, cleanup_pipeline=None):
     """
     Given JSON lines, generate a dictionary mapping names sets of ISSN. Names
     might be reused.
     """
     mapping = collections.defaultdict(set)
-    for issnl, a, b in generate_name_pairs(lines):
+    for issnl, a, b in generate_name_pairs(lines, cleanup_pipeline=cleanup_pipeline):
         mapping[a].add(issnl)
         mapping[b].add(issnl)
     return mapping
 
 
-def generate_shelve(lines: Iterable, output: str):
+def generate_shelve(lines: Iterable, output: str, cleanup_pipeline=None):
     """
     Generate a persistent key value store from name issn mappings.
     """
     with shelve.open(output) as db:
-        for name, issnls in generate_name_issn_mapping(lines).items():
+        for name, issnls in generate_name_issn_mapping(lines, cleanup_pipeline=cleanup_pipeline).items():
             db[name] = issnls
         print("wrote {} keys to {}".format(len(db), output), file=sys.stderr)
 
@@ -361,16 +355,24 @@ def main():
                         type=str,
                         default="output.file",
                         help="write output to file")
+    parser.add_argument("-c",
+                        "--cleanup",
+                        type=str,
+                        default=None,
+                        help="cleanup pipeline name")
     parser.add_argument("--de-jsonld", action="store_true", help="break up the jsonld")
 
     args = parser.parse_args()
 
+    # Map more cleanup routines.
+    cleanup = dict(basic=cleanups.basic).get(args.cleanup)
+
     if args.make_mapping:
-        print(json.dumps(generate_name_issn_mapping(args.file), cls=SetEncoder))
+        print(json.dumps(generate_name_issn_mapping(args.file, cleanup_pipeline=cleanup), cls=SetEncoder))
     if args.make_pairs:
-        for issn, a, b in generate_name_pairs(args.file):
+        for issn, a, b in generate_name_pairs(args.file, cleanup_pipeline=cleanup):
             print("{}\t{}\t{}".format(issn, a, b))
     if args.de_jsonld:
         de_jsonld(args.file)
     if args.make_shelve:
-        generate_shelve(args.file, output=args.output)
+        generate_shelve(args.file, output=args.output, cleanup_pipeline=cleanup)
