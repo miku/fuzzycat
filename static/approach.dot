@@ -7,5 +7,7 @@ digraph f {
     "strings" -> "fuzzy";
 
     "entities" -> "identifiers";
-    "entities" -> "string subsets";
+    "entities" -> "field subsets";
+
+    "field subsets" -> "strings";
 }
