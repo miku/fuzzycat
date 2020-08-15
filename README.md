@@ -1,4 +1,4 @@
-# fuzzycat
+# fuzzycat (wip)
 
 Fuzzy matching publications for [fatcat](https://fatcat.wiki).
 
@@ -21,4 +21,8 @@ specific code using the fatcat openapi client.
 
 * release and container metadata from: [https://archive.org/details/fatcat_bulk_exports_2020-08-05](https://archive.org/details/fatcat_bulk_exports_2020-08-05).
 * issn journal level data, via [issnlister](https://github.com/miku/issnlister)
+* abbreviation lists
 
+## Matching approaches
+
+![](static/approach.png)
