@@ -239,7 +239,7 @@ def verify_container_name(a: str, b: str) -> MatchStatus:
     status = verify_serial_name(a, b)
     if status != MatchStatus.AMBIGIOUS:
         return status
-    
+
     # TODO: add additional verification, string match and common patterns.
 
 
@@ -269,5 +269,5 @@ def verify_release_match(a: ReleaseEntity, b: ReleaseEntity) -> MatchStatus:
         return MatchStatus.DIFFERENT
     if cmp_result["hits"] < cmp_result["misses"]:
         return MatchStatus.AMBIGIOUS
-    
+
     # TODO: do title verification, apply string cleanups, etc.
