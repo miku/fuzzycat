@@ -218,6 +218,8 @@ def verify_serial_name(a: str, b: str) -> MatchStatus:
         if len(a & b) > 0:
             return MatchStatus.STRONG
 
+        return MatchStatus.AMBIGIOUS
+
     # First, try values as given.
     issnls_for_a = serialsdb.get(a, set())
     issnls_for_b = serialsdb.get(b, set())
