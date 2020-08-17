@@ -37,7 +37,7 @@ class StringPipeline:
         ...     normalize_whitespace,
         ...     normalize_ampersand,
         ... ])
-        >>> cleanups.run("<a>Input  & Output</a>")
+        >>> cleanups("<a>Input  & Output</a>")
         input and output
 
     """
@@ -49,7 +49,7 @@ class StringPipeline:
 
     def run(self, s: str) -> str:
         """
-        Apply all function and return result.
+        Apply all function and return result. Deprecated: just call the object.
         """
         for f in self.fs:
             s = f(s)

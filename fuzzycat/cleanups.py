@@ -1,10 +1,8 @@
-
 """
 Various shared cleanup approaches.
 """
 
-from fuzzycat.utils import StringPipeline, normalize_whitespace, normalize_ampersand
-
+from fuzzycat.utils import (StringPipeline, normalize_ampersand, normalize_whitespace)
 
 # These transformations should not affect the name or a journal.
 basic = StringPipeline([
@@ -13,5 +11,3 @@ basic = StringPipeline([
     normalize_ampersand,
     lambda v: v.rstrip("."),
 ])
-
-

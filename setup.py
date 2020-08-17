@@ -23,18 +23,20 @@ with open("README.md", "r") as fh:
         python_requires=">=3.6",
         zip_safe=False,
         entry_points={"console_scripts": [
-            "fuzzycat=fuzzycat.main:main",
             "fuzzycat-issn=fuzzycat.issn:main",
         ],},
         install_requires=[
             "fatcat-openapi-client",
             "ftfy",
             "simhash",
-            "unidecode",
+            "unidecode>=0.10",
+            "toml",
+            "elasticsearch>=7",
         ],
         extras_require={"dev": [
             "ipython",
             "isort",
+            "pylint",
             "jupyter",
             "matplotlib",
             "pandas",
