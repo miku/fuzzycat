@@ -22,7 +22,7 @@ from fatcat_openapi_client import (ApiException, ContainerEntity, DefaultApi, Re
                                    ReleaseExtIds, WorkEntity)
 from fatcat_openapi_client.api.default_api import DefaultApi
 
-from fuzzycat.fatcat.common import MatchStatus, response_to_entity_list
+from fuzzycat.fatcat.common import MatchStatus, response_to_entity_list, compare_ext_ids
 from fuzzycat.serials import serialsdb
 from fuzzycat import cleanups
 
@@ -246,4 +246,26 @@ def verify_container_match(a: ContainerEntity, b: ContainerEntity) -> MatchStatu
 
 
 def verify_release_match(a: ReleaseEntity, b: ReleaseEntity) -> MatchStatus:
-    pass
+    assert isinstance(a, ReleaseEntity)
+    assert isinstance(b, ReleaseEntity)
+
+    if a == b:
+        return MatchStatus.EXACT
+
+    a_ext_ids, b_ext_ids = a.ext_ids, b.ext_ids
+    # Compare ext ids, result is a counter, we are interested in "hits" and
+    # "misses", only.
+    cmp_result = compare_ext_ids(a_ext_ids, b_ext_ids)
+
+    # Assume that if more ids match than mismatch, it is a good signal, e.g. if
+    # only a DOI is defined and they match, it is an exact match.
+    if cmp_result["hits"] > 0 and cmp_result["misses"] == 0:
+        return MatchStatus.EXACT
+    if cmp_result["hits"] > cmp_result["misses"]:
+        return MatchStatus.STRONG
+    if cmp_result["hits"] == 0 and cmp_result["misses"] > 0:
+        return MatchStatus.DIFFERENT
+    if cmp_result["hits"] < cmp_result["misses"]:
+        return MatchStatus.AMBIGIOUS
+    
+    # TODO: do title verification, apply string cleanups, etc.
