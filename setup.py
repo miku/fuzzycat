@@ -23,6 +23,7 @@ with open("README.md", "r") as fh:
         python_requires=">=3.6",
         zip_safe=False,
         entry_points={"console_scripts": [
+            "fuzzycat=fuzzycat.fatcat.main:main",
             "fuzzycat-issn=fuzzycat.issn:main",
         ],},
         install_requires=[
