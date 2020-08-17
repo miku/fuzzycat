@@ -170,6 +170,7 @@ from typing import Dict, Iterable, List, Union
 from fuzzycat import cleanups
 from fuzzycat.utils import (SetEncoder, StringPipeline, normalize_ampersand, normalize_whitespace)
 
+from simhash import Simhash
 
 
 def listify(v: Union[str, List[str]]) -> List[str]:
@@ -336,6 +337,19 @@ def generate_shelve(lines: Iterable, output: str, cleanup_pipeline=None):
             db[name] = issnls
         print("wrote {} keys to {}".format(len(db), output), file=sys.stderr)
 
+def generate_simhash(lines: Iterable):
+    """
+    simhash matches vs non-matches.
+
+    1069447 1
+     927120 0
+    """
+    for issnl, a, b in generate_name_pairs(lines):
+        ha = Simhash(a).value
+        hb = Simhash(b).value
+        row = (issnl, 0 if ha == hb else 1, ha, hb)
+        print("\t".join([str(v) for v in row]))
+
 
 def main():
     parser = argparse.ArgumentParser()
@@ -352,6 +366,9 @@ def main():
     parser.add_argument("--make-shelve",
                         action="store_true",
                         help="generate trie mapping from name to list of ISSN")
+    parser.add_argument("--make-simhash",
+                        action="store_true",
+                        help="print out simhash value")
     parser.add_argument("-o",
                         "--output",
                         type=str,
@@ -378,3 +395,5 @@ def main():
         de_jsonld(args.file)
     if args.make_shelve:
         generate_shelve(args.file, output=args.output, cleanup_pipeline=cleanup)
+    if args.make_simhash:
+        generate_simhash(args.file)

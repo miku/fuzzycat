@@ -29,6 +29,7 @@ with open("README.md", "r") as fh:
         install_requires=[
             "fatcat-openapi-client",
             "ftfy",
+            "simhash",
             "unidecode",
         ],
         extras_require={"dev": [
