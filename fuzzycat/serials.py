@@ -18,7 +18,7 @@ class SerialsDatabase:
         {'1857-9272', '2232-299X', '2232-3007', '2232-3015'}
 
     """
-    def __init__(self, path='names'):
+    def __init__(self, path=None):
         """
         Note that shelve appends "db" to the name automatically. TODO: make this
         auto-download into a cache directory.
