@@ -218,6 +218,7 @@ def verify_serial_name(a: str, b: str) -> MatchStatus:
         if len(a & b) > 0:
             return MatchStatus.STRONG
 
+    # First, try values as given.
     issnls_for_a = serialsdb.get(a, set())
     issnls_for_b = serialsdb.get(b, set())
 
@@ -225,7 +226,7 @@ def verify_serial_name(a: str, b: str) -> MatchStatus:
     if status != MatchStatus.AMBIGIOUS:
         return status
 
-    # Try value cleanup.
+    # Try to match slightly cleaned up values.
     issnls_for_a = serialsdb.get(a, set(), cleanup_pipeline=cleanups.basic)
     issnls_for_b = serialsdb.get(b, set(), cleanup_pipeline=cleanups.basic)
 
@@ -233,7 +234,11 @@ def verify_serial_name(a: str, b: str) -> MatchStatus:
 
 
 def verify_container_name(a: str, b: str) -> MatchStatus:
-    pass
+    status = verify_serial_name(a, b)
+    if status != MatchStatus.AMBIGIOUS:
+        return status
+    
+    # TODO: add additional verification, string match and common patterns.
 
 
 def verify_container_match(a: ContainerEntity, b: ContainerEntity) -> MatchStatus:
