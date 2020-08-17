@@ -15,7 +15,7 @@ Match methods return candidates, verify methods return a match status.
 Candidate generation will use external data from search and hence is expensive. Verification is fast.
 """
 
-from typing import List
+from typing import List, Optional, Union, Set
 
 import elasticsearch
 from fatcat_openapi_client import (ApiException, ContainerEntity, DefaultApi, ReleaseEntity,
@@ -24,7 +24,7 @@ from fatcat_openapi_client.api.default_api import DefaultApi
 
 from fuzzycat.fatcat.common import MatchStatus, response_to_entity_list
 from fuzzycat.serials import serialsdb
-
+from fuzzycat import cleanups
 
 def match_container_fuzzy(container: ContainerEntity,
                           size: int = 5,
@@ -198,27 +198,38 @@ def verify_serial_name(a: str, b: str) -> MatchStatus:
     Serial name verification. Serial names are a subset of container names.
     There are about 2M serials.
     """
+
+    def verify(a : Set[str], b : Set[str]) -> MatchStatus:
+
+        # If any name yields multiple ISSN-L, we cannot decide.
+        if len(a) > 1:
+            return MatchStatus.AMBIGIOUS
+        if len(b) > 1:
+            return MatchStatus.AMBIGIOUS
+
+        # If both names point the same ISSN-L, it is an exact match.
+        if len(a) > 0 and len(a) == len(b):
+            if len(a & b) == len(a):
+                return MatchStatus.EXACT
+            else:
+                return MatchStatus.DIFFERENT
+
+        # Multiple names possible, but there is overlap.
+        if len(a & b) > 0:
+            return MatchStatus.STRONG
+
     issnls_for_a = serialsdb.get(a, set())
     issnls_for_b = serialsdb.get(b, set())
 
-    # If any name yields multiple ISSN-L, we cannot decide.
-    if len(issnls_for_a) > 1:
-        return MatchStatus.AMBIGIOUS
-    if len(issnls_for_b) > 1:
-        return MatchStatus.AMBIGIOUS
+    status = verify(issnls_for_a, issnls_for_b)
+    if status != MatchStatus.AMBIGIOUS:
+        return status
 
-    # If both names point the same ISSN-L, it is an exact match.
-    if len(issnls_for_a) == 1 and len(issnls_for_b) == 1:
-        if len(issnls_for_a & issnls_for_b) == 1:
-            return MatchStatus.EXACT
-        else:
-            return MatchStatus.DIFFERENT
+    # Try value cleanup.
+    issnls_for_a = serialsdb.get(a, set(), cleanup_pipeline=cleanups.basic)
+    issnls_for_b = serialsdb.get(b, set(), cleanup_pipeline=cleanups.basic)
 
-    # Multiple names possible, but there is overlap.
-    if len(issnls_for_a & issnls_for_b) > 0:
-        return MatchStatus.STRONG
-
-    return MatchStatus.AMBIGIOUS
+    return verify(issnls_for_a, issnls_for_b)
 
 
 def verify_container_name(a: str, b: str) -> MatchStatus:
