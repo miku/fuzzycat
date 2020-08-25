@@ -2,7 +2,7 @@
 
 These are example datasets to run fuzzy matching over. The data is too large to
 be committed in the repository, but the example inputs are kept in an archive
-item.
+item: [fuzzycat_samples](https://archive.org/details/fuzzycat_samples)
 
 ## Grobid References (grobid_refs)
 
