@@ -26,3 +26,19 @@ specific code using the fatcat openapi client.
 ## Matching approaches
 
 ![](static/approach.png)
+
+## Performance data point
+
+Candidate generation via elasticsearch, 40 parallel queries, sustained speed at
+about 17857 queries per hour, that is around 5 queries/s.
+
+```
+$ time cat ~/data/researchgate/x04 | \
+    parallel -j40 --pipe -N 1 ./fatcatx_rg_unmatched.py - \
+    > ~/data/researchgate/x04_results.ndj
+...
+real    3409m16.442s
+user    29177m5.516s
+sys     4927m3.277s
+```
+
