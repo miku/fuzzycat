@@ -1,0 +1,195 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xml:space="preserve" xmlns="http://www.tei-c.org/ns/1.0"
+xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+xsi:schemaLocation="http://www.tei-c.org/ns/1.0 /opt/grobid/grobid-home/schemas/xsd/Grobid.xsd"
+ xmlns:xlink="http://www.w3.org/1999/xlink">
+	<teiHeader xml:lang="en">
+		<fileDesc>
+			<titleStmt>
+				<title level="a" type="main">Minimal Extending Sets in Tournaments</title>
+			</titleStmt>
+			<publicationStmt>
+				<publisher/>
+				<availability status="unknown"><licence/></availability>
+			</publicationStmt>
+			<sourceDesc>
+				<biblStruct>
+					<analytic>
+						<author>
+							<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Felix</forename><surname>Brandt</surname></persName>
+							<email>brandtf@in.tum.de</email>
+							<affiliation key="aff0">
+								<orgName type="institution">Institut für Informatik TU</orgName>
+								<address>
+									<settlement>München</settlement>
+								</address>
+							</affiliation>
+						</author>
+						<author>
+							<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Paul</forename><surname>Harrenstein</surname></persName>
+							<affiliation key="aff1">
+								<orgName type="department">Dept. of Computer Science</orgName>
+								<orgName type="institution">University of Oxford</orgName>
+							</affiliation>
+						</author>
+						<author>
+							<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Hans</forename><forename type="middle">Georg</forename><surname>Seedig</surname></persName>
+							<email>seedigh@in.tum.de</email>
+							<affiliation key="aff2">
+								<orgName type="department">Institut für Informatik TU München</orgName>
+							</affiliation>
+						</author>
+						<title level="a" type="main">Minimal Extending Sets in Tournaments</title>
+					</analytic>
+					<monogr>
+						<imprint>
+							<date/>
+						</imprint>
+					</monogr>
+					<note>(Extended Abstract)</note>
+				</biblStruct>
+			</sourceDesc>
+		</fileDesc>
+
+		<encodingDesc>
+			<appInfo>
+				<application version="0.6.0" ident="GROBID-SDO" when="2020-08-27T16:02+0000">
+					<desc>GROBID - A machine learning software for extracting information from scholarly documents</desc>
+					<ref target="https://github.com/kermitt2/grobid-sdo"/>
+				</application>
+			</appInfo>
+		</encodingDesc>
+		<profileDesc>
+			<textClass>
+				<keywords>
+					<term>[Applied computing]: Economics; [Computing methodologies]: Distributed Artificial Intelligence- Multiagent systems General Terms Theory</term>
+					<term>Economics</term>
+					<term>Algorithms Keywords Tournament solutions</term>
+					<term>Banks set</term>
+					<term>Minimal extending set</term>
+				</keywords>
+			</textClass>
+			<abstract>
+<div xmlns="http://www.tei-c.org/ns/1.0"><p>In 2011, Brandt proposed a new tournament solution called the minimal extending set (ME ). It was conjectured that ME satisfies a large number of desirable properties. In this paper, we non-constructively show that ME fails to satisfy most of these properties. However, no concrete examples of these violations are known and it appears that ME satisfies these properties for all practical purposes. This casts doubt on the axiomatic method.</p></div>
+			</abstract>
+		</profileDesc>
+	</teiHeader>
+	<text xml:lang="en">
+		<body>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head n="1.">INTRODUCTION</head><p>Many problems in multiagent decision making can be addressed using tournament solutions. Examples of wellstudied tournament solutions are the Copeland set, the Banks set, or the minimal covering set <ref type="bibr" target="#b3">[4]</ref>. A common benchmark for tournament solutions is which desirable properties they satisfy (see e.g., <ref type="bibr" target="#b3">[4]</ref>, for an overview of such properties).</p><p>In 2011, Brandt <ref type="bibr" target="#b0">[1]</ref> proposed a new tournament solution called ME and an associated graph-theoretic conjecture. If the conjecture had held, ME would have satisfied virtually all desirable properties that are usually considered in the literature on tournament solutions. In 2013, however, the existence of a counter-example with about 10 136 alternatives was shown. The proof is non-constructive and uses the probabilistic method <ref type="bibr" target="#b2">[3]</ref>.</p><p>This left open which of the properties are actually satisfied by ME . In this paper, we resolve these open questions. Using the counter-example by Brandt et al. <ref type="bibr" target="#b2">[3]</ref> we show that ME fails to satisfy most properties (such as monotonicity   and stability) while it does satisfy a stronger version of idempotency, irregularity, and membership in the Banks set. We also prove that computing ME is NP-hard.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head n="2.">PRELIMINARIES</head><p>A tournament T is a pair (A, ), where A is a set of alternatives and is an asymmetric and complete (and thus irreflexive) binary relation on A, usually referred to as the dominance relation. The dominance relation can be extended to sets of alternatives by writing a B when a b for all b ∈ B. Let BT (a) denote the set of all subsets B ⊆ A such that |B is transitive and a B \ {a}.</p><p>A tournament solution is a function that maps a tournament to a nonempty subset of its alternatives. The Banks set BA chooses maximal elements of inclusion-maximal transitive subtournaments, i.e.,</p><formula xml:id="formula_0">BA(T ) = {a ∈ A : ∃B ∈ BT (a) such that b : b B}. A subset of alternatives B ⊆ A is called S-stable for tour- nament solution S if a / ∈ S(B ∪ {a}) for all a ∈ A \ B.</formula><p>In particular, we refer to BA-stable sets as extending sets. The union of all inclusion minimal extending sets defines the tournament solution ME [1], i.e.,</p><formula xml:id="formula_1">ME (T ) = {B is BA-stable : ∀C B : C is not BA-stable}.</formula><p>An example of a tournament where BA and ME differ is given in <ref type="figure" target="#fig_1">Figure 1</ref> </p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head n="3.">PROPERTIES OF ME</head><p>Dominance-based properties.</p><p>First, we consider two properties that are based on the dominance relation. Monotonicity prescribes that a chosen alternative should still be chosen if it is reinforced. The second property, independence of unchosen alternatives, states that the choice set should be unaffected by changes in the dominance relation between unchosen alternatives. Theorem 1. ME satisfies neither monotonicity nor independence of unchosen alternatives.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Choice-theoretic properties.</head><p>An important class of properties concern the consistency of choice and relate choices from different subtournaments of the same tournament to each other. A relatively strong property of this type is stability, which requires that a set is chosen from two different sets of alternatives if and only if it is chosen from the union of these sets <ref type="bibr" target="#b1">[2]</ref>.  <ref type="figure">S(A ∪ B)</ref>).</p><p>In <ref type="figure" target="#fig_4">Figure 2</ref>, the logical relations between the different properties are depicted. Theorem 2. ME satisfies α ⊇ but neither α ⊆ nor γ ⊇ .</p><p>As a consequence, ME is not stable but satisfies idempotency. It is still open whether ME satisfies γ ⊆ .</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Relationships to other tournament solutions.</head><p>Besides the axiomatic properties of ME , we are also interested in its set-theoretic relationships to other tournament solutions.</p><p>Theorem 3. For all tournaments T , ME (T ) ⊆ BA(T ).</p><p>This also implies that the irregularity of BA [4, Theorem 7.1.3] extends to ME .</p><p>It is unknown whether the tournament equilibrium set is always contained in ME and whether ME is always contained in the minimal covering set.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Computational complexity.</head><p>An important property of every tournament solution is whether it can be computed efficiently. By a reduction from 3SAT, we can show that this is not the case for ME . Theorem 4. Deciding whether an alternative in a tournament is contained in ME is NP-hard.</p><p>Membership of the problem in NP seems rather unlikely. The best upper bound we know of is Σ p 3 .</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head n="4.">CONCLUSION AND DISCUSSION</head><p>We have analyzed the axiomatic as well as computational properties of the tournament solution ME . Results were mixed. In conclusion, ME It is worth pointing out that ME 's violation of monotonicity, stability, and independence of unchosen alternatives crucially depends on the existence of tournaments with more than one minimal extending set. Not only is the size of known tournaments of this type enormous (about 10 136 alternatives) but, furthermore, these tournaments are very likely to be extremely rare. In effect, ME does satisfy these properties in all scenarios in which tournaments only admit a unique minimal extending set. Hence, it is fair to say that ME satisfies the considered properties for all practical purposes. This, in turn, may be interpreted as a criticism of the axiomatic method in general: For what does it mean if a tournament solution (or any other mathematical object) in principle violates some desirable properties, but no concrete example of a violation is known and will perhaps ever be known?</p></div><figure xmlns="http://www.tei-c.org/ns/1.0" xml:id="fig_1"><head>Figure 1 :</head><label>1</label><figDesc>In this tournament, ME (T ) = {a, b, d} whereas BA(T ) = {a, b, c, d}. An edge from a to b corresponds to a b. Omitted edges point rightwards.</figDesc></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" xml:id="fig_2"><head></head><label></label><figDesc>.</figDesc></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" xml:id="fig_3"><head></head><label></label><figDesc>A tournament solution S is stable if for all (A, ), B, C ⊆ A, and X ⊆ B ∩ C, X = S(B) = S(C) if and only if X = S(B ∪ C). Stability can be factorized into conditions α and γ by considering each implication in the above equivalence separately. A tournament solution S satisfies α, if for all sets of alternatives A, B, and X with X ⊆ A∩B, X = S(A∪B) implies X = S(A) = S(B). A tournament solution S satisfies γ, if for all sets of alternatives A, B, S(A) = S(B) implies S(A ∪ B) = S(A) = S(B). For a finer analysis, we split α and γ into two conditions [2, Remark 1]. A tournament solution S satisfies α ⊆ (or α ⊇ ) if S(A) ⊆ B ⊆ A implies S(B) ⊆ S(A) (or S(B) ⊇ S(A)). Similarly, a tournament solution S satisfies γ ⊆ (or γ ⊇ ) if for all A, B, and X, it holds that X = S(A) = S(B) implies X ⊆ S(A ∪ B) (or X ⊇</figDesc></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" xml:id="fig_4"><head>Figure 2 :</head><label>2</label><figDesc>Implications of stability properties.</figDesc></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" xml:id="fig_5"><head></head><label></label><figDesc>(i) is not monotonic, (ii) is not independent of unchosen alternatives,(iii) satisfies α ⊇ and idempotency, (iv) does not satisfy α ⊆ and γ ⊇ and is not stable, (v) satisfies irregularity, (vi) is contained in the Banks set, (vii) is NP-hard to compute, and (viii) satisfies composition-consistency [1].</figDesc></figure>
+		</body>
+		<back>
+
+			<div type="acknowledgement">
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>ACKNOWLEDGEMENTS</head><p>This work was supported by the Deutsche Forschungsgemeinschaft under grant BR 2312/7-2. Paul Harrenstein was supported by the ERC under Advanced Grant 291528 ("RACE").</p></div>
+			</div>
+
+			<div type="references">
+
+				<listBibl>
+
+<biblStruct xml:id="b0">
+	<analytic>
+		<title level="a" type="main">Minimal stable sets in tournaments</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">F</forename><surname>Brandt</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Journal of Economic Theory</title>
+		<imprint>
+			<biblScope unit="volume">146</biblScope>
+			<biblScope unit="issue">4</biblScope>
+			<biblScope unit="page" from="1481" to="1499" />
+			<date type="published" when="2011" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b1">
+	<analytic>
+		<title level="a" type="main">Set-rationalizable choice and self-stability</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">F</forename><surname>Brandt</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">P</forename><surname>Harrenstein</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Journal of Economic Theory</title>
+		<imprint>
+			<biblScope unit="volume">146</biblScope>
+			<biblScope unit="issue">4</biblScope>
+			<biblScope unit="page" from="1721" to="1731" />
+			<date type="published" when="2011" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b2">
+	<analytic>
+		<title level="a" type="main">A counterexample to a conjecture of Schwartz</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">F</forename><surname>Brandt</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">M</forename><surname>Chudnovsky</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">I</forename><surname>Kim</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">G</forename><surname>Liu</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">S</forename><surname>Norin</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">A</forename><surname>Scott</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">P</forename><surname>Seymour</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">S</forename><surname>Thomassé</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Social Choice and Welfare</title>
+		<imprint>
+			<biblScope unit="volume">40</biblScope>
+			<biblScope unit="page" from="739" to="743" />
+			<date type="published" when="2013" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b3">
+	<monogr>
+		<title level="m" type="main">Tournament Solutions and Majority Voting</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">J.-F</forename><surname>Laslier</surname></persName>
+		</author>
+		<imprint>
+			<date type="published" when="1997" />
+			<publisher>Springer</publisher>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+				</listBibl>
+			</div>
+		</back>
+	</text>
+</TEI>
