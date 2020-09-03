@@ -138,3 +138,9 @@ Here, the [release](https://fatcat.wiki/release/2vi655gcejffhnzzbkkcnjpscm) poin
 ### Exact duplicates
 
 * [https://fatcat.wiki/release/search?q=%22WEIGHTED+LIPSCHITZ+ESTIMATES+FOR+COMMUTATORS+ON+WEIGHTED+MORREY-HERZ+SPACES%22](https://fatcat.wiki/release/search?q=%22WEIGHTED+LIPSCHITZ+ESTIMATES+FOR+COMMUTATORS+ON+WEIGHTED+MORREY-HERZ+SPACES%22)
+
+### Difference in Subtitle (invisible)
+
+Subtitle is not visible metadata, all same, except for the DOI and the page number. Different.
+
+* [https://fatcat.wiki/release/search?q=%22Slip+in+tungsten+monocarbide%22](https://fatcat.wiki/release/search?q=%22Slip+in+tungsten+monocarbide%22)
