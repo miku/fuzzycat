@@ -76,6 +76,10 @@ Some authors do this regularly:
 
 Different DOI, so we know it is different.
 
+More examples:
+
+* [https://fatcat.wiki/release/search?q=%22errata%22](https://fatcat.wiki/release/search?q=%22errata%22) (37680)
+
 ### Title with extra data
 
 * like ISBN, ISSN, price and all kind of extra metadata
