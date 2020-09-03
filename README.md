@@ -63,3 +63,15 @@ probably a different recorded date.
 Generic pattern "republication" duplicate:
 
 * metadata mostly same, except date and doi
+
+### Common title
+
+Probably a few thousand very common short titles.
+
+* [https://fatcat.wiki/release/search?q=%22Book+Reviews%22](https://fatcat.wiki/release/search?q=%22Book+Reviews%22) (238852)
+
+Some authors do this regularly:
+
+* [https://fatcat.wiki/release/search?q=%22Book+Reviews%22+%22william%22+%22michael%22](https://fatcat.wiki/release/search?q=%22Book+Reviews%22+%22william%22+%22michael%22) (398)
+
+Different DOI, so we know it is different.
