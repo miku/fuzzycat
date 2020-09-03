@@ -75,3 +75,10 @@ Some authors do this regularly:
 * [https://fatcat.wiki/release/search?q=%22Book+Reviews%22+%22william%22+%22michael%22](https://fatcat.wiki/release/search?q=%22Book+Reviews%22+%22william%22+%22michael%22) (398)
 
 Different DOI, so we know it is different.
+
+### Title with extra data
+
+* like ISBN, ISSN, price and all kind of extra metadata
+* [https://fatcat.wiki/release/search?q=title%3A%22ISBN%22](https://fatcat.wiki/release/search?q=title%3A%22ISBN%22)
+* titles typically get longer: [https://fatcat.wiki/release/olxswrilxfci3ibb3bg5xhstr4](https://fatcat.wiki/release/olxswrilxfci3ibb3bg5xhstr4)
+* some of these are actually "reviews", e.g. [https://fatcat.wiki/release/4blc5mfc5bfaxkofuletqxuzp4](https://fatcat.wiki/release/4blc5mfc5bfaxkofuletqxuzp4)
