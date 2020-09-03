@@ -42,3 +42,22 @@ user    29177m5.516s
 sys     4927m3.277s
 ```
 
+## Data issues
+
+### A republised article
+
+There is "student BMJ" and "BMJ" - this (html) article (interview) has been
+first published on "sbmj" (Published 07 July 2011), then "bmj" (Published 10
+August 2011).
+
+> Notes; Originally published as: Student BMJ 2011;19:d3983
+
+* https://www.bmj.com/content/343/sbmj.d3983
+* https://www.bmj.com/content/343/bmj.d4964
+
+It is essentially the same text, same title, author, just different DOI and
+probably a different recorded date.
+
+Generic pattern "republication" duplicate:
+
+* metadata mostly same, except date and doi
