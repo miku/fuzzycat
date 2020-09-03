@@ -96,3 +96,8 @@ For example given a title "Shakespeare in Tokyo" we would have to always return 
 * [https://fatcat.wiki/release/search?q=%22Shakespeare+in+Tokyo%22](https://fatcat.wiki/release/search?q=%22Shakespeare+in+Tokyo%22)
 
 This is similar to journal names, where some journal names will always be ambiguous.
+
+### Versions
+
+* same title, same authors, "vX" doi
+* [https://fatcat.wiki/release/search?q=%22Self-similarity+analysis+of+the+non-linear%22](https://fatcat.wiki/release/search?q=%22Self-similarity+analysis+of+the+non-linear%22)
