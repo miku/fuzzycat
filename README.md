@@ -88,3 +88,11 @@ Another example:
 * too [long](https://fatcat.wiki/release/hewmq4afvnew7pwttvulzguubu), original suggested citation seems to be:
 
 > Parker, S. and Kerrod, R. (2002), "Children’s) Space Busters (1st) Looking at Stars (2nd)", Reference Reviews, Vol. 16 No. 5, pp. 26-27. https://doi.org/10.1108/rr.2002.16.5.26.252
+
+### Sometimes a title will be ambiguous
+
+For example given a title "Shakespeare in Tokyo" we would have to always return "ambiguous", as there are at least two separate publication with that name:
+
+* [https://fatcat.wiki/release/search?q=%22Shakespeare+in+Tokyo%22](https://fatcat.wiki/release/search?q=%22Shakespeare+in+Tokyo%22)
+
+This is similar to journal names, where some journal names will always be ambiguous.
