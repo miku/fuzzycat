@@ -82,3 +82,9 @@ Different DOI, so we know it is different.
 * [https://fatcat.wiki/release/search?q=title%3A%22ISBN%22](https://fatcat.wiki/release/search?q=title%3A%22ISBN%22)
 * titles typically get longer: [https://fatcat.wiki/release/olxswrilxfci3ibb3bg5xhstr4](https://fatcat.wiki/release/olxswrilxfci3ibb3bg5xhstr4)
 * some of these are actually "reviews", e.g. [https://fatcat.wiki/release/4blc5mfc5bfaxkofuletqxuzp4](https://fatcat.wiki/release/4blc5mfc5bfaxkofuletqxuzp4)
+
+Another example:
+
+* too [long](https://fatcat.wiki/release/hewmq4afvnew7pwttvulzguubu), original suggested citation seems to be:
+
+> Parker, S. and Kerrod, R. (2002), "Children’s) Space Busters (1st) Looking at Stars (2nd)", Reference Reviews, Vol. 16 No. 5, pp. 26-27. https://doi.org/10.1108/rr.2002.16.5.26.252
