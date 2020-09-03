@@ -46,6 +46,8 @@ sys     4927m3.277s
 
 ### A republised article
 
+* [https://fatcat.wiki/release/search?q=%22The+doctor+with+seven+billion+patients%22](https://fatcat.wiki/release/search?q=%22The+doctor+with+seven+billion+patients%22)
+
 There is "student BMJ" and "BMJ" - this (html) article (interview) has been
 first published on "sbmj" (Published 07 July 2011), then "bmj" (Published 10
 August 2011).
