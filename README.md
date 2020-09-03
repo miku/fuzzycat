@@ -127,3 +127,10 @@ Sometimes, we have a couple of preprint versions, plus a published version (with
 could group pages under "container" of yearly release?
 * We have [one container](https://github.com/internetarchive/fatcat/blob/4f80b87722d64f27c985f0040ea177269b6e028b/fatcat-openapi2.yml#L704-L709) per release, currently.
 
+### Partial titles
+
+A metadata title might differ from the full title.
+
+* [https://fatcat.wiki/release/search?q=%22Brain-derived+neurotrophic+factor%22](https://fatcat.wiki/release/search?q=%22Brain-derived+neurotrophic+factor%22)
+
+Here, the [release](https://fatcat.wiki/release/2vi655gcejffhnzzbkkcnjpscm) points to two PDFs, one is an article, the other a weekly report (summary).
