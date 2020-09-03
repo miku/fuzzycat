@@ -79,6 +79,7 @@ Different DOI, so we know it is different.
 More examples:
 
 * [https://fatcat.wiki/release/search?q=%22errata%22](https://fatcat.wiki/release/search?q=%22errata%22) (37680)
+* [https://fatcat.wiki/release/search?q=%22Einleitung%22](https://fatcat.wiki/release/search?q=%22Einleitung%22) (68005)
 
 ### Title with extra data
 
@@ -105,3 +106,7 @@ This is similar to journal names, where some journal names will always be ambigu
 
 * same title, same authors, "vX" doi
 * [https://fatcat.wiki/release/search?q=%22Self-similarity+analysis+of+the+non-linear%22](https://fatcat.wiki/release/search?q=%22Self-similarity+analysis+of+the+non-linear%22)
+
+Sometimes, we have a couple of preprint versions, plus a published version (with a slightly different title):
+
+* [https://fatcat.wiki/release/search?q=%22Time-periodic+solutions+of+massive%22](https://fatcat.wiki/release/search?q=%22Time-periodic+solutions+of+massive%22)
