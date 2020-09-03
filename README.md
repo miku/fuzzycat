@@ -134,3 +134,7 @@ A metadata title might differ from the full title.
 * [https://fatcat.wiki/release/search?q=%22Brain-derived+neurotrophic+factor%22](https://fatcat.wiki/release/search?q=%22Brain-derived+neurotrophic+factor%22)
 
 Here, the [release](https://fatcat.wiki/release/2vi655gcejffhnzzbkkcnjpscm) points to two PDFs, one is an article, the other a weekly report (summary).
+
+### Exact duplicates
+
+* [https://fatcat.wiki/release/search?q=%22WEIGHTED+LIPSCHITZ+ESTIMATES+FOR+COMMUTATORS+ON+WEIGHTED+MORREY-HERZ+SPACES%22](https://fatcat.wiki/release/search?q=%22WEIGHTED+LIPSCHITZ+ESTIMATES+FOR+COMMUTATORS+ON+WEIGHTED+MORREY-HERZ+SPACES%22)
