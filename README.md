@@ -80,6 +80,8 @@ More examples:
 
 * [https://fatcat.wiki/release/search?q=%22errata%22](https://fatcat.wiki/release/search?q=%22errata%22) (37680)
 * [https://fatcat.wiki/release/search?q=%22Einleitung%22](https://fatcat.wiki/release/search?q=%22Einleitung%22) (68005)
+* [https://fatcat.wiki/release/search?q=%22Notes%22](https://fatcat.wiki/release/search?q=%22Notes%22) (1507705)
+* [https://fatcat.wiki/release/search?q=%22Letters+to+the+Editor%22](https://fatcat.wiki/release/search?q=%22Letters+to+the+Editor%22) (30976)
 
 ### Title with extra data
 
@@ -110,3 +112,9 @@ This is similar to journal names, where some journal names will always be ambigu
 Sometimes, we have a couple of preprint versions, plus a published version (with a slightly different title):
 
 * [https://fatcat.wiki/release/search?q=%22Time-periodic+solutions+of+massive%22](https://fatcat.wiki/release/search?q=%22Time-periodic+solutions+of+massive%22)
+
+### Almost same
+
+* same author, maybe year
+* different DOI
+* title almost the same, e.g. [MassIVE MSV000085583 - Aedes aegypti protein profile and proteome analysis](https://fatcat.wiki/release/search?q=%22Aedes+aegypti+protein+profile+and+proteome+analysis%22)
