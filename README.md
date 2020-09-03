@@ -118,3 +118,12 @@ Sometimes, we have a couple of preprint versions, plus a published version (with
 * same author, maybe year
 * different DOI
 * title almost the same, e.g. [MassIVE MSV000085583 - Aedes aegypti protein profile and proteome analysis](https://fatcat.wiki/release/search?q=%22Aedes+aegypti+protein+profile+and+proteome+analysis%22)
+
+### Duplication by different granularity
+
+* [https://fatcat.wiki/release/search?q=%22Volkshochschule+Leipzig%22](https://fatcat.wiki/release/search?q=%22Volkshochschule+Leipzig%22) (20308)
+* contains both yearly entries, as well as "DOI per page",
+  [https://fatcat.wiki/release/r734v367nza4tl37j6d74rfqo4](https://fatcat.wiki/release/r734v367nza4tl37j6d74rfqo4);
+could group pages under "container" of yearly release?
+* We have [one container](https://github.com/internetarchive/fatcat/blob/4f80b87722d64f27c985f0040ea177269b6e028b/fatcat-openapi2.yml#L704-L709) per release, currently.
+
