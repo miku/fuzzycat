@@ -17,6 +17,16 @@ The goal is to group releases under works and to implement a versions feature.
 This repository contains both generic code for matching as well as fatcat
 specific code using the fatcat openapi client.
 
+## Approach
+
+There are probably a few assumption we can make:
+
+* If two strings are given, an exact string match does not mean equality (at
+  all), e.g.  "Acta geographica" has currently eight associated ISSN, and a
+title like "Buchbesprechungen" appears many hundreds of times.
+* ...
+* ...
+
 ## Datasets
 
 * release and container metadata from: [https://archive.org/details/fatcat_bulk_exports_2020-08-05](https://archive.org/details/fatcat_bulk_exports_2020-08-05).
