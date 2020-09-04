@@ -44,7 +44,7 @@ sys     4927m3.277s
 
 ## Data issues
 
-### A republised article
+### A republished article
 
 * [https://fatcat.wiki/release/search?q=%22The+doctor+with+seven+billion+patients%22](https://fatcat.wiki/release/search?q=%22The+doctor+with+seven+billion+patients%22)
 
