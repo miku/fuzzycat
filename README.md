@@ -144,3 +144,11 @@ Here, the [release](https://fatcat.wiki/release/2vi655gcejffhnzzbkkcnjpscm) poin
 Subtitle is not visible metadata, all same, except for the DOI and the page number. Different.
 
 * [https://fatcat.wiki/release/search?q=%22Slip+in+tungsten+monocarbide%22](https://fatcat.wiki/release/search?q=%22Slip+in+tungsten+monocarbide%22)
+
+### The "what a difference a char makes" case
+
+Typically a yearly report, or "part 1", "part 2", like this:
+
+* [https://fatcat.wiki/release/search?q=%22The+Use+of+Bone+Age+in+Clinical+Practice+%22](https://fatcat.wiki/release/search?q=%22The+Use+of+Bone+Age+in+Clinical+Practice+%22)
+
+DOI differs and could hard code some patterns.
