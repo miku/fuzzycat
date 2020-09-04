@@ -162,3 +162,15 @@ Typically a yearly report, or "part 1", "part 2", like this:
 * [https://fatcat.wiki/release/search?q=%22The+Use+of+Bone+Age+in+Clinical+Practice+%22](https://fatcat.wiki/release/search?q=%22The+Use+of+Bone+Age+in+Clinical+Practice+%22)
 
 DOI differs and could hard code some patterns.
+
+### Published to two sites
+
+An article can have multiple DOI, e.g. when republished by a site that gives out DOI, e.g. researchgate. Example:
+
+* [Effect of Chlorophyll and Anthocyanin on the Secondary Bonds of Poly Vinyl Chloride](https://fatcat.wiki/release/search?q=%22Effect+of+Chlorophyll+and+Anthocyanin+on+the+Secondary+Bonds+of+Poly+Vinyl+Chloride+%22)
+
+> https://doi.org/10.11648/j.ijmsa.s.2015040201.15, https://doi.org/10.13140/rg.2.1.2398.3606
+
+Probably many "10.13140" prefixed DOI has at least another DOI.
+
+Some might be "rg-only", like this: [https://fatcat.wiki/release/search?q=%22Marco+de+trabajo+basado+en+los+datos+enlazados+para%22](https://fatcat.wiki/release/search?q=%22Marco+de+trabajo+basado+en+los+datos+enlazados+para%22)
