@@ -15,16 +15,17 @@ Match methods return candidates, verify methods return a match status.
 Candidate generation will use external data from search and hence is expensive. Verification is fast.
 """
 
-from typing import List, Optional, Union, Set
+from typing import List, Optional, Set, Union
 
 import elasticsearch
 from fatcat_openapi_client import (ApiException, ContainerEntity, DefaultApi, ReleaseEntity,
                                    ReleaseExtIds, WorkEntity)
 from fatcat_openapi_client.api.default_api import DefaultApi
 
-from fuzzycat.fatcat.common import MatchStatus, response_to_entity_list, compare_ext_ids
-from fuzzycat.serials import serialsdb
 from fuzzycat import cleanups
+from fuzzycat.fatcat.common import (MatchStatus, compare_ext_ids, response_to_entity_list)
+from fuzzycat.serials import serialsdb
+
 
 def match_container_fuzzy(container: ContainerEntity,
                           size: int = 5,
@@ -198,8 +199,7 @@ def verify_serial_name(a: str, b: str) -> MatchStatus:
     Serial name verification. Serial names are a subset of container names.
     There are about 2M serials.
     """
-
-    def verify(a : Set[str], b : Set[str]) -> MatchStatus:
+    def verify(a: Set[str], b: Set[str]) -> MatchStatus:
 
         # If any name yields multiple ISSN-L, we cannot decide.
         if len(a) > 1:

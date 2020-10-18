@@ -3,9 +3,11 @@
 Command line entry point for ad-hoc testing.
 """
 
-from fatcat_openapi_client import ReleaseEntity, ReleaseExtIds
-from fuzzycat.fatcat.matching import match_release_fuzzy
 import argparse
+
+from fatcat_openapi_client import ReleaseEntity, ReleaseExtIds
+
+from fuzzycat.fatcat.matching import match_release_fuzzy
 
 
 def main():

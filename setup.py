@@ -25,6 +25,7 @@ with open("README.md", "r") as fh:
         entry_points={"console_scripts": [
             "fuzzycat=fuzzycat.fatcat.main:main",
             "fuzzycat-issn=fuzzycat.issn:main",
+            "fuzzycat-cluster=fuzzycat.cluster:main",
         ],},
         install_requires=[
             "fatcat-openapi-client",

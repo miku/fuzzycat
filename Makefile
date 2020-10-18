@@ -16,8 +16,8 @@ deps: ## Install dependencies from setup.py into pipenv
 
 .PHONY: style
 style: ## Apply import sorting and black source formatting on all files
-	isort --atomic .
-	yapf -p -i -r fuzzycat
+	isort --atomic -rc fuzzycat/*
+	yapf -p -i -r fuzzycat/*
 	yapf -p -i -r tests
 
 .PHONY: dist
