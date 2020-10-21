@@ -24,13 +24,14 @@ import orjson as json
 import fuzzy
 
 DEFAULT_CACHE_DIR = os.path.join(os.path.expanduser("~"), ".cache", "fuzzycat")
+TMP_PREFIX = 'fuzzycat-'
 
 
-def sort_by_column(filename, mode="w", opts="-k 2", fast=True):
+def sort_by_column(filename, mode="w", opts="-k 2", fast=True, prefix=TMP_PREFIX):
     """
     Sort tabular file with sort(1), returns the filename of the sorted file.
     """
-    with tempfile.NamedTemporaryFile(delete=False, mode=mode) as tf:
+    with tempfile.NamedTemporaryFile(delete=False, mode=mode, prefix=prefix) as tf:
         env = os.environ.copy()
         if fast:
             env["LC_ALL"] = "C"
@@ -60,12 +61,12 @@ def cut(f=0, sep='\t'):
     """
     return lambda v: v.split(sep)[f]
 
-def cluster_by_title(args):
+def cluster_by_title(args, prefix=TMP_PREFIX):
     """
     Basic example for a three stage process: extract, sort, group. Speed is
     about: 20K/s (json roundtrip, sorting, grouping).
     """
-    with tempfile.NamedTemporaryFile(delete=False, mode="w") as tf:
+    with tempfile.NamedTemporaryFile(delete=False, mode="w", prefix=prefix) as tf:
         for line in fileinput.input(files=args.files if len(args.files) > 0 else ('-', )):
             doc = json.loads(line)
             try:
@@ -91,7 +92,7 @@ def cluster_by_title_normalized(args):
     Normalize title, e.g. analysisofheritability. 17k/s.
     """
     pattern = re.compile('[\W_]+', re.UNICODE)
-    with tempfile.NamedTemporaryFile(delete=False, mode="w") as tf:
+    with tempfile.NamedTemporaryFile(delete=False, mode="w", prefix=prefix) as tf:
         for line in fileinput.input(files=args.files if len(args.files) > 0 else ('-', )):
             doc = json.loads(line)
             try:
@@ -117,7 +118,7 @@ def cluster_by_title_nysiis(args):
     """
     Soundex on title.
     """
-    with tempfile.NamedTemporaryFile(delete=False, mode="w") as tf:
+    with tempfile.NamedTemporaryFile(delete=False, mode="w", prefix=prefix) as tf:
         for line in fileinput.input(files=args.files if len(args.files) > 0 else ('-', )):
             doc = json.loads(line)
             try:
