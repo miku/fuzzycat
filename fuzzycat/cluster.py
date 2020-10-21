@@ -1,12 +1,24 @@
 """
 Clustering part of matching.
 
-We want to have generic and fast way to derive various clusters. Input is a
-json lines of release entities, e.g. from a database dump.
+We want to have generic and fast way to derive various clusters. Input is json
+lines of release entities, e.g. from a database dump.
 
 Map and reduce.
 
 * input (json) blob -> (ident, value) -> group by value -> emit idents per group
+
+Example output:
+
+    {
+      "v": [
+	"7uvh4z6zsjcptia5ig6swu4fre",
+	"chlthrumyfg23aqw4r477j3vge",
+	"yuo4smv4bzefdjsudbbzka3qv4"
+      ],
+      "k": "124-5_0137.dcm",
+      "c": "t"
+    }
 
 """
 
@@ -107,7 +119,7 @@ def cluster_by_title_normalized(args):
             print("%s\t%s" % (id, title), file=tf)
 
     sbc = sort_by_column(tf.name, opts="-k 2")
-    for doc in group_by_column(sbc, key=cut(f=1), value=cut(f=0), comment="t"):
+    for doc in group_by_column(sbc, key=cut(f=1), value=cut(f=0), comment="tn"):
         print(json.dumps(doc).decode("utf-8"))
 
     os.remove(sbc)
@@ -133,7 +145,7 @@ def cluster_by_title_nysiis(args):
             print("%s\t%s" % (id, title), file=tf)
 
     sbc = sort_by_column(tf.name, opts="-k 2")
-    for doc in group_by_column(sbc, key=cut(f=1), value=cut(f=0), comment="t"):
+    for doc in group_by_column(sbc, key=cut(f=1), value=cut(f=0), comment="nysiis"):
         print(json.dumps(doc).decode("utf-8"))
 
     os.remove(sbc)
