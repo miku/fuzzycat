@@ -130,7 +130,6 @@ def cluster_by_title_nysiis(args):
             except KeyError as err:
                 continue
 
-            print("%s\t%s" % (id, title))
             print("%s\t%s" % (id, title), file=tf)
 
     sbc = sort_by_column(tf.name, opts="-k 2")
