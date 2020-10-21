@@ -24,6 +24,7 @@ with open("README.md", "r") as fh:
         zip_safe=False,
         entry_points={"console_scripts": [
             "fuzzycat-cluster=fuzzycat.cluster:main",
+            "fuzzycat-verify=fuzzycat.verify:main",
         ],},
         install_requires=[
             "elasticsearch>=7",
