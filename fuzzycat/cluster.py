@@ -20,6 +20,12 @@ Example output:
       "c": "t"
     }
 
+Performance data points:
+
+$ time zstdcat -T0 release_export_expanded.json.zst | pv -l | \
+    parallel --roundrobin --pipe -j 16 fuzzycat-cluster /bigger/tmp -t title > cluster_title.json
+
+Takes 607 min (around 3800 docs/s).
 """
 
 import argparse
