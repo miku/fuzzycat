@@ -27,10 +27,10 @@ with open("README.md", "r") as fh:
         ],},
         install_requires=[
             "elasticsearch>=7",
-            "fatcat-openapi-client",
+            # "fatcat-openapi-client",
             "ftfy",
             "fuzzy",
-            "simhash",
+            # "simhash",
             "toml",
             "unidecode>=0.10",
         ],
