@@ -151,8 +151,12 @@ def main():
     parser.add_argument("-t", "--type", default="title", help="clustering variant to use")
     parser.add_argument("-l", "--list", action="store_true", help="list cluster variants")
     parser.add_argument("--tmp-prefix", default="fuzzycat-", help="prefix for tmp file")
+    parser.add_argument("--tmpdir", default=tempfile.gettempdir(), help="temp directory")
     parser.add_argument('files', metavar='FILE', nargs='*', help='files to read, if empty, stdin is used')
     args = parser.parse_args()
+
+    tempfile.tempdir = args.tmpdir
+
     if args.list:
         print("\n".join(types.keys()))
         return
