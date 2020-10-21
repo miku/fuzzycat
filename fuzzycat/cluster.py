@@ -37,6 +37,7 @@ import subprocess
 import tempfile
 import re
 import string
+import operator
 
 import orjson as json
 import fuzzy
@@ -83,16 +84,17 @@ def cluster_by_title(args):
     Basic example for a three stage process: extract, sort, group. Speed is
     about: 20K/s (json roundtrip, sorting, grouping).
     """
+    files = args.files if len(args.files) > 0 else ('-', )
+    fg = operator.itemgetter("ident", "title")
+
     with tempfile.NamedTemporaryFile(delete=False, mode="w", prefix=args.tmp_prefix) as tf:
-        for line in fileinput.input(files=args.files if len(args.files) > 0 else ('-', )):
-            doc = json.loads(line)
+        for line in fileinput.input(files=files)
             try:
-                id = doc["ident"]
-                title = doc["title"]
+                doc = json.loads(line)
+                id, title = fg(doc)
                 if not title:
                     continue
-                else:
-                    title = title.replace("\t", " ").replace("\n", " ").strip()
+                title = title.replace("\t", " ").replace("\n", " ").strip()
             except KeyError as err:
                 continue
             print("%s\t%s" % (id, title), file=tf)
@@ -108,18 +110,19 @@ def cluster_by_title_normalized(args):
     """
     Normalize title, e.g. analysisofheritability. 17k/s.
     """
+    files = args.files if len(args.files) > 0 else ('-', )
+    fg = operator.itemgetter("ident", "title")
     pattern = re.compile('[\W_]+', re.UNICODE)
+
     with tempfile.NamedTemporaryFile(delete=False, mode="w", prefix=args.tmp_prefix) as tf:
-        for line in fileinput.input(files=args.files if len(args.files) > 0 else ('-', )):
-            doc = json.loads(line)
+        for line in fileinput.input(files=files):
             try:
-                id = doc["ident"]
-                title = doc["title"]
+                doc = json.loads(line)
+                id, title = fg(doc)
                 if not title:
                     continue
-                else:
-                    title = title.replace("\t", " ").replace("\n", " ").strip().lower()
-                    title = pattern.sub('', title)
+                title = title.replace("\t", " ").replace("\n", " ").strip().lower()
+                title = pattern.sub('', title)
             except KeyError as err:
                 continue
             print("%s\t%s" % (id, title), file=tf)
@@ -135,19 +138,19 @@ def cluster_by_title_nysiis(args):
     """
     Soundex on title.
     """
+    files = args.files if len(args.files) > 0 else ('-', )
+    fg = operator.itemgetter("ident", "title")
+
     with tempfile.NamedTemporaryFile(delete=False, mode="w", prefix=args.tmp_prefix) as tf:
-        for line in fileinput.input(files=args.files if len(args.files) > 0 else ('-', )):
-            doc = json.loads(line)
+        for line in fileinput.input(files=files):
             try:
-                id = doc["ident"]
-                title = doc["title"]
+                doc = json.loads(line)
+                id, title = fg(doc)
                 if not title:
                     continue
-                else:
-                    title = fuzzy.nysiis(title)
+                title = fuzzy.nysiis(title)
             except KeyError as err:
                 continue
-
             print("%s\t%s" % (id, title), file=tf)
 
     sbc = sort_by_column(tf.name, opts="-k 2")
