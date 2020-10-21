@@ -24,10 +24,9 @@ import orjson as json
 import fuzzy
 
 DEFAULT_CACHE_DIR = os.path.join(os.path.expanduser("~"), ".cache", "fuzzycat")
-TMP_PREFIX = 'fuzzycat-'
 
 
-def sort_by_column(filename, mode="w", opts="-k 2", fast=True, prefix=TMP_PREFIX):
+def sort_by_column(filename, mode="w", opts="-k 2", fast=True):
     """
     Sort tabular file with sort(1), returns the filename of the sorted file.
     """
@@ -61,12 +60,12 @@ def cut(f=0, sep='\t'):
     """
     return lambda v: v.split(sep)[f]
 
-def cluster_by_title(args, prefix=TMP_PREFIX):
+def cluster_by_title(args):
     """
     Basic example for a three stage process: extract, sort, group. Speed is
     about: 20K/s (json roundtrip, sorting, grouping).
     """
-    with tempfile.NamedTemporaryFile(delete=False, mode="w", prefix=prefix) as tf:
+    with tempfile.NamedTemporaryFile(delete=False, mode="w", prefix=args.tmp_prefix) as tf:
         for line in fileinput.input(files=args.files if len(args.files) > 0 else ('-', )):
             doc = json.loads(line)
             try:
@@ -80,7 +79,7 @@ def cluster_by_title(args, prefix=TMP_PREFIX):
                 continue
             print("%s\t%s" % (id, title), file=tf)
 
-    sbc = sort_by_column(tf.name, opts="-k 2")
+    sbc = sort_by_column(tf.name, opts="-k 2", prefix=args.tmp_prefix)
     for doc in group_by_column(sbc, key=cut(f=1), value=cut(f=0), comment="t"):
         print(json.dumps(doc).decode("utf-8"))
 
@@ -92,7 +91,7 @@ def cluster_by_title_normalized(args):
     Normalize title, e.g. analysisofheritability. 17k/s.
     """
     pattern = re.compile('[\W_]+', re.UNICODE)
-    with tempfile.NamedTemporaryFile(delete=False, mode="w", prefix=prefix) as tf:
+    with tempfile.NamedTemporaryFile(delete=False, mode="w", prefix=args.tmp_prefix) as tf:
         for line in fileinput.input(files=args.files if len(args.files) > 0 else ('-', )):
             doc = json.loads(line)
             try:
@@ -118,7 +117,7 @@ def cluster_by_title_nysiis(args):
     """
     Soundex on title.
     """
-    with tempfile.NamedTemporaryFile(delete=False, mode="w", prefix=prefix) as tf:
+    with tempfile.NamedTemporaryFile(delete=False, mode="w", prefix=args.tmp_prefix) as tf:
         for line in fileinput.input(files=args.files if len(args.files) > 0 else ('-', )):
             doc = json.loads(line)
             try:
@@ -151,6 +150,7 @@ def main():
                                      formatter_class=argparse.ArgumentDefaultsHelpFormatter)
     parser.add_argument("-t", "--type", default="title", help="clustering variant to use")
     parser.add_argument("-l", "--list", action="store_true", help="list cluster variants")
+    parser.add_argument("--tmp-prefix", default="fuzzycat-", help="prefix for tmp file")
     parser.add_argument('files', metavar='FILE', nargs='*', help='files to read, if empty, stdin is used')
     args = parser.parse_args()
     if args.list:
