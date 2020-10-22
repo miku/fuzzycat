@@ -16,7 +16,7 @@ Identification and Intelligence System, ...):
 $ zstdcat -T0 release_export_expanded.json.zst | fuzzycat-cluster -t title > cluster_title.json
 ```
 
-Parallel:
+Parallel (use `--pipepart`):
 
 ```
 $ zstdcat -T0 release_export_expanded.json.zst | \
@@ -31,6 +31,52 @@ Numbers of clusters:
   134709771 cluster_title_normalized.json
   119829458 cluster_title_nysiis.json
 ```
+
+The number of duplicate record goes up as number of clusters go down:
+
+```
+   2858088 cluster_title_dups.json
+   5818143 cluster_title_normalized_dups.json
+   6274940 cluster_title_nysiis_dups.json
+```
+
+# Cluster numbers
+
+Using normalized title as example:
+
+* 4306860 have cluster size 2, 1511283 have cluster size 3 or larger
+
+```
+             size         len
+count 5818143.000 5818143.000
+mean        4.350      52.120
+std       196.347      35.026
+min         2.000       0.000
+25%         2.000      24.000
+50%         2.000      46.000
+75%         3.000      72.000
+max    151383.000   11686.000
+```
+
+Around 448170 clusters with size 5 or more (with some example titles):
+
+```
+Medical Notes
+日本鉄鋼協会第97回講演大会講演概要
+Boutades
+Allergic Contact Dermatitis
+Comité international
+Incontinence
+Efficient Uncertainty Minimization for Fuzzy Spectral Clustering
+Early Intervention
+CURRENT READINGS IN NUCLEAR MEDICINE
+Nannocystis exedens
+```
+
+Grouping. API, hide.
+
+* gnu parallel; top, htop; how much; "chunks"; read one line; "pipeart";
+  batching; "read from a file"; scan a file; "chunking"
 
 # TODO
 

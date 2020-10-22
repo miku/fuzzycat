@@ -48,6 +48,7 @@ DEFAULT_CACHE_DIR = os.path.join(os.path.expanduser("~"), ".cache", "fuzzycat")
 def sort_by_column(filename, mode="w", opts="-k 2", fast=True, prefix="fuzzycat-"):
     """
     Sort tabular file with sort(1), returns the filename of the sorted file.
+    XXX: use separate /fast/tmp for sort.
     """
     with tempfile.NamedTemporaryFile(delete=False, mode=mode, prefix=prefix) as tf:
         env = os.environ.copy()
