@@ -11,33 +11,43 @@ Scholar](https://scholar.google.com/scholar?q=fuzzy+matching) group
 publications into clusters. Each cluster represents one publication, abstracted
 from its concrete representation as a link to a PDF.
 
-We call the abstract publication *work* and the concrete instance a *release*.
-The goal is to group releases under works and to implement a versions feature.
+We call the abstract publication
+[work](https://guide.fatcat.wiki/entity_work.html) and the concrete instance a
+[release](https://guide.fatcat.wiki/entity_release.html). One goal is to group
+releases under works and to implement a versions feature (self-match). Another
+goal is to have support for matching of external lists (e.g. title lists or
+other document) to the existing records.
 
 This repository contains both generic code for matching as well as fatcat
 specific code using the fatcat openapi client.
 
 ## Approach
 
-There are probably a few assumption we can make:
+* Local code, with command line entry points for matching as well as adapter
+  for fatcat.
+
+A few assumption we need to make:
 
 * If two strings are given, an exact string match does not mean equality (at
   all), e.g.  "Acta geographica" has currently eight associated ISSN, and a
-title like "Buchbesprechungen" appears many hundreds of times.
-* ...
-* ...
+title like "Buchbesprechungen" appears many hundreds of times. We need a bit
+more context for a decision.
 
 ## Datasets
 
-* release and container metadata from: [https://archive.org/details/fatcat_bulk_exports_2020-08-05](https://archive.org/details/fatcat_bulk_exports_2020-08-05).
+Relevant datasets are:
+
+* release and container metadata from a bulk fatcat export, e.g. [https://archive.org/details/fatcat_bulk_exports_2020-08-05](https://archive.org/details/fatcat_bulk_exports_2020-08-05)
 * issn journal level data, via [issnlister](https://github.com/miku/issnlister)
-* abbreviation lists
+* journal abbreviation lists
 
 ## Matching approaches
 
 ![](static/approach.png)
 
-## Performance data point
+## Performance data points
+
+### Against elasticsearch
 
 Candidate generation via elasticsearch, 40 parallel queries, sustained speed at
 about 17857 queries per hour, that is around 5 queries/s.
@@ -51,6 +61,12 @@ real    3409m16.442s
 user    29177m5.516s
 sys     4927m3.277s
 ```
+
+### Without a search index
+
+Candidate grouping for self-match can be done locally by extracting a key per
+document, then a group by (via sort and uniq). Clustering 150M docs took about
+607min (around 4k docs/s, no verification step).
 
 ## Data issues
 
