@@ -42,6 +42,7 @@ import operator
 import orjson as json
 import fuzzy
 
+# Move this into .env, with dotenv or dynaconf.
 DEFAULT_CACHE_DIR = os.path.join(os.path.expanduser("~"), ".cache", "fuzzycat")
 
 
