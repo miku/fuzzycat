@@ -16,7 +16,7 @@ Identification and Intelligence System, ...):
 $ zstdcat -T0 release_export_expanded.json.zst | fuzzycat-cluster -t title > cluster_title.json
 ```
 
-Parallel (use `--pipepart`):
+Parallel (TODO: use `--pipepart`):
 
 ```
 $ zstdcat -T0 release_export_expanded.json.zst | \
