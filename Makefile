@@ -34,6 +34,7 @@ clean: ## Clean all artifacts
 	rm -rf dist
 	rm -rf fuzzycat.egg-info/
 	rm -rf .pytest_cache/
+	rm -rf .coverage
 
 # Upload requires https://github.com/pypa/twine and some configuration.
 .PHONY: upload
