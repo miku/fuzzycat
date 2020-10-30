@@ -4,6 +4,8 @@ Fuzzy matching publications for [fatcat](https://fatcat.wiki).
 
 * [fuzzycat](https://pypi.org/project/fuzzycat/)
 
+Note: This is currently work-in-progress.
+
 ## Motivation
 
 Most of the results on sites like [Google
@@ -20,6 +22,18 @@ other document) to the existing records.
 
 This repository contains both generic code for matching as well as fatcat
 specific code using the fatcat openapi client.
+
+## Running and Deployment
+
+* The library code can be used via
+  [fuzzycat](https://pypi.org/project/fuzzycat/) project.
+* The command line tool depends on [Pipenv](https://pypi.org/project/pipenv/),
+  the workflow is to use a git checkout, then run `pipenv run python -m
+fuzzycat.main ...` or other executable modules.
+
+For the future, an independent [pex](https://github.com/pantsbuild/pex) or
+[shiv](https://github.com/linkedin/shiv) executable would be a convenient
+option.
 
 ## Approach
 

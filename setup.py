@@ -20,12 +20,11 @@ with open("README.md", "r") as fh:
             "License :: OSI Approved :: MIT License",
             "Operating System :: OS Independent",
         ],
-        python_requires=">=3.6",
+        python_requires=">=3.5",
         zip_safe=False,
         entry_points={"console_scripts": [
-            "fuzzycat-cluster=fuzzycat.cluster:main",
-            "fuzzycat-verify=fuzzycat.verify:main",
-        ],},
+            "fuzzycat=fuzzycat.main:main"
+        ]},
         install_requires=[
             "elasticsearch>=7",
             # "fatcat-openapi-client",
