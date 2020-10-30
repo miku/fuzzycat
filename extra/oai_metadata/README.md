@@ -16,3 +16,5 @@ Siempre hay que defender la poesía
 Faúndez, Edson. Bajo la piel de tu capa
 ```
 
+* [https://archive.org/details/oai_harvest_20200215](https://archive.org/details/oai_harvest_20200215)
+* [oai.ndjson.zst](https://archive.org/download/oai_harvest_20200215/oai.ndjson.zst)
