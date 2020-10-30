@@ -24,7 +24,7 @@ The output could be a TSV file, with method and then release identifiers.
 rawt o3utonw5qzhddo7l4lmwptgeey nnpmnwln7be2zb5hd2qanq3r7q
 ```
 
-Or jsonlines for a bit of structure.
+Or jsonlines for a bit of structure (e.g. method, ids)
 
 ```
 {"m": "rawt", "c": ["o3utonw5qzhddo7l4lmwptgeey", "nnpmnwln7be2zb5hd2qanq3r7q"]}
@@ -43,8 +43,8 @@ $ zstdcat -T0 release_export_expanded.json.zst | fuzzycat-cluster -g > clusters.
 
 There will be various methods by which to examine the cluster as well.
 
-We need to fetch releases by identifier, this can be the full record or some
-partial record that has been cached somewhere.
+We need to fetch releases by identifier (API, but use "hide"), this can be the
+full record or some partial record that has been cached somewhere.
 
 The input is then a list of releases and the output would be a equally sized or
 smaller cluster of releases which we assume represent the same record.
