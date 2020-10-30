@@ -38,6 +38,12 @@ $ zstdcat -T0 release_export_expanded.json.zst | fuzzycat-cluster -g > clusters.
 
 * [orjson](https://github.com/ijl/orjson), [pysimdjson](https://github.com/TkTech/pysimdjson)
 
+## Format
+
+Options:
+
+* emit minimal cluster information, e.g. method description and actual identifiers
+* emit methods, and for each cluster item some core fields (title, author, id, date)
 
 ## Examine cluster
 
