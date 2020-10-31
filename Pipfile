@@ -6,10 +6,7 @@ verify_ssl = true
 [dev-packages]
 
 [packages]
-fuzzycat = {editable = true, extras = ["dev"], path = "."}
+elasticsearch = "*"
 
 [requires]
-python_version = "3.7"
-
-[pipenv]
-allow_prereleases = true
+python_version = "3.5"
