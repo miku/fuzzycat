@@ -25,15 +25,17 @@ specific code using the fatcat openapi client.
 
 ## Running and Deployment
 
-* The library code can be used via
-  [fuzzycat](https://pypi.org/project/fuzzycat/) project.
-* The command line tool depends on [Pipenv](https://pypi.org/project/pipenv/),
-  the workflow is to use a git checkout, then run `pipenv run python -m
-fuzzycat.main ...` or other executable modules.
+We defer more packaging polish until the code stabilizes a bit more. For now:
+
+```
+$ git clone git@github.com:miku/fuzzycat.git && cd fuzzycat
+$ pipenv install --deploy
+$ pipenv run python -m fuzzycat.main
+```
 
 For the future, an independent [pex](https://github.com/pantsbuild/pex) or
 [shiv](https://github.com/linkedin/shiv) executable would be a convenient
-option.
+option to allow execution from any directory.
 
 ## Approach
 
