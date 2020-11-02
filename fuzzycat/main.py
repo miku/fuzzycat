@@ -16,7 +16,7 @@ def run_cluster(args):
         'tnysi': release_key_title_nysiis,
     }
     cluster = Cluster(files=args.files, keyfunc=types.get(args.type), tmpdir=args.tmpdir, prefix=args.prefix)
-
+    cluster.run()
 
 def run_verify(args):
     print('verify')
