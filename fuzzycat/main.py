@@ -1,10 +1,22 @@
 import argparse
-import elasticsearch
-import tempfile
 import sys
+import tempfile
+
+import elasticsearch
+
+from fuzzycat.cluster import (Cluster, release_key_title,
+                              release_key_title_normalized,
+                              release_key_title_nysiis)
+
 
 def run_cluster(args):
-    print('cluster')
+    types = {
+        'title': release_key_title,
+        'tnorm': release_key_title_normalized,
+        'tnysi': release_key_title_nysiis,
+    }
+    cluster = Cluster(files=args.files, keyfunc=types.get(args.type), tmpdir=args.tmpdir, prefix=args.prefix)
+
 
 def run_verify(args):
     print('verify')
@@ -14,12 +26,13 @@ if __name__ == '__main__':
                                      usage='%(prog)s command [options]',
                                      formatter_class=argparse.ArgumentDefaultsHelpFormatter)
 
-    parser.add_argument('--tmp-prefix', default='fuzzycat-', help='temp file prefix')
+    parser.add_argument('--prefix', default='fuzzycat-', help='temp file prefix')
     parser.add_argument('--tmpdir', default=tempfile.gettempdir(), help='temporary directory')
     subparsers = parser.add_subparsers()
 
     sub_cluster = subparsers.add_parser('cluster', help='group entities')
     sub_cluster.set_defaults(func=run_cluster)
+    sub_cluster.add_argument('-f', '--files', default="-", help='output files')
     sub_cluster.add_argument('-t', '--type', default='title', help='cluster algorithm')
 
     sub_verify = subparsers.add_parser('verify', help='verify groups')
@@ -31,4 +44,3 @@ if __name__ == '__main__':
         sys.exit(1)
 
     args.func(args)
-

@@ -14,17 +14,12 @@ __all__ = [
     "release_key_title_normalized",
     "release_key_title_nysiis",
     "sort_file_by_column",
+    "group_by",
 ]
 
 get_ident_title = operator.itemgetter("ident", "title")
-ws_replacer = str.maketrans("\t", " ", "\n", " ")
+ws_replacer = str.maketrans({"\t": " ", "\n": " "})
 non_word_re = re.compile('[\W_]+', re.UNICODE)
-
-def cut(value, f=0, sep='\t'):
-    """
-    Split value by separator and return a single column.
-    """
-    return value.split(sep)[f]
 
 def release_key_title(re):
     id, title = get_ident_title(re)
@@ -41,13 +36,15 @@ def release_key_title_nysiis(re):
     id, title = release_key_title(re)
     return (id, fuzzy.nysiis(title))
 
-def sort_by_column(filename, opts="-k 2", fast=True, mode="w", prefix="fuzzycat-"):
+def sort_by_column(filename, opts="-k 2", fast=True, mode="w", prefix="fuzzycat-", tmpdir=None):
     """
     Sort tabular file with sort(1), returns the filename of the sorted file.
     TODO: use separate /fast/tmp for sort.
     """
     with tempfile.NamedTemporaryFile(delete=False, mode=mode, prefix=prefix) as tf:
         env = os.environ.copy()
+        if tmpdir is not None:
+            env["TMPDIR"] = tmpdir
         if fast:
             env["LC_ALL"] = "C"
         subprocess.run(["sort"] + opts.split() + [filename], stdout=tf, env=env)
@@ -55,6 +52,10 @@ def sort_by_column(filename, opts="-k 2", fast=True, mode="w", prefix="fuzzycat-
     return tf.name
 
 def group_by(filename, key=None, value=None, comment=""):
+    """
+    Iterate over lines in filename, group by key (a callable deriving the key
+    from the line), then apply value callable to emit a minimal document.
+    """
     with open(filename) as f:
         for k, g in itertools.groupby(f, key=key):
             doc = {
@@ -64,29 +65,45 @@ def group_by(filename, key=None, value=None, comment=""):
             }
             yield doc
 
+def cut(f=0, sep='\t'):
+    """
+    Return a callable, that extracts a given column from a file with a specific
+    separator. TODO: move this into more generic place.
+    """
+    def f(value):
+        parts = value.split(sep)
+        if len(parts) > f + 1:
+            raise ValueError('cannot split value into {} parts'.format(f))
+        return parts[f]
+    return f
+
 class Cluster:
     """
     Cluster scaffold for release entities.
     """
-    def __init__(self, files=None, output=None, keyfunc=lambda v: v, tmp_prefix='fuzzycat-'):
+    def __init__(self, files="-", output=sys.stdout, keyfunc=lambda v: v, prefix='fuzzycat-', tmpdir=None):
+        """
+        Files can be a list of files or "-" for stdin.
+        """
         self.files = files
-        self.tmp_prefix = tmp_prefix
         self.keyfunc = keyfunc
         self.output = output
-        if self.output is None:
-            self.output = sys.stdout
+        self.prefix = prefix
+        self.tmpdir = tmpdir
 
     def run(self):
-        with tempfile.NamedTemporaryFile(delete=False, mode="w", prefix=self.tmp_prefix) as tf:
+        """
+        Run clustering and write output to given stream or file.
+        """
+        keyfunc = self.keyfunc # Save a lookup in loop.
+        with tempfile.NamedTemporaryFile(delete=False, mode="w", prefix=self.prefix) as tf:
             for line in fileinput.input(files=files):
                 try:
-                    id, key = self.keyfunc(json.loads(line))
+                    id, key = keyfunc(json.loads(line))
+                    print("{}\t{}".format(id, key), file=tf)
                 except (KeyError, ValueError):
                     continue
-                else:
-                    print("{}\t{}".format(id, key), file=tf)
-
-        sbc = sort_by_column(tf.name, opts='-k 2', prefix=self.tmp_prefix)
+        sbc = sort_by_column(tf.name, opts='-k 2', prefix=self.prefix, tmpdir=self.tmpdir)
         for doc in group_by(sbc, key=cut(f=1), value=cut(f=0), comment=keyfunc.__name__):
             json.dump(doc, self.output)
 
