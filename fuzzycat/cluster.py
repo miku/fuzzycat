@@ -3,9 +3,11 @@ Clustering stage.
 """
 
 import functools
-import fuzzy
 import operator
 import re
+import sys
+
+import fuzzy
 
 __all__ = [
     "release_key_title",
