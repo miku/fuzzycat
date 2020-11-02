@@ -8,6 +8,7 @@ isort = "*"
 yapf = "*"
 ipython = "*"
 twine = "*"
+fuzzycat = {editable = true, path = "."}
 
 [packages]
 elasticsearch = "*"
