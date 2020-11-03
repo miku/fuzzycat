@@ -126,6 +126,8 @@ class Cluster:
                     print("{}\t{}".format(id, key), file=tf)
                 except (KeyError, ValueError):
                     continue
+        if self.verbose:
+            print(tf.name, file=sys.stderr)
         sbc = sort_by_column(tf.name, opts='-k 2', prefix=self.prefix, tmpdir=self.tmpdir)
         for doc in group_by(sbc, key=cut(f=1), value=cut(f=0), comment=keyfunc.__name__):
             json.dump(doc, self.output)
