@@ -1,3 +1,15 @@
+#!/usr/bin/env python
+
+"""
+Command line clustering tool.
+
+Example usage:
+
+    $ zstdcat -T0 release_export_expanded.json.zst | \
+        parallel --tmpdir /bigger/tmp --roundrobin --pipe -j 4 \
+        python -m fuzzycat.main --tmpdir /bigger/tmp -t tnorm
+"""
+
 import argparse
 import sys
 import tempfile
@@ -28,6 +40,7 @@ def run_verify(args):
 
 if __name__ == '__main__':
     parser = argparse.ArgumentParser(prog='fuzzycat',
+                                     description=__doc__,
                                      usage='%(prog)s command [options]',
                                      formatter_class=argparse.ArgumentDefaultsHelpFormatter)
 
@@ -39,7 +52,7 @@ if __name__ == '__main__':
     sub_cluster = subparsers.add_parser('cluster', help='group entities')
     sub_cluster.set_defaults(func=run_cluster)
     sub_cluster.add_argument('-f', '--files', default="-", help='output files')
-    sub_cluster.add_argument('-t', '--type', default='title', help='cluster algorithm')
+    sub_cluster.add_argument('-t', '--type', default='title', help='cluster algorithm: title, tnorm, tnysi')
 
     sub_verify = subparsers.add_parser('verify', help='verify groups')
     sub_verify.set_defaults(func=run_verify)
