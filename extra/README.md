@@ -25,3 +25,5 @@ specified examples (test cases).
 > Computational workflows describe the complex multi-step methods that are used
 > for data collection, data preparation,  analytics,  predictive  modelling,
 > and  simulation  that  lead  to  new  data  products.
+
+* [Sustainable data analysis](https://zenodo.org/record/4240139)
