@@ -37,23 +37,12 @@ For the future, an independent [pex](https://github.com/pantsbuild/pex) or
 [shiv](https://github.com/linkedin/shiv) executable would be a convenient
 option to allow execution from any directory.
 
-## Approach
-
-* Local code, with command line entry points for matching as well as adapter
-  for fatcat.
-
-A few assumption we need to make:
-
-* If two strings are given, an exact string match does not mean equality (at
-  all), e.g.  "Acta geographica" has currently eight associated ISSN, and a
-title like "Buchbesprechungen" appears many hundreds of times. We need a bit
-more context for a decision.
-
 ## Datasets
 
-Relevant datasets are:
+A few relevant datasets are:
 
-* release and container metadata from a bulk fatcat export, e.g. [https://archive.org/details/fatcat_bulk_exports_2020-08-05](https://archive.org/details/fatcat_bulk_exports_2020-08-05)
+* release and container metadata from a bulk fatcat export, e.g.
+  [https://archive.org/details/fatcat_bulk_exports_2020-08-05](https://archive.org/details/fatcat_bulk_exports_2020-08-05)
 * issn journal level data, via [issnlister](https://github.com/miku/issnlister)
 * journal abbreviation lists
 
