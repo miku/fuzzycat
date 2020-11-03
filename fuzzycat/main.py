@@ -4,8 +4,7 @@ import tempfile
 
 import elasticsearch
 
-from fuzzycat.cluster import (Cluster, release_key_title,
-                              release_key_title_normalized,
+from fuzzycat.cluster import (Cluster, release_key_title, release_key_title_normalized,
                               release_key_title_nysiis)
 
 
@@ -15,11 +14,17 @@ def run_cluster(args):
         'tnorm': release_key_title_normalized,
         'tnysi': release_key_title_nysiis,
     }
-    cluster = Cluster(files=args.files, keyfunc=types.get(args.type), tmpdir=args.tmpdir, prefix=args.prefix)
+    cluster = Cluster(files=args.files,
+                      keyfunc=types.get(args.type),
+                      tmpdir=args.tmpdir,
+                      prefix=args.prefix,
+                      verbose=args.verbose)
     cluster.run()
+
 
 def run_verify(args):
     print('verify')
+
 
 if __name__ == '__main__':
     parser = argparse.ArgumentParser(prog='fuzzycat',
@@ -28,6 +33,7 @@ if __name__ == '__main__':
 
     parser.add_argument('--prefix', default='fuzzycat-', help='temp file prefix')
     parser.add_argument('--tmpdir', default=tempfile.gettempdir(), help='temporary directory')
+    parser.add_argument('--verbose', default=False, action='store_true', help='be verbose')
     subparsers = parser.add_subparsers()
 
     sub_cluster = subparsers.add_parser('cluster', help='group entities')

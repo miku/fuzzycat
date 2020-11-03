@@ -3,9 +3,15 @@ Clustering stage.
 """
 
 import functools
+import fileinput
 import operator
 import re
 import sys
+import tempfile
+import json
+import os
+import subprocess
+import itertools
 
 import fuzzy
 
@@ -21,6 +27,7 @@ get_ident_title = operator.itemgetter("ident", "title")
 ws_replacer = str.maketrans({"\t": " ", "\n": " "})
 non_word_re = re.compile('[\W_]+', re.UNICODE)
 
+
 def release_key_title(re):
     id, title = get_ident_title(re)
     if not title:
@@ -28,13 +35,16 @@ def release_key_title(re):
     title = title.translate(ws_replacer).strip()
     return (id, title)
 
+
 def release_key_title_normalized(re):
     id, title = release_key_title(re)
     return (id, non_word_re.sub('', title))
 
+
 def release_key_title_nysiis(re):
     id, title = release_key_title(re)
     return (id, fuzzy.nysiis(title))
+
 
 def sort_by_column(filename, opts="-k 2", fast=True, mode="w", prefix="fuzzycat-", tmpdir=None):
     """
@@ -51,6 +61,7 @@ def sort_by_column(filename, opts="-k 2", fast=True, mode="w", prefix="fuzzycat-
 
     return tf.name
 
+
 def group_by(filename, key=None, value=None, comment=""):
     """
     Iterate over lines in filename, group by key (a callable deriving the key
@@ -65,23 +76,32 @@ def group_by(filename, key=None, value=None, comment=""):
             }
             yield doc
 
+
 def cut(f=0, sep='\t'):
     """
     Return a callable, that extracts a given column from a file with a specific
     separator. TODO: move this into more generic place.
     """
-    def f(value):
-        parts = value.split(sep)
-        if len(parts) > f + 1:
+    def func(value):
+        parts = value.strip().split(sep)
+        if len(parts) + 1 < f:
             raise ValueError('cannot split value into {} parts'.format(f))
         return parts[f]
-    return f
+
+    return func
+
 
 class Cluster:
     """
     Cluster scaffold for release entities.
     """
-    def __init__(self, files="-", output=sys.stdout, keyfunc=lambda v: v, prefix='fuzzycat-', tmpdir=None):
+    def __init__(self,
+                 files="-",
+                 output=sys.stdout,
+                 keyfunc=lambda v: v,
+                 prefix='fuzzycat-',
+                 tmpdir=None,
+                 verbose=False):
         """
         Files can be a list of files or "-" for stdin.
         """
@@ -90,14 +110,17 @@ class Cluster:
         self.output = output
         self.prefix = prefix
         self.tmpdir = tmpdir
+        self.verbose = verbose
 
     def run(self):
         """
         Run clustering and write output to given stream or file.
         """
-        keyfunc = self.keyfunc # Save a lookup in loop.
+        keyfunc = self.keyfunc  # Save a lookup in loop.
         with tempfile.NamedTemporaryFile(delete=False, mode="w", prefix=self.prefix) as tf:
-            for line in fileinput.input(files=files):
+            for i, line in enumerate(fileinput.input(files=self.files)):
+                if self.verbose and i % 100000 == 0:
+                    print("{}".format(i), file=sys.stderr)
                 try:
                     id, key = keyfunc(json.loads(line))
                     print("{}\t{}".format(id, key), file=tf)

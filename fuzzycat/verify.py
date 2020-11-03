@@ -24,6 +24,7 @@ store, or some other cache
 
 """
 
+
 def fetch_release_entity(ident, api="https://api.fatcat.wiki/v0"):
     """
     Fetches a single release entity.
@@ -31,11 +32,9 @@ def fetch_release_entity(ident, api="https://api.fatcat.wiki/v0"):
     link = "https://api.fatcat.wiki/v0/release/{}".format(ident)
     return requests.get(link).json()
 
+
 def ident_to_release_entities(ids):
     """
     Turn a list of ids into release entities.
     """
     return [fetch_release_entity(id) for id in ids]
-
-
-
