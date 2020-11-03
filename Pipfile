@@ -13,6 +13,7 @@ fuzzycat = {editable = true, path = "."}
 [packages]
 elasticsearch = "*"
 fuzzy = "*"
+fuzzycat = {editable = true, path = "."}
 
 [requires]
 python_version = "3.5"
