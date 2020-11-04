@@ -85,7 +85,7 @@ def cut(f=0, sep='\t'):
     def func(value):
         parts = value.strip().split(sep)
         if f >= len(parts):
-            raise ValueError('cannot split value into {} parts'.format(f))
+            raise ValueError('cannot split value {} into {} parts'.format(value, f))
         return parts[f]
 
     return func
