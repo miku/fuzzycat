@@ -1,5 +1,6 @@
 SHELL := /bin/bash
 FATCAT_BULK_EXPORT_ITEM := fatcat_bulk_exports_2020-08-05
+PY_FILES := $(shell find fuzzycat -name '*.py')
 
 .PHONY: help
 help: ## Print info about all commands
@@ -27,6 +28,10 @@ dist: ## Create source distribution and wheel
 .PHONY: cov
 cov: ## Run coverage report
 	pytest --cov=fuzzycat tests/
+
+.PHONY: lint
+lint: $(PY_FILES)
+	pylint fuzzycat
 
 .PHONY: clean
 clean: ## Clean all artifacts

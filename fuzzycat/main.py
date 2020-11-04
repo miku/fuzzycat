@@ -1,20 +1,18 @@
 #!/usr/bin/env python
+"""Usage: fuzzycat COMMAND [options]
 
-"""
-Command line clustering tool.
+Commands: cluster, verify
 
-Example usage:
+Run, e.g. fuzzycat cluster --help for more options. Example:
 
-    $ zstdcat -T0 release_export_expanded.json.zst | \
-        parallel --tmpdir /bigger/tmp --roundrobin --pipe -j 4 \
-        python -m fuzzycat.main --tmpdir /bigger/tmp -t tnorm
+    $ zstdcat -T0 release_export_expanded.json.zst |
+      parallel --tmpdir /fast/tmp --roundrobin --pipe -j 4 |
+      python -m fuzzycat.main cluster --tmpdir /fast/tmp -t tnorm > clusters.jsonl
 """
 
 import argparse
 import sys
 import tempfile
-
-import elasticsearch
 
 from fuzzycat.cluster import (Cluster, release_key_title, release_key_title_normalized,
                               release_key_title_nysiis)
@@ -42,6 +40,7 @@ if __name__ == '__main__':
     parser = argparse.ArgumentParser(prog='fuzzycat',
                                      description=__doc__,
                                      usage='%(prog)s command [options]',
+                                     add_help=False,
                                      formatter_class=argparse.ArgumentDefaultsHelpFormatter)
 
     parser.add_argument('--prefix', default='fuzzycat-', help='temp file prefix')
@@ -49,17 +48,20 @@ if __name__ == '__main__':
     parser.add_argument('--verbose', default=False, action='store_true', help='be verbose')
     subparsers = parser.add_subparsers()
 
-    sub_cluster = subparsers.add_parser('cluster', help='group entities')
+    sub_cluster = subparsers.add_parser('cluster', help='group entities', parents=[parser])
     sub_cluster.set_defaults(func=run_cluster)
     sub_cluster.add_argument('-f', '--files', default="-", help='output files')
-    sub_cluster.add_argument('-t', '--type', default='title', help='cluster algorithm: title, tnorm, tnysi')
+    sub_cluster.add_argument('-t',
+                             '--type',
+                             default='title',
+                             help='cluster algorithm: title, tnorm, tnysi')
 
-    sub_verify = subparsers.add_parser('verify', help='verify groups')
+    sub_verify = subparsers.add_parser('verify', help='verify groups', parents=[parser])
     sub_verify.set_defaults(func=run_verify)
 
     args = parser.parse_args()
     if not args.__dict__.get("func"):
-        print('fuzzycat: use -h or --help for usage', file=sys.stderr)
+        print(__doc__, file=sys.stderr)
         sys.exit(1)
 
     args.func(args)

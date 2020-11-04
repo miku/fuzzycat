@@ -1,17 +1,17 @@
+# pylint: disable=C0103
 """
 Clustering stage.
 """
 
-import functools
 import fileinput
+import itertools
+import json
 import operator
+import os
 import re
+import subprocess
 import sys
 import tempfile
-import json
-import os
-import subprocess
-import itertools
 
 import fuzzy
 
@@ -19,13 +19,13 @@ __all__ = [
     "release_key_title",
     "release_key_title_normalized",
     "release_key_title_nysiis",
-    "sort_file_by_column",
+    "sort_by_column",
     "group_by",
 ]
 
 get_ident_title = operator.itemgetter("ident", "title")
 ws_replacer = str.maketrans({"\t": " ", "\n": " "})
-non_word_re = re.compile('[\W_]+', re.UNICODE)
+non_word_re = re.compile(r'[\W_]+', re.UNICODE)
 
 
 def release_key_title(re):
@@ -57,7 +57,7 @@ def sort_by_column(filename, opts="-k 2", fast=True, mode="w", prefix="fuzzycat-
             env["TMPDIR"] = tmpdir
         if fast:
             env["LC_ALL"] = "C"
-        subprocess.run(["sort"] + opts.split() + [filename], stdout=tf, env=env)
+        subprocess.run(["sort"] + opts.split() + [filename], stdout=tf, env=env, check=True)
 
     return tf.name
 
