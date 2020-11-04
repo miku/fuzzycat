@@ -77,7 +77,7 @@ def group_by(filename, key=None, value=None, comment=""):
             yield doc
 
 
-def cut(f=0, sep='\t'):
+def cut(f=0, sep='\t', ignore_missing_column=True):
     """
     Return a callable, that extracts a given column from a file with a specific
     separator. TODO: move this into more generic place.
@@ -85,7 +85,10 @@ def cut(f=0, sep='\t'):
     def func(value):
         parts = value.strip().split(sep)
         if f >= len(parts):
-            raise ValueError('cannot split value {} into {} parts'.format(value, f))
+            if ignore_missing_column:
+                return ""
+            else:
+                raise ValueError('cannot split value {} into {} parts'.format(value, f))
         return parts[f]
 
     return func
