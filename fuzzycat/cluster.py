@@ -30,9 +30,9 @@ get_ident_title = operator.itemgetter("ident", "title")
 ws_replacer = str.maketrans({"\t": " ", "\n": " "})
 non_word_re = re.compile(r'[\W_]+', re.UNICODE)
 
-
 # Notes: untie from release_entity, as we are only using a few fields. Maybe
 # it's a jsob blob, with a pydantic spec and schema.
+
 
 def release_key_title(release_entity, get_ident_title=get_ident_title):
     id, title = get_ident_title(release_entity)
