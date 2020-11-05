@@ -14,8 +14,10 @@ import re
 import subprocess
 import sys
 import tempfile
+from typing import Optional
 
 import fuzzy
+from pydantic import BaseModel
 
 __all__ = [
     "release_key_title",
@@ -26,6 +28,27 @@ __all__ = [
     "Cluster",
 ]
 
+
+class Contrib(BaseModel):
+    """
+    A contributor.
+    """
+    index: Optional[int]
+    raw_name: Optional[str]
+    given_name: Optional[str]
+    surname: Optional[str]
+    role: Optional[str]
+
+
+class KeyDoc(BaseModel):
+    """
+    A document from which we can derive a key, e.g. a release entity.
+    """
+    ident: str
+    title: Optional[str]
+    contribs: Optional[List[Contrib]]
+
+
 get_ident_title = operator.itemgetter("ident", "title")
 ws_replacer = str.maketrans({"\t": " ", "\n": " "})
 non_word_re = re.compile(r'[\W_]+', re.UNICODE)
@@ -34,27 +57,27 @@ non_word_re = re.compile(r'[\W_]+', re.UNICODE)
 # it's a jsob blob, with a pydantic spec and schema.
 
 
-def release_key_title(release_entity, get_ident_title=get_ident_title):
-    id, title = get_ident_title(release_entity)
+def release_key_title(doc: KeyDoc, get_ident_title=get_ident_title):
+    id, title = get_ident_title(doc)
     if not title:
         raise ValueError('title missing')
     title = title.translate(ws_replacer).strip()
     return (id, title)
 
 
-def release_key_title_normalized(release_entity):
-    id, title = release_key_title(release_entity)
+def release_key_title_normalized(doc: KeyDoc):
+    id, title = release_key_title(doc)
     title = re.sub(r'[ ]{2,}', ' ', title)
     title = title.lower()
     return (id, non_word_re.sub('', title))
 
 
-def release_key_title_nysiis(release_entity):
-    id, title = release_key_title(release_entity)
+def release_key_title_nysiis(doc: KeyDoc):
+    id, title = release_key_title(doc)
     return (id, fuzzy.nysiis(title))
 
 
-def release_key_title_authors_ngram(release_entity):
+def release_key_title_authors_ngram(doc: KeyDoc):
     """
     Derive a key from title and authors. Authors in contribs list:
 
