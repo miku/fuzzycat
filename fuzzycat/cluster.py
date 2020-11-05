@@ -151,7 +151,7 @@ class Cluster:
                 try:
                     id, key = keyfunc(json.loads(line))
                     print("{}\t{}".format(id, key), file=tf)
-                except (KeyError, ValueError) as exc:
+                except (KeyError, ValueError):
                     counter["key_extraction_failed"] += 1
                 else:
                     counter["key_ok"] += 1
