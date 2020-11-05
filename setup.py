@@ -27,12 +27,13 @@ with open("README.md", "r") as fh:
         ]},
         install_requires=[
             "elasticsearch>=7",
-            # "fatcat-openapi-client",
             "ftfy",
             "fuzzy",
-            # "simhash",
+            "pydantic",
             "toml",
             "unidecode>=0.10",
+            # "fatcat-openapi-client",
+            # "simhash",
         ],
         extras_require={"dev": [
             "ipython",
