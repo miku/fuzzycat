@@ -51,3 +51,27 @@ $ cat data/sample.json | parallel -j 8 --pipe --roundrobin python -m fuzzycat.ma
 
 Interestingly, the parallel variants detects fewer clusters (because data is
 split and clusters are searched within each batch).
+
+
+## Cluster
+
+```shell
+usage: fuzzycat command [options] cluster [-h] [--prefix PREFIX]
+                                          [--tmpdir TMPDIR] [-P] [-f FILES]
+                                          [-t TYPE]
+                                          {cluster,verify} ...
+
+positional arguments:
+  {cluster,verify}
+    cluster             group entities
+    verify              verify groups
+
+optional arguments:
+  -h, --help            show this help message and exit
+  --prefix PREFIX       temp file prefix
+  --tmpdir TMPDIR       temporary directory
+  -P, --profile         profile program
+  -f FILES, --files FILES
+                        output files
+  -t TYPE, --type TYPE  cluster algorithm: title, tnorm, tnysi
+```
