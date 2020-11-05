@@ -31,6 +31,9 @@ ws_replacer = str.maketrans({"\t": " ", "\n": " "})
 non_word_re = re.compile(r'[\W_]+', re.UNICODE)
 
 
+# Notes: untie from release_entity, as we are only using a few fields. Maybe
+# it's a jsob blob, with a pydantic spec and schema.
+
 def release_key_title(release_entity, get_ident_title=get_ident_title):
     id, title = get_ident_title(release_entity)
     if not title:
@@ -53,7 +56,17 @@ def release_key_title_nysiis(release_entity):
 
 def release_key_title_authors_ngram(release_entity):
     """
-    Derive a key from title and authors.
+    Derive a key from title and authors. Authors in contribs list:
+
+      "contribs": [
+	    {
+	      "index": 0,
+	      "raw_name": "Meise Botanic Garden",
+	      "role": "author"
+	    }
+	],
+
+
     """
     # SS: compare ngram sets?
 
@@ -77,7 +90,9 @@ def sort_by_column(filename, opts="-k 2", fast=True, mode="w", prefix="fuzzycat-
 def group_by(seq, key=None, value=None, comment=""):
     """
     Iterate over lines in filename, group by key (a callable deriving the key
-    from the line), then apply value callable to emit a minimal document.
+    from the line), then apply value callable on the same value to emit a
+    minimal document, containing the key and identifiers belonging to a
+    cluster.
     """
     for k, g in itertools.groupby(seq, key=key):
         doc = {

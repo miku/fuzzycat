@@ -101,6 +101,8 @@ def test_release_key_title_nysiis():
         assert case.output == release_key_title_nysiis(case.input), 'failed case {}'.format(
             case.input)
 
+def test_release_key_title_authors_ngram():
+    pass
 
 def test_sort_by_column():
     with tempfile.NamedTemporaryFile(delete=False, mode="w") as tf:
@@ -146,3 +148,4 @@ def test_group_by():
 
     for case in cases:
         assert case.result == list(group_by(case.seq, case.keyfunc, case.valuefunc))
+
