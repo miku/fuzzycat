@@ -11,6 +11,10 @@ Note: This is currently work-in-progress.
 * [ ] take a release entity database dump as JSON lines and cluster releases
   (according to various algorithms)
 * [ ] take cluster information and run a verification step (misc algorithms)
+* [ ] create a dataset that contains grouping of releases under works
+* [ ] command line tools to generate cache keys, e.g. to match reference
+  strings to release titles (this needs some transparent setup, e.g. filling of
+a cache before ops)
 
 # Usage
 
