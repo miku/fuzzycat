@@ -28,8 +28,7 @@ def run_cluster(args):
     cluster = Cluster(files=args.files,
                       keyfunc=types.get(args.type),
                       tmpdir=args.tmpdir,
-                      prefix=args.prefix,
-                      verbose=args.verbose)
+                      prefix=args.prefix)
     cluster.run()
 
 
@@ -47,7 +46,6 @@ if __name__ == '__main__':
 
     parser.add_argument('--prefix', default='fuzzycat-', help='temp file prefix')
     parser.add_argument('--tmpdir', default=tempfile.gettempdir(), help='temporary directory')
-    parser.add_argument('--verbose', default=False, action='store_true', help='be verbose')
     subparsers = parser.add_subparsers()
 
     sub_cluster = subparsers.add_parser('cluster', help='group entities', parents=[parser])

@@ -128,7 +128,7 @@ class Cluster:
         """
         keyfunc = self.keyfunc  # Save a lookup in loop.
         with tempfile.NamedTemporaryFile(delete=False, mode="w", prefix=self.prefix) as tf:
-            for line in enumerate(fileinput.input(files=self.files))
+            for line in fileinput.input(files=self.files):
                 try:
                     id, key = keyfunc(json.loads(line))
                     print("{}\t{}".format(id, key), file=tf)
