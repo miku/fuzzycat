@@ -12,6 +12,7 @@ Run, e.g. fuzzycat cluster --help for more options. Example:
 
 import argparse
 import logging
+import json
 import sys
 import tempfile
 
@@ -20,6 +21,7 @@ from fuzzycat.cluster import (Cluster, release_key_title, release_key_title_norm
 
 
 def run_cluster(args):
+    logger = logging.getLogger('main.run_cluster')
     types = {
         'title': release_key_title,
         'tnorm': release_key_title_normalized,
@@ -29,15 +31,18 @@ def run_cluster(args):
                       keyfunc=types.get(args.type),
                       tmpdir=args.tmpdir,
                       prefix=args.prefix)
-    cluster.run()
-
+    stats = cluster.run()
+    logger.debug(json.dumps(stats))
 
 def run_verify(args):
     print('verify')
 
 
 if __name__ == '__main__':
-    logging.basicConfig(level=logging.DEBUG)
+    logging.basicConfig(
+        level=logging.DEBUG,
+        format='%(asctime)s.%(msecs)03d %(levelname)s %(module)s - %(funcName)s: %(message)s',
+        datefmt='%Y-%m-%d %H:%M:%S')
     parser = argparse.ArgumentParser(prog='fuzzycat',
                                      description=__doc__,
                                      usage='%(prog)s command [options]',

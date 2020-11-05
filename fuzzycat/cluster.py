@@ -3,6 +3,7 @@
 Clustering stage.
 """
 
+import collections
 import fileinput
 import itertools
 import json
@@ -30,7 +31,7 @@ ws_replacer = str.maketrans({"\t": " ", "\n": " "})
 non_word_re = re.compile(r'[\W_]+', re.UNICODE)
 
 
-def release_key_title(release_entity):
+def release_key_title(release_entity, get_ident_title=get_ident_title):
     id, title = get_ident_title(release_entity)
     if not title:
         raise ValueError('title missing')
@@ -129,20 +130,26 @@ class Cluster:
         Run clustering and write output to given stream or file.
         """
         keyfunc = self.keyfunc  # Save a lookup in loop.
+        counter = collections.Counter()
         with tempfile.NamedTemporaryFile(delete=False, mode="w", prefix=self.prefix) as tf:
             for line in fileinput.input(files=self.files):
                 try:
                     id, key = keyfunc(json.loads(line))
                     print("{}\t{}".format(id, key), file=tf)
-                except (KeyError, ValueError):
+                except (KeyError, ValueError) as exc:
+                    counter["key_extraction_failed"] += 1
                     continue
-        self.logger.debug("intermediate file at {}".format(tf.name))
+                else:
+                    counter["key_ok"] += 1
         sbc = sort_by_column(tf.name, opts='-k 2', prefix=self.prefix, tmpdir=self.tmpdir)
         with open(sbc) as f:
             comment = keyfunc.__name__
             for doc in group_by(f, key=cut(f=1), value=cut(f=0), comment=comment):
+                counter["groups"] += 1
                 json.dump(doc, self.output)
                 self.output.write("\n")
 
         os.remove(sbc)
         os.remove(tf.name)
+
+        return counter
