@@ -21,4 +21,4 @@ importlib-metadata = "==1.7.0"
 pydantic = "*"
 
 [requires]
-python_version = "3.5"
+python_version = "3.7"
