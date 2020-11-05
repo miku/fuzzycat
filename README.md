@@ -20,7 +20,7 @@ Release clusters start with release entities json lines.
 $ cat data/sample.json | python -m fuzzycat.main cluster -t title > out.json
 ```
 
-Clustering 100k records takes about 6s.
+Clustering 1M records (single core) takes about 64s (15K docs/s).
 
 ```shell
 $ head -1 out.json
