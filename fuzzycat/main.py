@@ -11,10 +11,15 @@ Run, e.g. fuzzycat cluster --help for more options. Example:
 """
 
 import argparse
+import cProfile as profile
+import io
 import logging
-import json
+import pstats
+# import json
 import sys
 import tempfile
+
+import orjson as json
 
 from fuzzycat.cluster import (Cluster, release_key_title, release_key_title_normalized,
                               release_key_title_nysiis)
@@ -32,7 +37,8 @@ def run_cluster(args):
                       tmpdir=args.tmpdir,
                       prefix=args.prefix)
     stats = cluster.run()
-    logger.debug(json.dumps(stats))
+    logger.debug(json.dumps(dict(stats)))
+
 
 def run_verify(args):
     print('verify')
@@ -51,6 +57,7 @@ if __name__ == '__main__':
 
     parser.add_argument('--prefix', default='fuzzycat-', help='temp file prefix')
     parser.add_argument('--tmpdir', default=tempfile.gettempdir(), help='temporary directory')
+    parser.add_argument('-P', '--profile', action='store_true', help='profile program')
     subparsers = parser.add_subparsers()
 
     sub_cluster = subparsers.add_parser('cluster', help='group entities', parents=[parser])
@@ -69,4 +76,16 @@ if __name__ == '__main__':
         print(__doc__, file=sys.stderr)
         sys.exit(1)
 
+    if args.profile:
+        logging.disable(logging.DEBUG)
+        pr = profile.Profile()
+        pr.enable()
+
     args.func(args)
+
+    if args.profile:
+        pr.disable()
+        s = io.StringIO()
+        ps = pstats.Stats(pr, stream=s).sort_stats('cumulative')
+        ps.print_stats()
+        print(s.getvalue(), file=sys.stderr)
