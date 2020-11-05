@@ -107,7 +107,7 @@ def cut(f=0, sep='\t', ignore_missing_column=True):
 
 class Cluster:
     """
-    Cluster scaffold for release entities.
+    Cluster scaffold for release entities. XXX: move IO/files out, allow any iterable.
     """
     def __init__(self,
                  files="-",
