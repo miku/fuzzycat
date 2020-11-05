@@ -153,7 +153,6 @@ class Cluster:
                     print("{}\t{}".format(id, key), file=tf)
                 except (KeyError, ValueError) as exc:
                     counter["key_extraction_failed"] += 1
-                    continue
                 else:
                     counter["key_ok"] += 1
         sbc = sort_by_column(tf.name, opts='-k 2', prefix=self.prefix, tmpdir=self.tmpdir)
