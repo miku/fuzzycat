@@ -6,13 +6,13 @@ Clustering stage.
 import fileinput
 import itertools
 import json
+import logging
 import operator
 import os
 import re
 import subprocess
 import sys
 import tempfile
-import logging
 
 import fuzzy
 
@@ -28,6 +28,7 @@ __all__ = [
 get_ident_title = operator.itemgetter("ident", "title")
 ws_replacer = str.maketrans({"\t": " ", "\n": " "})
 non_word_re = re.compile(r'[\W_]+', re.UNICODE)
+
 
 def release_key_title(release_entity):
     id, title = get_ident_title(release_entity)
@@ -48,12 +49,12 @@ def release_key_title_nysiis(release_entity):
     id, title = release_key_title(release_entity)
     return (id, fuzzy.nysiis(title))
 
+
 def release_key_title_authors_ngram(release_entity):
     """
     Derive a key from title and authors.
     """
     # SS: compare ngram sets?
-
 
 
 def sort_by_column(filename, opts="-k 2", fast=True, mode="w", prefix="fuzzycat-", tmpdir=None):
@@ -81,8 +82,9 @@ def group_by(seq, key=None, value=None, comment=""):
         doc = {
             "k": k.strip(),
             "v": [value(v) for v in g],
-            "c": comment,
         }
+        if comment:
+            doc["c"] = comment
         yield doc
 
 

@@ -11,9 +11,9 @@ Run, e.g. fuzzycat cluster --help for more options. Example:
 """
 
 import argparse
+import logging
 import sys
 import tempfile
-import logging
 
 from fuzzycat.cluster import (Cluster, release_key_title, release_key_title_normalized,
                               release_key_title_nysiis)
