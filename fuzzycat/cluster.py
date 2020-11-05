@@ -111,8 +111,7 @@ class Cluster:
                  output=sys.stdout,
                  keyfunc=lambda v: v,
                  prefix='fuzzycat-',
-                 tmpdir=None,
-                 verbose=False):
+                 tmpdir=None):
         """
         Files can be a list of files or "-" for stdin.
         """
@@ -129,9 +128,7 @@ class Cluster:
         """
         keyfunc = self.keyfunc  # Save a lookup in loop.
         with tempfile.NamedTemporaryFile(delete=False, mode="w", prefix=self.prefix) as tf:
-            for i, line in enumerate(fileinput.input(files=self.files)):
-                if self.verbose and i % 100000 == 0:
-                    print("{}".format(i), file=sys.stderr)
+            for line in enumerate(fileinput.input(files=self.files))
                 try:
                     id, key = keyfunc(json.loads(line))
                     print("{}\t{}".format(id, key), file=tf)
