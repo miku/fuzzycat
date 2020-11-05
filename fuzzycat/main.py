@@ -13,6 +13,7 @@ Run, e.g. fuzzycat cluster --help for more options. Example:
 import argparse
 import sys
 import tempfile
+import logging
 
 from fuzzycat.cluster import (Cluster, release_key_title, release_key_title_normalized,
                               release_key_title_nysiis)
@@ -37,6 +38,7 @@ def run_verify(args):
 
 
 if __name__ == '__main__':
+    logging.basicConfig(level=logging.DEBUG)
     parser = argparse.ArgumentParser(prog='fuzzycat',
                                      description=__doc__,
                                      usage='%(prog)s command [options]',

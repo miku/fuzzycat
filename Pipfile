@@ -9,6 +9,7 @@ yapf = "*"
 ipython = "*"
 twine = "*"
 fuzzycat = {editable = true, path = "."}
+pytest = "*"
 
 [packages]
 elasticsearch = "*"

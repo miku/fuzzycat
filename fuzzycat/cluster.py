@@ -12,6 +12,7 @@ import re
 import subprocess
 import sys
 import tempfile
+import logging
 
 import fuzzy
 
@@ -21,29 +22,38 @@ __all__ = [
     "release_key_title_nysiis",
     "sort_by_column",
     "group_by",
+    "Cluster",
 ]
 
 get_ident_title = operator.itemgetter("ident", "title")
 ws_replacer = str.maketrans({"\t": " ", "\n": " "})
 non_word_re = re.compile(r'[\W_]+', re.UNICODE)
 
-
-def release_key_title(re):
-    id, title = get_ident_title(re)
+def release_key_title(release_entity):
+    id, title = get_ident_title(release_entity)
     if not title:
         raise ValueError('title missing')
     title = title.translate(ws_replacer).strip()
     return (id, title)
 
 
-def release_key_title_normalized(re):
-    id, title = release_key_title(re)
+def release_key_title_normalized(release_entity):
+    id, title = release_key_title(release_entity)
+    title = re.sub(r'[ ]{2,}', ' ', title)
+    title = title.lower()
     return (id, non_word_re.sub('', title))
 
 
-def release_key_title_nysiis(re):
-    id, title = release_key_title(re)
+def release_key_title_nysiis(release_entity):
+    id, title = release_key_title(release_entity)
     return (id, fuzzy.nysiis(title))
+
+def release_key_title_authors_ngram(release_entity):
+    """
+    Derive a key from title and authors.
+    """
+    # SS: compare ngram sets?
+
 
 
 def sort_by_column(filename, opts="-k 2", fast=True, mode="w", prefix="fuzzycat-", tmpdir=None):
@@ -62,19 +72,18 @@ def sort_by_column(filename, opts="-k 2", fast=True, mode="w", prefix="fuzzycat-
     return tf.name
 
 
-def group_by(filename, key=None, value=None, comment=""):
+def group_by(seq, key=None, value=None, comment=""):
     """
     Iterate over lines in filename, group by key (a callable deriving the key
     from the line), then apply value callable to emit a minimal document.
     """
-    with open(filename) as f:
-        for k, g in itertools.groupby(f, key=key):
-            doc = {
-                "k": k.strip(),
-                "v": [value(v) for v in g],
-                "c": comment,
-            }
-            yield doc
+    for k, g in itertools.groupby(seq, key=key):
+        doc = {
+            "k": k.strip(),
+            "v": [value(v) for v in g],
+            "c": comment,
+        }
+        yield doc
 
 
 def cut(f=0, sep='\t', ignore_missing_column=True):
@@ -87,8 +96,7 @@ def cut(f=0, sep='\t', ignore_missing_column=True):
         if f >= len(parts):
             if ignore_missing_column:
                 return ""
-            else:
-                raise ValueError('cannot split value {} into {} parts'.format(value, f))
+            raise ValueError('cannot split value {} into {} parts'.format(value, f))
         return parts[f]
 
     return func
@@ -113,7 +121,7 @@ class Cluster:
         self.output = output
         self.prefix = prefix
         self.tmpdir = tmpdir
-        self.verbose = verbose
+        self.logger = logging.getLogger('fuzzycat.cluster')
 
     def run(self):
         """
@@ -129,11 +137,12 @@ class Cluster:
                     print("{}\t{}".format(id, key), file=tf)
                 except (KeyError, ValueError):
                     continue
-        if self.verbose:
-            print(tf.name, file=sys.stderr)
+        self.logger.debug("intermediate file at {}".format(tf.name))
         sbc = sort_by_column(tf.name, opts='-k 2', prefix=self.prefix, tmpdir=self.tmpdir)
-        for doc in group_by(sbc, key=cut(f=1), value=cut(f=0), comment=keyfunc.__name__):
-            json.dump(doc, self.output)
+        with open(sbc) as f:
+            comment = keyfunc.__name__
+            for doc in group_by(f, key=cut(f=1), value=cut(f=0), comment=comment):
+                json.dump(doc, self.output)
 
         os.remove(sbc)
         os.remove(tf.name)

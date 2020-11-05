@@ -29,6 +29,10 @@ dist: ## Create source distribution and wheel
 cov: ## Run coverage report
 	pytest --cov=fuzzycat tests/
 
+.PHONY: test
+test: ## Run coverage report
+	pytest -v tests/
+
 .PHONY: lint
 lint: $(PY_FILES)
 	pylint fuzzycat
