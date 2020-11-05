@@ -14,7 +14,7 @@ import re
 import subprocess
 import sys
 import tempfile
-from typing import Optional
+from typing import List, Optional
 
 import fuzzy
 from pydantic import BaseModel
