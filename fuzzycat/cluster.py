@@ -49,6 +49,14 @@ class KeyDoc(BaseModel):
     contribs: Optional[List[Contrib]]
 
 
+class MapResult(BaseModel):
+    """
+    Result of deriving a key from a doc.
+    """
+    id: str
+    value: str
+
+
 get_ident_title = operator.itemgetter("ident", "title")
 ws_replacer = str.maketrans({"\t": " ", "\n": " "})
 non_word_re = re.compile(r'[\W_]+', re.UNICODE)
@@ -57,7 +65,7 @@ non_word_re = re.compile(r'[\W_]+', re.UNICODE)
 # it's a jsob blob, with a pydantic spec and schema.
 
 
-def release_key_title(doc: KeyDoc, get_ident_title=get_ident_title):
+def release_key_title(doc: KeyDoc) -> MapResult:
     id, title = get_ident_title(doc)
     if not title:
         raise ValueError('title missing')
@@ -65,19 +73,19 @@ def release_key_title(doc: KeyDoc, get_ident_title=get_ident_title):
     return (id, title)
 
 
-def release_key_title_normalized(doc: KeyDoc):
+def release_key_title_normalized(doc: KeyDoc) -> MapResult:
     id, title = release_key_title(doc)
     title = re.sub(r'[ ]{2,}', ' ', title)
     title = title.lower()
     return (id, non_word_re.sub('', title))
 
 
-def release_key_title_nysiis(doc: KeyDoc):
+def release_key_title_nysiis(doc: KeyDoc) -> MapResult:
     id, title = release_key_title(doc)
     return (id, fuzzy.nysiis(title))
 
 
-def release_key_title_authors_ngram(doc: KeyDoc):
+def release_key_title_authors_ngram(doc: KeyDoc) -> MapResult:
     """
     Derive a key from title and authors. Authors in contribs list:
 
