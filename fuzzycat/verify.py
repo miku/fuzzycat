@@ -24,6 +24,8 @@ store, or some other cache
 
 """
 
+import requests
+
 
 def fetch_release_entity(ident, api="https://api.fatcat.wiki/v0"):
     """

@@ -37,6 +37,10 @@ test: ## Run coverage report
 lint: $(PY_FILES)
 	pylint fuzzycat
 
+.PHONY: mypy
+mypy:
+	mypy --strict $$(find fuzzycat -name "*py")
+
 .PHONY: clean
 clean: ## Clean all artifacts
 	rm -rf build

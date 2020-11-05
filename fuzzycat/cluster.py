@@ -14,7 +14,7 @@ import re
 import subprocess
 import sys
 import tempfile
-from typing import List, Optional
+from typing import Any, Callable, Dict, Generator, List, Optional, Tuple
 
 import fuzzy
 from pydantic import BaseModel
@@ -49,14 +49,6 @@ class KeyDoc(BaseModel):
     contribs: Optional[List[Contrib]]
 
 
-class MapResult(BaseModel):
-    """
-    Result of deriving a key from a doc.
-    """
-    id: str
-    value: str
-
-
 get_ident_title = operator.itemgetter("ident", "title")
 ws_replacer = str.maketrans({"\t": " ", "\n": " "})
 non_word_re = re.compile(r'[\W_]+', re.UNICODE)
@@ -65,7 +57,7 @@ non_word_re = re.compile(r'[\W_]+', re.UNICODE)
 # it's a jsob blob, with a pydantic spec and schema.
 
 
-def release_key_title(doc: KeyDoc) -> MapResult:
+def release_key_title(doc: KeyDoc) -> Tuple[str, str]:
     id, title = get_ident_title(doc)
     if not title:
         raise ValueError('title missing')
@@ -73,19 +65,19 @@ def release_key_title(doc: KeyDoc) -> MapResult:
     return (id, title)
 
 
-def release_key_title_normalized(doc: KeyDoc) -> MapResult:
+def release_key_title_normalized(doc: KeyDoc) -> Tuple[str, str]:
     id, title = release_key_title(doc)
     title = re.sub(r'[ ]{2,}', ' ', title)
     title = title.lower()
     return (id, non_word_re.sub('', title))
 
 
-def release_key_title_nysiis(doc: KeyDoc) -> MapResult:
+def release_key_title_nysiis(doc: KeyDoc) -> Tuple[str, str]:
     id, title = release_key_title(doc)
     return (id, fuzzy.nysiis(title))
 
 
-def release_key_title_authors_ngram(doc: KeyDoc) -> MapResult:
+def release_key_title_authors_ngram(doc: KeyDoc) -> Tuple[str, str]:
     """
     Derive a key from title and authors. Authors in contribs list:
 
@@ -102,7 +94,12 @@ def release_key_title_authors_ngram(doc: KeyDoc) -> MapResult:
     # SS: compare ngram sets?
 
 
-def sort_by_column(filename, opts="-k 2", fast=True, mode="w", prefix="fuzzycat-", tmpdir=None):
+def sort_by_column(filename: str,
+                   opts: str = "-k 2",
+                   fast: bool = True,
+                   mode: str = "w",
+                   prefix: str = "fuzzycat-",
+                   tmpdir: Optional[str] = None):
     """
     Sort tabular file with sort(1), returns the filename of the sorted file.
     TODO: use separate /fast/tmp for sort.
@@ -118,7 +115,10 @@ def sort_by_column(filename, opts="-k 2", fast=True, mode="w", prefix="fuzzycat-
     return tf.name
 
 
-def group_by(seq, key=None, value=None, comment=""):
+def group_by(seq: collections.abc.Iterable,
+             key: Callable[[Any], str] = None,
+             value: Callable[[Any], str] = None,
+             comment: str = "") -> Generator[Any, None, None]:
     """
     Iterate over lines in filename, group by key (a callable deriving the key
     from the line), then apply value callable on the same value to emit a
@@ -135,7 +135,7 @@ def group_by(seq, key=None, value=None, comment=""):
         yield doc
 
 
-def cut(f=0, sep='\t', ignore_missing_column=True):
+def cut(f: int = 0, sep: str = '\t', ignore_missing_column: bool = True):
     """
     Return a callable, that extracts a given column from a file with a specific
     separator. TODO: move this into more generic place.
@@ -176,7 +176,7 @@ class Cluster:
         Run clustering and write output to given stream or file.
         """
         keyfunc = self.keyfunc  # Save a lookup in loop.
-        counter = collections.Counter()
+        counter: Dict[str, int] = collections.Counter()
         with tempfile.NamedTemporaryFile(delete=False, mode="w", prefix=self.prefix) as tf:
             for line in fileinput.input(files=self.files):
                 try:
