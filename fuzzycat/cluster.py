@@ -143,6 +143,7 @@ class Cluster:
             comment = keyfunc.__name__
             for doc in group_by(f, key=cut(f=1), value=cut(f=0), comment=comment):
                 json.dump(doc, self.output)
+                self.output.write("\n")
 
         os.remove(sbc)
         os.remove(tf.name)
