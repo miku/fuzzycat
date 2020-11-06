@@ -3,6 +3,7 @@ Build auxiliary data structures.
 """
 
 import fileinput
+import operator
 import sqlite3
 import string
 import sys
@@ -80,37 +81,24 @@ class NgramLookup:
 
     Need to write out all data, the sort, the finalize as db.
     """
-    def __init__(self, files="-", output="data.db"):
+    def __init__(self, files="-", output="data.db", n=3):
         self.files = files
         self.output = output
-        self.stopwords = stopwords.words('english') + list(string.punctuation) + ["'", '"', "''"]
+        self.stopwords = stopwords.words('english') + list(
+            string.punctuation) + ["'", '"', "''", "``", "'s", "→"]
+        self.n = n
 
     def run(self):
-        _, filename = tempfile.mkstemp()
-        with sqlitedb(filename) as cursor:
-            cursor.execute("""
-CREATE TABLE IF NOT EXISTS sslookup (
-    id INTEGER PRIMARY KEY,
-	title_prefix TEXT, title_suffix TEXT, contribs TEXT);
-            """)
-            cursor.execute("CREATE INDEX idx_sslookup_title ON sslookup (title_prefix, title_suffix);")
-            cursor.execute("CREATE INDEX idx_sslookup_title_prefix ON sslookup (title_prefix);")
-            cursor.execute("CREATE INDEX idx_sslookup_title_suffix ON sslookup (title_suffix);")
-
-        print("temp db at {}".format(filename))
-        with sqlitedb(filename) as cursor:
-            batch = []
-            for i, line in enumerate(fileinput.input(files=self.files)):
-                if i % 10000 == 0:
-                    print("@{} inserting batch {}".format(i, len(batch), file=sys.stderr))
-                    cursor.executemany("insert into sslookup(title_prefix, title_suffix) values(?, ?)", batch)
-                try:
-                    doc = json.loads(line)
-                    title = doc["title"]
-                    tokens = [tok for tok in word_tokenize(title.lower()) if tok not in self.stopwords]
-                    # self.output.write(json.dumps(tokens).decode("utf-8") + "\n")
-                    prefix = "-".join(tokens[:3])
-                    suffix = "-".join(tokens[-3:])
-                    batch.append((prefix, suffix))
-                except KeyError:
-                    print("skipping doc w/o title: {}".format(line), file=sys.stderr)
+        fast_fields = operator.itemgetter("ident", "title")
+        for i, line in enumerate(fileinput.input(files=self.files)):
+            if i % 10000 == 0:
+                print("@{}".format(i), file=sys.stderr)
+            try:
+                doc = json.loads(line)
+                id, title = fast_fields(doc)
+                tokens = [tok for tok in word_tokenize(title.lower()) if tok not in self.stopwords]
+                prefix = "-".join(tokens[:self.n])
+                suffix = "-".join(tokens[-self.n:])
+                print("{}\t{}\t{}".format(id, prefix, suffix))
+            except KeyError as exc:
+                print("skipping doc w/o title: {} - {}".format(line, exc), file=sys.stderr)
