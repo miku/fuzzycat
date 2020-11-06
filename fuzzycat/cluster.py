@@ -81,15 +81,16 @@ def release_key_title_authors_ngram(doc: KeyDoc) -> Tuple[str, str]:
     """
     Derive a key from title and authors. Authors in contribs list:
 
-      "contribs": [
-	    {
-	      "index": 0,
-	      "raw_name": "Meise Botanic Garden",
-	      "role": "author"
-	    }
-	],
+    "contribs": [
+        {
+            "index": 0,
+            "raw_name": "Meise Botanic Garden",
+            "role": "author"
+        }
+    ],
 
-
+    Tokenize title, remote stopwords, lookup first three, lookup last three,
+    plus authors.
     """
     # SS: compare ngram sets?
 

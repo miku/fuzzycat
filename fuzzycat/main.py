@@ -21,6 +21,7 @@ import tempfile
 
 import orjson as json
 
+from fuzzycat.build import NgramLookup, TitleTokenList
 from fuzzycat.cluster import (Cluster, release_key_title, release_key_title_normalized,
                               release_key_title_nysiis)
 
@@ -44,6 +45,17 @@ def run_verify(args):
     print('verify')
 
 
+def run_build(args):
+    if args.type == "ss":
+        builder = NgramLookup(files=args.files, output=args.output)
+        builder.run()
+    elif args.type == "tt":
+        builder = TitleTokenList(files=args.files, output=args.output)
+        builder.run()
+    else:
+        raise NotImplementedError()
+
+
 if __name__ == '__main__':
     logging.basicConfig(
         level=logging.DEBUG,
@@ -62,7 +74,7 @@ if __name__ == '__main__':
 
     sub_cluster = subparsers.add_parser('cluster', help='group entities', parents=[parser])
     sub_cluster.set_defaults(func=run_cluster)
-    sub_cluster.add_argument('-f', '--files', default="-", help='output files')
+    sub_cluster.add_argument('-f', '--files', default="-", help='input files')
     sub_cluster.add_argument('-t',
                              '--type',
                              default='title',
@@ -70,6 +82,16 @@ if __name__ == '__main__':
 
     sub_verify = subparsers.add_parser('verify', help='verify groups', parents=[parser])
     sub_verify.set_defaults(func=run_verify)
+
+    sub_build = subparsers.add_parser('build', help='build auxiliary databases', parents=[parser])
+    sub_build.add_argument('-f', '--files', default="-", help='input files')
+    sub_build.add_argument('-t', '--type', default="ss", help='type of database to build')
+    sub_build.add_argument('-o',
+                           '--output',
+                           type=argparse.FileType('w'),
+                           default=sys.stdout,
+                           help='output file')
+    sub_build.set_defaults(func=run_build)
 
     args = parser.parse_args()
     if not args.__dict__.get("func"):
