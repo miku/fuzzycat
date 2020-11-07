@@ -90,9 +90,7 @@ class NgramLookup:
 
     def run(self):
         fast_fields = operator.itemgetter("ident", "title")
-        for i, line in enumerate(fileinput.input(files=self.files)):
-            if i % 10000 == 0:
-                print("@{}".format(i), file=sys.stderr)
+        for line in fileinput.input(files=self.files):
             try:
                 doc = json.loads(line)
                 id, title = fast_fields(doc)
