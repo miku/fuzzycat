@@ -97,6 +97,6 @@ class NgramLookup:
                 tokens = [tok for tok in word_tokenize(title.lower()) if tok not in self.stopwords]
                 prefix = "-".join(tokens[:self.n])
                 suffix = "-".join(tokens[-self.n:])
-                print("{}\t{}\t{}\t{}-{}".format(id, prefix, suffix, prefix, suffix))
+                print("{}\t{}-{}".format(id, prefix, suffix))
             except KeyError as exc:
                 print("skipping doc w/o title: {} - {}".format(line, exc), file=sys.stderr)
