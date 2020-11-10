@@ -53,7 +53,7 @@ class KeyDoc(BaseModel):
 get_ident_title = operator.itemgetter("ident", "title")
 ws_replacer = str.maketrans({"\t": " ", "\n": " "})
 non_word_re = re.compile(r'[\W_]+', re.UNICODE)
-printable_no_punct = string.digits + string.letters + string.whitespace
+printable_no_punct = string.digits + string.ascii_letters + string.whitespace
 
 
 def slugify_string(s: str) -> str:
