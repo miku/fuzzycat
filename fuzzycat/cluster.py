@@ -102,7 +102,7 @@ def release_key_title_ngram(doc: KeyDoc, n=3) -> Tuple[str, str]:
     plus authors. TODO(miku): authors.
     """
     ident, title = get_ident_title(doc)
-    slug_title = slug_title(title)
+    slug_title = slugify_string(title)
     tokens = slug_title.split()
     if len(tokens) < 2 * n:
         key = ''.join(tokens)
