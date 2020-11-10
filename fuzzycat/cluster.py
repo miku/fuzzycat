@@ -49,6 +49,21 @@ class KeyDoc(BaseModel):
     title: Optional[str]
     contribs: Optional[List[Contrib]]
 
+class ClusterResult(BaseModel):
+    """
+    Result of clustering.
+
+    XXX: We could also include the complete document, that would keep it simple
+    at the expense of a few more things to read.
+    """
+    key: str
+    values: List[str]
+    comment: str
+    ids: str
+    title: str
+    contribs: str
+    year: str
+
 
 get_ident_title = operator.itemgetter("ident", "title")
 ws_replacer = str.maketrans({"\t": " ", "\n": " "})
