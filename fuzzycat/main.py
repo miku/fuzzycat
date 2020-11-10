@@ -32,6 +32,7 @@ def run_cluster(args):
         'title': release_key_title,
         'tnorm': release_key_title_normalized,
         'tnysi': release_key_title_nysiis,
+        'tss': release_key_title_ngram,
     }
     cluster = Cluster(files=args.files,
                       keyfunc=types.get(args.type),
@@ -42,10 +43,16 @@ def run_cluster(args):
 
 
 def run_verify(args):
+    """
+    TODO.
+    """
     print('verify')
 
 
 def run_build(args):
+    """
+    Trying out.
+    """
     if args.type == "ss":
         builder = NgramLookup(files=args.files, output=args.output)
         builder.run()

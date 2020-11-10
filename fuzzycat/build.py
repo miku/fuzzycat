@@ -1,5 +1,5 @@
 """
-Build auxiliary data structures.
+WIP: Build auxiliary data structures for lookup.
 """
 
 import fileinput

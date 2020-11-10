@@ -52,32 +52,38 @@ class KeyDoc(BaseModel):
 get_ident_title = operator.itemgetter("ident", "title")
 ws_replacer = str.maketrans({"\t": " ", "\n": " "})
 non_word_re = re.compile(r'[\W_]+', re.UNICODE)
+printable_no_punct = string.digits + string.letters + string.whitespace
+
+def slugify_string(s: str) -> str:
+    """
+    Keeps ascii chars and single whitespace only.
+    """
+    return ''.join((c for c in s.lower() if c in printable_no_punct))
 
 # Notes: untie from release_entity, as we are only using a few fields. Maybe
 # it's a jsob blob, with a pydantic spec and schema.
 
 
 def release_key_title(doc: KeyDoc) -> Tuple[str, str]:
-    id, title = get_ident_title(doc)
+    ident, title = get_ident_title(doc)
     if not title:
-        raise ValueError('title missing')
+        raise ValueError('title missing for {}'.format(ident))
     title = title.translate(ws_replacer).strip()
-    return (id, title)
+    return (ident, title)
 
 
 def release_key_title_normalized(doc: KeyDoc) -> Tuple[str, str]:
-    id, title = release_key_title(doc)
-    title = re.sub(r'[ ]{2,}', ' ', title)
-    title = title.lower()
-    return (id, non_word_re.sub('', title))
+    ident, title = release_key_title(doc)
+    title = re.sub(r'[ ]{2,}', ' ', title).lower()
+    return (ident, non_word_re.sub('', title))
 
 
 def release_key_title_nysiis(doc: KeyDoc) -> Tuple[str, str]:
-    id, title = release_key_title(doc)
-    return (id, fuzzy.nysiis(title))
+    ident, title = release_key_title(doc)
+    return (ident, fuzzy.nysiis(title))
 
 
-def release_key_title_authors_ngram(doc: KeyDoc) -> Tuple[str, str]:
+def release_key_title_ngram(doc: KeyDoc, n=3) -> Tuple[str, str]:
     """
     Derive a key from title and authors. Authors in contribs list:
 
@@ -90,10 +96,16 @@ def release_key_title_authors_ngram(doc: KeyDoc) -> Tuple[str, str]:
     ],
 
     Tokenize title, remote stopwords, lookup first three, lookup last three,
-    plus authors.
+    plus authors. TODO(miku): authors.
     """
-    # SS: compare ngram sets?
-
+    ident, title = get_ident_title(doc)
+    slug_title = slug_title(title)
+    tokens = slug_title.split()
+    if len(tokens) < 2 * n:
+        key = ''.join(tokens)
+    else:
+        key = ''.join(tokens[:3] + tokens[-3:])
+    return (ident, key)
 
 def sort_by_column(filename: str,
                    opts: str = "-k 2",
