@@ -1,6 +1,60 @@
 # pylint: disable=C0103
 """
 Clustering stage.
+
+* [ ] verify needs whole document
+* [ ] parallelization misses groups
+* [ ] cached match key store (sqlite3), something ~/.cache/...
+* [ ] reproducibly run test
+* [ ] place for put md record tests
+
+----
+
+* [ ] hadoop -> py (bn)
+* [ ] gnu parallel, share command line -- note (bn)
+
+----
+
+Ideas:
+
+* lookup potential matches; TSV [key, ...]; sort
+* maybe new "schema" - size vs "common schema" -- key <TAB> {"bibjson": ...}
+* merge-join
+
+```
+$ fuzzycat.main keygen -s "algo" < ours | sort -k1,1 > a.tsv
+$ fuzzycat.main keygen -s "algo" < other | sort -k1,1 > b.tsv
+$ merge-join a.tsv b.tsv
+```
+
+A couple of "keygen" algos.
+
+> 10k/s, 1B, ~day
+
+Partial fields should be ok.
+
+Q:
+
+* nysiis
+
+Deps.
+
+* pydantic; json "omitempty" -- get rid of it?
+* orjson (serialize datetime) -- maybe enough w/ dataclasses w/ dataclasses
+
+fuzzycat.main -> `__main__.py`
+
+* elasticsearch-py >> elasticsearch
+
+Matching releases to non-release entities.
+
+----
+
+Features and integration.
+
+* work grouping at import time; random pdfs; requires strong verification (vs cgraph)
+* email out to OCI
+
 """
 
 import collections
