@@ -11,6 +11,7 @@ import logging
 import operator
 import os
 import re
+import string
 import subprocess
 import sys
 import tempfile
@@ -54,11 +55,13 @@ ws_replacer = str.maketrans({"\t": " ", "\n": " "})
 non_word_re = re.compile(r'[\W_]+', re.UNICODE)
 printable_no_punct = string.digits + string.letters + string.whitespace
 
+
 def slugify_string(s: str) -> str:
     """
     Keeps ascii chars and single whitespace only.
     """
     return ''.join((c for c in s.lower() if c in printable_no_punct))
+
 
 # Notes: untie from release_entity, as we are only using a few fields. Maybe
 # it's a jsob blob, with a pydantic spec and schema.
@@ -106,6 +109,7 @@ def release_key_title_ngram(doc: KeyDoc, n=3) -> Tuple[str, str]:
     else:
         key = ''.join(tokens[:3] + tokens[-3:])
     return (ident, key)
+
 
 def sort_by_column(filename: str,
                    opts: str = "-k 2",
