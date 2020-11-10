@@ -85,7 +85,7 @@ if __name__ == '__main__':
     sub_cluster.add_argument('-t',
                              '--type',
                              default='title',
-                             help='cluster algorithm: title, tnorm, tnysi')
+                             help='cluster algorithm: title, tnorm, tnysi, tss')
 
     sub_verify = subparsers.add_parser('verify', help='verify groups', parents=[parser])
     sub_verify.set_defaults(func=run_verify)
