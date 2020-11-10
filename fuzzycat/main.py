@@ -15,16 +15,15 @@ import cProfile as profile
 import io
 import logging
 import pstats
-# import json
 import sys
 import tempfile
+import fileinput
 
 import orjson as json
 
 from fuzzycat.build import NgramLookup, TitleTokenList
 from fuzzycat.cluster import (Cluster, release_key_title, release_key_title_normalized,
                               release_key_title_nysiis, release_key_title_ngram)
-
 
 def run_cluster(args):
     logger = logging.getLogger('main.run_cluster')
@@ -44,9 +43,11 @@ def run_cluster(args):
 
 def run_verify(args):
     """
-    TODO.
+    TODO. Ok, we should not fetch data we have on disk (at the clustering
+    step).
     """
-    print('verify')
+    for line in fileinput.input(files=args.files):
+        pass
 
 
 def run_build(args):
@@ -88,6 +89,7 @@ if __name__ == '__main__':
                              help='cluster algorithm: title, tnorm, tnysi, tss')
 
     sub_verify = subparsers.add_parser('verify', help='verify groups', parents=[parser])
+    sub_verify.add_argument('-f', '--files', default="-", help='input files')
     sub_verify.set_defaults(func=run_verify)
 
     sub_build = subparsers.add_parser('build', help='build auxiliary databases', parents=[parser])

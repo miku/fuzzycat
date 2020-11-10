@@ -21,22 +21,7 @@ Further steps:
 * fetch all releases, this might be via API, search index, some local key value
 store, or some other cache
 * apply various rules, return match status
+* alternatively: have a few more fields in the intermediate representation (to
+keep operation local)
 
 """
-
-import requests
-
-
-def fetch_release_entity(ident, api="https://api.fatcat.wiki/v0"):
-    """
-    Fetches a single release entity.
-    """
-    link = "https://api.fatcat.wiki/v0/release/{}".format(ident)
-    return requests.get(link).json()
-
-
-def ident_to_release_entities(ids):
-    """
-    Turn a list of ids into release entities.
-    """
-    return [fetch_release_entity(id) for id in ids]
