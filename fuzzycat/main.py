@@ -12,18 +12,20 @@ Run, e.g. fuzzycat cluster --help for more options. Example:
 
 import argparse
 import cProfile as profile
+import fileinput
 import io
 import logging
 import pstats
 import sys
 import tempfile
-import fileinput
 
 import orjson as json
 
 from fuzzycat.build import NgramLookup, TitleTokenList
-from fuzzycat.cluster import (Cluster, release_key_title, release_key_title_normalized,
-                              release_key_title_nysiis, release_key_title_ngram)
+from fuzzycat.cluster import (Cluster, release_key_title, release_key_title_ngram,
+                              release_key_title_normalized, release_key_title_nysiis,
+                              release_key_title_sandcrawler)
+
 
 def run_cluster(args):
     logger = logging.getLogger('main.run_cluster')
@@ -32,6 +34,7 @@ def run_cluster(args):
         'tnorm': release_key_title_normalized,
         'tnysi': release_key_title_nysiis,
         'tss': release_key_title_ngram,
+        'tsandcrawler': release_key_title_sandcrawler,
     }
     key_denylist = None
     if args.key_denylist:
