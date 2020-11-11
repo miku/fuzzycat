@@ -133,3 +133,7 @@ dmypy.json
 /names.db
 /tmp
 fixtures/cluster_title_normalized_dups_size_keylen.tsv
+
+# Text Editors
+*~
+*.swp
