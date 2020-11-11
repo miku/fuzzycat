@@ -4,8 +4,8 @@ Clustering stage.
 
 * [ ] verify needs whole document
 * [ ] parallelization misses groups
-* [ ] cached match key store (sqlite3), something ~/.cache/...
-* [ ] reproducibly run test
+* [ ] cached match key store (tsv, sqlite3), something ~/.cache/...
+* [ ] reproducibly run tests
 * [ ] place for put md record tests
 
 ----
@@ -72,7 +72,7 @@ import tempfile
 from typing import Any, Callable, Dict, Generator, List, Optional, Tuple
 
 import fuzzy
-from pydantic import BaseModel
+from dataclasses import dataclass, field
 
 __all__ = [
     "release_key_title",
@@ -84,7 +84,8 @@ __all__ = [
 ]
 
 
-class Contrib(BaseModel):
+@dataclass
+class Contrib:
     """
     A contributor.
     """
@@ -94,29 +95,25 @@ class Contrib(BaseModel):
     surname: Optional[str]
     role: Optional[str]
 
-
-class KeyDoc(BaseModel):
+@dataclass
+class KeyDoc:
     """
     A document from which we can derive a key, e.g. a release entity.
     """
     ident: str
-    title: Optional[str]
-    contribs: Optional[List[Contrib]]
+    title: str
+    contribs: List[Contrib] = field(default_factory=list)
 
-class ClusterResult(BaseModel):
+@dataclass
+class ClusterResult:
     """
-    Result of clustering.
+    Result of clustering, one key and a list of
 
-    XXX: We could also include the complete document, that would keep it simple
-    at the expense of a few more things to read.
+    A first approach: pass document through.
     """
     key: str
-    values: List[str]
     comment: str
-    ids: str
-    title: str
-    contribs: str
-    year: str
+    docs: List[Any] = field(default_factory=list)
 
 
 get_ident_title = operator.itemgetter("ident", "title")

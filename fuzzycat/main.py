@@ -19,8 +19,6 @@ import sys
 import tempfile
 import fileinput
 
-import orjson as json
-
 from fuzzycat.build import NgramLookup, TitleTokenList
 from fuzzycat.cluster import (Cluster, release_key_title, release_key_title_normalized,
                               release_key_title_nysiis, release_key_title_ngram)
