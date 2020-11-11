@@ -186,8 +186,17 @@ SANDCRAWLER_CHAR_MAP = {
     '\N{Latin small letter t with stroke}': 't',
 
     # bnewbold additions
-    'μ': 'u',
+    '\N{MICRO SIGN}': 'u',
+    '\N{LATIN SMALL LETTER C}': 'c',
+    '\N{LATIN SMALL LETTER F WITH HOOK}': 'f',
+    # bnewbold map-to-null (for non-printing stuff not in the regex)
+    '\N{PARTIAL DIFFERENTIAL}': '',
     '\N{LATIN LETTER INVERTED GLOTTAL STOP}': '',
+    '\N{N-ARY SUMMATION}': '',
+    '\N{N-ARY PRODUCT}': '',
+    '\N{MODIFIER LETTER CIRCUMFLEX ACCENT}': '',
+    '\N{SNOWMAN}': '',
+    '\N{CARON}': '',
 }
 
 SANDCRAWLER_PREFIX_REMOVE = [
@@ -199,7 +208,8 @@ SANDCRAWLER_PREFIX_REMOVE = [
 
 # regex that matches all characters which should be removed
 SANDCRAWLER_REMOVE_CHAR_REGEX = regex.compile(
-    r"[\s\p{Punct}\p{M}\p{InCombiningDiacriticalMarks}’·“”‘’“”«»「」¿–±§_`°ʖ©®¤]")
+    r"[\s\p{Punctuation}\p{M}\p{InCombiningDiacriticalMarks}\u2000-\u206F\u2E00-\u2E7F’·“”‘’“”«»「」¿–±§_`°ʖ©®¤=<>|+$^~≈√∫≤≥÷ƒ∆¬£¢∞¥◊€]"
+)
 
 
 def sandcrawler_slugify(raw: str) -> str:
@@ -217,7 +227,7 @@ def sandcrawler_slugify(raw: str) -> str:
     slug = slug.replace("&apos;", "'")
 
     # iterate over all chars and replace from map, if in map; then lower-case again
-    slug = ''.join([(c in SANDCRAWLER_CHAR_MAP and SANDCRAWLER_CHAR_MAP[c]) or c for c in slug])
+    slug = ''.join([SANDCRAWLER_CHAR_MAP.get(c, c) for c in slug])
 
     # early bailout before executing regex
     if not slug:
@@ -241,32 +251,53 @@ def test_sandcrawler_slugify() -> None:
         ("علمية", "علمية"),
         ("期刊的数字", "期刊的数字"),
         ("les pré-impressions explorées à partir", "lespreimpressionsexploreesapartir"),
-        ("μmeter", "umeter"),
+
+        # "MICRO SIGN"
+        ("\xb5meter", "umeter"),
+        # "GREEK SMALL LETTER MU"
+        ("\u03bcmeter", "\u03bcmeter"),
+
         # TODO: ("salt &and; pepper", "saltpepper"),
         # TODO: ("new <b>and</b> improved", "newandimproved"),
 
         # some via https://github.com/minimaxir/big-list-of-naughty-strings/blob/master/blns.txt
-        ("¡™£¢∞§¶•ªº–≠ ", "tm£¢∞ao="),
-        ("⁰⁴⁵₀₁₂", "045012"),
-        ("社會科學院語學研究所", "社會科學院語學研究所"),
+        ("-9223372036854775808/-1", "92233720368547758081"),
+        (r",./;'[]\-= <>?:\"{}|_+ !@#$%^&*()`~", ""),
+        (" \n\r \x85 \u1680\u2002\u2003\u2002\u2003\u2004\u2005\u2006\u2007\u2008\u2009\u200a\u200b\u202f\u205f\u3000",
+         ""),
+        (r"Ω≈ç√∫˜≤≥÷", "ωc"),
+        (r"åß∂ƒ©˙∆˚¬…æ", "asfae"),
+        (r"œ∑´®†¥¨ˆøπ“‘", "oeoπ"),
+        (r"¡™£¢∞§¶•ªº–≠ ", "tmao"),
+        (r"¸˛Ç◊ı˜Â¯˘¿", "cia"),
+        (r"ÅÍÎÏ˝ÓÔÒÚÆ☃", "aiiiooouae"),
+        (r"Œ„´‰ˇÁ¨ˆØ∏”’", "oeao"),
+        (r"`⁄€‹›ﬁﬂ‡°·‚—±", "fifl"),
+        (r"ЁЂЃЄЅІЇЈЉЊЋЌЍЎЏАБВГДЕЖЗИЙКЛМНОПРСТУФХЦЧШЩЪЫЬЭЮЯабвгдежзийклмнопрстуфхцчшщъыьэюя",
+         "еђгєѕііјљњћкиуџабвгдежзииклмнопрстуфхцчшщъыьэюяабвгдежзииклмнопрстуфхцчшщъыьэюя"),
+        (r"⁰⁴⁵₀₁₂", "045012"),
+        (r"社會科學院語學研究所", "社會科學院語學研究所"),
         # TODO: ("パーティーへ行かないか", "パーティーへ行かないか"),
         # TODO: ("表ポあA鷗ŒéＢ逍Üßªąñ丂㐀𠀀", "表ポあa鷗oeebＢ逍usaan丂㐀𠀀"),
-        ("( ͡° ͜ʖ ͡°)", ""),
+        (r"( ͡° ͜ʖ ͡°)", ""),
         # emoji ok? I guess
-        ("👾 🙇 💁 🙅 🙆 🙋 🙎 🙍", "👾🙇💁🙅🙆🙋🙎🙍"),
-        ("2️⃣ 3️⃣ 4️⃣ 5️⃣", "2345"),
-        ("﷽ ", "﷽"),
-        ("̗̺͖̹̯͓Ṯ̤͍̥͇͈h̲́e͏͓̼̗̙̼̣͔ ͇̜̱̠͓͍ͅN͕͠e̗̱z̘̝̜̺͙p̤̺̹͍̯͚e̠̻̠͜r̨̤͍̺̖͔̖̖d̠̟̭̬̝͟i̦͖̩͓͔̤a̠̗̬͉̙n͚͜ ̻̞̰͚ͅh̵͉i̳̞v̢͇ḙ͎͟-҉̭̩̼͔m̤̭̫i͕͇̝̦n̗͙ḍ̟ ̯̲͕͞ǫ̟̯̰̲͙̻̝f ̪̰̰̗̖̭̘͘c̦͍̲̞͍̩̙ḥ͚a̮͎̟̙͜ơ̩̹͎s̤.̝̝ ҉Z̡̖̜͖̰̣͉̜a͖̰͙̬͡l̲̫̳͍̩g̡̟̼̱͚̞̬ͅo̗͜.̟",
+        (r"👾 🙇 💁 🙅 🙆 🙋 🙎 🙍", "👾🙇💁🙅🙆🙋🙎🙍"),
+        (r"2️⃣ 3️⃣ 4️⃣ 5️⃣", "2345"),
+        (r"﷽ ", "﷽"),
+        (r"̗̺͖̹̯͓Ṯ̤͍̥͇͈h̲́e͏͓̼̗̙̼̣͔ ͇̜̱̠͓͍ͅN͕͠e̗̱z̘̝̜̺͙p̤̺̹͍̯͚e̠̻̠͜r̨̤͍̺̖͔̖̖d̠̟̭̬̝͟i̦͖̩͓͔̤a̠̗̬͉̙n͚͜ ̻̞̰͚ͅh̵͉i̳̞v̢͇ḙ͎͟-҉̭̩̼͔m̤̭̫i͕͇̝̦n̗͙ḍ̟ ̯̲͕͞ǫ̟̯̰̲͙̻̝f ̪̰̰̗̖̭̘͘c̦͍̲̞͍̩̙ḥ͚a̮͎̟̙͜ơ̩̹͎s̤.̝̝ ҉Z̡̖̜͖̰̣͉̜a͖̰͙̬͡l̲̫̳͍̩g̡̟̼̱͚̞̬ͅo̗͜.̟",
          "thenezperdianhivemindofchaoszalgo"),
-        ("Ｔｈｅ ｑｕｉｃｋ ｂｒｏｗｎ ｆｏｘ ｊｕｍｐｓ ｏｖｅｒ ｔｈｅ ｌａｚｙ ｄｏｇ", "thequickbrownfoxjumpsoverthelazydog"),
-        ("Ｔｈｅ ｑｕｉｃｋ ｂｒｏｗｎ ｆｏｘ ｊｕｍｐｓ ｏｖｅｒ ｔｈｅ ｌａｚｙ ｄｏｇ", "thequickbrownfoxjumpsoverthelazydog"),
-        ("𝕋𝕙𝕖 𝕢𝕦𝕚𝕔𝕜 𝕓𝕣𝕠𝕨𝕟 𝕗𝕠𝕩 𝕛𝕦𝕞𝕡𝕤 𝕠𝕧𝕖𝕣 𝕥𝕙𝕖 𝕝𝕒𝕫𝕪 𝕕𝕠𝕘 ", "thequickbrownfoxjumpsoverthelazydog"),
+        (r"Ｔｈｅ ｑｕｉｃｋ ｂｒｏｗｎ ｆｏｘ ｊｕｍｐｓ ｏｖｅｒ ｔｈｅ ｌａｚｙ ｄｏｇ", "thequickbrownfoxjumpsoverthelazydog"),
+        (r"Ｔｈｅ ｑｕｉｃｋ ｂｒｏｗｎ ｆｏｘ ｊｕｍｐｓ ｏｖｅｒ ｔｈｅ ｌａｚｙ ｄｏｇ", "thequickbrownfoxjumpsoverthelazydog"),
+        (r"𝕋𝕙𝕖 𝕢𝕦𝕚𝕔𝕜 𝕓𝕣𝕠𝕨𝕟 𝕗𝕠𝕩 𝕛𝕦𝕞𝕡𝕤 𝕠𝕧𝕖𝕣 𝕥𝕙𝕖 𝕝𝕒𝕫𝕪 𝕕𝕠𝕘 ", "thequickbrownfoxjumpsoverthelazydog"),
     ]
 
     for in_str, out_str in test_cases:
         if sandcrawler_slugify(in_str) != out_str:
             for c in list(sandcrawler_slugify(in_str)):
-                print(unicodedata.name(c))
+                try:
+                    print(unicodedata.name(c))
+                except ValueError:
+                    print(ord(c))
                 #print(ord(c))
             print("----")
             for c in list(out_str):
