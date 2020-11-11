@@ -23,6 +23,7 @@ pydantic = "*"
 tokenizers = "*"
 spacy = "*"
 nltk = "*"
+regex = "*"
 
 [requires]
 python_version = "3.7"
