@@ -272,6 +272,9 @@ class Cluster:
                 except (KeyError, ValueError):
                     counter["key_extraction_failed"] += 1
                     continue
+                if not key:
+                    counter["key_empty"] += 1
+                    continue
                 if self.key_denylist and key in self.key_denylist:
                     counter["key_denylist"] += 1
                     continue
