@@ -246,6 +246,7 @@ class Cluster:
                  output=sys.stdout,
                  keyfunc=lambda v: v,
                  prefix='fuzzycat-',
+                 key_denylist=None,
                  tmpdir=None):
         """
         Files can be a list of files or "-" for stdin.
@@ -256,6 +257,7 @@ class Cluster:
         self.prefix = prefix
         self.tmpdir = tmpdir
         self.logger = logging.getLogger('fuzzycat.cluster')
+        self.key_denylist = key_denylist
 
     def run(self):
         """
@@ -266,12 +268,15 @@ class Cluster:
         with tempfile.NamedTemporaryFile(delete=False, mode="w", prefix=self.prefix) as tf:
             for line in fileinput.input(files=self.files):
                 try:
-                    id, key = keyfunc(json.loads(line))
-                    print("{}\t{}".format(id, key), file=tf)
+                    ident, key = keyfunc(json.loads(line))
                 except (KeyError, ValueError):
                     counter["key_extraction_failed"] += 1
-                else:
-                    counter["key_ok"] += 1
+                    continue
+                if self.key_denylist and key in self.key_denylist:
+                    counter["key_denylist"] += 1
+                    continue
+                counter["key_ok"] += 1
+                print("{}\t{}".format(ident, key), file=tf)
         sbc = sort_by_column(tf.name, opts='-k 2', prefix=self.prefix, tmpdir=self.tmpdir)
         with open(sbc) as f:
             comment = keyfunc.__name__

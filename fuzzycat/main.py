@@ -33,9 +33,14 @@ def run_cluster(args):
         'tnysi': release_key_title_nysiis,
         'tss': release_key_title_ngram,
     }
+    key_denylist = None
+    if args.key_denylist:
+        with open(args.key_denylist, 'r') as f:
+            key_denylist = [l.strip() for l in f.readlines()]
     cluster = Cluster(files=args.files,
                       keyfunc=types.get(args.type),
                       tmpdir=args.tmpdir,
+                      key_denylist=key_denylist,
                       prefix=args.prefix)
     stats = cluster.run()
     logger.debug(json.dumps(dict(stats)))
@@ -83,6 +88,7 @@ if __name__ == '__main__':
     sub_cluster = subparsers.add_parser('cluster', help='group entities', parents=[parser])
     sub_cluster.set_defaults(func=run_cluster)
     sub_cluster.add_argument('-f', '--files', default="-", help='input files')
+    sub_cluster.add_argument('--key-denylist', help='file path to key denylist')
     sub_cluster.add_argument('-t',
                              '--type',
                              default='title',
