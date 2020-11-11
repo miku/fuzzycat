@@ -69,10 +69,10 @@ import string
 import subprocess
 import sys
 import tempfile
+from dataclasses import dataclass, field
 from typing import Any, Callable, Dict, Generator, List, Optional, Tuple
 
 import fuzzy
-from dataclasses import dataclass, field
 
 __all__ = [
     "release_key_title",
@@ -95,6 +95,7 @@ class Contrib:
     surname: Optional[str]
     role: Optional[str]
 
+
 @dataclass
 class KeyDoc:
     """
@@ -103,6 +104,7 @@ class KeyDoc:
     ident: str
     title: str
     contribs: List[Contrib] = field(default_factory=list)
+
 
 @dataclass
 class ClusterResult:

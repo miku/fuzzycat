@@ -12,16 +12,18 @@ Run, e.g. fuzzycat cluster --help for more options. Example:
 
 import argparse
 import cProfile as profile
+import fileinput
+import json
 import io
 import logging
 import pstats
 import sys
 import tempfile
-import fileinput
 
 from fuzzycat.build import NgramLookup, TitleTokenList
-from fuzzycat.cluster import (Cluster, release_key_title, release_key_title_normalized,
-                              release_key_title_nysiis, release_key_title_ngram)
+from fuzzycat.cluster import (Cluster, release_key_title, release_key_title_ngram,
+                              release_key_title_normalized, release_key_title_nysiis)
+
 
 def run_cluster(args):
     logger = logging.getLogger('main.run_cluster')
@@ -44,8 +46,7 @@ def run_verify(args):
     TODO. Ok, we should not fetch data we have on disk (at the clustering
     step).
     """
-    for line in fileinput.input(files=args.files):
-        pass
+    pass
 
 
 def run_build(args):

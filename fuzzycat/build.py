@@ -3,13 +3,13 @@ WIP: Build auxiliary data structures for lookup.
 """
 
 import fileinput
+import json
 import operator
 import sqlite3
 import string
 import sys
 import tempfile
 
-import orjson as json
 from nltk import word_tokenize
 from nltk.corpus import stopwords
 
