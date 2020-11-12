@@ -150,21 +150,16 @@ def release_key_title_normalized(doc: KeyDoc) -> Tuple[str, str]:
 
 
 def release_key_title_nysiis(doc: KeyDoc) -> Tuple[str, str]:
+    """
+    Use NYSIIS New York State Identification and Intelligence System.
+    """
     ident, title = release_key_title(doc)
     return (ident, fuzzy.nysiis(title))
 
 
 def release_key_title_ngram(doc: KeyDoc, n=3) -> Tuple[str, str]:
     """
-    Derive a key from title and authors. Authors in contribs list:
-
-    "contribs": [
-        {
-            "index": 0,
-            "raw_name": "Meise Botanic Garden",
-            "role": "author"
-        }
-    ],
+    Derive a key from title.
 
     Tokenize title, remote stopwords, lookup first three, lookup last three,
     plus authors. TODO(miku): authors.
@@ -223,6 +218,8 @@ class Cluster:
     def run(self):
         """
         First map documents to keys, then group by keys.
+
+        Outline: json -> tsv -> sort -> group -> json
         """
         with tempfile.NamedTemporaryFile(delete=False, mode="w", prefix=self.prefix) as tf:
             for line in self.iterable:
@@ -242,7 +239,7 @@ class Cluster:
         try:
             sf = self.sort(tf.name, opts='-k 2')
             with open(sf) as f:
-                for doc in self.group_by(f, key=cut(f=1), value=cut(f=0)):
+                for doc in self.group_by(f, key=cut(f=1)):
                     self.counter["num_clusters"] += 1
                     json.dump(doc, self.output)
                     self.output.write("\n")
@@ -270,15 +267,21 @@ class Cluster:
 
     def group_by(self,
                  seq: collections.abc.Iterable,
-                 key: Callable[[Any], str] = None,
-                 value: Callable[[Any], str] = None) -> Generator[Any, None, None]:
+                 key: Callable[[Any], str] = None) -> Generator[Any, None, None]:
         """
         Extract a key from elements of an iterable and group them. Just as
         uniq(1), the iterable must be ordered for this to work.
         """
         for k, g in itertools.groupby(seq, key=key):
+            items = list(g)
+            payload = []
+            for line in items:
+                fields = line.split("\t")
+                if len(fields) < 3:
+                    continue
+                payload.append(json.loads(fields[2]))
             doc = {
                 "k": k.strip(),
-                "v": [value(v) for v in g],
+                "v": payload,
             }
             yield doc
