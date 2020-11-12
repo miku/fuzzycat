@@ -16,7 +16,7 @@ deps: ## Install dependencies from setup.py into pipenv
 	pipenv install --pre '-e .[dev]'
 
 .PHONY: style
-style: ## Apply import sorting and black source formatting on all files
+style: ## Apply import sorting and yapf source formatting on all files
 	isort --atomic fuzzycat/*
 	yapf -p -i -r fuzzycat/*
 	yapf -p -i -r tests
@@ -27,11 +27,11 @@ dist: ## Create source distribution and wheel
 
 .PHONY: cov
 cov: ## Run coverage report
-	pytest --cov=fuzzycat tests/
+	pytest --cov=fuzzycat fuzzycat/*.py tests/
 
 .PHONY: test
 test: ## Run coverage report
-	pytest -v tests/
+	pytest -v fuzzycat/*.py tests/
 
 .PHONY: lint
 lint: $(PY_FILES)

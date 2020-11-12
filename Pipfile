@@ -20,6 +20,7 @@ importlib-metadata = "==1.7.0"
 tokenizers = "*"
 spacy = "*"
 nltk = "*"
+regex = "*"
 
 [requires]
 python_version = "3.7"

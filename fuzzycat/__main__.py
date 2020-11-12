@@ -20,9 +20,9 @@ import pstats
 import sys
 import tempfile
 
-from fuzzycat.build import NgramLookup, TitleTokenList
 from fuzzycat.cluster import (Cluster, release_key_title, release_key_title_ngram,
-                              release_key_title_normalized, release_key_title_nysiis)
+                              release_key_title_normalized, release_key_title_nysiis,
+                              release_key_title_sandcrawler)
 
 
 def run_cluster(args):
@@ -32,10 +32,16 @@ def run_cluster(args):
         'tnorm': release_key_title_normalized,
         'tnysi': release_key_title_nysiis,
         'tss': release_key_title_ngram,
+        'tsandcrawler': release_key_title_sandcrawler,
     }
+    key_denylist = None
+    if args.key_denylist:
+        with open(args.key_denylist, 'r') as f:
+            key_denylist = [l.strip() for l in f.readlines()]
     cluster = Cluster(iterable=fileinput.input(args.files),
                       key=types.get(args.type),
                       tmpdir=args.tmpdir,
+                      key_denylist=key_denylist,
                       prefix=args.prefix)
     stats = cluster.run()
     logger.debug(json.dumps(dict(stats)))
@@ -47,20 +53,6 @@ def run_verify(args):
     step).
     """
     pass
-
-
-def run_build(args):
-    """
-    Trying out.
-    """
-    if args.type == "ss":
-        builder = NgramLookup(files=args.files, output=args.output)
-        builder.run()
-    elif args.type == "tt":
-        builder = TitleTokenList(files=args.files, output=args.output)
-        builder.run()
-    else:
-        raise NotImplementedError()
 
 
 if __name__ == '__main__':
@@ -82,24 +74,15 @@ if __name__ == '__main__':
     sub_cluster = subparsers.add_parser('cluster', help='group entities', parents=[parser])
     sub_cluster.set_defaults(func=run_cluster)
     sub_cluster.add_argument('-f', '--files', default="-", help='input files')
+    sub_cluster.add_argument('--key-denylist', help='file path to key denylist')
     sub_cluster.add_argument('-t',
                              '--type',
                              default='title',
-                             help='cluster algorithm: title, tnorm, tnysi, tss')
+                             help='cluster algorithm: title, tnorm, tnysi, tss, tsandcrawler')
 
     sub_verify = subparsers.add_parser('verify', help='verify groups', parents=[parser])
     sub_verify.add_argument('-f', '--files', default="-", help='input files')
     sub_verify.set_defaults(func=run_verify)
-
-    sub_build = subparsers.add_parser('build', help='build auxiliary databases', parents=[parser])
-    sub_build.add_argument('-f', '--files', default="-", help='input files')
-    sub_build.add_argument('-t', '--type', default="ss", help='type of database to build')
-    sub_build.add_argument('-o',
-                           '--output',
-                           type=argparse.FileType('w'),
-                           default=sys.stdout,
-                           help='output file')
-    sub_build.set_defaults(func=run_build)
 
     args = parser.parse_args()
     if not args.__dict__.get("func"):
