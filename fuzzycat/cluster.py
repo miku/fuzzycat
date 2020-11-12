@@ -276,6 +276,7 @@ class Cluster:
             items = list(g)
             payload = []
             for line in items:
+                # XXX: This is a bit too much "serde", get rid of this.
                 fields = line.split("\t")
                 if len(fields) < 3:
                     continue
