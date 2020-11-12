@@ -13,8 +13,8 @@ Run, e.g. fuzzycat cluster --help for more options. Example:
 import argparse
 import cProfile as profile
 import fileinput
-import json
 import io
+import json
 import logging
 import pstats
 import sys
@@ -33,8 +33,8 @@ def run_cluster(args):
         'tnysi': release_key_title_nysiis,
         'tss': release_key_title_ngram,
     }
-    cluster = Cluster(files=args.files,
-                      keyfunc=types.get(args.type),
+    cluster = Cluster(iterable=fileinput.input(args.files),
+                      key=types.get(args.type),
                       tmpdir=args.tmpdir,
                       prefix=args.prefix)
     stats = cluster.run()
