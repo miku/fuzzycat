@@ -21,7 +21,7 @@ a cache before ops)
 Release clusters start with release entities json lines.
 
 ```shell
-$ cat data/sample.json | python -m fuzzycat.main cluster -t title > out.json
+$ cat data/sample.json | python -m fuzzycat cluster -t title > out.json
 ```
 
 Clustering 1M records (single core) takes about 64s (15K docs/s).
@@ -54,7 +54,7 @@ $ cat data/sample.json | parallel -j 8 --pipe --roundrobin python -m fuzzycat.ma
 ```
 
 Interestingly, the parallel variants detects fewer clusters (because data is
-split and clusters are searched within each batch).
+split and clusters are searched within each batch). TODO(miku): sort out sharding bug.
 
 
 ## Cluster

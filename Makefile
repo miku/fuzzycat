@@ -31,7 +31,7 @@ cov: ## Run coverage report
 
 .PHONY: test
 test: ## Run coverage report
-	pytest -v fuzzycat/*.py tests/
+	pytest -v fuzzycat/*.py tests/*.py
 
 .PHONY: lint
 lint: $(PY_FILES)

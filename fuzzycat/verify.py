@@ -149,7 +149,6 @@ class GroupVerifier:
 
         print(json.dumps(dict(self.counter)))
 
-
     def compare(self, a, b):
         """
         We compare two release entities here.
