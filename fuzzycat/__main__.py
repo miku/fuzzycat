@@ -23,6 +23,7 @@ import tempfile
 from fuzzycat.cluster import (Cluster, release_key_title, release_key_title_ngram,
                               release_key_title_normalized, release_key_title_nysiis,
                               release_key_title_sandcrawler)
+from fuzzycat.verify import GroupVerifier
 
 
 def run_cluster(args):
@@ -52,7 +53,8 @@ def run_verify(args):
     TODO. Ok, we should not fetch data we have on disk (at the clustering
     step).
     """
-    pass
+    gv = GroupVerifier(iterable=fileinput.input(files=args.files))
+    gv.run()
 
 
 if __name__ == '__main__':

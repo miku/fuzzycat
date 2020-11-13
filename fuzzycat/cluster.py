@@ -106,7 +106,6 @@ class KeyDoc:
     """
     ident: str
     title: str
-    contribs: List[Contrib] = field(default_factory=list)
 
 
 @dataclass
@@ -430,7 +429,8 @@ class Cluster:
                  key: Callable[[Any], str] = None) -> Generator[Any, None, None]:
         """
         Extract a key from elements of an iterable and group them. Just as
-        uniq(1), the iterable must be ordered for this to work.
+        uniq(1), the iterable must be ordered (by the key that is extracted)
+        for this to work.
         """
         for k, g in itertools.groupby(seq, key=key):
             items = list(g)
