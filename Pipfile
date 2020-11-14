@@ -11,6 +11,7 @@ twine = "*"
 fuzzycat = {editable = true, path = "."}
 pytest = "*"
 mypy = "*"
+pyyaml = "*"
 
 [packages]
 fuzzy = "*"
