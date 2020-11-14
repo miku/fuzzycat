@@ -39,6 +39,7 @@ get_key_values = operator.itemgetter("k", "v")
 # There titles appear too often, so ignore them for now.
 TITLE_BLACKLIST = set([
     "",
+    "actualités",
     "about this issue",
     "about this journal",
     "abbreviations and acronyms",
