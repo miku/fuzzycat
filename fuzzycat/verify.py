@@ -29,12 +29,21 @@ import collections
 import itertools
 import json
 import operator
+import sys
+from enum import Enum
+
+from fuzzycat.cluster import slugify_string
 
 get_key_values = operator.itemgetter("k", "v")
 
 # There titles appear too often, so ignore them for now.
 TITLE_BLACKLIST = set([
     "",
+    "about this issue",
+    "about this journal",
+    "abbreviations and acronyms",
+    "acknowledgment of reviewers",
+    "abbildung",
     "abstracts",
     "acknowledgements",
     "acknowledgments",
@@ -108,6 +117,39 @@ TITLE_BLACKLIST = set([
 ])
 
 
+class Status(str, Enum):
+    """
+    Match status.
+    """
+    EXACT = 'exact'
+    DIFFERENT = 'different'
+    STRONG = 'strong'
+    WEAK = 'weak'
+    AMBIGUOUS = 'ambigiuous'
+
+
+class OK(str, Enum):
+    """
+    Reason for assuming we have a match.
+    """
+    ARXIV_VERSION = 'ok.arxiv_version'
+    DUMMY = 'ok.dummy'
+    TITLE_AUTHOR_MATCH = 'ok.title_author_match'
+    PREPRINT_PUBLISHED = 'ok.preprint_published'
+
+
+class Miss(str, Enum):
+    """
+    Reasons indicating mismatch.
+    """
+    ARXIV_VERSION = 'miss.arxiv_version'
+    BLACKLISTED = 'miss.blacklisted'
+    CONTRIB_INTERSECTION_EMPTY = 'miss.contrib_intersection_empty'
+    SHORT_TITLE = 'miss.short_title'
+    YEAR = 'miss.year'
+    CUSTOM_VHS = 'miss.vhs' # https://fatcat.wiki/release/44gk5ben5vghljq6twm7lwmxla
+
+
 class GroupVerifier:
     """
     Verifier.
@@ -122,15 +164,12 @@ class GroupVerifier:
     def __init__(self, iterable: collections.abc.Iterable, max_cluster_size: int = 10):
         self.iterable: collections.abc.Iterable = iterable
         self.max_cluster_size: int = 10
-        self.counter = collections.Counter({
-            "unique": 0,
-            "too_large": 0,
-        })
+        self.counter = collections.Counter()
 
     def run(self):
         for i, line in enumerate(self.iterable):
             if i % 20000 == 0:
-                print(i)
+                print(i, file=sys.stderr)
             line = line.strip()
             if not line:
                 continue
@@ -143,46 +182,60 @@ class GroupVerifier:
                 self.counter["too_large"] += 1
                 continue
             for a, b in itertools.combinations(vs, r=2):
-                result = self.compare(a, b)
-                # print(a.get("ident"), b.get("ident"), result)
-                # print(a.get("title")[:30], " ---- ", b.get("title")[:20])
+                result, reason = compare(a, b)
+                self.counter[reason] += 1
+                print("https://fatcat.wiki/release/{}".format(a["ident"]),
+                      "https://fatcat.wiki/release/{}".format(b["ident"]), result, reason)
 
-        print(json.dumps(dict(self.counter)))
+        self.counter["total"] = sum(v for _, v in self.counter.items())
+        print(json.dumps(dict(self.counter)), file=sys.stderr)
 
-    def compare(self, a, b):
-        """
-        We compare two release entities here.
 
-        * ext_ids.doi
-        * contribs
-        * is the title meaningful enough, is it too common, too short
-        * files share a sha1
-        * arxiv versions
-        """
-        if len(a.get("title")) < 5:
-            self.counter["short_title"] += 1
-            return False
-        if a.get("title", "").lower() in TITLE_BLACKLIST:
-            self.counter["blacklist"] += 1
-            return False
+def compare(a, b):
+    """
+    Compare two entities, return match status.
+    """
+    if len(a.get("title", "")) < 5:
+        return (Status.AMBIGUOUS, Miss.SHORT_TITLE)
+    if a.get("title", "").lower() in TITLE_BLACKLIST:
+        return (Status.AMBIGUOUS, Miss.BLACKLISTED)
 
-        arxiv_id_a = a.get("ext_ids", {}).get("arxiv")
-        arxiv_id_b = b.get("ext_ids", {}).get("arxiv")
-        if arxiv_id_a and arxiv_id_b:
-            id_a, version_a = arxiv_id_a.split("v")
-            id_b, version_b = arxiv_id_b.split("v")
-            if id_a == id_b:
-                self.counter["arxiv_v"] += 1
-                return True
-            else:
-                return False
+    if "Zweckverband Volkshochschule " in a.get("title") and a.get("title") != b.get("title"):
+        return (Status.DIFFERENT, Miss.CUSTOM_VHS)
 
-        a_authors = set([v.get("raw_name") for v in a.get("contribs", [])])
-        b_authors = set([v.get("raw_name") for v in b.get("contribs", [])])
+    arxiv_id_a = a.get("ext_ids", {}).get("arxiv")
+    arxiv_id_b = b.get("ext_ids", {}).get("arxiv")
 
-        if len(a_authors & b_authors) == 0:
-            self.counter["contrib_miss"] += 1
-            return False
+    a_authors = set([v.get("raw_name") for v in a.get("contribs", [])])
+    b_authors = set([v.get("raw_name") for v in b.get("contribs", [])])
+    a_release_year = a.get("release_year")
+    b_release_year = b.get("release_year")
 
-        self.counter["dummy"] += 1
-        return True
+    if a.get("title") == b.get("title"):
+        if a_authors and (a_authors == b_authors):
+            if a_release_year and b_release_year and a_release_year != b_release_year:
+                return (Status.DIFFERENT, Miss.YEAR)
+            return (Status.EXACT, OK.TITLE_AUTHOR_MATCH)
+
+    a_slug_title = slugify_string(a.get("title"))
+    b_slug_title = slugify_string(b.get("title"))
+
+    if a_slug_title and b_slug_title and a_slug_title == b_slug_title:
+        if a_authors and len(a_authors & b_authors) > 0:
+            if arxiv_id_a is not None and arxiv_id_b is None or arxiv_id_a is None and arxiv_id_b is not None:
+                return (Status.STRONG, OK.PREPRINT_PUBLISHED)
+
+    arxiv_id_a = a.get("ext_ids", {}).get("arxiv")
+    arxiv_id_b = b.get("ext_ids", {}).get("arxiv")
+    if arxiv_id_a and arxiv_id_b:
+        id_a, version_a = arxiv_id_a.split("v")
+        id_b, version_b = arxiv_id_b.split("v")
+        if id_a == id_b:
+            return (Status.STRONG, OK.ARXIV_VERSION)
+        else:
+            return (Status.DIFFERENT, Miss.ARXIV_VERSION)
+
+    if a_authors and len(a_authors & b_authors) == 0:
+        return (Status.DIFFERENT, Miss.CONTRIB_INTERSECTION_EMPTY)
+
+    return (Status.AMBIGUOUS, OK.DUMMY)
