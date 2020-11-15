@@ -29,6 +29,7 @@ import collections
 import itertools
 import json
 import operator
+import re
 import sys
 from enum import Enum
 
@@ -148,7 +149,8 @@ class Miss(str, Enum):
     CONTRIB_INTERSECTION_EMPTY = 'miss.contrib_intersection_empty'
     SHORT_TITLE = 'miss.short_title'
     YEAR = 'miss.year'
-    CUSTOM_VHS = 'miss.vhs' # https://fatcat.wiki/release/44gk5ben5vghljq6twm7lwmxla
+    CUSTOM_VHS = 'miss.vhs'  # https://fatcat.wiki/release/44gk5ben5vghljq6twm7lwmxla
+    NUM_DIFF = 'miss.num_diff'
 
 
 class GroupVerifier:
@@ -209,6 +211,8 @@ def compare(a, b):
 
     a_authors = set([v.get("raw_name") for v in a.get("contribs", [])])
     b_authors = set([v.get("raw_name") for v in b.get("contribs", [])])
+    a_slug_authors = set((slugify_string(v) for v in a_authors if v))
+    b_slug_authors = set((slugify_string(v) for v in b_authors if v))
     a_release_year = a.get("release_year")
     b_release_year = b.get("release_year")
 
@@ -218,8 +222,17 @@ def compare(a, b):
                 return (Status.DIFFERENT, Miss.YEAR)
             return (Status.EXACT, OK.TITLE_AUTHOR_MATCH)
 
+    if a.get("title") and a.get("title") == b.get("title"):
+        if a_release_year and b_release_year:
+            if abs(int(a_release_year) - int(b_release_year)) > 2:
+                return (Status.DIFFERENT, Miss.YEAR)
+
     a_slug_title = slugify_string(a.get("title"))
     b_slug_title = slugify_string(b.get("title"))
+
+    if re.search(r'\d', a_slug_title) and a_slug_title != b_slug_title and num_project(
+            a_slug_title) == num_project(b_slug_title):
+        return (Status.DIFFERENT, Miss.NUM_DIFF)
 
     if a_slug_title and b_slug_title and a_slug_title == b_slug_title:
         if a_authors and len(a_authors & b_authors) > 0:
@@ -236,7 +249,18 @@ def compare(a, b):
         else:
             return (Status.DIFFERENT, Miss.ARXIV_VERSION)
 
-    if a_authors and len(a_authors & b_authors) == 0:
+    if a_authors and len(a_slug_authors & b_slug_authors) == 0:
         return (Status.DIFFERENT, Miss.CONTRIB_INTERSECTION_EMPTY)
 
     return (Status.AMBIGUOUS, OK.DUMMY)
+
+
+def num_project(s):
+    """
+    Cf. https://fatcat.wiki/release/6b5yupd7bfcw7gp73hjoavbgfq,
+    https://fatcat.wiki/release/7hgzqz3hrngq7omtwdxz4qx34u
+
+    Unify every occurence of a digit (or group of digits).
+    """
+    return re.sub('\d+', '<NUM>', s)
+
