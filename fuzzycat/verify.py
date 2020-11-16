@@ -41,14 +41,20 @@ get_key_values = operator.itemgetter("k", "v")
 TITLE_BLACKLIST = set([
     "",
     ":{unav)",
-    "Positions Available",
+    "Abbildungsnachweis",
     "[others]",
     "[s.n.]",
     "a correction",
     "abbildung",
     "abbreviations and acronyms",
+    "about the cover",
+    "about the editor",
+    "about the editors",
     "about this issue",
     "about this journal",
+    "about this title",
+    "abréviations",
+    "abstracts of papers to appear in future issues",
     "abstracts",
     "acknowledgement of reviewers",
     "acknowledgements to reviewers",
@@ -59,15 +65,21 @@ TITLE_BLACKLIST = set([
     "agradecimento",
     "announcement",
     "announcements",
+    "around the world",
     "arthrobacter sp.",
+    "aufgaben",
     "author index",
+    "author response image 1. author response",
     "back matter",
     "backmatter",
     "bibliography",
     "book review",
     "book reviews",
     "books received",
+    "bookseller's catalogue",
     "calendar",
+    "canto",
+    "canto",
     "conclusion",
     "conclusions",
     "contents",
@@ -87,22 +99,30 @@ TITLE_BLACKLIST = set([
     "front cover",
     "front matter",
     "frontmatter",
+    "fundraising",
     "gbif occurrence download",
     "in this issue",
     "index",
     "inhalt",
+    "interlude",
     "introduction",
     "issue information",
     "letter to the editor",
     "letters to the editor",
+    "list of delegates",
     "masthead",
+    "methotrexate",
     "miscellany",
+    "news section",
     "news",
     "not available",
+    "note of appreciation / note de reconnaissance",
     "notes",
     "occurrence download",
     "oup accepted manuscript",
+    "parliamentary intelligence",
     "petitions.xlsx",
+    "positions available",
     "preface",
     "preliminary material",
     "preservation image",
@@ -151,6 +171,7 @@ class OK(str, Enum):
     DUMMY = 'ok.dummy'
     TITLE_AUTHOR_MATCH = 'ok.title_author_match'
     PREPRINT_PUBLISHED = 'ok.preprint_published'
+    SLUG_TITLE_AUTHOR_MATCH = 'ok.slug_title_author_match'
 
 
 class Miss(str, Enum):
@@ -189,12 +210,6 @@ class GroupVerifier:
             if not line:
                 continue
             doc = json.loads(line)
-            if doc.get("extra", {}).get("container_name", "").lower() in CONTAINER_NAME_BLACKLIST:
-                self.counter["skip.container_name_blacklist"] += 1
-                continue
-            if doc.get("publisher", "").lower() in PUBLISHER_BLACKLIST:
-                self.counter["skip.publisher_blacklist"] += 1
-                continue
             k, vs = get_key_values(doc)
             if len(vs) < 2:
                 self.counter["skip.unique"] += 1
@@ -203,6 +218,18 @@ class GroupVerifier:
                 self.counter["skip.too_large"] += 1
                 continue
             for a, b in itertools.combinations(vs, r=2):
+                if a.get("extra", {}).get("container_name", "").lower().strip() in CONTAINER_NAME_BLACKLIST:
+                    self.counter["skip.container_name_blacklist"] += 1
+                    continue
+                if b.get("extra", {}).get("container_name", "").lower().strip() in CONTAINER_NAME_BLACKLIST:
+                    self.counter["skip.container_name_blacklist"] += 1
+                    continue
+                if a.get("publisher", "").lower().strip() in PUBLISHER_BLACKLIST:
+                    self.counter["skip.publisher_blacklist"] += 1
+                    continue
+                if b.get("publisher", "").lower().strip() in PUBLISHER_BLACKLIST:
+                    self.counter["skip.publisher_blacklist"] += 1
+                    continue
                 result, reason = compare(a, b)
                 self.counter[reason] += 1
                 print("https://fatcat.wiki/release/{}".format(a["ident"]),
@@ -233,7 +260,7 @@ def compare(a, b):
     a_release_year = a.get("release_year")
     b_release_year = b.get("release_year")
 
-    if a.get("title") == b.get("title"):
+    if a.get("title", "").lower() == b.get("title", "").lower():
         if a_authors and (a_authors == b_authors):
             if a_release_year and b_release_year and a_release_year != b_release_year:
                 return (Status.DIFFERENT, Miss.YEAR)
@@ -255,6 +282,10 @@ def compare(a, b):
         if a_authors and len(a_authors & b_authors) > 0:
             if arxiv_id_a is not None and arxiv_id_b is None or arxiv_id_a is None and arxiv_id_b is not None:
                 return (Status.STRONG, OK.PREPRINT_PUBLISHED)
+
+    if a_slug_title and b_slug_title and a_slug_title.strip().replace(" ", "") == b_slug_title.strip().replace(" ", ""):
+        if len(a_slug_authors & b_slug_authors) > 0:
+            return (Status.STRONG, OK.SLUG_TITLE_AUTHOR_MATCH)
 
     arxiv_id_a = a.get("ext_ids", {}).get("arxiv")
     arxiv_id_b = b.get("ext_ids", {}).get("arxiv")
