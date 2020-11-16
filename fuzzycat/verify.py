@@ -40,15 +40,23 @@ get_key_values = operator.itemgetter("k", "v")
 # There titles appear too often, so ignore them for now.
 TITLE_BLACKLIST = set([
     "",
-    "actualités",
+    ":{unav)",
+    "Positions Available",
+    "[others]",
+    "[s.n.]",
+    "a correction",
+    "abbildung",
+    "abbreviations and acronyms",
     "about this issue",
     "about this journal",
-    "abbreviations and acronyms",
-    "acknowledgment of reviewers",
-    "abbildung",
     "abstracts",
+    "acknowledgement of reviewers",
+    "acknowledgements to reviewers",
     "acknowledgements",
+    "acknowledgment of reviewers",
     "acknowledgments",
+    "actualités",
+    "agradecimento",
     "announcement",
     "announcements",
     "arthrobacter sp.",
@@ -71,8 +79,8 @@ TITLE_BLACKLIST = set([
     "cover",
     "dedication",
     "discussion",
-    "editorial",
     "editorial board",
+    "editorial",
     "einleitung",
     "erratum",
     "foreword",
@@ -80,20 +88,19 @@ TITLE_BLACKLIST = set([
     "front matter",
     "frontmatter",
     "gbif occurrence download",
+    "in this issue",
     "index",
     "inhalt",
-    "in this issue",
     "introduction",
     "issue information",
-    "letters to the editor",
     "letter to the editor",
+    "letters to the editor",
     "masthead",
     "miscellany",
     "news",
     "not available",
     "notes",
     "occurrence download",
-    "[others]",
     "oup accepted manuscript",
     "petitions.xlsx",
     "preface",
@@ -101,21 +108,27 @@ TITLE_BLACKLIST = set([
     "preservation image",
     "references",
     "reply",
-    "reviews",
     "reviews of books",
+    "reviews",
     "short notices",
-    "[s.n.]",
     "streptomyces sp.",
     "subject index",
     "table of contents",
     "taxonomic abstract for the species.",
     "the applause data release 2",
-    ":{unav)",
     "奥付",
     "投稿規定",
     "目次",
     "表紙",
     "裏表紙",
+])
+
+CONTAINER_NAME_BLACKLIST = set([
+    "crossref listing of deleted dois",
+])
+
+PUBLISHER_BLACKLIST = set([
+    "test accounts",
 ])
 
 
@@ -152,7 +165,6 @@ class Miss(str, Enum):
     CUSTOM_VHS = 'miss.vhs'  # https://fatcat.wiki/release/44gk5ben5vghljq6twm7lwmxla
     NUM_DIFF = 'miss.num_diff'
 
-
 class GroupVerifier:
     """
     Verifier.
@@ -177,12 +189,18 @@ class GroupVerifier:
             if not line:
                 continue
             doc = json.loads(line)
+            if doc.get("extra", {}).get("container_name", "").lower() in CONTAINER_NAME_BLACKLIST:
+                self.counter["skip.container_name_blacklist"] += 1
+                continue
+            if doc.get("publisher", "").lower() in PUBLISHER_BLACKLIST:
+                self.counter["skip.publisher_blacklist"] += 1
+                continue
             k, vs = get_key_values(doc)
             if len(vs) < 2:
-                self.counter["unique"] += 1
+                self.counter["skip.unique"] += 1
                 continue
             if len(vs) > self.max_cluster_size:
-                self.counter["too_large"] += 1
+                self.counter["skip.too_large"] += 1
                 continue
             for a, b in itertools.combinations(vs, r=2):
                 result, reason = compare(a, b)
@@ -192,7 +210,6 @@ class GroupVerifier:
 
         self.counter["total"] = sum(v for _, v in self.counter.items())
         print(json.dumps(dict(self.counter)), file=sys.stderr)
-
 
 def compare(a, b):
     """
