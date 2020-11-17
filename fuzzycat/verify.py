@@ -1574,6 +1574,7 @@ class Miss(str, Enum):
     RELEASE_TYPE = 'miss.release_type'
     CHEM_FORMULA = 'miss.chem_formula'
     SUBTITLE = 'miss.subtitle'
+    BOOK_CHAPTER = 'miss.book_chapter'
 
 
 class GroupVerifier:
@@ -1651,6 +1652,12 @@ def compare(a, b):
                 and a.get("ext_ids", {}).get("doi") != b.get("ext_ids", {}).get("doi")):
             return (Status.DIFFERENT, Miss.DATASET_DOI)
 
+    if (a.get("release_type") == "chapter" and b.get("release_type") == "chapter"
+            and a.get("extra", {}).get("container_name")
+            and b.get("extra", {}).get("container_name") and
+            a.get("extra", {}).get("container_name") != b.get("extra", {}).get("container_name")):
+        return (Status.DIFFERENT, Miss.BOOK_CHAPTER)
+
     arxiv_id_a = a.get("ext_ids", {}).get("arxiv")
     arxiv_id_b = b.get("ext_ids", {}).get("arxiv")
 
@@ -1677,8 +1684,10 @@ def compare(a, b):
     b_slug_title = slugify_string(b.get("title", "")).replace("\n", " ")
 
     if a_slug_title == b_slug_title:
-        for a_sub in a.get("subtitle", []):
-            for b_sub in a.get("subtitle", []):
+        a_subtitles = a.get("extra", {}).get("subtitle", []) or []
+        b_subtitles = b.get("extra", {}).get("subtitle", []) or []
+        for a_sub in a_subtitles:
+            for b_sub in b_subtitles:
                 if slugify_string(a_sub) != slugify_string(b_sub):
                     return (Status.DIFFERENT, Miss.SUBTITLE)
 
