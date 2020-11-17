@@ -39,6 +39,8 @@ get_key_values = operator.itemgetter("k", "v")
 
 # There titles appear too often, so ignore them for now.
 TITLE_BLACKLIST = set([
+    "annual meeting",
+    "an invitation to membership",
     "",
     ":{unav)",
     "[others]",
@@ -63,6 +65,7 @@ TITLE_BLACKLIST = set([
     "acknowledgments",
     "actualités",
     "agradecimento",
+    "all pdfs of this category",
     "announcement",
     "announcements",
     "annual report",
@@ -73,6 +76,7 @@ TITLE_BLACKLIST = set([
     "author response image 1. author response",
     "back matter",
     "backmatter",
+    "bericht",
     "bibliography",
     "book review",
     "book reviews",
@@ -95,6 +99,7 @@ TITLE_BLACKLIST = set([
     "discussion",
     "editorial board",
     "editorial",
+    "educators personally",
     "einleitung",
     "erratum",
     "foreword",
@@ -103,15 +108,20 @@ TITLE_BLACKLIST = set([
     "frontmatter",
     "fundraising",
     "gbif occurrence download",
+    "general medical council",
     "in this issue",
+    "index des auteurs",
     "index",
     "inhalt",
+    "inhalt-impressum",
+    "inhalt.impressum",
     "interlude",
     "introduction",
     "issue information",
     "letter to the editor",
     "letters to the editor",
     "list of delegates",
+    "map projections",
     "masthead",
     "methotrexate",
     "miscellany",
@@ -128,9 +138,11 @@ TITLE_BLACKLIST = set([
     "preface",
     "preliminary material",
     "preservation image",
+    "production",
     "references",
     "regulations",
     "reply",
+    "research items",
     "reviews of books",
     "reviews",
     "short notices",
@@ -138,6 +150,7 @@ TITLE_BLACKLIST = set([
     "subject index",
     "table of contents",
     "taxonomic abstract for the species.",
+    "thank you",
     "the applause data release 2",
     "奥付",
     "投稿規定",
@@ -189,6 +202,7 @@ class Miss(str, Enum):
     CUSTOM_VHS = 'miss.vhs'  # https://fatcat.wiki/release/44gk5ben5vghljq6twm7lwmxla
     NUM_DIFF = 'miss.num_diff'
     DATASET_DOI = 'miss.dataset_doi'
+    RELEASE_TYPE = 'miss.release_type'
 
 class GroupVerifier:
     """
@@ -249,8 +263,11 @@ def compare(a, b):
     if "Zweckverband Volkshochschule " in a.get("title") and a.get("title") != b.get("title"):
         return (Status.DIFFERENT, Miss.CUSTOM_VHS)
 
-    if (a.get("extra", {}).get("crossref", {}).get("type",  {}) == "dataset" and
-        b.get("extra", {}).get("crossref", {}).get("type",  {}) == "dataset"):
+    if a.get("release_type") and b.get("release_type") and a.get("release_type") != b.get("release_type"):
+        return (Status.DIFFERENT, Miss.RELEASE_TYPE)
+
+    if (a.get("release_type") == "dataset" and
+        b.get("release_type") == "dataset"):
         if (a.get("ext_ids", {}).get("doi") and b.get("ext_ids", {}).get("doi") and
             a.get("ext_ids", {}).get("doi") != b.get("ext_ids", {}).get("doi")):
             return (Status.DIFFERENT, Miss.DATASET_DOI)
@@ -279,6 +296,9 @@ def compare(a, b):
     # https://fatcat.wiki/release/knzhequchfcethcyyi3gsp5gry, some title contain newlines
     a_slug_title = slugify_string(a.get("title", "")).replace("\n", " ")
     b_slug_title = slugify_string(b.get("title", "")).replace("\n", " ")
+
+    if len(a_slug_title) < 10 and a_slug_title != b_slug_title:
+        return (Status.AMBIGUOUS, Miss.SHORT_TITLE)
 
     if re.search(r'\d', a_slug_title) and a_slug_title != b_slug_title and num_project(
             a_slug_title) == num_project(b_slug_title):
