@@ -23,6 +23,30 @@ Examples from clustering stage (from a sample of 100k records):
     ["Editorial Board & Publication Information",2]
     ...
 
+WIP:
+
+    {
+      "miss.blacklisted": 620,
+      "miss.contrib_intersection_empty": 3256,
+      "miss.dataset_doi": 8725,
+      "miss.num_diff": 14914,
+      "miss.release_type": 14352,
+      "miss.short_title": 3321,
+      "miss.vhs": 45,
+      "miss.year": 12385,
+      "ok.arxiv_version": 13,
+      "ok.dummy": 8874,
+      "ok.preprint_published": 7,
+      "ok.slug_title_author_match": 526,
+      "ok.title_author_match": 6187,
+      "skip.container_name_blacklist": 71,
+      "skip.publisher_blacklist": 22,
+      "skip.too_large": 1077,
+      "skip.unique": 830449,
+      "total": 904844
+    }
+
+
 """
 
 import collections
@@ -41,6 +65,10 @@ get_key_values = operator.itemgetter("k", "v")
 TITLE_BLACKLIST = set([
     "annual meeting",
     "an invitation to membership",
+    "appendix d.",
+    "appendix d",
+    "abstracts of papers from other journals",
+    "an epitome of current medical literature",
     "",
     ":{unav)",
     "[others]",
