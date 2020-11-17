@@ -26,17 +26,17 @@ Examples from clustering stage (from a sample of 100k records):
 WIP:
 
     {
-      "miss.blacklisted": 926,
-      "miss.contrib_intersection_empty": 3218,
+      "miss.blacklisted": 956,
+      "miss.contrib_intersection_empty": 3217,
       "miss.dataset_doi": 8723,
       "miss.num_diff": 14914,
       "miss.release_type": 14305,
       "miss.short_title": 3315,
       "miss.subtitle": 102,
       "miss.vhs": 45,
-      "miss.year": 12332,
+      "miss.year": 12321,
       "ok.arxiv_version": 13,
-      "ok.dummy": 8640,
+      "ok.dummy": 8622,
       "ok.preprint_published": 7,
       "ok.slug_title_author_match": 498,
       "ok.title_author_match": 6187,
@@ -46,7 +46,6 @@ WIP:
       "skip.unique": 830449,
       "total": 904844
     }
-
 
 """
 
@@ -64,6 +63,9 @@ get_key_values = operator.itemgetter("k", "v")
 
 # There titles appear too often, so ignore them for now.
 TITLE_BLACKLIST = set([
+    "Medical Annotations",
+    "Medical Annotations.",
+    "Boundary Creek Times",
     "",
     ":{unav)",
     "[others]",
