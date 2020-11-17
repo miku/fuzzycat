@@ -142,8 +142,8 @@ class GroupVerifier:
                 continue
             for a, b in itertools.combinations(vs, r=2):
                 for re in (a, b):
-                    if re.get("extra", {}).get("container_name",
-                                               "").lower().strip() in CONTAINER_NAME_BLACKLIST:
+                    container_name = re.get("extra", {}).get("container_name", "") or ""
+                    if container_name.lower().strip() in CONTAINER_NAME_BLACKLIST:
                         self.counter["skip.container_name_blacklist"] += 1
                         continue
                     if re.get("publisher", "").lower().strip() in PUBLISHER_BLACKLIST:
