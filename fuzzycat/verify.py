@@ -41,7 +41,7 @@ get_key_values = operator.itemgetter("k", "v")
 TITLE_BLACKLIST = set([
     "",
     ":{unav)",
-    "Abbildungsnachweis",
+    "abbildungsnachweis",
     "[others]",
     "[s.n.]",
     "a correction",
