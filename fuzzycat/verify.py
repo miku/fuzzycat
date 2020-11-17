@@ -26,18 +26,19 @@ Examples from clustering stage (from a sample of 100k records):
 WIP:
 
     {
-      "miss.blacklisted": 620,
-      "miss.contrib_intersection_empty": 3256,
-      "miss.dataset_doi": 8725,
+      "miss.blacklisted": 926,
+      "miss.contrib_intersection_empty": 3218,
+      "miss.dataset_doi": 8723,
       "miss.num_diff": 14914,
-      "miss.release_type": 14352,
-      "miss.short_title": 3321,
+      "miss.release_type": 14305,
+      "miss.short_title": 3315,
+      "miss.subtitle": 102,
       "miss.vhs": 45,
-      "miss.year": 12385,
+      "miss.year": 12332,
       "ok.arxiv_version": 13,
-      "ok.dummy": 8874,
+      "ok.dummy": 8640,
       "ok.preprint_published": 7,
-      "ok.slug_title_author_match": 526,
+      "ok.slug_title_author_match": 498,
       "ok.title_author_match": 6187,
       "skip.container_name_blacklist": 71,
       "skip.publisher_blacklist": 22,
@@ -63,12 +64,18 @@ get_key_values = operator.itemgetter("k", "v")
 
 # There titles appear too often, so ignore them for now.
 TITLE_BLACKLIST = set([
-    "annual meeting",
-    "an invitation to membership",
-    "appendix d.",
-    "appendix d",
-    "abstracts of papers from other journals",
-    "an epitome of current medical literature",
+    "actualités professionnelles",
+    "association notes",
+    "addenda",
+    "beyond the flyleaf",
+    "schlussbemerkung",
+    "editors/ editorial board",
+    "conference report",
+    "editorial board and publication information",
+    "front & back matter",
+    "abstract withdrawn",
+    "briefs",
+    "proceedings of societies",
     "",
     ":{unav)",
     "[others]",
@@ -84,6 +91,7 @@ TITLE_BLACKLIST = set([
     "about this journal",
     "about this title",
     "abréviations",
+    "abstracts of papers from other journals",
     "abstracts of papers to appear in future issues",
     "abstracts",
     "acknowledgement of reviewers",
@@ -93,13 +101,20 @@ TITLE_BLACKLIST = set([
     "acknowledgments",
     "actualités",
     "agradecimento",
+    "agradecimientos",
     "all pdfs of this category",
+    "an epitome of current medical literature",
+    "an invitation to membership",
     "announcement",
     "announcements",
+    "annual meeting",
     "annual report",
+    "appendix d",
+    "appendix d.",
     "around the world",
     "arthrobacter sp.",
     "aufgaben",
+    "ausgewählte literatur",
     "author index",
     "author response image 1. author response",
     "back matter",
@@ -195,6 +210,9 @@ PUBLISHER_BLACKLIST = set([
     "test accounts",
 ])
 
+# More correct: https://www.johndcook.com/blog/2016/02/04/regular-expression-to-match-a-chemical-element/
+CHEM_FORMULA = re.compile(r"([A-Z]{1,2}[0-9]{1,2})+")
+
 
 class Status(str, Enum):
     """
@@ -231,6 +249,8 @@ class Miss(str, Enum):
     NUM_DIFF = 'miss.num_diff'
     DATASET_DOI = 'miss.dataset_doi'
     RELEASE_TYPE = 'miss.release_type'
+    CHEM_FORMULA = 'miss.chem_formula'
+    SUBTITLE = 'miss.subtitle'
 
 class GroupVerifier:
     """
@@ -325,6 +345,15 @@ def compare(a, b):
     a_slug_title = slugify_string(a.get("title", "")).replace("\n", " ")
     b_slug_title = slugify_string(b.get("title", "")).replace("\n", " ")
 
+    if a_slug_title == b_slug_title:
+        for a_sub in a.get("subtitle", []):
+            for b_sub in a.get("subtitle", []):
+                if slugify_string(a_sub) != slugify_string(b_sub):
+                    return (Status.DIFFERENT, Miss.SUBTITLE)
+
+    if contains_chemical_formula(a_slug_title) or contains_chemical_formula(b_slug_title) and (a_slug_title != b_slug_title):
+        return (Status.DIFFERENT, Miss.CHEM_FORMULA)
+
     if len(a_slug_title) < 10 and a_slug_title != b_slug_title:
         return (Status.AMBIGUOUS, Miss.SHORT_TITLE)
 
@@ -365,4 +394,13 @@ def num_project(s):
     Unify every occurence of a digit (or group of digits).
     """
     return re.sub('\d+', '<NUM>', s)
+
+def contains_chemical_formula(s):
+    """
+    Returns true, if we find C3H8O or the like in title.
+    """
+    for token in s.split():
+        if CHEM_FORMULA.search(token):
+            return True
+    return False
 
