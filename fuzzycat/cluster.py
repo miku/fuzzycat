@@ -379,7 +379,9 @@ class Cluster:
         Outline: json -> tsv -> sort -> group -> json
         """
         with tempfile.NamedTemporaryFile(delete=False, mode="w", prefix=self.prefix) as tf:
-            for line in self.iterable:
+            for i, line in enumerate(self.iterable):
+                if i % 100000 == 0:
+                    print("@{}".format(i), file=sys.stderr)
                 try:
                     doc = json.loads(line)
                     id, key = self.key(doc)
