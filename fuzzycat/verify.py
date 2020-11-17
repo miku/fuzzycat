@@ -218,18 +218,13 @@ class GroupVerifier:
                 self.counter["skip.too_large"] += 1
                 continue
             for a, b in itertools.combinations(vs, r=2):
-                if a.get("extra", {}).get("container_name", "").lower().strip() in CONTAINER_NAME_BLACKLIST:
-                    self.counter["skip.container_name_blacklist"] += 1
-                    continue
-                if b.get("extra", {}).get("container_name", "").lower().strip() in CONTAINER_NAME_BLACKLIST:
-                    self.counter["skip.container_name_blacklist"] += 1
-                    continue
-                if a.get("publisher", "").lower().strip() in PUBLISHER_BLACKLIST:
-                    self.counter["skip.publisher_blacklist"] += 1
-                    continue
-                if b.get("publisher", "").lower().strip() in PUBLISHER_BLACKLIST:
-                    self.counter["skip.publisher_blacklist"] += 1
-                    continue
+                for re in (a, b):
+                    if re.get("extra", {}).get("container_name", "").lower().strip() in CONTAINER_NAME_BLACKLIST:
+                        self.counter["skip.container_name_blacklist"] += 1
+                        continue
+                    if re.get("publisher", "").lower().strip() in PUBLISHER_BLACKLIST:
+                        self.counter["skip.publisher_blacklist"] += 1
+                        continue
                 result, reason = compare(a, b)
                 self.counter[reason] += 1
                 print("https://fatcat.wiki/release/{}".format(a["ident"]),
@@ -271,8 +266,9 @@ def compare(a, b):
             if abs(int(a_release_year) - int(b_release_year)) > 2:
                 return (Status.DIFFERENT, Miss.YEAR)
 
-    a_slug_title = slugify_string(a.get("title"))
-    b_slug_title = slugify_string(b.get("title"))
+    # https://fatcat.wiki/release/knzhequchfcethcyyi3gsp5gry, some title contain newlines
+    a_slug_title = slugify_string(a.get("title", "")).replace("\n", " ")
+    b_slug_title = slugify_string(b.get("title", "")).replace("\n", " ")
 
     if re.search(r'\d', a_slug_title) and a_slug_title != b_slug_title and num_project(
             a_slug_title) == num_project(b_slug_title):
