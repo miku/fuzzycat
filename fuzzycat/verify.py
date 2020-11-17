@@ -41,11 +41,11 @@ get_key_values = operator.itemgetter("k", "v")
 TITLE_BLACKLIST = set([
     "",
     ":{unav)",
-    "abbildungsnachweis",
     "[others]",
     "[s.n.]",
     "a correction",
     "abbildung",
+    "abbildungsnachweis",
     "abbreviations and acronyms",
     "about the cover",
     "about the editor",
@@ -65,6 +65,7 @@ TITLE_BLACKLIST = set([
     "agradecimento",
     "announcement",
     "announcements",
+    "annual report",
     "around the world",
     "arthrobacter sp.",
     "aufgaben",
@@ -77,6 +78,7 @@ TITLE_BLACKLIST = set([
     "book reviews",
     "books received",
     "bookseller's catalogue",
+    "bureau of investigation",
     "calendar",
     "canto",
     "canto",
@@ -127,6 +129,7 @@ TITLE_BLACKLIST = set([
     "preliminary material",
     "preservation image",
     "references",
+    "regulations",
     "reply",
     "reviews of books",
     "reviews",
@@ -185,6 +188,7 @@ class Miss(str, Enum):
     YEAR = 'miss.year'
     CUSTOM_VHS = 'miss.vhs'  # https://fatcat.wiki/release/44gk5ben5vghljq6twm7lwmxla
     NUM_DIFF = 'miss.num_diff'
+    DATASET_DOI = 'miss.dataset_doi'
 
 class GroupVerifier:
     """
@@ -244,6 +248,12 @@ def compare(a, b):
 
     if "Zweckverband Volkshochschule " in a.get("title") and a.get("title") != b.get("title"):
         return (Status.DIFFERENT, Miss.CUSTOM_VHS)
+
+    if (a.get("extra", {}).get("crossref", {}).get("type",  {}) == "dataset" and
+        b.get("extra", {}).get("crossref", {}).get("type",  {}) == "dataset"):
+        if (a.get("ext_ids", {}).get("doi") and b.get("ext_ids", {}).get("doi") and
+            a.get("ext_ids", {}).get("doi") != b.get("ext_ids", {}).get("doi")):
+            return (Status.DIFFERENT, Miss.DATASET_DOI)
 
     arxiv_id_a = a.get("ext_ids", {}).get("arxiv")
     arxiv_id_b = b.get("ext_ids", {}).get("arxiv")
