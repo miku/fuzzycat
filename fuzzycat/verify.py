@@ -23,29 +23,32 @@ Examples from clustering stage (from a sample of 100k records):
     ["Editorial Board & Publication Information",2]
     ...
 
-WIP:
+WIPv1 (10m)
 
     {
-      "miss.blacklisted": 16187,
-      "miss.book_chapter": 1822,
-      "miss.contrib_intersection_empty": 2160,
-      "miss.dataset_doi": 8722,
-      "miss.num_diff": 14335,
-      "miss.release_type": 12683,
-      "miss.short_title": 2576,
-      "miss.subtitle": 103,
-      "miss.vhs": 45,
-      "miss.year": 7421,
-      "ok.arxiv_version": 13,
-      "ok.dummy": 491,
-      "ok.preprint_published": 7,
-      "ok.slug_title_author_match": 498,
-      "ok.title_author_match": 6162,
-      "skip.container_name_blacklist": 71,
-      "skip.publisher_blacklist": 22,
-      "skip.too_large": 1077,
-      "skip.unique": 830449,
-      "total": 904844
+      "miss.appendix": 176,
+      "miss.blacklisted": 12124,
+      "miss.blacklisted_fragment": 6,
+      "miss.book_chapter": 46733,
+      "miss.component": 1567,
+      "miss.contrib_intersection_empty": 58823,
+      "miss.dataset_doi": 30806,
+      "miss.num_diff": 1,
+      "miss.release_type": 95950,
+      "miss.short_title": 16270,
+      "miss.subtitle": 6013,
+      "miss.title_filename": 59,
+      "miss.year": 105946,
+      "ok.arxiv_version": 90726,
+      "ok.dummy": 88807,
+      "ok.preprint_published": 8762,
+      "ok.slug_title_author_match": 41114,
+      "ok.title_author_match": 61564,
+      "skip.container_name_blacklist": 20,
+      "skip.publisher_blacklist": 456,
+      "skip.too_large": 7430,
+      "skip.unique": 8808462,
+      "total": 9481815
     }
 """
 
@@ -308,12 +311,13 @@ def contains_chemical_formula(s):
 
 TITLE_FRAGMENT_BLACKLIST = set([
     "air quality data from the life+respira project in pamplona",
-    "irish studies, seminar",
-    "untersuchung einzelner abdominaler regionen und organe",
-    "student government minutes:",
+    "animaux vivants exclus ceux de la division",
     "ieee membership application",
-    "nouvelles du corps médical",
+    "irish studies, seminar",
     "les conventions de genève",
+    "nouvelles du corps médical",
+    "student government minutes:",
+    "untersuchung einzelner abdominaler regionen und organe",
 ])
 
 # There titles appear too often, so ignore them for now.
