@@ -87,21 +87,10 @@ Clustering 1M records (single core) takes about 64s (15K docs/s).
 ```shell
 $ head -1 out.json
 {
-  "c": "release_key_title",
+  "k": "裏表紙",
   "v": [
-    "7ufkzsjywzejvjzsyegugradoa",
-    "harjqexl5vagxc54zjfen5zlve",
-    "i5jrdoxqmjfs3fk2dcpnqxqb2e",
-    "i62bo63qqzggjjk7pf77z26djm",
-    "omo3z5y7qvh6hbl7wjacinsfiq",
-    "prkik3s5vzejnfe4u26g2vt2wu",
-    "pyqss6ifnvgqjeqohlampswvkm",
-    "spr2b23fk5asph7v6shrd6okt4",
-    "togokylwfvcvzilhnx4jir2hfm",
-    "us4artv2hbc5bljuwaopquicfu",
-    "ycargjj4lzddnmyzbh2e22wsii"
-  ],
-  "k": "裏表紙"
+    ...
+  ]
 }
 ```
 
@@ -115,25 +104,45 @@ Interestingly, the parallel variants detects fewer clusters (because data is
 split and clusters are searched within each batch). TODO(miku): sort out sharding bug.
 
 
-## Cluster
+## QA
 
-```shell
-usage: fuzzycat command [options] cluster [-h] [--prefix PREFIX]
-                                          [--tmpdir TMPDIR] [-P] [-f FILES]
-                                          [-t TYPE]
-                                          {cluster,verify} ...
+### 10M release dataset
 
-positional arguments:
-  {cluster,verify}
-    cluster             group entities
-    verify              verify groups
+Notes on cadd28a version clustering (nysiis) and verification.
 
-optional arguments:
-  -h, --help            show this help message and exit
-  --prefix PREFIX       temp file prefix
-  --tmpdir TMPDIR       temporary directory
-  -P, --profile         profile program
-  -f FILES, --files FILES
-                        output files
-  -t TYPE, --type TYPE  cluster algorithm: title, tnorm, tnysi
+* 10M docs
+* 9040789 groups
+* 665447 verification pairs
+
 ```
+    176 Miss.APPENDIX
+     25 Miss.ARXIV_VERSION
+  12082 Miss.BLACKLISTED
+      5 Miss.BLACKLISTED_FRAGMENT
+  46733 Miss.BOOK_CHAPTER
+   1567 Miss.COMPONENT
+  47691 Miss.CONTRIB_INTERSECTION_EMPTY
+  30806 Miss.DATASET_DOI
+      1 Miss.NUM_DIFF
+ 157718 Miss.RELEASE_TYPE
+  16263 Miss.SHORT_TITLE
+   6013 Miss.SUBTITLE
+     57 Miss.TITLE_FILENAME
+ 148755 Miss.YEAR
+     93 OK.ARXIV_VERSION
+  88294 OK.DUMMY
+    110 OK.PREPRINT_PUBLISHED
+  15818 OK.SLUG_TITLE_AUTHOR_MATCH
+  93240 OK.TITLE_AUTHOR_MATCH
+```
+
+Cases
+
+* common title, "Books by Our Readers", https://fatcat.wiki/release/4uv5jsy5vnhdvnxvzmucqlksvq, https://fatcat.wiki/release/4uv5jsy5vnhdvnxvzmucqlksvq
+* common title, "The Future of Imprisonment"
+* same title "IEEE Transactions on Wireless Communications", same publisher, different year
+* same, except DOI, but maybe the same item, after all? https://fatcat.wiki/release/kxgsbh66v5bwhobcaiuh4i7dwy, https://fatcat.wiki/release/thl7o44z3jgk3njdypixwrdbve
+
+Possible improvements:
+
+* when title and authors match, check the year, and maybe the doi prefix; doi with the same prefix may not be duplicates
