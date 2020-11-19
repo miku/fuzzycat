@@ -199,9 +199,11 @@ def compare(a, b):
 
     if a.get("release_type") and b.get(
             "release_type") and a.get("release_type") != b.get("release_type"):
-        # TODO: This can go wrong with "article" and "article-journal"
+        # TODO(martin): This can go wrong with "article" and "article-journal"
+        # TODO(martin): Some arxiv articles are marked are release_type: report
         types = set([a.get("release_type"), b.get("release_type")])
-        if not ("article" in types and "article-journal" in types):
+        ignore_release_types = set(["article", "article-journal", "report"])
+        if len(types & ignore_release_types) == 0:
             return (Status.DIFFERENT, Miss.RELEASE_TYPE)
 
     if (a.get("release_type") == "dataset" and b.get("release_type") == "dataset"):
