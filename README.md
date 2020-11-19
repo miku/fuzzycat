@@ -136,7 +136,7 @@ Notes on cadd28a version clustering (nysiis) and verification.
   93240 OK.TITLE_AUTHOR_MATCH
 ```
 
-Cases
+#### Cases
 
 * common title, "Books by Our Readers", https://fatcat.wiki/release/4uv5jsy5vnhdvnxvzmucqlksvq, https://fatcat.wiki/release/4uv5jsy5vnhdvnxvzmucqlksvq
 * common title, "The Future of Imprisonment"
@@ -145,6 +145,7 @@ Cases
 * common title, "ASMS News" (also different year)
 * common title, "AMERICAN INSTITUTE OF INSTRUCTION"
 * common title, "Contents lists"
+* common title, "Submissions"
 * same, except DOI, but maybe the same item, after all? https://fatcat.wiki/release/kxgsbh66v5bwhobcaiuh4i7dwy, https://fatcat.wiki/release/thl7o44z3jgk3njdypixwrdbve
 
 Authors may be messy:
@@ -153,7 +154,14 @@ Authors may be messy:
   https://fatcat.wiki/release/2kpa6ynwjzhtbbokqyxcl25gmm,
 https://fatcat.wiki/release/o4dh7w7nqvdknm4j336yrom4wy - may need to tokenize authors
 
-Possible improvements:
+A DOI prefix (10.1210, The Endocrine Society)  may choose to include the same
+document in different publications:
+
+* https://fatcat.wiki/release/52lwj4ip3nbdbgrgk4uwolbjt4
+* https://fatcat.wiki/release/6tbrmc3pq5axzf3yhqayq256a4
+* https://fatcat.wiki/release/457lzlw7czeo7aspcyttccvyrq
+
+#### Possible fixes
 
 * [ ] when title and authors match, check the year, and maybe the doi prefix; doi with the same prefix may not be duplicates
 * [x] detect arxiv versions directly
