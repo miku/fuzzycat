@@ -185,10 +185,14 @@ def compare(a, b):
     arxiv_id_a = a.get("ext_ids", {}).get("arxiv")
     arxiv_id_b = b.get("ext_ids", {}).get("arxiv")
     if arxiv_id_a and arxiv_id_b:
-        id_a, version_a = arxiv_id_a.split("v")
-        id_b, version_b = arxiv_id_b.split("v")
-        if id_a == id_b:
-            return (Status.STRONG, OK.ARXIV_VERSION)
+        try:
+            id_a, version_a = arxiv_id_a.split("v")
+            id_b, version_b = arxiv_id_b.split("v")
+            if id_a == id_b:
+                return (Status.STRONG, OK.ARXIV_VERSION)
+        except ValueError as err:
+            # TODO: solv-int/9606010v1
+            print("[arxiv] unexpected ids {} {}".format(arxiv_id_a, arxiv_id_b), file=sys.stderr)
 
     if a.get("release_type") and b.get(
             "release_type") and a.get("release_type") != b.get("release_type"):
