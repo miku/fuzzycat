@@ -224,7 +224,11 @@ def compare(a, b):
 
     if a.get("title", "").lower() == b.get("title", "").lower():
         if a_authors and (a_authors == b_authors):
-            if a_release_year and b_release_year and a_release_year != b_release_year:
+            # TODO: https://fatcat.wiki/release/utx5r5e6azbvljipznv7ejqzvq,
+            # https://fatcat.wiki/release/oceozrqtcbc4tloizhddxaj2ti
+            # preprint and published work may not be published in the same
+            # year; compromise allow a small gap
+            if a_release_year and b_release_year and abs(int(a_release_year) - int(b_release_year)) > 1:
                 return (Status.DIFFERENT, Miss.YEAR)
             return (Status.EXACT, OK.TITLE_AUTHOR_MATCH)
 
@@ -305,6 +309,7 @@ TITLE_FRAGMENT_BLACKLIST = set([
     "student government minutes:",
     "ieee membership application",
     "nouvelles du corps médical",
+    "les conventions de genève",
 ])
 
 # There titles appear too often, so ignore them for now.
