@@ -172,4 +172,8 @@ London" -- we label `OK.SLUG_TITLE_AUTHOR_MATCH`,
 https://fatcat.wiki/release/6qbne2adybegdf6plgb7dnly2a,
 https://fatcat.wiki/release/v6cjc6kxzncztebmfgzxwov7ym
 * [ ] "article-journal" and "article" `release_type` should be treated the same, https://fatcat.wiki/release/k5zdpb45ufcy7grrppqndtxxji, https://fatcat.wiki/release/ypyse6ff4nbzrfd44resyav25m
-
+* [ ] if title and publisher matches, but DOI and year is different, assume
+different, e.g. https://fatcat.wiki/release/k3hutukomngptcuwdys5omv2ty,
+https://fatcat.wiki/release/xmkiqj4bizcwdaq5hljpglkzqe, or
+https://fatcat.wiki/release/phuhxsj425fshp2jxfwlp5xnge and
+https://fatcat.wiki/release/2ncazub5tngkjn5ncdk65jyr4u -- these might be repeatedly published
