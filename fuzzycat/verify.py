@@ -192,7 +192,10 @@ def compare(a, b):
 
     if a.get("release_type") and b.get(
             "release_type") and a.get("release_type") != b.get("release_type"):
-        return (Status.DIFFERENT, Miss.RELEASE_TYPE)
+        # TODO: This can go wrong with "article" and "article-journal"
+        types = set([a.get("release_type"), b.get("release_type")])
+        if not ("article" in types and "article-journal" in types):
+            return (Status.DIFFERENT, Miss.RELEASE_TYPE)
 
     if (a.get("release_type") == "dataset" and b.get("release_type") == "dataset"):
         if (a.get("ext_ids", {}).get("doi") and b.get("ext_ids", {}).get("doi")
