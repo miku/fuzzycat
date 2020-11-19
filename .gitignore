@@ -137,3 +137,6 @@ fixtures/cluster_title_normalized_dups_size_keylen.tsv
 # Text Editors
 *~
 *.swp
+
+sample_*txt
+sample_*zst
