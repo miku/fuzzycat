@@ -140,9 +140,28 @@ Cases
 
 * common title, "Books by Our Readers", https://fatcat.wiki/release/4uv5jsy5vnhdvnxvzmucqlksvq, https://fatcat.wiki/release/4uv5jsy5vnhdvnxvzmucqlksvq
 * common title, "The Future of Imprisonment"
-* same title "IEEE Transactions on Wireless Communications", same publisher, different year
+* common title, "In This Issue/Research Watch/News-in-Brief/News from the IASLC Tobacco Control Committee"
+* common title, "IEEE Transactions on Wireless Communications", same publisher, different year
+* common title, "ASMS News" (also different year)
+* common title, "AMERICAN INSTITUTE OF INSTRUCTION"
+* common title, "Contents lists"
 * same, except DOI, but maybe the same item, after all? https://fatcat.wiki/release/kxgsbh66v5bwhobcaiuh4i7dwy, https://fatcat.wiki/release/thl7o44z3jgk3njdypixwrdbve
+
+Authors may be messy:
+
+* IR and published, be we currently yield `Miss.CONTRIB_INTERSECTION_EMPTY` -
+  https://fatcat.wiki/release/2kpa6ynwjzhtbbokqyxcl25gmm,
+https://fatcat.wiki/release/o4dh7w7nqvdknm4j336yrom4wy - may need to tokenize authors
 
 Possible improvements:
 
-* when title and authors match, check the year, and maybe the doi prefix; doi with the same prefix may not be duplicates
+* [ ] when title and authors match, check the year, and maybe the doi prefix; doi with the same prefix may not be duplicates
+* [x] detect arxiv versions directly
+* [ ] if multiple authors, may require more than one overlap, e.g. "by Yuting
+  Yao, Yuting Yao, Yuting Yao, Imperial College London, Imperial College
+London" - will overlap with any other author including "Imperial College
+London" -- we label `OK.SLUG_TITLE_AUTHOR_MATCH`,
+https://fatcat.wiki/release/6qbne2adybegdf6plgb7dnly2a,
+https://fatcat.wiki/release/v6cjc6kxzncztebmfgzxwov7ym
+* [ ] "article-journal" and "article" `release_type` should be treated the same, https://fatcat.wiki/release/k5zdpb45ufcy7grrppqndtxxji, https://fatcat.wiki/release/ypyse6ff4nbzrfd44resyav25m
+

@@ -182,6 +182,14 @@ def compare(a, b):
     if re.match(r"appendix ?[^ ]*$", a.get("title", "").lower()):
         return (Status.AMBIGUOUS, Miss.APPENDIX)
 
+    arxiv_id_a = a.get("ext_ids", {}).get("arxiv")
+    arxiv_id_b = b.get("ext_ids", {}).get("arxiv")
+    if arxiv_id_a and arxiv_id_b:
+        id_a, version_a = arxiv_id_a.split("v")
+        id_b, version_b = arxiv_id_b.split("v")
+        if id_a == id_b:
+            return (Status.STRONG, OK.ARXIV_VERSION)
+
     if a.get("release_type") and b.get(
             "release_type") and a.get("release_type") != b.get("release_type"):
         return (Status.DIFFERENT, Miss.RELEASE_TYPE)
@@ -260,16 +268,6 @@ def compare(a, b):
             " ", "") == b_slug_title.strip().replace(" ", ""):
         if len(a_slug_authors & b_slug_authors) > 0:
             return (Status.STRONG, OK.SLUG_TITLE_AUTHOR_MATCH)
-
-    arxiv_id_a = a.get("ext_ids", {}).get("arxiv")
-    arxiv_id_b = b.get("ext_ids", {}).get("arxiv")
-    if arxiv_id_a and arxiv_id_b:
-        id_a, version_a = arxiv_id_a.split("v")
-        id_b, version_b = arxiv_id_b.split("v")
-        if id_a == id_b:
-            return (Status.STRONG, OK.ARXIV_VERSION)
-        else:
-            return (Status.DIFFERENT, Miss.ARXIV_VERSION)
 
     if a_authors and len(a_slug_authors & b_slug_authors) == 0:
         return (Status.DIFFERENT, Miss.CONTRIB_INTERSECTION_EMPTY)
