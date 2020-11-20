@@ -190,7 +190,7 @@ def compare(a, b):
 
     # TODO: figshare versions, "xxx.v1"
     FIGSHARE_PREFIX = "10.6084"
-    if a.get("doi").startswith(FIGSHARE_PREFIX + "/") and b.get("doi").startswith(FIGSHARE_PREFIX +
+    if a.get("doi") and b.get("doi") and a.get("doi").startswith(FIGSHARE_PREFIX + "/") and b.get("doi").startswith(FIGSHARE_PREFIX +
                                                                                   "/"):
         a_doi_v_stripped = re.sub(r"[.]v[0-9]+$", "", a.get("doi"))
         b_doi_v_stripped = re.sub(r"[.]v[0-9]+$", "", a.get("doi"))
@@ -217,7 +217,7 @@ def compare(a, b):
                     continue
                 if rel.get("relatedIdentifierType") != "DOI":
                     continue
-                doi = reg.get("relatedIdentifier")
+                doi = rel.get("relatedIdentifier")
                 if not doi:
                     continue
                 dois.add(doi)
@@ -345,10 +345,11 @@ def compare(a, b):
         for _, g in itertools.groupby(scores, key=lambda s: s.a):
             sorted_scores = sorted(g, key=lambda s: s.value, reverse=True)
             if len(sorted_scores) > 0:
-                top_scores.append(sorted_scores[0])
-        avg_score = sum(top_scores) / len(top_scores)
-        if avg_score > 0.5:
-            return (Status.STRONG, OK.TOKENIZED_AUTHORS)
+                top_scores.append(sorted_scores[0].value)
+        if len(top_scores) > 0:
+            avg_score = sum(top_scores) / len(top_scores)
+            if avg_score > 0.5:
+                return (Status.STRONG, OK.TOKENIZED_AUTHORS)
 
         # TODO: This misses spelling differences, e.g.
         # https://fatcat.wiki/release/7nbcgsohrrak5cuyk6dnit6ega and
@@ -370,6 +371,8 @@ def jaccard(a, b):
     """
     Jaccard of sets a and b.
     """
+    if len(a | b) == 0:
+        return 0
     return len(a & b) / len(a | b)
 
 
