@@ -88,6 +88,7 @@ class OK(str, Enum):
     TITLE_AUTHOR_MATCH = 'ok.title_author_match'
     PREPRINT_PUBLISHED = 'ok.preprint_published'
     SLUG_TITLE_AUTHOR_MATCH = 'ok.slug_title_author_match'
+    TOKENIZED_AUTHORS = 'ok.tokenized_authors'
 
 
 class Miss(str, Enum):
@@ -185,6 +186,19 @@ def compare(a, b):
     if re.match(r"appendix ?[^ ]*$", a.get("title", "").lower()):
         return (Status.AMBIGUOUS, Miss.APPENDIX)
 
+    # TODO: figshare versions
+
+    if a.get("doi").startswith("10.6084/") and b.get("doi").startswith("10.6084/")
+
+    # TODO: datacite specific vocabulary
+    # extra.datacite.relations[].{relationType=IsNewerVersionOf,relatedIdentifier=10...}
+    # beware: we have versions and "isPartOf", e.g. https://api.fatcat.wiki/v0/release/ybxygpeypbaq5pfrztu3z2itw4
+    # TODO: does glom help?
+    # ...
+    def datacite_relations(doc):
+        pass
+        # doc.get("extra", {}).get("
+
     arxiv_id_a = a.get("ext_ids", {}).get("arxiv")
     arxiv_id_b = b.get("ext_ids", {}).get("arxiv")
     if arxiv_id_a and arxiv_id_b:
@@ -201,8 +215,10 @@ def compare(a, b):
             "release_type") and a.get("release_type") != b.get("release_type"):
         # TODO(martin): This can go wrong with "article" and "article-journal"
         # TODO(martin): Some arxiv articles are marked are release_type: report
+        # or paper-conference
+        # (https://fatcat.wiki/release/l4fyyvsckneuxkq7d3y2zvkvbe)
         types = set([a.get("release_type"), b.get("release_type")])
-        ignore_release_types = set(["article", "article-journal", "report"])
+        ignore_release_types = set(["article", "article-journal", "report", "paper-conference"])
         if len(types & ignore_release_types) == 0:
             return (Status.DIFFERENT, Miss.RELEASE_TYPE)
 
@@ -221,6 +237,18 @@ def compare(a, b):
             "type", "") == "component" and a.get("title") != b.get("title"):
         return (Status.DIFFERENT, Miss.COMPONENT)
 
+    # https://fatcat.wiki/release/knzhequchfcethcyyi3gsp5gry, some title contain newlines
+    a_slug_title = slugify_string(a.get("title", "")).replace("\n", " ")
+    b_slug_title = slugify_string(b.get("title", "")).replace("\n", " ")
+
+    if a_slug_title == b_slug_title:
+        a_subtitles = a.get("extra", {}).get("subtitle", []) or []
+        b_subtitles = b.get("extra", {}).get("subtitle", []) or []
+        for a_sub in a_subtitles:
+            for b_sub in b_subtitles:
+                if slugify_string(a_sub) != slugify_string(b_sub):
+                    return (Status.DIFFERENT, Miss.SUBTITLE)
+
     arxiv_id_a = a.get("ext_ids", {}).get("arxiv")
     arxiv_id_b = b.get("ext_ids", {}).get("arxiv")
 
@@ -237,7 +265,8 @@ def compare(a, b):
             # https://fatcat.wiki/release/oceozrqtcbc4tloizhddxaj2ti
             # preprint and published work may not be published in the same
             # year; compromise allow a small gap
-            if a_release_year and b_release_year and abs(int(a_release_year) - int(b_release_year)) > 1:
+            if a_release_year and b_release_year and abs(int(a_release_year) -
+                                                         int(b_release_year)) > 1:
                 return (Status.DIFFERENT, Miss.YEAR)
             return (Status.EXACT, OK.TITLE_AUTHOR_MATCH)
 
@@ -251,18 +280,6 @@ def compare(a, b):
         if a_release_year and b_release_year:
             if abs(int(a_release_year) - int(b_release_year)) > 2:
                 return (Status.DIFFERENT, Miss.YEAR)
-
-    # https://fatcat.wiki/release/knzhequchfcethcyyi3gsp5gry, some title contain newlines
-    a_slug_title = slugify_string(a.get("title", "")).replace("\n", " ")
-    b_slug_title = slugify_string(b.get("title", "")).replace("\n", " ")
-
-    if a_slug_title == b_slug_title:
-        a_subtitles = a.get("extra", {}).get("subtitle", []) or []
-        b_subtitles = b.get("extra", {}).get("subtitle", []) or []
-        for a_sub in a_subtitles:
-            for b_sub in b_subtitles:
-                if slugify_string(a_sub) != slugify_string(b_sub):
-                    return (Status.DIFFERENT, Miss.SUBTITLE)
 
     if contains_chemical_formula(a_slug_title) or contains_chemical_formula(b_slug_title) and (
             a_slug_title != b_slug_title):
@@ -286,10 +303,71 @@ def compare(a, b):
             return (Status.STRONG, OK.SLUG_TITLE_AUTHOR_MATCH)
 
     if a_authors and len(a_slug_authors & b_slug_authors) == 0:
+        # Before we bail out, run an authors similarity check. TODO: This is
+        # not the right place, but lives here now, since these cases popped up
+        # in this block.
+        Score = collections.namedtuple("Score", "a b value")
+        scores = []
+        # account for the possible arbitrary ordering of authors
+        for a, b in itertools.product(a_slug_authors, b_slug_authors):
+            scores.append(Score(a, b, author_similarity_score(a, b)))
+        # TODO: less arbitrary metric and threshold
+        top_scores = []
+        for _, g in itertools.groupby(scores, key=lambda s: s.a):
+            sorted_scores = sorted(g, key=lambda s: s.value, reverse=True)
+            if len(sorted_scores) > 0:
+                top_scores.append(sorted_scores[0])
+        avg_score = sum(top_scores) / len(top_scores)
+        if avg_score > 0.5:
+            return (Status.STRONG, OK.TOKENIZED_AUTHORS)
+
+        # TODO: This misses spelling differences, e.g.
+        # https://fatcat.wiki/release/7nbcgsohrrak5cuyk6dnit6ega and
+        # https://fatcat.wiki/release/q66xv7drk5fnph7enwwlkyuwqm
         return (Status.DIFFERENT, Miss.CONTRIB_INTERSECTION_EMPTY)
 
     todo[a.get("title")] += 1
     return (Status.AMBIGUOUS, OK.DUMMY)
+
+
+def author_similarity_score(u, v):
+    """
+    Given two author strings, return a similarity score between 0 and 1.
+    """
+    return jaccard(set(token_n_grams(u)), set(token_n_grams(v)))
+
+
+def jaccard(a, b):
+    """
+    Jaccard of sets a and b.
+    """
+    return len(a & b) / len(a | b)
+
+
+def token_n_grams(s):
+    """
+    Return n-grams, calculated per token.
+    """
+    return ["".join(v) for v in itertools.chain(*[nwise(v, n=2) for v in tokenize_string(s)])]
+
+
+def tokenize_string(s):
+    """
+    Normalize and tokenize, should be broken up.
+    """
+    return [token for token in s.lower().split()]
+
+
+def nwise(iterable, n=2):
+    """
+    Generalized: func: `pairwise`. Split an iterable after every
+    `n` items.
+    """
+    i = iter(iterable)
+    piece = tuple(itertools.islice(i, n))
+    while piece:
+        yield piece
+        piece = tuple(itertools.islice(i, n))
 
 
 def num_project(s):
