@@ -84,11 +84,13 @@ class OK(str, Enum):
     Reason for assuming we have a match.
     """
     ARXIV_VERSION = 'ok.arxiv_version'
+    FIGSHARE_VERSION = 'ok.figshare_version'
     DUMMY = 'ok.dummy'
     TITLE_AUTHOR_MATCH = 'ok.title_author_match'
     PREPRINT_PUBLISHED = 'ok.preprint_published'
     SLUG_TITLE_AUTHOR_MATCH = 'ok.slug_title_author_match'
     TOKENIZED_AUTHORS = 'ok.tokenized_authors'
+    DATACITE_RELATED_ID = 'ok.datacite_related_id'
 
 
 class Miss(str, Enum):
@@ -186,18 +188,45 @@ def compare(a, b):
     if re.match(r"appendix ?[^ ]*$", a.get("title", "").lower()):
         return (Status.AMBIGUOUS, Miss.APPENDIX)
 
-    # TODO: figshare versions
-
-    if a.get("doi").startswith("10.6084/") and b.get("doi").startswith("10.6084/")
+    # TODO: figshare versions, "xxx.v1"
+    FIGSHARE_PREFIX = "10.6084"
+    if a.get("doi").startswith(FIGSHARE_PREFIX + "/") and b.get("doi").startswith(FIGSHARE_PREFIX +
+                                                                                  "/"):
+        a_doi_v_stripped = re.sub(r"[.]v[0-9]+$", "", a.get("doi"))
+        b_doi_v_stripped = re.sub(r"[.]v[0-9]+$", "", a.get("doi"))
+        if a_doi_v_stripped == b_doi_v_stripped:
+            return (Status.STRONG, OK.FIGSHARE_VERSION)
 
     # TODO: datacite specific vocabulary
     # extra.datacite.relations[].{relationType=IsNewerVersionOf,relatedIdentifier=10...}
     # beware: we have versions and "isPartOf", e.g. https://api.fatcat.wiki/v0/release/ybxygpeypbaq5pfrztu3z2itw4
     # TODO: does glom help?
     # ...
-    def datacite_relations(doc):
-        pass
-        # doc.get("extra", {}).get("
+    if "datacite" in a.get("extra") and "datacite" in b.get("extra"):
+        # Relevant relationType values: IsSupplementTo, IsSupplementedBy,
+        # HasVersion, IsVersionOf, IsNewVersionOf, IsPreviousVersionOf
+        whitelist = set([
+            "HasVersion", "IsVersionOf", "IsNewVersionOf", "IsPreviousVersionOf", "IsPartOf",
+            "HasPart"
+        ])
+
+        def get_related_doi(doc):
+            dois = set()
+            for rel in doc.get("extra", {}).get("datacite", {}).get("relations", []):
+                if rel.get("relationType") not in whitelist:
+                    continue
+                if rel.get("relatedIdentifierType") != "DOI":
+                    continue
+                doi = reg.get("relatedIdentifier")
+                if not doi:
+                    continue
+                dois.add(doi)
+            return dois
+
+        a_doi_rel = get_related_doi(a)
+        b_doi_rel = get_related_doi(b)
+        if b.get("doi") in a_doi_rel or a.get("doi") in b_doi_rel:
+            return (Status.STRONG, OK.DATACITE_RELATED_ID)
 
     arxiv_id_a = a.get("ext_ids", {}).get("arxiv")
     arxiv_id_b = b.get("ext_ids", {}).get("arxiv")
