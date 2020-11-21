@@ -1,0 +1,66 @@
+{
+  "abstracts": [
+    {
+      "content": "The fires Istanbul take an important place in the history of the city. The \"big fire\" that took place on July 6, 1756 is one of them. This fire started in Cibali district of the Golden Horn and spread to the Marmara coast. One third of Istanbul burned in the fire. The districts such as Zeyrek, Vefa, Şehzadebaşı, Fatih, Saraçhane, Aksaray, Laleli, Cerrahpaşa, Atik Ali, Yenikapı and Nişanca were influenced by this fire. Thousands of mansions and houses, hundreds of mils and kilns, mosques, mescids, tekkes, tombs and baths destroyed by burning in the fire. In this study, the information will be given based on sources about how the fire spread, where it effected, which structures it hurt and what the size of the fire was. Furthermore, it will be addressed the socio-economic consequences of the fire in Istanbul.",
+      "lang": "en",
+      "mimetype": "text/plain",
+      "sha1": "7ecae8cd5ecf4be9562d9c111790ead520d66ff8"
+    }
+  ],
+  "contribs": [
+    {
+      "creator_id": "vabvzot2una3hofkorira6jo4e",
+      "given_name": "Fatih",
+      "index": 0,
+      "raw_affiliation": "Tekirdağ Namık Kemal Üniversitesi, İlahiyat Fakültesi, İslam Tarihi Anabilim Dalı",
+      "raw_name": "Fatih Köse",
+      "role": "author",
+      "surname": "Köse"
+    }
+  ],
+  "ext_ids": {
+    "doi": "10.5281/zenodo.3463853"
+  },
+  "extra": {
+    "datacite": {
+      "license": [
+        {
+          "rights": "Creative Commons Attribution 4.0 International",
+          "rightsUri": "http://creativecommons.org/licenses/by/4.0/legalcode"
+        },
+        {
+          "rights": "Open Access",
+          "rightsUri": "info:eu-repo/semantics/openAccess"
+        }
+      ],
+      "relations": [
+        {
+          "relatedIdentifier": "10.5281/zenodo.3463852",
+          "relatedIdentifierType": "DOI",
+          "relationType": "IsVersionOf"
+        }
+      ],
+      "resourceType": "Journal article",
+      "resourceTypeGeneral": "Text",
+      "subjects": [
+        {
+          "subject": "İstanbul, Cibali, Yangın, 1756 yangını"
+        }
+      ]
+    },
+    "release_month": 9
+  },
+  "ident": "7kzrmoajzzedxgdvbltgqihszu",
+  "language": "tr",
+  "license_slug": "CC-BY",
+  "publisher": "Zenodo",
+  "refs": [],
+  "release_date": "2019-09-28",
+  "release_stage": "published",
+  "release_type": "article-journal",
+  "release_year": 2019,
+  "revision": "9cef6e9b-b0ab-4b09-a219-4126acc91e4c",
+  "state": "active",
+  "title": "1756 İstanbul Yangını",
+  "work_id": "bdt5htqy6bazfkomz5ucirlagm"
+}
