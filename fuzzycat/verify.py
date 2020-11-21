@@ -50,6 +50,10 @@ WIPv1 (10m)
       "skip.unique": 8808462,
       "total": 9481815
     }
+
+TODO: allow to pass in a DOI blacklist, e.g. a list of DOI which are not valid
+any more; example: https://fatcat.wiki/release/azbcyqjnmrdofigpgk24ck4rpq,
+https://fatcat.wiki/release/eb2uf5ae7bedxe22jasf2l3faa
 """
 
 import collections
@@ -162,11 +166,6 @@ class GroupVerifier:
 
         self.counter["total"] = sum(v for _, v in self.counter.items())
         print(json.dumps(dict(self.counter)), file=sys.stderr)
-        with open("xxxx-todo", "w") as f:
-            print(json.dumps(todo.most_common()), file=f)
-
-
-todo = collections.Counter()
 
 
 def compare(a, b):
@@ -356,7 +355,6 @@ def compare(a, b):
         # https://fatcat.wiki/release/q66xv7drk5fnph7enwwlkyuwqm
         return (Status.DIFFERENT, Miss.CONTRIB_INTERSECTION_EMPTY)
 
-    todo[a.get("title")] += 1
     return (Status.AMBIGUOUS, OK.DUMMY)
 
 
