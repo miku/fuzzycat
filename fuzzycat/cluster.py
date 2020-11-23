@@ -443,7 +443,7 @@ class Cluster:
             payload = []
             for i, line in enumerate(g):
                 if i > 0 and i == self.max_cluster_size:
-                    print('max cluster size cut off for: {}'.format(k))
+                    print('max cluster size cut off for: {}'.format(k), file=sys.stderr)
                     break
                 # XXX: This is a bit too much "serde", get rid of this.
                 fields = line.split("\t")
