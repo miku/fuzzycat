@@ -1,6 +1,6 @@
 #!/bin/bash
 #
-# Fetches release entities references in VERIFY.
+# Fetches release entity references and caches them locally.
 
 set -e -u
 set -o pipefail
@@ -8,8 +8,9 @@ set -o pipefail
 API="https://api.fatcat.wiki/v0"
 CSV="verify.csv"
 
-for ident in $(awk '{print $3"\n"$4}' "$CSV"); do
+for ident in $(awk -F, '{print $1"\n"$2}' "$CSV"); do
 	if [ -f "$ident" ]; then
+        >&2 echo "[cached] $ident"
 		continue
 	fi
 	curl -sL --fail "$API/release/$ident" | jq --sort-keys . >"$ident"
