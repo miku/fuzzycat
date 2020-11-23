@@ -356,7 +356,8 @@ class Cluster:
                  key_denylist: Optional[List[str]] = None,
                  prefix: str = "fuzzycat-",
                  tmpdir: str = tempfile.gettempdir(),
-                 strict: bool = False):
+                 strict: bool = False,
+                 max_cluster_size=100):
         self.iterable: collections.abc.Iterable = iterable
         self.key: Callable[[Any], Tuple[str, str]] = key
         self.output: IO[str] = output
@@ -371,6 +372,7 @@ class Cluster:
         })
         self.strict = strict
         self.key_denylist = key_denylist
+        self.max_cluster_size = max_cluster_size
 
     def run(self):
         """
@@ -437,10 +439,12 @@ class Cluster:
         There might be large clusters, which would currently exceed memory.
         Mitigate by splitting large clusters into parts.
         """
-        for k, g in itertools.groupby(seq, key=key):
-            items = list(g)
+        for k, g in enumerate(itertools.groupby(seq, key=key):
             payload = []
-            for line in items:
+            for i, line in enumerate(g):
+                if i > 0 and i == self.max_cluster_size:
+                    print('max cluster size cut off for: {}'.format(k))
+                    break
                 # XXX: This is a bit too much "serde", get rid of this.
                 fields = line.split("\t")
                 if len(fields) < 3:
