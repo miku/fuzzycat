@@ -28,22 +28,23 @@ WIPv1 (10m)
     {
       "miss.appendix": 176,
       "miss.blacklisted": 12124,
-      "miss.blacklisted_fragment": 6,
+      "miss.blacklisted_fragment": 9,
       "miss.book_chapter": 46733,
-      "miss.component": 1567,
-      "miss.contrib_intersection_empty": 58823,
+      "miss.component": 2173,
+      "miss.contrib_intersection_empty": 73592,
       "miss.dataset_doi": 30806,
       "miss.num_diff": 1,
-      "miss.release_type": 95950,
-      "miss.short_title": 16270,
-      "miss.subtitle": 6013,
-      "miss.title_filename": 59,
-      "miss.year": 105946,
+      "miss.release_type": 19767,
+      "miss.short_title": 16737,
+      "miss.subtitle": 11975,
+      "miss.title_filename": 87,
+      "miss.year": 123288,
       "ok.arxiv_version": 90726,
-      "ok.dummy": 88807,
-      "ok.preprint_published": 8762,
-      "ok.slug_title_author_match": 41114,
-      "ok.title_author_match": 61564,
+      "ok.dummy": 106196,
+      "ok.preprint_published": 10495,
+      "ok.slug_title_author_match": 47285,
+      "ok.title_author_match": 65685,
+      "ok.tokenized_authors": 7592,
       "skip.container_name_blacklist": 20,
       "skip.publisher_blacklist": 456,
       "skip.too_large": 7430,
@@ -170,7 +171,7 @@ class GroupVerifier:
 
 def compare(a, b):
     """
-    Compare two entities, return match status.
+    Compare two entities, return match status and reason.
     """
     if len(a.get("title", "")) < 5:
         return (Status.AMBIGUOUS, Miss.SHORT_TITLE)

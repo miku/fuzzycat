@@ -22,8 +22,8 @@ Ideas:
 * merge-join
 
 ```
-$ fuzzycat.main keygen -s "algo" < ours | sort -k1,1 > a.tsv
-$ fuzzycat.main keygen -s "algo" < other | sort -k1,1 > b.tsv
+$ python -m fuzzycat keygen -s "algo" < ours | sort -k1,1 > a.tsv
+$ python -m fuzzycat keygen -s "algo" < other | sort -k1,1 > b.tsv
 $ merge-join a.tsv b.tsv
 ```
 
