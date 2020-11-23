@@ -189,8 +189,8 @@ def compare(a, b):
 
     # TODO: figshare versions, "xxx.v1"
     FIGSHARE_PREFIX = "10.6084"
-    if a.get("doi") and b.get("doi") and a.get("doi").startswith(FIGSHARE_PREFIX + "/") and b.get("doi").startswith(FIGSHARE_PREFIX +
-                                                                                  "/"):
+    if a.get("doi") and b.get("doi") and a.get("doi").startswith(FIGSHARE_PREFIX + "/") and b.get(
+            "doi").startswith(FIGSHARE_PREFIX + "/"):
         a_doi_v_stripped = re.sub(r"[.]v[0-9]+$", "", a.get("doi"))
         b_doi_v_stripped = re.sub(r"[.]v[0-9]+$", "", a.get("doi"))
         if a_doi_v_stripped == b_doi_v_stripped:

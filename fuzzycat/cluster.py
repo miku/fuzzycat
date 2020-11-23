@@ -81,22 +81,8 @@ __all__ = [
     "release_key_title_normalized",
     "release_key_title_nysiis",
     "release_key_title_sandcrawler",
-    "sort_by_column",
-    "group_by",
     "Cluster",
 ]
-
-
-@dataclass
-class Contrib:
-    """
-    A contributor.
-    """
-    index: Optional[int]
-    raw_name: Optional[str]
-    given_name: Optional[str]
-    surname: Optional[str]
-    role: Optional[str]
 
 
 @dataclass
@@ -106,18 +92,6 @@ class KeyDoc:
     """
     ident: str
     title: str
-
-
-@dataclass
-class ClusterResult:
-    """
-    Result of clustering, one key and a list of
-
-    A first approach: pass document through.
-    """
-    key: str
-    comment: str
-    docs: List[Any] = field(default_factory=list)
 
 
 get_ident_title = operator.itemgetter("ident", "title")
@@ -347,7 +321,7 @@ def cut(f: int = 0, sep: str = '\t', ignore_missing_column: bool = True):
 
 class Cluster:
     """
-    Runs clustering over a potentially large number of records.
+    Setup and run clustering over a potentially large number of records.
     """
     def __init__(self,
                  iterable: collections.abc.Iterable,
@@ -357,12 +331,15 @@ class Cluster:
                  prefix: str = "fuzzycat-",
                  tmpdir: str = tempfile.gettempdir(),
                  strict: bool = False,
-                 max_cluster_size=100):
+                 max_cluster_size: int = 100):
         self.iterable: collections.abc.Iterable = iterable
         self.key: Callable[[Any], Tuple[str, str]] = key
         self.output: IO[str] = output
         self.prefix: str = prefix
         self.tmpdir: str = tmpdir
+        self.strict = strict
+        self.key_denylist = key_denylist
+        self.max_cluster_size = max_cluster_size
         self.counter: Dict[str, int] = collections.Counter({
             "key_fail": 0,
             "key_ok": 0,
@@ -370,15 +347,11 @@ class Cluster:
             "key_denylist": 0,
             "num_clusters": 0,
         })
-        self.strict = strict
-        self.key_denylist = key_denylist
-        self.max_cluster_size = max_cluster_size
 
     def run(self):
         """
-        First map documents to keys, then group by keys.
-
-        Outline: json -> tsv -> sort -> group -> json
+        First map documents to keys, then group by keys, outline: json -> tsv
+        -> sort -> group -> json.
         """
         with tempfile.NamedTemporaryFile(delete=False, mode="w", prefix=self.prefix) as tf:
             for i, line in enumerate(self.iterable):
@@ -416,8 +389,8 @@ class Cluster:
 
     def sort(self, filename: str, opts: str = "-k 2", fast: bool = True, mode: str = "w"):
         """
-        Sort tabular file with sort(1), returns the filename of the sorted file.
-        TODO: use separate /fast/tmp for sort.
+        Sort tabular file with sort(1), returns the filename of the sorted
+        file. Options to sort can be passed in via opts keyword argument.
         """
         with tempfile.NamedTemporaryFile(delete=False, mode=mode, prefix=self.prefix) as tf:
             env = os.environ.copy()
@@ -433,11 +406,11 @@ class Cluster:
                  key: Callable[[Any], str] = None) -> Generator[Any, None, None]:
         """
         Extract a key from elements of an iterable and group them. Just as
-        uniq(1), the iterable must be ordered (by the key that is extracted)
-        for this to work.
+        uniq(1), the input iterable must be ordered (by the key that is
+        extracted) for this to work.
 
-        There might be large clusters, which would currently exceed memory.
-        Mitigate by splitting large clusters into parts.
+        There might be large clusters, which would currently exceed memory,
+        hence the max_cluster_size option.
         """
         for k, g in itertools.groupby(seq, key=key):
             payload = []
