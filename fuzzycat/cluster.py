@@ -433,6 +433,9 @@ class Cluster:
         Extract a key from elements of an iterable and group them. Just as
         uniq(1), the iterable must be ordered (by the key that is extracted)
         for this to work.
+
+        There might be large clusters, which would currently exceed memory.
+        Mitigate by splitting large clusters into parts.
         """
         for k, g in itertools.groupby(seq, key=key):
             items = list(g)
