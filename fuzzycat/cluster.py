@@ -439,7 +439,7 @@ class Cluster:
         There might be large clusters, which would currently exceed memory.
         Mitigate by splitting large clusters into parts.
         """
-        for k, g in enumerate(itertools.groupby(seq, key=key):
+        for k, g in itertools.groupby(seq, key=key):
             payload = []
             for i, line in enumerate(g):
                 if i > 0 and i == self.max_cluster_size:
