@@ -22,6 +22,7 @@ tokenizers = "*"
 spacy = "*"
 nltk = "*"
 regex = "*"
+pytest-cov = "*"
 
 [requires]
 python_version = "3.7"
