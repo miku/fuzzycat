@@ -1,6 +1,6 @@
 #!/bin/bash
 #
-# Fetches release entity references and caches them locally.
+# Fetches release entity mentioned in verify.csv and cache them locally.
 
 set -e -u
 set -o pipefail
