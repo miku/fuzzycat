@@ -2,10 +2,6 @@
 
 Fuzzy matching publications for [fatcat](https://fatcat.wiki).
 
-* [fuzzycat](https://pypi.org/project/fuzzycat/)
-
-Note: This is currently work-in-progress.
-
 # Example Run
 
 Run any clustering algorithm.
