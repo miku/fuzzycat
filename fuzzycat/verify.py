@@ -52,6 +52,7 @@ WIPv1 (10m)
       "total": 9481815
     }
 
+
 TODO: allow to pass in a DOI blacklist, e.g. a list of DOI which are not valid
 any more; example: https://fatcat.wiki/release/azbcyqjnmrdofigpgk24ck4rpq,
 https://fatcat.wiki/release/eb2uf5ae7bedxe22jasf2l3faa
