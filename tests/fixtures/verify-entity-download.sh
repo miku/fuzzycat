@@ -13,5 +13,6 @@ for ident in $(awk -F, '{print $1"\n"$2}' "$CSV"); do
         >&2 echo "[cached] $ident"
 		continue
 	fi
-	curl -sL --fail "$API/release/$ident" | jq --sort-keys . >"$ident"
+    tempfile=$(mktemp)
+	curl -sL --fail "$API/release/$ident" | jq --sort-keys . > "$tempfile" && mv "$tempfile" "$ident"
 done
