@@ -1,7 +1,8 @@
+import csv
 import json
 import os
-import csv
-from fuzzycat.verify import compare, Status
+
+from fuzzycat.verify import Status, compare
 
 VERIFY_CSV = os.path.join(os.path.dirname(os.path.realpath(__file__)), "data/verify.csv")
 RELEASE_ENTITIES_DIR = os.path.join(os.path.dirname(os.path.realpath(__file__)), "data/release")
