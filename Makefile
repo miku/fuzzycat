@@ -49,6 +49,7 @@ clean: ## Clean all artifacts
 	rm -rf .pytest_cache/
 	rm -rf .coverage
 	rm -rf .mypy_cache/
+	find . -name "__pycache__" -type d -exec rm -rf {} \;
 
 # Upload requires https://github.com/pypa/twine and some configuration.
 .PHONY: upload
