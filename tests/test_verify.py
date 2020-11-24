@@ -1,31 +1,33 @@
-import operator
+import json
 import os
-import yaml
-try:
-    from yaml import CLoader as Loader
-except ImportError:
-    from yaml import Loader
-
+import csv
 from fuzzycat.verify import compare, Status
 
+VERIFY_CSV = os.path.join(os.path.dirname(os.path.realpath(__file__)), "data/verify.csv")
+RELEASE_ENTITIES_DIR = os.path.join(os.path.dirname(os.path.realpath(__file__)), "data/release")
 
-def test_verify_cases():
-    """
-    Test verification cases, via yaml.
-    """
-    status_map = {
-        "AMBIGUOUS": Status.AMBIGUOUS,
-        "DIFFERENT": Status.DIFFERENT,
-        "EXACT": Status.EXACT,
-        "STRONG": Status.STRONG,
-        "WEAK": Status.WEAK,
-    }
-    fields = operator.itemgetter("a", "b", "status", "about")
-    folder = os.path.join(os.path.dirname(__file__), "test_verify")
-    for root, _, files in os.walk(folder):
-        for fn in files:
-            with open(os.path.join(root, fn)) as f:
-                doc = yaml.load(f, Loader=Loader)
-                a, b, status, about = fields(doc)
-                result, _ = compare(a, b)
-                assert status_map.get(status) == result, about
+status_mapping = {
+    "Status.AMBIGUOUS": Status.AMBIGUOUS,
+    "Status.DIFFERENT": Status.DIFFERENT,
+    "Status.EXACT": Status.EXACT,
+    "Status.STRONG": Status.STRONG,
+    "Status.WEAK": Status.WEAK,
+}
+
+
+def load_release_ident(ident):
+    dst = os.path.join(RELEASE_ENTITIES_DIR, ident)
+    with open(dst) as f:
+        return json.load(f)
+
+
+def test_compare():
+    with open(VERIFY_CSV) as f:
+        reader = csv.reader(f, delimiter=',')
+        for i, row in enumerate(reader):
+            a, b, expected_status, expected_reason = row
+            status, reason = compare(load_release_ident(a), load_release_ident(b))
+            assert status == status, "status: want {}, got {} for {} {}".format(
+                expected_status, status, a, b)
+            if expected_reason:
+                assert reason == reason, "reason: want {}, got {}".format(expected_reason, reason)
