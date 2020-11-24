@@ -1,0 +1,39 @@
+{
+  "abstracts": [],
+  "container_id": "d6l4p7cnojfyvg3o26z4x3gacy",
+  "contribs": [
+    {
+      "extra": {
+        "seq": "first"
+      },
+      "index": 0,
+      "raw_name": "Samuel Ghouralal",
+      "role": "author"
+    }
+  ],
+  "ext_ids": {
+    "doi": "10.1227/00006123-198007000-00016",
+    "pmid": "7413054",
+    "wikidata_qid": "Q53441404"
+  },
+  "extra": {
+    "crossref": {
+      "type": "journal-article"
+    },
+    "subtitle": [
+      "Neurosurgery in Trinidad, West Indies"
+    ]
+  },
+  "ident": "e6ism7bt2vf5jl4v2ffwy3gqvu",
+  "language": "en",
+  "pages": "97-98",
+  "publisher": "Oxford University Press (OUP)",
+  "refs": [],
+  "release_stage": "published",
+  "release_type": "article-journal",
+  "release_year": 1980,
+  "revision": "a8d9fdaf-2ea3-4aad-8c0d-f96d1f24e009",
+  "state": "active",
+  "title": "Perspectives in International Neurosurgery",
+  "work_id": "abqy2x3iavayhhffqggasaldf4"
+}

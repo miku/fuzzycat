@@ -1,0 +1,56 @@
+{
+  "abstracts": [
+    {
+      "content": "We investigate deep inelastic scattering off the polarized \"neutron\" using\ngauge/string duality. The \"neutron\" corresponds to a supergravity mode of the\nneutral dilatino. Through introducing the Pauli interaction term into the\naction in $\\textrm{AdS}_{5}$ space, we calculate the polarized deep inelastic\nstructure functions of the \"neutron\" in supergravity approximation at large t'\nHooft coupling $\\lambda$ and finite $x$ with $\\lambda^{-1/2}\\ll x<1$. In\ncomparison with the charged dilatino \"proton,\" which has been obtained in the\nprevious work by Gao and Xiao, we find the structure functions of the \"neutron\"\nare power suppressed at the same order as the ones of the \"proton.\" Especially,\nwe find the Burkhardt-Cottingham-like sum rule, which is satisfied in the work\nby Gao and Xiao, is broken due to the Pauli interaction term. We also\nillustrate how such a Pauli interaction term can arise naturally from higher\ndimensional fermion-graviton coupling through the usual Kaluza-Klein reduction.",
+      "lang": "en",
+      "mimetype": "application/x-latex",
+      "sha1": "f5a6023c0db9a6e5089bcaa46e0def313854522d"
+    },
+    {
+      "content": "We investigate deep inelastic scattering off the polarized \"neutron\" using\ngauge/string duality. The \"neutron\" corresponds to a supergravity mode of the\nneutral dilatino. Through introducing the Pauli interaction term into the\naction in AdS_5 space, we calculate the polarized deep inelastic\nstructure functions of the \"neutron\" in supergravity approximation at large t'\nHooft coupling λ and finite x with λ^-1/2≪ x<1. In\ncomparison with the charged dilatino \"proton,\" which has been obtained in the\nprevious work by Gao and Xiao, we find the structure functions of the \"neutron\"\nare power suppressed at the same order as the ones of the \"proton.\" Especially,\nwe find the Burkhardt-Cottingham-like sum rule, which is satisfied in the work\nby Gao and Xiao, is broken due to the Pauli interaction term. We also\nillustrate how such a Pauli interaction term can arise naturally from higher\ndimensional fermion-graviton coupling through the usual Kaluza-Klein reduction.",
+      "lang": "en",
+      "mimetype": "text/plain",
+      "sha1": "bd8ab7e69b1007a8c71154e552daf640c03abfe6"
+    }
+  ],
+  "contribs": [
+    {
+      "index": 0,
+      "raw_name": "Jian-Hua Gao",
+      "role": "author"
+    },
+    {
+      "index": 1,
+      "raw_name": "Zong-Gang Mou",
+      "role": "author"
+    }
+  ],
+  "ext_ids": {
+    "arxiv": "1003.3066v2"
+  },
+  "extra": {
+    "arxiv": {
+      "base_id": "1003.3066",
+      "categories": [
+        "hep-ph",
+        "hep-th"
+      ],
+      "comments": "21pages,5figures, published version",
+      "journal_ref": "Phys.Rev.D81:096006,2010"
+    },
+    "superceded": true
+  },
+  "ident": "yv3ihfy6pfe4xblrj7dcf3674u",
+  "language": "en",
+  "license_slug": "ARXIV-1.0",
+  "refs": [],
+  "release_date": "2010-03-22",
+  "release_stage": "submitted",
+  "release_type": "article",
+  "release_year": 2010,
+  "revision": "769f7a81-2fa9-4146-81a1-335d254b01df",
+  "state": "active",
+  "title": "Polarized Deep Inelastic Scattering Off the \"Neutron\" From Gauge/String\n  Duality",
+  "version": "v2",
+  "work_id": "aozirnibnzbcpfwkc4hieypzpq"
+}

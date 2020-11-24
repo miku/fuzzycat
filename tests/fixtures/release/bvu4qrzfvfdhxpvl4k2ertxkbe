@@ -1,0 +1,36 @@
+{
+  "abstracts": [],
+  "container_id": "6hmzawvr4zcdpfifwdquk5kafe",
+  "contribs": [
+    {
+      "extra": {
+        "seq": "first"
+      },
+      "index": 0,
+      "raw_name": "Alfred S. Traisman",
+      "role": "author"
+    }
+  ],
+  "ext_ids": {
+    "doi": "10.1001/archpedi.1954.02050100253014"
+  },
+  "extra": {
+    "crossref": {
+      "type": "journal-article"
+    }
+  },
+  "ident": "bvu4qrzfvfdhxpvl4k2ertxkbe",
+  "language": "en",
+  "pages": "251",
+  "publisher": "American Medical Association (AMA)",
+  "refs": [],
+  "release_date": "1954-08-01",
+  "release_stage": "published",
+  "release_type": "article-journal",
+  "release_year": 1954,
+  "revision": "f51a5b71-6f26-4477-be78-b19edab1fe65",
+  "state": "active",
+  "title": "CHICAGO PEDIATRIC SOCIETY",
+  "volume": "88",
+  "work_id": "b447iitkjra6vlb4drce5wvbj4"
+}

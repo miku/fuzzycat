@@ -1,0 +1,56 @@
+{
+  "abstracts": [],
+  "contribs": [
+    {
+      "extra": {
+        "seq": "first"
+      },
+      "index": 0,
+      "raw_name": "Tse-Lok Ho",
+      "role": "author"
+    },
+    {
+      "index": 1,
+      "raw_name": "Mary Fieser",
+      "role": "author"
+    },
+    {
+      "index": 2,
+      "raw_name": "Louis Fieser",
+      "role": "author"
+    }
+  ],
+  "ext_ids": {
+    "doi": "10.1002/9780471264194.fos10309"
+  },
+  "extra": {
+    "container_name": "Fieser and Fieser's Reagents for Organic Synthesis",
+    "crossref": {
+      "type": "reference-entry"
+    }
+  },
+  "ident": "2wzybzqlmjhjfh75cxjohbvzi4",
+  "publisher": "John Wiley & Sons, Inc.",
+  "refs": [
+    {
+      "container_name": "TL",
+      "extra": {
+        "authors": [
+          "Zubaidha"
+        ],
+        "volume": "43"
+      },
+      "index": 0,
+      "key": "10.1002/9780471264194.fos10309-BIB1|cit1",
+      "locator": "7277",
+      "year": 2002
+    }
+  ],
+  "release_date": "2006-12-15",
+  "release_type": "entry",
+  "release_year": 2006,
+  "revision": "e5500949-c678-4d29-bde0-62cc3acaf446",
+  "state": "active",
+  "title": "Triethylamine oxide",
+  "work_id": "bkuck7c2ire5pkpx7rsxofkgzm"
+}

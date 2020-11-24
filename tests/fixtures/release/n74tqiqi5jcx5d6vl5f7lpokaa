@@ -1,0 +1,39 @@
+{
+  "abstracts": [],
+  "container_id": "sn27gkxlkbhuzeexoqyapc756a",
+  "contribs": [
+    {
+      "extra": {
+        "seq": "first"
+      },
+      "index": 0,
+      "raw_name": "H BARBER",
+      "role": "author"
+    }
+  ],
+  "ext_ids": {
+    "doi": "10.1016/s0140-6736(01)32176-1"
+  },
+  "extra": {
+    "crossref": {
+      "alternative-id": [
+        "S0140-6736(01)32176-1"
+      ],
+      "type": "journal-article"
+    }
+  },
+  "ident": "n74tqiqi5jcx5d6vl5f7lpokaa",
+  "issue": "5110",
+  "language": "en",
+  "pages": "308",
+  "publisher": "Elsevier BV",
+  "refs": [],
+  "release_stage": "published",
+  "release_type": "article-journal",
+  "release_year": 1921,
+  "revision": "2fd7cff4-d91d-4664-abad-519e4add2e61",
+  "state": "active",
+  "title": "ROSACEA.",
+  "volume": "198",
+  "work_id": "b2t2zyo5dzbfxn3eqmjru2kpdy"
+}

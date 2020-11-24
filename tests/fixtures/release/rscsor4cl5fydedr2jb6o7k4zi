@@ -1,0 +1,53 @@
+{
+  "abstracts": [],
+  "container_id": "hcmacmudpncmhbketkadhg4kny",
+  "contribs": [
+    {
+      "extra": {
+        "seq": "first"
+      },
+      "index": 0,
+      "raw_name": "&NA;",
+      "role": "author"
+    }
+  ],
+  "ext_ids": {
+    "doi": "10.2165/00128415-200209110-00032"
+  },
+  "extra": {
+    "crossref": {
+      "type": "journal-article"
+    },
+    "subtitle": [
+      ""
+    ]
+  },
+  "ident": "rscsor4cl5fydedr2jb6o7k4zi",
+  "issue": "911",
+  "language": "en",
+  "pages": "10",
+  "publisher": "Springer Nature",
+  "refs": [
+    {
+      "container_name": "Journal of Clinical Gastroenterology",
+      "extra": {
+        "authors": [
+          "Famularo"
+        ],
+        "volume": "34"
+      },
+      "index": 0,
+      "key": "R1-32-3248",
+      "locator": "283",
+      "year": 2002
+    }
+  ],
+  "release_stage": "published",
+  "release_type": "article-journal",
+  "release_year": 2002,
+  "revision": "cf34094e-825e-470e-8031-6fc799505fec",
+  "state": "active",
+  "title": "Ketorolac",
+  "volume": "&NA;",
+  "work_id": "aa3omq4jnrhezh22qohc6sua2q"
+}

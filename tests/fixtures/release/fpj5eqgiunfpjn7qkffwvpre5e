@@ -1,0 +1,42 @@
+{
+  "abstracts": [],
+  "contribs": [
+    {
+      "given_name": "Heinz",
+      "index": 0,
+      "raw_name": "Heinz Gärtner",
+      "role": "author",
+      "surname": "Gärtner"
+    },
+    {
+      "extra": {
+        "organization": "Architekturmuseum Der Technischen Universität Berlin"
+      }
+    }
+  ],
+  "ext_ids": {
+    "doi": "10.25645/knqy-f347"
+  },
+  "extra": {
+    "datacite": {
+      "license": [
+        {
+          "rightsUri": "https://creativecommons.org/publicdomain/mark/1.0/deed.de"
+        }
+      ],
+      "resourceType": "Lichtpause: Lichtpause auf Papier",
+      "resourceTypeGeneral": "Image"
+    }
+  },
+  "ident": "fpj5eqgiunfpjn7qkffwvpre5e",
+  "publisher": "Architekturmuseum der Technischen Universität Berlin",
+  "refs": [],
+  "release_stage": "published",
+  "release_type": "graphic",
+  "release_year": 2020,
+  "revision": "106ed37e-6103-40bf-ac6f-a37a9d204836",
+  "state": "active",
+  "subtitle": "Grundrisse, Perspektivische Ansichten, Ansichten",
+  "title": "Perspektivübungen",
+  "work_id": "bk7afhdkunffheptj55rvtvy2i"
+}

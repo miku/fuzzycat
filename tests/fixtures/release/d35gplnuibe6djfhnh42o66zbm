@@ -1,0 +1,45 @@
+{
+  "abstracts": [],
+  "container_id": "hwgtoohwbzagxost4qimly5iu4",
+  "contribs": [
+    {
+      "extra": {
+        "seq": "first"
+      },
+      "index": 0,
+      "raw_name": "Anna Sobolewska",
+      "role": "author"
+    },
+    {
+      "index": 1,
+      "raw_name": "Marek Oktawian Bulanowski",
+      "role": "author"
+    },
+    {
+      "index": 2,
+      "raw_name": "Anita Jarzyna",
+      "role": "author"
+    }
+  ],
+  "ext_ids": {
+    "doi": "10.14746/pt.2012.17.14"
+  },
+  "extra": {
+    "crossref": {
+      "type": "journal-article"
+    }
+  },
+  "ident": "d35gplnuibe6djfhnh42o66zbm",
+  "issue": "17",
+  "pages": "287",
+  "publisher": "Adam Mickiewicz University Poznan",
+  "refs": [],
+  "release_date": "2012-01-01",
+  "release_stage": "published",
+  "release_type": "article-journal",
+  "release_year": 2012,
+  "revision": "cb4ba4f8-3e92-4cb0-837f-a62fa4f8db50",
+  "state": "active",
+  "title": "Recenzje",
+  "work_id": "an7b3uo35jgyfnyltcl4ufgasy"
+}

@@ -1,0 +1,64 @@
+{
+  "abstracts": [
+    {
+      "content": "We demonstrate that an A-type antiferromagnetic (AFM) state of\nPr{0.5}Sr{0.5}MnO{3} exhibits a novel charge ordering which governs the\ntransport property. This charge ordering is stripe-like, being characterized by\na wave vector q ~ (0,0,0.3) with very anisotropic correlation parallel and\nperpendicular to the stripe direction. This charge ordering is specific to the\nmanganites with relatively wide one-electron band width (W) which often exhibit\na metallic A-type AFM state, and should be strictly distinguished from the\nCE-type checkerboard-like charge ordering which is commonly observed in\nmanganites with narrower W such as La{1-x}Ca{x}MnO{3} and Pr{1-x}Ca{x}MnO{3}.",
+      "lang": "en",
+      "mimetype": "application/x-latex",
+      "sha1": "b8b39344db285d7d539bf188a987291bb24a2e8c"
+    },
+    {
+      "content": "We demonstrate that an A-type antiferromagnetic (AFM) state of\nPr0.5Sr0.5MnO3 exhibits a novel charge ordering which governs the\ntransport property. This charge ordering is stripe-like, being characterized by\na wave vector q   (0,0,0.3) with very anisotropic correlation parallel and\nperpendicular to the stripe direction. This charge ordering is specific to the\nmanganites with relatively wide one-electron band width (W) which often exhibit\na metallic A-type AFM state, and should be strictly distinguished from the\nCE-type checkerboard-like charge ordering which is commonly observed in\nmanganites with narrower W such as La1-xCaxMnO3 and Pr1-xCaxMnO3.",
+      "lang": "en",
+      "mimetype": "text/plain",
+      "sha1": "afa74e852555d87e1abf205f793e63cf77109177"
+    }
+  ],
+  "contribs": [
+    {
+      "index": 0,
+      "raw_name": "R. Kajimoto",
+      "role": "author"
+    },
+    {
+      "index": 1,
+      "raw_name": "H. Yoshizawa",
+      "role": "author"
+    },
+    {
+      "index": 2,
+      "raw_name": "Y. Tomioka",
+      "role": "author"
+    },
+    {
+      "index": 3,
+      "raw_name": "Y. Tokura",
+      "role": "author"
+    }
+  ],
+  "ext_ids": {
+    "arxiv": "cond-mat/0110170v1"
+  },
+  "extra": {
+    "arxiv": {
+      "base_id": "cond-mat/0110170",
+      "categories": [
+        "cond-mat.str-el"
+      ],
+      "comments": "REVTeX4, 5 pages, 4 figures",
+      "journal_ref": "Phys. Rev. B 66, 180402(R) (2002)"
+    },
+    "superceded": true
+  },
+  "ident": "4srjsirjhvhvtenz23lg6bqnqu",
+  "language": "en",
+  "refs": [],
+  "release_date": "2001-10-09",
+  "release_stage": "submitted",
+  "release_type": "article",
+  "release_year": 2001,
+  "revision": "c449f05d-593a-4b8e-96fd-2bec16436e0b",
+  "state": "active",
+  "title": "Novel stripe-type charge ordering in the metallic A-type antiferromagnet\n  Pr0.5Sr0.5MnO3",
+  "version": "v1",
+  "work_id": "bysm3in35banbbv2vhyvau5coa"
+}

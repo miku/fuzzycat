@@ -1,0 +1,49 @@
+{
+  "abstracts": [
+    {
+      "content": "<jats:p>Notas sobre literatura, escritura y arte contemporáneos</jats:p>",
+      "mimetype": "application/xml+jats",
+      "sha1": "fe02312968dc84de4db092ff5bd0b4651a827f76"
+    }
+  ],
+  "container_id": "achn2f7byfbtpljo22vljkal2i",
+  "contribs": [
+    {
+      "extra": {
+        "seq": "first"
+      },
+      "index": 0,
+      "raw_name": "Erika Arredondo",
+      "role": "author"
+    }
+  ],
+  "ext_ids": {
+    "doi": "10.5195/reviberoamer.2017.7533"
+  },
+  "extra": {
+    "crossref": {
+      "license": [
+        {
+          "URL": "https://creativecommons.org/licenses/by-nc-nd/3.0/us/",
+          "content-version": "unspecified",
+          "delay-in-days": 0,
+          "start": "2018-01-23T00:00:00Z"
+        }
+      ],
+      "type": "journal-article"
+    }
+  },
+  "ident": "gls2x7ca4nhzrkf437gdnj6ekq",
+  "issue": "261",
+  "pages": "691-700",
+  "publisher": "University Library System, University of Pittsburgh",
+  "refs": [],
+  "release_date": "2018-01-23",
+  "release_stage": "published",
+  "release_type": "article-journal",
+  "release_year": 2018,
+  "revision": "baef84f4-9ae3-43d2-abc9-9b256e89e5d5",
+  "state": "active",
+  "title": "Primeras páginas",
+  "work_id": "a6kwlf6h4nctfeaawo65bpjlpe"
+}

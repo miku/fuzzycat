@@ -1,0 +1,35 @@
+{
+  "abstracts": [],
+  "container_id": "b4urpfqskrbcncg2slnfkh3boa",
+  "contribs": [
+    {
+      "extra": {
+        "seq": "first"
+      },
+      "index": 0,
+      "raw_name": "Stafford Lightman",
+      "role": "author"
+    }
+  ],
+  "ext_ids": {
+    "doi": "10.1046/j.1365-2826.1997.00062.x"
+  },
+  "extra": {
+    "crossref": {
+      "type": "journal-article"
+    }
+  },
+  "ident": "dryvgf7v3jeergr3gendplglqq",
+  "language": "en",
+  "pages": "1-1",
+  "publisher": "Wiley",
+  "refs": [],
+  "release_date": "2003-10-31",
+  "release_stage": "published",
+  "release_type": "article-journal",
+  "release_year": 2003,
+  "revision": "392ed7f0-263f-49b5-a0c4-dbdc7891c29b",
+  "state": "active",
+  "title": "Invited Editorial",
+  "work_id": "aa4vu3mzibfaxmzylhttjjybsu"
+}

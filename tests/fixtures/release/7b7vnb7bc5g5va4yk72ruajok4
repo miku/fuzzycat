@@ -1,0 +1,132 @@
+{
+  "abstracts": [
+    {
+      "content": "Abstract Background Current mesoscale 3D imaging techniques are limited to transparent or cleared samples or require the use of X-rays. This is a severe limitation for many research areas, as the 3D color surface morphology of opaque samples—for example, intact adult Drosophila, Xenopus embryos, and other non-transparent samples—cannot be assessed. We have developed \"ALMOST,\" a novel optical method for 3D surface imaging of reflective opaque objects utilizing an optical projection tomography device in combination with oblique illumination and optical filters. Results As well as demonstrating image formation, we provide background information and explain the reconstruction—and consequent rendering—using a standard filtered back projection algorithm and 3D software. We expanded our approach to fluorescence and multi-channel spectral imaging, validating our results with micro-computed tomography. Different biological and inorganic test samples were used to highlight the versatility of our approach. To further demonstrate the applicability of ALMOST, we explored the muscle-induced form change of the Drosophila larva, imaged adult Drosophila, dynamically visualized the closure of neural folds during neurulation of live Xenopus embryos, and showed the complementarity of our approach by comparison with transmitted light and fluorescence OPT imaging of a Xenopus tadpole. Conclusion Thus, our new modality for spectral/color, macro/mesoscopic 3D imaging can be applied to a variety of model organisms and enables the longitudinal surface dynamics during development to be revealed.",
+      "lang": "en",
+      "mimetype": "text/plain",
+      "sha1": "9c5cff472c7fe1f40fa3cf1d1e854219945ebcd2"
+    }
+  ],
+  "contribs": [
+    {
+      "given_name": "Axelle",
+      "index": 0,
+      "raw_name": "Axelle Kerstens",
+      "role": "author",
+      "surname": "Kerstens"
+    },
+    {
+      "given_name": "Nikky",
+      "index": 1,
+      "raw_name": "Nikky Corthout",
+      "role": "author",
+      "surname": "Corthout"
+    },
+    {
+      "given_name": "Benjamin",
+      "index": 2,
+      "raw_name": "Benjamin Pavie",
+      "role": "author",
+      "surname": "Pavie"
+    },
+    {
+      "index": 3,
+      "raw_name": "Zengjin Huang",
+      "role": "author"
+    },
+    {
+      "given_name": "Frank",
+      "index": 4,
+      "raw_name": "Frank Vernaillen",
+      "role": "author",
+      "surname": "Vernaillen"
+    },
+    {
+      "given_name": "Greetje Vande",
+      "index": 5,
+      "raw_name": "Greetje Vande Velde",
+      "role": "author",
+      "surname": "Velde"
+    },
+    {
+      "given_name": "Sebastian",
+      "index": 6,
+      "raw_name": "Sebastian Munck",
+      "role": "author",
+      "surname": "Munck"
+    }
+  ],
+  "ext_ids": {
+    "doi": "10.6084/m9.figshare.c.4358387.v1"
+  },
+  "extra": {
+    "datacite": {
+      "license": [
+        {
+          "rights": "CC BY 4.0",
+          "rightsUri": "https://creativecommons.org/licenses/by/4.0"
+        }
+      ],
+      "relations": [
+        {
+          "relatedIdentifier": "10.1186/s12915-018-0614-4",
+          "relatedIdentifierType": "DOI",
+          "relationType": "IsSupplementTo"
+        },
+        {
+          "relatedIdentifier": "10.6084/m9.figshare.c.4358387",
+          "relatedIdentifierType": "DOI",
+          "relationType": "IsIdenticalTo"
+        }
+      ],
+      "resourceType": "Collection",
+      "resourceTypeGeneral": "Collection",
+      "subjects": [
+        {
+          "subject": "Biophysics"
+        },
+        {
+          "subject": "Space Science"
+        },
+        {
+          "subject": "Cell Biology"
+        },
+        {
+          "subject": "Genetics"
+        },
+        {
+          "subject": "Physiology"
+        },
+        {
+          "subject": "Biotechnology"
+        },
+        {
+          "schemeUri": "http://www.abs.gov.au/ausstats/abs@.nsf/0/6BB427AB9696C225CA2574180004463E",
+          "subject": "69999 Biological Sciences not elsewhere classified",
+          "subjectScheme": "FOR"
+        },
+        {
+          "schemeUri": "http://www.abs.gov.au/ausstats/abs@.nsf/0/6BB427AB9696C225CA2574180004463E",
+          "subject": "80699 Information Systems not elsewhere classified",
+          "subjectScheme": "FOR"
+        },
+        {
+          "subject": "Inorganic Chemistry"
+        }
+      ]
+    },
+    "release_month": 1
+  },
+  "ident": "7b7vnb7bc5g5va4yk72ruajok4",
+  "license_slug": "CC-BY",
+  "publisher": "Figshare",
+  "refs": [],
+  "release_date": "2019-01-08",
+  "release_stage": "published",
+  "release_type": "article",
+  "release_year": 2019,
+  "revision": "bac9bf6e-066a-4de6-845c-3d94724c37e0",
+  "state": "active",
+  "title": "A Label-free Multicolor Optical Surface Tomography (ALMOST) imaging method for nontransparent 3D samples",
+  "work_id": "b4yv3dcs2rc3nhyqyuzrzh45fu"
+}

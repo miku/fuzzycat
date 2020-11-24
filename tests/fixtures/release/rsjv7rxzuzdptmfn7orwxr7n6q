@@ -1,0 +1,43 @@
+{
+  "abstracts": [
+    {
+      "content": "The area renormalization procedure gives an invariant of even-dimensional\nclosed submanifolds in a conformal manifold, which we call the Graham-Witten\nenergy, and it is a generalization of the classical Willmore energy. In this\npaper, we obtain an explicit formula for the second variation of this energy at\nminimal submanifolds in an Einstein manifold. As an application, we prove that\nthe even-dimensional totally geodesic spheres in the unit sphere are critical\npoints of the Graham-Witten energy with non-negative second variation.",
+      "lang": "en",
+      "mimetype": "text/plain",
+      "sha1": "0f031d5872ea960d5708b8adaa67db52eb269e7a"
+    }
+  ],
+  "contribs": [
+    {
+      "index": 0,
+      "raw_name": "Yuya Takeuchi",
+      "role": "author"
+    }
+  ],
+  "ext_ids": {
+    "arxiv": "1807.06307v2"
+  },
+  "extra": {
+    "arxiv": {
+      "base_id": "1807.06307",
+      "categories": [
+        "math.DG",
+        "hep-th"
+      ],
+      "comments": "10 pages, typos corrected"
+    }
+  },
+  "ident": "rsjv7rxzuzdptmfn7orwxr7n6q",
+  "language": "en",
+  "license_slug": "ARXIV-1.0",
+  "refs": [],
+  "release_date": "2018-08-07",
+  "release_stage": "submitted",
+  "release_type": "article",
+  "release_year": 2018,
+  "revision": "1ece904e-adeb-4b86-9015-538c44d80576",
+  "state": "active",
+  "title": "On the second variation of the Graham-Witten energy",
+  "version": "v2",
+  "work_id": "a7vxbmynmfdphbpyzc43dejf54"
+}

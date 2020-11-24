@@ -1,0 +1,858 @@
+{
+  "abstracts": [],
+  "container_id": "s3gm7274mfe6fcs7e3jterqlri",
+  "contribs": [
+    {
+      "extra": {
+        "seq": "first"
+      },
+      "index": 0,
+      "raw_name": "Marc Harper",
+      "role": "author"
+    },
+    {
+      "index": 1,
+      "raw_name": "Luisa Gronenberg",
+      "role": "author"
+    },
+    {
+      "index": 2,
+      "raw_name": "James Liao",
+      "role": "author"
+    },
+    {
+      "index": 3,
+      "raw_name": "Christopher Lee",
+      "role": "author"
+    },
+    {
+      "extra": {
+        "seq": "first"
+      },
+      "raw_name": "Mickaël Desvaux",
+      "role": "editor"
+    }
+  ],
+  "ext_ids": {
+    "core": "44314049",
+    "doi": "10.1371/journal.pone.0088072",
+    "pmcid": "PMC3935835",
+    "pmid": "24586303",
+    "wikidata_qid": "Q35106021"
+  },
+  "extra": {
+    "crossref": {
+      "license": [
+        {
+          "URL": "http://creativecommons.org/licenses/by/4.0/",
+          "content-version": "unspecified",
+          "delay-in-days": 0,
+          "start": "2014-02-26T00:00:00Z"
+        }
+      ],
+      "type": "journal-article"
+    }
+  },
+  "ident": "cqkm3hyn3rgcng3d3alwtciwpq",
+  "language": "en",
+  "license_slug": "CC-BY",
+  "pages": "e88072",
+  "publisher": "Public Library of Science (PLoS)",
+  "refs": [
+    {
+      "container_name": "Microb Cell Fact",
+      "extra": {
+        "authors": [
+          "JJ Minty"
+        ],
+        "doi": "10.1186/1475-2859-10-18",
+        "volume": "10"
+      },
+      "index": 0,
+      "key": "ref1",
+      "locator": "18",
+      "title": "Evolution combined with genomic study elucidates genetic bases of isobutanol tolerance in Escherichia coli",
+      "year": 2011
+    },
+    {
+      "extra": {
+        "unstructured": "Atsumi S, Wu TY, Machado IM, Huang WC, Chen PY, <etal>et al</etal>.. (2010) Evolution, genomic analysis, and reconstruction of isobutanol tolerance in Escherichia coli. Mol Sys Bio 6."
+      },
+      "index": 1,
+      "key": "ref2"
+    },
+    {
+      "extra": {
+        "unstructured": "Umland TC, Schultz LW, MacDonald U, Beanan JM, Olson R, <etal>et al</etal>.. (2012) In vivo-validated essential genes identified in Acinetobacter baumannii by using human ascites overlap poorly with essential genes detected on laboratory media. mBio 3."
+      },
+      "index": 2,
+      "key": "ref3"
+    },
+    {
+      "container_name": "Genetics",
+      "extra": {
+        "authors": [
+          "S Sarin"
+        ],
+        "doi": "10.1534/genetics.110.116319",
+        "volume": "185"
+      },
+      "index": 3,
+      "key": "ref4",
+      "locator": "417",
+      "title": "Analysis of multiple ethyl methanesulfonate-mutagenized Caenorhabditis elegans strains by whole-genome sequencing",
+      "year": 2010
+    },
+    {
+      "container_name": "Genetics",
+      "extra": {
+        "authors": [
+          "Y Zhu"
+        ],
+        "doi": "10.1534/genetics.112.141986",
+        "volume": "192"
+      },
+      "index": 4,
+      "key": "ref5",
+      "locator": "139",
+      "title": "Gene discovery using mutagen-induced polymorphisms and deep sequencing: Application to plant disease resistance",
+      "year": 2012
+    },
+    {
+      "container_name": "PloS one",
+      "extra": {
+        "authors": [
+          "MA Harper"
+        ],
+        "doi": "10.1371/journal.pone.0016517"
+      },
+      "index": 5,
+      "key": "ref6",
+      "locator": "e16517",
+      "title": "Phenotype sequencing: identifying the genes that cause a phenotype directly from pooled sequencing of independent mutants",
+      "year": 2011
+    },
+    {
+      "container_name": "PloS one",
+      "extra": {
+        "authors": [
+          "LH Reyes"
+        ],
+        "doi": "10.1371/journal.pone.0017678"
+      },
+      "index": 6,
+      "key": "ref7",
+      "locator": "e17678",
+      "title": "Genomic library screens for genes involved in n-butanol tolerance in Escherichia coli",
+      "year": 2011
+    },
+    {
+      "container_name": "Genome res",
+      "extra": {
+        "authors": [
+          "Y Erlich"
+        ],
+        "doi": "10.1101/gr.092957.109",
+        "volume": "19"
+      },
+      "index": 7,
+      "key": "ref8",
+      "locator": "1243",
+      "title": "Dna sudoku - harnessing high- throughput sequencing for multiplexed specimen analysis",
+      "year": 2009
+    },
+    {
+      "container_name": "BMC bioinformatics",
+      "extra": {
+        "authors": [
+          "R Emanuele"
+        ],
+        "doi": "10.1186/1471-2105-13-239",
+        "volume": "13"
+      },
+      "index": 8,
+      "key": "ref9",
+      "locator": "239",
+      "title": "SNP calling by sequencing pooled samples",
+      "year": 2012
+    },
+    {
+      "container_name": "Genome res",
+      "extra": {
+        "authors": [
+          "C Honisch"
+        ],
+        "doi": "10.1101/gr.2977704",
+        "volume": "14"
+      },
+      "index": 9,
+      "key": "ref10",
+      "locator": "2495",
+      "title": "High-throughput mutation detection underlying adaptive evolution of Escherichia coli-K12",
+      "year": 2004
+    },
+    {
+      "container_name": "PNAS",
+      "extra": {
+        "authors": [
+          "GJ Velicer"
+        ],
+        "doi": "10.1073/pnas.0510740103",
+        "volume": "103"
+      },
+      "index": 10,
+      "key": "ref11",
+      "locator": "8107",
+      "title": "Comprehensive mutation identification in an evolved bacterial cooperator and its cheating ancestor",
+      "year": 2006
+    },
+    {
+      "container_name": "Genome res",
+      "extra": {
+        "authors": [
+          "DR Smith"
+        ],
+        "doi": "10.1101/gr.077776.108",
+        "volume": "18"
+      },
+      "index": 11,
+      "key": "ref12",
+      "locator": "1638",
+      "title": "Rapid whole-genome mutational profiling using next-generation sequencing technologies",
+      "year": 2008
+    },
+    {
+      "container_name": "J bacteriology",
+      "extra": {
+        "authors": [
+          "J Klockgether"
+        ],
+        "doi": "10.1128/jb.01515-09",
+        "volume": "192"
+      },
+      "index": 12,
+      "key": "ref13",
+      "locator": "1113",
+      "title": "Genome diversity of Pseudomonas aeruginosa pao1 laboratory strains",
+      "year": 2010
+    },
+    {
+      "container_name": "App Env microbiology",
+      "extra": {
+        "authors": [
+          "DH Lee"
+        ],
+        "doi": "10.1128/aem.00373-10",
+        "volume": "76"
+      },
+      "index": 13,
+      "key": "ref14",
+      "locator": "4158",
+      "title": "Adaptive evolution of Escherichia coli K-12 MG1655 during growth on a nonnative carbon source, l-1, 2-propanediol",
+      "year": 2010
+    },
+    {
+      "container_name": "PloS one",
+      "extra": {
+        "authors": [
+          "PE Chen"
+        ],
+        "doi": "10.1371/journal.pone.0012397"
+      },
+      "index": 14,
+      "key": "ref15",
+      "locator": "e12397",
+      "title": "Rapid identification of ge- netic modifications in Bacillus anthracis using whole genome draft sequences generated by 454 pyrosequencing",
+      "year": 2010
+    },
+    {
+      "container_name": "Nature genetics",
+      "extra": {
+        "authors": [
+          "CD Herring"
+        ],
+        "doi": "10.1038/ng1906",
+        "volume": "38"
+      },
+      "index": 15,
+      "key": "ref16",
+      "locator": "1406",
+      "title": "Comparative genome sequencing of Escherichia coli allows observation of bacterial evolution on a laboratory timescale",
+      "year": 2006
+    },
+    {
+      "container_name": "Genome Biol",
+      "extra": {
+        "authors": [
+          "TM Conrad"
+        ],
+        "doi": "10.1186/gb-2009-10-10-r118",
+        "volume": "10"
+      },
+      "index": 16,
+      "key": "ref17",
+      "locator": "R118",
+      "title": "Whole-genome resequencing of Escherichia coli K-12 MG1655 undergoing short-term laboratory evolution in lactate minimal media reveals exible selection of adaptive mutations",
+      "year": 2009
+    },
+    {
+      "container_name": "PLoS genetics",
+      "extra": {
+        "authors": [
+          "A Srivatsan"
+        ],
+        "doi": "10.1371/journal.pgen.1000139"
+      },
+      "index": 17,
+      "key": "ref18",
+      "locator": "e1000139",
+      "title": "High-precision, whole-genome sequencing of laboratory strains facilitates genetic studies",
+      "year": 2008
+    },
+    {
+      "container_name": "Mutation Res",
+      "extra": {
+        "authors": [
+          "J Ohnishi"
+        ],
+        "doi": "10.1016/j.mrgentox.2007.10.003",
+        "volume": "649"
+      },
+      "index": 18,
+      "key": "ref19",
+      "locator": "239",
+      "title": "Characterization of mutations induced by N-methyl-N'-nitro-N-nitrosoguanidine in an industrial Corynebacterium glutamicum strain",
+      "year": 2008
+    },
+    {
+      "container_name": "PNAS",
+      "extra": {
+        "authors": [
+          "S Le Crom"
+        ],
+        "doi": "10.1073/pnas.0905848106",
+        "volume": "106"
+      },
+      "index": 19,
+      "key": "ref20",
+      "locator": "16151",
+      "title": "Tracking the roots of cellulase hyperproduction by the fungus Trichoderma reesei using massively parallel dna sequencing",
+      "year": 2009
+    },
+    {
+      "container_name": "App Env microbiology",
+      "extra": {
+        "authors": [
+          "YP Chao"
+        ],
+        "volume": "59"
+      },
+      "index": 20,
+      "key": "ref21",
+      "locator": "4261",
+      "title": "Alteration of growth yield by overexpression of phosphoenolpyruvate carboxylase and phosphoenolpyruvate carboxykinase in Escherichia coli",
+      "year": 1993
+    },
+    {
+      "container_name": "App Env microbiology",
+      "extra": {
+        "authors": [
+          "P Kim"
+        ],
+        "doi": "10.1128/aem.70.2.1238-1241.2004",
+        "volume": "70"
+      },
+      "index": 21,
+      "key": "ref22",
+      "locator": "1238",
+      "title": "Effect of overexpression of Actinobacillus suc- cinogenes phosphoenolpyruvate carboxykinase on succinate production in Escherichia coli",
+      "year": 2004
+    },
+    {
+      "container_name": "Annals of the NYAS",
+      "extra": {
+        "authors": [
+          "JC Liao"
+        ],
+        "volume": "745"
+      },
+      "index": 22,
+      "key": "ref23",
+      "locator": "21",
+      "title": "Alteration of the biochemical valves in the central metabolism of Escherichia colia",
+      "year": 1994
+    },
+    {
+      "container_name": "J Bio Chem",
+      "extra": {
+        "authors": [
+          "S Fong"
+        ],
+        "doi": "10.1074/jbc.m510016200",
+        "volume": "281"
+      },
+      "index": 23,
+      "key": "ref24",
+      "locator": "8024",
+      "title": "Latent pathway activation and increased pathway capacity enable Escherichia coli adaptation to loss of key metabolic enzymes",
+      "year": 2006
+    },
+    {
+      "container_name": "FEMS microbiology reviews",
+      "extra": {
+        "authors": [
+          "U Sauer"
+        ],
+        "volume": "29"
+      },
+      "index": 24,
+      "key": "ref25",
+      "locator": "765",
+      "title": "The pep-pyruvate-oxaloacetate node as the switch point for carbon ux distribution in bacteria",
+      "year": 2005
+    },
+    {
+      "container_name": "Biotechnology and bioengineering",
+      "extra": {
+        "authors": [
+          "Y Dharmadi"
+        ],
+        "doi": "10.1002/bit.21025",
+        "volume": "94"
+      },
+      "index": 25,
+      "key": "ref26",
+      "locator": "821",
+      "title": "Anaerobic fermentation of glycerol by Escherichia coli : a new platform for metabolic engineering",
+      "year": 2006
+    },
+    {
+      "container_name": "PNAS",
+      "extra": {
+        "authors": [
+          "X Zhang"
+        ],
+        "doi": "10.1073/pnas.0905396106",
+        "volume": "106"
+      },
+      "index": 26,
+      "key": "ref27",
+      "locator": "20180",
+      "title": "Metabolic evolution of energy-conserving pathways for succinate production in Escherichia coli",
+      "year": 2009
+    },
+    {
+      "container_name": "Appl microbiology and biotechnology",
+      "extra": {
+        "authors": [
+          "R Liu"
+        ],
+        "doi": "10.1007/s00253-012-3896-4",
+        "volume": "94"
+      },
+      "index": 27,
+      "key": "ref28",
+      "locator": "959",
+      "title": "Fermentation of xylose to succinate by enhancement of ATP supply in metabolically engineered Escherichia coli",
+      "year": 2012
+    },
+    {
+      "container_name": "Bioprocess and biosystems engineering",
+      "extra": {
+        "authors": [
+          "S Park"
+        ],
+        "doi": "10.1007/s00449-012-0759-4",
+        "volume": "36"
+      },
+      "index": 28,
+      "key": "ref29",
+      "locator": "127",
+      "title": "Oxaloacetate and malate production in engineered Escherichia coli by expression of codon-optimized phosphoenolpyruvate carboxylase2 gene from Dunaliella salina",
+      "year": 2013
+    },
+    {
+      "extra": {
+        "doi": "10.1016/j.ymben.2012.07.001",
+        "unstructured": "Zhang B, Skory C, Yang S (2012) Metabolic engineering of Rhizopus oryzae: Effects of overex- pressing pyc and pepc genes on fumaric acid biosynthesis from glucose. Metab eng."
+      },
+      "index": 29,
+      "key": "ref30"
+    },
+    {
+      "container_name": "App microbiology and biotechnology",
+      "extra": {
+        "authors": [
+          "HJ Kim"
+        ],
+        "doi": "10.1007/s00253-011-3779-0",
+        "volume": "94"
+      },
+      "index": 30,
+      "key": "ref31",
+      "locator": "1079",
+      "title": "An engineered Escherichia coli having a high in- tracellular level of ATP and enhanced recombinant protein production",
+      "year": 2012
+    },
+    {
+      "extra": {
+        "doi": "10.1007/s00253-004-1567-9",
+        "unstructured": "Peng L, Shimizu K (2004) Effect of ppc gene knockout on the metabolism of Escherichia coli in view of gene expressions, enzyme activities and intracellular metabolite concentrations. Appl microbiology and biotechnology."
+      },
+      "index": 31,
+      "key": "ref32"
+    },
+    {
+      "container_name": "Angewandte Chemie International Edition in English",
+      "extra": {
+        "authors": [
+          "F Hucho"
+        ],
+        "doi": "10.1002/anie.197505911",
+        "volume": "14"
+      },
+      "index": 32,
+      "key": "ref33",
+      "locator": "591",
+      "title": "The pyruvate dehydrogenase multienzyme complex",
+      "year": 1975
+    },
+    {
+      "container_name": "Nucleic acids res",
+      "extra": {
+        "authors": [
+          "IM Keseler"
+        ],
+        "doi": "10.1093/nar/gkn751",
+        "volume": "37"
+      },
+      "index": 33,
+      "key": "ref34",
+      "locator": "D464",
+      "title": "Ecocyc: a comprehensive view of Escherichia coli biology",
+      "year": 2009
+    },
+    {
+      "container_name": "Nucleic acids res",
+      "extra": {
+        "authors": [
+          "D Nam"
+        ],
+        "doi": "10.1093/nar/gkq428",
+        "volume": "38"
+      },
+      "index": 34,
+      "key": "ref35",
+      "locator": "W749",
+      "title": "GSA-SNP: a general approach for gene set analysis of polymorphisms",
+      "year": 2010
+    },
+    {
+      "container_name": "BMC Sys Bio",
+      "extra": {
+        "authors": [
+          "J Lee"
+        ],
+        "doi": "10.1186/1752-0509-5-s2-s11"
+      },
+      "index": 35,
+      "key": "ref36",
+      "locator": "S11",
+      "title": "SNP-PRAGE: SNP-based parametric robust analysis of gene set enrichment",
+      "year": 2011
+    },
+    {
+      "container_name": "Nature",
+      "extra": {
+        "authors": [
+          "JH McDonald"
+        ],
+        "doi": "10.1038/351652a0",
+        "volume": "351"
+      },
+      "index": 36,
+      "key": "ref37",
+      "locator": "652",
+      "title": "Adaptive protein evolution at the Adh locus in Drosophila",
+      "year": 1991
+    },
+    {
+      "container_name": "Mutation Res",
+      "extra": {
+        "authors": [
+          "M Harper"
+        ],
+        "doi": "10.1016/j.mrfmmm.2011.10.011",
+        "volume": "731"
+      },
+      "index": 37,
+      "key": "ref38",
+      "locator": "64",
+      "title": "Genome-wide analysis of mutagenesis bias and context sensitivity of n-methyl-n'-nitro-n-nitrosoguanidine (ntg)",
+      "year": 2012
+    },
+    {
+      "container_name": "FEMS microbiology letters",
+      "extra": {
+        "authors": [
+          "L Peng"
+        ],
+        "volume": "235"
+      },
+      "index": 38,
+      "key": "ref39",
+      "locator": "17",
+      "title": "Metabolic ux analysis for a ppc mutant Escherichia coli based on 13c-labelling experiments together with enzyme activity assays and intracellular metabolite measurements",
+      "year": 2004
+    },
+    {
+      "extra": {
+        "doi": "10.1111/1574-6968.12109",
+        "unstructured": "Fong NL, Lerman JA, Lam I, Palsson BO, Charusanti P (2013) Reconciling a salmonella enterica metabolic model with experimental data confirms that overexpression of the glyoxylate shunt can rescue a lethal ppc deletion mutant. FEMS microbiology letters."
+      },
+      "index": 39,
+      "key": "ref40"
+    },
+    {
+      "container_name": "J mol microbiology and biotechnology",
+      "extra": {
+        "authors": [
+          "AJ Cozzone"
+        ],
+        "doi": "10.1159/000089642"
+      },
+      "index": 40,
+      "key": "ref41",
+      "locator": "132",
+      "title": "Control of isocitrate dehydrogenase catalytic activity by protein phosphorylation in Escherichia coli",
+      "year": 2006
+    },
+    {
+      "container_name": "J bacteriology",
+      "extra": {
+        "authors": [
+          "SR Maloy"
+        ],
+        "volume": "149"
+      },
+      "index": 41,
+      "key": "ref42",
+      "locator": "173",
+      "title": "Genetic regulation of the glyoxylate shunt in Escherichia coli K-12",
+      "year": 1982
+    },
+    {
+      "container_name": "BMC microbiology",
+      "extra": {
+        "authors": [
+          "H Waegeman"
+        ],
+        "doi": "10.1186/1471-2180-11-70",
+        "volume": "11"
+      },
+      "index": 42,
+      "key": "ref43",
+      "locator": "70",
+      "title": "Effect of iclr and arca knockouts on biomass formation and metabolic uxes in Escherichia coli K12 and its implications on understanding the metabolism of Escherichia coli BL21 (DE3)",
+      "year": 2011
+    },
+    {
+      "container_name": "PNAS",
+      "extra": {
+        "authors": [
+          "R Teufel"
+        ],
+        "doi": "10.1073/pnas.1005399107",
+        "volume": "107"
+      },
+      "index": 43,
+      "key": "ref44",
+      "locator": "14390",
+      "title": "Bacterial phenylalanine and phenylacetate catabolic pathway revealed",
+      "year": 2010
+    },
+    {
+      "container_name": "Microbiology and Mol Bio Rev",
+      "extra": {
+        "authors": [
+          "W Boos"
+        ],
+        "volume": "62"
+      },
+      "index": 44,
+      "key": "ref45",
+      "locator": "204",
+      "title": "Maltose/maltodextrin system of Escherichia coli : transport, metabolism, and regulation",
+      "year": 1998
+    },
+    {
+      "container_name": "Biotechnology and bioengineering",
+      "extra": {
+        "authors": [
+          "K Jantama"
+        ],
+        "doi": "10.1002/bit.21694",
+        "volume": "99"
+      },
+      "index": 45,
+      "key": "ref46",
+      "locator": "1140",
+      "title": "Combining metabolic en- gineering and metabolic evolution to develop nonrecombinant strains of Escherichia coli C that produce succinate and malate",
+      "year": 2008
+    },
+    {
+      "container_name": "Appl Env microbiology",
+      "extra": {
+        "authors": [
+          "R Chatterjee"
+        ],
+        "doi": "10.1128/aem.67.1.148-154.2001",
+        "volume": "67"
+      },
+      "index": 46,
+      "key": "ref47",
+      "locator": "148",
+      "title": "Mutation of the ptsG gene results in increased production of succinate in fermentation of glucose by Escherichia coli",
+      "year": 2001
+    },
+    {
+      "container_name": "Appl Env Microbiology",
+      "extra": {
+        "authors": [
+          "X Zhang"
+        ],
+        "doi": "10.1128/aem.01758-09",
+        "volume": "75"
+      },
+      "index": 47,
+      "key": "ref48",
+      "locator": "7807",
+      "title": "Reengineering Escherichia coli for succinate production in mineral salts medium",
+      "year": 2009
+    },
+    {
+      "extra": {
+        "doi": "10.1109/iembs.2006.260828",
+        "unstructured": "Fury W, Batliwalla F, Gregersen PK, Li W (2006) Overlapping probabilities of top ranking gene lists, hypergeometric distribution, and stringency of gene selection criterion. In: Engineering in Medicine and Biology Society, 2006. EMBS'06. 28th Annual International Conference of the IEEE. IEEE, pp. 5531–5534."
+      },
+      "index": 48,
+      "key": "ref49"
+    },
+    {
+      "extra": {
+        "unstructured": "Silhavy TJ, Berman ML, Enquist LW (1984) Experiments with gene fusions. Cold Spring Harbor Laboratory Cold Spring Harbor, New York."
+      },
+      "index": 49,
+      "key": "ref50"
+    },
+    {
+      "container_name": "Metabolic engineering",
+      "extra": {
+        "authors": [
+          "S Atsumi"
+        ],
+        "doi": "10.1016/j.ymben.2007.08.003",
+        "volume": "10"
+      },
+      "index": 50,
+      "key": "ref51",
+      "locator": "305",
+      "title": "Metabolic engineering of Escherichia coli for 1-butanol production",
+      "year": 2008
+    },
+    {
+      "extra": {
+        "unstructured": "Baba T, Ara T, Hasegawa M, Takai Y, Okumura Y, <etal>et al</etal>.. (2006) Construction of Escherichia coli K-12 in-frame, single-gene knockout mutants: the keio collection. Mol Sys Bio 2."
+      },
+      "index": 51,
+      "key": "ref52"
+    },
+    {
+      "extra": {
+        "unstructured": "Miller JH (1972) Experiments in molecular genetics, volume 60. Cold Spring Harbor Laboratory Cold Spring Harbor, New York."
+      },
+      "index": 52,
+      "key": "ref53"
+    },
+    {
+      "container_name": "Bioinformatics",
+      "extra": {
+        "authors": [
+          "H Li"
+        ],
+        "doi": "10.1093/bioinformatics/btp352",
+        "volume": "25"
+      },
+      "index": 53,
+      "key": "ref54",
+      "locator": "2078",
+      "title": "The sequence alignment/map format and SAMtools",
+      "year": 2009
+    },
+    {
+      "container_name": "SciPy",
+      "extra": {
+        "authors": [
+          "C Lee"
+        ]
+      },
+      "index": 54,
+      "key": "ref55",
+      "locator": "62",
+      "title": "Exploring the future of bioinformatics data sharing and mining with Pygr and Worldbase",
+      "year": 2009
+    },
+    {
+      "extra": {
+        "unstructured": "Jones E, Oliphant T, Peterson P (2001) SciPy: Open source scientific tools for Python. Available: <ext-link xmlns:xlink=\"http://www.w3.org/1999/xlink\" ext-link-type=\"uri\" xlink:href=\"http://www.scipy.org/\" xlink:type=\"simple\">http://www.scipy.org/</ext-link>. Accessed 2014 Jan 1."
+      },
+      "index": 55,
+      "key": "ref56"
+    },
+    {
+      "extra": {
+        "unstructured": "R Core Team (2012) R: A Language and Environment for Statistical Computing. R Foundation for Statistical Computing, Vienna, Austria. Available: <ext-link xmlns:xlink=\"http://www.w3.org/1999/xlink\" ext-link-type=\"uri\" xlink:href=\"http://www.R-project.org\" xlink:type=\"simple\">http://www.R-project.org</ext-link>. ISBN 3-900051-07-0."
+      },
+      "index": 56,
+      "key": "ref57"
+    },
+    {
+      "extra": {
+        "doi": "10.1007/978-0-387-21822-9",
+        "unstructured": "Ewens W (2004) Mathematical population genetics: I. Theoretical introduction, volume 27. Springer."
+      },
+      "index": 57,
+      "key": "ref58"
+    },
+    {
+      "extra": {
+        "unstructured": "Cover TM, Thomas JA (2012) Elements of information theory. Wiley-interscience."
+      },
+      "index": 58,
+      "key": "ref59"
+    },
+    {
+      "container_name": "FEMS microbiology letters",
+      "extra": {
+        "authors": [
+          "L Peng"
+        ],
+        "doi": "10.1111/j.1574-6968.2004.tb09562.x",
+        "volume": "235"
+      },
+      "index": 59,
+      "key": "ref60",
+      "locator": "17",
+      "title": "Metabolic ux analysis for a ppc mutant Escherichia coli based on 13C-labelling experiments together with enzyme activity assays and intracellular metabolite measurements",
+      "year": 2006
+    }
+  ],
+  "release_date": "2014-02-26",
+  "release_stage": "published",
+  "release_type": "article-journal",
+  "release_year": 2014,
+  "revision": "cb5ba2a2-f669-4669-be42-8109c0c835f3",
+  "state": "active",
+  "title": "Comprehensive Detection of Genes Causing a Phenotype Using Phenotype Sequencing and Pathway Analysis",
+  "work_id": "a5fegh5iyrfwpc32y33envrime"
+}

@@ -1,0 +1,67 @@
+{
+  "abstracts": [
+    {
+      "content": "We present the first study of GALEX far ultra-violet (FUV) luminosity\nfunctions of individual star-forming regions within a sample of 258 nearby\ngalaxies spanning a large range in total stellar mass and star formation\nproperties. We identify ~65,000 star-forming regions (i.e., FUV sources),\nmeasure each galaxy's luminosity function, and characterize the relationships\nbetween the luminosity function slope (alpha) and several global galaxy\nproperties. A final sample of 82 galaxies with reliable luminosity functions\nare used to define these relationships and represent the largest sample of\ngalaxies with the largest range of galaxy properties used to study the\nconnection between luminosity function properties and galaxy environment. We\nfind that alpha correlates with global star formation properties, where\ngalaxies with higher star formation rates and star formation rate densities\n(Sigma_SFR) tend to have flatter luminosity function slopes. In addition, we\nfind that neither stochastic sampling of the luminosity function in galaxies\nwith low-number statistics nor the effects of blending due to distance can\nfully account for these trends. We hypothesize that the flatter slopes in high\nSigma_SFR galaxies is due to higher gas densities and higher star formation\nefficiencies which result in proportionally greater numbers of bright\nstar-forming regions. Finally, we create a composite luminosity function\ncomposed of star-forming regions from many galaxies and find a break in the\nluminosity function at brighter luminosities. However, we find that this break\nis an artifact of varying detection limits for galaxies at different distances.",
+      "lang": "en",
+      "mimetype": "text/plain",
+      "sha1": "07712b6c0bb237f3e1936cf3ad748b23c1440d1c"
+    }
+  ],
+  "contribs": [
+    {
+      "index": 0,
+      "raw_name": "David O. Cook",
+      "role": "author"
+    },
+    {
+      "index": 1,
+      "raw_name": "Daniel A. Dale",
+      "role": "author"
+    },
+    {
+      "index": 2,
+      "raw_name": "Janice C. Lee",
+      "role": "author"
+    },
+    {
+      "index": 3,
+      "raw_name": "David Thilker",
+      "role": "author"
+    },
+    {
+      "index": 4,
+      "raw_name": "Daniela\n  Calzetti",
+      "role": "author"
+    },
+    {
+      "index": 5,
+      "raw_name": "Robert C. Kennicutt",
+      "role": "author"
+    }
+  ],
+  "ext_ids": {
+    "arxiv": "1607.03553v2"
+  },
+  "extra": {
+    "arxiv": {
+      "base_id": "1607.03553",
+      "categories": [
+        "astro-ph.GA"
+      ],
+      "comments": "40 pages, 27 figures, 2 tables; accepted to MNRAS"
+    }
+  },
+  "ident": "3g6mdd3tvjabdaez6mwcycso3q",
+  "language": "en",
+  "license_slug": "ARXIV-1.0",
+  "refs": [],
+  "release_date": "2016-07-29",
+  "release_stage": "accepted",
+  "release_type": "article",
+  "release_year": 2016,
+  "revision": "174eb362-be52-4497-8252-2875ba80d5c8",
+  "state": "active",
+  "title": "The Connection Between Galaxy Environment and the Luminosity Function\n  Slopes of Star-Forming Regions",
+  "version": "v2",
+  "work_id": "bvcyxgbef5hmfog6hqjvpvmxpi"
+}

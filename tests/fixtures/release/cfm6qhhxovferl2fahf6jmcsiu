@@ -1,0 +1,43 @@
+{
+  "abstracts": [],
+  "container_id": "rbkrey4ogjb5zanxlspurn4l2m",
+  "contribs": [
+    {
+      "extra": {
+        "seq": "first"
+      },
+      "index": 0,
+      "raw_name": "Deborah Bihler",
+      "role": "author"
+    },
+    {
+      "index": 1,
+      "role": "author"
+    }
+  ],
+  "ext_ids": {
+    "doi": "10.5840/bemag19915429"
+  },
+  "extra": {
+    "crossref": {
+      "alternative-id": [
+        "bemag_1991_0005_0004_0010_0011"
+      ],
+      "type": "journal-article"
+    },
+    "subtitle": [
+      ""
+    ]
+  },
+  "ident": "cfm6qhhxovferl2fahf6jmcsiu",
+  "pages": "10-11",
+  "publisher": "Philosophy Documentation Center",
+  "refs": [],
+  "release_stage": "published",
+  "release_type": "article-journal",
+  "release_year": 1991,
+  "revision": "4ca308f0-c547-4ba2-8d78-6c1b33ddd429",
+  "state": "active",
+  "title": "Trend Watch",
+  "work_id": "aa3olxm6jva67mj5ojh3k4vyb4"
+}

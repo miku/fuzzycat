@@ -1,0 +1,32 @@
+{
+  "abstracts": [],
+  "contribs": [
+    {
+      "given_name": "Jack",
+      "index": 0,
+      "raw_name": "Jack Hamlin",
+      "role": "author",
+      "surname": "Hamlin"
+    }
+  ],
+  "ext_ids": {
+    "doi": "10.5169/seals-454465"
+  },
+  "extra": {
+    "datacite": {
+      "metadataVersion": 7,
+      "resourceType": "Journal Article",
+      "resourceTypeGeneral": "Text"
+    },
+    "release_month": 4
+  },
+  "ident": "ygkmoig5fjhtbg3rcobuy67pnu",
+  "refs": [],
+  "release_date": "1921-04-16",
+  "release_type": "article-journal",
+  "release_year": 1921,
+  "revision": "3d634893-0ac1-4afa-8a8a-ad8a523711fd",
+  "state": "active",
+  "title": "Etc",
+  "work_id": "bycoo44z7zc5llefvvziyfw664"
+}

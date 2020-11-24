@@ -1,0 +1,35 @@
+{
+  "abstracts": [],
+  "container_id": "uvd7i3vzavd57amk5qnazxg3uy",
+  "contribs": [
+    {
+      "extra": {
+        "seq": "first"
+      },
+      "index": 0,
+      "raw_name": "A. I. R.",
+      "role": "author"
+    }
+  ],
+  "ext_ids": {
+    "doi": "10.2307/20545766"
+  },
+  "extra": {
+    "crossref": {
+      "type": "journal-article"
+    }
+  },
+  "ident": "crsd5c2fhvd7hodbd4trne3lgi",
+  "issue": "45",
+  "language": "en",
+  "pages": "391",
+  "publisher": "JSTOR",
+  "refs": [],
+  "release_stage": "published",
+  "release_type": "article-journal",
+  "release_year": 1902,
+  "revision": "6d2af44d-5cb5-4428-aad5-9341512e03f9",
+  "state": "active",
+  "title": "An Explanation",
+  "work_id": "buhmsilpvjdvjbcxypfbtdnqzm"
+}

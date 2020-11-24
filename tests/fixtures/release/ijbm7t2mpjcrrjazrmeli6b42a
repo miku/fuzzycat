@@ -1,0 +1,414 @@
+{
+  "abstracts": [],
+  "container_id": "5pgnwkvlevhybgsbuc3q7fchx4",
+  "contribs": [
+    {
+      "extra": {
+        "seq": "first"
+      },
+      "index": 0,
+      "raw_name": "Manuel Baur",
+      "role": "author"
+    },
+    {
+      "index": 1,
+      "raw_name": "Kai Huang",
+      "role": "author"
+    }
+  ],
+  "ext_ids": {
+    "core": "129218162",
+    "doi": "10.1103/physreve.95.030901",
+    "pmid": "28415226"
+  },
+  "extra": {
+    "crossref": {
+      "funder": [
+        {
+          "DOI": "10.13039/501100001659",
+          "award": [
+            "HU1939/4-1"
+          ],
+          "doi-asserted-by": "publisher",
+          "name": "Deutsche Forschungsgemeinschaft"
+        }
+      ],
+      "license": [
+        {
+          "URL": "http://link.aps.org/licenses/aps-default-license",
+          "content-version": "vor",
+          "delay-in-days": 0,
+          "start": "2017-03-20T00:00:00Z"
+        }
+      ],
+      "type": "journal-article"
+    }
+  },
+  "ident": "ijbm7t2mpjcrrjazrmeli6b42a",
+  "language": "en",
+  "publisher": "American Physical Society (APS)",
+  "refs": [
+    {
+      "container_name": "A Grain of Sand: Nature's Secret Wonder",
+      "extra": {
+        "authors": [
+          "G. Greenberg"
+        ],
+        "volume-title": "A Grain of Sand: Nature's Secret Wonder"
+      },
+      "index": 0,
+      "key": "PhysRevE.95.030901Cc1R1",
+      "year": 2008
+    },
+    {
+      "extra": {
+        "doi": "10.1038/ncomms3194"
+      },
+      "index": 1,
+      "key": "PhysRevE.95.030901Cc2R1"
+    },
+    {
+      "extra": {
+        "doi": "10.1103/physrevlett.111.028001"
+      },
+      "index": 2,
+      "key": "PhysRevE.95.030901Cc3R1"
+    },
+    {
+      "extra": {
+        "doi": "10.1039/c3sm50298h"
+      },
+      "index": 3,
+      "key": "PhysRevE.95.030901Cc4R1"
+    },
+    {
+      "extra": {
+        "doi": "10.1039/c3sm52047a"
+      },
+      "index": 4,
+      "key": "PhysRevE.95.030901Cc5R1"
+    },
+    {
+      "extra": {
+        "doi": "10.1007/s10035-014-0509-1"
+      },
+      "index": 5,
+      "key": "PhysRevE.95.030901Cc6R1"
+    },
+    {
+      "extra": {
+        "doi": "10.1038/ncomms9366"
+      },
+      "index": 6,
+      "key": "PhysRevE.95.030901Cc7R1"
+    },
+    {
+      "extra": {
+        "doi": "10.1016/j.powtec.2015.10.035"
+      },
+      "index": 7,
+      "key": "PhysRevE.95.030901Cc8R1"
+    },
+    {
+      "extra": {
+        "doi": "10.1103/physrevb.73.054109"
+      },
+      "index": 8,
+      "key": "PhysRevE.95.030901Cc9R1"
+    },
+    {
+      "container_name": "Sands, Powders and Grains",
+      "extra": {
+        "authors": [
+          "J. Duran"
+        ],
+        "doi": "10.1007/978-1-4612-0499-2",
+        "volume-title": "Sands, Powders and Grains"
+      },
+      "index": 9,
+      "key": "PhysRevE.95.030901Cc10R1",
+      "year": 2000
+    },
+    {
+      "container_name": "Kinetic Theory of Granular Gases",
+      "extra": {
+        "authors": [
+          "N. Brilliantov"
+        ],
+        "doi": "10.1093/acprof:oso/9780198530381.001.0001",
+        "volume-title": "Kinetic Theory of Granular Gases"
+      },
+      "index": 10,
+      "key": "PhysRevE.95.030901Cc11R1",
+      "year": 2004
+    },
+    {
+      "extra": {
+        "doi": "10.1103/physreve.86.011303"
+      },
+      "index": 11,
+      "key": "PhysRevE.95.030901Cc12R1"
+    },
+    {
+      "extra": {
+        "doi": "10.1103/physreve.93.042904"
+      },
+      "index": 12,
+      "key": "PhysRevE.95.030901Cc13R1"
+    },
+    {
+      "extra": {
+        "doi": "10.1103/revmodphys.68.1259"
+      },
+      "index": 13,
+      "key": "PhysRevE.95.030901Cc14R1"
+    },
+    {
+      "extra": {
+        "doi": "10.1140/epjst/e2010-01191-5"
+      },
+      "index": 14,
+      "key": "PhysRevE.95.030901Cc15R1"
+    },
+    {
+      "extra": {
+        "doi": "10.1103/physreve.88.062201"
+      },
+      "index": 15,
+      "key": "PhysRevE.95.030901Cc16R1"
+    },
+    {
+      "extra": {
+        "doi": "10.1088/1367-2630/17/8/083055"
+      },
+      "index": 16,
+      "key": "PhysRevE.95.030901Cc17R1"
+    },
+    {
+      "extra": {
+        "doi": "10.1126/science.1220869"
+      },
+      "index": 17,
+      "key": "PhysRevE.95.030901Cc18R1"
+    },
+    {
+      "extra": {
+        "doi": "10.1103/physrevlett.111.015501"
+      },
+      "index": 18,
+      "key": "PhysRevE.95.030901Cc19R1"
+    },
+    {
+      "extra": {
+        "doi": "10.1073/pnas.1513361112"
+      },
+      "index": 19,
+      "key": "PhysRevE.95.030901Cc20R1"
+    },
+    {
+      "extra": {
+        "doi": "10.1103/physrevlett.95.098002"
+      },
+      "index": 20,
+      "key": "PhysRevE.95.030901Cc21R1"
+    },
+    {
+      "extra": {
+        "doi": "10.1038/nphys884"
+      },
+      "index": 21,
+      "key": "PhysRevE.95.030901Cc22R1"
+    },
+    {
+      "extra": {
+        "doi": "10.1103/physrevlett.109.095701"
+      },
+      "index": 22,
+      "key": "PhysRevE.95.030901Cc23R1"
+    },
+    {
+      "extra": {
+        "doi": "10.1103/physrevx.5.031025"
+      },
+      "index": 23,
+      "key": "PhysRevE.95.030901Cc24R1"
+    },
+    {
+      "extra": {
+        "doi": "10.1103/physrevlett.96.028002"
+      },
+      "index": 24,
+      "key": "PhysRevE.95.030901Cc25R1"
+    },
+    {
+      "extra": {
+        "doi": "10.1088/1742-5468/2006/01/p01005"
+      },
+      "index": 25,
+      "key": "PhysRevE.95.030901Cc26R1"
+    },
+    {
+      "extra": {
+        "doi": "10.1103/physreve.91.062207"
+      },
+      "index": 26,
+      "key": "PhysRevE.95.030901Cc27R1"
+    },
+    {
+      "extra": {
+        "doi": "10.1088/1742-5468/2016/08/083302"
+      },
+      "index": 27,
+      "key": "PhysRevE.95.030901Cc28R1"
+    },
+    {
+      "extra": {
+        "doi": "10.1103/physreve.75.051301"
+      },
+      "index": 28,
+      "key": "PhysRevE.95.030901Cc29R1"
+    },
+    {
+      "extra": {
+        "doi": "10.1126/science.1140414"
+      },
+      "index": 29,
+      "key": "PhysRevE.95.030901Cc30R1"
+    },
+    {
+      "extra": {
+        "doi": "10.1103/physrevlett.100.058001"
+      },
+      "index": 30,
+      "key": "PhysRevE.95.030901Cc31R1"
+    },
+    {
+      "extra": {
+        "doi": "10.1103/physrevlett.105.098001"
+      },
+      "index": 31,
+      "key": "PhysRevE.95.030901Cc32R1"
+    },
+    {
+      "extra": {
+        "doi": "10.1103/physrevlett.103.208302"
+      },
+      "index": 32,
+      "key": "PhysRevE.95.030901Cc33R1"
+    },
+    {
+      "extra": {
+        "doi": "10.1073/pnas.1014942108"
+      },
+      "index": 33,
+      "key": "PhysRevE.95.030901Cc34R1"
+    },
+    {
+      "extra": {
+        "doi": "10.1038/ncomms1803"
+      },
+      "index": 34,
+      "key": "PhysRevE.95.030901Cc35R1"
+    },
+    {
+      "extra": {
+        "doi": "10.1103/physrevlett.112.075701"
+      },
+      "index": 35,
+      "key": "PhysRevE.95.030901Cc36R1"
+    },
+    {
+      "extra": {
+        "doi": "10.1073/pnas.1507897112"
+      },
+      "index": 36,
+      "key": "PhysRevE.95.030901Cc37R1"
+    },
+    {
+      "extra": {
+        "doi": "10.1016/j.cis.2008.10.002"
+      },
+      "index": 37,
+      "key": "PhysRevE.95.030901Cc39R1"
+    },
+    {
+      "extra": {
+        "doi": "10.1016/j.ijheatmasstransfer.2008.01.027"
+      },
+      "index": 38,
+      "key": "PhysRevE.95.030901Cc40R1"
+    },
+    {
+      "extra": {
+        "doi": "10.1080/00018730500167855"
+      },
+      "index": 39,
+      "key": "PhysRevE.95.030901Cc41R1"
+    },
+    {
+      "extra": {
+        "doi": "10.1103/physrevlett.70.1619"
+      },
+      "index": 40,
+      "key": "PhysRevE.95.030901Cc42R1"
+    },
+    {
+      "extra": {
+        "doi": "10.1371/journal.pone.0067838"
+      },
+      "index": 41,
+      "key": "PhysRevE.95.030901Cc43R1"
+    },
+    {
+      "extra": {
+        "doi": "10.1039/c5sm01163a"
+      },
+      "index": 42,
+      "key": "PhysRevE.95.030901Cc44R1"
+    },
+    {
+      "extra": {
+        "doi": "10.1088/1367-2630/18/12/123001"
+      },
+      "index": 43,
+      "key": "PhysRevE.95.030901Cc45R1"
+    },
+    {
+      "extra": {
+        "doi": "10.1115/1.2801325"
+      },
+      "index": 44,
+      "key": "PhysRevE.95.030901Cc46R1"
+    },
+    {
+      "extra": {
+        "doi": "10.1038/35009017"
+      },
+      "index": 45,
+      "key": "PhysRevE.95.030901Cc47R1"
+    },
+    {
+      "extra": {
+        "doi": "10.1039/c2sm06952k"
+      },
+      "index": 46,
+      "key": "PhysRevE.95.030901Cc48R1"
+    },
+    {
+      "extra": {
+        "doi": "10.1103/physrevb.32.1480"
+      },
+      "index": 47,
+      "key": "PhysRevE.95.030901Cc49R1"
+    }
+  ],
+  "release_date": "2017-03-20",
+  "release_stage": "published",
+  "release_type": "article-journal",
+  "release_year": 2017,
+  "revision": "44cfa24e-10bd-4747-96ef-976e20d61355",
+  "state": "active",
+  "title": "Dynamics of wet granular hexagons",
+  "volume": "95",
+  "work_id": "asbrnyvksrhznl2qc5734cq2yu"
+}

@@ -1,0 +1,60 @@
+{
+  "abstracts": [
+    {
+      "content": "Kirstie's slides for her talk at the Advanced Methods for Reproducible Science workshop.",
+      "lang": "en",
+      "mimetype": "text/plain",
+      "sha1": "95071128ca8857d1308743f9b0d2819a26d918dc"
+    }
+  ],
+  "contribs": [
+    {
+      "creator_id": "7ossxzj6jnaldbgb4r3hpt3dum",
+      "given_name": "Kirstie",
+      "index": 0,
+      "raw_affiliation": "The Alan Turing Institute",
+      "raw_name": "Kirstie Whitaker",
+      "role": "author",
+      "surname": "Whitaker"
+    }
+  ],
+  "ext_ids": {
+    "doi": "10.5281/zenodo.3601496"
+  },
+  "extra": {
+    "datacite": {
+      "license": [
+        {
+          "rights": "Creative Commons Attribution 4.0 International",
+          "rightsUri": "http://creativecommons.org/licenses/by/4.0/legalcode"
+        },
+        {
+          "rights": "Open Access",
+          "rightsUri": "info:eu-repo/semantics/openAccess"
+        }
+      ],
+      "relations": [
+        {
+          "relatedIdentifier": "10.5281/zenodo.3601497",
+          "relatedIdentifierType": "DOI",
+          "relationType": "HasVersion"
+        }
+      ],
+      "resourceType": "Presentation",
+      "resourceTypeGeneral": "Text"
+    },
+    "release_month": 1
+  },
+  "ident": "mbnr3nrdijerto6wfjnlsmfhga",
+  "license_slug": "CC-BY",
+  "publisher": "Zenodo",
+  "refs": [],
+  "release_date": "2020-01-09",
+  "release_stage": "published",
+  "release_type": "article-journal",
+  "release_year": 2020,
+  "revision": "2acbf5d0-6184-4699-9b7b-bbf56a196ebb",
+  "state": "active",
+  "title": "The Turing Way: Transforming Research with Collaborative Working",
+  "work_id": "ay2gpzvk5ve3vj4t7ktqwhgpce"
+}

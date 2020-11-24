@@ -1,0 +1,44 @@
+{
+  "abstracts": [],
+  "contribs": [
+    {
+      "extra": {
+        "seq": "first"
+      },
+      "index": 0,
+      "raw_name": "Christopher Wray",
+      "role": "author"
+    },
+    {
+      "raw_name": "Raymond S. Sinatra",
+      "role": "editor"
+    },
+    {
+      "raw_name": "Jonathan S. Jahr",
+      "role": "editor"
+    },
+    {
+      "raw_name": "J. Michael Watkins-Pitchford",
+      "role": "editor"
+    }
+  ],
+  "ext_ids": {
+    "doi": "10.1017/cbo9780511841378.055"
+  },
+  "extra": {
+    "container_name": "The Essence of Analgesia and Analgesics",
+    "crossref": {
+      "type": "book-chapter"
+    }
+  },
+  "ident": "no7a4vrfwnfp7jqrliq6n2hpxi",
+  "pages": "235-237",
+  "publisher": "Cambridge University Press",
+  "refs": [],
+  "release_stage": "published",
+  "release_type": "chapter",
+  "revision": "1f7c7581-4195-4d8d-bacf-7c34cf081bb5",
+  "state": "active",
+  "title": "Ketorolac",
+  "work_id": "a7jt4iyjw5auvbwjfpzdtzy5ja"
+}

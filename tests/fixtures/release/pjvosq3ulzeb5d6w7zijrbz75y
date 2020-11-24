@@ -1,0 +1,43 @@
+{
+  "abstracts": [],
+  "contribs": [
+    {
+      "extra": {
+        "seq": "first"
+      },
+      "index": 0,
+      "raw_name": "Gownolla Malegowd Raghavendra",
+      "role": "author"
+    },
+    {
+      "index": 1,
+      "raw_name": "Kokkarachedu Varaprasad",
+      "role": "author"
+    },
+    {
+      "index": 2,
+      "raw_name": "Tippabattini Jayaramudu",
+      "role": "author"
+    }
+  ],
+  "ext_ids": {
+    "doi": "10.1016/b978-0-323-32889-0.00002-9"
+  },
+  "extra": {
+    "container_name": "Nanotechnology Applications for Tissue Engineering",
+    "crossref": {
+      "type": "book-chapter"
+    }
+  },
+  "ident": "pjvosq3ulzeb5d6w7zijrbz75y",
+  "pages": "21-44",
+  "publisher": "Elsevier",
+  "refs": [],
+  "release_stage": "published",
+  "release_type": "chapter",
+  "release_year": 2015,
+  "revision": "43035fc8-3d89-4e34-9fa1-e06064616506",
+  "state": "active",
+  "title": "Biomaterials",
+  "work_id": "byun65nxwjbl7ktfwqvchheewq"
+}

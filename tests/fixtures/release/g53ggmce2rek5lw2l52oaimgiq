@@ -1,0 +1,53 @@
+{
+  "abstracts": [],
+  "container_id": "hcmacmudpncmhbketkadhg4kny",
+  "contribs": [
+    {
+      "extra": {
+        "seq": "first"
+      },
+      "index": 0,
+      "raw_name": "&NA;",
+      "role": "author"
+    }
+  ],
+  "ext_ids": {
+    "doi": "10.2165/00128415-199505720-00035"
+  },
+  "extra": {
+    "crossref": {
+      "type": "journal-article"
+    },
+    "subtitle": [
+      "Lack of seizure control with concomitant dexamethasone: case report"
+    ]
+  },
+  "ident": "g53ggmce2rek5lw2l52oaimgiq",
+  "issue": "572",
+  "language": "en",
+  "pages": "11",
+  "publisher": "Springer Nature",
+  "refs": [
+    {
+      "container_name": "Annals of Pharmacotherapy",
+      "extra": {
+        "authors": [
+          "Recuenco"
+        ],
+        "volume": "29"
+      },
+      "index": 0,
+      "key": "R1-35-2653",
+      "locator": "935",
+      "year": 1995
+    }
+  ],
+  "release_stage": "published",
+  "release_type": "article-journal",
+  "release_year": 1995,
+  "revision": "283be051-70bb-4c01-89f5-60cbc69a313c",
+  "state": "active",
+  "title": "Phenytoin interaction",
+  "volume": "&NA;",
+  "work_id": "brxz5mzhm5ewzo4ur3quceg3oy"
+}

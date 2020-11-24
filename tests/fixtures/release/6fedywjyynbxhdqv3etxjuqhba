@@ -1,0 +1,43 @@
+{
+  "abstracts": [],
+  "container_id": "achn2f7byfbtpljo22vljkal2i",
+  "contribs": [
+    {
+      "extra": {
+        "seq": "first"
+      },
+      "index": 0,
+      "raw_name": "IILI IILI",
+      "role": "author"
+    }
+  ],
+  "ext_ids": {
+    "doi": "10.5195/reviberoamer.1997.6173"
+  },
+  "extra": {
+    "crossref": {
+      "license": [
+        {
+          "URL": "https://creativecommons.org/licenses/by-nc-nd/3.0/us/",
+          "content-version": "unspecified",
+          "delay-in-days": 0,
+          "start": "1997-12-28T00:00:00Z"
+        }
+      ],
+      "type": "journal-article"
+    }
+  },
+  "ident": "6fedywjyynbxhdqv3etxjuqhba",
+  "issue": "181",
+  "publisher": "University Library System, University of Pittsburgh",
+  "refs": [],
+  "release_date": "1997-12-28",
+  "release_stage": "published",
+  "release_type": "article-journal",
+  "release_year": 1997,
+  "revision": "fd5c0dcc-9f29-4290-b6fc-c8e33d28ee70",
+  "state": "active",
+  "title": "Primeras páginas",
+  "volume": "63",
+  "work_id": "azipr2diprhmjfgeoedh47hqtq"
+}

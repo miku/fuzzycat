@@ -1,0 +1,159 @@
+{
+  "abstracts": [],
+  "container_id": "drfdii35rzaibj3aml5uhvr5xm",
+  "contribs": [],
+  "ext_ids": {
+    "doi": "10.1038/nature21897",
+    "pmid": "28297713",
+    "wikidata_qid": "Q46403674"
+  },
+  "extra": {
+    "crossref": {
+      "alternative-id": [
+        "nature21897"
+      ],
+      "type": "journal-article"
+    }
+  },
+  "ident": "huophilkpbh2ddemt7okzzkuyq",
+  "publisher": "Springer Nature",
+  "refs": [
+    {
+      "container_name": "Proc. Natl Acad. Sci. USA",
+      "extra": {
+        "authors": [
+          "Cameron S. A."
+        ],
+        "doi": "10.1073/pnas.1014743108",
+        "volume": "108"
+      },
+      "index": 0,
+      "key": "nature21897-b1",
+      "locator": "662",
+      "year": 2011
+    },
+    {
+      "container_name": "Proc. R. Soc. B",
+      "extra": {
+        "authors": [
+          "Bommarco R."
+        ],
+        "doi": "10.1098/rspb.2011.0647",
+        "volume": "279"
+      },
+      "index": 1,
+      "key": "nature21897-b2",
+      "locator": "309",
+      "year": 2012
+    },
+    {
+      "container_name": "Science",
+      "extra": {
+        "authors": [
+          "Kerr J. T."
+        ],
+        "doi": "10.1126/science.aaa7031",
+        "volume": "349"
+      },
+      "index": 2,
+      "key": "nature21897-b3",
+      "locator": "177",
+      "year": 2015
+    },
+    {
+      "container_name": "Science",
+      "extra": {
+        "authors": [
+          "Whitehorn P. R."
+        ],
+        "doi": "10.1126/science.1215025",
+        "volume": "336"
+      },
+      "index": 3,
+      "key": "nature21897-b4",
+      "locator": "351",
+      "year": 2012
+    },
+    {
+      "container_name": "Ecol. Lett.",
+      "extra": {
+        "authors": [
+          "Kennedy C. M."
+        ],
+        "doi": "10.1111/ele.12082",
+        "volume": "16"
+      },
+      "index": 4,
+      "key": "nature21897-b5",
+      "locator": "584",
+      "year": 2013
+    },
+    {
+      "container_name": "Nature",
+      "extra": {
+        "authors": [
+          "Carvell C."
+        ],
+        "doi": "10.1038/nature21709",
+        "volume": "543"
+      },
+      "index": 5,
+      "key": "nature21897-b6",
+      "locator": "547",
+      "year": 2017
+    },
+    {
+      "container_name": "Ecology",
+      "extra": {
+        "authors": [
+          "Williams N. M."
+        ],
+        "doi": "10.1890/11-1006.1",
+        "volume": "93"
+      },
+      "index": 6,
+      "key": "nature21897-b7",
+      "locator": "1049",
+      "year": 2012
+    },
+    {
+      "container_name": "Insect Conserv. Diver.",
+      "extra": {
+        "authors": [
+          "Knight M. E."
+        ],
+        "doi": "10.1111/j.1752-4598.2009.00049.x"
+      },
+      "index": 7,
+      "key": "nature21897-b8",
+      "locator": "116",
+      "year": 2009
+    },
+    {
+      "container_name": "Mol. Ecol.",
+      "extra": {
+        "authors": [
+          "Woodard S. H."
+        ],
+        "doi": "10.1111/mec.13198",
+        "volume": "24"
+      },
+      "index": 8,
+      "key": "nature21897-b9",
+      "locator": "2916",
+      "year": 2015
+    },
+    {
+      "index": 9,
+      "key": "nature21897-b10"
+    }
+  ],
+  "release_date": "2017-03-15",
+  "release_stage": "published",
+  "release_type": "article-journal",
+  "release_year": 2017,
+  "revision": "3aab2986-e6b6-4ba9-968b-fb6d85976195",
+  "state": "active",
+  "title": "AOP",
+  "work_id": "ac272wsgkfduhdfqa7wuwq7jam"
+}

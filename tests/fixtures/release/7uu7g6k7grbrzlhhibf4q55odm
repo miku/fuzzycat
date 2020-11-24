@@ -1,0 +1,78 @@
+{
+  "abstracts": [],
+  "container_id": "ptqzhflv6rgfnicmh55q6amyue",
+  "contribs": [
+    {
+      "extra": {
+        "seq": "first"
+      },
+      "index": 0,
+      "raw_name": "André Van Steirteghem",
+      "role": "author"
+    },
+    {
+      "index": 1,
+      "raw_name": "Zsolt Nagy",
+      "role": "author"
+    },
+    {
+      "index": 2,
+      "raw_name": "Jiaen Liu",
+      "role": "author"
+    },
+    {
+      "index": 3,
+      "raw_name": "Hubert Joris",
+      "role": "author"
+    },
+    {
+      "index": 4,
+      "raw_name": "Greta Verheyen",
+      "role": "author"
+    },
+    {
+      "index": 5,
+      "raw_name": "Johan Smitz",
+      "role": "author"
+    },
+    {
+      "index": 6,
+      "raw_name": "Herman Tournaye",
+      "role": "author"
+    },
+    {
+      "index": 7,
+      "raw_name": "Ingeborg Liebaers",
+      "role": "author"
+    },
+    {
+      "index": 8,
+      "raw_name": "Paul Devroey",
+      "role": "author"
+    }
+  ],
+  "ext_ids": {
+    "doi": "10.1016/s0950-3552(05)80025-2",
+    "pmid": "8055677"
+  },
+  "extra": {
+    "crossref": {
+      "alternative-id": [
+        "S0950355205800252"
+      ],
+      "type": "journal-article"
+    }
+  },
+  "ident": "7uu7g6k7grbrzlhhibf4q55odm",
+  "language": "en",
+  "pages": "85-93",
+  "publisher": "Elsevier BV",
+  "refs": [],
+  "release_stage": "published",
+  "release_type": "article-journal",
+  "release_year": 1994,
+  "revision": "dd48e6c0-6920-4521-9d39-a78b1a81ce81",
+  "state": "active",
+  "title": "Intracytoplasmic sperm injection",
+  "work_id": "bupqnjsxb5hd7ktyclnko4ettm"
+}

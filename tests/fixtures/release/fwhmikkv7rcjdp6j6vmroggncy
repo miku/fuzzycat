@@ -1,0 +1,193 @@
+{
+  "abstracts": [],
+  "contribs": [
+    {
+      "index": 0,
+      "raw_name": "Marie Deverell",
+      "role": "author"
+    },
+    {
+      "index": 1,
+      "raw_name": "Yvonne Zurynski",
+      "role": "author"
+    },
+    {
+      "index": 2,
+      "raw_name": "Elizabeth Elliott",
+      "role": "author"
+    }
+  ],
+  "ext_ids": {},
+  "extra": {
+    "container_name": "Annual reports Australian Paediatric Surveillance Unit",
+    "longtail_oa": true
+  },
+  "ident": "fwhmikkv7rcjdp6j6vmroggncy",
+  "refs": [
+    {
+      "extra": {
+        "authors": [
+          "Y Zurynski",
+          "P Mcintyre",
+          "R Booy",
+          "E Elliott"
+        ],
+        "volume": "49"
+      },
+      "index": 0,
+      "key": "b0",
+      "title": "Paediatric active enhanced disease surveillance: a new surveillance system for Australia",
+      "year": 2013
+    },
+    {
+      "index": 1,
+      "key": "b1",
+      "title": "Australian Bureau of Statistics. 31010DO002_201409. Australian Demographic Statistics",
+      "year": 2014
+    },
+    {
+      "extra": {
+        "authors": [
+          "S Hamilton",
+          "W Van Zuylen",
+          "A Shand",
+          "G Scott",
+          "Z Naing",
+          "B Hall"
+        ],
+        "issue": null,
+        "volume": "24"
+      },
+      "index": 2,
+      "key": "b2",
+      "title": "Prevention of congenital cytomegalovirus complications by maternal and neonatal treatments: a systematic review",
+      "year": 2014
+    },
+    {
+      "extra": {
+        "authors": [
+          "D Kimberlin",
+          "P Jester",
+          "P Sánchez",
+          "A Ahmed",
+          "R Aravboger",
+          "M Michaels"
+        ],
+        "issue": "10",
+        "volume": "372"
+      },
+      "index": 3,
+      "key": "b3",
+      "title": "Valganciclovir for symptomatic congenital cytomegalovirus disease",
+      "year": 2015
+    },
+    {
+      "extra": {
+        "authors": [
+          "V Dasari",
+          "C Smith",
+          "J Zhong",
+          "G Scott",
+          "W Rawlinson",
+          "R Khanna"
+        ],
+        "volume": "92"
+      },
+      "index": 4,
+      "key": "b4",
+      "title": "Recombinant glycoprotein B vaccine formulation with Toll-like receptor 9 agonist and immunestimulating complex induces specific immunity against multiple strains of cytomegalovirus",
+      "year": 2011
+    },
+    {
+      "extra": {
+        "authors": [
+          "R Pass",
+          "C Zhang",
+          "A Evans",
+          "T Simpson",
+          "W Andrews",
+          "M-L Huang"
+        ],
+        "issue": "12",
+        "volume": "360"
+      },
+      "index": 5,
+      "key": "b5",
+      "title": "Vaccine prevention of maternal cytomegalovirus infection",
+      "year": 2009
+    },
+    {
+      "extra": {
+        "authors": [
+          "G Khandaker",
+          "Y Zurynski",
+          "C Jones"
+        ],
+        "issue": "50",
+        "volume": "32"
+      },
+      "index": 6,
+      "key": "b6",
+      "title": "Surveillance for congenital rubella in Australia since 1993: Cases reported between",
+      "year": 2004
+    },
+    {
+      "extra": {
+        "authors": [
+          "C Jones",
+          "C Raynes-Greenow",
+          "D Isaacs"
+        ],
+        "issue": null,
+        "volume": "59"
+      },
+      "index": 7,
+      "key": "b7",
+      "title": "Neonatal HSV Study Investigators and Contributors to the Australian Paediatric Surveillance Unit. Population-based surveillance of neonatal herpes simplex virus infection in Australia",
+      "year": 1997
+    },
+    {
+      "extra": {
+        "authors": [
+          "K Matys",
+          "S Malllary",
+          "O Bautista",
+          "S Vuocolo",
+          "R Manalastas",
+          "P Pitisuttithum"
+        ],
+        "issue": null,
+        "volume": "19"
+      },
+      "index": 8,
+      "key": "b8",
+      "title": "Mother-infant transfer of anti-human papillomavirus (HPV) antibodies following vaccination with the quadrivalent HPV (type 6/11/16/18) virus-like particle vaccine",
+      "year": 2012
+    },
+    {
+      "extra": {
+        "authors": [
+          "E Chow",
+          "T Read",
+          "R Wigan",
+          "B Donovan",
+          "M Chen",
+          "C Bradshaw"
+        ],
+        "issue": null,
+        "volume": "91"
+      },
+      "index": 9,
+      "key": "b9",
+      "title": "Ongoing decline in genital warts among young heterosexuals 7 years after the Australian human papillomavirus (HPV) vaccination programme",
+      "year": 2015
+    }
+  ],
+  "release_type": "article-journal",
+  "release_year": 2016,
+  "revision": "94272c52-2bb1-4460-baea-8d7b95f1f194",
+  "state": "active",
+  "title": "AustrAliAn PAediAtric surveillAnce unit AnnuAl rePort, 2014",
+  "volume": "40",
+  "work_id": "bl4rnu7nvrcb5iuoor6jpio264"
+}

@@ -1,0 +1,36 @@
+{
+  "abstracts": [],
+  "container_id": "ci2jylncmfcevm3pjkxosgavl4",
+  "contribs": [
+    {
+      "extra": {
+        "seq": "first"
+      },
+      "index": 0,
+      "raw_name": "N/A",
+      "role": "author"
+    }
+  ],
+  "ext_ids": {
+    "doi": "10.2310/7040.2002.28194"
+  },
+  "extra": {
+    "crossref": {
+      "type": "journal-article"
+    }
+  },
+  "ident": "ahlp3vywzzb5fh5tbjskaym3ri",
+  "issue": "02",
+  "language": "en",
+  "pages": "005",
+  "publisher": "Decker, Inc.",
+  "refs": [],
+  "release_stage": "published",
+  "release_type": "article-journal",
+  "release_year": 2002,
+  "revision": "e81d8a53-6f4a-4e66-8fc5-54d9bf79f610",
+  "state": "active",
+  "title": "Influenza Vaccination",
+  "volume": "18",
+  "work_id": "bxy7zpxmwng4pbydasjw2u3u7u"
+}

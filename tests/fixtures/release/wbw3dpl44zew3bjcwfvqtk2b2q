@@ -1,0 +1,36 @@
+{
+  "abstracts": [],
+  "container_id": "f3645nse6bduxjirujaajzs77a",
+  "contribs": [
+    {
+      "extra": {
+        "seq": "first"
+      },
+      "index": 0,
+      "raw_name": "Daniela Matei",
+      "role": "author"
+    }
+  ],
+  "ext_ids": {
+    "doi": "10.7326/0003-4819-157-4-201208210-00016"
+  },
+  "extra": {
+    "crossref": {
+      "type": "journal-article"
+    }
+  },
+  "ident": "wbw3dpl44zew3bjcwfvqtk2b2q",
+  "language": "en",
+  "pages": "297",
+  "publisher": "American College of Physicians",
+  "refs": [],
+  "release_date": "2012-08-21",
+  "release_stage": "published",
+  "release_type": "article-journal",
+  "release_year": 2012,
+  "revision": "9fb2d5e9-7694-4a58-9a01-5f72d9094cc4",
+  "state": "active",
+  "title": "Bloom",
+  "volume": "157",
+  "work_id": "bh7p3qkvnvgftb4wvozgfmczci"
+}

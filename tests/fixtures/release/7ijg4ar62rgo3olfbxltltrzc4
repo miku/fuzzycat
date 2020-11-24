@@ -1,0 +1,49 @@
+{
+  "abstracts": [
+    {
+      "content": "The collective behavior of vibrated hexagonal disks confined in a monolayer\nis investigated experimentally. Due to the broken circular symmetry, hexagons\nprefer to rotate upon sufficiently strong driving. Due to the formation of\nliquid bridges, short-ranged cohesive interactions are introduced upon wetting.\nConsequently, a nonequilibrium stationary state with the rotating disks\nself-organized in a hexagonal structure arises. The bond length of the\nhexagonal structure is slightly smaller than the circumdiameter of a hexagon,\nindicating geometric frustration. This investigation provides an example where\nthe collective behavior of granular matter is tuned by the shape of individual\nparticles.",
+      "lang": "en",
+      "mimetype": "text/plain",
+      "sha1": "05068bae4e4298424d5609534ce66246d89e0fca"
+    }
+  ],
+  "contribs": [
+    {
+      "index": 0,
+      "raw_name": "Manuel Baur",
+      "role": "author"
+    },
+    {
+      "index": 1,
+      "raw_name": "Kai Huang",
+      "role": "author"
+    }
+  ],
+  "ext_ids": {
+    "arxiv": "1608.07254v2"
+  },
+  "extra": {
+    "arxiv": {
+      "base_id": "1608.07254",
+      "categories": [
+        "cond-mat.soft"
+      ],
+      "comments": "5 pages, 5 figures",
+      "journal_ref": "Phys. Rev. E 95, 030901 (2017)"
+    },
+    "superceded": true
+  },
+  "ident": "7ijg4ar62rgo3olfbxltltrzc4",
+  "language": "en",
+  "license_slug": "ARXIV-1.0",
+  "refs": [],
+  "release_date": "2016-11-27",
+  "release_stage": "submitted",
+  "release_type": "article",
+  "release_year": 2016,
+  "revision": "e6f74c7a-a169-4a79-8a51-e67d01a63fe0",
+  "state": "active",
+  "title": "Dynamics of wet granular hexagons",
+  "version": "v2",
+  "work_id": "asbrnyvksrhznl2qc5734cq2yu"
+}

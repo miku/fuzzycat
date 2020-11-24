@@ -1,0 +1,31 @@
+{
+  "abstracts": [],
+  "contribs": [
+    {
+      "extra": {
+        "seq": "first"
+      },
+      "index": 0,
+      "raw_name": "Steven Furnell",
+      "role": "author"
+    }
+  ],
+  "ext_ids": {
+    "doi": "10.1109/worldcis.2014.7027990"
+  },
+  "extra": {
+    "container_name": "World Congress on Internet Security (WorldCIS-2014)",
+    "crossref": {
+      "type": "proceedings-article"
+    }
+  },
+  "ident": "fpjygddf7bgahaaabjl2d67m4i",
+  "publisher": "IEEE",
+  "refs": [],
+  "release_type": "paper-conference",
+  "release_year": 2014,
+  "revision": "5c222068-3429-4f31-bf75-fe5f1cec5a08",
+  "state": "active",
+  "title": "Keynote speaker 2: Mobile security: The challenge of liberation",
+  "work_id": "alabln2p5ncg5hj3ff4op7xbxa"
+}

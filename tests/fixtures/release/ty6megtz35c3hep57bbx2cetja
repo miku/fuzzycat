@@ -1,0 +1,36 @@
+{
+  "abstracts": [],
+  "container_id": "3d742xfjzvbufeneszapk2jxye",
+  "contribs": [
+    {
+      "extra": {
+        "seq": "first"
+      },
+      "index": 0,
+      "raw_name": "T. Harrison",
+      "role": "author"
+    }
+  ],
+  "ext_ids": {
+    "doi": "10.1093/gr/51.1.116"
+  },
+  "extra": {
+    "crossref": {
+      "type": "journal-article"
+    }
+  },
+  "ident": "ty6megtz35c3hep57bbx2cetja",
+  "language": "en",
+  "pages": "116-121",
+  "publisher": "Cambridge University Press (CUP)",
+  "refs": [],
+  "release_date": "2004-04-01",
+  "release_stage": "published",
+  "release_type": "article-journal",
+  "release_year": 2004,
+  "revision": "d61c2a53-6d9a-4f22-8e2a-9964adc75aed",
+  "state": "active",
+  "title": "Greek History",
+  "volume": "51",
+  "work_id": "b5olzrepgrcrbd6nhntiywv5wy"
+}

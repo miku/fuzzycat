@@ -1,0 +1,395 @@
+{
+  "abstracts": [],
+  "container_id": "j4himswb2zfudpid3agxq3cgge",
+  "contribs": [
+    {
+      "extra": {
+        "seq": "first"
+      },
+      "index": 0,
+      "raw_name": "Jhilam Sadhukhan",
+      "role": "author"
+    },
+    {
+      "index": 1,
+      "raw_name": "J. Dobaczewski",
+      "role": "author"
+    },
+    {
+      "index": 2,
+      "raw_name": "W. Nazarewicz",
+      "role": "author"
+    },
+    {
+      "index": 3,
+      "raw_name": "J. A. Sheikh",
+      "role": "author"
+    },
+    {
+      "index": 4,
+      "raw_name": "A. Baran",
+      "role": "author"
+    }
+  ],
+  "ext_ids": {
+    "core": "25064447",
+    "doi": "10.1103/physrevc.90.061304"
+  },
+  "extra": {
+    "crossref": {
+      "funder": [
+        {
+          "DOI": "10.13039/100000015",
+          "award": [
+            "DE-SC0008499",
+            "DE-FG02-96ER40963",
+            "DE-FG52-09NA29461"
+          ],
+          "doi-asserted-by": "publisher",
+          "name": "U.S. Department of Energy"
+        },
+        {
+          "DOI": "10.13039/100006132",
+          "award": [],
+          "doi-asserted-by": "publisher",
+          "name": "Office of Science"
+        },
+        {
+          "DOI": "10.13039/100006209",
+          "award": [],
+          "doi-asserted-by": "publisher",
+          "name": "Nuclear Physics"
+        },
+        {
+          "DOI": "10.13039/100007135",
+          "award": [],
+          "doi-asserted-by": "publisher",
+          "name": "University of Tennessee"
+        },
+        {
+          "DOI": "10.13039/100006168",
+          "award": [],
+          "doi-asserted-by": "publisher",
+          "name": "National Nuclear Security Administration"
+        },
+        {
+          "DOI": "10.13039/501100002341",
+          "award": [],
+          "doi-asserted-by": "publisher",
+          "name": "Academy of Finland"
+        },
+        {
+          "DOI": "10.13039/501100004281",
+          "award": [
+            "2012/07/B/ST2/03907"
+          ],
+          "doi-asserted-by": "publisher",
+          "name": "Narodowe Centrum Nauki"
+        }
+      ],
+      "license": [
+        {
+          "URL": "http://link.aps.org/licenses/aps-default-license",
+          "content-version": "vor",
+          "delay-in-days": 0,
+          "start": "2014-12-22T00:00:00Z"
+        }
+      ],
+      "type": "journal-article"
+    }
+  },
+  "ident": "hdvg6m467bhyng4l7xauk4ymoa",
+  "language": "en",
+  "publisher": "American Physical Society (APS)",
+  "refs": [
+    {
+      "extra": {
+        "doi": "10.1016/0370-1573(72)90003-8"
+      },
+      "index": 0,
+      "key": "PhysRevC.90.061304Cc1R1"
+    },
+    {
+      "extra": {
+        "doi": "10.1103/physrev.89.1102"
+      },
+      "index": 1,
+      "key": "PhysRevC.90.061304Cc2R1"
+    },
+    {
+      "extra": {
+        "doi": "10.1103/physrev.116.372"
+      },
+      "index": 2,
+      "key": "PhysRevC.90.061304Cc3R1"
+    },
+    {
+      "extra": {
+        "doi": "10.1088/0034-4885/41/7/002"
+      },
+      "index": 3,
+      "key": "PhysRevC.90.061304Cc4R1"
+    },
+    {
+      "extra": {
+        "doi": "10.1103/revmodphys.44.320"
+      },
+      "index": 4,
+      "key": "PhysRevC.90.061304Cc5R1"
+    },
+    {
+      "extra": {
+        "doi": "10.1016/0375-9474(75)90598-9"
+      },
+      "index": 5,
+      "key": "PhysRevC.90.061304Cc6R1"
+    },
+    {
+      "extra": {
+        "doi": "10.1007/bf01408263"
+      },
+      "index": 6,
+      "key": "PhysRevC.90.061304Cc6R2"
+    },
+    {
+      "extra": {
+        "doi": "10.1007/bf01438114"
+      },
+      "index": 7,
+      "key": "PhysRevC.90.061304Cc7R1"
+    },
+    {
+      "extra": {
+        "doi": "10.1016/0375-9474(93)90565-f"
+      },
+      "index": 8,
+      "key": "PhysRevC.90.061304Cc8R1"
+    },
+    {
+      "extra": {
+        "doi": "10.1103/physrevc.57.1192"
+      },
+      "index": 9,
+      "key": "PhysRevC.90.061304Cc9R1"
+    },
+    {
+      "extra": {
+        "doi": "10.1016/0370-2693(74)90494-8"
+      },
+      "index": 10,
+      "key": "PhysRevC.90.061304Cc10R1"
+    },
+    {
+      "extra": {
+        "doi": "10.1016/0029-5582(66)90749-8"
+      },
+      "index": 11,
+      "key": "PhysRevC.90.061304Cc11R1"
+    },
+    {
+      "extra": {
+        "doi": "10.1016/0375-9474(73)90022-5"
+      },
+      "index": 12,
+      "key": "PhysRevC.90.061304Cc12R1"
+    },
+    {
+      "extra": {
+        "doi": "10.1088/0031-8949/35/3/007"
+      },
+      "index": 13,
+      "key": "PhysRevC.90.061304Cc13R1"
+    },
+    {
+      "extra": {
+        "doi": "10.1142/s0218301307005685"
+      },
+      "index": 14,
+      "key": "PhysRevC.90.061304Cc14R1"
+    },
+    {
+      "extra": {
+        "doi": "10.1016/0370-2693(85)90750-6"
+      },
+      "index": 15,
+      "key": "PhysRevC.90.061304Cc15R1"
+    },
+    {
+      "extra": {
+        "doi": "10.1016/0375-9474(89)90559-9"
+      },
+      "index": 16,
+      "key": "PhysRevC.90.061304Cc16R1"
+    },
+    {
+      "extra": {
+        "doi": "10.1016/s0375-9474(99)00328-0"
+      },
+      "index": 17,
+      "key": "PhysRevC.90.061304Cc17R1"
+    },
+    {
+      "extra": {
+        "doi": "10.1088/0954-3899/37/5/055106"
+      },
+      "index": 18,
+      "key": "PhysRevC.90.061304Cc18R1"
+    },
+    {
+      "extra": {
+        "doi": "10.1103/physrevc.88.064314"
+      },
+      "index": 19,
+      "key": "PhysRevC.90.061304Cc19R1"
+    },
+    {
+      "extra": {
+        "doi": "10.1142/s0218301311017995"
+      },
+      "index": 20,
+      "key": "PhysRevC.90.061304Cc20R1"
+    },
+    {
+      "extra": {
+        "doi": "10.1103/physrevc.80.011302"
+      },
+      "index": 21,
+      "key": "PhysRevC.90.061304Cc21R1"
+    },
+    {
+      "extra": {
+        "doi": "10.1016/0375-9474(89)90676-3"
+      },
+      "index": 22,
+      "key": "PhysRevC.90.061304Cc22R1"
+    },
+    {
+      "extra": {
+        "doi": "10.1016/0375-9474(81)90471-1"
+      },
+      "index": 23,
+      "key": "PhysRevC.90.061304Cc23R1"
+    },
+    {
+      "extra": {
+        "doi": "10.1016/0370-2693(78)90085-0"
+      },
+      "index": 24,
+      "key": "PhysRevC.90.061304Cc24R1"
+    },
+    {
+      "extra": {
+        "doi": "10.1103/physrevc.72.044310"
+      },
+      "index": 25,
+      "key": "PhysRevC.90.061304Cc25R1"
+    },
+    {
+      "extra": {
+        "doi": "10.1016/j.physletb.2011.09.073"
+      },
+      "index": 26,
+      "key": "PhysRevC.90.061304Cc26R1"
+    },
+    {
+      "extra": {
+        "doi": "10.1103/physrevc.88.064311"
+      },
+      "index": 27,
+      "key": "PhysRevC.90.061304Cc27R1"
+    },
+    {
+      "extra": {
+        "doi": "10.1016/0375-9474(84)90433-0"
+      },
+      "index": 28,
+      "key": "PhysRevC.90.061304Cc28R1"
+    },
+    {
+      "extra": {
+        "doi": "10.1088/0031-8949/1995/t56/002"
+      },
+      "index": 29,
+      "key": "PhysRevC.90.061304Cc29R1"
+    },
+    {
+      "extra": {
+        "doi": "10.1103/physrevc.84.054321"
+      },
+      "index": 30,
+      "key": "PhysRevC.90.061304Cc30R1"
+    },
+    {
+      "extra": {
+        "doi": "10.1103/physrevc.80.014309"
+      },
+      "index": 31,
+      "key": "PhysRevC.90.061304Cc31R1"
+    },
+    {
+      "extra": {
+        "doi": "10.1016/j.cpc.2004.02.003"
+      },
+      "index": 32,
+      "key": "PhysRevC.90.061304Cc32R1"
+    },
+    {
+      "extra": {
+        "doi": "10.1016/j.cpc.2011.08.013"
+      },
+      "index": 33,
+      "key": "PhysRevC.90.061304Cc33R1"
+    },
+    {
+      "extra": {
+        "doi": "10.1016/0375-9474(82)90403-1"
+      },
+      "index": 34,
+      "key": "PhysRevC.90.061304Cc34R1"
+    },
+    {
+      "extra": {
+        "doi": "10.1140/epja/i2001-10218-8"
+      },
+      "index": 35,
+      "key": "PhysRevC.90.061304Cc35R1"
+    },
+    {
+      "extra": {
+        "doi": "10.1142/s0218301307005879"
+      },
+      "index": 36,
+      "key": "PhysRevC.90.061304Cc36R1"
+    },
+    {
+      "extra": {
+        "doi": "10.1103/physrevc.87.024320"
+      },
+      "index": 37,
+      "key": "PhysRevC.90.061304Cc37R1"
+    },
+    {
+      "extra": {
+        "doi": "10.1103/physrevc.90.054311"
+      },
+      "index": 38,
+      "key": "PhysRevC.90.061304Cc38R1"
+    },
+    {
+      "extra": {
+        "doi": "10.1103/physrevc.85.024304"
+      },
+      "index": 39,
+      "key": "PhysRevC.90.061304Cc39R1"
+    }
+  ],
+  "release_date": "2014-12-22",
+  "release_stage": "published",
+  "release_type": "article-journal",
+  "release_year": 2014,
+  "revision": "aa2edf4e-841c-45cf-bc5d-9604773f1d6e",
+  "state": "active",
+  "title": "Pairing-induced speedup of nuclear spontaneous fission",
+  "volume": "90",
+  "work_id": "bf62p6f5erdhdgmqtxxh6lzztq"
+}

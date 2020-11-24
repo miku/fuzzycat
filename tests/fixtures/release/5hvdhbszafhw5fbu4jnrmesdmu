@@ -1,0 +1,89 @@
+{
+  "abstracts": [],
+  "contribs": [
+    {
+      "extra": {
+        "seq": "first"
+      },
+      "index": 0,
+      "raw_name": "José A. Yagüe-Fabra",
+      "role": "author"
+    }
+  ],
+  "ext_ids": {
+    "doi": "10.1007/978-3-642-20617-7_6587"
+  },
+  "extra": {
+    "container_name": "CIRP Encyclopedia of Production Engineering",
+    "crossref": {
+      "type": "book-chapter"
+    }
+  },
+  "ident": "5hvdhbszafhw5fbu4jnrmesdmu",
+  "pages": "869-873",
+  "publisher": "Springer Berlin Heidelberg",
+  "refs": [
+    {
+      "container_name": "Coordinate measuring machines and systems",
+      "extra": {
+        "authors": [
+          "JA Bosch"
+        ],
+        "unstructured": "Bosch JA (1995) Coordinate measuring machines and systems. Marcel Dekker, New York",
+        "volume-title": "Coordinate measuring machines and systems"
+      },
+      "index": 0,
+      "key": "6704_CR12196",
+      "year": 1995
+    },
+    {
+      "extra": {
+        "unstructured": "Bureau International des Poids et Mesures (BIPM) (2006) The international system of units (SI), 8th edn. \n                  http://www.bipm.org/en/si/si_brochure/"
+      },
+      "index": 1,
+      "key": "6704_CR12197"
+    },
+    {
+      "extra": {
+        "unstructured": "European Association of National Metrology Institutes (EURAMET) (2008) Metrology – in short, 3rd edn. \n                  http://www.euramet.org/index.php?id=mis"
+      },
+      "index": 2,
+      "key": "6704_CR12198"
+    },
+    {
+      "extra": {
+        "unstructured": "JCGM 100:2008. GUM 1995 with minor corrections (2008) Evaluation of measurement data – guide to the expression of uncertainty in measurement (GUM) (ISO/IEC Guide 98-3) joint committee for guides in metrology,1st edn. \n                  http://www.bipm.org/en/publications/guides/gum.html"
+      },
+      "index": 3,
+      "key": "6704_CR12199"
+    },
+    {
+      "extra": {
+        "unstructured": "JCGM 200:2008 (2008) International vocabulary of metrology – basic and general concepts and associated terms (VIM) (ISO/IEC Guide 99). Joint committee for guides in metrology, 3rd edn. \n                  http://www.iso.org/sites/JCGM/VIM-JCGM200.htm"
+      },
+      "index": 4,
+      "key": "6704_CR12200"
+    },
+    {
+      "container_name": "Production metrology",
+      "extra": {
+        "authors": [
+          "T Pfeifer"
+        ],
+        "doi": "10.1515/9783486810424",
+        "unstructured": "Pfeifer T (2002) Production metrology. Oldenbourg, München",
+        "volume-title": "Production metrology"
+      },
+      "index": 5,
+      "key": "6704_CR12201",
+      "year": 2002
+    }
+  ],
+  "release_stage": "published",
+  "release_type": "chapter",
+  "release_year": 2014,
+  "revision": "e2c3da88-d8ff-404e-84b5-87fb779d5930",
+  "state": "active",
+  "title": "Metrology",
+  "work_id": "b4sisz7nn5btfbza3svmgyqaw4"
+}

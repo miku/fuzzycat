@@ -1,0 +1,30 @@
+{
+  "abstracts": [],
+  "container_id": "o37ysks2kfagdpzl7i762yxbfy",
+  "contribs": [],
+  "ext_ids": {
+    "doi": "10.1175/1520-0477-90.12.1881"
+  },
+  "extra": {
+    "crossref": {
+      "alternative-id": [
+        "10.1175/1520-0477-90.12.1881"
+      ],
+      "type": "journal-article"
+    }
+  },
+  "ident": "eo4qptzoqrholjslj7nemlne2y",
+  "issue": "12",
+  "language": "en",
+  "pages": "1881-1890",
+  "publisher": "American Meteorological Society",
+  "refs": [],
+  "release_stage": "published",
+  "release_type": "article-journal",
+  "release_year": 2009,
+  "revision": "d60f8c41-db0a-47e1-9fe3-c24efe27e316",
+  "state": "active",
+  "title": "READINGS",
+  "volume": "90",
+  "work_id": "bhkl6l5xubhtpijfb6pmn4ylpu"
+}

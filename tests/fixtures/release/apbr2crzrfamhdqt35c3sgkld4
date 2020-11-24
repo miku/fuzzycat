@@ -1,0 +1,76 @@
+{
+  "abstracts": [],
+  "container_id": "x7uqwvzzmrbjrmx2lzhghep2i4",
+  "contribs": [
+    {
+      "extra": {
+        "more_affiliations": [
+          "Discipline of Child and Adolescent Health, Sydney Medical School, The University of Sydney, New South Wales."
+        ]
+      },
+      "given_name": "Marie",
+      "index": 0,
+      "raw_affiliation": "Australian Paediatric Surveillance Unit, Kids Research Institute, Westmead, New South Wales.",
+      "raw_name": "Marie Deverell",
+      "role": "author",
+      "surname": "Deverell"
+    },
+    {
+      "extra": {
+        "more_affiliations": [
+          "Discipline of Child and Adolescent Health, Sydney Medical School, The University of Sydney, New South Wales."
+        ]
+      },
+      "given_name": "Yvonne",
+      "index": 1,
+      "raw_affiliation": "Australian Paediatric Surveillance Unit, Kids Research Institute, Westmead, New South Wales.",
+      "raw_name": "Yvonne Zurynski",
+      "role": "author",
+      "surname": "Zurynski"
+    },
+    {
+      "extra": {
+        "more_affiliations": [
+          "Discipline of Child and Adolescent Health, Sydney Medical School, The University of Sydney, New South Wales.",
+          "The Sydney Children's Hospitals Network (Randwick and Westmead), New South Wales."
+        ]
+      },
+      "given_name": "Elizabeth",
+      "index": 2,
+      "raw_affiliation": "Australian Paediatric Surveillance Unit, Kids Research Institute, Westmead, New South Wales.",
+      "raw_name": "Elizabeth Elliott",
+      "role": "author",
+      "surname": "Elliott"
+    },
+    {
+      "extra": {},
+      "index": 3,
+      "raw_name": "all chief investigators of APSU surveillance studies",
+      "role": "author"
+    }
+  ],
+  "ext_ids": {
+    "pmid": "27522132"
+  },
+  "extra": {
+    "pubmed": {
+      "pub_types": [
+        "Historical Article"
+      ]
+    }
+  },
+  "ident": "apbr2crzrfamhdqt35c3sgkld4",
+  "issue": "2",
+  "language": "en",
+  "pages": "E216-20",
+  "refs": [],
+  "release_date": "2016-06-30",
+  "release_stage": "published",
+  "release_type": "article-journal",
+  "release_year": 2016,
+  "revision": "55cec02d-213d-4a4b-a393-0251ec3e5a2d",
+  "state": "active",
+  "title": "Australian Paediatric Surveillance Unit annual report, 2014",
+  "volume": "40",
+  "work_id": "bgbpm47tszcu5man556uvdhyre"
+}

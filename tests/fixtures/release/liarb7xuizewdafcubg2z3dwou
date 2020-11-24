@@ -1,0 +1,268 @@
+{
+  "abstracts": [],
+  "contribs": [
+    {
+      "extra": {
+        "seq": "first"
+      },
+      "index": 0,
+      "raw_name": "Ingrid Tein",
+      "role": "author"
+    }
+  ],
+  "ext_ids": {
+    "doi": "10.1002/9781119973331.ch5"
+  },
+  "extra": {
+    "container_name": "Neuromuscular Disorders",
+    "crossref": {
+      "type": "book-chapter"
+    }
+  },
+  "ident": "liarb7xuizewdafcubg2z3dwou",
+  "pages": "30-41",
+  "publisher": "Wiley-Blackwell",
+  "refs": [
+    {
+      "container_name": "Muscle Nerve",
+      "extra": {
+        "authors": [
+          "DiMauro"
+        ],
+        "doi": "10.1002/mus.1103",
+        "volume": "24"
+      },
+      "index": 0,
+      "key": "10.1002/9781119973331.ch5-BIB1|cit1",
+      "locator": "984",
+      "title": "Muscle glycogenoses",
+      "year": 2001
+    },
+    {
+      "container_name": "Biochim Biophys Acta",
+      "extra": {
+        "authors": [
+          "DiMauro"
+        ],
+        "doi": "10.1016/j.bbabio.2004.03.014",
+        "volume": "1658"
+      },
+      "index": 1,
+      "key": "10.1002/9781119973331.ch5-BIB2|cit2",
+      "locator": "80",
+      "title": "Mitochondrial diseases",
+      "year": 2004
+    },
+    {
+      "container_name": "Biosci Rep",
+      "extra": {
+        "authors": [
+          "DiMauro"
+        ],
+        "doi": "10.1007/s10540-007-9041-4",
+        "volume": "27"
+      },
+      "index": 2,
+      "key": "10.1002/9781119973331.ch5-BIB3|cit3",
+      "locator": "125",
+      "title": "Mitochondrial diseases: therapeutic approaches",
+      "year": 2007
+    },
+    {
+      "container_name": "Am J Hum Genet",
+      "extra": {
+        "authors": [
+          "Elliott"
+        ],
+        "doi": "10.1016/j.ajhg.2008.07.004",
+        "volume": "83"
+      },
+      "index": 3,
+      "key": "10.1002/9781119973331.ch5-BIB4|cit4",
+      "locator": "254",
+      "title": "Pathogenic mitochondrial DNA mutations are common in the general population",
+      "year": 2008
+    },
+    {
+      "container_name": "Neurochem Res",
+      "extra": {
+        "authors": [
+          "Quinzii"
+        ],
+        "doi": "10.1007/s11064-006-9190-z",
+        "volume": "32"
+      },
+      "index": 4,
+      "key": "10.1002/9781119973331.ch5-BIB5|cit5",
+      "locator": "723",
+      "title": "Human coenzyme Q10 deficiency",
+      "year": 2007
+    },
+    {
+      "container_name": "Can J Neurol Sci",
+      "extra": {
+        "authors": [
+          "Rowland"
+        ],
+        "doi": "10.1017/s031716710004525x",
+        "volume": "11"
+      },
+      "index": 5,
+      "key": "10.1002/9781119973331.ch5-BIB6|cit6",
+      "title": "Myoglobinuria",
+      "year": 1984
+    },
+    {
+      "container_name": "J Inherit Metab Dis",
+      "extra": {
+        "authors": [
+          "Spiekerkoetter"
+        ],
+        "doi": "10.1007/s10545-009-1126-8",
+        "volume": "32"
+      },
+      "index": 6,
+      "key": "10.1002/9781119973331.ch5-BIB7|cit7",
+      "locator": "498",
+      "title": "Treatment recommendations in long-chain fatty acid oxidation defects: consensus from a workshop",
+      "year": 2009
+    },
+    {
+      "container_name": "Brain",
+      "extra": {
+        "authors": [
+          "Taivassalo"
+        ],
+        "doi": "10.1093/brain/awg028",
+        "volume": "126"
+      },
+      "index": 7,
+      "key": "10.1002/9781119973331.ch5-BIB8|cit8",
+      "locator": "413",
+      "title": "The spectrum of exercise tolerance in mitochondrial myopathies: a study of 40 patients",
+      "year": 2003
+    },
+    {
+      "container_name": "Brain",
+      "extra": {
+        "authors": [
+          "Taivassalo"
+        ],
+        "doi": "10.1093/brain/awl282",
+        "volume": "129"
+      },
+      "index": 8,
+      "key": "10.1002/9781119973331.ch5-BIB9|cit9",
+      "locator": "3391",
+      "title": "Endurance training and detraining in mitochondrial myopathies due to single large-scale mtDNA deletions",
+      "year": 2006
+    },
+    {
+      "container_name": "New Trends in Pediatric Neurology",
+      "extra": {
+        "authors": [
+          "Tein"
+        ],
+        "series-title": "International Congress Series",
+        "volume-title": "New Trends in Pediatric Neurology"
+      },
+      "index": 9,
+      "key": "10.1002/9781119973331.ch5-BIB10|cit10",
+      "locator": "185",
+      "year": 1993
+    },
+    {
+      "container_name": "Pediatric Neurology",
+      "extra": {
+        "authors": [
+          "Tein"
+        ],
+        "volume-title": "Pediatric Neurology"
+      },
+      "index": 10,
+      "key": "10.1002/9781119973331.ch5-BIB11|cit11",
+      "locator": "2023",
+      "year": 2006
+    },
+    {
+      "container_name": "Adv Pediatr",
+      "extra": {
+        "authors": [
+          "Tein"
+        ],
+        "volume": "37"
+      },
+      "index": 11,
+      "key": "10.1002/9781119973331.ch5-BIB12|cit12",
+      "locator": "77",
+      "title": "Recurrent childhood myoglobinuria",
+      "year": 1990
+    },
+    {
+      "container_name": "Handbook of Clinical Neurology",
+      "extra": {
+        "authors": [
+          "Tein"
+        ],
+        "series-title": "Myopathies",
+        "volume-title": "Handbook of Clinical Neurology"
+      },
+      "index": 12,
+      "key": "10.1002/9781119973331.ch5-BIB13|cit13",
+      "year": 1992
+    },
+    {
+      "container_name": "Ann Neurol",
+      "extra": {
+        "authors": [
+          "Tonin"
+        ],
+        "doi": "10.1002/ana.410270214",
+        "volume": "27"
+      },
+      "index": 13,
+      "key": "10.1002/9781119973331.ch5-BIB14|cit14",
+      "locator": "181",
+      "title": "Metabolic causes of myoglobinuria",
+      "year": 1990
+    },
+    {
+      "container_name": "Neurol Clin N Am",
+      "extra": {
+        "authors": [
+          "Vu"
+        ],
+        "doi": "10.1016/s0733-8619(01)00017-2",
+        "volume": "20"
+      },
+      "index": 14,
+      "key": "10.1002/9781119973331.ch5-BIB15|cit15",
+      "locator": "809",
+      "title": "Mitochondrial diseases",
+      "year": 2002
+    },
+    {
+      "container_name": "Am J Hum Genet",
+      "extra": {
+        "authors": [
+          "Zeharia"
+        ],
+        "doi": "10.1016/j.ajhg.2008.09.002",
+        "volume": "83"
+      },
+      "index": 15,
+      "key": "10.1002/9781119973331.ch5-BIB16|cit16",
+      "locator": "489",
+      "title": "Mutations in LPIN1 cause recurrent acute myoglobinuria in childhood",
+      "year": 2008
+    }
+  ],
+  "release_date": "2011-09-06",
+  "release_stage": "published",
+  "release_type": "chapter",
+  "release_year": 2011,
+  "revision": "8d44bebb-f738-4503-972e-a0776595a18f",
+  "state": "active",
+  "title": "Metabolic Myopathies",
+  "work_id": "btg4ypfz4fc6jgzg2z3oks56vy"
+}

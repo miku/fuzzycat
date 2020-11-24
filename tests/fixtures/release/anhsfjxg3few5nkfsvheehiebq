@@ -1,0 +1,33 @@
+{
+  "abstracts": [],
+  "contribs": [],
+  "ext_ids": {
+    "doi": "10.4324/9781315716329-8"
+  },
+  "extra": {
+    "container_name": "Ishtar",
+    "crossref": {
+      "type": "book-chapter"
+    }
+  },
+  "ident": "anhsfjxg3few5nkfsvheehiebq",
+  "pages": "185-204",
+  "publisher": "Routledge",
+  "refs": [
+    {
+      "extra": {
+        "unstructured": "MISSING-VALUE"
+      },
+      "index": 0,
+      "key": "ref8"
+    }
+  ],
+  "release_date": "2017-07-14",
+  "release_stage": "published",
+  "release_type": "chapter",
+  "release_year": 2017,
+  "revision": "f7a21984-69b3-49a0-8d10-69c4b8dfe312",
+  "state": "active",
+  "title": "Reception and Influence",
+  "work_id": "azgeobricre5jcht4hvh3bq72a"
+}

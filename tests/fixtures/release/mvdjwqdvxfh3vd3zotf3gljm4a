@@ -1,0 +1,39 @@
+{
+  "abstracts": [],
+  "container_id": "hcmacmudpncmhbketkadhg4kny",
+  "contribs": [
+    {
+      "extra": {
+        "seq": "first"
+      },
+      "index": 0,
+      "raw_name": "&NA;",
+      "role": "author"
+    }
+  ],
+  "ext_ids": {
+    "doi": "10.2165/00128415-200811890-00042"
+  },
+  "extra": {
+    "crossref": {
+      "type": "journal-article"
+    },
+    "subtitle": [
+      "Splenic peliosis: case report"
+    ]
+  },
+  "ident": "mvdjwqdvxfh3vd3zotf3gljm4a",
+  "issue": "1189",
+  "language": "en",
+  "pages": "14",
+  "publisher": "Springer Nature",
+  "refs": [],
+  "release_stage": "published",
+  "release_type": "article-journal",
+  "release_year": 2008,
+  "revision": "6a39b714-195e-419c-bcf3-51931c948c74",
+  "state": "active",
+  "title": "Danazol",
+  "volume": "&NA;",
+  "work_id": "a6faaom7xbhmfgphw5glv356yu"
+}

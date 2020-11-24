@@ -1,0 +1,34 @@
+{
+  "abstracts": [],
+  "contribs": [
+    {
+      "extra": {
+        "seq": "first"
+      },
+      "given_name": "Judith S",
+      "index": 0,
+      "raw_name": "Judith S Eisen",
+      "role": "author",
+      "surname": "Eisen"
+    }
+  ],
+  "ext_ids": {
+    "doi": "10.3410/f.734040550.793552335"
+  },
+  "extra": {
+    "container_name": "F1000 - Post-publication peer review of the biomedical literature",
+    "crossref": {
+      "type": "dataset"
+    }
+  },
+  "ident": "versjalccvgdtp3q25elgy2z7a",
+  "publisher": "F1000 ( Faculty of 1000 Ltd)",
+  "refs": [],
+  "release_date": "2018-10-29",
+  "release_type": "dataset",
+  "release_year": 2018,
+  "revision": "7bd423e7-d52a-4daa-8e10-f66dbc4b1134",
+  "state": "active",
+  "title": "Faculty of 1000 evaluation for A gut-brain neural circuit for nutrient sensory transduction.",
+  "work_id": "avcgadgseve7fauu52b2ssavym"
+}

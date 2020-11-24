@@ -1,0 +1,49 @@
+{
+  "abstracts": [
+    {
+      "content": "By employing Aronsson's Absolute Minimizers of $L^\\infty$ functionals, we\nprove that Absolutely Minimizing Maps $u:\\R^n \\larrow \\R^N$ solve a\n\"tangential\" Aronsson PDE system. By following Sheffield-Smart \\cite{SS}, we\nderive $\\De_\\infty$ with respect to the dual operator norm and show that such\nmaps miss information along a hyperplane when compared to Tight Maps. We\nrecover the lost term which causes non-uniqueness and derive the complete\nAronsson system which has \\emph{discontinuous coefficients}. In particular, the\nEuclidean $\\infty$-Laplacian is $\\De_\\infty u = Du \\ot Du : D^2u\\, +\\,\n|Du|^2[Du]^\\bot \\De u$ where $[Du]^\\bot$ is the projection on the null space of\n$Du^\\top$. We exibit $C^\\infty$ solutions having interfaces along which the\nrank of their gradient is discontinuous and propose a modification with $C^0$\ncoefficients which admits \\emph{varifold solutions}. Away from the interfaces,\nAronsson Maps satisfy a structural property of local splitting to 2 phases, an\nhorizontal and a vertical; horizontally they possess gradient flows similar to\nthe scalar case and vertically solve a linear system coupled by a scalar\nHamilton Jacobi PDE. We also construct singular $\\infty$-Harmonic local $C^1$\ndiffeomorphisms and singular Aronsson Maps.",
+      "lang": "en",
+      "mimetype": "application/x-latex",
+      "sha1": "8042eed8318546cf70263b636811d72d215114bb"
+    },
+    {
+      "content": "By employing Aronsson's Absolute Minimizers of L^∞ functionals, we\nprove that Absolutely Minimizing Maps u:^n ^N solve a\n\"tangential\" Aronsson PDE system. By following Sheffield-Smart SS, we\nderive _∞ with respect to the dual operator norm and show that such\nmaps miss information along a hyperplane when compared to Tight Maps. We\nrecover the lost term which causes non-uniqueness and derive the complete\nAronsson system which has discontinuous coefficients. In particular, the\nEuclidean ∞-Laplacian is _∞ u = Du  Du : D^2u  + \n|Du|^2[Du]^ u where [Du]^ is the projection on the null space of\nDu^. We exibit C^∞ solutions having interfaces along which the\nrank of their gradient is discontinuous and propose a modification with C^0\ncoefficients which admits varifold solutions. Away from the interfaces,\nAronsson Maps satisfy a structural property of local splitting to 2 phases, an\nhorizontal and a vertical; horizontally they possess gradient flows similar to\nthe scalar case and vertically solve a linear system coupled by a scalar\nHamilton Jacobi PDE. We also construct singular ∞-Harmonic local C^1\ndiffeomorphisms and singular Aronsson Maps.",
+      "lang": "en",
+      "mimetype": "text/plain",
+      "sha1": "06444937bacf5b645c6a4bb0d2bcf40820290aea"
+    }
+  ],
+  "contribs": [
+    {
+      "index": 0,
+      "raw_name": "Nikolaos I. Katzourakis",
+      "role": "author"
+    }
+  ],
+  "ext_ids": {
+    "arxiv": "1105.4518v3"
+  },
+  "extra": {
+    "arxiv": {
+      "base_id": "1105.4518",
+      "categories": [
+        "math.AP"
+      ],
+      "comments": "17 pages, 2 figures, revised"
+    },
+    "superceded": true
+  },
+  "ident": "td3rnxzbxzeslj6ijoce3mtxcq",
+  "language": "en",
+  "license_slug": "ARXIV-1.0",
+  "refs": [],
+  "release_date": "2011-11-07",
+  "release_stage": "submitted",
+  "release_type": "article",
+  "release_year": 2011,
+  "revision": "bdbedad9-55a3-438b-80d1-c5f664f99c08",
+  "state": "active",
+  "title": "L-Infininity Variational Problems for Maps and the Aronsson PDE System",
+  "version": "v3",
+  "work_id": "a7ofd6saovhztfb7xou6ijphcm"
+}

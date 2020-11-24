@@ -1,0 +1,44 @@
+{
+  "abstracts": [],
+  "container_id": "2o7w7hh3gfcdfkayjxvyvjgsw4",
+  "contribs": [
+    {
+      "extra": {
+        "seq": "first"
+      },
+      "given_name": "Ernest",
+      "index": 0,
+      "raw_name": "Ernest Clarke",
+      "role": "author",
+      "surname": "Clarke"
+    }
+  ],
+  "ext_ids": {
+    "doi": "10.1177/003591572602000119"
+  },
+  "extra": {
+    "crossref": {
+      "alternative-id": [
+        "10.1177/003591572602000119"
+      ],
+      "subject": [
+        "General Medicine"
+      ],
+      "type": "journal-article"
+    }
+  },
+  "ident": "chejpgnhebcx7of4d4dkuqhkne",
+  "language": "en",
+  "pages": "70-78",
+  "publisher": "SAGE Publications",
+  "refs": [],
+  "release_stage": "published",
+  "release_type": "article-journal",
+  "release_year": 1926,
+  "revision": "8771447e-1333-4114-a35b-2616635d63fd",
+  "state": "active",
+  "subtitle": "President's Address",
+  "title": "Progress in Ophthalmology",
+  "volume": "20",
+  "work_id": "amknjktp4bgeboxgc6n5ykuvjm"
+}

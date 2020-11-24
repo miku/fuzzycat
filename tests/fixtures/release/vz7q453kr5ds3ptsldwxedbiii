@@ -1,0 +1,29 @@
+{
+  "abstracts": [],
+  "contribs": [
+    {
+      "index": 0,
+      "raw_name": "Pitt Quantum Repository",
+      "role": "author"
+    }
+  ],
+  "ext_ids": {
+    "doi": "10.17614/q4b27pz0r"
+  },
+  "extra": {
+    "datacite": {
+      "metadataVersion": 1,
+      "resourceTypeGeneral": "Dataset"
+    }
+  },
+  "ident": "vz7q453kr5ds3ptsldwxedbiii",
+  "publisher": "University of Pittsburgh",
+  "refs": [],
+  "release_stage": "published",
+  "release_type": "dataset",
+  "release_year": 2015,
+  "revision": "b25b5fc5-e3de-4d35-bec0-6ee186957119",
+  "state": "active",
+  "title": "triethylamine oxide",
+  "work_id": "bg4lj4hv3zb3jkdipphhd3w33i"
+}

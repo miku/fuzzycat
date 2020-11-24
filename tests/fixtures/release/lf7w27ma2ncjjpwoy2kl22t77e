@@ -1,0 +1,42 @@
+{
+  "abstracts": [],
+  "container_id": "kyugii3msrdalexv5xin4cequy",
+  "contribs": [
+    {
+      "extra": {
+        "seq": "first"
+      },
+      "index": 0,
+      "raw_name": "Philip J. Bierman",
+      "role": "author"
+    },
+    {
+      "index": 1,
+      "raw_name": "James O. Armitage",
+      "role": "author"
+    }
+  ],
+  "ext_ids": {
+    "doi": "10.1097/00062752-199603040-00004"
+  },
+  "extra": {
+    "crossref": {
+      "type": "journal-article"
+    },
+    "subtitle": [
+      ""
+    ]
+  },
+  "ident": "lf7w27ma2ncjjpwoy2kl22t77e",
+  "language": "en",
+  "pages": "266-272",
+  "publisher": "Ovid Technologies (Wolters Kluwer Health)",
+  "refs": [],
+  "release_stage": "published",
+  "release_type": "article-journal",
+  "release_year": 1996,
+  "revision": "af797c68-b897-4040-ad45-fff9a64f9221",
+  "state": "active",
+  "title": "Non-Hodgkin's lymphoma",
+  "work_id": "azfthaaapzhexomoko4tcw5op4"
+}

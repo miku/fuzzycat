@@ -1,0 +1,33 @@
+{
+  "abstracts": [],
+  "container_id": "zve2it4dovamndfi3ijj4n3dzi",
+  "contribs": [
+    {
+      "extra": {
+        "seq": "first"
+      },
+      "index": 0,
+      "raw_name": "Ling Liu",
+      "role": "author"
+    }
+  ],
+  "ext_ids": {
+    "doi": "10.1109/tsc.2013.17"
+  },
+  "extra": {
+    "crossref": {
+      "type": "journal-article"
+    }
+  },
+  "ident": "fzs6y277zbgxnbcsmmfnftyqgy",
+  "pages": "3-6",
+  "publisher": "Institute of Electrical and Electronics Engineers (IEEE)",
+  "refs": [],
+  "release_stage": "published",
+  "release_type": "article-journal",
+  "release_year": 2013,
+  "revision": "dd4496d3-3464-4663-92f0-eddd7a99d585",
+  "state": "active",
+  "title": "Introduction of new Associate Editors",
+  "work_id": "b2gyvsbxtbd5tehtrmzeya6v2m"
+}

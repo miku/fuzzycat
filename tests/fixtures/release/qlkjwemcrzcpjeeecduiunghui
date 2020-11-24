@@ -1,0 +1,30 @@
+{
+  "abstracts": [],
+  "container_id": "jlt5wbg4q5badgfspyrdfpo5rq",
+  "contribs": [],
+  "ext_ids": {
+    "pmcid": "PMC5205179",
+    "pmid": "29816841"
+  },
+  "extra": {
+    "pubmed": {
+      "pub_types": [
+        "Journal Article"
+      ]
+    }
+  },
+  "ident": "qlkjwemcrzcpjeeecduiunghui",
+  "issue": "606",
+  "language": "en",
+  "pages": "93-94",
+  "refs": [],
+  "release_date": "1898-05-07",
+  "release_stage": "published",
+  "release_type": "article-journal",
+  "release_year": 1898,
+  "revision": "59e78765-eea7-46c5-bf9c-07adc70d9556",
+  "state": "active",
+  "title": "Progress in Ophthalmology",
+  "volume": "24",
+  "work_id": "bvhuioydn5gw5crbgvzp2brota"
+}

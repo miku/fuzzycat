@@ -1,0 +1,29 @@
+{
+  "abstracts": [],
+  "container_id": "4j34shcr5fg7jarc26g7mnbim4",
+  "contribs": [],
+  "ext_ids": {
+    "doi": "10.1016/0002-8703(63)90171-6"
+  },
+  "extra": {
+    "crossref": {
+      "alternative-id": [
+        "0002870363901716"
+      ],
+      "type": "journal-article"
+    }
+  },
+  "ident": "mn26hwbmqvh23jhsecoder3ixq",
+  "language": "en",
+  "pages": "288-289",
+  "publisher": "Elsevier BV",
+  "refs": [],
+  "release_stage": "published",
+  "release_type": "article-journal",
+  "release_year": 1963,
+  "revision": "fff92336-c67f-46a1-bf8c-0ac6d7103cfe",
+  "state": "active",
+  "title": "Anticoagulant therapy",
+  "volume": "65",
+  "work_id": "biz74y5ql5ebxe7euti4lqfvuu"
+}

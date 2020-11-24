@@ -1,0 +1,151 @@
+{
+  "abstracts": [],
+  "container_id": "iedolmzeofgc3ezyedga7h4eba",
+  "contribs": [
+    {
+      "extra": {
+        "seq": "first"
+      },
+      "index": 0,
+      "raw_name": "Sujit K. Choudhary",
+      "role": "author"
+    },
+    {
+      "index": 1,
+      "raw_name": "Samir Kunkri",
+      "role": "author"
+    },
+    {
+      "index": 2,
+      "raw_name": "Ramij Rahaman",
+      "role": "author"
+    },
+    {
+      "index": 3,
+      "raw_name": "Anirban Roy",
+      "role": "author"
+    }
+  ],
+  "ext_ids": {
+    "core": "1944457",
+    "doi": "10.1103/physreva.76.052305"
+  },
+  "extra": {
+    "crossref": {
+      "license": [
+        {
+          "URL": "http://link.aps.org/licenses/aps-default-license",
+          "content-version": "vor",
+          "delay-in-days": 0,
+          "start": "2007-11-07T00:00:00Z"
+        }
+      ],
+      "type": "journal-article"
+    }
+  },
+  "ident": "vokr6qxyqrc55kyn45dyavr2lq",
+  "language": "en",
+  "publisher": "American Physical Society (APS)",
+  "refs": [
+    {
+      "extra": {
+        "doi": "10.1038/299802a0"
+      },
+      "index": 0,
+      "key": "PhysRevA.76.052305Cc1R1"
+    },
+    {
+      "extra": {
+        "doi": "10.1016/0375-9601(82)90084-6"
+      },
+      "index": 1,
+      "key": "PhysRevA.76.052305Cc1R2"
+    },
+    {
+      "extra": {
+        "doi": "10.1016/0375-9601(86)90660-2"
+      },
+      "index": 2,
+      "key": "PhysRevA.76.052305Cc1R3"
+    },
+    {
+      "extra": {
+        "doi": "10.1103/physreva.69.052312"
+      },
+      "index": 3,
+      "key": "PhysRevA.76.052305Cc2R1"
+    },
+    {
+      "extra": {
+        "doi": "10.1088/1367-2630/6/1/164"
+      },
+      "index": 4,
+      "key": "PhysRevA.76.052305Cc3R1"
+    },
+    {
+      "extra": {
+        "doi": "10.1103/physreva.74.032108"
+      },
+      "index": 5,
+      "key": "PhysRevA.76.052305Cc4R1"
+    },
+    {
+      "extra": {
+        "doi": "10.1103/physreva.57.1619"
+      },
+      "index": 6,
+      "key": "PhysRevA.76.052305Cc5R1"
+    },
+    {
+      "extra": {
+        "doi": "10.1103/physrevlett.78.2275"
+      },
+      "index": 7,
+      "key": "PhysRevA.76.052305Cc5R2"
+    },
+    {
+      "extra": {
+        "doi": "10.1103/physrevlett.87.277902"
+      },
+      "index": 8,
+      "key": "PhysRevA.76.052305Cc7R1"
+    },
+    {
+      "extra": {
+        "doi": "10.1103/physreva.69.024302"
+      },
+      "index": 9,
+      "key": "PhysRevA.76.052305Cc9R1"
+    },
+    {
+      "extra": {
+        "doi": "10.1103/physreva.65.032314"
+      },
+      "index": 10,
+      "key": "PhysRevA.76.052305Cc10R1"
+    },
+    {
+      "extra": {
+        "doi": "10.1103/physreva.58.883"
+      },
+      "index": 11,
+      "key": "PhysRevA.76.052305Cc11R1"
+    },
+    {
+      "extra": {
+        "doi": "10.1103/physreva.73.012343"
+      },
+      "index": 12,
+      "key": "PhysRevA.76.052305Cc12R1"
+    }
+  ],
+  "release_date": "2007-11-07",
+  "release_stage": "published",
+  "release_type": "article-journal",
+  "release_year": 2007,
+  "revision": "a205296e-5baf-41f2-8db1-0c0ebf307d67",
+  "state": "active",
+  "title": "Local cloning of entangled qubits",
+  "volume": "76",
+  "work_id": "bw7flsslqrfsxdwuaj2wqwis2e"
+}

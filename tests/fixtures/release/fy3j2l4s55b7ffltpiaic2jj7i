@@ -1,0 +1,49 @@
+{
+  "abstracts": [
+    {
+      "content": "<jats:p>The review highlights the issues of etiology, pathogenesis, clinical and laboratory picture, radiodiagnosis, treatment and prognosis of fulminant perineum gangrene, or Fournier's gangrene. According to modern concepts, Fournier's gangrene is one of the rare forms of necrotizing fasciitis of polymicrobial etiology with a primary lesion of the skin, subcutaneous tissue and superficial fascia of the scrotum, penis, and perineum. Fournier's gangrene refers to acute surgical diseases of pyonecrotic nature and is characterized by rapid septic course, high mortality, reaching 80%, in spite of the modern antibiotic therapy advances. Over the last decade the Fournier's gangrene incidence increased in 2.2-6.4 times, due to the increasing number of immunocompromised patients in the population. The disease most often occurs in older men with diabetes, alcoholism and obesity. The Fournier's gangrene occurrence is preceded by different inflammatory diseases of the colon, urinary organs, scrotum and perineum skin. The disease diagnosis in full-scale stage usually is not difficult. In rare cases, namely in the disease early stages, various radiological methods of investigation, laboratory tests and exploratory surgery with affected soft tissues express biopsy are used with differential diagnosis purposes. The cornerstone in the Fournier's gangrene treatment is an emergency surgical intervention in combination with a powerful anti-bacterial and anti-shock therapy. To improve the wound healing course and reduce the septic complications risk, new methods of adjuvant treatments such as hyperbaric oxygen therapy and vacuum therapy are used. Hospitalization duration in Fournier's gangrene is usually lengthy, due to the need to use repeated sanitation necrectomy and reconstructive plastic surgery and are associated with considerable economic costs for treatment. The Fournier's gangrene prognosis depends on the timing of specialized medical care provision and, above all, on the time interval between the disease onset and surgery performing.</jats:p>",
+      "mimetype": "application/xml+jats",
+      "sha1": "1b6560db90ecad09975653f7b76804ad1f36a43f"
+    }
+  ],
+  "container_id": "s4oxbqx6gzh4depazomxv3ap3a",
+  "contribs": [
+    {
+      "extra": {
+        "seq": "first"
+      },
+      "index": 0,
+      "raw_name": "A V Prokhorov",
+      "role": "author"
+    }
+  ],
+  "ext_ids": {
+    "doi": "10.17750/kmj2016-256"
+  },
+  "extra": {
+    "crossref": {
+      "license": [
+        {
+          "URL": "http://creativecommons.org/licenses/by-nc-sa/4.0",
+          "content-version": "unspecified",
+          "delay-in-days": 0,
+          "start": "2016-04-15T00:00:00Z"
+        }
+      ],
+      "type": "journal-article"
+    }
+  },
+  "ident": "fy3j2l4s55b7ffltpiaic2jj7i",
+  "pages": "256-261",
+  "publisher": "ECO-Vector LLC",
+  "refs": [],
+  "release_date": "2016-04-15",
+  "release_stage": "published",
+  "release_type": "article-journal",
+  "release_year": 2016,
+  "revision": "e4943e3c-199a-44ba-ab91-c275341fecf6",
+  "state": "active",
+  "title": "Fournier's gangrene",
+  "volume": "97",
+  "work_id": "b65jbkaovfhrlkjryckcgi5hei"
+}

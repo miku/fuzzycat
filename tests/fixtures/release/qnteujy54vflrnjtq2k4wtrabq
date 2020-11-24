@@ -1,0 +1,36 @@
+{
+  "abstracts": [],
+  "container_id": "6hmzawvr4zcdpfifwdquk5kafe",
+  "contribs": [
+    {
+      "extra": {
+        "seq": "first"
+      },
+      "index": 0,
+      "raw_name": "PHILIP ROSENBLUM",
+      "role": "author"
+    }
+  ],
+  "ext_ids": {
+    "doi": "10.1001/archpedi.1941.02000100232018"
+  },
+  "extra": {
+    "crossref": {
+      "type": "journal-article"
+    }
+  },
+  "ident": "qnteujy54vflrnjtq2k4wtrabq",
+  "language": "en",
+  "pages": "898",
+  "publisher": "American Medical Association (AMA)",
+  "refs": [],
+  "release_date": "1941-04-01",
+  "release_stage": "published",
+  "release_type": "article-journal",
+  "release_year": 1941,
+  "revision": "d9e509df-d060-4bd9-9810-51a068376dd7",
+  "state": "active",
+  "title": "CHICAGO PEDIATRIC SOCIETY",
+  "volume": "61",
+  "work_id": "bmoeqx3mj5fo5bvh2h7zoyy4vq"
+}

@@ -1,0 +1,37 @@
+{
+  "abstracts": [],
+  "container_id": "kqa3d2jnlnfsfgcvd7tbmwpdye",
+  "contribs": [
+    {
+      "extra": {
+        "seq": "first"
+      },
+      "index": 0,
+      "raw_name": "&NA;",
+      "role": "author"
+    }
+  ],
+  "ext_ids": {
+    "doi": "10.1097/01.cnj.0000305997.89628.fb"
+  },
+  "extra": {
+    "crossref": {
+      "type": "journal-article"
+    },
+    "subtitle": [
+      ""
+    ]
+  },
+  "ident": "2hquztvjlrai3frazkmb6icgzy",
+  "language": "en",
+  "publisher": "Ovid Technologies (Wolters Kluwer Health)",
+  "refs": [],
+  "release_stage": "published",
+  "release_type": "article-journal",
+  "release_year": 2008,
+  "revision": "1c8bef56-d3e3-4b58-8735-6fc5d2afb7f8",
+  "state": "active",
+  "title": "Etc.",
+  "volume": "25",
+  "work_id": "bip2we5brnajxoltjiesbew3fe"
+}

@@ -1,0 +1,68 @@
+{
+  "abstracts": [],
+  "container_id": "voaewug75ventcwfo7cdofozfm",
+  "contribs": [
+    {
+      "extra": {
+        "seq": "first"
+      },
+      "index": 0,
+      "raw_name": "R. J. Heald",
+      "role": "author"
+    },
+    {
+      "index": 1,
+      "raw_name": "M. Pocard",
+      "role": "author"
+    },
+    {
+      "index": 2,
+      "raw_name": "Y. Panis",
+      "role": "author"
+    },
+    {
+      "index": 3,
+      "raw_name": "B. Malassagne",
+      "role": "author"
+    },
+    {
+      "index": 4,
+      "raw_name": "J. Nemeth",
+      "role": "author"
+    },
+    {
+      "index": 5,
+      "raw_name": "P. Hautefeuille",
+      "role": "author"
+    },
+    {
+      "index": 6,
+      "raw_name": "P. Valleur",
+      "role": "author"
+    }
+  ],
+  "ext_ids": {
+    "doi": "10.1007/bf02235363"
+  },
+  "extra": {
+    "crossref": {
+      "type": "journal-article"
+    },
+    "subtitle": [
+      ""
+    ]
+  },
+  "ident": "2wakwcyb2zhbla2aao3g6ajfli",
+  "language": "en",
+  "pages": "845",
+  "publisher": "Ovid Technologies (Wolters Kluwer Health)",
+  "refs": [],
+  "release_stage": "published",
+  "release_type": "article-journal",
+  "release_year": 1998,
+  "revision": "330cc16e-3973-4026-a513-7a66c05ab557",
+  "state": "active",
+  "title": "Invited editorial",
+  "volume": "41",
+  "work_id": "brvlozrmebag7gupu4w7ctmbey"
+}

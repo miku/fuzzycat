@@ -1,0 +1,34 @@
+{
+  "abstracts": [],
+  "container_id": "32jgrnadnjhypoxqohselosc34",
+  "contribs": [
+    {
+      "extra": {
+        "seq": "first"
+      },
+      "index": 0,
+      "raw_name": ". .",
+      "role": "author"
+    }
+  ],
+  "ext_ids": {
+    "doi": "10.14746/tp.2001.1.33"
+  },
+  "extra": {
+    "crossref": {
+      "type": "journal-article"
+    }
+  },
+  "ident": "wwiarqhsgbevdc74f6i4qmvyhy",
+  "pages": "265-276",
+  "publisher": "Adam Mickiewicz University Poznan",
+  "refs": [],
+  "release_date": "2018-10-31",
+  "release_stage": "published",
+  "release_type": "article-journal",
+  "release_year": 2018,
+  "revision": "904a6963-bc6f-456a-b609-d55cc79f2973",
+  "state": "active",
+  "title": "RECENZJE",
+  "work_id": "bmiwbwhqx5fwnh4q6r5c3u4zqe"
+}

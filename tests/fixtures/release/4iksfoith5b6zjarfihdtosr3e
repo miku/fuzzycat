@@ -1,0 +1,42 @@
+{
+  "abstracts": [
+    {
+      "content": "In this dissertation we provide mathematical evidence that the concept of\nlearning can be used to give a new and intuitive computational semantics of\nclassical proofs in various fragments of Predicative Arithmetic.\n  First, we extend Kreisel modified realizability to a classical fragment of\nfirst order Arithmetic, Heyting Arithmetic plus EM1 (Excluded middle axiom\nrestricted to Sigma^0_1 formulas). We introduce a new realizability semantics\nwe call \"Interactive Learning-Based Realizability\". Our realizers are\nself-correcting programs, which learn from their errors and evolve through\ntime.\n  Secondly, we extend the class of learning based realizers to a classical\nversion PCFclass of PCF and, then, compare the resulting notion of\nrealizability with Coquand game semantics and prove a full soundness and\ncompleteness result. In particular, we show there is a one-to-one\ncorrespondence between realizers and recursive winning strategies in the\n1-Backtracking version of Tarski games.\n  Third, we provide a complete and fully detailed constructive analysis of\nlearning as it arises in learning based realizability for HA+EM1, Avigad's\nupdate procedures and epsilon substitution method for Peano Arithmetic PA. We\npresent new constructive techniques to bound the length of learning processes\nand we apply them to reprove - by means of our theory - the classic result of\nGodel that provably total functions of PA can be represented in Godel's system\nT.\n  Last, we give an axiomatization of the kind of learning that is needed to\ncomputationally interpret Predicative classical second order Arithmetic. Our\nwork is an extension of Avigad's and generalizes the concept of update\nprocedure to the transfinite case. Transfinite update procedures have to learn\nvalues of transfinite sequences of non computable functions in order to extract\nwitnesses from classical proofs.",
+      "lang": "en",
+      "mimetype": "text/plain",
+      "sha1": "5428248355749a53d0f0594229d338b1baec3b2e"
+    }
+  ],
+  "contribs": [
+    {
+      "index": 0,
+      "raw_name": "Federico Aschieri",
+      "role": "author"
+    }
+  ],
+  "ext_ids": {
+    "arxiv": "1012.4992v5"
+  },
+  "extra": {
+    "arxiv": {
+      "base_id": "1012.4992",
+      "categories": [
+        "math.LO"
+      ],
+      "comments": "Phd Thesis"
+    }
+  },
+  "ident": "4iksfoith5b6zjarfihdtosr3e",
+  "language": "en",
+  "license_slug": "ARXIV-1.0",
+  "refs": [],
+  "release_date": "2011-06-02",
+  "release_stage": "submitted",
+  "release_type": "article",
+  "release_year": 2011,
+  "revision": "fc1ead1f-369c-4fda-a141-687df0fbddb5",
+  "state": "active",
+  "title": "Learning, Realizability and Games in Classical Arithmetic",
+  "version": "v5",
+  "work_id": "b6pnbgml6jdphdfhhqz4c5mokm"
+}

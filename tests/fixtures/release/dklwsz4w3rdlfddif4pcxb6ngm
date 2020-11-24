@@ -1,0 +1,30 @@
+{
+  "abstracts": [],
+  "container_id": "xq4uy4sfzndvvhfl2jn3avlqey",
+  "contribs": [],
+  "ext_ids": {
+    "doi": "10.1175/1520-0493(1891)19[276:in]2.0.co;2"
+  },
+  "extra": {
+    "crossref": {
+      "alternative-id": [
+        "10.1175/1520-0493(1891)19[276:IN]2.0.CO;2"
+      ],
+      "type": "journal-article"
+    }
+  },
+  "ident": "dklwsz4w3rdlfddif4pcxb6ngm",
+  "issue": "11",
+  "language": "en",
+  "pages": "276-276",
+  "publisher": "American Meteorological Society",
+  "refs": [],
+  "release_stage": "published",
+  "release_type": "article-journal",
+  "release_year": 1891,
+  "revision": "641b5893-c51e-485e-abfe-e8d86fe6621e",
+  "state": "active",
+  "title": "INLAND NAVIGATION",
+  "volume": "19",
+  "work_id": "bqt7evswurffxpexxh6eqigz44"
+}

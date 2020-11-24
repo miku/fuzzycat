@@ -1,0 +1,82 @@
+{
+  "abstracts": [
+    {
+      "content": "We present Atacama Large Millimeter/submillimeter Array (ALMA) line and\ncontinuum observations at 1.2mm with ~0.3\" resolution that uncover a\nKeplerian-like disk around the forming O-type star AFGL 4176. The continuum\nemission from the disk at 1.21 mm (source mm1) has a deconvolved size of\n870+/-110 AU x 330+/-300 AU and arises from a structure ~8 M_sun in mass,\ncalculated assuming a dust temperature of 190 K. The first-moment maps,\npixel-to-pixel line modeling, assuming local thermodynamic equilibrium (LTE),\nand position-velocity diagrams of the CH3CN J=13-12 K-line emission all show a\nvelocity gradient along the major axis of the source, coupled with an increase\nin velocity at small radii, consistent with Keplerian-like rotation. The LTE\nline modeling shows that where CH3CN J=13-12 is excited, the temperatures in\nthe disk range from ~70 to at least 300 K and that the H2 column density peaks\nat 2.8x10^24 cm^-2. In addition, we present Atacama Pathfinder Experiment\n(APEX) 12CO observations which show a large-scale outflow from AFGL 4176\nperpendicular to the major axis of mm1, supporting the disk interpretation.\nFinally, we present a radiative transfer model of a Keplerian disk surrounding\nan O7 star, with a disk mass and radius of 12 M_sun and 2000 AU, that\nreproduces the line and continuum data, further supporting our conclusion that\nour observations have uncovered a Keplerian disk around an O-type star.",
+      "lang": "en",
+      "mimetype": "text/plain",
+      "sha1": "0d0ccb2d947e54076c8e2762f072d51a919c486a"
+    }
+  ],
+  "contribs": [
+    {
+      "index": 0,
+      "raw_name": "Katharine G. Johnston",
+      "role": "author"
+    },
+    {
+      "index": 1,
+      "raw_name": "Thomas P. Robitaille",
+      "role": "author"
+    },
+    {
+      "index": 2,
+      "raw_name": "Henrik Beuther",
+      "role": "author"
+    },
+    {
+      "index": 3,
+      "raw_name": "Hendrik\n  Linz",
+      "role": "author"
+    },
+    {
+      "index": 4,
+      "raw_name": "Paul Boley",
+      "role": "author"
+    },
+    {
+      "index": 5,
+      "raw_name": "Rolf Kuiper",
+      "role": "author"
+    },
+    {
+      "index": 6,
+      "raw_name": "Eric Keto",
+      "role": "author"
+    },
+    {
+      "index": 7,
+      "raw_name": "Melvin G. Hoare",
+      "role": "author"
+    },
+    {
+      "index": 8,
+      "raw_name": "Roy van Boekel",
+      "role": "author"
+    }
+  ],
+  "ext_ids": {
+    "arxiv": "1509.08469v1"
+  },
+  "extra": {
+    "arxiv": {
+      "base_id": "1509.08469",
+      "categories": [
+        "astro-ph.SR"
+      ],
+      "comments": "6 pages, 4 figures, accepted for publication in ApJL"
+    }
+  },
+  "ident": "5hzpesjrjrdrzaoahvihorp7eq",
+  "language": "en",
+  "license_slug": "ARXIV-1.0",
+  "refs": [],
+  "release_date": "2015-09-28",
+  "release_stage": "submitted",
+  "release_type": "article",
+  "release_year": 2015,
+  "revision": "29d2a48a-6e57-48bf-be55-6d30ef405365",
+  "state": "active",
+  "title": "A Keplerian-like disk around the forming O-type star AFGL 4176",
+  "version": "v1",
+  "work_id": "afmgjv5gijd3xkn65hvuqlfewa"
+}

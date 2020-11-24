@@ -1,0 +1,56 @@
+{
+  "abstracts": [
+    {
+      "content": "In the present work it is shown that some specific double Higgs like\nmechanisms may have interesting cosmological applications. A hidden scenario\nwhich cast long lived super heavy particles together with an extremely light\nparticle $a$ with mass $m_a\\sim 10^{-32}-10^{-33}$eV is presented. The\npotential energy of this particle models the vacuum energy density of the\nuniverse $\\rho_c\\simeq 10^{-47}\\;\\hbox{GeV}^4$. The construction of such\nscenario is non trivial since the presence of light particles may spoil the\nstability of the heavy particles. However, double Higgs mechanisms may be\nhelpful for overcoming this problem. The hidden sector we propose include\nfermions with masses near the neutrino mass $m_\\nu\\sim 10^{-2}$eV which arise\nin terms of a see saw mechanism. Besides, the super heavy particles acquire a\nmass due to a double Higgs like mechanism of the order of the GUT scale. The\ngauge group of the model is $\\hbox{SU(2)}_L$ and the scalars of the double\nHiggs mechanism are not charged under these interactions. The light particle\n$a$ is the Goldstone boson associated to a Peccei-Quinn like symmetry in the\ndouble Higgs model. In addition, the double Higgs mechanism posses another CP\nodd scalar $A^0$, which acquire a mass of the order of the GUT scale. We show\nthat if there is no direct coupling between $A^0$ and $a$, even in presence of\nindirect couplings, the $A^0$ particle is long lived an may appear in events\nabove the GKZ bound in present times.",
+      "lang": "en",
+      "mimetype": "application/x-latex",
+      "sha1": "16a5ba2fba1f816c89dbfd6b2a652c939775d0b3"
+    },
+    {
+      "content": "In the present work it is shown that some specific double Higgs like\nmechanisms may have interesting cosmological applications. A hidden scenario\nwhich cast long lived super heavy particles together with an extremely light\nparticle a with mass m_a∼ 10^-32-10^-33eV is presented. The\npotential energy of this particle models the vacuum energy density of the\nuniverse ρ_c≃ 10^-47 GeV^4. The construction of such\nscenario is non trivial since the presence of light particles may spoil the\nstability of the heavy particles. However, double Higgs mechanisms may be\nhelpful for overcoming this problem. The hidden sector we propose include\nfermions with masses near the neutrino mass m_ν∼ 10^-2eV which arise\nin terms of a see saw mechanism. Besides, the super heavy particles acquire a\nmass due to a double Higgs like mechanism of the order of the GUT scale. The\ngauge group of the model is SU(2)_L and the scalars of the double\nHiggs mechanism are not charged under these interactions. The light particle\na is the Goldstone boson associated to a Peccei-Quinn like symmetry in the\ndouble Higgs model. In addition, the double Higgs mechanism posses another CP\nodd scalar A^0, which acquire a mass of the order of the GUT scale. We show\nthat if there is no direct coupling between A^0 and a, even in presence of\nindirect couplings, the A^0 particle is long lived an may appear in events\nabove the GKZ bound in present times.",
+      "lang": "en",
+      "mimetype": "text/plain",
+      "sha1": "08d2a710e1f73e80ff2f80869c0f81d7ecb7c511"
+    }
+  ],
+  "contribs": [
+    {
+      "index": 0,
+      "raw_name": "Osvaldo P. Santillán",
+      "role": "author"
+    },
+    {
+      "index": 1,
+      "raw_name": "Luciano Gabbanelli",
+      "role": "author"
+    }
+  ],
+  "ext_ids": {
+    "arxiv": "1501.04294v1"
+  },
+  "extra": {
+    "arxiv": {
+      "base_id": "1501.04294",
+      "categories": [
+        "hep-th",
+        "hep-ph"
+      ],
+      "comments": "The decaying particle was changed from an scalar to a pseudoscalar\n  since it improves stability issues, and some features that inhibits the\n  coupling between CP odd scalars have been added",
+      "journal_ref": "Mod. Phys. Lett. A, Vol. 31, No. 25 (2016) 1650143"
+    },
+    "superceded": true
+  },
+  "ident": "v2ypxs2yrbh57cdo6lfuiik64e",
+  "language": "en",
+  "license_slug": "ARXIV-1.0",
+  "refs": [],
+  "release_date": "2015-01-18",
+  "release_stage": "submitted",
+  "release_type": "article",
+  "release_year": 2015,
+  "revision": "a103f478-fc36-484c-b4ca-5c4976ce06ca",
+  "state": "active",
+  "title": "Double Higgs mechanisms, supermassive stable particles and the vacuum\n  energy",
+  "version": "v1",
+  "work_id": "bjy4y76kijhmtmv5634orpqeem"
+}

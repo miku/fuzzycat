@@ -1,0 +1,68 @@
+{
+  "abstracts": [
+    {
+      "content": "We present an approach for the verification and validation (V&V) of robot\nassistants in the context of human-robot interactions (HRI), to demonstrate\ntheir trustworthiness through corroborative evidence of their safety and\nfunctional correctness. Key challenges include the complex and unpredictable\nnature of the real world in which assistant and service robots operate, the\nlimitations on available V&V techniques when used individually, and the\nconsequent lack of confidence in the V&V results. Our approach, called\ncorroborative V&V, addresses these challenges by combining several different\nV&V techniques; in this paper we use formal verification (model checking),\nsimulation-based testing, and user validation in experiments with a real robot.\nWe demonstrate our corroborative V&V approach through a handover task, the most\ncritical part of a complex cooperative manufacturing scenario, for which we\npropose some safety and liveness requirements to verify and validate. We\nconstruct formal models, simulations and an experimental test rig for the HRI.\nTo capture requirements we use temporal logic properties, assertion checkers\nand textual descriptions. This combination of approaches allows V&V of the HRI\ntask at different levels of modelling detail and thoroughness of exploration,\nthus overcoming the individual limitations of each technique. Should the\nresulting V&V evidence present discrepancies, an iterative process between the\ndifferent V&V techniques takes place until corroboration between the V&V\ntechniques is gained from refining and improving the assets (i.e., system and\nrequirement models) to represent the HRI task in a more truthful manner.\nTherefore, corroborative V&V affords a systematic approach to 'meta-V&V,' in\nwhich different V&V techniques can be used to corroborate and check one\nanother, increasing the level of certainty in the results of V&V.",
+      "lang": "en",
+      "mimetype": "text/plain",
+      "sha1": "24ad018c09d821196d138dd3f1a04eca61b283d6"
+    }
+  ],
+  "contribs": [
+    {
+      "index": 0,
+      "raw_name": "Matt Webster",
+      "role": "author"
+    },
+    {
+      "index": 1,
+      "raw_name": "David Western",
+      "role": "author"
+    },
+    {
+      "index": 2,
+      "raw_name": "Dejanira Araiza-Illan",
+      "role": "author"
+    },
+    {
+      "index": 3,
+      "raw_name": "Clare Dixon,\n  Kerstin Eder",
+      "role": "author"
+    },
+    {
+      "index": 4,
+      "raw_name": "Michael Fisher",
+      "role": "author"
+    },
+    {
+      "index": 5,
+      "raw_name": "Anthony G. Pipe",
+      "role": "author"
+    }
+  ],
+  "ext_ids": {
+    "arxiv": "1608.07403v3"
+  },
+  "extra": {
+    "arxiv": {
+      "base_id": "1608.07403",
+      "categories": [
+        "cs.RO",
+        "cs.HC"
+      ],
+      "comments": "49 pages"
+    }
+  },
+  "ident": "gxbp2vmubnhgrhfobb7wceujvm",
+  "language": "en",
+  "license_slug": "ARXIV-1.0",
+  "refs": [],
+  "release_date": "2019-09-05",
+  "release_stage": "submitted",
+  "release_type": "article",
+  "release_year": 2019,
+  "revision": "75120e48-7198-47f4-ab39-3a3f5f7ade12",
+  "state": "active",
+  "title": "A Corroborative Approach to Verification and Validation of Human–Robot\n  Teams",
+  "version": "v3",
+  "work_id": "ba72efkb3zgnbgl6oz3a7xhho4"
+}

@@ -1,0 +1,39 @@
+{
+  "abstracts": [],
+  "container_id": "hcmacmudpncmhbketkadhg4kny",
+  "contribs": [
+    {
+      "extra": {
+        "seq": "first"
+      },
+      "index": 0,
+      "raw_name": "&NA;",
+      "role": "author"
+    }
+  ],
+  "ext_ids": {
+    "doi": "10.2165/00128415-200912540-00080"
+  },
+  "extra": {
+    "crossref": {
+      "type": "journal-article"
+    },
+    "subtitle": [
+      "Drug hypersensitivity: case report"
+    ]
+  },
+  "ident": "x7lbkuc5afb75nz5l5kyrzy2ia",
+  "issue": "1254",
+  "language": "en",
+  "pages": "28",
+  "publisher": "Springer Nature",
+  "refs": [],
+  "release_stage": "published",
+  "release_type": "article-journal",
+  "release_year": 2009,
+  "revision": "7e98e833-e79c-4011-aff1-1e5daaf8f350",
+  "state": "active",
+  "title": "Meropenem",
+  "volume": "&NA;",
+  "work_id": "bizut2kvyvdmrptckm5mo2pnhm"
+}

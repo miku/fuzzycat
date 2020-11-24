@@ -1,0 +1,57 @@
+{
+  "abstracts": [],
+  "contribs": [
+    {
+      "extra": {
+        "seq": "first"
+      },
+      "index": 0,
+      "raw_name": "Bruce L. McCartney",
+      "role": "author"
+    },
+    {
+      "index": 1,
+      "raw_name": "John George",
+      "role": "author"
+    },
+    {
+      "index": 2,
+      "raw_name": "B. K. Lee",
+      "role": "author"
+    },
+    {
+      "index": 3,
+      "raw_name": "Mark Lindgren",
+      "role": "author"
+    },
+    {
+      "index": 4,
+      "raw_name": "Frank Neilson",
+      "role": "author"
+    }
+  ],
+  "ext_ids": {
+    "doi": "10.1061/9780784403204"
+  },
+  "extra": {
+    "crossref": {
+      "alternative-id": [
+        "10.1061/9780784403204"
+      ],
+      "type": "monograph"
+    },
+    "subtitle": [
+      "Locks, Dams, and Channels"
+    ]
+  },
+  "ident": "wsbinmv7lragjnaedbgws6bztm",
+  "publisher": "American Society of Civil Engineers",
+  "refs": [],
+  "release_date": "1998-06-04",
+  "release_type": "book",
+  "release_year": 1998,
+  "revision": "1d7fe6e8-c578-4ab4-b3d2-505af4916b1e",
+  "state": "active",
+  "title": "Inland Navigation",
+  "work_id": "bxdwdft5lfa2tdq7jfghzft53u"
+}

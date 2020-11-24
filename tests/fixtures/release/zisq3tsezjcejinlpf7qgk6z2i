@@ -1,0 +1,29 @@
+{
+  "abstracts": [],
+  "container_id": "o37ysks2kfagdpzl7i762yxbfy",
+  "contribs": [],
+  "ext_ids": {
+    "doi": "10.1175/1520-0477-85.2.279"
+  },
+  "extra": {
+    "crossref": {
+      "alternative-id": [
+        "10.1175/1520-0477-85.2.279"
+      ],
+      "type": "journal-article"
+    }
+  },
+  "ident": "zisq3tsezjcejinlpf7qgk6z2i",
+  "language": "en",
+  "pages": "279-288",
+  "publisher": "American Meteorological Society",
+  "refs": [],
+  "release_stage": "published",
+  "release_type": "article-journal",
+  "release_year": 2004,
+  "revision": "54c4c3a3-66b8-4953-af53-282b47a5c101",
+  "state": "active",
+  "title": "READINGS",
+  "volume": "85",
+  "work_id": "bzmotbkc5ncsbljfkzzz6n4j3a"
+}

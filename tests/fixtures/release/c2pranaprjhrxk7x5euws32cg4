@@ -1,0 +1,47 @@
+{
+  "abstracts": [],
+  "container_id": "osauhecynbdwvcxvf3wgmrdpai",
+  "contribs": [
+    {
+      "extra": {
+        "seq": "first"
+      },
+      "index": 0,
+      "raw_name": "Alan Martin",
+      "role": "author"
+    },
+    {
+      "index": 1,
+      "raw_name": "Ronald G. Haller",
+      "role": "author"
+    },
+    {
+      "index": 2,
+      "raw_name": "Richard Barohn",
+      "role": "author"
+    }
+  ],
+  "ext_ids": {
+    "doi": "10.1097/00002281-199411000-00002"
+  },
+  "extra": {
+    "crossref": {
+      "type": "journal-article"
+    },
+    "subtitle": [
+      ""
+    ]
+  },
+  "ident": "c2pranaprjhrxk7x5euws32cg4",
+  "language": "en",
+  "pages": "552-558",
+  "publisher": "Ovid Technologies (Wolters Kluwer Health)",
+  "refs": [],
+  "release_stage": "published",
+  "release_type": "article-journal",
+  "release_year": 1994,
+  "revision": "c2a18e3f-f489-4913-847a-4b4a3b24ee5c",
+  "state": "active",
+  "title": "Metabolic myopathies",
+  "work_id": "ca3cugxsfbbbpd4k5udiys6jeq"
+}

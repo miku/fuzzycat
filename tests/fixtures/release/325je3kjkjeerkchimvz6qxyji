@@ -1,0 +1,33 @@
+{
+  "abstracts": [],
+  "contribs": [
+    {
+      "extra": {
+        "seq": "first"
+      },
+      "index": 0,
+      "role": "author"
+    }
+  ],
+  "ext_ids": {
+    "doi": "10.18356/8e56dbda-en"
+  },
+  "extra": {
+    "container_name": "Statistical Papers - United Nations (Ser. A), Population and Vital Statistics Report",
+    "crossref": {
+      "type": "book-chapter"
+    }
+  },
+  "ident": "325je3kjkjeerkchimvz6qxyji",
+  "pages": "370-371",
+  "publisher": "United Nations",
+  "refs": [],
+  "release_date": "2013-12-31",
+  "release_stage": "published",
+  "release_type": "chapter",
+  "release_year": 2013,
+  "revision": "adb18a4d-e58c-46bd-b5a6-b14699cdfaf4",
+  "state": "active",
+  "title": "Monaco",
+  "work_id": "auzcwf2c3naufn6x64js5dsika"
+}

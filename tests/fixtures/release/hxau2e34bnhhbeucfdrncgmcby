@@ -1,0 +1,43 @@
+{
+  "abstracts": [],
+  "contribs": [
+    {
+      "extra": {
+        "seq": "first"
+      },
+      "index": 0,
+      "raw_name": "H. A. Bird",
+      "role": "author"
+    },
+    {
+      "index": 1,
+      "raw_name": "Patricia le Gallez",
+      "role": "author"
+    },
+    {
+      "index": 2,
+      "raw_name": "Jacqueline Hill",
+      "role": "author"
+    }
+  ],
+  "ext_ids": {
+    "doi": "10.1007/978-1-4471-1365-2_5"
+  },
+  "extra": {
+    "container_name": "Combined Care of the Rheumatic Patient",
+    "crossref": {
+      "type": "book-chapter"
+    }
+  },
+  "ident": "hxau2e34bnhhbeucfdrncgmcby",
+  "pages": "131-150",
+  "publisher": "Springer London",
+  "refs": [],
+  "release_stage": "published",
+  "release_type": "chapter",
+  "release_year": 1985,
+  "revision": "a72bb2c5-f190-40b4-8d05-33e8c6eb118d",
+  "state": "active",
+  "title": "Surgical Nursing",
+  "work_id": "bbaatyfabre5vos3a5rzi7voaq"
+}

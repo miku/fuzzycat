@@ -1,0 +1,39 @@
+{
+  "abstracts": [],
+  "container_id": "uyseixcnyrgujikfxtwy4b2bii",
+  "contribs": [
+    {
+      "extra": {
+        "seq": "first"
+      },
+      "index": 0,
+      "raw_name": "Caroline McGraw",
+      "role": "author"
+    }
+  ],
+  "ext_ids": {
+    "doi": "10.7748/phc.18.8.31.s22"
+  },
+  "extra": {
+    "crossref": {
+      "alternative-id": [
+        "10.7748/phc.18.8.31.s22"
+      ],
+      "type": "journal-article"
+    }
+  },
+  "ident": "mkqmxbrhozhxphemdgshl57m3u",
+  "language": "en",
+  "pages": "31-31",
+  "publisher": "RCN Publishing Ltd.",
+  "refs": [],
+  "release_date": "2008-10-13",
+  "release_stage": "published",
+  "release_type": "article-journal",
+  "release_year": 2008,
+  "revision": "dba25dc5-77f4-4e38-8f3f-b2dce36fbae6",
+  "state": "active",
+  "title": "Influenza vaccination",
+  "volume": "18",
+  "work_id": "bdhgizkmanbp7jxq4xcxem4s4m"
+}

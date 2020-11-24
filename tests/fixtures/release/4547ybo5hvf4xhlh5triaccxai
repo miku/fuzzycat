@@ -1,0 +1,40 @@
+{
+  "abstracts": [],
+  "container_id": "qirzh7firjdsjhg4tutxtir6ey",
+  "contribs": [
+    {
+      "given_name": "H. W.",
+      "index": 0,
+      "raw_name": "H. W. Wiley",
+      "role": "author",
+      "surname": "Wiley"
+    }
+  ],
+  "ext_ids": {
+    "jstor": "2900774"
+  },
+  "extra": {
+    "jstor": {
+      "issue_id": "i344047",
+      "journal_ids": [
+        "science",
+        "j100000"
+      ]
+    }
+  },
+  "ident": "4547ybo5hvf4xhlh5triaccxai",
+  "issue": "73",
+  "language": "en",
+  "pages": "556",
+  "publisher": "Science",
+  "refs": [],
+  "release_date": "1881-11-19",
+  "release_stage": "published",
+  "release_type": "stub",
+  "release_year": 1881,
+  "revision": "13b7bc99-2df2-4838-bbf8-755324a8b090",
+  "state": "active",
+  "title": "An Explanation",
+  "volume": "2",
+  "work_id": "awr7o6uep5dmhbv6tj72dairim"
+}

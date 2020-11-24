@@ -1,0 +1,29 @@
+{
+  "abstracts": [],
+  "container_id": "avfhma5yf5h4dbb7zmkluo7q5e",
+  "contribs": [],
+  "ext_ids": {
+    "doi": "10.1016/s0091-6749(04)00598-6"
+  },
+  "extra": {
+    "crossref": {
+      "alternative-id": [
+        "S0091674904005986"
+      ],
+      "type": "journal-article"
+    }
+  },
+  "ident": "gyyxomlfkzfannusvzoypbnel4",
+  "language": "en",
+  "pages": "198-198",
+  "publisher": "Elsevier BV",
+  "refs": [],
+  "release_stage": "published",
+  "release_type": "article-journal",
+  "release_year": 2004,
+  "revision": "d0f0e47a-ad72-4988-b97f-f92db693e5f3",
+  "state": "active",
+  "title": "Receive tables of contents by e-mail",
+  "volume": "113",
+  "work_id": "avr6q32jlvf6xkri7zqwhcn5ve"
+}

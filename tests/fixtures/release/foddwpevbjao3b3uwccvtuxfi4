@@ -1,0 +1,41 @@
+{
+  "abstracts": [],
+  "contribs": [
+    {
+      "extra": {
+        "seq": "first"
+      },
+      "given_name": "Eran",
+      "index": 0,
+      "raw_name": "Eran Elinav",
+      "role": "author",
+      "surname": "Elinav"
+    },
+    {
+      "given_name": "Eran",
+      "index": 1,
+      "raw_name": "Eran Blacher",
+      "role": "author",
+      "surname": "Blacher"
+    }
+  ],
+  "ext_ids": {
+    "doi": "10.3410/f.734040550.793553642"
+  },
+  "extra": {
+    "container_name": "F1000 - Post-publication peer review of the biomedical literature",
+    "crossref": {
+      "type": "dataset"
+    }
+  },
+  "ident": "foddwpevbjao3b3uwccvtuxfi4",
+  "publisher": "F1000 ( Faculty of 1000 Ltd)",
+  "refs": [],
+  "release_date": "2018-11-30",
+  "release_type": "dataset",
+  "release_year": 2018,
+  "revision": "f1c89c65-0313-4b9e-af7c-8707254abde1",
+  "state": "active",
+  "title": "Faculty of 1000 evaluation for A gut-brain neural circuit for nutrient sensory transduction.",
+  "work_id": "a5g7a7juy5gnvcag6dhxxtc3ki"
+}

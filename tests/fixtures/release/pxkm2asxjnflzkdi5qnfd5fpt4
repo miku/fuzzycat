@@ -1,0 +1,47 @@
+{
+  "abstracts": [],
+  "contribs": [
+    {
+      "extra": {
+        "seq": "first"
+      },
+      "index": 0,
+      "raw_name": "Steven Slack",
+      "role": "author"
+    },
+    {
+      "index": 1,
+      "raw_name": "Joseph Chinn",
+      "role": "author"
+    }
+  ],
+  "ext_ids": {
+    "doi": "10.1201/9780203011423.ch10"
+  },
+  "extra": {
+    "container_name": "Tissue Engineering",
+    "crossref": {
+      "alternative-id": [
+        "10.1201/9780203011423.ch10",
+        "10.1201/CRCPRIAPPENG",
+        "10.1201/9780203011423"
+      ],
+      "type": "book-chapter"
+    },
+    "subtitle": [
+      "Protein-Surface Interactions"
+    ]
+  },
+  "ident": "pxkm2asxjnflzkdi5qnfd5fpt4",
+  "pages": "10-1-10-13",
+  "publisher": "CRC Press",
+  "refs": [],
+  "release_date": "2003-03-26",
+  "release_stage": "published",
+  "release_type": "chapter",
+  "release_year": 2003,
+  "revision": "90948563-313c-4852-8ba4-8d6b0ed242d2",
+  "state": "active",
+  "title": "Biomaterials",
+  "work_id": "amzk76kxfje2hdzpydgwguobeu"
+}

@@ -1,0 +1,39 @@
+{
+  "abstracts": [],
+  "container_id": "xxjeudijlzbl3ftkbj2bkt7zlu",
+  "contribs": [
+    {
+      "extra": {},
+      "given_name": "G K",
+      "index": 0,
+      "raw_name": "G K Steigleder",
+      "role": "author",
+      "surname": "Steigleder"
+    }
+  ],
+  "ext_ids": {
+    "pmid": "4268491"
+  },
+  "extra": {
+    "pubmed": {
+      "pub_types": [
+        "Journal Article"
+      ]
+    }
+  },
+  "ident": "knwc764q25f33ib6qnwo7pyaui",
+  "issue": "27",
+  "language": "de",
+  "original_title": "Rosacea",
+  "pages": "1350-1",
+  "refs": [],
+  "release_date": "1973-07-06",
+  "release_stage": "published",
+  "release_type": "article-journal",
+  "release_year": 1973,
+  "revision": "b0d70dcc-b0e3-484c-9e79-ed86fb52d05f",
+  "state": "active",
+  "title": "Rosacea",
+  "volume": "98",
+  "work_id": "cc4fyksfmjewngkhajalv37xqu"
+}

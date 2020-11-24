@@ -1,0 +1,63 @@
+{
+  "abstracts": [],
+  "contribs": [
+    {
+      "creator_id": "zwzrlob4pza27g6ytpctdid2oi",
+      "extra": {
+        "seq": "first"
+      },
+      "index": 0,
+      "raw_affiliation": "NamesforLife, LLC",
+      "raw_name": "Charles Thomas Parker",
+      "role": "author"
+    },
+    {
+      "creator_id": "elfpa3rqtndj5gfteixfnhu4pi",
+      "index": 1,
+      "raw_affiliation": "NamesforLife, LLC",
+      "raw_name": "Dorothea Taylor",
+      "role": "author"
+    },
+    {
+      "creator_id": "l254bdp4cfaqbcw5w5lw4qnfvq",
+      "index": 2,
+      "raw_affiliation": "NamesforLife, LLC",
+      "raw_name": "George M Garrity",
+      "role": "author"
+    },
+    {
+      "creator_id": "zwzrlob4pza27g6ytpctdid2oi",
+      "extra": {
+        "seq": "first"
+      },
+      "raw_affiliation": "NamesforLife, LLC",
+      "raw_name": "Charles Thomas Parker",
+      "role": "editor"
+    },
+    {
+      "creator_id": "l254bdp4cfaqbcw5w5lw4qnfvq",
+      "raw_affiliation": "NamesforLife, LLC",
+      "raw_name": "George M Garrity",
+      "role": "editor"
+    }
+  ],
+  "ext_ids": {
+    "doi": "10.1601/ex.18578"
+  },
+  "extra": {
+    "container_name": "The NamesforLife Abstracts",
+    "crossref": {
+      "type": "dataset"
+    }
+  },
+  "ident": "qeujgsfrmvft7k7r474maekvua",
+  "publisher": "NamesforLife, LLC",
+  "refs": [],
+  "release_date": "2003-01-01",
+  "release_type": "dataset",
+  "release_year": 2003,
+  "revision": "8d3058b9-18ab-4423-bcb8-536b8ed81d70",
+  "state": "active",
+  "title": "Exemplar Abstract for Bacillus cereus Frankland and Frankland 1887 (Approved Lists 1980).",
+  "work_id": "ahetxa4es5gf3dir4goxx56v64"
+}

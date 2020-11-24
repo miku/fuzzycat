@@ -1,0 +1,31 @@
+{
+  "abstracts": [],
+  "contribs": [
+    {
+      "given_name": "Gene",
+      "index": 0,
+      "raw_name": "Gene Silberhorn",
+      "role": "author",
+      "surname": "Silberhorn"
+    }
+  ],
+  "ext_ids": {
+    "doi": "10.21220/m2-wkjc-1g69"
+  },
+  "extra": {
+    "datacite": {
+      "resourceType": "CreativeWork",
+      "resourceTypeGeneral": "Text"
+    }
+  },
+  "ident": "4ojllezvyfehnpnj2pil2h2pdu",
+  "publisher": "Https://scholarworks.wm.edu/reports/487",
+  "refs": [],
+  "release_stage": "published",
+  "release_type": "article-journal",
+  "release_year": 1970,
+  "revision": "fa1f94fc-d4fc-4424-8b17-5f861b7e2031",
+  "state": "active",
+  "title": "Eastern Cottonwood Populus Deltoides Marsh",
+  "work_id": "bmuggoj3u5cmlcifwwpnyw3qyq"
+}

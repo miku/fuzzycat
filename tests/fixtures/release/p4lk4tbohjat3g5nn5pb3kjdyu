@@ -1,0 +1,40 @@
+{
+  "abstracts": [],
+  "container_id": "xsmjaf5xhvaw3hbd3moyegtv6u",
+  "contribs": [
+    {
+      "extra": {
+        "seq": "first"
+      },
+      "index": 0,
+      "raw_name": "Virgil A. Warren",
+      "role": "author"
+    },
+    {
+      "index": 1,
+      "raw_name": "Guido Milanesi",
+      "role": "author"
+    }
+  ],
+  "ext_ids": {
+    "doi": "10.2307/40084615"
+  },
+  "extra": {
+    "crossref": {
+      "type": "journal-article"
+    }
+  },
+  "ident": "p4lk4tbohjat3g5nn5pb3kjdyu",
+  "language": "en",
+  "pages": "196",
+  "publisher": "JSTOR",
+  "refs": [],
+  "release_stage": "published",
+  "release_type": "article-journal",
+  "release_year": 1944,
+  "revision": "bc1c2fb5-1b44-4e27-80c1-6598424872b5",
+  "state": "active",
+  "title": "Kaddish",
+  "volume": "18",
+  "work_id": "avdd25ggorh7fko34xeohidxb4"
+}

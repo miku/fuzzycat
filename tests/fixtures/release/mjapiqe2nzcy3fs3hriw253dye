@@ -1,0 +1,121 @@
+{
+  "abstracts": [
+    {
+      "content": "Additional file 5. Training dataset including descriptors for model training in KNIME.",
+      "lang": "en",
+      "mimetype": "text/plain",
+      "sha1": "2ba436fe8d7ba2d4c14cd6504c86d18e2e23e897"
+    }
+  ],
+  "contribs": [
+    {
+      "creator_id": "vvwji2qxtjcfvjkqfpajty6gcq",
+      "given_name": "Lindsey",
+      "index": 0,
+      "raw_name": "Lindsey Burggraaff",
+      "role": "author",
+      "surname": "Burggraaff"
+    },
+    {
+      "creator_id": "om3ue3lgxbdvxpkjncz4k7j4yq",
+      "given_name": "Herman W. T. Van",
+      "index": 1,
+      "raw_name": "Herman W. T. Van Vlijmen",
+      "role": "author",
+      "surname": "Vlijmen"
+    },
+    {
+      "creator_id": "ubza4wq6y5firpvhmggdhkx4iu",
+      "given_name": "Adriaan P.",
+      "index": 2,
+      "raw_name": "Adriaan P. IJzerman",
+      "role": "author",
+      "surname": "IJzerman"
+    },
+    {
+      "creator_id": "nubaqnhoanhfdcamx4bhzyc3wu",
+      "given_name": "Gerard J. P. Van",
+      "index": 3,
+      "raw_name": "Gerard J. P. Van Westen",
+      "role": "author",
+      "surname": "Westen"
+    }
+  ],
+  "ext_ids": {
+    "doi": "10.6084/m9.figshare.12299333.v1"
+  },
+  "extra": {
+    "datacite": {
+      "license": [
+        {
+          "rights": "CC BY + CC0",
+          "rightsUri": "https://creativecommons.org/licenses/by/4.0"
+        }
+      ],
+      "relations": [
+        {
+          "relatedIdentifier": "10.1186/s13321-020-00438-3",
+          "relatedIdentifierType": "DOI",
+          "relationType": "IsSupplementTo"
+        },
+        {
+          "relatedIdentifier": "10.6084/m9.figshare.12299333",
+          "relatedIdentifierType": "DOI",
+          "relationType": "IsIdenticalTo"
+        }
+      ],
+      "resourceType": "Dataset",
+      "resourceTypeGeneral": "Dataset",
+      "subjects": [
+        {
+          "subject": "Biochemistry"
+        },
+        {
+          "subject": "Genetics"
+        },
+        {
+          "subject": "Pharmacology"
+        },
+        {
+          "subject": "Biotechnology"
+        },
+        {
+          "subject": "Evolutionary Biology"
+        },
+        {
+          "schemeUri": "http://www.abs.gov.au/ausstats/abs@.nsf/0/6BB427AB9696C225CA2574180004463E",
+          "subject": "39999 Chemical Sciences not elsewhere classified",
+          "subjectScheme": "FOR"
+        },
+        {
+          "schemeUri": "http://www.abs.gov.au/ausstats/abs@.nsf/0/6BB427AB9696C225CA2574180004463E",
+          "subject": "69999 Biological Sciences not elsewhere classified",
+          "subjectScheme": "FOR"
+        },
+        {
+          "schemeUri": "http://www.abs.gov.au/ausstats/abs@.nsf/0/6BB427AB9696C225CA2574180004463E",
+          "subject": "80699 Information Systems not elsewhere classified",
+          "subjectScheme": "FOR"
+        },
+        {
+          "schemeUri": "http://www.abs.gov.au/ausstats/abs@.nsf/0/6BB427AB9696C225CA2574180004463E",
+          "subject": "110309 Infectious Diseases",
+          "subjectScheme": "FOR"
+        }
+      ]
+    },
+    "release_month": 5
+  },
+  "ident": "mjapiqe2nzcy3fs3hriw253dye",
+  "license_slug": "CC-BY",
+  "publisher": "figshare",
+  "refs": [],
+  "release_date": "2020-05-14",
+  "release_stage": "published",
+  "release_type": "stub",
+  "release_year": 2020,
+  "revision": "bf7b5006-34e1-48cc-a200-3b0a31051bfb",
+  "state": "active",
+  "title": "Additional file 5 of Quantitative prediction of selectivity between the A1 and A2A adenosine receptors",
+  "work_id": "ax5zrfpr45ew3kllngb2f5m27m"
+}

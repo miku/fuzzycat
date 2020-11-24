@@ -1,0 +1,32 @@
+{
+  "abstracts": [],
+  "contribs": [
+    {
+      "given_name": "Hans-Peter",
+      "index": 0,
+      "raw_name": "Hans-Peter Bärtschi",
+      "role": "author",
+      "surname": "Bärtschi"
+    }
+  ],
+  "ext_ids": {
+    "doi": "10.3932/ethz-a-000522000"
+  },
+  "extra": {
+    "datacite": {
+      "metadataVersion": 7,
+      "resourceTypeGeneral": "Image"
+    }
+  },
+  "ident": "kgeynply6vcxdeiluu6es6w72m",
+  "language": "de",
+  "publisher": "ETH-Bibliothek Zürich, Bildarchiv",
+  "refs": [],
+  "release_stage": "published",
+  "release_type": "graphic",
+  "release_year": 1967,
+  "revision": "e9c834f0-e8d0-4a18-a399-bc34de3de826",
+  "state": "active",
+  "title": "Kemptthal, Suppenfabrik Maggi, Güterwagen 1870er Jahre",
+  "work_id": "amz2olzr2narnessqtlxfhatsi"
+}

@@ -1,0 +1,45 @@
+{
+  "abstracts": [],
+  "container_id": "7risqvkzangutkqygv3lbbyqpi",
+  "contribs": [
+    {
+      "extra": {
+        "seq": "first"
+      },
+      "index": 0,
+      "raw_name": "V A Yudin",
+      "role": "author"
+    },
+    {
+      "index": 1,
+      "raw_name": "I A Usachev",
+      "role": "author"
+    },
+    {
+      "index": 2,
+      "raw_name": "A A Melnikov",
+      "role": "author"
+    }
+  ],
+  "ext_ids": {
+    "doi": "10.17816/pavlovj20132111-118"
+  },
+  "extra": {
+    "crossref": {
+      "type": "journal-article"
+    }
+  },
+  "ident": "3mup7xynsfdpne3rtp274lmwdy",
+  "pages": "111",
+  "publisher": "Ryazan State Medical University",
+  "refs": [],
+  "release_date": "2013-12-15",
+  "release_stage": "published",
+  "release_type": "article-journal",
+  "release_year": 2013,
+  "revision": "e7dccacc-d166-4af3-a9e9-007f907c140e",
+  "state": "active",
+  "title": "SURGICAL TREATMENT OF MORBID OBESITY",
+  "volume": "21",
+  "work_id": "bcjmkbifargkxgt6tuucawd5le"
+}

@@ -1,0 +1,649 @@
+{
+  "abstracts": [],
+  "contribs": [
+    {
+      "extra": {
+        "seq": "first"
+      },
+      "index": 0,
+      "raw_name": "Anna K. Paulsson",
+      "role": "author"
+    },
+    {
+      "index": 1,
+      "raw_name": "Adam Garsa",
+      "role": "author"
+    }
+  ],
+  "ext_ids": {
+    "doi": "10.1007/978-3-319-62642-0_36"
+  },
+  "extra": {
+    "container_name": "Handbook of Evidence-Based Radiation Oncology",
+    "crossref": {
+      "license": [
+        {
+          "URL": "http://www.springer.com/tdm",
+          "content-version": "unspecified",
+          "delay-in-days": 0,
+          "start": "2018-01-01T00:00:00Z"
+        },
+        {
+          "URL": "http://www.springer.com/tdm",
+          "content-version": "unspecified",
+          "delay-in-days": 0,
+          "start": "2018-01-01T00:00:00Z"
+        }
+      ],
+      "type": "book-chapter"
+    }
+  },
+  "ident": "mgxkqlohmbhfpedxwg3s5jhrrq",
+  "pages": "749-760",
+  "publisher": "Springer International Publishing",
+  "refs": [
+    {
+      "container_name": "Lancet Oncol",
+      "extra": {
+        "authors": [
+          "KM Ardeshna"
+        ],
+        "doi": "10.1016/s1470-2045(14)70027-0",
+        "unstructured": "Ardeshna KM, Qian W, Smith P, et al. Rituximab versus a watch-and-wait approach in patients with advanced-stage, asymptomatic, non-bulky follicular lymphoma: an open-label randomized phase 3 trial. Lancet Oncol. 2014;15(4):424–35.",
+        "volume": "15"
+      },
+      "index": 0,
+      "key": "36_CR1",
+      "locator": "424",
+      "year": 2014
+    },
+    {
+      "container_name": "J Clin Oncol",
+      "extra": {
+        "authors": [
+          "SF Barrington"
+        ],
+        "doi": "10.1200/jco.2013.53.5229",
+        "issue": "27",
+        "unstructured": "Barrington SF, Mikhaeel NG, Kostakoglu L, et al. Role of imaging in the staging and response assessment of lymphoma: consensus of the international conference on malignant lymphomas imaging working group. J Clin Oncol. 2014;32(27):3048–58.",
+        "volume": "32"
+      },
+      "index": 1,
+      "key": "36_CR2",
+      "locator": "3048",
+      "year": 2014
+    },
+    {
+      "container_name": "International Journal of Radiation Oncology*Biology*Physics",
+      "extra": {
+        "authors": [
+          "Tithi Biswas"
+        ],
+        "doi": "10.1016/j.ijrobp.2009.04.036",
+        "unstructured": "Biswas T, et al. Involved field radiation after autologous stem cell transplant for diffuse large B-cell lymphoma in the rituximab era. IJROBP. 2010;77(1):79–85.",
+        "volume": "77"
+      },
+      "index": 2,
+      "key": "36_CR1008",
+      "locator": "79",
+      "year": 2010
+    },
+    {
+      "container_name": "J Clin Oncol",
+      "extra": {
+        "authors": [
+          "C Bonnet"
+        ],
+        "doi": "10.1200/jco.2006.07.0722",
+        "unstructured": "Bonnet C, Fillet G, Mounier N, et al. CHOP alone compared with CHOP plus radiotherapy for localized aggressive lymphoma in elderly patients: a study by the Groupe d'Etude des Lymphomes de l'Adulte. J Clin Oncol. 2007;25(7):787–92.",
+        "volume": "25"
+      },
+      "index": 3,
+      "key": "36_CR3",
+      "locator": "787",
+      "year": 2007
+    },
+    {
+      "container_name": "Cancer",
+      "extra": {
+        "authors": [
+          "BA Campbell"
+        ],
+        "doi": "10.1002/cncr.25117",
+        "issue": "16",
+        "unstructured": "Campbell BA, Voss N, Woods R, et al. Long-term outcomes for patients with limited stage follicular lymphoma : involved regional radiotherapy versus involved node radiotherapy. Cancer. 2010;116(16):3797–806.",
+        "volume": "116"
+      },
+      "index": 4,
+      "key": "36_CR4",
+      "locator": "3797",
+      "year": 2010
+    },
+    {
+      "container_name": "J Clin Oncol",
+      "extra": {
+        "authors": [
+          "BD Cheson"
+        ],
+        "doi": "10.1200/jco.2013.54.8800",
+        "issue": "27",
+        "unstructured": "Cheson BD, Fisher RI, Barrington SF, et al. Recommendations for initial evaluation, staging, and response assessment of Hodgkin and non-Hodgkin lymphoma : the Lugano classification. J Clin Oncol. 2014;32(27):3059–68.",
+        "volume": "32"
+      },
+      "index": 5,
+      "key": "36_CR5",
+      "locator": "3059",
+      "year": 2014
+    },
+    {
+      "container_name": "N Engl J Med",
+      "extra": {
+        "authors": [
+          "B Coiffier"
+        ],
+        "doi": "10.1056/nejmoa011795",
+        "unstructured": "Coiffier B, Lepage E, Briere J, et al. CHOP chemotherapy plus rituximab compared with CHOP alone in elderly patients with diffuse large-b-cell lymphoma. N Engl J Med. 2002;346:235–42.",
+        "volume": "346"
+      },
+      "index": 6,
+      "key": "36_CR6",
+      "locator": "235",
+      "year": 2002
+    },
+    {
+      "container_name": "J Clin Oncol",
+      "extra": {
+        "authors": [
+          "B Coiffier"
+        ],
+        "issue": "suppl 18S",
+        "unstructured": "Coiffier B, Feugier P, Mounier N, et al. Long-term results of the GELA study comparing R-CHOP and CHOP chemotherapy in older patients with diffuse large B-cell lymphoma show good survival in poor-risk patients. J Clin Oncol. 2007;25(suppl 18S):443s. Abstract 8009.",
+        "volume": "25"
+      },
+      "index": 7,
+      "key": "36_CR7",
+      "locator": "443s",
+      "year": 2007
+    },
+    {
+      "container_name": "J Clin Oncol",
+      "extra": {
+        "authors": [
+          "M Federico"
+        ],
+        "doi": "10.1200/jco.2008.21.3991",
+        "issue": "27",
+        "unstructured": "Federico M, et al. Follicular lymphoma international prognostic index 2: a new prognostic index for follicular lymphoma developed by the International Follicular Lymhpma Prognostic Factor Project. J Clin Oncol. 2009;27(27):4555–62.",
+        "volume": "27"
+      },
+      "index": 8,
+      "key": "36_CR8",
+      "locator": "4555",
+      "year": 2009
+    },
+    {
+      "container_name": "N Engl J Med",
+      "extra": {
+        "authors": [
+          "RI Fisher"
+        ],
+        "doi": "10.1056/nejm199304083281404",
+        "unstructured": "Fisher RI, Gaynor ER, Dahlberg S, et al. Comparison of a standard regimen (CHOP) with three intensive chemotherapy regimens for advanced non-Hodgkin's lymphoma. N Engl J Med. 1993;328:1002–6.",
+        "volume": "328"
+      },
+      "index": 9,
+      "key": "36_CR9",
+      "locator": "1002",
+      "year": 1993
+    },
+    {
+      "container_name": "J Clin Oncol",
+      "extra": {
+        "authors": [
+          "C Guglielmi"
+        ],
+        "doi": "10.1200/jco.1998.16.10.3264",
+        "unstructured": "Guglielmi C, Gomez F, Philip T, Hagenbeek A, Martelli M, Sebban C, et al. Time to relapse has prognostic value in patients with aggressive lymphoma enrolled onto the Parma trial. J Clin Oncol. 1998;16:3264–9.",
+        "volume": "16"
+      },
+      "index": 10,
+      "key": "36_CR10",
+      "locator": "3264",
+      "year": 1998
+    },
+    {
+      "container_name": "J Clin Oncol",
+      "extra": {
+        "authors": [
+          "R Haas"
+        ],
+        "doi": "10.1200/jco.2003.09.542",
+        "issue": "13",
+        "unstructured": "Haas R, Poortmans P, de Jong D, et al. High response rates and lasting remissions after low-dose involved field radiotherapy in indolent lymphomas. J Clin Oncol. 2003;21(13):2474–80.",
+        "volume": "21"
+      },
+      "index": 11,
+      "key": "36_CR11",
+      "locator": "2474",
+      "year": 2003
+    },
+    {
+      "container_name": "Journal of Clinical Oncology",
+      "extra": {
+        "authors": [
+          "Gerhard Held"
+        ],
+        "doi": "10.1200/jco.2012.48.0467",
+        "issue": "32",
+        "unstructured": "Held G, et al. Impact of rituxumab and radiotherapy on outcome of patients with aggressive B-cell lymphoma and skeletal involvement. JCO. 2013;31(32):4115–22.",
+        "volume": "31"
+      },
+      "index": 12,
+      "key": "36_CR1005",
+      "locator": "4115",
+      "year": 2013
+    },
+    {
+      "container_name": "Journal of Clinical Oncology",
+      "extra": {
+        "authors": [
+          "Gerhard Held"
+        ],
+        "doi": "10.1200/jco.2013.51.4505",
+        "issue": "11",
+        "unstructured": "Held G, et al. Role of radiotherapy to bulky disease in elderly patients with aggressive B-cell lymphoma. JCO. 2014;32(11):1112–8",
+        "volume": "32"
+      },
+      "index": 13,
+      "key": "36_CR1006",
+      "locator": "1112",
+      "year": 2014
+    },
+    {
+      "container_name": "Blood",
+      "extra": {
+        "authors": [
+          "W Hiddemann"
+        ],
+        "doi": "10.1182/blood-2005-01-0016",
+        "unstructured": "Hiddemann W, Kneba M, Dreyling M, et al. Frontline therapy with rituximab assed to the combination of cyclophosphamide, doxorubicin, vincristine and prednisone (CHOP) significantly improves the outcome for patient with advanced-stage follicular lymphoma compared with therapy with CHOP alone: results of a prospective randomized study of the German low-grade lymphoma study group. Blood. 2005;106:3725–32.",
+        "volume": "106"
+      },
+      "index": 14,
+      "key": "36_CR12",
+      "locator": "3725",
+      "year": 2005
+    },
+    {
+      "container_name": "Bone Marrow Transplantation",
+      "extra": {
+        "authors": [
+          "B S Hoppe"
+        ],
+        "doi": "10.1038/bmt.2008.408",
+        "issue": "12",
+        "unstructured": "Hoppe BS, et al. The role of FDG-PET imaging and involved field radiotherapy in relapsed or refractory diffuse large B-call lymphoma. Bone Marrow Transplant. 2009;43(12):941–8.",
+        "volume": "43"
+      },
+      "index": 15,
+      "key": "36_CR1007",
+      "locator": "941",
+      "year": 2009
+    },
+    {
+      "container_name": "J Clin Oncol",
+      "extra": {
+        "authors": [
+          "SJ Horning"
+        ],
+        "doi": "10.1200/jco.2004.06.088",
+        "unstructured": "Horning SJ, Weller E, Kim K, et al. Chemotherapy with or without radiotherapy in limited-stage diffuse aggressive non-Hodgkin's lymphoma: Eastern Cooperative Oncology Group Study 1484. J Clin Oncol. 2004;22:3032–8.",
+        "volume": "22"
+      },
+      "index": 16,
+      "key": "36_CR13",
+      "locator": "3032",
+      "year": 2004
+    },
+    {
+      "container_name": "Lancet Oncol",
+      "extra": {
+        "authors": [
+          "PJ Hoskin"
+        ],
+        "doi": "10.1016/s1470-2045(14)70036-1",
+        "unstructured": "Hoskin PJ, et al. 4 Gy versus 24 Gy radiotherapy for patients with indolent lymphoma (FORT): a randomized phase 3 non-inferiority trial. Lancet Oncol. 2014;15(4):457–63.",
+        "volume": "15"
+      },
+      "index": 17,
+      "key": "36_CR14",
+      "locator": "457",
+      "year": 2014
+    },
+    {
+      "container_name": "Blood",
+      "extra": {
+        "authors": [
+          "E Hoster"
+        ],
+        "doi": "10.1182/blood-2007-06-095331",
+        "unstructured": "Hoster E, Dreyling M, Klapper W, et al. A new prognostic index (MIPI) for patients with advanced-stage mantle cell lymphoma. Blood. 2008;111:558–65.",
+        "volume": "111"
+      },
+      "index": 18,
+      "key": "36_CR15",
+      "locator": "558",
+      "year": 2008
+    },
+    {
+      "container_name": "International Journal of Radiation Oncology*Biology*Physics",
+      "extra": {
+        "authors": [
+          "Tim Illidge"
+        ],
+        "doi": "10.1016/j.ijrobp.2014.01.006",
+        "unstructured": "Illidge T, et al. Modern radiation therapy for nodal non-Hodgkin lymphoma-target definition and dose guidelines from the International Lymphoma Radiation Oncology Group. IJROBP. 2014;89(1):49–58.",
+        "volume": "89"
+      },
+      "index": 19,
+      "key": "36_CR1009",
+      "locator": "49",
+      "year": 2014
+    },
+    {
+      "container_name": "J Clin Oncol",
+      "extra": {
+        "authors": [
+          "NA Johnson"
+        ],
+        "doi": "10.1200/jco.2011.41.0985",
+        "issue": "28",
+        "unstructured": "Johnson NA, Slack GW, Savage KJ, et al. Concurrent expression of MYC and BCL2 in diffuse large B-cell lymphoa treated with rituximab plus cyclophosphamide, doxorubicin, vincristine, and prednisone. J Clin Oncol. 2012;30(28):3452–9.",
+        "volume": "30"
+      },
+      "index": 20,
+      "key": "36_CR16",
+      "locator": "3452",
+      "year": 2012
+    },
+    {
+      "extra": {
+        "unstructured": "Lamy T, Damaj G, Gyan E et al. R-CHOP with or without radiotherapy in non-bulky limited-stage diffuse large B-cell lymphoma (DLBCL): preliminary results of the prospective randomized phase III 02-3 trial from the Lysa/Goelams Group. Abstract 393. 2014 ASH Annual Meeting."
+      },
+      "index": 21,
+      "key": "36_CR17"
+    },
+    {
+      "container_name": "Radiother Oncol",
+      "extra": {
+        "authors": [
+          "L Lowry"
+        ],
+        "doi": "10.1016/j.radonc.2011.05.013",
+        "unstructured": "Lowry L, et al. Reduced dose radiotherapy for local control in non-Hodgkin lymphoma: a randomized phase III trial. Radiother Oncol. 2011;100(1):86–92.",
+        "volume": "100"
+      },
+      "index": 22,
+      "key": "36_CR18",
+      "locator": "86",
+      "year": 2011
+    },
+    {
+      "container_name": "J Clin Oncol",
+      "extra": {
+        "authors": [
+          "MP Mac Manus"
+        ],
+        "doi": "10.1200/jco.1996.14.4.1282",
+        "unstructured": "Mac Manus MP, Hoppe RT. Is radiotherapy curative for stage I and II low-grade follicular lymphoma? Results of a long-term follow-up study of patients treated at Stanford University. J Clin Oncol. 1996;14:1282–90.",
+        "volume": "14"
+      },
+      "index": 23,
+      "key": "36_CR19",
+      "locator": "1282",
+      "year": 1996
+    },
+    {
+      "container_name": "N Engl J Med",
+      "extra": {
+        "authors": [
+          "TP Miller"
+        ],
+        "doi": "10.1056/nejm199807023390104",
+        "unstructured": "Miller TP, Dahlberg S, Cassady JR, et al. Chemotherapy alone compared with chemotherapy plus radiotherapy for localized intermediate- and high-grade non-Hodgkin's lymphoma. N Engl J Med. 1998;339:21–6.",
+        "volume": "339"
+      },
+      "index": 24,
+      "key": "36_CR20",
+      "locator": "21",
+      "year": 1998
+    },
+    {
+      "container_name": "N Engl J Med",
+      "extra": {
+        "authors": [
+          "N Milpied"
+        ],
+        "doi": "10.1056/nejmoa031770",
+        "unstructured": "Milpied N, Deconinck E, Gaillard F, et al. Initial treatment of aggressive lymphoma with high-dose chemotherapy and autologous stem-cell support. N Engl J Med. 2004;350:1287–95.",
+        "volume": "350"
+      },
+      "index": 25,
+      "key": "36_CR21",
+      "locator": "1287",
+      "year": 2004
+    },
+    {
+      "container_name": "J Clin Oncol",
+      "extra": {
+        "authors": [
+          "F Morschhauser"
+        ],
+        "doi": "10.1200/jco.2008.17.2015",
+        "issue": "32",
+        "unstructured": "Morschhauser F, Radford J, Van Hoof A, et al. Phase III trial of consolidation therapy with yttrium-90-ibritumomab tiuxetan compared with no additional therapy after first remission in advanced follicular lymphoma. J Clin Oncol. 2008;26(32):5156–64.",
+        "volume": "26"
+      },
+      "index": 26,
+      "key": "36_CR22",
+      "locator": "5156",
+      "year": 2008
+    },
+    {
+      "container_name": "Lancet Oncol",
+      "extra": {
+        "authors": [
+          "M Pfreundschuh"
+        ],
+        "doi": "10.1016/s1470-2045(06)70664-7",
+        "unstructured": "Pfreundschuh M, Trümper L, Österborg A, et al. CHOP-like chemotherapy plus rituximab versus CHOP-like chemotherapy alone in young patients with good-prognosis diffuse large-B-cell lymphoma: a randomised controlled trial by the MabThera International Trial (MInT) Group. Lancet Oncol. 2006;7:379–91."
+      },
+      "index": 27,
+      "key": "36_CR24",
+      "locator": "379",
+      "year": 2006
+    },
+    {
+      "container_name": "Lancet Oncol",
+      "extra": {
+        "authors": [
+          "M Pfreundschuh"
+        ],
+        "doi": "10.1016/s1470-2045(08)70002-0",
+        "unstructured": "Pfreundschuh M, Schubert J, Ziepert M, et al. Six versus eight cycles of bi-weekly CHOP-14 with or without rituximab in elderly patients with aggressive CD20+ B-cell lymphomas: a randomised controlled trial (RICOVER-60). Lancet Oncol. 2008;9(2):105–16."
+      },
+      "index": 28,
+      "key": "36_CR25",
+      "locator": "105",
+      "year": 2008
+    },
+    {
+      "container_name": "Lancet Oncol",
+      "extra": {
+        "authors": [
+          "M Pfreundschuh"
+        ],
+        "doi": "10.1016/s1470-2045(11)70235-2",
+        "issue": "11",
+        "unstructured": "Pfreundschuh M, Kuhnt E, Trumper L, et al. CHOP-like chemotherapy with or without rituximab in young patients with good-prognosis diffuse large-B-cell lymphoma: 6-year results of an open-label randomized study of the MabThera International Trial (MInT) Group. Lancet Oncol. 2011;12(11):1013–22.",
+        "volume": "12"
+      },
+      "index": 29,
+      "key": "36_CR26",
+      "locator": "1013",
+      "year": 2011
+    },
+    {
+      "container_name": "J Clin Oncol",
+      "extra": {
+        "authors": [
+          "M Pfreundschuh"
+        ],
+        "doi": "10.1200/jco.2004.22.14_suppl.6500",
+        "unstructured": "Pfreundschuh M, Trümper L, Ma D, et al. Randomized intergroup trial of first line treatment for patients <=60 years with diffuse large B-cell non-Hodgkin's lymphoma (DLBCL) with a CHOP-like regimen with or without the anti-CD20 antibody rituximab – early stopping after the first interim analysis. J Clin Oncol. 2004;22:6500.",
+        "volume": "22"
+      },
+      "index": 30,
+      "key": "36_CR23",
+      "locator": "6500",
+      "year": 2004
+    },
+    {
+      "container_name": "N Engl J Med",
+      "extra": {
+        "authors": [
+          "T Philip"
+        ],
+        "doi": "10.1056/nejm199512073332305",
+        "unstructured": "Philip T, Guglielmi C, Hagenbeek A, et al. Autologous bone marrow transplantation as compared with salvage chemotherapy in relapses of chemotherapy-sensitive non-Hodgkin's lymphoma. N Engl J Med. 1995;333:1540–5.",
+        "volume": "333"
+      },
+      "index": 31,
+      "key": "36_CR27",
+      "locator": "1540",
+      "year": 1995
+    },
+    {
+      "container_name": "Journal of Clinical Oncology",
+      "extra": {
+        "authors": [
+          "Jack Phan"
+        ],
+        "doi": "10.1200/jco.2009.27.3441",
+        "issue": "27",
+        "unstructured": "Phan J, et al. Benefit of consolidative radiation therapy in patients with diffuse large B-cell lymphoma treated with R-CHOP chemotherapy. J Clin Oncol. 2010;28(27):4170–6.",
+        "volume": "28"
+      },
+      "index": 32,
+      "key": "36_CR1003",
+      "locator": "4170",
+      "year": 2010
+    },
+    {
+      "container_name": "Leukemia & Lymphoma",
+      "extra": {
+        "authors": [
+          "Oreofe O. Odejide"
+        ],
+        "doi": "10.3109/10428194.2014.930853",
+        "unstructured": "Odejide OO, et al. Limited stage diffuse large B-cell lymphoma: comparative effectiveness of treatment strategies in a large cohort of elderly patients. Leuk Lymphoma. 2015;56(3):716–24.",
+        "volume": "56"
+      },
+      "index": 33,
+      "key": "36_CR1004",
+      "locator": "716",
+      "year": 2014
+    },
+    {
+      "container_name": "N Engl J Med",
+      "extra": {
+        "authors": [
+          "F Reyes"
+        ],
+        "doi": "10.1056/nejmoa042040",
+        "unstructured": "Reyes F, Lepage E, Ganem G, et al. ACVBP versus CHOP plus radiotherapy for localized aggressive lymphoma. N Engl J Med. 2005;352:1197–205.",
+        "volume": "352"
+      },
+      "index": 34,
+      "key": "36_CR28",
+      "locator": "1197",
+      "year": 2005
+    },
+    {
+      "container_name": "Lancet",
+      "extra": {
+        "authors": [
+          "MJ Rummel"
+        ],
+        "doi": "10.1016/s0140-6736(12)61763-2",
+        "issue": "9873",
+        "unstructured": "Rummel MJ, et al. Bendamustine plus rituximab versus CHOP plus rituximab as first-line treatment for patients with indolent and mantle-cell lymphomas : an open-label, multicentre, randomized, phase 3 non-inferiority trial. Lancet. 2013;381(9873):1203–10.",
+        "volume": "381"
+      },
+      "index": 35,
+      "key": "36_CR29",
+      "locator": "1203",
+      "year": 2013
+    },
+    {
+      "extra": {
+        "unstructured": "Spier CM, LeBlanc M, Chase E, et al. Histologic subtypes do not confer unique outcomes in early-stage lymphoma: long-term follow-up of SWOG 8736. Blood. 2004;104. abst 3263."
+      },
+      "index": 36,
+      "key": "36_CR30"
+    },
+    {
+      "container_name": "Journal of Clinical Oncology",
+      "extra": {
+        "authors": [
+          "Deborah M. Stephens"
+        ],
+        "doi": "10.1200/jco.2015.65.4582",
+        "issue": "25",
+        "unstructured": "Stephens DM, et al. Continued risk of relapse independent of treatment modality in limited-stage diffuse large B-cell lymphoma: final and long-term analysis of Southwest Oncology Group Study S8736. JCO. 2016;34(25):2997–3004.",
+        "volume": "34"
+      },
+      "index": 37,
+      "key": "36_CR1002",
+      "locator": "2997",
+      "year": 2016
+    },
+    {
+      "extra": {
+        "unstructured": "The International Prognostic Factors Project. A predictive model for aggressive non-Hodgkin's lymphoma. N Engl J Med. 1993;329(14):987–94."
+      },
+      "index": 38,
+      "key": "36_CR31"
+    },
+    {
+      "container_name": "Cancer",
+      "extra": {
+        "authors": [
+          "John A. Vargo"
+        ],
+        "doi": "10.1002/cncr.29491",
+        "issue": "18",
+        "unstructured": "Vargo JA, et al. What is the optimal management of early-stage low-grade follicular lymphoma in the modern era? Cancer. 2015;121(18):3325–34.",
+        "volume": "121"
+      },
+      "index": 39,
+      "key": "36_CR1001",
+      "locator": "3325",
+      "year": 2015
+    },
+    {
+      "extra": {
+        "unstructured": "Vitolo U et al. First-Line Treatment for primary testicular diffuse large B-cell lymphoa with rituximab-CHOP, CNS prophylaxis and contralateral testis irradiation: Final results of an international phase II trial. JCO 2011;29(20):2766–72."
+      },
+      "index": 40,
+      "key": "36_CR2011"
+    }
+  ],
+  "release_stage": "published",
+  "release_type": "chapter",
+  "release_year": 2018,
+  "revision": "8c501ded-7634-4e33-8b58-a68f40ef32db",
+  "state": "active",
+  "title": "Non-Hodgkin's Lymphoma",
+  "work_id": "bt2hjafnpfaftni5ruxrixvl3u"
+}

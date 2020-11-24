@@ -1,0 +1,87 @@
+{
+  "abstracts": [],
+  "container_id": "bxohvsta6jd2jnpflyhrcjxuhe",
+  "contribs": [
+    {
+      "creator_id": "gl24yaio5zcbjefds7nhww6idy",
+      "extra": {
+        "seq": "first"
+      },
+      "index": 0,
+      "raw_name": "Katharine G. Johnston",
+      "role": "author"
+    },
+    {
+      "creator_id": "u3ebdl47rvdihihnlp7k3iarke",
+      "index": 1,
+      "raw_name": "Thomas P. Robitaille",
+      "role": "author"
+    },
+    {
+      "creator_id": "xb3smmdmlrdw5a4kg56j7obwbm",
+      "index": 2,
+      "raw_name": "Henrik Beuther",
+      "role": "author"
+    },
+    {
+      "index": 3,
+      "raw_name": "Hendrik Linz",
+      "role": "author"
+    },
+    {
+      "index": 4,
+      "raw_name": "Paul Boley",
+      "role": "author"
+    },
+    {
+      "creator_id": "nyxzbtije5hvppxayaaifxskya",
+      "index": 5,
+      "raw_name": "Rolf Kuiper",
+      "role": "author"
+    },
+    {
+      "index": 6,
+      "raw_name": "Eric Keto",
+      "role": "author"
+    },
+    {
+      "index": 7,
+      "raw_name": "Melvin G. Hoare",
+      "role": "author"
+    },
+    {
+      "index": 8,
+      "raw_name": "Roy van Boekel",
+      "role": "author"
+    }
+  ],
+  "ext_ids": {
+    "doi": "10.1088/2041-8205/813/1/l19"
+  },
+  "extra": {
+    "crossref": {
+      "license": [
+        {
+          "URL": "http://iopscience.iop.org/page/copyright",
+          "content-version": "vor",
+          "delay-in-days": 0,
+          "start": "2015-10-29T00:00:00Z"
+        }
+      ],
+      "type": "journal-article"
+    }
+  },
+  "ident": "cedhaxcvkrddpeedqtaxln4zsq",
+  "pages": "L19",
+  "publisher": "IOP Publishing",
+  "refs": [],
+  "release_date": "2015-10-29",
+  "release_stage": "published",
+  "release_type": "article-journal",
+  "release_year": 2015,
+  "revision": "3108b3de-d0b8-4b78-9667-533ba1b70b93",
+  "state": "active",
+  "title": "A KEPLERIAN-LIKE DISK AROUND THE FORMING O-TYPE STAR AFGL 4176",
+  "volume": "813",
+  "work_id": "afmgjv5gijd3xkn65hvuqlfewa"
+}

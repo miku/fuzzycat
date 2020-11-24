@@ -1,0 +1,38 @@
+{
+  "abstracts": [],
+  "container_id": "4w6fes3q3jco3i3gl3wxksgm7u",
+  "contribs": [
+    {
+      "extra": {
+        "seq": "first"
+      },
+      "index": 0,
+      "raw_name": "&NA;",
+      "role": "author"
+    }
+  ],
+  "ext_ids": {
+    "doi": "10.1097/00000446-193808000-00045"
+  },
+  "extra": {
+    "crossref": {
+      "type": "journal-article"
+    },
+    "subtitle": [
+      ""
+    ]
+  },
+  "ident": "ji3qg5sajndt7p54u7wumqsjye",
+  "language": "en",
+  "pages": "966",
+  "publisher": "Ovid Technologies (Wolters Kluwer Health)",
+  "refs": [],
+  "release_stage": "published",
+  "release_type": "article-journal",
+  "release_year": 1938,
+  "revision": "f76d38d4-4340-4e4a-bde6-3bd7ef26ac3c",
+  "state": "active",
+  "title": "SURGICAL NURSING",
+  "volume": "38",
+  "work_id": "buw26jybizhmnj35qx4gosw6e4"
+}

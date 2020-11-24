@@ -1,0 +1,33 @@
+{
+  "abstracts": [],
+  "contribs": [
+    {
+      "extra": {
+        "seq": "first"
+      },
+      "index": 0,
+      "raw_name": "Maeera Y. Shreiber",
+      "role": "author"
+    }
+  ],
+  "ext_ids": {
+    "doi": "10.1093/oxfordhb/9780199228133.013.0023"
+  },
+  "extra": {
+    "container_name": "Oxford Handbooks Online",
+    "crossref": {
+      "type": "book"
+    }
+  },
+  "ident": "65qtai5dmjb2hmkwa73nwafyhu",
+  "publisher": "Oxford University Press",
+  "refs": [],
+  "release_date": "2010-04-15",
+  "release_stage": "published",
+  "release_type": "book",
+  "release_year": 2010,
+  "revision": "4aefc4f1-ea3d-41f2-afbc-4a455a58f6e9",
+  "state": "active",
+  "title": "Kaddish:",
+  "work_id": "bwnlxgvppjan5nlwz3ml2lnalu"
+}

@@ -1,0 +1,42 @@
+{
+  "abstracts": [],
+  "contribs": [
+    {
+      "extra": {
+        "seq": "first"
+      },
+      "given_name": "Alex",
+      "index": 0,
+      "raw_name": "Alex Varghese",
+      "role": "author",
+      "surname": "Varghese"
+    },
+    {
+      "given_name": "Dhannya",
+      "index": 1,
+      "raw_name": "Dhannya Binoy",
+      "role": "author",
+      "surname": "Binoy"
+    }
+  ],
+  "ext_ids": {
+    "doi": "10.5005/jp/books/18020_95"
+  },
+  "extra": {
+    "container_name": "Principles and Practice of Assisted Reproductive Technology",
+    "crossref": {
+      "type": "book-chapter"
+    }
+  },
+  "ident": "gzmkqlwx4vd7vdtnlhkd2md2wy",
+  "pages": "1242-1242",
+  "publisher": "Jaypee Brothers Medical Publishers (P) Ltd.",
+  "refs": [],
+  "release_stage": "published",
+  "release_type": "chapter",
+  "release_year": 2019,
+  "revision": "d6f33613-dfd1-4e96-a038-5af41f434fd1",
+  "state": "active",
+  "title": "Intracytoplasmic Sperm Injection",
+  "work_id": "atr7ppyzgnhcde5icr2t4k5gn4"
+}

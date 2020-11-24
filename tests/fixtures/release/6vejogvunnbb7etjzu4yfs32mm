@@ -1,0 +1,38 @@
+{
+  "abstracts": [],
+  "container_id": "hcmacmudpncmhbketkadhg4kny",
+  "contribs": [
+    {
+      "extra": {
+        "seq": "first"
+      },
+      "index": 0,
+      "raw_name": "&NA;",
+      "role": "author"
+    }
+  ],
+  "ext_ids": {
+    "doi": "10.2165/00128415-199002830-00032"
+  },
+  "extra": {
+    "crossref": {
+      "type": "journal-article"
+    },
+    "subtitle": [
+      ""
+    ]
+  },
+  "ident": "6vejogvunnbb7etjzu4yfs32mm",
+  "issue": "283",
+  "language": "en",
+  "publisher": "Springer Nature",
+  "refs": [],
+  "release_stage": "published",
+  "release_type": "article-journal",
+  "release_year": 1990,
+  "revision": "81d8957f-36f2-4a85-9479-50620477e139",
+  "state": "active",
+  "title": "Phenytoin interaction",
+  "volume": "&NA;",
+  "work_id": "bmu4qy3qincw3oeiisgco7m4nu"
+}

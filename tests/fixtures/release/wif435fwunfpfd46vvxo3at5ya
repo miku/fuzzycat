@@ -1,0 +1,46 @@
+{
+  "abstracts": [],
+  "container_id": "fzhi4lfojbhtnmgcduakmhpk7i",
+  "contribs": [
+    {
+      "extra": {},
+      "given_name": "L",
+      "index": 0,
+      "raw_name": "L NABELEK",
+      "role": "author",
+      "surname": "NABELEK"
+    },
+    {
+      "extra": {},
+      "given_name": "J",
+      "index": 1,
+      "raw_name": "J PEC",
+      "role": "author",
+      "surname": "PEC"
+    }
+  ],
+  "ext_ids": {
+    "pmid": "13580106"
+  },
+  "extra": {
+    "pubmed": {
+      "pub_types": [
+        "Journal Article"
+      ]
+    }
+  },
+  "ident": "wif435fwunfpfd46vvxo3at5ya",
+  "issue": "5",
+  "language": "cs",
+  "original_title": "Fournierova gangréna",
+  "pages": "305-10",
+  "refs": [],
+  "release_stage": "published",
+  "release_type": "article-journal",
+  "release_year": 1958,
+  "revision": "87d20115-9ed0-4b8a-8cba-9358e91fafdd",
+  "state": "active",
+  "title": "Fournier's gangrene",
+  "volume": "37",
+  "work_id": "atusdshnxnewlmu4ucsnym65bm"
+}

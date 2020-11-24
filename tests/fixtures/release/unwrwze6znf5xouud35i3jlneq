@@ -1,0 +1,57 @@
+{
+  "abstracts": [
+    {
+      "content": "Discovering all the genetic causes of a phenotype is an important goal in\nfunctional genomics. In this paper we combine an experimental design for\nmultiple independent detections of the genetic causes of a phenotype, with a\nhigh-throughput sequencing analysis that maximizes sensitivity for\ncomprehensively identifying them. Testing this approach on a set of 24 mutant\nstrains generated for a metabolic phenotype with many known genetic causes, we\nshow that this pathway-based phenotype sequencing analysis greatly improves\nsensitivity of detection compared with previous methods, and reveals a wide\nrange of pathways that can cause this phenotype. We demonstrate our approach on\na metabolic re-engineering phenotype, the PEP/OAA metabolic node in E. coli,\nwhich is crucial to a substantial number of metabolic pathways and under\nrenewed interest for biofuel research. Out of 2157 mutations in these strains,\npathway-phenoseq discriminated just five gene groups (12 genes) as\nstatistically significant causes of the phenotype. Experimentally, these five\ngene groups, and the next two high-scoring pathway-phenoseq groups, either have\na clear connection to the PEP metabolite level or offer an alternative path of\nproducing oxaloacetate (OAA), and thus clearly explain the phenotype. These\nhigh-scoring gene groups also show strong evidence of positive selection\npressure, compared with strictly neutral selection in the rest of the genome.",
+      "lang": "en",
+      "mimetype": "text/plain",
+      "sha1": "fd1f89a43ea07ef7825734043c9d9bd56872300e"
+    }
+  ],
+  "contribs": [
+    {
+      "index": 0,
+      "raw_name": "Marc Harper",
+      "role": "author"
+    },
+    {
+      "index": 1,
+      "raw_name": "Luisa Gronenberg",
+      "role": "author"
+    },
+    {
+      "index": 2,
+      "raw_name": "James Liao",
+      "role": "author"
+    },
+    {
+      "index": 3,
+      "raw_name": "Christopher Lee",
+      "role": "author"
+    }
+  ],
+  "ext_ids": {
+    "arxiv": "1303.0455v1"
+  },
+  "extra": {
+    "arxiv": {
+      "base_id": "1303.0455",
+      "categories": [
+        "q-bio.QM",
+        "q-bio.GN"
+      ]
+    }
+  },
+  "ident": "unwrwze6znf5xouud35i3jlneq",
+  "language": "en",
+  "license_slug": "ARXIV-1.0",
+  "refs": [],
+  "release_date": "2013-03-03",
+  "release_stage": "submitted",
+  "release_type": "article",
+  "release_year": 2013,
+  "revision": "d66823db-c3dd-4981-8d79-6ee5b66b358c",
+  "state": "active",
+  "title": "Comprehensive Detection of Genes Causing a Phenotype using Phenotype\n  Sequencing and Pathway Analysis",
+  "version": "v1",
+  "work_id": "a5fegh5iyrfwpc32y33envrime"
+}

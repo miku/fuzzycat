@@ -1,0 +1,50 @@
+{
+  "abstracts": [],
+  "container_id": "5aofieh7mjasrn4kbygkyoy7f4",
+  "contribs": [
+    {
+      "extra": {
+        "seq": "first"
+      },
+      "given_name": "Donald F",
+      "index": 0,
+      "raw_affiliation": "Division of Physical Science, Consumer Product Safety Commission, Washington, DC 20204",
+      "raw_name": "Donald F McCaulley",
+      "role": "author",
+      "surname": "McCaulley"
+    }
+  ],
+  "ext_ids": {
+    "doi": "10.1093/jaoac/60.2.324"
+  },
+  "extra": {
+    "crossref": {
+      "license": [
+        {
+          "URL": "https://academic.oup.com/journals/pages/open_access/funder_policies/chorus/standard_publication_model",
+          "content-version": "vor",
+          "delay-in-days": 0,
+          "start": "1977-03-01T00:00:00Z"
+        }
+      ],
+      "subject": [
+        "General Chemistry"
+      ],
+      "type": "journal-article"
+    }
+  },
+  "ident": "dcq2jgd5abbjflzun4n3v6gjh4",
+  "language": "en",
+  "pages": "324-325",
+  "publisher": "Oxford University Press (OUP)",
+  "refs": [],
+  "release_date": "1977-03-01",
+  "release_stage": "published",
+  "release_type": "article-journal",
+  "release_year": 1977,
+  "revision": "c5e1b4e2-f0b6-4a76-a506-a0803e6f6a66",
+  "state": "active",
+  "title": "Report on Hazardous Substances",
+  "volume": "60",
+  "work_id": "a4f6q65g5fcqljwrx5eidpvxru"
+}

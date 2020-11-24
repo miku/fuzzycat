@@ -1,0 +1,33 @@
+{
+  "abstracts": [],
+  "container_id": "okrr6mjegfbtbjrfrxtci54s6i",
+  "contribs": [
+    {
+      "extra": {
+        "seq": "first"
+      },
+      "index": 0,
+      "raw_name": "R.K. Iyer",
+      "role": "author"
+    }
+  ],
+  "ext_ids": {
+    "doi": "10.1109/tdsc.2004.9"
+  },
+  "extra": {
+    "crossref": {
+      "type": "journal-article"
+    }
+  },
+  "ident": "b2ggrb2mpvh4namvf6mht5nnaq",
+  "pages": "4-10",
+  "publisher": "Institute of Electrical and Electronics Engineers (IEEE)",
+  "refs": [],
+  "release_stage": "published",
+  "release_type": "article-journal",
+  "release_year": 2004,
+  "revision": "eb3eea49-30ec-4a48-a67f-a53136c790ac",
+  "state": "active",
+  "title": "Introduction of new Associate Editors",
+  "work_id": "aesq6dhqm5gx5p6dc7ib3pdeb4"
+}

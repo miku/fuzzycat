@@ -1,0 +1,68 @@
+{
+  "abstracts": [],
+  "contribs": [
+    {
+      "extra": {
+        "seq": "first"
+      },
+      "index": 0,
+      "raw_name": "Barry Turner",
+      "role": "author"
+    }
+  ],
+  "ext_ids": {
+    "doi": "10.1007/978-1-349-74024-6_225"
+  },
+  "extra": {
+    "container_name": "The Stateman's Yearbook",
+    "crossref": {
+      "license": [
+        {
+          "URL": "http://www.springer.com/tdm",
+          "content-version": "unspecified",
+          "delay-in-days": 0,
+          "start": "2007-01-01T00:00:00Z"
+        },
+        {
+          "URL": "http://www.springer.com/tdm",
+          "content-version": "unspecified",
+          "delay-in-days": 0,
+          "start": "2007-01-01T00:00:00Z"
+        }
+      ],
+      "type": "book-chapter"
+    }
+  },
+  "ident": "ir7i7ldr7ffuvigvv6cvyyc7ju",
+  "pages": "869-871",
+  "publisher": "Palgrave Macmillan UK",
+  "refs": [
+    {
+      "extra": {
+        "unstructured": "Journal de Monaco. Bulletin Officiel. 1858 ff."
+      },
+      "index": 0,
+      "key": "225_CR1"
+    },
+    {
+      "container_name": "Monaco",
+      "extra": {
+        "authors": [
+          "GL Hudson"
+        ],
+        "unstructured": "Hudson, Grace L., Monaco. [Bibliography] ABC-Clio, Oxford and Santa Barbara (CA), 1991",
+        "volume-title": "Monaco"
+      },
+      "index": 1,
+      "key": "225_CR2",
+      "year": 1991
+    }
+  ],
+  "release_stage": "published",
+  "release_type": "chapter",
+  "release_year": 2007,
+  "revision": "1d259e35-74e4-48b3-90de-6e09be0c2374",
+  "state": "active",
+  "title": "Monaco",
+  "work_id": "bsqqw3li7fh3tiu6j6hw276g6i"
+}

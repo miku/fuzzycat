@@ -1,0 +1,34 @@
+{
+  "abstracts": [],
+  "container_id": "3ud725f7wrfb5kjimsram3vtt4",
+  "contribs": [
+    {
+      "extra": {
+        "seq": "first"
+      },
+      "index": 0,
+      "raw_name": "Lincoln E. Moses",
+      "role": "author"
+    }
+  ],
+  "ext_ids": {
+    "doi": "10.2307/2683808"
+  },
+  "extra": {
+    "crossref": {
+      "type": "journal-article"
+    }
+  },
+  "ident": "7zp3azvi4vbxxob2cdyzm6pepa",
+  "pages": "97",
+  "publisher": "JSTOR",
+  "refs": [],
+  "release_stage": "published",
+  "release_type": "article-journal",
+  "release_year": 1979,
+  "revision": "2bc4bad6-9282-4211-baf5-27357390de5e",
+  "state": "active",
+  "title": "Early Steps toward a National Energy Information System",
+  "volume": "33",
+  "work_id": "bf3csor6frfxtpgzgh6ckvtqmq"
+}

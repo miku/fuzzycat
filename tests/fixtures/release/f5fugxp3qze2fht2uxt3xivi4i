@@ -1,0 +1,69 @@
+{
+  "abstracts": [
+    {
+      "content": "Collective inertia is strongly influenced at the level crossing at which\nquantum system changes diabatically its microscopic configuration. Pairing\ncorrelations tend to make the large-amplitude nuclear collective motion more\nadiabatic by reducing the effect of those configuration changes. Competition\nbetween pairing and level crossing is thus expected to have a profound impact\non spontaneous fission lifetimes. To elucidate the role of nucleonic pairing on\nspontaneous fission, we study the dynamic fission trajectories of $^{264}$Fm\nand $^{240}$Pu using the state-of-the-art self-consistent framework. We employ\nthe superfluid nuclear density functional theory with the Skyrme energy density\nfunctional SkM$^*$ and a density-dependent pairing interaction. Along with\nshape variables, proton and neutron pairing correlations are taken as\ncollective coordinates. The collective inertia tensor is calculated within the\nnonperturbative cranking approximation. The fission paths are obtained by using\nthe least action principle in a four-dimensional collective space of shape and\npairing coordinates. Pairing correlations are enhanced along the minimum-action\nfission path. For the symmetric fission of $^{264}$Fm, where the effect of\ntriaxiality on the fission barrier is large, the geometry of fission pathway in\nthe space of shape degrees of freedom is weakly impacted by pairing. This is\nnot the case for $^{240}$Pu where pairing fluctuations restore the axial\nsymmetry of the dynamic fission trajectory. The minimum-action fission path is\nstrongly impacted by nucleonic pairing. In some cases, the dynamical coupling\nbetween shape and pairing degrees of freedom can lead to a dramatic departure\nfrom the static picture. Consequently, in the dynamical description of nuclear\nfission, particle-particle correlations should be considered on the same\nfooting as those associated with shape degrees of freedom.",
+      "lang": "en",
+      "mimetype": "application/x-latex",
+      "sha1": "6d660f3d5f65d66b58fe1bbcc152d390b8b9e729"
+    },
+    {
+      "content": "Collective inertia is strongly influenced at the level crossing at which\nquantum system changes diabatically its microscopic configuration. Pairing\ncorrelations tend to make the large-amplitude nuclear collective motion more\nadiabatic by reducing the effect of those configuration changes. Competition\nbetween pairing and level crossing is thus expected to have a profound impact\non spontaneous fission lifetimes. To elucidate the role of nucleonic pairing on\nspontaneous fission, we study the dynamic fission trajectories of ^264Fm\nand ^240Pu using the state-of-the-art self-consistent framework. We employ\nthe superfluid nuclear density functional theory with the Skyrme energy density\nfunctional SkM^* and a density-dependent pairing interaction. Along with\nshape variables, proton and neutron pairing correlations are taken as\ncollective coordinates. The collective inertia tensor is calculated within the\nnonperturbative cranking approximation. The fission paths are obtained by using\nthe least action principle in a four-dimensional collective space of shape and\npairing coordinates. Pairing correlations are enhanced along the minimum-action\nfission path. For the symmetric fission of ^264Fm, where the effect of\ntriaxiality on the fission barrier is large, the geometry of fission pathway in\nthe space of shape degrees of freedom is weakly impacted by pairing. This is\nnot the case for ^240Pu where pairing fluctuations restore the axial\nsymmetry of the dynamic fission trajectory. The minimum-action fission path is\nstrongly impacted by nucleonic pairing. In some cases, the dynamical coupling\nbetween shape and pairing degrees of freedom can lead to a dramatic departure\nfrom the static picture. Consequently, in the dynamical description of nuclear\nfission, particle-particle correlations should be considered on the same\nfooting as those associated with shape degrees of freedom.",
+      "lang": "en",
+      "mimetype": "text/plain",
+      "sha1": "2a546002b9d18fa329aa9878f6dcc007b1fecd74"
+    }
+  ],
+  "contribs": [
+    {
+      "index": 0,
+      "raw_name": "Jhilam Sadhukhan",
+      "role": "author"
+    },
+    {
+      "index": 1,
+      "raw_name": "J. Dobaczewski",
+      "role": "author"
+    },
+    {
+      "index": 2,
+      "raw_name": "W. Nazarewicz",
+      "role": "author"
+    },
+    {
+      "index": 3,
+      "raw_name": "J. A. Sheikh",
+      "role": "author"
+    },
+    {
+      "index": 4,
+      "raw_name": "A.\n  Baran",
+      "role": "author"
+    }
+  ],
+  "ext_ids": {
+    "arxiv": "1410.1264v1"
+  },
+  "extra": {
+    "arxiv": {
+      "base_id": "1410.1264",
+      "categories": [
+        "nucl-th"
+      ],
+      "comments": "Submitted to PRC",
+      "journal_ref": "Phys. Rev. C 90, 061304(R) (2014)"
+    }
+  },
+  "ident": "f5fugxp3qze2fht2uxt3xivi4i",
+  "language": "en",
+  "license_slug": "ARXIV-1.0",
+  "refs": [],
+  "release_date": "2014-10-06",
+  "release_stage": "submitted",
+  "release_type": "article",
+  "release_year": 2014,
+  "revision": "1b29c07e-23fc-47b9-b276-adf509422b68",
+  "state": "active",
+  "title": "Pairing-induced speedup of nuclear spontaneous fission",
+  "version": "v1",
+  "work_id": "bf62p6f5erdhdgmqtxxh6lzztq"
+}

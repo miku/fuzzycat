@@ -1,0 +1,57 @@
+{
+  "abstracts": [
+    {
+      "content": "We discuss the exact cloning of orthogonal but entangled qubits under local\noperations and classical communication. The amount of entanglement necessary in\nblank copy is obtained for various cases. Surprisingly this amount is more than\n1 ebit for certain set of two nonmaximal but equally entangled states of two\nqubits system. To clone any three two qubits Bell states at least log2 3 ebit\nis necessary.",
+      "lang": "en",
+      "mimetype": "text/plain",
+      "sha1": "06f46713c72daf9aace674cd2f4363b7e4765669"
+    }
+  ],
+  "contribs": [
+    {
+      "index": 0,
+      "raw_name": "Sujit K. Choudhary",
+      "role": "author"
+    },
+    {
+      "index": 1,
+      "raw_name": "Samir Kunkri",
+      "role": "author"
+    },
+    {
+      "index": 2,
+      "raw_name": "Ramij Rahaman",
+      "role": "author"
+    },
+    {
+      "index": 3,
+      "raw_name": "Anirban Roy",
+      "role": "author"
+    }
+  ],
+  "ext_ids": {
+    "arxiv": "0706.2459v2"
+  },
+  "extra": {
+    "arxiv": {
+      "base_id": "0706.2459",
+      "categories": [
+        "quant-ph"
+      ],
+      "comments": "6 pages, 2 figures",
+      "journal_ref": "Rhysical Review A 76, 052305(2007)"
+    }
+  },
+  "ident": "b5helm53ljdxjpxdnn5zjqpjve",
+  "language": "en",
+  "refs": [],
+  "release_date": "2007-07-06",
+  "release_stage": "accepted",
+  "release_type": "article",
+  "release_year": 2007,
+  "revision": "4432fe9a-0115-4c29-bd34-93e5f07e2f01",
+  "state": "active",
+  "title": "Local Cloning of Entangled Qubits",
+  "version": "v2",
+  "work_id": "bw7flsslqrfsxdwuaj2wqwis2e"
+}

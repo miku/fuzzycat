@@ -1,0 +1,48 @@
+{
+  "abstracts": [],
+  "container_id": "vl3iv5wfbneltjzmeof4n5xqca",
+  "contribs": [
+    {
+      "extra": {
+        "seq": "first"
+      },
+      "index": 0,
+      "raw_affiliation": "Data61 and UNSW, Sydney, Australia",
+      "raw_name": "Haris Aziz",
+      "role": "author"
+    }
+  ],
+  "ext_ids": {
+    "doi": "10.1145/2902945.2902948"
+  },
+  "extra": {
+    "crossref": {
+      "license": [
+        {
+          "URL": "http://www.acm.org/publications/policies/copyright_policy#Background",
+          "content-version": "vor",
+          "delay-in-days": 0,
+          "start": "2016-03-10T00:00:00Z"
+        }
+      ],
+      "type": "journal-article"
+    },
+    "subtitle": [
+      "The Nature of Computation by Cristopher Moore and Stephan Mertens"
+    ]
+  },
+  "ident": "qbfao6tzh5gkxaqaqwmidpme3q",
+  "language": "en",
+  "pages": "6-8",
+  "publisher": "Association for Computing Machinery (ACM)",
+  "refs": [],
+  "release_date": "2016-03-10",
+  "release_stage": "published",
+  "release_type": "article-journal",
+  "release_year": 2016,
+  "revision": "c4fb4ecd-c938-47fd-b463-2aac992fb99f",
+  "state": "active",
+  "title": "Review of",
+  "volume": "47",
+  "work_id": "b2f7s4j7zjdkfcwmb36zb4mucm"
+}

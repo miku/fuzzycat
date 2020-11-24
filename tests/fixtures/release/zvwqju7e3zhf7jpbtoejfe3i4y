@@ -1,0 +1,42 @@
+{
+  "abstracts": [],
+  "contribs": [
+    {
+      "given_name": "Egon",
+      "index": 0,
+      "raw_name": "Egon Barnard",
+      "role": "author",
+      "surname": "Barnard"
+    },
+    {
+      "extra": {
+        "organization": "Architekturmuseum Der Technischen Universität Berlin"
+      }
+    }
+  ],
+  "ext_ids": {
+    "doi": "10.25645/ssnp-c7cx"
+  },
+  "extra": {
+    "datacite": {
+      "license": [
+        {
+          "rightsUri": "https://creativecommons.org/publicdomain/mark/1.0/deed.de"
+        }
+      ],
+      "resourceType": "Lichtpause: Lichtpause auf Papier",
+      "resourceTypeGeneral": "Image"
+    }
+  },
+  "ident": "zvwqju7e3zhf7jpbtoejfe3i4y",
+  "publisher": "Architekturmuseum der Technischen Universität Berlin",
+  "refs": [],
+  "release_stage": "published",
+  "release_type": "graphic",
+  "release_year": 2020,
+  "revision": "edcb83b4-26ce-472b-8b38-c80a283da4ff",
+  "state": "active",
+  "subtitle": "Grundriss, Perspektivische Ansichten",
+  "title": "Perspektivübungen",
+  "work_id": "an2cjn2ckbcctaxrhmtffhbk3q"
+}

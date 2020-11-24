@@ -1,0 +1,51 @@
+{
+  "abstracts": [
+    {
+      "content": "The classical indications for the surgical treatment of morbid obesity is weight of at least 50% (males) and 80% (females) over the ideal body weight, in patients between 14 and 55 years of age. These limits are now being extended both to less overweight patients and to patients over 55 years of age. Jejunoileal bypass is the treatment of choice for severely overweight patients in good general condition, allowing them to continue with their eating habits. Gastric bypass is indicated in elderly patients or in patients with previous liver diseases. It should not be performed in younger patients because of the irreversibility of the procedure. A careful postoperative long-term follow-up is necessary to prevent the complications associated with each type of operation.",
+      "lang": "en",
+      "mimetype": "text/plain",
+      "sha1": "0e858fc527362dd020b680496d1fb00ebd48ba24"
+    }
+  ],
+  "container_id": "twxvgokvrzewhjwpi6krywv77y",
+  "contribs": [
+    {
+      "extra": {},
+      "given_name": "W",
+      "index": 0,
+      "raw_name": "W Montorsi",
+      "role": "author",
+      "surname": "Montorsi"
+    },
+    {
+      "extra": {},
+      "given_name": "S B",
+      "index": 1,
+      "raw_name": "S B Doldi",
+      "role": "author",
+      "surname": "Doldi"
+    }
+  ],
+  "ext_ids": {
+    "pmid": "7216655"
+  },
+  "extra": {
+    "pubmed": {
+      "pub_types": [
+        "Journal Article"
+      ]
+    }
+  },
+  "ident": "pbhkek57zrddnllui7pl4vjhai",
+  "issue": "2",
+  "language": "en",
+  "pages": "111-7",
+  "refs": [],
+  "release_stage": "published",
+  "release_type": "article-journal",
+  "revision": "46c72fbb-4b8b-445b-9ef8-50cd450f069f",
+  "state": "active",
+  "title": "Surgical treatment of morbid obesity",
+  "volume": "65",
+  "work_id": "bqcmh4kwcbe7vfpntdemknqpiq"
+}

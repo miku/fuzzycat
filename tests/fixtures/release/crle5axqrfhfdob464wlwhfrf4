@@ -1,0 +1,88 @@
+{
+  "abstracts": [],
+  "container_id": "rar2hgmxmjhxxam2fy2ju7amkm",
+  "contribs": [],
+  "ext_ids": {
+    "doi": "10.1038/484159a",
+    "pmid": "22498608"
+  },
+  "extra": {
+    "crossref": {
+      "alternative-id": [
+        "484159a"
+      ],
+      "type": "journal-article"
+    }
+  },
+  "ident": "crle5axqrfhfdob464wlwhfrf4",
+  "publisher": "Springer Nature",
+  "refs": [
+    {
+      "index": 0,
+      "key": "484159a-b1"
+    },
+    {
+      "container_name": "Econ. Polit. Weekly",
+      "extra": {
+        "authors": [
+          "Desiraju G. R."
+        ],
+        "volume": "43"
+      },
+      "index": 1,
+      "key": "484159a-b2",
+      "locator": "37",
+      "year": 2008
+    },
+    {
+      "container_name": "Science",
+      "extra": {
+        "authors": [
+          "Shi Y."
+        ],
+        "doi": "10.1126/science.1196916",
+        "volume": "329"
+      },
+      "index": 2,
+      "key": "484159a-b3",
+      "locator": "1128",
+      "year": 2010
+    },
+    {
+      "container_name": "Technol. Forecast. Soc.",
+      "extra": {
+        "authors": [
+          "Kostoff R. N."
+        ],
+        "doi": "10.1016/j.techfore.2007.02.004",
+        "volume": "74"
+      },
+      "index": 3,
+      "key": "484159a-b4",
+      "locator": "1519",
+      "year": 2007
+    },
+    {
+      "container_name": "Angew. Chem.",
+      "extra": {
+        "authors": [
+          "Desiraju G. R."
+        ],
+        "doi": "10.1002/ange.201102495",
+        "volume": "123"
+      },
+      "index": 4,
+      "key": "484159a-b5",
+      "locator": "5704",
+      "year": 2011
+    }
+  ],
+  "release_date": "2012-04-12",
+  "release_stage": "published",
+  "release_type": "article-journal",
+  "release_year": 2012,
+  "revision": "14952a15-6434-4584-80ff-dd5a0e6ee792",
+  "state": "active",
+  "title": "AOP",
+  "work_id": "by5wn5vhl5hxpnb7hawziygqdi"
+}

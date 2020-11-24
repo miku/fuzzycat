@@ -1,0 +1,49 @@
+{
+  "abstracts": [
+    {
+      "content": "This paper introduces Taco-VC, a novel architecture for voice conversion\nbased on Tacotron synthesizer, which is a sequence-to-sequence with attention\nmodel. The training of multi-speaker voice conversion systems requires a large\nnumber of resources, both in training and corpus size. Taco-VC is implemented\nusing a single speaker Tacotron synthesizer based on Phonetic PosteriorGrams\n(PPGs) and a single speaker WaveNet vocoder conditioned on mel spectrograms. To\nenhance the converted speech quality, and to overcome over-smoothing, the\noutputs of Tacotron are passed through a novel speechenhancement network, which\nis composed of a combination of the phoneme recognition and Tacotron networks.\nOur system is trained just with a single speaker corpus and adapts to new\nspeakers using only a few minutes of training data. Using mid-size public\ndatasets, our method outperforms the baseline in the VCC 2018 SPOKE\nnon-parallel voice conversion task and achieves competitive results compared to\nmulti-speaker networks trained on large private datasets.",
+      "lang": "en",
+      "mimetype": "text/plain",
+      "sha1": "3d39e2b0529feac401b47d8f5c048e27be0e9b60"
+    }
+  ],
+  "contribs": [
+    {
+      "index": 0,
+      "raw_name": "Roee Levy Leshem",
+      "role": "author"
+    },
+    {
+      "index": 1,
+      "raw_name": "Raja Giryes",
+      "role": "author"
+    }
+  ],
+  "ext_ids": {
+    "arxiv": "1904.03522v4"
+  },
+  "extra": {
+    "arxiv": {
+      "base_id": "1904.03522",
+      "categories": [
+        "cs.SD",
+        "cs.LG",
+        "eess.AS"
+      ],
+      "comments": "Accepted to EUSIPCO 2020"
+    }
+  },
+  "ident": "efumvvpw6jbb7ehp2qfdatgxzy",
+  "language": "en",
+  "license_slug": "ARXIV-1.0",
+  "refs": [],
+  "release_date": "2020-06-19",
+  "release_stage": "submitted",
+  "release_type": "article",
+  "release_year": 2020,
+  "revision": "32b1f508-d004-47dc-bc1a-2a65feb3a1a7",
+  "state": "active",
+  "title": "Taco-VC: A Single Speaker Tacotron based Voice Conversion with Limited   Data",
+  "version": "v4",
+  "work_id": "bqizapjfrfbbhnele4mba3e5ay"
+}

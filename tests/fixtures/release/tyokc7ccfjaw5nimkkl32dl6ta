@@ -1,0 +1,29 @@
+{
+  "abstracts": [],
+  "container_id": "3li537tzvjg2xhthschouksyny",
+  "contribs": [],
+  "ext_ids": {
+    "doi": "10.1016/s0002-9378(00)70207-9"
+  },
+  "extra": {
+    "crossref": {
+      "alternative-id": [
+        "S0002937800702079"
+      ],
+      "type": "journal-article"
+    }
+  },
+  "ident": "tyokc7ccfjaw5nimkkl32dl6ta",
+  "language": "en",
+  "pages": "1274",
+  "publisher": "Elsevier BV",
+  "refs": [],
+  "release_stage": "published",
+  "release_type": "article-journal",
+  "release_year": 2000,
+  "revision": "cc5cffe8-a6d2-4670-8876-4d17920e8753",
+  "state": "active",
+  "title": "Receive tables of contents by e-mail",
+  "volume": "182",
+  "work_id": "bdobniyo5zd2domi36c6fgynpa"
+}

@@ -1,0 +1,50 @@
+{
+  "abstracts": [],
+  "container_id": "5aofieh7mjasrn4kbygkyoy7f4",
+  "contribs": [
+    {
+      "extra": {
+        "seq": "first"
+      },
+      "given_name": "Gale D",
+      "index": 0,
+      "raw_affiliation": "Consumer Product Safety Commission, Division of Health Science Laboratories, Washington, DC 20207",
+      "raw_name": "Gale D Wyer",
+      "role": "author",
+      "surname": "Wyer"
+    }
+  ],
+  "ext_ids": {
+    "doi": "10.1093/jaoac/63.2.224"
+  },
+  "extra": {
+    "crossref": {
+      "license": [
+        {
+          "URL": "https://academic.oup.com/journals/pages/open_access/funder_policies/chorus/standard_publication_model",
+          "content-version": "vor",
+          "delay-in-days": 0,
+          "start": "1980-03-01T00:00:00Z"
+        }
+      ],
+      "subject": [
+        "General Chemistry"
+      ],
+      "type": "journal-article"
+    }
+  },
+  "ident": "ptovjgczrvft5fq2plyldafniq",
+  "language": "en",
+  "pages": "224-224",
+  "publisher": "Oxford University Press (OUP)",
+  "refs": [],
+  "release_date": "1980-03-01",
+  "release_stage": "published",
+  "release_type": "article-journal",
+  "release_year": 1980,
+  "revision": "3bf06d00-2a79-4188-8701-5c35b3fbe119",
+  "state": "active",
+  "title": "Report on Hazardous Substances",
+  "volume": "63",
+  "work_id": "bl5hnoqhjzexpkxbrxn4lz23lq"
+}

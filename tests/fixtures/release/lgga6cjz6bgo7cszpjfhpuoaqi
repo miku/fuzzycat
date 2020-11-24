@@ -1,0 +1,33 @@
+{
+  "abstracts": [],
+  "contribs": [
+    {
+      "extra": {
+        "seq": "first"
+      },
+      "index": 0,
+      "raw_name": "Penny Farmer",
+      "role": "author"
+    }
+  ],
+  "ext_ids": {
+    "doi": "10.1007/978-3-642-82660-3_1"
+  },
+  "extra": {
+    "container_name": "Wind Energy 1975–1985",
+    "crossref": {
+      "type": "book-chapter"
+    }
+  },
+  "ident": "lgga6cjz6bgo7cszpjfhpuoaqi",
+  "pages": "1-41",
+  "publisher": "Springer Berlin Heidelberg",
+  "refs": [],
+  "release_stage": "published",
+  "release_type": "chapter",
+  "release_year": 1986,
+  "revision": "954200b9-f8a2-4113-9b5e-8c59062641de",
+  "state": "active",
+  "title": "Research and Development",
+  "work_id": "bygllpofnnfddo2wliml5txfl4"
+}

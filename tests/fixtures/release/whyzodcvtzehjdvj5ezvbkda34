@@ -1,0 +1,47 @@
+{
+  "abstracts": [],
+  "container_id": "vl3iv5wfbneltjzmeof4n5xqca",
+  "contribs": [
+    {
+      "extra": {
+        "seq": "first"
+      },
+      "index": 0,
+      "raw_name": "William Gasarch",
+      "role": "author"
+    }
+  ],
+  "ext_ids": {
+    "doi": "10.1145/2744447.2744451"
+  },
+  "extra": {
+    "crossref": {
+      "license": [
+        {
+          "URL": "http://www.acm.org/publications/policies/copyright_policy#Background",
+          "content-version": "vor",
+          "delay-in-days": 0,
+          "start": "2015-03-09T00:00:00Z"
+        }
+      ],
+      "type": "journal-article"
+    },
+    "subtitle": [
+      "A Walk Through Combinatorics by Miklós Bóna"
+    ]
+  },
+  "ident": "whyzodcvtzehjdvj5ezvbkda34",
+  "language": "en",
+  "pages": "13-14",
+  "publisher": "Association for Computing Machinery (ACM)",
+  "refs": [],
+  "release_date": "2015-03-09",
+  "release_stage": "published",
+  "release_type": "article-journal",
+  "release_year": 2015,
+  "revision": "85b258c2-7b1b-4ce8-be53-4623f70d68da",
+  "state": "active",
+  "title": "Review of",
+  "volume": "46",
+  "work_id": "a5vp24xclncgjfuzcg5kudnanu"
+}

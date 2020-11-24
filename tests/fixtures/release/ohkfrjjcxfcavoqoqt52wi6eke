@@ -1,0 +1,76 @@
+{
+  "abstracts": [
+    {
+      "content": "The range of data encompasses taxonomy, morphology, physiology, sampling and concomitant environmental conditions as well as molecular biology.",
+      "lang": "en",
+      "mimetype": "text/plain",
+      "sha1": "0d38d18c55e1e09730a41c220ac390381cb8cab7"
+    }
+  ],
+  "contribs": [
+    {
+      "given_name": "L.C.",
+      "index": 0,
+      "raw_name": "L.C. Reimer",
+      "role": "author",
+      "surname": "Reimer"
+    },
+    {
+      "given_name": "J.",
+      "index": 1,
+      "raw_name": "J. Sarda Carbasse",
+      "role": "author",
+      "surname": "Sarda Carbasse"
+    },
+    {
+      "given_name": "A.",
+      "index": 2,
+      "raw_name": "A. Podstawka",
+      "role": "author",
+      "surname": "Podstawka"
+    },
+    {
+      "given_name": "J.",
+      "index": 3,
+      "raw_name": "J. Overmann",
+      "role": "author",
+      "surname": "Overmann"
+    }
+  ],
+  "ext_ids": {
+    "doi": "10.13145/bacdive135876.20191129.4.1"
+  },
+  "extra": {
+    "datacite": {
+      "metadataVersion": 1,
+      "relations": [
+        {
+          "relatedIdentifier": "10.13145/bacdive135876.20190402.4",
+          "relatedIdentifierType": "DOI",
+          "relationType": "IsNewVersionOf"
+        }
+      ],
+      "resourceType": "bacterial metadata",
+      "resourceTypeGeneral": "Dataset",
+      "subjects": [
+        {
+          "subject": "Strain-linked information about bacterial and archaeal biodiversity"
+        }
+      ]
+    },
+    "release_month": 11
+  },
+  "ident": "ohkfrjjcxfcavoqoqt52wi6eke",
+  "language": "en",
+  "publisher": "DSMZ",
+  "refs": [],
+  "release_date": "2019-11-29",
+  "release_stage": "published",
+  "release_type": "dataset",
+  "release_year": 2019,
+  "revision": "c3ac1b5e-8497-4be1-9b97-9c6720106617",
+  "state": "active",
+  "title": "Trueperella pyogenes",
+  "version": "4.1",
+  "work_id": "bm6khgp3zbgf7f5eu465vhwdce"
+}

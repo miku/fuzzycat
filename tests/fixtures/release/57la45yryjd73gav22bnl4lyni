@@ -1,0 +1,180 @@
+{
+  "abstracts": [
+    {
+      "content": "Additional file 5. Complete univariable associations between monitoring and evaluation results and M&E visit type (targeted or random).",
+      "lang": "en",
+      "mimetype": "text/plain",
+      "sha1": "e7500c1727d8618dae0ad7c389557ba4727c1f24"
+    }
+  ],
+  "contribs": [
+    {
+      "given_name": "Jade",
+      "index": 0,
+      "raw_name": "Jade Rae",
+      "role": "author",
+      "surname": "Rae"
+    },
+    {
+      "index": 1,
+      "raw_name": "Suphak Nosten",
+      "role": "author"
+    },
+    {
+      "index": 2,
+      "raw_name": "StĂŠphane Proux",
+      "role": "author"
+    },
+    {
+      "index": 3,
+      "raw_name": "Aung Myint Thu",
+      "role": "author"
+    },
+    {
+      "given_name": "Win",
+      "index": 4,
+      "raw_name": "Win Cho",
+      "role": "author",
+      "surname": "Cho"
+    },
+    {
+      "index": 5,
+      "raw_name": "K'Nyaw Paw",
+      "role": "author"
+    },
+    {
+      "index": 6,
+      "raw_name": "Eh Paw",
+      "role": "author"
+    },
+    {
+      "given_name": "Paw",
+      "index": 7,
+      "raw_name": "Paw Shee",
+      "role": "author",
+      "surname": "Shee"
+    },
+    {
+      "index": 8,
+      "raw_name": "Saw Be",
+      "role": "author"
+    },
+    {
+      "index": 9,
+      "raw_name": "Saw Dah",
+      "role": "author"
+    },
+    {
+      "index": 10,
+      "raw_name": "Saw Moo",
+      "role": "author"
+    },
+    {
+      "index": 11,
+      "raw_name": "Saw Minh",
+      "role": "author"
+    },
+    {
+      "index": 12,
+      "raw_name": "Jacher Wiladphaingern",
+      "role": "author"
+    },
+    {
+      "index": 13,
+      "raw_name": "Saw Tun",
+      "role": "author"
+    },
+    {
+      "given_name": "Ladda",
+      "index": 14,
+      "raw_name": "Ladda Kajeechiwa",
+      "role": "author",
+      "surname": "Kajeechiwa"
+    },
+    {
+      "given_name": "May",
+      "index": 15,
+      "raw_name": "May Thwin",
+      "role": "author",
+      "surname": "Thwin"
+    },
+    {
+      "given_name": "Gilles",
+      "index": 16,
+      "raw_name": "Gilles Delmas",
+      "role": "author",
+      "surname": "Delmas"
+    },
+    {
+      "index": 17,
+      "raw_name": "FrançOis Nosten",
+      "role": "author"
+    },
+    {
+      "given_name": "Jordi",
+      "index": 18,
+      "raw_name": "Jordi Landier",
+      "role": "author",
+      "surname": "Landier"
+    }
+  ],
+  "ext_ids": {
+    "doi": "10.6084/m9.figshare.7762541.v1"
+  },
+  "extra": {
+    "datacite": {
+      "license": [
+        {
+          "rights": "CC BY + CC0",
+          "rightsUri": "https://creativecommons.org/licenses/by/4.0"
+        }
+      ],
+      "metadataVersion": 1,
+      "relations": [
+        {
+          "relatedIdentifier": "10.1186/s12936-019-2677-2",
+          "relatedIdentifierType": "DOI",
+          "relationType": "IsSupplementTo"
+        },
+        {
+          "relatedIdentifier": "10.6084/m9.figshare.7762541",
+          "relatedIdentifierType": "DOI",
+          "relationType": "IsIdenticalTo"
+        }
+      ],
+      "resourceType": "Paper",
+      "resourceTypeGeneral": "Text",
+      "subjects": [
+        {
+          "subject": "Medicine"
+        },
+        {
+          "schemeUri": "http://www.abs.gov.au/ausstats/abs@.nsf/0/6BB427AB9696C225CA2574180004463E",
+          "subject": "59999 Environmental Sciences not elsewhere classified",
+          "subjectScheme": "FOR"
+        },
+        {
+          "subject": "Sociology"
+        },
+        {
+          "schemeUri": "http://www.abs.gov.au/ausstats/abs@.nsf/0/6BB427AB9696C225CA2574180004463E",
+          "subject": "80699 Information Systems not elsewhere classified",
+          "subjectScheme": "FOR"
+        }
+      ]
+    },
+    "release_month": 2
+  },
+  "ident": "57la45yryjd73gav22bnl4lyni",
+  "license_slug": "CC-BY",
+  "publisher": "Figshare",
+  "refs": [],
+  "release_date": "2019-02-23",
+  "release_stage": "published",
+  "release_type": "article-journal",
+  "release_year": 2019,
+  "revision": "ef5c41ff-d4f6-447f-9189-6238111904a2",
+  "state": "active",
+  "title": "MOESM5 of The role of monitoring and evaluation to ensure functional access to community-based early diagnosis and treatment in a malaria elimination programme in Eastern Myanmar",
+  "work_id": "am3mtzdq6nchnifproytayhpwa"
+}

@@ -1,0 +1,84 @@
+{
+  "abstracts": [],
+  "container_id": "vhndj5kvnbgqdix364nigzpe3u",
+  "contribs": [
+    {
+      "extra": {
+        "seq": "first"
+      },
+      "index": 0,
+      "raw_name": "Ray Barrell",
+      "role": "author"
+    },
+    {
+      "index": 1,
+      "raw_name": "Bob Anderton",
+      "role": "author"
+    },
+    {
+      "index": 2,
+      "raw_name": "Jan Willem In't Veld",
+      "role": "author"
+    }
+  ],
+  "ext_ids": {
+    "doi": "10.1177/002795019113800103"
+  },
+  "extra": {
+    "crossref": {
+      "alternative-id": [
+        "10.1177/002795019113800103"
+      ],
+      "type": "journal-article"
+    }
+  },
+  "ident": "yrbvjd4xrjaq3jxt7pkheysclm",
+  "language": "en",
+  "pages": "23-44",
+  "publisher": "SAGE Publications",
+  "refs": [
+    {
+      "container_name": "The real exchange rate, fiscal policy and the role of wealth: an analysis of equilibrium in a monetary union",
+      "extra": {
+        "authors": [
+          "Ray Barrell"
+        ],
+        "volume-title": "The real exchange rate, fiscal policy and the role of wealth: an analysis of equilibrium in a monetary union"
+      },
+      "index": 0,
+      "key": "atypb1",
+      "year": 1991
+    },
+    {
+      "container_name": "National Institute Economic Review",
+      "extra": {
+        "authors": [
+          "Barrell, R."
+        ],
+        "issue": "136"
+      },
+      "index": 1,
+      "key": "atypb2",
+      "year": 1991
+    },
+    {
+      "container_name": "Conjunctura Italiana",
+      "extra": {
+        "authors": [
+          "Breush, F."
+        ]
+      },
+      "index": 2,
+      "key": "atypb3",
+      "year": 1991
+    }
+  ],
+  "release_stage": "published",
+  "release_type": "article-journal",
+  "release_year": 1991,
+  "revision": "82a82d45-09e3-419d-bbc0-28803874b709",
+  "state": "active",
+  "title": "Chapter II. The World Economy",
+  "volume": "138",
+  "work_id": "bun57yytnrennotlvpvjllapiy"
+}

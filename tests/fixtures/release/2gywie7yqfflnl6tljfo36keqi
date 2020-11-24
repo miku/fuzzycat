@@ -1,0 +1,52 @@
+{
+  "abstracts": [
+    {
+      "content": "A famous conjecture of Tuza \\cite{tuza} is that the minimal number of edges\nneeded to cover all triangles in a graph is at most twice the maximal number of\nedge-disjoint triangles. We propose a wider setting for this conjecture.\n  For a hypergraph $H$ let $\\nu^{(m)}(H)$ be the maximal size of a collection\nof edges, no two of which share $m$ or more vertices, and let $\\tau^{(m)}(H)$\nbe the minimal size of a collection $C$ of sets of $m$ vertices, such that\nevery edge in $H$ contains a set from $C$. We conjecture that the maximal ratio\n$\\tau^{(m)}(H)/\\nu^{(m)}(H)$ is attained in hypergraphs for which\n$\\nu^{(m)}(H)=1$. This would imply, in particular, the following generalization\nof Tuza's conjecture: if $H$ is $3$-uniform, then $\\tau^{(2)}(H)/\\nu^{(2)}(H)\n\\le 2$. (Tuza's conjecture is the case in which $H$ is the set of all triples\nof vertices of triangles in the graph). We show that most known results on\nTuza's conjecture go over to this more general setting. We also prove some\ngeneral results on the ratio $\\tau^{(m)}(H)/\\nu^{(m)}(H)$, and study the\nfractional versions and the case of $k$-partite hypergraphs.",
+      "lang": "en",
+      "mimetype": "application/x-latex",
+      "sha1": "81ef2d034221117c44e227efff98c03cd489b3e2"
+    },
+    {
+      "content": "A famous conjecture of Tuza <cit.> is that the minimal number of edges\nneeded to cover all triangles in a graph is at most twice the maximal number of\nedge-disjoint triangles. We propose a wider setting for this conjecture.\n  For a hypergraph H let ν^(m)(H) be the maximal size of a collection\nof edges, no two of which share m or more vertices, and let τ^(m)(H)\nbe the minimal size of a collection C of sets of m vertices, such that\nevery edge in H contains a set from C. We conjecture that the maximal ratio\nτ^(m)(H)/ν^(m)(H) is attained in hypergraphs for which\nν^(m)(H)=1. This would imply, in particular, the following generalization\nof Tuza's conjecture: if H is 3-uniform, then τ^(2)(H)/ν^(2)(H)\n< 2. (Tuza's conjecture is the case in which H is the set of all triples\nof vertices of triangles in the graph). We show that most known results on\nTuza's conjecture go over to this more general setting. We also prove some\ngeneral results on the ratio τ^(m)(H)/ν^(m)(H), and study the\nfractional versions and the case of k-partite hypergraphs.",
+      "lang": "en",
+      "mimetype": "text/plain",
+      "sha1": "bc30867cb8542ef02c0f3bf6b4250a8d1bb58659"
+    }
+  ],
+  "contribs": [
+    {
+      "index": 0,
+      "raw_name": "Ron Aharoni",
+      "role": "author"
+    },
+    {
+      "index": 1,
+      "raw_name": "Shira Zerbib",
+      "role": "author"
+    }
+  ],
+  "ext_ids": {
+    "arxiv": "1611.07497v7"
+  },
+  "extra": {
+    "arxiv": {
+      "base_id": "1611.07497",
+      "categories": [
+        "math.CO"
+      ]
+    }
+  },
+  "ident": "2gywie7yqfflnl6tljfo36keqi",
+  "language": "en",
+  "license_slug": "ARXIV-1.0",
+  "refs": [],
+  "release_date": "2019-12-18",
+  "release_stage": "submitted",
+  "release_type": "article",
+  "release_year": 2019,
+  "revision": "cb4cdfd9-f89a-4d28-b20f-654f29a8d0a3",
+  "state": "active",
+  "title": "A generalization of Tuza's conjecture",
+  "version": "v7",
+  "work_id": "buenvetgurfjdfsaxkjomgzrs4"
+}

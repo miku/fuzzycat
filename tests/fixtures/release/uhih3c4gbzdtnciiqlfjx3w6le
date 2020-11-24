@@ -1,0 +1,28 @@
+{
+  "abstracts": [],
+  "container_id": "6jovszxj2jeptgymwhghz5hjnq",
+  "contribs": [],
+  "ext_ids": {
+    "doi": "10.1063/1.3061925"
+  },
+  "extra": {
+    "crossref": {
+      "alternative-id": [
+        "10.1063/1.3061925"
+      ],
+      "type": "journal-article"
+    }
+  },
+  "ident": "uhih3c4gbzdtnciiqlfjx3w6le",
+  "language": "en",
+  "pages": "24-24",
+  "publisher": "AIP Publishing",
+  "refs": [],
+  "release_stage": "published",
+  "release_type": "article-journal",
+  "release_year": 1955,
+  "revision": "cbb687b0-f8c4-446f-9c3e-5521e7d0db86",
+  "state": "active",
+  "title": "Research and Development",
+  "work_id": "a5x3nkpalff37nfmfv7cu6hajq"
+}

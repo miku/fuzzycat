@@ -1,0 +1,31 @@
+{
+  "abstracts": [],
+  "contribs": [
+    {
+      "extra": {
+        "seq": "first"
+      },
+      "index": 0,
+      "raw_name": "Steven Furnell",
+      "role": "author"
+    }
+  ],
+  "ext_ids": {
+    "doi": "10.1109/wcst.2014.7030081"
+  },
+  "extra": {
+    "container_name": "World Congress on Sustainable Technologies (WCST-2014)",
+    "crossref": {
+      "type": "proceedings-article"
+    }
+  },
+  "ident": "3x5gxfal75geppn22rck3bdanm",
+  "publisher": "IEEE",
+  "refs": [],
+  "release_type": "paper-conference",
+  "release_year": 2014,
+  "revision": "79c639db-d695-485a-a334-0819d12953c0",
+  "state": "active",
+  "title": "Keynote speaker 2: Mobile security: The challenge of liberation",
+  "work_id": "bjxotkgxszb63k6j7dhx2yb4zy"
+}

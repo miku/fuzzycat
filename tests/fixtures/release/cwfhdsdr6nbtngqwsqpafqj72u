@@ -1,0 +1,54 @@
+{
+  "abstracts": [
+    {
+      "content": "By discussing field-induced quantum interference effects due to monopole\nmoments and those due to dipole moments on equal footing, their similarities\nand differences are clarified. First, we demonstrate the general principle for\nflux quantization. For particles carrying a monopole moment, the interference\ncauses monopole current to oscillate periodically with flux defined as inner\nproduct of field and area, whereas for particles carrying a fixed dipole\nmoment, the dipole current oscillates periodically with flux vector defined as\ncross product of field and trajectory. Our analysis unifies the oscillation of\nmonopole or dipole currents in various devices, such as SQUID and spin-FET,\ninto the same physical picture. Second, we show that interference effects can\nalso happen in open trajectory devices that transport dipole currents, such as\nspin Josephson effect, based on the non-gauge field nature of the interference\neffects of dipole moments. In addition, we propose that the interference effect\nof electric dipoles, known as He-McKellar-Wilkens effect, can be realized by\nthe bilayer exciton condensates observed in semiconductor heterostructure and\nbilayer graphene.",
+      "lang": "en",
+      "mimetype": "text/plain",
+      "sha1": "e818d14663e11173adc838b1401e5647372979b8"
+    }
+  ],
+  "contribs": [
+    {
+      "index": 0,
+      "raw_name": "Wei Chen",
+      "role": "author"
+    },
+    {
+      "index": 1,
+      "raw_name": "Peter Horsch",
+      "role": "author"
+    },
+    {
+      "index": 2,
+      "raw_name": "Dirk Manske",
+      "role": "author"
+    }
+  ],
+  "ext_ids": {
+    "arxiv": "1302.0671v1"
+  },
+  "extra": {
+    "arxiv": {
+      "base_id": "1302.0671",
+      "categories": [
+        "cond-mat.mes-hall"
+      ],
+      "comments": "8 pages, 3 figure",
+      "journal_ref": "Phys. Rev. B 87, 214502 (2013)"
+    },
+    "superceded": true
+  },
+  "ident": "cwfhdsdr6nbtngqwsqpafqj72u",
+  "language": "en",
+  "license_slug": "ARXIV-1.0",
+  "refs": [],
+  "release_date": "2013-02-04",
+  "release_stage": "submitted",
+  "release_type": "article",
+  "release_year": 2013,
+  "revision": "facb1443-3f36-4da3-8390-ad4436754e7a",
+  "state": "active",
+  "title": "Flux Quantization Due to Monopole and Dipole Currents",
+  "version": "v1",
+  "work_id": "aur4hl6gbvhazjxhn22m36uhmy"
+}

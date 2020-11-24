@@ -1,0 +1,38 @@
+{
+  "abstracts": [],
+  "container_id": "hcmacmudpncmhbketkadhg4kny",
+  "contribs": [
+    {
+      "extra": {
+        "seq": "first"
+      },
+      "index": 0,
+      "raw_name": "&NA;",
+      "role": "author"
+    }
+  ],
+  "ext_ids": {
+    "doi": "10.2165/00128415-199003080-00023"
+  },
+  "extra": {
+    "crossref": {
+      "type": "journal-article"
+    },
+    "subtitle": [
+      ""
+    ]
+  },
+  "ident": "53w5pycrmvgglludwsv44m3czu",
+  "issue": "308",
+  "language": "en",
+  "publisher": "Springer Nature",
+  "refs": [],
+  "release_stage": "published",
+  "release_type": "article-journal",
+  "release_year": 1990,
+  "revision": "852223b8-9115-40b7-ae8e-d8d300a00c69",
+  "state": "active",
+  "title": "Danazol",
+  "volume": "&NA;",
+  "work_id": "aqpfb2eg7fb77bi5rc3bfv2ysy"
+}
