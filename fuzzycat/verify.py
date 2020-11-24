@@ -132,14 +132,15 @@ class GroupVerifier:
     We would need to compare each possible pair and decide whether they are the
     same.
     """
-    def __init__(self, iterable: collections.abc.Iterable, max_cluster_size: int = 10):
+    def __init__(self, iterable: collections.abc.Iterable, max_cluster_size: int = 10, verbose=True):
         self.iterable: collections.abc.Iterable = iterable
         self.max_cluster_size: int = 10
         self.counter = collections.Counter()
+        self.verbose = verbose
 
     def run(self):
         for i, line in enumerate(self.iterable):
-            if i % 20000 == 0:
+            if i % 20000 == 0 and self.verbose:
                 print(i, file=sys.stderr)
             line = line.strip()
             if not line:
