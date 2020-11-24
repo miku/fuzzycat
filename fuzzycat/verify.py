@@ -319,7 +319,7 @@ def compare(a, b):
     if len(a_slug_title) < 10 and a_slug_title != b_slug_title:
         return (Status.AMBIGUOUS, Miss.SHORT_TITLE)
 
-    if re.search(r'\d', a_slug_title) and a_slug_title != b_slug_title and num_project(
+    if re.search(r'\d+', a_slug_title) and a_slug_title != b_slug_title and num_project(
             a_slug_title) == num_project(b_slug_title):
         return (Status.DIFFERENT, Miss.NUM_DIFF)
 
@@ -410,7 +410,7 @@ def num_project(s):
 
     Unify every occurence of a digit (or group of digits).
     """
-    return re.sub('\d+', '<NUM>', s)
+    return re.sub(r'\d+', '<NUM>', s)
 
 
 def contains_chemical_formula(s):
