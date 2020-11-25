@@ -194,7 +194,7 @@ https://fatcat.wiki/release/2ncazub5tngkjn5ncdk65jyr4u -- these might be repeate
 11 [ ]
 ```
 
-Ok cases are not in [verify.csv](https://github.com/miku/fuzzycat/blob/master/tests/data/verify.csv).
+Ok cases are now in [verify.csv](https://github.com/miku/fuzzycat/blob/master/tests/data/verify.csv).
 
 * [ ] https://fatcat.wiki/release/i2ziaqjrovh3rfrojcaf2xqidy https://fatcat.wiki/release/4rbsv4kplnf4tny22px5z35vty Status.DIFFERENT Miss.CONTRIB_INTERSECTION_EMPTY
 * [o] https://fatcat.wiki/release/65qk35lrxfbqxnpjfpra3ankxe https://fatcat.wiki/release/tovzgangzbfm5bc2qriyh2k6da Status.AMBIGUOUS OK.DUMMY
