@@ -26,7 +26,6 @@ with open("README.md", "r") as fh:
             "fuzzycat=fuzzycat.main:main"
         ]},
         install_requires=[
-            "elasticsearch>=7",
             "ftfy",
             "fuzzy",
             "pydantic",
