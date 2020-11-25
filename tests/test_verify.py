@@ -1,8 +1,9 @@
-import pytest
 import csv
 import json
-import os
 import logging
+import os
+
+import pytest
 
 from fuzzycat.verify import Status, compare
 

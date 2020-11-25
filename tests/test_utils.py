@@ -1,6 +1,7 @@
 import pytest
 
-from fuzzycat.utils import author_similarity_score, cut, slugify_string, jaccard, token_n_grams, tokenize_string, nwise
+from fuzzycat.utils import (author_similarity_score, cut, jaccard, nwise, slugify_string,
+                            token_n_grams, tokenize_string)
 
 
 def test_slugify_string():
@@ -62,4 +63,3 @@ def test_nwise():
     assert list(nwise("1234")) == [("1", "2"), ("3", "4")]
     assert list(nwise("1234", n=1)) == [("1", ), ("2", ), ("3", ), ("4", )]
     assert list(nwise([1, 2, 3, 4, 5], n=3)) == [(1, 2, 3), (4, 5)]
-

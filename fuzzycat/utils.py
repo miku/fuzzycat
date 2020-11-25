@@ -1,8 +1,12 @@
 import io
 import itertools
+import re
 import string
 
 printable_no_punct = string.digits + string.ascii_letters + string.whitespace
+
+# More correct: https://www.johndcook.com/blog/2016/02/04/regular-expression-to-match-a-chemical-element/
+CHEM_FORMULA = re.compile(r"([A-Z]{1,2}[0-9]{1,2})+")
 
 
 def slugify_string(s: str) -> str:
@@ -67,3 +71,22 @@ def nwise(iterable, n=2):
     while piece:
         yield piece
         piece = tuple(itertools.islice(i, n))
+
+
+def num_project(s):
+    """
+    Cf. https://fatcat.wiki/release/6b5yupd7bfcw7gp73hjoavbgfq,
+    https://fatcat.wiki/release/7hgzqz3hrngq7omtwdxz4qx34u
+
+    Unify every occurence of a digit (or group of digits).
+    """
+    return re.sub(r'\d+', '<NUM>', s)
+
+
+def contains_chemical_formula(s):
+    """
+    Returns true, if we find C3H8O or the like in title.
+    """
+    for token in s.split():
+        if CHEM_FORMULA.search(token):
+            return True
