@@ -1,0 +1,40 @@
+{
+  "abstracts": [],
+  "container_id": "ugbiirfvufgcjkx33r3cmemcuu",
+  "contribs": [
+    {
+      "extra": {
+        "seq": "first"
+      },
+      "index": 0,
+      "raw_name": "Joan Starr",
+      "role": "author"
+    },
+    {
+      "index": 1,
+      "raw_name": "Angela Gastl",
+      "role": "author"
+    }
+  ],
+  "ext_ids": {
+    "doi": "10.1045/january2011-starr"
+  },
+  "extra": {
+    "crossref": {
+      "type": "journal-article"
+    }
+  },
+  "ident": "poeywm5o4raljhatd6zvehcicy",
+  "issue": "1/2",
+  "language": "en",
+  "publisher": "CNRI Acct",
+  "refs": [],
+  "release_stage": "published",
+  "release_type": "article-journal",
+  "release_year": 2011,
+  "revision": "1a04b91f-7e5b-4ba3-a2ef-0a86a0d54659",
+  "state": "active",
+  "title": "isCitedBy: A Metadata Scheme for DataCite",
+  "volume": "17",
+  "work_id": "cphnoizdjjesjftfgghuqnkjoy"
+}

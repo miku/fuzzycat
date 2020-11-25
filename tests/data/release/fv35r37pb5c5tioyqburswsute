@@ -1,0 +1,134 @@
+{
+  "abstracts": [],
+  "contribs": [
+    {
+      "given_name": "Joan",
+      "index": 0,
+      "raw_name": "Joan Starr",
+      "role": "author",
+      "surname": "Starr"
+    },
+    {
+      "given_name": "Angela",
+      "index": 1,
+      "raw_name": "Angela Gastl",
+      "role": "author",
+      "surname": "Gastl"
+    }
+  ],
+  "ext_ids": {
+    "doi": "10.3929/ethz-a-006687003"
+  },
+  "extra": {
+    "datacite": {
+      "license": [
+        {
+          "rights": "http://rightsstatements.org/page/InC-NC/1.0/"
+        },
+        {
+          "rights": "info:eu-repo/semantics/openAccess"
+        }
+      ],
+      "metadataVersion": 44,
+      "resourceType": "Journal Article",
+      "resourceTypeGeneral": "Text",
+      "subjects": [
+        {
+          "subject": "WISSENSCHAFTLICHE FORSCHUNG"
+        },
+        {
+          "subject": "ELECTRONIC JOURNALS + ONLINE SERIALS (DOCUMENT TYPES)"
+        },
+        {
+          "subject": "INTERNET + WORLD WIDE WEB (COMPUTER SYSTEMS)"
+        },
+        {
+          "subject": "SCIENTIFIC INFORMATION (LIBRARIANSHIP)"
+        },
+        {
+          "subject": "SCIENTIFIC RESEARCH"
+        },
+        {
+          "subject": "DIGITAL DOCUMENTS + ELECTRONIC DOCUMENTS (LIBRARIANSHIP)"
+        },
+        {
+          "subject": "Data citation"
+        },
+        {
+          "subject": "FACHZEITSCHRIFTEN + WISSENSCHAFTLICHE ZEITSCHRIFTEN (ZEITUNGSWESEN)"
+        },
+        {
+          "subject": "Data relationships"
+        },
+        {
+          "subject": "ZITIERREGELN (WISSENSCHAFT)"
+        },
+        {
+          "subject": "ELEKTRONISCHE ZEITSCHRIFTEN + ELEKTRONISCHE SCHRIFTENREIHEN (DOKUMENTENTYP)"
+        },
+        {
+          "subject": "ELEKTRONISCHE BIBLIOTHEKEN (BIBLIOTHEKSWESEN)"
+        },
+        {
+          "subject": "METADATA (LIBRARIANSHIP)"
+        },
+        {
+          "subject": "SPECIALIST JOURNALS + SCIENTIFIC JOURNALS (PRESS)"
+        },
+        {
+          "subject": "ISBD, INTERNATIONAL STANDARD BIBLIOGRAPHIC DESCRIPTION (BIBLIOTHEKSWESEN)"
+        },
+        {
+          "subject": "Data description"
+        },
+        {
+          "subject": "METADATEN (BIBLIOTHEKSWESEN)"
+        },
+        {
+          "subject": "ELECTRONIC LIBRARIES (LIBRARIANSHIP)"
+        },
+        {
+          "subject": "WISSENSCHAFTLICHE INFORMATION (BIBLIOTHEKSWESEN)"
+        },
+        {
+          "subject": "Metadata"
+        },
+        {
+          "subject": "ISBD, INTERNATIONAL STANDARD BIBLIOGRAPHIC DESCRIPTION (LIBRARIANSHIP)"
+        },
+        {
+          "subject": "DIGITALE DOKUMENTE + ELEKTRONISCHE DOKUMENTE (BIBLIOTHEKSWESEN)"
+        },
+        {
+          "subject": "RULES FOR CITATIONS (SCIENCE)"
+        },
+        {
+          "subject": "INTERNET + WORLD WIDE WEB (COMPUTERSYSTEME)"
+        },
+        {
+          "subject": "info:eu-repo/classification/ddc/020"
+        },
+        {
+          "subject": "info:eu-repo/classification/ddc/004"
+        },
+        {
+          "subject": "Library &amp; information sciences"
+        },
+        {
+          "subject": "Data processing, computer science"
+        }
+      ]
+    }
+  },
+  "ident": "fv35r37pb5c5tioyqburswsute",
+  "language": "en",
+  "publisher": "ETH Zurich",
+  "refs": [],
+  "release_stage": "published",
+  "release_type": "article-journal",
+  "release_year": 2011,
+  "revision": "4e511252-8c65-4cd7-9bb7-aa219fb62264",
+  "state": "active",
+  "title": "isCitedBy: A Metadata Scheme for DataCite",
+  "work_id": "6uzoapm3f5flpmhk3x7aiqcae4"
+}

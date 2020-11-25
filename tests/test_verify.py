@@ -47,5 +47,5 @@ def test_compare():
             assert status == status, "status: want {}, got {} for {} {}".format(
                 expected_status, status, a, b)
             if expected_reason:
-                assert reason == reason, "reason: want {}, got {}".format(expected_reason, reason)
+                assert expected_reason.lower() == reason.lower(), "reason [{} {}]: want {}, got {}".format(a, b, expected_reason, reason)
         logger.info("ran verification over {} cases (https://git.io/JkDgS)".format(i))
