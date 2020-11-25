@@ -70,11 +70,13 @@ import subprocess
 import sys
 import tempfile
 import unicodedata
-from dataclasses import dataclass, field
+from dataclasses import dataclass
 from typing import IO, Any, Callable, Dict, Generator, List, Optional, Tuple
 
 import fuzzy
 import regex
+
+from fuzzycat.utils import cut, slugify_string
 
 __all__ = [
     "release_key_title",
@@ -97,15 +99,6 @@ class KeyDoc:
 get_ident_title = operator.itemgetter("ident", "title")
 ws_replacer = str.maketrans({"\t": " ", "\n": " "})
 non_word_re = re.compile(r'[\W_]+', re.UNICODE)
-printable_no_punct = string.digits + string.ascii_letters + string.whitespace
-
-
-def slugify_string(s: str) -> str:
-    """
-    Keeps ascii chars and single whitespace only.
-    """
-    return ''.join((c for c in s.lower() if c in printable_no_punct))
-
 
 # Notes: untie from release_entity, as we are only using a few fields. Maybe
 # it's a jsob blob, with a pydantic spec and schema.
@@ -303,25 +296,9 @@ def release_key_title_ngram(doc: KeyDoc, n=3) -> Tuple[str, str]:
     return (ident, key)
 
 
-def cut(f: int = 0, sep: str = '\t', ignore_missing_column: bool = True):
-    """
-    Return a callable, that extracts a given column from a file with a specific
-    separator. TODO: move this into more generic place.
-    """
-    def func(value):
-        parts = value.strip().split(sep)
-        if f >= len(parts):
-            if ignore_missing_column:
-                return ""
-            raise ValueError('cannot split value {} into {} parts'.format(value, f))
-        return parts[f]
-
-    return func
-
-
 class Cluster:
     """
-    Setup and run clustering over a potentially large number of records.
+    Setup and run clustering over a potentially large (100m) number of records.
     """
     def __init__(self,
                  iterable: collections.abc.Iterable,
@@ -331,7 +308,8 @@ class Cluster:
                  prefix: str = "fuzzycat-",
                  tmpdir: str = tempfile.gettempdir(),
                  strict: bool = False,
-                 max_cluster_size: int = 100):
+                 max_cluster_size: int = 100,
+                 verbose=True):
         self.iterable: collections.abc.Iterable = iterable
         self.key: Callable[[Any], Tuple[str, str]] = key
         self.output: IO[str] = output
@@ -340,6 +318,7 @@ class Cluster:
         self.strict = strict
         self.key_denylist = key_denylist
         self.max_cluster_size = max_cluster_size
+        self.verbose = verbose
         self.counter: Dict[str, int] = collections.Counter({
             "key_fail": 0,
             "key_ok": 0,
@@ -355,13 +334,13 @@ class Cluster:
         """
         with tempfile.NamedTemporaryFile(delete=False, mode="w", prefix=self.prefix) as tf:
             for i, line in enumerate(self.iterable):
-                if i % 100000 == 0:
+                if i % 100000 == 0 and self.verbose:
                     print("@{}".format(i), file=sys.stderr)
                 try:
                     doc = json.loads(line)
                     id, key = self.key(doc)
                 except (KeyError, ValueError):
-                    if strict:
+                    if self.strict:
                         raise
                     self.counter["key_fail"] += 1
                     continue

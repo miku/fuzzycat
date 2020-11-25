@@ -1,3 +1,5 @@
+import json
+import io
 import collections
 import os
 import tempfile
@@ -5,7 +7,7 @@ import tempfile
 import pytest
 
 from fuzzycat.cluster import (release_key_title, release_key_title_normalized,
-                              release_key_title_nysiis)
+                              release_key_title_nysiis, Cluster)
 
 Case = collections.namedtuple("Case", 'input output')
 
@@ -103,3 +105,85 @@ def test_release_key_title_nysiis():
     for case in cases:
         assert case.output == release_key_title_nysiis(case.input), 'failed case {}'.format(
             case.input)
+
+
+def test_cluster():
+    sio = io.StringIO()
+    cluster = Cluster([
+        json.dumps(line) for line in [
+            {
+                "title": "hello world",
+                "ident": 1
+            },
+            {
+                "title": "hello world!",
+                "ident": 2
+            },
+        ]
+    ],
+                      release_key_title_normalized,
+                      output=sio)
+    stats = cluster.run()
+    assert stats == {
+        "key_fail": 0,
+        "key_ok": 2,
+        "key_empty": 0,
+        "key_denylist": 0,
+        "num_clusters": 1
+    }
+    assert json.loads(sio.getvalue()) == {
+        "k": "helloworld",
+        "v": [{
+            "title": "hello world!",
+            "ident": 2
+        }, {
+            "title": "hello world",
+            "ident": 1
+        }]
+    }
+
+    sio = io.StringIO()
+    cluster = Cluster([
+        json.dumps(line) for line in [
+            {
+                "title": "hello world",
+                "ident": 1
+            },
+            {
+                "title": "hello world!",
+                "ident": 2
+            },
+            {
+                "title": "other",
+                "ident": 3
+            },
+        ]
+    ],
+                      release_key_title_normalized,
+                      output=sio)
+    stats = cluster.run()
+    assert stats == {
+        "key_fail": 0,
+        "key_ok": 3,
+        "key_empty": 0,
+        "key_denylist": 0,
+        "num_clusters": 2
+    }
+    assert [json.loads(line) for line in sio.getvalue().split("\n") if line] == [{
+        "k":
+        "helloworld",
+        "v": [{
+            "title": "hello world!",
+            "ident": 2
+        }, {
+            "title": "hello world",
+            "ident": 1
+        }]
+    }, {
+        'k':
+        'other',
+        'v': [{
+            'ident': 3,
+            'title': 'other'
+        }]
+    }]
