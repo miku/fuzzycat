@@ -372,6 +372,44 @@ class Cluster:
         self.strict = strict
         self.key_denylist = key_denylist
 
+    def run_map(self):
+        """
+        Just maps documents to keys
+
+        Outline: json -> tsv
+        """
+        with tempfile.NamedTemporaryFile(delete=False, mode="w", prefix=self.prefix) as tf:
+            for line in self.iterable:
+                try:
+                    doc = json.loads(line)
+                    id, key = self.key(doc)
+                except (KeyError, ValueError):
+                    if strict:
+                        raise
+                    self.counter["key_fail"] += 1
+                    continue
+                if not key:
+                    self.counter["key_empty"] += 1
+                    continue
+                if self.key_denylist and key in self.key_denylist:
+                    self.counter["key_denylist"] += 1
+                    continue
+                self.counter["key_ok"] += 1
+                # XXX: if the line itself contains tabs, we need to remove
+                # them here; maybe offer TSV and JSON output and extra flag
+                print("{}\t{}\t{}".format(id, key, line.replace("\t", " ")), file=tf)
+
+        sf = self.sort(tf.name, opts='-k 2')
+        with open(sf) as f:
+            for doc in self.group_by(f, key=cut(f=1)):
+                self.counter["num_clusters"] += 1
+                json.dump(doc, self.output)
+                self.output.write("\n")
+
+        os.remove(sf)
+        os.remove(tf.name)
+        return self.counter
+
     def run(self):
         """
         First map documents to keys, then group by keys.
