@@ -53,3 +53,7 @@ for line in fileinput.input():
 for a, b in itertools.combinations(sorted(vs), r=2):
     print("{}\t{}".format(a, b))
 ```
+
+## TODO
+
+* [ ] generate md with clickable links, grouped by match status
