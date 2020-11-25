@@ -43,11 +43,11 @@ def jaccard(a, b):
     return len(a & b) / len(a | b)
 
 
-def token_n_grams(s):
+def token_n_grams(s, n=2):
     """
     Return n-grams, calculated per token.
     """
-    return ["".join(v) for v in itertools.chain(*[nwise(v, n=2) for v in tokenize_string(s)])]
+    return ["".join(v) for v in itertools.chain(*[nwise(v, n=n) for v in tokenize_string(s)])]
 
 
 def tokenize_string(s):

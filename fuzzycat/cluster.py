@@ -299,6 +299,9 @@ def release_key_title_ngram(doc: KeyDoc, n=3) -> Tuple[str, str]:
 class Cluster:
     """
     Setup and run clustering over a potentially large (100m) number of records.
+
+    Two main options are iterable (TODO: work on parsed docs), and the key
+    function to apply to value to group by.
     """
     def __init__(self,
                  iterable: collections.abc.Iterable,

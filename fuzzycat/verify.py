@@ -64,8 +64,8 @@ import json
 import operator
 import re
 import sys
-from enum import Enum
 
+from fuzzycat.common import OK, Miss, Status
 from fuzzycat.utils import author_similarity_score, slugify_string
 
 # The result of clustering are documents that have a key k and a list of values
@@ -74,53 +74,6 @@ get_key_values = operator.itemgetter("k", "v")
 
 # More correct: https://www.johndcook.com/blog/2016/02/04/regular-expression-to-match-a-chemical-element/
 CHEM_FORMULA = re.compile(r"([A-Z]{1,2}[0-9]{1,2})+")
-
-
-class Status(str, Enum):
-    """
-    Match status.
-    """
-    EXACT = 'exact'
-    DIFFERENT = 'different'
-    STRONG = 'strong'
-    WEAK = 'weak'
-    AMBIGUOUS = 'ambigiuous'
-
-
-class OK(str, Enum):
-    """
-    Reason for assuming we have a match.
-    """
-    ARXIV_VERSION = 'ok.arxiv_version'
-    FIGSHARE_VERSION = 'ok.figshare_version'
-    DUMMY = 'ok.dummy'
-    TITLE_AUTHOR_MATCH = 'ok.title_author_match'
-    PREPRINT_PUBLISHED = 'ok.preprint_published'
-    SLUG_TITLE_AUTHOR_MATCH = 'ok.slug_title_author_match'
-    TOKENIZED_AUTHORS = 'ok.tokenized_authors'
-    DATACITE_RELATED_ID = 'ok.datacite_related_id'
-
-
-class Miss(str, Enum):
-    """
-    Reasons indicating mismatch.
-    """
-    ARXIV_VERSION = 'miss.arxiv_version'
-    BLACKLISTED = 'miss.blacklisted'
-    BLACKLISTED_FRAGMENT = 'miss.blacklisted_fragment'
-    CONTRIB_INTERSECTION_EMPTY = 'miss.contrib_intersection_empty'
-    SHORT_TITLE = 'miss.short_title'
-    YEAR = 'miss.year'
-    CUSTOM_VHS = 'miss.vhs'  # https://fatcat.wiki/release/44gk5ben5vghljq6twm7lwmxla
-    NUM_DIFF = 'miss.num_diff'
-    DATASET_DOI = 'miss.dataset_doi'
-    RELEASE_TYPE = 'miss.release_type'
-    CHEM_FORMULA = 'miss.chem_formula'
-    SUBTITLE = 'miss.subtitle'
-    BOOK_CHAPTER = 'miss.book_chapter'
-    TITLE_FILENAME = 'miss.title_filename'
-    COMPONENT = 'miss.component'
-    APPENDIX = 'miss.appendix'
 
 
 class GroupVerifier:
