@@ -328,6 +328,14 @@ TITLE_FRAGMENT_BLACKLIST = set([
     "untersuchung einzelner abdominaler regionen und organe",
 ])
 
+CONTAINER_NAME_BLACKLIST = set([
+    "crossref listing of deleted dois",
+])
+
+PUBLISHER_BLACKLIST = set([
+    "test accounts",
+])
+
 # There titles appear too often, so ignore them for now.
 TITLE_BLACKLIST = set([
     "",
@@ -3526,10 +3534,3 @@ TITLE_BLACKLIST = set([
     "週刊ダイヤモンド = diamond weekly 別冊",
 ])
 
-CONTAINER_NAME_BLACKLIST = set([
-    "crossref listing of deleted dois",
-])
-
-PUBLISHER_BLACKLIST = set([
-    "test accounts",
-])

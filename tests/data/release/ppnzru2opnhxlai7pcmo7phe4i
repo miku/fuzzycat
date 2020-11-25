@@ -1,0 +1,30 @@
+{
+  "abstracts": [],
+  "container_id": "qea6koy5crhvfgkjwgnwojjkrm",
+  "contribs": [],
+  "ext_ids": {
+    "doi": "10.1017/s0004972700005785"
+  },
+  "extra": {
+    "crossref": {
+      "alternative-id": [
+        "S0004972700005785"
+      ],
+      "type": "journal-article"
+    }
+  },
+  "ident": "ppnzru2opnhxlai7pcmo7phe4i",
+  "issue": "03",
+  "language": "en",
+  "pages": "f1",
+  "publisher": "Cambridge University Press (CUP)",
+  "refs": [],
+  "release_stage": "published",
+  "release_type": "article-journal",
+  "release_year": 1982,
+  "revision": "e6f9dedb-b6c0-4bf4-b3f4-d3427aa30c62",
+  "state": "active",
+  "title": "BAZ volume 26 issue 3 Cover and Front matter",
+  "volume": "26",
+  "work_id": "4wwtp45b3nchpo2bs7pifwsb44"
+}

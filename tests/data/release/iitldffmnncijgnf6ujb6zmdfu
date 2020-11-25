@@ -1,0 +1,30 @@
+{
+  "abstracts": [],
+  "container_id": "qea6koy5crhvfgkjwgnwojjkrm",
+  "contribs": [],
+  "ext_ids": {
+    "doi": "10.1017/s000497270001981x"
+  },
+  "extra": {
+    "crossref": {
+      "alternative-id": [
+        "S000497270001981X"
+      ],
+      "type": "journal-article"
+    }
+  },
+  "ident": "iitldffmnncijgnf6ujb6zmdfu",
+  "issue": "03",
+  "language": "en",
+  "pages": "f1",
+  "publisher": "Cambridge University Press (CUP)",
+  "refs": [],
+  "release_stage": "published",
+  "release_type": "article-journal",
+  "release_year": 2001,
+  "revision": "39087ec0-0c3f-4353-9656-961c5f11be42",
+  "state": "active",
+  "title": "BAZ volume 64 issue 3 Cover and Front matter",
+  "volume": "64",
+  "work_id": "7bjigtuhhvh3nk3rvckd6w7emy"
+}
