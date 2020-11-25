@@ -1,0 +1,49 @@
+{
+  "abstracts": [
+    {
+      "content": "Stochastic automata over monoids as input sets are studied. The\nwell-definedness of these automata requires an extension postulate that\nreplaces the inherent universal property of free monoids. As a generalization\nof Turakainen's result, it will be shown that the generalized automata over\nmonoids have the same acceptance power as their stochastic counterparts. The\nkey to homomorphisms is a commuting property between the monoid homomorphism of\ninput states and the monoid homomorphism of transition matrices. Closure\nproperties of the languages accepted by stochastic automata over monoids are\ninvestigated. matrices. Closure properties of the languages accepted by\nstochastic automata over monoids are investigated.",
+      "lang": "en",
+      "mimetype": "text/plain",
+      "sha1": "34aa00cd88504e82e9ecedb92e5e12e8e7beeea0"
+    }
+  ],
+  "contribs": [
+    {
+      "index": 0,
+      "raw_name": "Karl-Heinz Zimmermann",
+      "role": "author"
+    },
+    {
+      "index": 1,
+      "raw_name": "Merve Nur Cakir",
+      "role": "author"
+    }
+  ],
+  "ext_ids": {
+    "arxiv": "2002.01214v1"
+  },
+  "extra": {
+    "arxiv": {
+      "acm_class": "F.1.1",
+      "base_id": "2002.01214",
+      "categories": [
+        "cs.FL",
+        "cs.CL"
+      ],
+      "comments": "29 pages, 2 figures"
+    }
+  },
+  "ident": "s6znyezm4fdqfiihwcdtfapfqu",
+  "language": "en",
+  "license_slug": "ARXIV-1.0",
+  "refs": [],
+  "release_date": "2020-02-04",
+  "release_stage": "submitted",
+  "release_type": "article",
+  "release_year": 2020,
+  "revision": "ed91538b-373f-49ac-95e3-027ee7d0857a",
+  "state": "active",
+  "title": "On Stochastic Automata over Monoids",
+  "version": "v1",
+  "work_id": "nuesnopp6rcqvhgxllzmzrz7vm"
+}

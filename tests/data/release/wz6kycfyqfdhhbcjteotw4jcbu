@@ -1,0 +1,82 @@
+{
+  "abstracts": [
+    {
+      "content": "Stochastic automata over monoids as input sets are studied. The well-definedness of these automata requires an extension postulate that replaces the inherent universal property of free monoids. As a generalization of Turakainen's result, it will be shown that the generalized automata over monoids have the same acceptance power as their stochastic counterparts. The key to homomorphisms is a commuting property between the monoid homomorphism of input states and the monoid homomorphism of transition matrices. Closure properties of the languages accepted by stochastic automata over monoids are investigated. matrices. Closure properties of the languages accepted by stochastic automata over monoids are investigated.",
+      "lang": "en",
+      "mimetype": "text/plain",
+      "sha1": "15947510a2bf96ced201a4ffe23c89c24f3c96b4"
+    }
+  ],
+  "contribs": [
+    {
+      "given_name": "Merve Nur",
+      "index": 0,
+      "raw_name": "Merve Nur Cakir",
+      "role": "author",
+      "surname": "Cakir"
+    },
+    {
+      "creator_id": "e352uirosrdtris24fgz3r46va",
+      "given_name": "Karl-Heinz",
+      "index": 1,
+      "raw_name": "Karl-Heinz Zimmermann",
+      "role": "author",
+      "surname": "Zimmermann"
+    },
+    {
+      "extra": {
+        "type": "DataManager"
+      },
+      "raw_name": "TUHH Universitätsbibliothek",
+      "role": "author"
+    }
+  ],
+  "ext_ids": {
+    "doi": "10.15480/882.3079"
+  },
+  "extra": {
+    "datacite": {
+      "license": [
+        {
+          "rights": "http://rightsstatements.org/vocab/InC/1.0/",
+          "rightsUri": "http://rightsstatements.org/vocab/InC/1.0/"
+        },
+        {
+          "rightsUri": "info:eu-repo/semantics/openAccess"
+        }
+      ],
+      "metadataVersion": 1,
+      "resourceType": "Other",
+      "resourceTypeGeneral": "Text",
+      "subjects": [
+        {
+          "subject": "Stochastic automaton"
+        },
+        {
+          "subject": "monoid"
+        },
+        {
+          "subject": "formal language"
+        },
+        {
+          "subject": "510: Mathematik",
+          "subjectScheme": "ddc"
+        }
+      ]
+    },
+    "release_month": 11
+  },
+  "ident": "wz6kycfyqfdhhbcjteotw4jcbu",
+  "language": "en",
+  "license_slug": "RS-INC",
+  "publisher": "TUHH Universitätsbibliothek",
+  "refs": [],
+  "release_date": "2020-11-19",
+  "release_stage": "published",
+  "release_type": "article",
+  "release_year": 2020,
+  "revision": "e104b078-6cd1-4e2d-b882-aa4f1c4d5c6d",
+  "state": "active",
+  "title": "On stochastic automata over monoids",
+  "work_id": "fmh2ydkeqrbefginas2vo3s4mu"
+}
