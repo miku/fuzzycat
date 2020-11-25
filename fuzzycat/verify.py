@@ -56,6 +56,13 @@ WIPv1 (10m)
 TODO: allow to pass in a DOI blacklist, e.g. a list of DOI which are not valid
 any more; example: https://fatcat.wiki/release/azbcyqjnmrdofigpgk24ck4rpq,
 https://fatcat.wiki/release/eb2uf5ae7bedxe22jasf2l3faa
+
+Author matching: one long string; e.g. as last name; take an acronym of the
+first name; asian names; number of authors; what works specifically for the
+various md extractors
+
+Contributor lists; "one that have the index set"; affiliations may end up
+there; "subset" is an ordered list; pubmed, crossref important
 """
 
 import collections

@@ -59,6 +59,29 @@ Example results over 10M docs:
 }
 ```
 
+# A full run
+
+Single threaded, 42h.
+
+```
+$ time zstdcat -T0 release_export_expanded.json.zst | \
+    TMPDIR=/bigger/tmp python -m fuzzycat cluster --tmpdir /bigger/tmp -t tsandcrawler \ |
+    zstd -c9 > cluster_tsandcrawler.json.zst
+{
+  "key_fail": 0,
+  "key_ok": 154202433,
+  "key_empty": 942,
+  "key_denylist": 0,
+  "num_clusters": 124321361
+}
+
+real    2559m7.880s
+user    2605m41.347s
+sys     118m38.141s
+```
+
+So, 29881072 (about 20%) docs in the potentially duplicated set.
+
 
 # Use cases
 
@@ -218,4 +241,5 @@ Ok cases are now in [verify.csv](https://github.com/miku/fuzzycat/blob/master/te
 * [ ] https://fatcat.wiki/release/ofmeeajuovbqbhkgh4rujkd3xu https://fatcat.wiki/release/r6bvy6cglfe5xgafvdcokawkue Status.DIFFERENT Miss.RELEASE_TYPE
 * [o] https://fatcat.wiki/release/lezvxt2oong6xm3e3cgp47wsla https://fatcat.wiki/release/aad6r5am6vfxpbfwycmyudp2qe Status.AMBIGUOUS OK.DUMMY
 * [o] https://fatcat.wiki/release/5mzzswgebze2tk4apmbwjahp34 https://fatcat.wiki/release/vl7r3uewvvbo5i2gntocy3y2ey Status.AMBIGUOUS OK.DUMMY
+
 
