@@ -12,7 +12,7 @@ CSV="verify.csv"
 mkdir -p release
 
 for ident in $(awk -F, '{print $1"\n"$2}' "$CSV"); do
-    dst="release/$ident"
+	dst="release/$ident"
 	if [ -f "$dst" ]; then
 		echo >&2 "[cached] $dst"
 		continue
