@@ -1,0 +1,426 @@
+{
+  "abstracts": [],
+  "container_id": "jsfv7d4dbndb5omkftrdc4lroa",
+  "contribs": [
+    {
+      "extra": {
+        "seq": "first"
+      },
+      "index": 0,
+      "raw_affiliation": "Department of Communication, Cornell University, NY,",
+      "raw_name": "Y. Connie Yuan",
+      "role": "author"
+    },
+    {
+      "index": 1,
+      "raw_affiliation": "University of Southern California, Los Angeles",
+      "raw_name": "Janet Fulk",
+      "role": "author"
+    },
+    {
+      "index": 2,
+      "raw_affiliation": "University of Southern California, Los Angeles",
+      "raw_name": "Peter R. Monge",
+      "role": "author"
+    }
+  ],
+  "ext_ids": {
+    "doi": "10.1177/0093650206298067"
+  },
+  "extra": {
+    "crossref": {
+      "alternative-id": [
+        "10.1177/0093650206298067"
+      ],
+      "type": "journal-article"
+    }
+  },
+  "ident": "qk6arua2snaobfvdvlfvjp3yeq",
+  "language": "en",
+  "pages": "131-155",
+  "publisher": "SAGE Publications",
+  "refs": [
+    {
+      "container_name": "Organizational learning: Creating, retaining, and transferring knowledge",
+      "extra": {
+        "authors": [
+          "Argote, L."
+        ],
+        "volume-title": "Organizational learning: Creating, retaining, and transferring knowledge"
+      },
+      "index": 0,
+      "key": "atypb1",
+      "year": 1999
+    },
+    {
+      "extra": {
+        "unstructured": "Argote, L. & Ophir, R. (2002). Intraorganizational learning. In J. A. C. Baum (Ed.), Companion to organizations (pp. 181-207). Malden, MA: Blackwell."
+      },
+      "index": 1,
+      "key": "atypb2"
+    },
+    {
+      "container_name": "Social foundations of thoughts and actions: A social cognitive theory",
+      "extra": {
+        "authors": [
+          "Bandura, A."
+        ],
+        "volume-title": "Social foundations of thoughts and actions: A social cognitive theory"
+      },
+      "index": 2,
+      "key": "atypb3",
+      "year": 1986
+    },
+    {
+      "extra": {
+        "doi": "10.2307/2393551"
+      },
+      "index": 3,
+      "key": "atypb4"
+    },
+    {
+      "extra": {
+        "doi": "10.1002/9781118619179"
+      },
+      "index": 4,
+      "key": "atypb5"
+    },
+    {
+      "extra": {
+        "doi": "10.1287/orsc.1040.0069"
+      },
+      "index": 5,
+      "key": "atypb6"
+    },
+    {
+      "container_name": "Structural equation modeling with LISREL, PRELIS, and SIMPLIS: Basic concepts, applications and programming",
+      "extra": {
+        "authors": [
+          "Byrne, B.M."
+        ],
+        "volume-title": "Structural equation modeling with LISREL, PRELIS, and SIMPLIS: Basic concepts, applications and programming"
+      },
+      "index": 6,
+      "key": "atypb7",
+      "year": 1998
+    },
+    {
+      "extra": {
+        "unstructured": "DeSanctis, G. (1993). Shifting foundations in group support system research . In L. M. Jessup & J. S. Valacich (Eds.), Group support systems: New perspectives (pp. 97-111). New York: Macmillan ."
+      },
+      "index": 7,
+      "key": "atypb8"
+    },
+    {
+      "extra": {
+        "doi": "10.2307/41165987"
+      },
+      "index": 8,
+      "key": "atypb9"
+    },
+    {
+      "extra": {
+        "doi": "10.2307/256641"
+      },
+      "index": 9,
+      "key": "atypb10"
+    },
+    {
+      "extra": {
+        "doi": "10.1111/j.1468-2885.1996.tb00120.x"
+      },
+      "index": 10,
+      "key": "atypb11"
+    },
+    {
+      "extra": {
+        "doi": "10.1287/orsc.1040.0081"
+      },
+      "index": 11,
+      "key": "atypb12"
+    },
+    {
+      "extra": {
+        "doi": "10.1016/s0747-7929(05)18006-8",
+        "unstructured": "Fulk, J., Monge, P. & Hollingshead, A.B. (2005). Knowledge resource sharing in dispersed multinational teams: Three theoretical lenses. In D. Shapiro, M. A. V. Glinow, & J. Cheng (Eds.), Managing multinational teams: Cultural, organizational, and national influences (pp. 155-188). Amsterdam: Elsevier."
+      },
+      "index": 12,
+      "key": "atypb13"
+    },
+    {
+      "extra": {
+        "doi": "10.4135/9781483325385.n6"
+      },
+      "index": 13,
+      "key": "atypb14"
+    },
+    {
+      "container_name": "Organization design",
+      "extra": {
+        "authors": [
+          "Galbraith, J."
+        ],
+        "volume-title": "Organization design"
+      },
+      "index": 14,
+      "key": "atypb15",
+      "year": 1977
+    },
+    {
+      "extra": {
+        "doi": "10.5465/amj.2005.18803922"
+      },
+      "index": 15,
+      "key": "atypb16"
+    },
+    {
+      "container_name": "LISREL 8: User's reference guide",
+      "extra": {
+        "authors": [
+          "Jöreskog, K.G."
+        ],
+        "volume-title": "LISREL 8: User's reference guide"
+      },
+      "index": 16,
+      "key": "atypb17",
+      "year": 1996
+    },
+    {
+      "extra": {
+        "doi": "10.1177/0093650202029002002"
+      },
+      "index": 17,
+      "key": "atypb18"
+    },
+    {
+      "extra": {
+        "unstructured": "Kozlowski, S. & Klein, K.J. (2000). A multilevel approach to theory and research in organizations: Contextual, temporal and emergent processes. In K. J. Klein & S. Kozlowski (Eds.), Multilevel theory, research, and methods in organizations: Foundations, extensions and new directions (pp. 3-90). San Francisco : Jossey-Bass."
+      },
+      "index": 18,
+      "key": "atypb19"
+    },
+    {
+      "extra": {
+        "doi": "10.1207/s15327906mbr3001_1"
+      },
+      "index": 19,
+      "key": "atypb20"
+    },
+    {
+      "extra": {
+        "doi": "10.1002/smj.4250141009"
+      },
+      "index": 20,
+      "key": "atypb21"
+    },
+    {
+      "extra": {
+        "doi": "10.1177/0146167295214009"
+      },
+      "index": 21,
+      "key": "atypb22"
+    },
+    {
+      "extra": {
+        "doi": "10.1017/cbo9780511663765"
+      },
+      "index": 22,
+      "key": "atypb23"
+    },
+    {
+      "extra": {
+        "unstructured": "Moreland, R. (1999). Transactive memory: Learning who knows what in work groups and organizations. In L. Thompson , J. Levine, & D. Messick (Eds.), Shared cognition in organizations (pp. 3-31). Mahwah, NJ: Lawrence Erlbaum."
+      },
+      "index": 23,
+      "key": "atypb24"
+    },
+    {
+      "container_name": "The knowledge-creating company: How Japanese companies create the dynamics of innovation. Oxford, UK",
+      "extra": {
+        "authors": [
+          "Nonaka, I."
+        ],
+        "volume-title": "The knowledge-creating company: How Japanese companies create the dynamics of innovation. Oxford, UK"
+      },
+      "index": 24,
+      "key": "atypb25",
+      "year": 1995
+    },
+    {
+      "container_name": "Psychometric theory",
+      "extra": {
+        "authors": [
+          "Nunnally, J.C."
+        ],
+        "volume-title": "Psychometric theory"
+      },
+      "index": 25,
+      "key": "atypb26",
+      "year": 1978
+    },
+    {
+      "extra": {
+        "doi": "10.1177/0093650205281056"
+      },
+      "index": 26,
+      "key": "atypb27"
+    },
+    {
+      "extra": {
+        "doi": "10.1111/j.1468-2885.2006.00269.x"
+      },
+      "index": 27,
+      "key": "atypb28"
+    },
+    {
+      "container_name": "The tacit dimension",
+      "extra": {
+        "authors": [
+          "Polanyi, M."
+        ],
+        "volume-title": "The tacit dimension"
+      },
+      "index": 28,
+      "key": "atypb29",
+      "year": 1967
+    },
+    {
+      "extra": {
+        "doi": "10.4135/9781483325385.n8",
+        "unstructured": "Poole, S.M. & DeSanctis, G. (1990). Understanding the use of group decision support systems: The theory of adaptive structuration. In J. Fulk & C. Steinfield (Eds.), Organizations and communication technology (pp. 173-191). Newbury Park, CA: Sage."
+      },
+      "index": 29,
+      "key": "atypb30"
+    },
+    {
+      "container_name": "Hierarchical linear models: Applications and data analysis methods",
+      "extra": {
+        "authors": [
+          "Raudenbush, S.W."
+        ],
+        "volume-title": "Hierarchical linear models: Applications and data analysis methods"
+      },
+      "index": 30,
+      "key": "atypb31",
+      "year": 2002
+    },
+    {
+      "extra": {
+        "doi": "10.1177/009365091018004003"
+      },
+      "index": 31,
+      "key": "atypb32"
+    },
+    {
+      "extra": {
+        "doi": "10.1287/orsc.2.1.125"
+      },
+      "index": 32,
+      "key": "atypb33"
+    },
+    {
+      "extra": {
+        "doi": "10.1177/009365096023001001"
+      },
+      "index": 33,
+      "key": "atypb34"
+    },
+    {
+      "container_name": "The theory of social and economic organizations",
+      "extra": {
+        "authors": [
+          "Weber, M."
+        ],
+        "volume-title": "The theory of social and economic organizations"
+      },
+      "index": 34,
+      "key": "atypb35",
+      "year": 1947
+    },
+    {
+      "extra": {
+        "doi": "10.1007/978-1-4612-4634-3_9",
+        "unstructured": "Wegner, D.M. (1987). Transactive memory: A contemporary analysis of group mind. In B. Mullen & G. Goethals (Eds.), Theories of group behavior (pp. 185-208). New York: Springer-Verlag."
+      },
+      "index": 35,
+      "key": "atypb36"
+    },
+    {
+      "extra": {
+        "doi": "10.1521/soco.1995.13.3.319"
+      },
+      "index": 36,
+      "key": "atypb37"
+    },
+    {
+      "extra": {
+        "doi": "10.1037/0022-3514.61.6.923"
+      },
+      "index": 37,
+      "key": "atypb38"
+    },
+    {
+      "extra": {
+        "doi": "10.1007/978-1-4612-5044-9_12"
+      },
+      "index": 38,
+      "key": "atypb39"
+    },
+    {
+      "container_name": "Knowledge resource sharing as collective action: Integrating public goods theory and transactive memory. Unpublished manuscript",
+      "extra": {
+        "authors": [
+          "Xu, Y."
+        ],
+        "volume-title": "Knowledge resource sharing as collective action: Integrating public goods theory and transactive memory. Unpublished manuscript"
+      },
+      "index": 39,
+      "key": "atypb40",
+      "year": 2004
+    },
+    {
+      "container_name": "The impact of social capital on the development of transactive memory systems. Unpublished dissertation",
+      "extra": {
+        "authors": [
+          "Yuan, Y.C."
+        ],
+        "volume-title": "The impact of social capital on the development of transactive memory systems. Unpublished dissertation"
+      },
+      "index": 40,
+      "key": "atypb41",
+      "year": 2004
+    },
+    {
+      "container_name": "Human Communication Research",
+      "extra": {
+        "authors": [
+          "Yuan, Y.C."
+        ],
+        "volume": "31"
+      },
+      "index": 41,
+      "key": "atypb42",
+      "locator": "212",
+      "year": 2005
+    },
+    {
+      "container_name": "Best Papers Proceedings of the Sixty-fifth Annual Meeting of the Academy of Management [CD]",
+      "extra": {
+        "authors": [
+          "Yuan, Y.C."
+        ],
+        "volume-title": "Best Papers Proceedings of the Sixty-fifth Annual Meeting of the Academy of Management [CD]"
+      },
+      "index": 42,
+      "key": "atypb43"
+    }
+  ],
+  "release_stage": "published",
+  "release_type": "article-journal",
+  "release_year": 2007,
+  "revision": "120011b7-9ee7-4420-b0b6-dd402f0fb1ce",
+  "state": "active",
+  "title": "Access to Information in Connective and Communal Transactive Memory Systems",
+  "volume": "34",
+  "work_id": "rc6tndewhjdrrmqwg5bpmzvobm"
+}

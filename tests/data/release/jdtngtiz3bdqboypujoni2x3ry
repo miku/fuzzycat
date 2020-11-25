@@ -1,0 +1,1936 @@
+{
+  "abstracts": [],
+  "container_id": "hjfkmv5abndehinh3m75etldci",
+  "contribs": [
+    {
+      "extra": {
+        "seq": "first"
+      },
+      "given_name": "Parankusam",
+      "index": 0,
+      "raw_name": "Parankusam Santisree",
+      "role": "author",
+      "surname": "Santisree"
+    },
+    {
+      "given_name": "Hemalatha",
+      "index": 1,
+      "raw_name": "Hemalatha Sanivarapu",
+      "role": "author",
+      "surname": "Sanivarapu"
+    },
+    {
+      "given_name": "Sriramya",
+      "index": 2,
+      "raw_name": "Sriramya Gundavarapu",
+      "role": "author",
+      "surname": "Gundavarapu"
+    },
+    {
+      "given_name": "Kiran K.",
+      "index": 3,
+      "raw_name": "Kiran K. Sharma",
+      "role": "author",
+      "surname": "Sharma"
+    },
+    {
+      "given_name": "Pooja",
+      "index": 4,
+      "raw_name": "Pooja Bhatnagar-Mathur",
+      "role": "author",
+      "surname": "Bhatnagar-Mathur"
+    }
+  ],
+  "ext_ids": {
+    "doi": "10.1007/978-3-319-76887-8_61-1"
+  },
+  "extra": {
+    "crossref": {
+      "type": "book-chapter"
+    }
+  },
+  "ident": "jdtngtiz3bdqboypujoni2x3ry",
+  "pages": "1-29",
+  "publisher": "Springer International Publishing",
+  "refs": [
+    {
+      "extra": {
+        "doi": "10.1111/j.1365-3040.2011.02445",
+        "unstructured": "Vile D, Pervent M, Belluau M, Vasseur F, Bresson J, Muller B, … Simonneau T (2012) Arabidopsis growth under prolonged high temperature and water deficit: independent or interactive effects. Plant Cell Environ 35(4):702–718. https://doi.org/10.1111/j.1365-3040.2011.02445"
+      },
+      "index": 0,
+      "key": "61-1_CR1"
+    },
+    {
+      "container_name": "Plant Sci",
+      "extra": {
+        "authors": [
+          "P Santisree"
+        ],
+        "doi": "10.1016/j.plantsci.2015.07.012",
+        "unstructured": "Santisree P, Bhatnagar-Mathur P, Sharma KK (2015) NO to drought-multifunctional role of nitric oxide in plant drought: do we have all the answers. Plant Sci 239:44–55. https://doi.org/10.1016/j.plantsci.2015.07.012",
+        "volume": "239"
+      },
+      "index": 1,
+      "key": "61-1_CR2",
+      "locator": "44",
+      "year": 2015
+    },
+    {
+      "extra": {
+        "doi": "10.5194/acp-15-8889",
+        "unstructured": "Monks PS, Archibald AT, Colette A, Cooper O, Coyle M, Derwent R, … Stevenson DS (2015) Tropospheric ozone and its precursors from the urban to the global scale from air quality to short-lived climate forcer. Atmos Chem Phys 15(15): 8889–8973. https://doi.org/10.5194/acp-15-8889"
+      },
+      "index": 2,
+      "key": "61-1_CR3"
+    },
+    {
+      "container_name": "Plant Signal Behav",
+      "extra": {
+        "authors": [
+          "S Hayat"
+        ],
+        "doi": "10.4161/psb.21949",
+        "issue": "11",
+        "unstructured": "Hayat S, Hayat Q, Alyemeni MN, Wani AS, Pichtel J, Ahmad A (2012) Role of proline under changing environments. Plant Signal Behav 7(11):1456–1466. https://doi.org/10.4161/psb.21949"
+      },
+      "index": 3,
+      "key": "61-1_CR4",
+      "locator": "1456",
+      "year": 2012
+    },
+    {
+      "container_name": "J Exp Bot",
+      "extra": {
+        "authors": [
+          "NJ Atkinson"
+        ],
+        "doi": "10.1093/jxb/ers100",
+        "issue": "10",
+        "unstructured": "Atkinson NJ, Urwin PE (2012) The interaction of plant biotic and abiotic stresses: from genes to the field. J Exp Bot 63(10):3523–3543. https://doi.org/10.1093/jxb/ers100",
+        "volume": "63"
+      },
+      "index": 4,
+      "key": "61-1_CR5",
+      "locator": "3523",
+      "year": 2012
+    },
+    {
+      "container_name": "Atmos Environ",
+      "extra": {
+        "authors": [
+          "L Klepper"
+        ],
+        "doi": "10.1016/0004-6981(79)90148-3",
+        "unstructured": "Klepper L (1979) Nitric oxide (NO) and nitrogen dioxide (NO2) emissions from herbicide-treated soybean plants. Atmos Environ 13(4):537–542. https://doi.org/10.1016/0004-6981(79)90148-3",
+        "volume": "13"
+      },
+      "index": 5,
+      "key": "61-1_CR6",
+      "locator": "537",
+      "year": 1979
+    },
+    {
+      "container_name": "Plant Biol",
+      "extra": {
+        "authors": [
+          "E Baudouin"
+        ],
+        "doi": "10.1111/j.1438-8677.2010.00403",
+        "unstructured": "Baudouin E (2011) The language of nitric oxide signalling. Plant Biol 13(2):233–242. https://doi.org/10.1111/j.1438-8677.2010.00403",
+        "volume": "13"
+      },
+      "index": 6,
+      "key": "61-1_CR7",
+      "locator": "233",
+      "year": 2011
+    },
+    {
+      "container_name": "Front Plant Sci",
+      "extra": {
+        "authors": [
+          "E Arc"
+        ],
+        "doi": "10.3389/fpls.2013.00346",
+        "unstructured": "Arc E, Galland M, Godin B, Cueff G, Rajjou L (2013) Nitric oxide implication in the control of seed dormancy and germination. Front Plant Sci 4:346. https://doi.org/10.3389/fpls.2013.00346"
+      },
+      "index": 7,
+      "key": "61-1_CR8",
+      "locator": "346",
+      "year": 2013
+    },
+    {
+      "container_name": "New Phytol",
+      "extra": {
+        "authors": [
+          "M Yu"
+        ],
+        "doi": "10.1111/nph.12739",
+        "unstructured": "Yu M, Lamattina L, Spoel SH, Loake GJ (2014) Nitric oxide function in plant biology: a redox cue in deconvolution. New Phytol 202(4):1142–1156. https://doi.org/10.1111/nph.12739",
+        "volume": "202"
+      },
+      "index": 8,
+      "key": "61-1_CR9",
+      "locator": "1142",
+      "year": 2014
+    },
+    {
+      "container_name": "Plant Sci",
+      "extra": {
+        "authors": [
+          "FJ Corpas"
+        ],
+        "doi": "10.1016/j.plantsci.2011.04.005",
+        "unstructured": "Corpas FJ, Leterrier M, Valderrama R, Airaki M, Chaki M, Palma JM, Barroso JB (2011) Nitric oxide imbalance provokes a nitrosative response in plants under abiotic stress. Plant Sci 181(5):604–611. https://doi.org/10.1016/j.plantsci.2011.04.005",
+        "volume": "181"
+      },
+      "index": 9,
+      "key": "61-1_CR10",
+      "locator": "604",
+      "year": 2011
+    },
+    {
+      "container_name": "Environ Sci Pollut Res Int",
+      "extra": {
+        "authors": [
+          "M Asgher"
+        ],
+        "doi": "10.1007/s11356-016-7947-8",
+        "unstructured": "Asgher M, Per TS, Masood A, Fatma M, Freschi L, Corpas FJ, Khan NA (2017) Nitric oxide signaling and its crosstalk with other plant growth regulators in plant responses to abiotic stress. Environ Sci Pollut Res Int 24(3):2273–2285. https://doi.org/10.1007/s11356-016-7947-8",
+        "volume": "24"
+      },
+      "index": 10,
+      "key": "61-1_CR11",
+      "locator": "2273",
+      "year": 2017
+    },
+    {
+      "container_name": "Front Plant Sci",
+      "extra": {
+        "authors": [
+          "S Parankusam"
+        ],
+        "doi": "10.3389/fpls.2017.01582",
+        "unstructured": "Parankusam S, Adimulam SS, Bhatnagar-Mathur P, Sharma KK (2017) Nitric oxide (NO) in plant heat stress tolerance: current knowledge and perspectives. Front Plant Sci 13(8):1582. https://doi.org/10.3389/fpls.2017.01582",
+        "volume": "13"
+      },
+      "index": 11,
+      "key": "61-1_CR12",
+      "locator": "1582",
+      "year": 2017
+    },
+    {
+      "container_name": "Plant Cell Environ",
+      "extra": {
+        "authors": [
+          "NN Fancy"
+        ],
+        "doi": "10.1111/pce.12707",
+        "unstructured": "Fancy NN, Bahlmann AK, Loake GJ (2017) Nitric oxide function in plant abiotic stress. Plant Cell Environ 40(4):462–472. https://doi.org/10.1111/pce.12707",
+        "volume": "40"
+      },
+      "index": 12,
+      "key": "61-1_CR13",
+      "locator": "462",
+      "year": 2017
+    },
+    {
+      "container_name": "Mol Plant",
+      "extra": {
+        "authors": [
+          "S Negi"
+        ],
+        "doi": "10.1093/mp/ssq033",
+        "unstructured": "Negi S, Santisree P, Kharshiing EV, Sharma R (2010) Inhibition of the ubiquitin proteasome pathway alters cellular levels of nitric oxide in tomato seedlings. Mol Plant 3(5):854–869. https://doi.org/10.1093/mp/ssq033"
+      },
+      "index": 13,
+      "key": "61-1_CR14",
+      "locator": "854",
+      "year": 2010
+    },
+    {
+      "container_name": "Nitric Oxide",
+      "extra": {
+        "authors": [
+          "S Sahay"
+        ],
+        "doi": "10.1016/j.niox.2017.04.011",
+        "unstructured": "Sahay S, Gupta M (2017) An update on nitric oxide and its benign role in plant responses under metal stress. Nitric Oxide 67:39–52. https://doi.org/10.1016/j.niox.2017.04.011",
+        "volume": "67"
+      },
+      "index": 14,
+      "key": "61-1_CR15",
+      "locator": "39",
+      "year": 2017
+    },
+    {
+      "container_name": "AoB Plants",
+      "extra": {
+        "authors": [
+          "L. A. J. Mur"
+        ],
+        "doi": "10.1093/aobpla/pls052",
+        "unstructured": "Mur LA, Mandon J, Persijn S, Cristescu SM, Moshkov IE, Novikova GV, … Gupta KJ (2013) Nitric oxide in plants: an assessment of the current state of knowledge. AoB Plants 5. https://doi.org/10.1093/aobpla/pls052"
+      },
+      "index": 15,
+      "key": "61-1_CR16",
+      "locator": "pls052",
+      "year": 2012
+    },
+    {
+      "container_name": "The Plant Journal",
+      "extra": {
+        "authors": [
+          "Noelia Foresi"
+        ],
+        "doi": "10.1111/tpj.12852",
+        "unstructured": "Foresi N, Mayta ML, Lodeyro AF, Scuffi D, Correa-Aragunde N, García-Mata C, … Lamattina L (2015) Expression of the tetrahydrofolate-dependent nitric oxide synthase from the green alga Ostreococcus tauri increases tolerance to abiotic stresses and influences stomatal development in Arabidopsis. Plant J 82(5):806–821. https://doi.org/10.1111/tpj.12852",
+        "volume": "82"
+      },
+      "index": 16,
+      "key": "61-1_CR17",
+      "locator": "806",
+      "year": 2015
+    },
+    {
+      "container_name": "The biology of subcellular nitric oxide",
+      "extra": {
+        "authors": [
+          "T Rőszer"
+        ],
+        "doi": "10.1007/978-94-007-2819-6",
+        "unstructured": "Rőszer T (2012) The biology of subcellular nitric oxide. Springer Science & Business Media, Dordrecht. https://doi.org/10.1007/978-94-007-2819-6",
+        "volume-title": "The biology of subcellular nitric oxide"
+      },
+      "index": 17,
+      "key": "61-1_CR18",
+      "year": 2012
+    },
+    {
+      "container_name": "Plant Biol",
+      "extra": {
+        "authors": [
+          "M Arasimowicz-Jelonek"
+        ],
+        "doi": "10.1111/j.1438-8677.2010.00430",
+        "unstructured": "Arasimowicz-Jelonek M, Floryszak-Wieczorek J, Kosmala A (2011) Are nitric oxide donors a valuable tool to study the functional role of nitric oxide in plant metabolism. Plant Biol 13(5):747–756. https://doi.org/10.1111/j.1438-8677.2010.00430",
+        "volume": "13"
+      },
+      "index": 18,
+      "key": "61-1_CR19",
+      "locator": "747",
+      "year": 2011
+    },
+    {
+      "container_name": "Plant Cell Physiol",
+      "extra": {
+        "authors": [
+          "HT Shi"
+        ],
+        "doi": "10.1093/pcp/pcr181",
+        "unstructured": "Shi HT, Li RJ, Cai W, Liu W, Wang CL, Lu YT (2011) Increasing nitric oxide content in Arabidopsis thaliana by expressing rat neuronal nitric oxide synthase resulted in enhanced stress tolerance. Plant Cell Physiol 53(2):344–357. https://doi.org/10.1093/pcp/pcr181",
+        "volume": "53"
+      },
+      "index": 19,
+      "key": "61-1_CR20",
+      "locator": "344",
+      "year": 2011
+    },
+    {
+      "container_name": "J Med Plant Res",
+      "extra": {
+        "authors": [
+          "S Karuppusamy"
+        ],
+        "issue": "13",
+        "unstructured": "Karuppusamy S (2009) A review on trends in production of secondary metabolites from higher plants by in vitro tissue, organ and cell cultures. J Med Plant Res 3(13):1222–1239"
+      },
+      "index": 20,
+      "key": "61-1_CR21",
+      "locator": "1222",
+      "year": 2009
+    },
+    {
+      "container_name": "Phytochemistry",
+      "extra": {
+        "authors": [
+          "A Szakiel"
+        ],
+        "doi": "10.1007/s11101-010-9177",
+        "unstructured": "Szakiel A, Pączkowski C, Henry M (2011) Influence of environmental abiotic factors on the content of saponins in plants. Phytochemistry 10(4):471–491. https://doi.org/10.1007/s11101-010-9177",
+        "volume": "10"
+      },
+      "index": 21,
+      "key": "61-1_CR22",
+      "locator": "471",
+      "year": 2011
+    },
+    {
+      "container_name": "Plant Cell Tissue Org Cult",
+      "extra": {
+        "authors": [
+          "P Golkar"
+        ],
+        "doi": "10.1007/s11240-018-1427-4",
+        "unstructured": "Golkar P, Taghizadeh M (2018) In vitro evaluation of phenolic and osmolite compounds, ionic content and antioxidant activity in safflower (Carthamus tinctorius L.) under salinity stress. Plant Cell Tissue Org Cult 134(3):357–368. https://doi.org/10.1007/s11240-018-1427-4",
+        "volume": "134"
+      },
+      "index": 22,
+      "key": "61-1_CR23",
+      "locator": "357",
+      "year": 2018
+    },
+    {
+      "container_name": "Ind Crops Prod",
+      "extra": {
+        "authors": [
+          "M Hodaei"
+        ],
+        "doi": "10.1016/j.indcrop.2018",
+        "unstructured": "Hodaei M, Rahimmalek M, Arzani A, Talebi M (2018) The effect of water stress on phytochemical accumulation, bioactive compounds and expression of key genes involved in flavonoid biosynthesis in Chrysanthemum morifolium L. Ind Crops Prod 120:295–304. https://doi.org/10.1016/j.indcrop.2018",
+        "volume": "120"
+      },
+      "index": 23,
+      "key": "61-1_CR24",
+      "locator": "295",
+      "year": 2018
+    },
+    {
+      "container_name": "Plant Physiol",
+      "extra": {
+        "authors": [
+          "B Winkel-Shirley"
+        ],
+        "doi": "10.1104/pp.126.2.485",
+        "unstructured": "Winkel-Shirley B (2001) Flavonoid biosynthesis. A colorful model for genetics, biochemistry, cell biology and biotechnology. Plant Physiol 126(2):485–493. https://doi.org/10.1104/pp.126.2.485",
+        "volume": "126"
+      },
+      "index": 24,
+      "key": "61-1_CR25",
+      "locator": "485",
+      "year": 2001
+    },
+    {
+      "container_name": "Plant Cell Environ",
+      "extra": {
+        "authors": [
+          "FJ Berli"
+        ],
+        "doi": "10.1111/j.1365-3040.2009.02044",
+        "unstructured": "Berli FJ, Moreno D, Piccoli P, Hespanhol-Viana L, Silva MF, Bressan-Smith R, Cavagnaro JB, Bottini R (2010) Abscisic acid is involved in the response of grape (Vitis vinifera L.) cv. Malbec leaf tissues to ultraviolet-B radiation by enhancing ultraviolet-absorbing compounds, antioxidant enzymes and membrane sterols. Plant Cell Environ 33(1):1–10. https://doi.org/10.1111/j.1365-3040.2009.02044",
+        "volume": "33"
+      },
+      "index": 25,
+      "key": "61-1_CR26",
+      "year": 2010
+    },
+    {
+      "container_name": "Plant Signal Behav",
+      "extra": {
+        "authors": [
+          "A Ramakrishna"
+        ],
+        "doi": "10.4161/psb.6.11.17613",
+        "issue": "11",
+        "unstructured": "Ramakrishna A, Ravishankar GA (2011) Influence of abiotic stress signals on secondary metabolites in plants. Plant Signal Behav 6(11):1720–1731. https://doi.org/10.4161/psb.6.11.17613"
+      },
+      "index": 26,
+      "key": "61-1_CR27",
+      "locator": "1720",
+      "year": 2011
+    },
+    {
+      "container_name": "J Agric Food Chem",
+      "extra": {
+        "authors": [
+          "E Uleberg"
+        ],
+        "doi": "10.1021/jf302924m",
+        "issue": "42",
+        "unstructured": "Uleberg E, Rohloff J, Jaakola L, Trôst K, Junttila O, Häggman H, Martinussen I (2012) Effects of temperature and photoperiod on yield and chemical composition of northern and southern clones of bilberry (Vaccinium myrtillus L.). J Agric Food Chem 60(42):10406–10414. https://doi.org/10.1021/jf302924m",
+        "volume": "60"
+      },
+      "index": 27,
+      "key": "61-1_CR28",
+      "locator": "10406",
+      "year": 2012
+    },
+    {
+      "container_name": "Physiol Plant",
+      "extra": {
+        "authors": [
+          "A Aziz"
+        ],
+        "doi": "10.1034/j.1399-3054.1998.1040207",
+        "unstructured": "Aziz A, Martin-Tanguy J, Larher F (1998) Stress-induced changes in polyamine and tyramine levels can regulate proline accumulation in tomato leaf discs treated with sodium chloride. Physiol Plant 104(2):195–202. https://doi.org/10.1034/j.1399-3054.1998.1040207",
+        "volume": "104"
+      },
+      "index": 28,
+      "key": "61-1_CR29",
+      "locator": "195",
+      "year": 1998
+    },
+    {
+      "container_name": "Molecules",
+      "extra": {
+        "authors": [
+          "HZ Jaafar"
+        ],
+        "doi": "10.3390/molecules17067305",
+        "unstructured": "Jaafar HZ, Ibrahim MH, Fakri M, Farhana N (2012) Impact of soil field water capacity on secondary metabolites, phenylalanine ammonia-lyase (PAL), malondialdehyde (MDA) and photosynthetic responses of Malaysian Kacip Fatimah (Labisia pumila Benth). Molecules 17(6):7305–7322. https://doi.org/10.3390/molecules17067305",
+        "volume": "17"
+      },
+      "index": 29,
+      "key": "61-1_CR30",
+      "locator": "7305",
+      "year": 2012
+    },
+    {
+      "container_name": "J Appl Bot Food Qual",
+      "extra": {
+        "authors": [
+          "M Nowak"
+        ],
+        "unstructured": "Nowak M, Kleinwächter M, Manderscheid R, Weigel HJ, Selmar D (2010) Drought stress increases the accumulation of monoterpenes in sage (Salvia officinalis), an effect that is compensated by elevated carbon dioxide concentration. J Appl Bot Food Qual 83(2):133–136",
+        "volume": "83"
+      },
+      "index": 30,
+      "key": "61-1_CR31",
+      "locator": "133",
+      "year": 2010
+    },
+    {
+      "container_name": "J Appl Environ Biol Sci",
+      "extra": {
+        "authors": [
+          "F Afzal Shah"
+        ],
+        "unstructured": "Afzal Shah F, Kareem YA, Habib UR, Ali BG (2017) Impact of drought stress on active secondary metabolite production in Cichorium intybus roots. J Appl Environ Biol Sci 7(7):39–43"
+      },
+      "index": 31,
+      "key": "61-1_CR32",
+      "locator": "39",
+      "year": 2017
+    },
+    {
+      "container_name": "Acta Bot Hungar",
+      "extra": {
+        "authors": [
+          "B Szabó"
+        ],
+        "doi": "10.1556/abot.45.2003",
+        "unstructured": "Szabó B, Tyihák E, Szabó G, Botz L (2003) Mycotoxin and drought stress induced change of alkaloid content of Papaver somniferum plantlets. Acta Bot Hungar 45:409–417. https://doi.org/10.1556/ABot.45.2003",
+        "volume": "45"
+      },
+      "index": 32,
+      "key": "61-1_CR33",
+      "locator": "409",
+      "year": 2003
+    },
+    {
+      "container_name": "J Med Plant Res",
+      "extra": {
+        "authors": [
+          "Y Chen"
+        ],
+        "doi": "10.1371/journal.pone.0066259",
+        "unstructured": "Chen Y, Guo Q, Liu L, Liao L, Zhu Z (2011) Influence of fertilization and drought stress on the growth and production of secondary metabolites in Prunella vulgaris L. J Med Plant Res 5(9):1749–1755. https://doi.org/10.1371/journal.pone.0066259"
+      },
+      "index": 33,
+      "key": "61-1_CR34",
+      "locator": "1749",
+      "year": 2011
+    },
+    {
+      "container_name": "Ecotoxicol Environ Saf",
+      "extra": {
+        "authors": [
+          "S Singh"
+        ],
+        "doi": "10.1016/j.ecoenv.2004.12.026",
+        "unstructured": "Singh S, Sinha S (2005) Accumulation of metals and its effects in Brassica juncea (L.) Czern.(cv. Rohini) grown on various amendments of tannery waste. Ecotoxicol Environ Saf 62(1):118–127. https://doi.org/10.1016/j.ecoenv.2004.12.026",
+        "volume": "62"
+      },
+      "index": 34,
+      "key": "61-1_CR35",
+      "locator": "118",
+      "year": 2005
+    },
+    {
+      "container_name": "Environ Sci Pollut Res Int",
+      "extra": {
+        "authors": [
+          "S Umar"
+        ],
+        "doi": "10.1007/s11356-013-1624-y",
+        "unstructured": "Umar S, Gauba N, Anjum NA, Siddiqi TO (2013) Arsenic toxicity in garden cress (Lepidium sativum Linn.): significance of potassium nutrition. Environ Sci Pollut Res Int 20(9): 6039–6049. https://doi.org/10.1007/s11356-013-1624-y",
+        "volume": "20"
+      },
+      "index": 35,
+      "key": "61-1_CR36",
+      "locator": "6039",
+      "year": 2013
+    },
+    {
+      "container_name": "Bull Environ Contam Toxicol",
+      "extra": {
+        "authors": [
+          "RK Sharma"
+        ],
+        "doi": "10.1007/s00128-010-0032-y",
+        "unstructured": "Sharma RK, Agrawal M, Agrawal SB (2010) Physiological, biochemical and growth responses of lady's finger (Abelmoschus esculentus L.) plants as affected by Cd contaminated soil. Bull Environ Contam Toxicol 84(6):765–770. https://doi.org/10.1007/s00128-010-0032-y",
+        "volume": "84"
+      },
+      "index": 36,
+      "key": "61-1_CR37",
+      "locator": "765",
+      "year": 2010
+    },
+    {
+      "container_name": "Environmental Science & Technology",
+      "extra": {
+        "authors": [
+          "Detlev Helmig"
+        ],
+        "doi": "10.1021/es0618907",
+        "unstructured": "Helmig D, Ortega J, Duhl T, Tanner D, Guenther A, Harley P, … Sakulyanontvittaya T (2007) Sesquiterpene emissions from pine trees− identifications, emission rates and flux estimates for the contiguous United States. Environ Sci Technol 41 (5):1545–1553. https://doi.org/10.1021/es0618907",
+        "volume": "41"
+      },
+      "index": 37,
+      "key": "61-1_CR38",
+      "locator": "1545",
+      "year": 2007
+    },
+    {
+      "container_name": "Plant Cell Environ",
+      "extra": {
+        "authors": [
+          "DT Hanson"
+        ],
+        "doi": "10.1046/j.1365-3040.2001.00744",
+        "unstructured": "Hanson DT, Sharkey TD (2001) Effect of growth conditions on isoprene emission and other thermotolerance-enhancing compounds. Plant Cell Environ 24:929–936. https://doi.org/10.1046/j.1365-3040.2001.00744",
+        "volume": "24"
+      },
+      "index": 38,
+      "key": "61-1_CR39",
+      "locator": "929",
+      "year": 2001
+    },
+    {
+      "container_name": "Food Chem",
+      "extra": {
+        "authors": [
+          "JA Mølmann"
+        ],
+        "doi": "10.1016/j.foodchem.2014.09.015",
+        "unstructured": "Mølmann JA, Steindal AL, Bengtsson GB, Seljåsen R, Lea P, Skaret J, Johansen TJ (2015) Effects of temperature and photoperiod on sensory quality and contents of glucosinolates, flavonols and vitamin C in broccoli florets. Food Chem 172:47–55. https://doi.org/10.1016/j.foodchem.2014.09.015",
+        "volume": "172"
+      },
+      "index": 39,
+      "key": "61-1_CR40",
+      "locator": "47",
+      "year": 2015
+    },
+    {
+      "container_name": "Acta Bot Sin",
+      "extra": {
+        "authors": [
+          "YG Zu"
+        ],
+        "unstructured": "Zu YG, Tang ZH, Yu JH, Liu SG, Wang W, Guo XR (2003) Different responses of camptothecin and 10-hydroxycamptothecin to heat shock in Camptotheca acuminata seedlings. Acta Bot Sin 45:809–814. http://hdl.handle.net/1807/1704",
+        "volume": "45"
+      },
+      "index": 40,
+      "key": "61-1_CR41",
+      "locator": "809",
+      "year": 2003
+    },
+    {
+      "container_name": "Plant Cell Environ",
+      "extra": {
+        "authors": [
+          "JIL Morison"
+        ],
+        "doi": "10.1046/j.1365-3040.1999.00443",
+        "unstructured": "Morison JIL, Lawlor DW (1999) Interactions between increasing CO2 concentration and temperature on plant growth. Plant Cell Environ 22(6):659–682. https://doi.org/10.1046/j.1365-3040.1999.00443",
+        "volume": "22"
+      },
+      "index": 41,
+      "key": "61-1_CR42",
+      "locator": "659",
+      "year": 1999
+    },
+    {
+      "container_name": "Biochem Physiol Pflanz",
+      "extra": {
+        "authors": [
+          "J Bernáth"
+        ],
+        "doi": "10.1016/s0015-3796(17)31342-2",
+        "unstructured": "Bernáth J, Tétényi P (1979) The effect of environmental factors on growth. Development and alkaloid production of poppy (Papaver somniferum L.): I. Responses to day-length and light intensity. Biochem Physiol Pflanz 174:468–478",
+        "volume": "174"
+      },
+      "index": 42,
+      "key": "61-1_CR43",
+      "locator": "468",
+      "year": 1979
+    },
+    {
+      "container_name": "Plant Cell Rep",
+      "extra": {
+        "authors": [
+          "A Dutta"
+        ],
+        "doi": "10.1007/s00299-007-0383-y",
+        "issue": "10",
+        "unstructured": "Dutta A, Sen J, Deswal R (2007) Downregulation of terpenoid indole alkaloid biosynthetic pathway by low temperature and cloning of a AP2 type C-repeat binding factor (CBF) from Catharanthus roseus (L). G. Don. Plant Cell Rep 26(10):1869–1878. https://doi.org/10.1007/s00299-007-0383-y",
+        "volume": "26"
+      },
+      "index": 43,
+      "key": "61-1_CR44",
+      "locator": "1869",
+      "year": 2007
+    },
+    {
+      "container_name": "J Exp Bot",
+      "extra": {
+        "authors": [
+          "I Hummel"
+        ],
+        "doi": "10.1093/jxb/erh126",
+        "unstructured": "Hummel I, El Amrani A, Gouesbet G, Hennion F, Couée I (2004) Involvement of polyamines in the interacting effects of low temperature and mineral supply on Pringlea antiscorbutica (Kerguelen cabbage) seedlings. J Exp Bot 55:1125–1134. https://doi.org/10.1093/jxb/erh126",
+        "volume": "55"
+      },
+      "index": 44,
+      "key": "61-1_CR45",
+      "locator": "1125",
+      "year": 2004
+    },
+    {
+      "container_name": "Plant Cell Tissue Org Cult",
+      "extra": {
+        "authors": [
+          "D Havkin-Frenkel"
+        ],
+        "doi": "10.1051/fruits:2006015",
+        "unstructured": "Havkin-Frenkel D, Podstolski A, Knorr D (1996) Effect of light on vanillin precursors formation by in vitro cultures of Vanilla planifolia. Plant Cell Tissue Org Cult 45(2): 133–136. https://doi.org/10.1051/fruits:2006015",
+        "volume": "45"
+      },
+      "index": 45,
+      "key": "61-1_CR46",
+      "locator": "133",
+      "year": 1996
+    },
+    {
+      "container_name": "Planta Med",
+      "extra": {
+        "authors": [
+          "P Anasori"
+        ],
+        "doi": "10.1055/s-0029-1234839",
+        "unstructured": "Anasori P, Asghari G (2008) Effects of light and differentiation on gingerol and zingiberene production in cultured cells of Zingiber officinale. Planta Med 3(1):59–63. https://doi.org/10.1055/s-0029-1234839"
+      },
+      "index": 46,
+      "key": "61-1_CR47",
+      "locator": "59",
+      "year": 2008
+    },
+    {
+      "container_name": "Am J Enol Vitic",
+      "extra": {
+        "authors": [
+          "WM Kliewer"
+        ],
+        "unstructured": "Kliewer WM (1977) Influence of temperature, solar radiation and nitrogen on coloration and composition of Emperor grapes. Am J Enol Vitic 28(2):96–103",
+        "volume": "28"
+      },
+      "index": 47,
+      "key": "61-1_CR48",
+      "locator": "96",
+      "year": 1977
+    },
+    {
+      "container_name": "Food Chem",
+      "extra": {
+        "authors": [
+          "IS Carvalho"
+        ],
+        "doi": "10.1016/j.foodchem.2009.05.005",
+        "unstructured": "Carvalho IS, Cavaco T, Carvalho LM, Duque P (2010) Effect of photoperiod on flavonoid pathway activity in sweet potato (Ipomoea batatas (L.) Lam.) leaves. Food Chem 118:384–390. https://doi.org/10.1016/j.foodchem.2009.05.005",
+        "volume": "118"
+      },
+      "index": 48,
+      "key": "61-1_CR49",
+      "locator": "384",
+      "year": 2010
+    },
+    {
+      "container_name": "Fitoterapia",
+      "extra": {
+        "authors": [
+          "F Antognoni"
+        ],
+        "doi": "10.1016/j.fitote.2007.02.001",
+        "unstructured": "Antognoni F, Zheng S, Pagnucco C, Baraldi R, Poli F, Biondi S (2007) Induction of flavonoid production by UV-B radiation in Passiflora quadrangularis callus cultures. Fitoterapia 78(5): 345–352. https://doi.org/10.1016/j.fitote.2007.02.001",
+        "volume": "78"
+      },
+      "index": 49,
+      "key": "61-1_CR50",
+      "locator": "345",
+      "year": 2007
+    },
+    {
+      "container_name": "Cent Eur J Biol",
+      "extra": {
+        "authors": [
+          "M Regvar"
+        ],
+        "doi": "10.2478/s11535-012-0017-4",
+        "unstructured": "Regvar M, Bukovnik U, Likar M, Kreft I (2012) UV-B radiation affects flavonoids and fungal colonisation in Fagopyrum esculentum and F. tataricum. Cent Eur J Biol 7(2):275–283. https://doi.org/10.2478/s11535-012-0017-4"
+      },
+      "index": 50,
+      "key": "61-1_CR51",
+      "locator": "275",
+      "year": 2012
+    },
+    {
+      "container_name": "Tree Physiol",
+      "extra": {
+        "authors": [
+          "JM Warren"
+        ],
+        "doi": "10.1093/treephys/23.8.527",
+        "unstructured": "Warren JM, Bassman JH, Fellman JK, Mattinson DS, Eigenbrode S (2003) Ultraviolet-B radiation alters phenolic salicylate and flavonoid composition of Populus trichocarpa leaves. Tree Physiol 23(8):527–535",
+        "volume": "23"
+      },
+      "index": 51,
+      "key": "61-1_CR52",
+      "locator": "527",
+      "year": 2003
+    },
+    {
+      "container_name": "Plant Biol",
+      "extra": {
+        "authors": [
+          "A Janská"
+        ],
+        "doi": "10.1111/j.1438-8677.2009.00299.x",
+        "unstructured": "Janská A, Maršík P, Zelenková S, Ovesná J (2010) Cold stress and acclimation–what is important for metabolic adjustment? Plant Biol 12(3):395–405. https://doi.org/10.1111/j.1438-8677.2009.00299.x",
+        "volume": "12"
+      },
+      "index": 52,
+      "key": "61-1_CR53",
+      "locator": "395",
+      "year": 2010
+    },
+    {
+      "container_name": "J Cell Biochem",
+      "extra": {
+        "authors": [
+          "GJ Wu"
+        ],
+        "doi": "10.1002/jcb.21268",
+        "unstructured": "Wu GJ, Chen TG, Chang HC, Chiu WT, Chang CC, Chen RM (2007) Nitric oxide from both exogenous and endogenous sources activates mitochondria-dependent events and induces insults to human chondrocytes. J Cell Biochem 101(6):1520–1531. https://doi.org/10.1002/jcb.21268",
+        "volume": "101"
+      },
+      "index": 53,
+      "key": "61-1_CR54",
+      "locator": "1520",
+      "year": 2007
+    },
+    {
+      "container_name": "Plant Sci",
+      "extra": {
+        "authors": [
+          "KM Janas"
+        ],
+        "doi": "10.1016/s0168-9452(02)00136-x",
+        "unstructured": "Janas KM, Cvikrová M, Pałagiewicz A, Szafranska K, Posmyk MM (2002) Constitutive elevated accumulation of phenylpropanoids in soybean roots at low temperature. Plant Sci 163(2):369–373. https://doi.org/10.1016/S0168-9452(02)00136-X",
+        "volume": "163"
+      },
+      "index": 54,
+      "key": "61-1_CR55",
+      "locator": "369",
+      "year": 2002
+    },
+    {
+      "container_name": "Molecules",
+      "extra": {
+        "authors": [
+          "L Yang"
+        ],
+        "doi": "10.3390/molecules23040762",
+        "unstructured": "Yang L, Wen KS, Ruan X, Zhao YX, Wei F, Wang Q (2018) Response of plant secondary metabolites to environmental factors. Molecules 23(4):762. https://doi.org/10.3390/molecules23040762",
+        "volume": "23"
+      },
+      "index": 55,
+      "key": "61-1_CR56",
+      "locator": "762",
+      "year": 2018
+    },
+    {
+      "container_name": "Food Chem",
+      "extra": {
+        "authors": [
+          "M Neffati"
+        ],
+        "doi": "10.1016/j.foodchem.2010.06.022",
+        "unstructured": "Neffati M, Sriti J, Hamdaoui G, Kchouk ME, Marzouk B (2011) Salinity impact on fruit yield, essential oil composition and antioxidant activities of Coriandrum sativum fruit extracts. Food Chem 124(1):221–225. https://doi.org/10.1016/j.foodchem.2010.06.022",
+        "volume": "124"
+      },
+      "index": 56,
+      "key": "61-1_CR57",
+      "locator": "221",
+      "year": 2011
+    },
+    {
+      "container_name": "Plant Cell Tissue Org Cult",
+      "extra": {
+        "authors": [
+          "S Fatima"
+        ],
+        "doi": "10.1007/s11240-015-0715-5",
+        "unstructured": "Fatima S, Mujib A, Tonk D (2015) NaCl amendment improves vinblastine and vincristine synthesis in Catharanthusroseus: a case of stress signalling as evidenced by antioxidant enzymes activities. Plant Cell Tissue Org Cult 121(2):445–458. https://doi.org/10.1007/s11240-015-0715-5",
+        "volume": "121"
+      },
+      "index": 57,
+      "key": "61-1_CR58",
+      "locator": "445",
+      "year": 2015
+    },
+    {
+      "container_name": "Plant, Cell & Environment",
+      "extra": {
+        "authors": [
+          "Martha M. Vaughan"
+        ],
+        "doi": "10.1111/pce.12482",
+        "issue": "11",
+        "unstructured": "Vaughan MM, Christensen S, Schmelz EA, Huffaker A, Mcauslane HJ, Alborn HT, … Teal PE (2015) Accumulation of terpenoid phytoalexins in maize roots is associated with drought tolerance. Plant Cell Environ 38(11):2195–2207. https://doi.org/10.1111/pce.12482. Epub 2015 Jan 23",
+        "volume": "38"
+      },
+      "index": 58,
+      "key": "61-1_CR59",
+      "locator": "2195",
+      "year": 2015
+    },
+    {
+      "container_name": "Metabolomics",
+      "extra": {
+        "authors": [
+          "CR Warren"
+        ],
+        "doi": "10.1007/s11306-011-0299-y",
+        "unstructured": "Warren CR, Aranda I, Cano FJ (2012) Metabolomics demonstrates divergent responses of two Eucalyptus species to water stress. Metabolomics 8(2):186–200. https://doi.org/10.1007/s11306-011-0299-y"
+      },
+      "index": 59,
+      "key": "61-1_CR60",
+      "locator": "186",
+      "year": 2012
+    },
+    {
+      "container_name": "Colloids Surf B Biointerfaces",
+      "extra": {
+        "authors": [
+          "CA Jaleel"
+        ],
+        "doi": "10.1016/j.colsurfb.2007.06.010",
+        "unstructured": "Jaleel CA, Manivannan P, Sankar B, Kishorekumar A, Gopi R, Somasundaram R, Panneerselvam R (2007) Induction of drought stress tolerance by ketoconazole in Catharanthus roseus is mediated by enhanced antioxidant potentials and secondary metabolite accumulation. Colloids Surf B Biointerfaces 60(2):201–206. https://doi.org/10.1016/j.colsurfb.2007.06.010",
+        "volume": "60"
+      },
+      "index": 60,
+      "key": "61-1_CR61",
+      "locator": "201",
+      "year": 2007
+    },
+    {
+      "container_name": "Plant Cell Tissue Org Cult",
+      "extra": {
+        "authors": [
+          "AM Shohael"
+        ],
+        "doi": "10.1007/s11240-005-9075-x",
+        "unstructured": "Shohael AM, Ali MB, Yu KW, Hahn EJ (2005) Effect of temperature on secondary metabolite production and antioxidant enzyme activities in Eleutherococcus senticosus somatic embryos. Plant Cell Tissue Org Cult 85(2):219–228",
+        "volume": "85"
+      },
+      "index": 61,
+      "key": "61-1_CR62",
+      "locator": "219",
+      "year": 2005
+    },
+    {
+      "container_name": "Plant Cell Tissue Org Cult",
+      "extra": {
+        "authors": [
+          "G Trejo-Tapia"
+        ],
+        "doi": "10.1023/a:1011684619614",
+        "unstructured": "Trejo-Tapia G, Jimenez-Aparicio A, Rodriguez-Monroy M, De Jesus-Sanchez A, Gutierrez-Lopez G (2001) Influence of cobalt and other microelements on the production of betalains and the growth of suspension cultures of Beta vulgaris. Plant Cell Tissue Org Cult 67(1): 19–23. https://doi.org/10.1023/A:1011684619614",
+        "volume": "67"
+      },
+      "index": 62,
+      "key": "61-1_CR63",
+      "locator": "19",
+      "year": 2001
+    },
+    {
+      "container_name": "Plant Sci",
+      "extra": {
+        "authors": [
+          "Z Zheng"
+        ],
+        "doi": "10.1016/j.plantsci.2003.10.022",
+        "unstructured": "Zheng Z, Wu M (2004) Cadmium treatment enhances the production of alkaloid secondary metabolites in Catharanthus roseus. Plant Sci 166(2):507–514. https://doi.org/10.1016/j.plantsci.2003.10.022",
+        "volume": "166"
+      },
+      "index": 63,
+      "key": "61-1_CR64",
+      "locator": "507",
+      "year": 2004
+    },
+    {
+      "container_name": "Enzyme Microb Technol",
+      "extra": {
+        "authors": [
+          "SI Pitta-Alvarez"
+        ],
+        "doi": "10.1016/s0141-0229(99)00137-4",
+        "issue": "2–4",
+        "unstructured": "Pitta-Alvarez SI, Spollansky TC, Giulietti AM (2000) The influence of different biotic and abiotic elicitors on the production and profile of tropane alkaloids in hairy root cultures of Brugmansia candida. Enzyme Microb Technol 26(2–4):252–258",
+        "volume": "26"
+      },
+      "index": 64,
+      "key": "61-1_CR65",
+      "locator": "252",
+      "year": 2000
+    },
+    {
+      "container_name": "J Plant Physiol",
+      "extra": {
+        "authors": [
+          "W Maksymiec"
+        ],
+        "doi": "10.1016/j.jplph.2005.01.013",
+        "issue": "12",
+        "unstructured": "Maksymiec W, Wianowska D, Dawidowicz AL, Radkiewicz S, Mardarowicz M, Krupa Z (2005) The level of jasmonic acid in Arabidopsis thaliana and Phaseolus coccineus plants under heavy metal stress. J Plant Physiol 162(12):1338–1346. https://doi.org/10.1016/j.jplph.2005.01.013",
+        "volume": "162"
+      },
+      "index": 65,
+      "key": "61-1_CR66",
+      "locator": "1338",
+      "year": 2005
+    },
+    {
+      "container_name": "Biosci Biotechnol Biochem",
+      "extra": {
+        "authors": [
+          "R Rakwal"
+        ],
+        "doi": "10.1271/bbb.60.1046",
+        "unstructured": "Rakwal R, Tamogami S, Kodama O (1996) Role of jasmonic acid as a signaling molecule in copper chloride-elicited rice phytoalexin production. Biosci Biotechnol Biochem 60(6): 1046–1048. https://doi.org/10.1271/bbb.60.1046",
+        "volume": "60"
+      },
+      "index": 66,
+      "key": "61-1_CR67",
+      "locator": "1046",
+      "year": 1996
+    },
+    {
+      "container_name": "Journal of Experimental Botany",
+      "extra": {
+        "authors": [
+          "S. Neill"
+        ],
+        "doi": "10.1093/jxb/erm293",
+        "unstructured": "Neill S, Barros R, Bright J, Desikan R, Hancock J, Harrison J, … Wilson I (2008) Nitric oxide, stomatal closure, and abiotic stress. J Exp Bot 9(2):165–176. https://doi.org/10.1093/jxb/erm293",
+        "volume": "59"
+      },
+      "index": 67,
+      "key": "61-1_CR68",
+      "locator": "165",
+      "year": 2008
+    },
+    {
+      "container_name": "Plant Physiol",
+      "extra": {
+        "authors": [
+          "C Garcı́a-Mata"
+        ],
+        "doi": "10.1104/pp.126.3.1196",
+        "unstructured": "Garcı́a-Mata C, Lamattina L (2001) Nitric oxide induces stomatal closure and enhances the adaptive plant responses against drought stress. Plant Physiol 126(3):1196–1204",
+        "volume": "126"
+      },
+      "index": 68,
+      "key": "61-1_CR69",
+      "locator": "1196",
+      "year": 2001
+    },
+    {
+      "container_name": "J Exp Bot",
+      "extra": {
+        "authors": [
+          "E Planchet"
+        ],
+        "doi": "10.1093/jxb/eru088",
+        "unstructured": "Planchet E, Verdu I, Delahaie J, Cukier C, Girard C, Morère-Le Paven MC, Limami AM (2014) Abscisic acid-induced nitric oxide and proline accumulation in independent pathways under water-deficit stress during seedling establishment in Medicago truncatula. J Exp Bot 65(8):2161–2170. https://doi.org/10.1093/jxb/eru088",
+        "volume": "65"
+      },
+      "index": 69,
+      "key": "61-1_CR70",
+      "locator": "2161",
+      "year": 2014
+    },
+    {
+      "container_name": "Plant Physiol Biochem",
+      "extra": {
+        "authors": [
+          "WB Liao"
+        ],
+        "doi": "10.1016/j.plaphy.2012.06.012",
+        "unstructured": "Liao WB, Huang GB, Yu JH, Zhang ML (2012) Nitric oxide and hydrogen peroxide alleviate drought stress in marigold explants and promote its adventitious root development. Plant Physiol Biochem 58:6–15. https://doi.org/10.1016/j.plaphy.2012.06.012",
+        "volume": "58"
+      },
+      "index": 70,
+      "key": "61-1_CR71",
+      "year": 2012
+    },
+    {
+      "container_name": "Agron Sustain Dev",
+      "extra": {
+        "authors": [
+          "M Farooq"
+        ],
+        "doi": "10.1051/agro:2008021",
+        "unstructured": "Farooq M, Wahid A, Kobayashi N, Fujita D, Basra SMA (2009) Plant drought stress: effects, mechanisms and management. Agron Sustain Dev 29:185–212. https://doi.org/10.1051/agro:2008021",
+        "volume": "29"
+      },
+      "index": 71,
+      "key": "61-1_CR72",
+      "locator": "185",
+      "year": 2009
+    },
+    {
+      "container_name": "Front Agric",
+      "extra": {
+        "authors": [
+          "H Fan"
+        ],
+        "doi": "10.1007/s11703-007-0052-5",
+        "unstructured": "Fan H, Guo S, Jiao Y, Zhang R, Li J (2007) Effects of exogenous nitric oxide on growth, active oxygen species metabolism, and photosynthetic characteristics in cucumber seedlings under NaCl stress. Front Agric 1(3):308–314. https://doi.org/10.1007/s11703-007-0052-5"
+      },
+      "index": 72,
+      "key": "61-1_CR73",
+      "locator": "308",
+      "year": 2007
+    },
+    {
+      "container_name": "Plant Sci",
+      "extra": {
+        "authors": [
+          "A Uchida"
+        ],
+        "doi": "10.1016/s0168-9452(02)00159-0",
+        "unstructured": "Uchida A, Jagendorf A, Hibino T, Takabe T (2002) Effects of hydrogen peroxide and nitric oxide on both salt and heat stress tolerance in rice. Plant Sci 163:515–523. https://doi.org/10.1016/S0168-9452(02)00159-0",
+        "volume": "163"
+      },
+      "index": 73,
+      "key": "61-1_CR74",
+      "locator": "515",
+      "year": 2002
+    },
+    {
+      "container_name": "Front Plant Sci",
+      "extra": {
+        "authors": [
+          "M Fatima"
+        ],
+        "doi": "10.3389/fpls.2016.00521",
+        "unstructured": "Fatima M, Masood A, Per TS, Khan NA (2016) Nitric oxide alleviates salt stress inhibited photosynthetic performance by interacting with sulfur assimilation in mustard. Front Plant Sci 7:521. https://doi.org/10.3389/fpls.2016.00521"
+      },
+      "index": 74,
+      "key": "61-1_CR75",
+      "locator": "521",
+      "year": 2016
+    },
+    {
+      "container_name": "S Afr J Bot",
+      "extra": {
+        "authors": [
+          "I Egbichi"
+        ],
+        "doi": "10.1016/j.sajb.2013.11.002",
+        "unstructured": "Egbichi I, Keyster M, Ludidi N (2014) Effect of exogenous application of nitric oxide on salt stress responses of soybean. S Afr J Bot 90:131–136. https://doi.org/10.1016/j.sajb.2013.11.002",
+        "volume": "90"
+      },
+      "index": 75,
+      "key": "61-1_CR76",
+      "locator": "131",
+      "year": 2014
+    },
+    {
+      "extra": {
+        "doi": "10.4067/s0718-95162014005000001",
+        "unstructured": "Dong YJ, Jinc SS, Liu S, Xu LL, Kong J (2014) Effects of exogenous nitric oxide on growth of cotton seedlings under NaCl stress. J Soil Sci Plant Nutr 14(1). https://doi.org/10.4067/S0718-95162014005000001"
+      },
+      "index": 76,
+      "key": "61-1_CR77"
+    },
+    {
+      "extra": {
+        "doi": "10.3389/fpls.2016.01652",
+        "unstructured": "Liu X, Liu B, Xue S, Cai Y, Qi W, Jian C, … Ren H (2016) Cucumber (Cucumis sativus L.) nitric oxide synthase associated gene1 (CsNOA1) plays a role in chilling stress. Front Plant Sci 11(7):1652. https://doi.org/10.3389/fpls.2016.01652"
+      },
+      "index": 77,
+      "key": "61-1_CR78"
+    },
+    {
+      "container_name": "Plant, Cell & Environment",
+      "extra": {
+        "authors": [
+          "MOUNIRA CHAKI"
+        ],
+        "doi": "10.1111/j.1365-3040.2011.02376.x",
+        "issue": "11",
+        "unstructured": "Chaki M, Valderrama R, Fernández-Ocaña AM, Carreras A, Gómez-Rodríguez MV, López-Jaramillo JVIER, … Corpas FJ (2011) High temperature triggers the metabolism of S-nitrosothiols in sunflower mediating a process of nitrosative stress which provokes the inhibition of ferredoxin–NADP reductase by tyrosine nitration. Plant Cell Environ 34(11): 1803–1818. https://doi.org/10.1111/j.1365-3040.2011.02376.x",
+        "volume": "34"
+      },
+      "index": 78,
+      "key": "61-1_CR79",
+      "locator": "1803",
+      "year": 2011
+    },
+    {
+      "container_name": "Plant, Cell & Environment",
+      "extra": {
+        "authors": [
+          "MORAD AIRAKI"
+        ],
+        "doi": "10.1111/j.1365-3040.2011.02310.x",
+        "unstructured": "Airaki M, Leterrier M, Mateos RM, Valderrama R, Chaki M, Barroso JB, … Corpas FJ (2012) Metabolism of reactive oxygen species and reactive nitrogen species in pepper (Capsicum annuum L.) plants under low temperature stress. Plant Cell Environ 35(2):281–295. https://doi.org/10.1111/j.1365-3040.2011.02310.x",
+        "volume": "35"
+      },
+      "index": 79,
+      "key": "61-1_CR80",
+      "locator": "281",
+      "year": 2011
+    },
+    {
+      "container_name": "Environ Exp Bot",
+      "extra": {
+        "authors": [
+          "MFMR Ashraf"
+        ],
+        "doi": "10.1016/j.envexpbot.2005.12.006",
+        "unstructured": "Ashraf MFMR, Foolad M (2007) Roles of glycine betaine and proline in improving plant abiotic stress resistance. Environ Exp Bot 59:206–216. https://doi.org/10.1016/j.envexpbot.2005.12.006",
+        "volume": "59"
+      },
+      "index": 80,
+      "key": "61-1_CR81",
+      "locator": "206",
+      "year": 2007
+    },
+    {
+      "container_name": "Plant Physiol Biochem",
+      "extra": {
+        "authors": [
+          "V Ziogas"
+        ],
+        "doi": "10.1016/j.plaphy.2013.04.004",
+        "unstructured": "Ziogas V, Tanou G, Filippou P, Diamantidis G, Vasilakakis M, Fotopoulos V, Molassiotis A (2013) Nitrosative responses in citrus plants exposed to six abiotic stress conditions. Plant Physiol Biochem 68:118–126. https://doi.org/10.1016/j.plaphy.2013.04.004",
+        "volume": "68"
+      },
+      "index": 81,
+      "key": "61-1_CR82",
+      "locator": "118",
+      "year": 2013
+    },
+    {
+      "container_name": "Plant Physiol Biochem",
+      "extra": {
+        "authors": [
+          "K Chen"
+        ],
+        "doi": "10.1016/j.plaphy.2013.04.004",
+        "unstructured": "Chen K, Chen L, Fan J, Fu J (2013) Alleviation of heat damage to photosystem II by nitric oxide in tall fescue. Plant Physiol Biochem 68:118–126. https://doi.org/10.1016/j.plaphy.2013.04.004",
+        "volume": "68"
+      },
+      "index": 82,
+      "key": "61-1_CR83",
+      "locator": "118",
+      "year": 2013
+    },
+    {
+      "container_name": "Ecotoxicology",
+      "extra": {
+        "authors": [
+          "M Hasanuzzaman"
+        ],
+        "doi": "10.1007/s10646-013-1050-4",
+        "unstructured": "Hasanuzzaman M, Fujita M (2013) Exogenous sodium nitroprusside alleviates arsenic-induced oxidative stress in wheat (Triticum aestivum L.) seedlings by enhancing antioxidant defense and glyoxalase system. Ecotoxicology 22(3):584–596. https://doi.org/10.1007/s10646-013-1050-4",
+        "volume": "22"
+      },
+      "index": 83,
+      "key": "61-1_CR84",
+      "locator": "584",
+      "year": 2013
+    },
+    {
+      "container_name": "Acta Physiol Plant",
+      "extra": {
+        "authors": [
+          "M Kopyra"
+        ],
+        "doi": "10.1007/s11738-006-0048-4",
+        "unstructured": "Kopyra M, Stachon-Wilk M, Gwozez EA (2006) Effect of exogenous nitric oxide on the anti oxidant capacity of cadmium-treated soybean cell suspension. Acta Physiol Plant 28:525–536. https://doi.org/10.1007/s11738-006-0048-4",
+        "volume": "28"
+      },
+      "index": 84,
+      "key": "61-1_CR85",
+      "locator": "525",
+      "year": 2006
+    },
+    {
+      "container_name": "Role of nitric oxide in heavy metal stress",
+      "extra": {
+        "authors": [
+          "R Cerana"
+        ],
+        "doi": "10.1007/978-3-319-17804-2_12",
+        "unstructured": "Cerana R, Malerba M (2015) Role of nitric oxide in heavy metal stress. Springer, Cham, pp 181–192. https://doi.org/10.1007/978-3-319-17804-2_12",
+        "volume-title": "Role of nitric oxide in heavy metal stress"
+      },
+      "index": 85,
+      "key": "61-1_CR86",
+      "locator": "181",
+      "year": 2015
+    },
+    {
+      "container_name": "New Phytol",
+      "extra": {
+        "authors": [
+          "C Sun"
+        ],
+        "doi": "10.1111/nph.12597",
+        "unstructured": "Sun C, Lu L, Liu L, Liu W, Yu Y, Liu X, Hu Y, Jin C, Lin X (2014) Nitrate reductase-mediated early nitric oxide burst alleviates oxidative damage induced by aluminum through enhancement of antioxidant defenses in roots of wheat (Triticum aestivum). New Phytol 201(4): 1240–1250. https://doi.org/10.1111/nph.12597",
+        "volume": "201"
+      },
+      "index": 86,
+      "key": "61-1_CR87",
+      "locator": "1240",
+      "year": 2014
+    },
+    {
+      "container_name": "Plant J",
+      "extra": {
+        "authors": [
+          "R Ahlfors"
+        ],
+        "doi": "10.1111/j.1365-313x.2008.03756.x",
+        "unstructured": "Ahlfors R, Brosché M, Kollist H, Kangasjärvi J (2009) Nitric oxide modulates ozone-induced cell death, hormone biosynthesis and gene expression in Arabidopsis thaliana. Plant J 58(1):1–12. https://doi.org/10.1111/j.1365-313X.2008.03756.x",
+        "volume": "58"
+      },
+      "index": 87,
+      "key": "61-1_CR88",
+      "year": 2009
+    },
+    {
+      "container_name": "PLoS ONE",
+      "extra": {
+        "authors": [
+          "Elisa Vanzo"
+        ],
+        "doi": "10.1371/journal.pone.0106886",
+        "unstructured": "Vanzo E, Ghirardo A, Merl-Pham J, Lindermayr C, Heller W, Hauck SM, … Schnitzler JP (2014) S-nitroso-proteome in poplar leaves in response to acute ozone stress. PLoS One 9(9):e106886. https://doi.org/10.1371/journal.pone.0106886"
+      },
+      "index": 88,
+      "key": "61-1_CR89",
+      "locator": "e106886",
+      "year": 2014
+    },
+    {
+      "container_name": "Tree Physiol",
+      "extra": {
+        "authors": [
+          "M Zhang"
+        ],
+        "doi": "10.1093/treephys/tpr070",
+        "unstructured": "Zhang M, Dong JF, Jin HH, Sun LN, Xu MJ (2011) Ultraviolet-B-induced flavonoid accumulation in Betula pendula leaves is dependent upon nitrate reductase-mediated nitric oxide signaling. Tree Physiol 31(8):798–807. https://doi.org/10.1093/treephys/tpr070",
+        "volume": "31"
+      },
+      "index": 89,
+      "key": "61-1_CR90",
+      "locator": "798",
+      "year": 2011
+    },
+    {
+      "container_name": "Physiol Plant",
+      "extra": {
+        "authors": [
+          "YA Krasylenko"
+        ],
+        "doi": "10.1111/j.1399-3054.2011.01530.x",
+        "unstructured": "Krasylenko YA, Yemets AI, Sheremet YA, Blume YB (2012) Nitric oxide as a critical factor for perception of UV-B irradiation by microtubules in Arabidopsis. Physiol Plant 145(4): 505–515. https://doi.org/10.1111/j.1399-3054.2011.01530.x",
+        "volume": "145"
+      },
+      "index": 90,
+      "key": "61-1_CR91",
+      "locator": "505",
+      "year": 2012
+    },
+    {
+      "container_name": "Plant Sci",
+      "extra": {
+        "authors": [
+          "V Tossi"
+        ],
+        "doi": "10.1016/j.plantsci.2012.05.012",
+        "unstructured": "Tossi V, Lombardo C, Cassia R, Lamattina L (2012) Nitric oxide and flavonoids are systemically induced by UV-B in maize leaves. Plant Sci 103:193–194. https://doi.org/10.1016/j.plantsci.2012.05.012",
+        "volume": "103"
+      },
+      "index": 91,
+      "key": "61-1_CR92",
+      "locator": "193",
+      "year": 2012
+    },
+    {
+      "container_name": "Plant, Cell & Environment",
+      "extra": {
+        "authors": [
+          "JIN-XIA CUI"
+        ],
+        "doi": "10.1111/j.1365-3040.2010.02248.x",
+        "unstructured": "Cui JX, Zhou YH, Ding JG, Xia XJ, Shi KAI, Chen SC, … Yu JQ (2011) Role of nitric oxide in hydrogen peroxide-dependent induction of abiotic stress tolerance by brassinosteroids in cucumber. Plant Cell Environ 34(2):347–358. https://doi.org/10.1111/j.1365-3040.2010.02248.x",
+        "volume": "34"
+      },
+      "index": 92,
+      "key": "61-1_CR93",
+      "locator": "347",
+      "year": 2010
+    },
+    {
+      "container_name": "Prog Nat Sci",
+      "extra": {
+        "authors": [
+          "MJ Xu"
+        ],
+        "issue": "12",
+        "unstructured": "Xu MJ (2007) Nitric oxide: a potential key point of the signaling network leading to plant secondary metabolite biosynthesis. Prog Nat Sci 17(12):1397–1404",
+        "volume": "17"
+      },
+      "index": 93,
+      "key": "61-1_CR94",
+      "locator": "1397",
+      "year": 2007
+    },
+    {
+      "container_name": "Appl Microbiol Biotechnol",
+      "extra": {
+        "authors": [
+          "B Zhang"
+        ],
+        "doi": "10.1007/s00253-011-3658-8",
+        "unstructured": "Zhang B, Zheng LP, Wang JW (2012) Nitric oxide elicitation for secondary metabolite production in cultured plant cells. Appl Microbiol Biotechnol 93(2):455–466. https://doi.org/10.1007/s00253-011-3658-8",
+        "volume": "93"
+      },
+      "index": 94,
+      "key": "61-1_CR95",
+      "locator": "455",
+      "year": 2012
+    },
+    {
+      "container_name": "Appl Microbiol Biotechnol",
+      "extra": {
+        "authors": [
+          "M Xu"
+        ],
+        "doi": "10.1007/s00253-004-1737-9",
+        "unstructured": "Xu M, Dong J (2005) Elicitor-induced nitric oxide burst is essential for triggering catharanthine synthesis in Catharanthus roseus suspension cells. Appl Microbiol Biotechnol 67(1):40–44. https://doi.org/10.1007/s00253-004-1737-9",
+        "volume": "67"
+      },
+      "index": 95,
+      "key": "61-1_CR96",
+      "locator": "40",
+      "year": 2005
+    },
+    {
+      "container_name": "Chin Sci Bull",
+      "extra": {
+        "authors": [
+          "XM ZhangJ"
+        ],
+        "unstructured": "ZhangJ XM (2006) Effects of nitric oxide and methyljasmonate on the baicalin production and cell growth in suspension cultures of Scutellaria baicalensis. Chin Sci Bull 23:374–379",
+        "volume": "23"
+      },
+      "index": 96,
+      "key": "61-1_CR97",
+      "locator": "374",
+      "year": 2006
+    },
+    {
+      "container_name": "Acta Physiol Plant",
+      "extra": {
+        "authors": [
+          "W Liao"
+        ],
+        "doi": "10.1007/s11738-009-0367-3",
+        "unstructured": "Liao W, Xiao H, Zhang M (2009) Role and relationship of nitric oxide and hydrogen peroxide in adventitious root development of marigold. Acta Physiol Plant 31(6):1279–1289. https://doi.org/10.1007/s11738-009-0367-3",
+        "volume": "31"
+      },
+      "index": 97,
+      "key": "61-1_CR98",
+      "locator": "1279",
+      "year": 2009
+    },
+    {
+      "container_name": "J Integr Plant Biol",
+      "extra": {
+        "authors": [
+          "MJ Xu"
+        ],
+        "doi": "10.1111/j.1744-7909.2007.00570.x",
+        "unstructured": "Xu MJ, Dong JF (2008) Synergistic action between jasmonic acid and nitric oxide in inducing matrine accumulation of Sophora flavescens suspension cells. J Integr Plant Biol 50(1): 92–101. https://doi.org/10.1111/j.1744-7909.2007.00570.x",
+        "volume": "50"
+      },
+      "index": 98,
+      "key": "61-1_CR99",
+      "locator": "92",
+      "year": 2008
+    },
+    {
+      "container_name": "Plant and Cell Physiology",
+      "extra": {
+        "authors": [
+          "S.-J. Wu"
+        ],
+        "doi": "10.1093/pcp/pcn178",
+        "unstructured": "Wu SJ, Qi JL, Zhang WJ, Liu SH, Xiao FH, Zhang MS, … Shen HG (2008) Nitric oxide regulates shikonin formation in suspension-cultured Onosma paniculatum cells. Plant Cell Physiol 50(1):118–128. https://doi.org/10.1093/pcp/pcn178",
+        "volume": "50"
+      },
+      "index": 99,
+      "key": "61-1_CR100",
+      "locator": "118",
+      "year": 2008
+    },
+    {
+      "container_name": "J Microbial Biochem Technol",
+      "extra": {
+        "authors": [
+          "J Ai"
+        ],
+        "unstructured": "Ai J, Zhou B, Jia J (2009) The effects of NO and AgNO3 on cell growth and salidroside synthesis in Rhodiola sachalinensis A. Bor. cell suspension culture. J Microbial Biochem Technol 1(1):11–14"
+      },
+      "index": 100,
+      "key": "61-1_CR101",
+      "locator": "11",
+      "year": 2009
+    },
+    {
+      "container_name": "J Integr Plant Biol",
+      "extra": {
+        "authors": [
+          "LP Zheng"
+        ],
+        "doi": "10.1111/j.1744-7909.2007.00589.x",
+        "unstructured": "Zheng LP, Guo YT, Wang JW, Tan RX (2008) Nitric oxide potentiates oligosaccharide-induced artemisinin production in Artemisia annua hairy roots. J Integr Plant Biol 50(1): 49–55. https://doi.org/10.1111/j.1744-7909.2007.00589.x",
+        "volume": "50"
+      },
+      "index": 101,
+      "key": "61-1_CR102",
+      "locator": "49",
+      "year": 2008
+    },
+    {
+      "container_name": "Process Biochem",
+      "extra": {
+        "authors": [
+          "Y Wang"
+        ],
+        "doi": "10.1016/j.procbio.2010.11.020",
+        "unstructured": "Wang Y, Dai C, Zhao Y, Peng Y (2011) Fungal endophyte-induced volatile oil accumulation in Atractylodes lancea plantlets is mediated by nitric oxide, salicylic acid and hydrogen peroxide. Process Biochem 46(3):730–735. https://doi.org/10.1016/j.procbio.2010.11.020",
+        "volume": "46"
+      },
+      "index": 102,
+      "key": "61-1_CR103",
+      "locator": "730",
+      "year": 2011
+    },
+    {
+      "container_name": "Sheng Wu Gong Cheng Xue Bao",
+      "extra": {
+        "authors": [
+          "F Fang"
+        ],
+        "issue": "10",
+        "unstructured": "Fang F, Dai C, Wang Y (2009) Role of nitric oxide and hydrogen peroxide in the essential oil increasing of suspension cells from Atractylodes lancea induced by endophytic fungal Cunninghamella sp. AL4 elicitor. Sheng Wu Gong Cheng Xue Bao 25(10):1490–1496",
+        "volume": "25"
+      },
+      "index": 103,
+      "key": "61-1_CR104",
+      "locator": "1490",
+      "year": 2009
+    },
+    {
+      "container_name": "Plant Physiol",
+      "extra": {
+        "authors": [
+          "MJ Xu"
+        ],
+        "doi": "10.1104/pp.105.066407",
+        "unstructured": "Xu MJ, Dong JF, Zhu MY (2005) Nitric oxide mediates the fungal elicitor-induced hypericin production of Hypericum perforatum cell suspension cultures through a jasmonic-acid-dependent signal pathway. Plant Physiol 139(2):991–998. https://doi.org/10.1104/pp.105.066407",
+        "volume": "139"
+      },
+      "index": 104,
+      "key": "61-1_CR105",
+      "locator": "991",
+      "year": 2005
+    },
+    {
+      "container_name": "Plant Cell Tissue Org Cult",
+      "extra": {
+        "authors": [
+          "G Hao"
+        ],
+        "doi": "10.1007/s11240-009-9513-2",
+        "unstructured": "Hao G, Du X, Zhao F, Shi R, Wang J (2009) Role of nitric oxide in UV-B-induced activation of PAL and stimulation of flavonoid biosynthesis in Ginkgo biloba callus. Plant Cell Tissue Org Cult 97(2):175–185. https://doi.org/10.1007/s11240-009-9513-2",
+        "volume": "97"
+      },
+      "index": 105,
+      "key": "61-1_CR106",
+      "locator": "175",
+      "year": 2009
+    },
+    {
+      "container_name": "Plant Sci",
+      "extra": {
+        "authors": [
+          "Y Qu"
+        ],
+        "doi": "10.1016/j.plantsci.2006.01.003",
+        "unstructured": "Qu Y, Feng H, Wang Y, Zhang M, Cheng J, Wang X, An L (2006) Nitric oxide functions as a signal in ultraviolet-B induced inhibition of pea stems elongation. Plant Sci 170(5):994–1000. https://doi.org/10.1016/j.plantsci.2006.01.003",
+        "volume": "170"
+      },
+      "index": 106,
+      "key": "61-1_CR107",
+      "locator": "994",
+      "year": 2006
+    },
+    {
+      "container_name": "Adv Mater Res",
+      "extra": {
+        "authors": [
+          "DW Li"
+        ],
+        "doi": "10.4028/www.scientific.net/amr.1073-1076.114",
+        "unstructured": "Li DW, Li ML, Liu Y, Zu YG (2015) Effect of nitric oxide on the secondary metabolites of Taxus chinensis var. mairei under UV-B exposure. Adv Mater Res 1073:114–117. Trans Tech Publications. https://doi.org/10.4028/www.scientific.net/AMR.1073-1076.114",
+        "volume": "1073"
+      },
+      "index": 107,
+      "key": "61-1_CR108",
+      "locator": "114",
+      "year": 2015
+    },
+    {
+      "container_name": "Appl Biochem Biotechnol",
+      "extra": {
+        "authors": [
+          "S Gharibi"
+        ],
+        "doi": "10.1007/s12010-015-1909-3",
+        "unstructured": "Gharibi S, Tabatabaei BES, Saeidi G, Goli SAH (2016) Effect of drought stress on total phenolic, lipid peroxidation, and antioxidant activity of Achillea species. Appl Biochem Biotechnol 178(4):796–809. https://doi.org/10.1007/s12010-015-1909-3",
+        "volume": "178"
+      },
+      "index": 108,
+      "key": "61-1_CR109",
+      "locator": "796",
+      "year": 2016
+    },
+    {
+      "container_name": "J Plant Physiol Mol Biol",
+      "extra": {
+        "authors": [
+          "GP Hao"
+        ],
+        "unstructured": "Hao GP, Du XH, Hai RJ (2007) Exogenous nitric oxide accelerates soluble sugar, proline and secondary metabolite synthesis in Ginkgo biloba under drought stress. J Plant Physiol Mol Biol 33:499–506",
+        "volume": "33"
+      },
+      "index": 109,
+      "key": "61-1_CR110",
+      "locator": "499",
+      "year": 2007
+    },
+    {
+      "container_name": "Acta Physiol Plant",
+      "extra": {
+        "authors": [
+          "A Krol"
+        ],
+        "doi": "10.1007/s11738-014-1526-8",
+        "unstructured": "Krol A, Amarowicz R, Weidner S (2014) Changes in the composition of phenolic compounds and antioxidant properties of grapevine roots and leaves (Vitis vinifera L.) under continuous of long-term drought stress. Acta Physiol Plant 36(6):1491–1499. https://doi.org/10.1007/s11738-014-1526-8",
+        "volume": "36"
+      },
+      "index": 110,
+      "key": "61-1_CR111",
+      "locator": "1491",
+      "year": 2014
+    },
+    {
+      "container_name": "Food Chem",
+      "extra": {
+        "authors": [
+          "ST Du"
+        ],
+        "doi": "10.1016/j.foodchem.2014.10.115",
+        "unstructured": "Du ST, Liu Y, Zhang P, Liu HJ, Zhang XQ, Zhang RR (2015) Atmospheric application of trace amounts of nitric oxide enhances tolerance to salt stress and improves nutritional quality in spinach (Spinacia oleracea L.). Food Chem 173:905–911",
+        "volume": "173"
+      },
+      "index": 111,
+      "key": "61-1_CR112",
+      "locator": "905",
+      "year": 2015
+    },
+    {
+      "container_name": "Not Bot Horti Agrobot Cluj-Napoca",
+      "extra": {
+        "authors": [
+          "ALM Hassan"
+        ],
+        "doi": "10.15835/nbha4319793",
+        "unstructured": "Hassan ALM, Fuertes MM, Sánchez FJR, Vicente O, Boscaiu M (2015) Effects of salt and water stress on plant growth and on accumulation of osmolytes and antioxidant compounds in cherry tomato. Not Bot Horti Agrobot Cluj-Napoca 43(1):1–11. https://doi.org/10.15835/nbha4319793",
+        "volume": "43"
+      },
+      "index": 112,
+      "key": "61-1_CR113",
+      "year": 2015
+    },
+    {
+      "container_name": "Gesunde Pflanz",
+      "extra": {
+        "authors": [
+          "HI Mohamed"
+        ],
+        "doi": "10.1007/s10343-016-0363-7",
+        "unstructured": "Mohamed HI, Latif HH, Hanafy RS (2016) Influence of nitric oxide application on some biochemical aspects, endogenous hormones, minerals and phenolic compounds of Vicia faba plant grown under arsenic stress. Gesunde Pflanz 68(2):99–107. https://doi.org/10.1007/s10343-016-0363-7",
+        "volume": "68"
+      },
+      "index": 113,
+      "key": "61-1_CR114",
+      "locator": "99",
+      "year": 2016
+    },
+    {
+      "container_name": "Plant Cell Physiol",
+      "extra": {
+        "authors": [
+          "LP Zhang"
+        ],
+        "doi": "10.1093/pcp/pcn017",
+        "unstructured": "Zhang LP, Mehta SK, Liu ZP, Yang ZM (2008) Copper-induced proline synthesis is associated with nitric oxide generation in Chlamydomonas reinhardtii. Plant Cell Physiol 49(3):411–419. https://doi.org/10.1093/pcp/pcn017",
+        "volume": "49"
+      },
+      "index": 114,
+      "key": "61-1_CR115",
+      "locator": "411",
+      "year": 2008
+    },
+    {
+      "container_name": "Asian J Pharm Clin Res",
+      "extra": {
+        "authors": [
+          "SK Gupta"
+        ],
+        "unstructured": "Gupta SK, Mandal P (2016) Assessment of the effect of nitric oxide and calcium ion on the therapeutic potential and oxidative stress status of fenugreek sprouts. Asian J Pharm Clin Res 9(2):271–277"
+      },
+      "index": 115,
+      "key": "61-1_CR116",
+      "locator": "271",
+      "year": 2016
+    },
+    {
+      "container_name": "Sci Hortic",
+      "extra": {
+        "authors": [
+          "K Barman"
+        ],
+        "doi": "10.1016/j.scienta.2014.03.036",
+        "unstructured": "Barman K, Siddiqui MW, Patel VB, Prasad M (2014) Nitric oxide reduces pericarp browning and preserves bioactive antioxidants in litchi. Sci Hortic 171:71–77. https://doi.org/10.1016/j.scienta.2014.03.036",
+        "volume": "171"
+      },
+      "index": 116,
+      "key": "61-1_CR117",
+      "locator": "71",
+      "year": 2014
+    },
+    {
+      "container_name": "Not Bot Horti Agrobot Cluj-Napoca",
+      "extra": {
+        "authors": [
+          "HS El-Beltagi"
+        ],
+        "doi": "10.15835/nbha4319660",
+        "unstructured": "El-Beltagi HS, Ahmed OK, Hegazy AE (2015) Molecular role of nitric oxide in secondary products production in Ginkgo biloba cell suspension culture. Not Bot Horti Agrobot Cluj-Napoca 43(1):12–18",
+        "volume": "43"
+      },
+      "index": 117,
+      "key": "61-1_CR118",
+      "locator": "12",
+      "year": 2015
+    },
+    {
+      "container_name": "Appl Microbiol Biotechnol",
+      "extra": {
+        "authors": [
+          "JW Wang"
+        ],
+        "doi": "10.1007/s00253-009-2090-9",
+        "unstructured": "Wang JW, Zheng LP, Zhang B, Zou T (2009) Stimulation of artemisinin synthesis by combined cerebroside and nitric oxide elicitation in Artemisia annua hairy roots. Appl Microbiol Biotechnol 85(2):285–292. https://doi.org/10.1007/s00253-009-2090-9",
+        "volume": "85"
+      },
+      "index": 118,
+      "key": "61-1_CR119",
+      "locator": "285",
+      "year": 2009
+    },
+    {
+      "container_name": "Plant Cell Physiol",
+      "extra": {
+        "authors": [
+          "JW Wang"
+        ],
+        "doi": "10.1093/pcp/pci098",
+        "unstructured": "Wang JW, Wu JY (2005) Nitric oxide is involved in methyl jasmonate-induced defense responses and secondary metabolism activities of Taxus cells. Plant Cell Physiol 46(6): 923–930. https://doi.org/10.1093/pcp/pci098",
+        "volume": "46"
+      },
+      "index": 119,
+      "key": "61-1_CR120",
+      "locator": "923",
+      "year": 2005
+    },
+    {
+      "container_name": "Funct Plant Biol",
+      "extra": {
+        "authors": [
+          "X Hu"
+        ],
+        "doi": "10.1071/fp03061",
+        "unstructured": "Hu X, Neill SJ, Cai W, Tang Z (2003) Nitric oxide mediates elicitor-induced saponin synthesis in cell cultures of Panax ginseng. Funct Plant Biol 30(8):901–907. https://doi.org/10.1071/FP03061",
+        "volume": "30"
+      },
+      "index": 120,
+      "key": "61-1_CR121",
+      "locator": "901",
+      "year": 2003
+    },
+    {
+      "container_name": "Plant Cell Tissue Org Cult",
+      "extra": {
+        "authors": [
+          "V Sarropoulou"
+        ],
+        "doi": "10.1007/s11240-016-1139-6",
+        "unstructured": "Sarropoulou V, Maloupa E (2017) Effect of the NO donor \"sodium nitroprusside\" (SNP), the ethylene inhibitor \"cobalt chloride\" (CoCl2) and the antioxidant vitamin E \"α-tocopherol\" on in vitro shoot proliferation of Sideritis raeseri Boiss. & Heldr. subsp. raeseri. Plant Cell Tissue Org Cult 128(3):619–629. https://doi.org/10.1007/s11240-016-1139-6",
+        "volume": "128"
+      },
+      "index": 121,
+      "key": "61-1_CR122",
+      "locator": "619",
+      "year": 2017
+    },
+    {
+      "container_name": "Plant J",
+      "extra": {
+        "authors": [
+          "I Foissner"
+        ],
+        "doi": "10.1046/j.1365-313x.2000.00835.x",
+        "unstructured": "Foissner I, Wendehenne D, Langebartels C, Durner J (2000) In vivo imaging of an elicitor-induced nitric oxide burst in tobacco. Plant J 23(6):817–824. https://doi.org/10.1046/j.1365-313X.2000.00835.x",
+        "volume": "23"
+      },
+      "index": 122,
+      "key": "61-1_CR123",
+      "locator": "817",
+      "year": 2000
+    },
+    {
+      "container_name": "Plant Physiology",
+      "extra": {
+        "authors": [
+          "Adriana Pružinská"
+        ],
+        "doi": "10.1104/pp.105.065870",
+        "unstructured": "Pružinská A, Tanner G, Aubry S, Anders I, Moser S, Müller T, … Hörtensteiner S (2005) Chlorophyll breakdown in senescent Arabidopsis leaves. Characterization of chlorophyll catabolites and of chlorophyll catabolic enzymes involved in the degreening reaction. Plant Physiol 139(1):52–63. https://doi.org/10.1104/pp.105.065870",
+        "volume": "139"
+      },
+      "index": 123,
+      "key": "61-1_CR124",
+      "locator": "52",
+      "year": 2005
+    },
+    {
+      "container_name": "Proc Natl Acad Sci",
+      "extra": {
+        "authors": [
+          "J Durner"
+        ],
+        "doi": "10.1073/pnas.95.17.10328",
+        "issue": "17",
+        "unstructured": "Durner J, Wendehenne D, Klessig DF (1998) Defense gene induction in tobacco by nitric oxide, cyclic GMP, and cyclic ADP-ribose. Proc Natl Acad Sci 95(17):10328–10333",
+        "volume": "95"
+      },
+      "index": 124,
+      "key": "61-1_CR125",
+      "locator": "10328",
+      "year": 1998
+    },
+    {
+      "container_name": "New Phytol",
+      "extra": {
+        "authors": [
+          "J Zhao"
+        ],
+        "doi": "10.1111/j.1469-8137.2007.02109.x",
+        "unstructured": "Zhao J, Fujita K, Sakai K (2007) Reactive oxygen species, nitric oxide, and their interactions play different roles in Cupressus lusitanica cell death and phytoalexin biosynthesis. New Phytol 175(2):215–229. https://doi.org/10.1111/j.1469-8137.2007.02109.x",
+        "volume": "175"
+      },
+      "index": 125,
+      "key": "61-1_CR126",
+      "locator": "215",
+      "year": 2007
+    },
+    {
+      "container_name": "Plant Cell Rep",
+      "extra": {
+        "authors": [
+          "ZS Liang"
+        ],
+        "doi": "10.1007/s00299-011-1208-6",
+        "unstructured": "Liang ZS, Yang DF, Liang X, Zhang YJ, Liu Y, Liu FH (2012) Roles of reactive oxygen species in methyl jasmonate and nitric oxide-induced tanshinone production in Salvia miltiorrhiza hairy roots. Plant Cell Rep 5:873–883. https://doi.org/10.1007/s00299-011-1208-6"
+      },
+      "index": 126,
+      "key": "61-1_CR127",
+      "locator": "873",
+      "year": 2012
+    },
+    {
+      "container_name": "Int J Mol Sci",
+      "extra": {
+        "authors": [
+          "M Arfan"
+        ],
+        "doi": "10.3390/ijms20010144",
+        "unstructured": "Arfan M, Zhang DW, Zou LJ, Luo SS, Tan WR, Zhu T, Lin HH (2019) Hydrogen peroxide and nitric oxide crosstalk mediates brassinosteroids induced cold stress tolerance in Medicago truncatula. Int J Mol Sci 20(1):144. https://doi.org/10.3390/ijms20010144",
+        "volume": "20"
+      },
+      "index": 127,
+      "key": "61-1_CR128",
+      "locator": "144",
+      "year": 2019
+    }
+  ],
+  "release_stage": "published",
+  "release_type": "chapter",
+  "release_year": 2019,
+  "revision": "d17178f6-f141-4229-bc11-465973508abc",
+  "state": "active",
+  "title": "Nitric Oxide as a Signal in Inducing Secondary Metabolites During Plant Stress",
+  "work_id": "blcywtj7irajlkwz5e6z6wojpu"
+}

@@ -1,0 +1,33 @@
+{
+  "abstracts": [],
+  "contribs": [
+    {
+      "extra": {
+        "seq": "first"
+      },
+      "index": 0,
+      "raw_name": "Joachim Reitner",
+      "role": "author"
+    }
+  ],
+  "ext_ids": {
+    "core": "33670711",
+    "doi": "10.1007/3-540-27673-4_38"
+  },
+  "extra": {
+    "container_name": "Erlangen Earth Conference Series",
+    "crossref": {
+      "type": "book-chapter"
+    }
+  },
+  "ident": "zfwf3tefajc6zdxa47vgilm7wm",
+  "pages": "731-744",
+  "publisher": "Springer-Verlag",
+  "refs": [],
+  "release_stage": "published",
+  "release_type": "chapter",
+  "revision": "03ccf3b6-7e8b-4fac-891e-2003551f5e77",
+  "state": "active",
+  "title": "Calcifying extracellular mucus substances (EMS) of Madrepora oculata — a first geobiological approach",
+  "work_id": "3rgdqpbcjrgt5mud3bnomnawva"
+}

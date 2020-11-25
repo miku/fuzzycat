@@ -1,0 +1,252 @@
+{
+  "abstracts": [
+    {
+      "content": "<jats:p>&lt;p&gt;&lt;strong&gt;Abstract.&lt;/strong&gt; The soil texture representation with the standard textural fraction triplet &lt;q&gt;sand–silt–clay&lt;/q&gt; is commonly used to estimate soil properties. The objective of this work was to test the hypothesis that other fraction sizes in the triplets may provide a better representation of soil texture for estimating some soil parameters. We estimated the cumulative particle size distribution and bulk density from an entropy-based representation of the textural triplet with experimental data for 6240 soil samples. The results supported the hypothesis. For example, simulated distributions were not significantly different from the original ones in 25 and 85&lt;span class=\"thinspace\"&gt;&lt;/span&gt;% of cases when the sand–silt–clay and &lt;q&gt;very coarse+coarse + medium sand − fine + very fine sand − silt+clay&lt;/q&gt; were used, respectively. When the same standard and modified triplets were used to estimate the average bulk density, the coefficients of determination were 0.001 and 0.967, respectively. Overall, the textural triplet selection appears to be application and data specific.&lt;/p&gt;\n                    </jats:p>",
+      "mimetype": "application/xml+jats",
+      "sha1": "7b160d44a40de5304ed25cb0dec26bf6d86b13c3"
+    }
+  ],
+  "container_id": "2ffmqowoafbkzae4g2zdu7qx6m",
+  "contribs": [
+    {
+      "extra": {
+        "seq": "first"
+      },
+      "index": 0,
+      "raw_name": "Miguel Ángel Martín",
+      "role": "author"
+    },
+    {
+      "creator_id": "hlpiwppdfnbejhct5zmjbigoca",
+      "index": 1,
+      "raw_name": "Yakov A. Pachepsky",
+      "role": "author"
+    },
+    {
+      "creator_id": "p5nczejcmzfznpxliunuceswey",
+      "index": 2,
+      "raw_name": "Carlos García-Gutiérrez",
+      "role": "author"
+    },
+    {
+      "index": 3,
+      "raw_name": "Miguel Reyes",
+      "role": "author"
+    }
+  ],
+  "ext_ids": {
+    "doi": "10.5194/se-9-159-2018"
+  },
+  "extra": {
+    "crossref": {
+      "license": [
+        {
+          "URL": "https://creativecommons.org/licenses/by/4.0/",
+          "content-version": "unspecified",
+          "delay-in-days": 0,
+          "start": "2018-02-22T00:00:00Z"
+        }
+      ],
+      "subject": [
+        "Earth-Surface Processes",
+        "Stratigraphy",
+        "Palaeontology",
+        "Soil Science",
+        "Geology",
+        "Geochemistry and Petrology",
+        "Geophysics"
+      ],
+      "type": "journal-article"
+    }
+  },
+  "ident": "75ky5xniobchzbhzwhmwhu5uoa",
+  "language": "en",
+  "pages": "159-165",
+  "publisher": "Copernicus GmbH",
+  "refs": [
+    {
+      "extra": {
+        "doi": "10.1016/s0927-7757(97)00144-1",
+        "unstructured": "Assouline, S. and Rouault, Y.: Modeling the relationships between particle and pore size distributions in multicomponent sphere packs: Application to the water retention curve, Colloid. Surface. A, 127, 201–210, https://doi.org/10.1016/S0927-7757(97)00144-1, 1997."
+      },
+      "index": 0,
+      "key": "ref1"
+    },
+    {
+      "extra": {
+        "doi": "10.1098/rspa.1985.0057",
+        "unstructured": "Barnsley, M. F. and Demko, S.: Iterated functions systems and the global construction of fractals, Proc. R. Soc. Lon. Ser.-A, 399, 243–275, https://doi.org/10.1098/rspa.1985.0057, 1985."
+      },
+      "index": 1,
+      "key": "ref2"
+    },
+    {
+      "extra": {
+        "unstructured": "Carlisle, V. W., Caldwell, R. E., Sodek III, F., Hammond, L. C., Calhoun, F. G., Granger, M. A., and Breland, H. L.: Characterization Data for Selected Florida Soils, Univ. of Florida, Gainesville, Fla, USA, 1978."
+      },
+      "index": 2,
+      "key": "ref3"
+    },
+    {
+      "extra": {
+        "unstructured": "Carlisle, V. W., Hallmark, C. T., Sodek III, F., Caldwell, R. E., Hammond, L. C., and Berkeiser, V. E.: Characterization Data For Selected Florida Soils, Soil Conservation Service, University of Florida, Institute of Food and Agricultural Sciences, Soil Sciences Department, Soil Characterization Laboratory, Riverside, CA, USA, 1981."
+      },
+      "index": 3,
+      "key": "ref4"
+    },
+    {
+      "extra": {
+        "unstructured": "Elton, J.: An ergodic theorem for iterated maps, Ergod.Theory Dyn. Syst., 7, 481–488, 1987."
+      },
+      "index": 4,
+      "key": "ref5"
+    },
+    {
+      "extra": {
+        "unstructured": "Khinchin, A. I.: Mathematical Foundation of Information Theory, Dover Publications, New York, USA, 1957."
+      },
+      "index": 5,
+      "key": "ref6"
+    },
+    {
+      "extra": {
+        "unstructured": "Kravchenko, A. and Zhang, R.: Estimating the soil water retention from particle-size distributions: a fractal approach, Soil Sci., 163, 171–179, 1998."
+      },
+      "index": 6,
+      "key": "ref7"
+    },
+    {
+      "extra": {
+        "doi": "10.1098/rspa.1998.0216",
+        "unstructured": "Martín, M. A. and Taguas, F. J.: Fractal modeling, characterization and simulation of particle-size distributions in soil, Proc. R. Soc. Lon. Ser. A, 454, 1457–1468, https://doi.org/10.1098/rspa.1998.0216, 1998."
+      },
+      "index": 7,
+      "key": "ref8"
+    },
+    {
+      "extra": {
+        "doi": "10.1016/j.geoderma.2016.09.008",
+        "unstructured": "Martín, M. A., Reyes, M., and Taguas, F. J.: Estimating soil bulk density with information metrics of soil texture, Geoderma, 287, 66–70, https://doi.org/10.1016/j.geoderma.2016.09.008, 2017a."
+      },
+      "index": 8,
+      "key": "ref9"
+    },
+    {
+      "extra": {
+        "doi": "10.1007/s10035-016-0692-3",
+        "unstructured": "Martín, M. A., Reyes, M., and Taguas, F. J.: An entropy-like parameter of particle size distributions as packing density index in complex granular media, Granul. Matter, 19, 9, https://doi.org/10.1007/s10035-016-0692-3, 2017b."
+      },
+      "index": 9,
+      "key": "ref10"
+    },
+    {
+      "extra": {
+        "doi": "10.1016/j.geoderma.2005.04.018",
+        "unstructured": "Nemes, A. and Rawls, W. J.: Evaluation of different representations of the particle-size distribution to predict soil water retention, Geoderma, 132, 47–58, https://doi.org/10.1016/j.geoderma.2005.04.018, 2006."
+      },
+      "index": 10,
+      "key": "ref11"
+    },
+    {
+      "extra": {
+        "doi": "10.1016/s0016-7061(99)00014-2",
+        "unstructured": "Nemes, A., Wösten, J. H. M., Lilly, A., and Voshaar, J. O.: Evaluation of different procedures to interpolate particle-size distributions to achieve compatibility within soil databases, Geoderma, 90, 187–202, https://doi.org/10.1016/S0016-7061(99)00014-2, 1999."
+      },
+      "index": 11,
+      "key": "ref12"
+    },
+    {
+      "extra": {
+        "doi": "10.2136/sssaj2015.02.0067",
+        "unstructured": "Pachepsky, Y. A. and Park, Y.: Saturated hydraulic conductivity of US soils grouped according to textural class and bulk density, Soil Sci. Soc. Am. J., 79, 1094–1100, https://doi.org/10.2136/sssaj2015.02.0067, 2015."
+      },
+      "index": 12,
+      "key": "ref13"
+    },
+    {
+      "extra": {
+        "unstructured": "Pachepsky, Y. A. and Rawls, W. J. (Eds.): Development of Pedotransfer Functions in Soil Hydrology, Elsevier, Amsterdam, the Netherlands, 2004."
+      },
+      "index": 13,
+      "key": "ref14"
+    },
+    {
+      "extra": {
+        "doi": "10.1016/s0378-4371(97)00571-2",
+        "unstructured": "Pastor-Satorras, R. and Wagensberg, J.: The maximum entropy principle and the nature of fractals, Physica A, 251, 291–302, https://doi.org/10.1016/S0378-4371(97)00571-2, 1998."
+      },
+      "index": 14,
+      "key": "ref15"
+    },
+    {
+      "extra": {
+        "unstructured": "Shannon, C. E.: A mathematical theory of communication, I. Bell Syst. Technol. J., 27, 379–423, 1948."
+      },
+      "index": 15,
+      "key": "ref16"
+    },
+    {
+      "extra": {
+        "doi": "10.2136/sssaj1937.03615995000100000053x",
+        "unstructured": "Shaw, T. M. and Alexander, L. T.: A note on mechanical analysis and soil texture, Soil Sci. Soc. Am. Pro., 1, 303–304, https://doi.org/10.2136/sssaj1937.03615995000100000053x, 1937."
+      },
+      "index": 16,
+      "key": "ref17"
+    },
+    {
+      "extra": {
+        "doi": "10.2136/sssaj1937.03615995000100000013x",
+        "unstructured": "Truog, E., Taylor, J. R., Pearson, R. W., Weeks, M. E., and Simonson, R. W.: Procedure for special type of mechanical and mineralogical soil analysis, Soil Sci. Soc. Am. Pro., 1, 101–112, https://doi.org/10.2136/sssaj1937.03615995000100000013x, 1936a."
+      },
+      "index": 17,
+      "key": "ref18"
+    },
+    {
+      "extra": {
+        "doi": "10.2136/sssaj1937.03615995000100000025x",
+        "unstructured": "Truog, E., Taylor, J. R., Simonson, R. W., and Weeks, M. E.: Mechanical and mineralogical subdivisions of the clay separate of soils, Soil Sci. Soc. Am. Pro., 1, 175–179, https://doi.org/10.2136/sssaj1937.03615995000100000025x, 1936b."
+      },
+      "index": 18,
+      "key": "ref19"
+    },
+    {
+      "extra": {
+        "doi": "10.1029/2009wr007939",
+        "unstructured": "Twarakavi, N. K. C., S̆imůnek, J., and Schaap, M. G.: Can texture-based classification optimally classify soils with respect to soil hydraulics?, Water Resour. Res., 46, W01501, https://doi.org/10.1029/2009WR007939, 2010."
+      },
+      "index": 19,
+      "key": "ref20"
+    },
+    {
+      "extra": {
+        "doi": "10.2136/sssaj1992.03615995005600020005x",
+        "unstructured": "Tyler, S. W. and Wheatcraft, S. W.: Fractal scaling of soil particle-size distributions: analysis and limitations, Soil Sci. Soc. Am. J., 56, 362–369, https://doi.org/10.2136/sssaj1992.03615995005600020005x, 1992."
+      },
+      "index": 20,
+      "key": "ref21"
+    },
+    {
+      "extra": {
+        "unstructured": "Whiteside, E. P., Flach, K. W., Jamison, V. C., Kemper, W. D., Knox, E. G., and Orvedal, A. C.: Considerations relative to a common particle size scale of earthy materials, Soil Sci. Soc. Am. Pro., 31, 579–584, 1967."
+      },
+      "index": 21,
+      "key": "ref22"
+    },
+    {
+      "extra": {
+        "doi": "10.2136/sssaj1993.03615995005700040001x",
+        "unstructured": "Wu, Q., Borkovec, M., and Sticher, H.: On particle-size distributions in soils, Soil Sci. Soc. Am. J., 57, 883–890, https://doi.org/10.2136/sssaj1993.03615995005700040001x, 1993."
+      },
+      "index": 22,
+      "key": "ref23"
+    }
+  ],
+  "release_date": "2018-02-22",
+  "release_stage": "published",
+  "release_type": "article-journal",
+  "release_year": 2018,
+  "revision": "bc02dd7d-ccbb-4b00-ad16-8c8648834594",
+  "state": "active",
+  "title": "On soil textural classifications and soil-texture-based estimations",
+  "work_id": "5pxkrrcvnjd6nogob2tnlhvk6e"
+}

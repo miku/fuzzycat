@@ -1,13 +1,14 @@
-import json
-import io
 import collections
+import io
+import json
 import os
 import tempfile
 
 import pytest
 
-from fuzzycat.cluster import (release_key_title, release_key_title_normalized,
-                              release_key_title_nysiis, Cluster)
+from fuzzycat.cluster import (Cluster, release_key_title,
+                              release_key_title_normalized,
+                              release_key_title_nysiis)
 
 Case = collections.namedtuple("Case", 'input output')
 

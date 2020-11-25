@@ -1,5 +1,6 @@
 import pytest
-from fuzzycat.utils import slugify_string, cut, author_similarity_score
+
+from fuzzycat.utils import author_similarity_score, cut, slugify_string
 
 
 def test_slugify_string():

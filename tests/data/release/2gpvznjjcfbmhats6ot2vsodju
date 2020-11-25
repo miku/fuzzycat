@@ -1,0 +1,528 @@
+{
+  "abstracts": [],
+  "container_id": "svonp2abyrgxpazsjvkpnfeiou",
+  "contribs": [
+    {
+      "extra": {
+        "seq": "first"
+      },
+      "index": 0,
+      "raw_name": "Janet Fulk",
+      "role": "author"
+    },
+    {
+      "index": 1,
+      "raw_name": "Andrew J. Flanagin",
+      "role": "author"
+    },
+    {
+      "index": 2,
+      "raw_name": "Michael E. Kalman",
+      "role": "author"
+    },
+    {
+      "index": 3,
+      "raw_name": "Peter R. Monge",
+      "role": "author"
+    },
+    {
+      "index": 4,
+      "raw_name": "Timothy Ryan",
+      "role": "author"
+    }
+  ],
+  "ext_ids": {
+    "doi": "10.1111/j.1468-2885.1996.tb00120.x",
+    "wikidata_qid": "Q56386454"
+  },
+  "extra": {
+    "crossref": {
+      "alternative-id": [
+        "10.1111/j.1468-2885.1996.tb00120.x"
+      ],
+      "type": "journal-article"
+    }
+  },
+  "ident": "2gpvznjjcfbmhats6ot2vsodju",
+  "language": "en",
+  "pages": "60-87",
+  "publisher": "Oxford University Press (OUP)",
+  "refs": [
+    {
+      "container_name": "The knowledge link: How firms compete through strategic alliances",
+      "extra": {
+        "authors": [
+          "Badaracco J. L."
+        ],
+        "volume-title": "The knowledge link: How firms compete through strategic alliances"
+      },
+      "index": 0,
+      "key": "b1_160",
+      "year": 1991
+    },
+    {
+      "container_name": "Group process, group decision, group action",
+      "extra": {
+        "authors": [
+          "Baron R. S."
+        ],
+        "volume-title": "Group process, group decision, group action"
+      },
+      "index": 1,
+      "key": "b2_161",
+      "year": 1992
+    },
+    {
+      "container_name": "Rational man and irrational society",
+      "extra": {
+        "authors": [
+          "Barry B."
+        ],
+        "volume-title": "Rational man and irrational society"
+      },
+      "index": 2,
+      "key": "b3_162",
+      "year": 1982
+    },
+    {
+      "container_name": "Communication and organizations: An interpretive approach",
+      "extra": {
+        "authors": [
+          "Bormann E. G."
+        ],
+        "volume-title": "Communication and organizations: An interpretive approach"
+      },
+      "index": 3,
+      "key": "b4_163",
+      "locator": "99",
+      "year": 1983
+    },
+    {
+      "container_name": "Globalization, technology, and competition: The fusion of computers and telecommunications in the 1990s",
+      "extra": {
+        "authors": [
+          "Bradley S. P."
+        ],
+        "volume-title": "Globalization, technology, and competition: The fusion of computers and telecommunications in the 1990s"
+      },
+      "index": 4,
+      "key": "b5_164",
+      "year": 1993
+    },
+    {
+      "container_name": "Drugs, crime, and the justice system",
+      "extra": {
+        "authors": [
+          "Bureau of Justice Statistics"
+        ],
+        "volume-title": "Drugs, crime, and the justice system"
+      },
+      "index": 5,
+      "key": "b6_165",
+      "year": 1992
+    },
+    {
+      "container_name": "Multijurisdictional drug enforcement strategies: Reducing supply and demand",
+      "extra": {
+        "authors": [
+          "Chaiken J."
+        ],
+        "volume-title": "Multijurisdictional drug enforcement strategies: Reducing supply and demand"
+      },
+      "index": 6,
+      "key": "b7_166",
+      "year": 1990
+    },
+    {
+      "container_name": "Political Science Review",
+      "extra": {
+        "authors": [
+          "Chamberlain J."
+        ],
+        "volume": "68"
+      },
+      "index": 7,
+      "key": "b8_167",
+      "locator": "707",
+      "year": 1974
+    },
+    {
+      "extra": {
+        "doi": "10.2307/2392088"
+      },
+      "index": 8,
+      "key": "b9_168"
+    },
+    {
+      "container_name": "Organizations and communication technology",
+      "extra": {
+        "authors": [
+          "Connolly T."
+        ],
+        "doi": "10.4135/9781483325385.n10",
+        "volume-title": "Organizations and communication technology"
+      },
+      "index": 9,
+      "key": "b10_169",
+      "locator": "219",
+      "year": 1990
+    },
+    {
+      "container_name": "Macro-micro linkages in sociology",
+      "extra": {
+        "authors": [
+          "Cook K. S."
+        ],
+        "volume-title": "Macro-micro linkages in sociology"
+      },
+      "index": 10,
+      "key": "b11_170",
+      "locator": "29",
+      "year": 1991
+    },
+    {
+      "container_name": "Morality, rationality. and efficiency: Perspectives on socio-economics",
+      "extra": {
+        "authors": [
+          "Dawes R. M."
+        ],
+        "volume": "1990",
+        "volume-title": "Morality, rationality. and efficiency: Perspectives on socio-economics"
+      },
+      "index": 11,
+      "key": "b12_171",
+      "locator": "17",
+      "year": 1991
+    },
+    {
+      "container_name": "Social exchange theory: The two traditions",
+      "extra": {
+        "authors": [
+          "Ekeh P. P."
+        ],
+        "volume-title": "Social exchange theory: The two traditions"
+      },
+      "index": 12,
+      "key": "b13_172",
+      "year": 1974
+    },
+    {
+      "container_name": "Management Science",
+      "extra": {
+        "authors": [
+          "Flood M."
+        ]
+      },
+      "index": 13,
+      "key": "b14_173",
+      "year": 1958
+    },
+    {
+      "container_name": "Journal of Change Management",
+      "extra": {
+        "authors": [
+          "Fulk J."
+        ],
+        "doi": "10.1108/eb025597"
+      },
+      "index": 14,
+      "key": "b15_174",
+      "locator": "21",
+      "year": 1988
+    },
+    {
+      "container_name": "Communication and class struggle",
+      "extra": {
+        "authors": [
+          "Habermas J."
+        ],
+        "volume-title": "Communication and class struggle"
+      },
+      "index": 15,
+      "key": "b16_175",
+      "locator": "198",
+      "year": 1979
+    },
+    {
+      "container_name": "Communication and organizational control: Cybernetics in health and welfare organizations",
+      "extra": {
+        "authors": [
+          "Hage J."
+        ],
+        "volume-title": "Communication and organizational control: Cybernetics in health and welfare organizations"
+      },
+      "index": 16,
+      "key": "b17_176",
+      "year": 1974
+    },
+    {
+      "container_name": "Collective action",
+      "extra": {
+        "authors": [
+          "Hardin R."
+        ],
+        "volume-title": "Collective action"
+      },
+      "index": 17,
+      "key": "b18_177",
+      "year": 1982
+    },
+    {
+      "container_name": "Modern fiscal issues: Essays in honour of Carl S. Shoup",
+      "extra": {
+        "authors": [
+          "Head J. G."
+        ],
+        "volume-title": "Modern fiscal issues: Essays in honour of Carl S. Shoup"
+      },
+      "index": 18,
+      "key": "b19_178",
+      "year": 1972
+    },
+    {
+      "container_name": "Organizations and communication technology",
+      "extra": {
+        "authors": [
+          "Markus M. L."
+        ],
+        "doi": "10.4135/9781483325385.n9",
+        "volume-title": "Organizations and communication technology"
+      },
+      "index": 19,
+      "key": "b20_179",
+      "locator": "194",
+      "year": 1990
+    },
+    {
+      "container_name": "CSCW Proceedings",
+      "extra": {
+        "authors": [
+          "Markus M. L."
+        ],
+        "doi": "10.1145/99332.99368",
+        "volume": "90"
+      },
+      "index": 20,
+      "key": "b21_180",
+      "locator": "371",
+      "year": 1990
+    },
+    {
+      "container_name": "Research in Social Movements, Conflict and Change",
+      "extra": {
+        "authors": [
+          "Marwell G."
+        ]
+      },
+      "index": 21,
+      "key": "b22_181",
+      "year": 1984
+    },
+    {
+      "container_name": "The critical mass in collective action",
+      "extra": {
+        "authors": [
+          "Marwell G."
+        ],
+        "doi": "10.1017/cbo9780511663765",
+        "volume-title": "The critical mass in collective action"
+      },
+      "index": 22,
+      "key": "b23_182",
+      "year": 1993
+    },
+    {
+      "container_name": "Handbook of communication science",
+      "extra": {
+        "authors": [
+          "McQuail D."
+        ],
+        "volume-title": "Handbook of communication science"
+      },
+      "index": 23,
+      "key": "b24_183",
+      "locator": "327",
+      "year": 1987
+    },
+    {
+      "container_name": "Organization Science",
+      "extra": {
+        "authors": [
+          "Monge P. R."
+        ]
+      },
+      "index": 24,
+      "key": "b25_184",
+      "locator": "406",
+      "year": 1990
+    },
+    {
+      "container_name": "Mastering organizational change",
+      "extra": {
+        "authors": [
+          "Monge P. R."
+        ],
+        "volume-title": "Mastering organizational change"
+      },
+      "index": 25,
+      "key": "b26_185",
+      "locator": "323",
+      "year": 1993
+    },
+    {
+      "container_name": "Annual Review of Sociology",
+      "extra": {
+        "authors": [
+          "Oliver P. E."
+        ],
+        "volume": "19"
+      },
+      "index": 26,
+      "key": "b27_186",
+      "locator": "271",
+      "year": 1993
+    },
+    {
+      "container_name": "American Sociological Review",
+      "extra": {
+        "authors": [
+          "Oliver P."
+        ],
+        "volume": "49"
+      },
+      "index": 27,
+      "key": "b28_187",
+      "locator": "601",
+      "year": 1988
+    },
+    {
+      "extra": {
+        "doi": "10.1086/228313"
+      },
+      "index": 28,
+      "key": "b29_188"
+    },
+    {
+      "container_name": "The logic of collective action",
+      "extra": {
+        "authors": [
+          "Olson M."
+        ],
+        "volume-title": "The logic of collective action"
+      },
+      "index": 29,
+      "key": "b30_189",
+      "year": 1965
+    },
+    {
+      "container_name": "Office Administration and Automation",
+      "extra": {
+        "authors": [
+          "Panko R."
+        ],
+        "volume": "45"
+      },
+      "index": 30,
+      "key": "b31_190",
+      "locator": "37",
+      "year": 1984
+    },
+    {
+      "container_name": "Communication Research",
+      "extra": {
+        "authors": [
+          "Rafaeli S."
+        ],
+        "volume": "20"
+      },
+      "index": 31,
+      "key": "b32_191",
+      "locator": "277",
+      "year": 1993
+    },
+    {
+      "extra": {
+        "doi": "10.2307/1925895"
+      },
+      "index": 32,
+      "key": "b33_192"
+    },
+    {
+      "container_name": "The Public Electronic Network (PEN) and the Homeless in Santa Monica",
+      "extra": {
+        "authors": [
+          "Schmitz J."
+        ],
+        "volume-title": "The Public Electronic Network (PEN) and the Homeless in Santa Monica"
+      },
+      "index": 33,
+      "key": "b34_193",
+      "year": 1993
+    },
+    {
+      "container_name": "The telecommunication revolution",
+      "extra": {
+        "authors": [
+          "Sirbu M. A."
+        ],
+        "volume-title": "The telecommunication revolution"
+      },
+      "index": 34,
+      "key": "b35_194",
+      "locator": "140",
+      "year": 1992
+    },
+    {
+      "container_name": "American Sociological Review",
+      "extra": {
+        "authors": [
+          "Stoke J. F."
+        ],
+        "volume": "52"
+      },
+      "index": 35,
+      "key": "b36_195",
+      "locator": "778",
+      "year": 1987
+    },
+    {
+      "extra": {
+        "doi": "10.1016/0049-089x(73)90004-5"
+      },
+      "index": 36,
+      "key": "b37_196"
+    },
+    {
+      "container_name": "Journal of Communication",
+      "extra": {
+        "authors": [
+          "Valente T. W."
+        ],
+        "volume": "43"
+      },
+      "index": 37,
+      "key": "b38_197",
+      "locator": "30",
+      "year": 1993
+    },
+    {
+      "container_name": "Theory of games and economic behavior",
+      "extra": {
+        "authors": [
+          "Neumann J."
+        ],
+        "volume-title": "Theory of games and economic behavior"
+      },
+      "index": 38,
+      "key": "b39_198",
+      "year": 1944
+    }
+  ],
+  "release_stage": "published",
+  "release_type": "article-journal",
+  "release_year": 1996,
+  "revision": "2c010b0c-e219-4cf2-b003-6c344d24ae6b",
+  "state": "active",
+  "title": "Connective and Communal Public Goods in Interactive Communication Systems",
+  "work_id": "dpl6okdbtvd2zonhn3w3xp3v7i"
+}

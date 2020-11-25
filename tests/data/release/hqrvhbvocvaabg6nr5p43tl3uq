@@ -1,0 +1,72 @@
+{
+  "abstracts": [],
+  "contribs": [
+    {
+      "given_name": "Joachim",
+      "index": 0,
+      "raw_name": "Joachim Reitner",
+      "role": "author",
+      "surname": "Reitner"
+    },
+    {
+      "extra": {
+        "type": "Editor"
+      },
+      "given_name": "André",
+      "raw_name": "André Freiwald",
+      "surname": "Freiwald"
+    },
+    {
+      "extra": {
+        "type": "Editor"
+      },
+      "given_name": "J. Murray",
+      "raw_name": "J. Murray Roberts",
+      "surname": "Roberts"
+    },
+    {
+      "extra": {
+        "type": "Editor"
+      },
+      "given_name": "J. Murray",
+      "raw_name": "J. Murray Roberts",
+      "surname": "Roberts"
+    },
+    {
+      "raw_name": "FID GEO"
+    },
+    {
+      "raw_name": "FID GEO"
+    },
+    {
+      "extra": {
+        "type": "Editor"
+      },
+      "given_name": "André",
+      "raw_name": "André Freiwald",
+      "surname": "Freiwald"
+    }
+  ],
+  "ext_ids": {
+    "doi": "10.23689/fidgeo-1792"
+  },
+  "extra": {
+    "datacite": {
+      "resourceType": "Article",
+      "resourceTypeGeneral": "Text"
+    },
+    "release_month": 11
+  },
+  "ident": "hqrvhbvocvaabg6nr5p43tl3uq",
+  "language": "en",
+  "publisher": "FID GEO",
+  "refs": [],
+  "release_date": "2010-11-24",
+  "release_stage": "published",
+  "release_type": "article-journal",
+  "release_year": 2010,
+  "revision": "0886c2ab-ceb5-4275-81ca-4395893911ae",
+  "state": "active",
+  "title": "Calcifying extracellular mucus substances (EMS) of Madrepora oculata",
+  "work_id": "vszflgsfr5gltf3q5dyqrnsqpa"
+}

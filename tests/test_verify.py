@@ -2,6 +2,7 @@ import pytest
 import csv
 import json
 import os
+import logging
 
 from fuzzycat.verify import Status, compare
 
@@ -16,6 +17,9 @@ status_mapping = {
     "Status.WEAK": Status.WEAK,
 }
 
+logger = logging.getLogger('test_verify')
+logger.setLevel(logging.DEBUG)
+
 
 def load_release_ident(ident):
     dst = os.path.join(RELEASE_ENTITIES_DIR, ident)
@@ -29,9 +33,15 @@ def test_compare():
     with open(VERIFY_CSV) as f:
         reader = csv.reader(f, delimiter=',')
         for i, row in enumerate(reader):
-            a, b, expected_status, expected_reason = row
+            try:
+                a, b, expected_status, expected_reason = row
+            except ValueError as exc:
+                pytest.fail("invalid test file, maybe missing a comma? {}".format(exc))
             status, reason = compare(load_release_ident(a), load_release_ident(b))
+            if not expected_status or expected_status.lower() == "todo":
+                logger.debug("skipping test {} {}: no result defined (we think {}, {})".format(a, b, status, reason))
             assert status == status, "status: want {}, got {} for {} {}".format(
                 expected_status, status, a, b)
             if expected_reason:
                 assert reason == reason, "reason: want {}, got {}".format(expected_reason, reason)
+        logger.info("ran verification over {} cases (https://git.io/JkDgS)".format(i))

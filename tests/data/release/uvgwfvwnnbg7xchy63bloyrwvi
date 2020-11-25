@@ -1,0 +1,65 @@
+{
+  "abstracts": [
+    {
+      "content": "<jats:p>The soil texture representation with the standard textural fraction triplet 'sand-silt-clay' is commonly used to estimate soil properties. The objective of this work was to test the hypothesis that other fraction sizes in the triplets may provide better representation of soil texture for estimating some soil parameters. We estimated the cumulative particle size distribution and bulk density from entropy-based representation of the textural triplet with experimental data for 6300 soil samples. Results supported the hypothesis. For example, simulated distributions were not significantly different from the original ones in 25 and 85&amp;amp;thinsp;% of cases when the 'sand-silt-sand' and 'very coarse+coarse + medium sand &amp;amp;ndash; fine +very fine sand &amp;amp;ndash; silt+clay', were used, respectively. When the same standard and modified triplets were used to estimate the average bulk density, the coefficients of determination were 0.001 and 0.967, respectively. Overall, the textural triplet selection appears to be application- and data-specific.\n                    </jats:p>",
+      "mimetype": "application/xml+jats",
+      "sha1": "6b4067965dd1a9939dda89d4d25bd34abcf38a4e"
+    }
+  ],
+  "container_id": "ime74rybwnaulfplfzm2dxecte",
+  "contribs": [
+    {
+      "extra": {
+        "seq": "first"
+      },
+      "index": 0,
+      "raw_name": "Miguel Ángel Martín",
+      "role": "author"
+    },
+    {
+      "index": 1,
+      "raw_name": "Yakov A. Pachepsky",
+      "role": "author"
+    },
+    {
+      "creator_id": "p5nczejcmzfznpxliunuceswey",
+      "index": 2,
+      "raw_name": "Carlos García-Gutiérrez",
+      "role": "author"
+    },
+    {
+      "index": 3,
+      "raw_name": "Miguel Reyes",
+      "role": "author"
+    }
+  ],
+  "ext_ids": {
+    "doi": "10.5194/se-2017-84"
+  },
+  "extra": {
+    "crossref": {
+      "license": [
+        {
+          "URL": "https://creativecommons.org/licenses/by/4.0/",
+          "content-version": "unspecified",
+          "delay-in-days": 0,
+          "start": "2017-10-10T00:00:00Z"
+        }
+      ],
+      "type": "journal-article"
+    }
+  },
+  "ident": "uvgwfvwnnbg7xchy63bloyrwvi",
+  "language": "en",
+  "pages": "1-14",
+  "publisher": "Copernicus GmbH",
+  "refs": [],
+  "release_date": "2017-10-10",
+  "release_stage": "published",
+  "release_type": "article-journal",
+  "release_year": 2017,
+  "revision": "ef9cd393-529b-4efa-9669-3ff068e8cd96",
+  "state": "active",
+  "title": "On soil textural classifications and soil texture-based estimations",
+  "work_id": "h3cos53tsneexl6c4eelhzaddu"
+}

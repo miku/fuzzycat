@@ -1,0 +1,47 @@
+{
+  "abstracts": [
+    {
+      "content": "Colonial non-zooxanthellate corals from deep-water coral reefs, Lophelia pertusa and Madrepora oculata, produce large amounts of extracellular mucus (EMS). This mucus has various functions, e.g., an antifouling capability protecting the coral skeleton from attacks of endolithic and boring organisms. Both corals show thick epithecal and exothecal skeletal parts with a clear lamellar growth pattern. The formation of the epitheca is unclear. It is supposed that the EMS play a central role during the calcification process of the epithecal skeletal parts. Staining with the fluorochrome tetracycline has shown an enrichment of Ca2+ ions in the mucus. In order to investigate this hypothesis, the protein content of the mucus and the intracrystalline organic matter from newly formed epithecal aragonite of Madrepora oculata was determined via sodium dodecyl sulfate (SDS) gel electrophoresis. Identical band patterns within both substances could be detected, one around 45 kDa molecular weight and a cluster around 30-35 kDa molecular weight. The occurrence of identical protein patterns within the mucus and in the newly formed aragonite confirms the idea that the mucus plays an important role during the organomineralization of the coral epitheca.",
+      "lang": "en",
+      "mimetype": "text/plain",
+      "sha1": "eab45cb50279523aa15e47d4ff6b61453110d80b"
+    }
+  ],
+  "contribs": [
+    {
+      "given_name": "Joachim",
+      "index": 0,
+      "raw_name": "Joachim Reitner",
+      "role": "author",
+      "surname": "Reitner"
+    },
+    {
+      "raw_name": "FID GEO"
+    },
+    {
+      "raw_name": "FID GEO"
+    }
+  ],
+  "ext_ids": {
+    "doi": "10.23689/fidgeo-2708"
+  },
+  "extra": {
+    "datacite": {
+      "resourceType": "Article",
+      "resourceTypeGeneral": "Text"
+    },
+    "release_month": 5
+  },
+  "ident": "5lk635o65nc2tnkus3pkf2ggeq",
+  "language": "en",
+  "publisher": "FID GEO",
+  "refs": [],
+  "release_date": "2018-05-07",
+  "release_stage": "published",
+  "release_type": "article-journal",
+  "release_year": 2018,
+  "revision": "1f08bce1-d393-4a94-8ffa-0412f9b86a26",
+  "state": "active",
+  "title": "Calcifying extracellular mucus substances (EMS) of Madrepora oculata",
+  "work_id": "mswo636sbbgytakvcw36uz5htq"
+}
