@@ -22,6 +22,7 @@ def test_cut():
     with pytest.raises(ValueError):
         cut(3, sep=',', ignore_missing_column=False)("a,b,c") == ""
 
+
 def test_author_similarity_score():
     assert author_similarity_score("", "") == 0.0
     assert author_similarity_score("Gregor Samsa", "G. Samsa") == 0.42857142857142855

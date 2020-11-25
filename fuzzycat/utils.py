@@ -1,5 +1,5 @@
-import itertools
 import io
+import itertools
 import string
 
 printable_no_punct = string.digits + string.ascii_letters + string.whitespace
@@ -25,6 +25,7 @@ def cut(f: int = 0, sep: str = '\t', ignore_missing_column: bool = True):
         return parts[f]
 
     return func
+
 
 def author_similarity_score(u, v):
     """
@@ -66,4 +67,3 @@ def nwise(iterable, n=2):
     while piece:
         yield piece
         piece = tuple(itertools.islice(i, n))
-
