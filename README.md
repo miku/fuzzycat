@@ -196,26 +196,26 @@ https://fatcat.wiki/release/2ncazub5tngkjn5ncdk65jyr4u -- these might be repeate
 
 Ok cases are not in [verify.csv](https://github.com/miku/fuzzycat/blob/master/tests/data/verify.csv).
 
-[ ] https://fatcat.wiki/release/i2ziaqjrovh3rfrojcaf2xqidy https://fatcat.wiki/release/4rbsv4kplnf4tny22px5z35vty Status.DIFFERENT Miss.CONTRIB_INTERSECTION_EMPTY
-[o] https://fatcat.wiki/release/65qk35lrxfbqxnpjfpra3ankxe https://fatcat.wiki/release/tovzgangzbfm5bc2qriyh2k6da Status.AMBIGUOUS OK.DUMMY
-[ ] https://fatcat.wiki/release/qvlzvflp6vhojdm3uyvj2d6keq https://fatcat.wiki/release/vynqlyi2xjdexmf54a5yfidx6m Status.DIFFERENT Miss.RELEASE_TYPE
-[o] https://fatcat.wiki/release/hfewgpty4ne3zn7rg32z5npdxy https://fatcat.wiki/release/3djtma4xrjh2pcxy4gu6pafqji Status.AMBIGUOUS OK.DUMMY
-[ ] https://fatcat.wiki/release/ybxygpeypbaq5pfrztu3z2itw4 https://fatcat.wiki/release/2c2ztrtlkzdhfmzpf7fbindpjq Status.DIFFERENT Miss.DATASET_DOI
-[o] https://fatcat.wiki/release/eyol2bjf6jawhjnote73ej5v24 https://fatcat.wiki/release/jowohxiuuncqbdidvqjrrb5324 Status.AMBIGUOUS OK.DUMMY
-[ ] https://fatcat.wiki/release/d5bqydkylzelpmdfcks2v5th7q https://fatcat.wiki/release/lzcgl52npjaf3etfhhnb3d46da Status.DIFFERENT Miss.DATASET_DOI
-[o] https://fatcat.wiki/release/5ysvoxjj4jcxbji42nnzapr6n4 https://fatcat.wiki/release/dx6wevs345cjfejokze2te6sia Status.AMBIGUOUS OK.DUMMY
-[o] https://fatcat.wiki/release/xdclbyjgjnbehchrl7l2vi3274 https://fatcat.wiki/release/t3kqh6lfprfaff5zovh6qlodxy Status.AMBIGUOUS OK.DUMMY
-[o] https://fatcat.wiki/release/aogvyiw67vdsnf26bufauy2rqa https://fatcat.wiki/release/aofedljjhbhajmx5doxfcv43fa Status.AMBIGUOUS OK.DUMMY
-[o] https://fatcat.wiki/release/cjal2f6k5zesxcnrnyhc6ftg5e https://fatcat.wiki/release/oi5kzjlku5gpxjc247v6zjzosa Status.AMBIGUOUS OK.DUMMY
-[o] https://fatcat.wiki/release/o6e6yf37y5bttbrpo4piska4gq https://fatcat.wiki/release/pchjd5fwqjdqfevphjff7ydeae Status.AMBIGUOUS OK.DUMMY
-[ ] https://fatcat.wiki/release/l4fyyvsckneuxkq7d3y2zvkvbe https://fatcat.wiki/release/gf5hriyvuvarhcvttnooaffksi Status.DIFFERENT Miss.RELEASE_TYPE
-[ ] https://fatcat.wiki/release/7nbcgsohrrak5cuyk6dnit6ega https://fatcat.wiki/release/q66xv7drk5fnph7enwwlkyuwqm Status.DIFFERENT Miss.CONTRIB_INTERSECTION_EMPTY
-[ ] https://fatcat.wiki/release/2tzvdvx4t5hfxnqlnyt4rqenly https://fatcat.wiki/release/houszjo2ejbjhljxvxz23whgua Status.DIFFERENT Miss.DATASET_DOI
-[ ] https://fatcat.wiki/release/qsxbwvreu5ehrbz65ngh2ghcra https://fatcat.wiki/release/xjvo37ynxvc3zm55bxoa545gvq Status.EXACT OK.TITLE_AUTHOR_MATCH
-[ ] https://fatcat.wiki/release/ggzzwt6deneyrna5h65mvv7sfe https://fatcat.wiki/release/h4rnaxua75dndmq4x4snnw3qxe Status.AMBIGUOUS Miss.SHORT_TITLE
-[ ] https://fatcat.wiki/release/skxiyp7qmraqhe2o4zvo7iq6sq https://fatcat.wiki/release/qyqre3mzgbha7hhfarn5absqnq Status.EXACT OK.TITLE_AUTHOR_MATCH
-[o] https://fatcat.wiki/release/am53f7iyyvcjnjsgjbz7pu7dii https://fatcat.wiki/release/kdubht33hfb4dmghm2g27ck24i Status.AMBIGUOUS OK.DUMMY
-[ ] https://fatcat.wiki/release/ofmeeajuovbqbhkgh4rujkd3xu https://fatcat.wiki/release/r6bvy6cglfe5xgafvdcokawkue Status.DIFFERENT Miss.RELEASE_TYPE
-[o] https://fatcat.wiki/release/lezvxt2oong6xm3e3cgp47wsla https://fatcat.wiki/release/aad6r5am6vfxpbfwycmyudp2qe Status.AMBIGUOUS OK.DUMMY
-[o] https://fatcat.wiki/release/5mzzswgebze2tk4apmbwjahp34 https://fatcat.wiki/release/vl7r3uewvvbo5i2gntocy3y2ey Status.AMBIGUOUS OK.DUMMY
+* [ ] https://fatcat.wiki/release/i2ziaqjrovh3rfrojcaf2xqidy https://fatcat.wiki/release/4rbsv4kplnf4tny22px5z35vty Status.DIFFERENT Miss.CONTRIB_INTERSECTION_EMPTY
+* [o] https://fatcat.wiki/release/65qk35lrxfbqxnpjfpra3ankxe https://fatcat.wiki/release/tovzgangzbfm5bc2qriyh2k6da Status.AMBIGUOUS OK.DUMMY
+* [ ] https://fatcat.wiki/release/qvlzvflp6vhojdm3uyvj2d6keq https://fatcat.wiki/release/vynqlyi2xjdexmf54a5yfidx6m Status.DIFFERENT Miss.RELEASE_TYPE
+* [o] https://fatcat.wiki/release/hfewgpty4ne3zn7rg32z5npdxy https://fatcat.wiki/release/3djtma4xrjh2pcxy4gu6pafqji Status.AMBIGUOUS OK.DUMMY
+* [ ] https://fatcat.wiki/release/ybxygpeypbaq5pfrztu3z2itw4 https://fatcat.wiki/release/2c2ztrtlkzdhfmzpf7fbindpjq Status.DIFFERENT Miss.DATASET_DOI
+* [o] https://fatcat.wiki/release/eyol2bjf6jawhjnote73ej5v24 https://fatcat.wiki/release/jowohxiuuncqbdidvqjrrb5324 Status.AMBIGUOUS OK.DUMMY
+* [ ] https://fatcat.wiki/release/d5bqydkylzelpmdfcks2v5th7q https://fatcat.wiki/release/lzcgl52npjaf3etfhhnb3d46da Status.DIFFERENT Miss.DATASET_DOI
+* [o] https://fatcat.wiki/release/5ysvoxjj4jcxbji42nnzapr6n4 https://fatcat.wiki/release/dx6wevs345cjfejokze2te6sia Status.AMBIGUOUS OK.DUMMY
+* [o] https://fatcat.wiki/release/xdclbyjgjnbehchrl7l2vi3274 https://fatcat.wiki/release/t3kqh6lfprfaff5zovh6qlodxy Status.AMBIGUOUS OK.DUMMY
+* [o] https://fatcat.wiki/release/aogvyiw67vdsnf26bufauy2rqa https://fatcat.wiki/release/aofedljjhbhajmx5doxfcv43fa Status.AMBIGUOUS OK.DUMMY
+* [o] https://fatcat.wiki/release/cjal2f6k5zesxcnrnyhc6ftg5e https://fatcat.wiki/release/oi5kzjlku5gpxjc247v6zjzosa Status.AMBIGUOUS OK.DUMMY
+* [o] https://fatcat.wiki/release/o6e6yf37y5bttbrpo4piska4gq https://fatcat.wiki/release/pchjd5fwqjdqfevphjff7ydeae Status.AMBIGUOUS OK.DUMMY
+* [ ] https://fatcat.wiki/release/l4fyyvsckneuxkq7d3y2zvkvbe https://fatcat.wiki/release/gf5hriyvuvarhcvttnooaffksi Status.DIFFERENT Miss.RELEASE_TYPE
+* [ ] https://fatcat.wiki/release/7nbcgsohrrak5cuyk6dnit6ega https://fatcat.wiki/release/q66xv7drk5fnph7enwwlkyuwqm Status.DIFFERENT Miss.CONTRIB_INTERSECTION_EMPTY
+* [ ] https://fatcat.wiki/release/2tzvdvx4t5hfxnqlnyt4rqenly https://fatcat.wiki/release/houszjo2ejbjhljxvxz23whgua Status.DIFFERENT Miss.DATASET_DOI
+* [ ] https://fatcat.wiki/release/qsxbwvreu5ehrbz65ngh2ghcra https://fatcat.wiki/release/xjvo37ynxvc3zm55bxoa545gvq Status.EXACT OK.TITLE_AUTHOR_MATCH
+* [ ] https://fatcat.wiki/release/ggzzwt6deneyrna5h65mvv7sfe https://fatcat.wiki/release/h4rnaxua75dndmq4x4snnw3qxe Status.AMBIGUOUS Miss.SHORT_TITLE
+* [ ] https://fatcat.wiki/release/skxiyp7qmraqhe2o4zvo7iq6sq https://fatcat.wiki/release/qyqre3mzgbha7hhfarn5absqnq Status.EXACT OK.TITLE_AUTHOR_MATCH
+* [o] https://fatcat.wiki/release/am53f7iyyvcjnjsgjbz7pu7dii https://fatcat.wiki/release/kdubht33hfb4dmghm2g27ck24i Status.AMBIGUOUS OK.DUMMY
+* [ ] https://fatcat.wiki/release/ofmeeajuovbqbhkgh4rujkd3xu https://fatcat.wiki/release/r6bvy6cglfe5xgafvdcokawkue Status.DIFFERENT Miss.RELEASE_TYPE
+* [o] https://fatcat.wiki/release/lezvxt2oong6xm3e3cgp47wsla https://fatcat.wiki/release/aad6r5am6vfxpbfwycmyudp2qe Status.AMBIGUOUS OK.DUMMY
+* [o] https://fatcat.wiki/release/5mzzswgebze2tk4apmbwjahp34 https://fatcat.wiki/release/vl7r3uewvvbo5i2gntocy3y2ey Status.AMBIGUOUS OK.DUMMY
 
