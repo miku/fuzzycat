@@ -2,15 +2,15 @@
 """
 Clustering stage.
 
-* [ ] verify needs whole document
+* [x] verify needs whole document
 * [ ] parallelization misses groups
 * [ ] cached match key store (tsv, sqlite3), something ~/.cache/...
-* [ ] reproducibly run tests
-* [ ] place for put md record tests
+* [x] reproducibly run tests
+* [x] place for put md/tsv record tests
 
 ----
 
-* [ ] hadoop -> py (bn)
+* [x] hadoop -> py (bn)
 * [ ] gnu parallel, share command line -- note (bn)
 
 ----
