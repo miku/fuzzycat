@@ -336,7 +336,7 @@ PUBLISHER_BLACKLIST = set([
     "test accounts",
 ])
 
-# There titles appear too often, so ignore them for now.
+# These titles (or close variants) appear too often, so ignore them for now.
 TITLE_BLACKLIST = set([
     "",
     "05-20-t001-15 一流110mハードル選手の踏切および踏切準備動作に関するバイオメカニクス的研究(05 バイオメカニクス,一般研究発表抄録)",
