@@ -1,3 +1,4 @@
+import pytest
 import csv
 import json
 import os
@@ -18,6 +19,8 @@ status_mapping = {
 
 def load_release_ident(ident):
     dst = os.path.join(RELEASE_ENTITIES_DIR, ident)
+    if not os.path.exists(dst):
+        pytest.fail("cannot find entity locally, run `make` in tests/data/ to fetch")
     with open(dst) as f:
         return json.load(f)
 
