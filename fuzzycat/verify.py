@@ -66,8 +66,10 @@ import re
 import sys
 from enum import Enum
 
-from fuzzycat.cluster import slugify_string
+from fuzzycat.utils import author_similarity_score, slugify_string
 
+# The result of clustering are documents that have a key k and a list of values
+# (of the cluster) v.
 get_key_values = operator.itemgetter("k", "v")
 
 # More correct: https://www.johndcook.com/blog/2016/02/04/regular-expression-to-match-a-chemical-element/
@@ -362,48 +364,6 @@ def compare(a, b):
         return (Status.DIFFERENT, Miss.CONTRIB_INTERSECTION_EMPTY)
 
     return (Status.AMBIGUOUS, OK.DUMMY)
-
-
-def author_similarity_score(u, v):
-    """
-    Given two author strings, return a similarity score between 0 and 1.
-    """
-    return jaccard(set(token_n_grams(u)), set(token_n_grams(v)))
-
-
-def jaccard(a, b):
-    """
-    Jaccard of sets a and b.
-    """
-    if len(a | b) == 0:
-        return 0
-    return len(a & b) / len(a | b)
-
-
-def token_n_grams(s):
-    """
-    Return n-grams, calculated per token.
-    """
-    return ["".join(v) for v in itertools.chain(*[nwise(v, n=2) for v in tokenize_string(s)])]
-
-
-def tokenize_string(s):
-    """
-    Normalize and tokenize, should be broken up.
-    """
-    return [token for token in s.lower().split()]
-
-
-def nwise(iterable, n=2):
-    """
-    Generalized: func: `pairwise`. Split an iterable after every
-    `n` items.
-    """
-    i = iter(iterable)
-    piece = tuple(itertools.islice(i, n))
-    while piece:
-        yield piece
-        piece = tuple(itertools.islice(i, n))
 
 
 def num_project(s):
