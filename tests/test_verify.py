@@ -8,6 +8,7 @@ from fuzzycat.verify import Status, compare
 
 VERIFY_CSV = os.path.join(os.path.dirname(os.path.realpath(__file__)), "data/verify.csv")
 RELEASE_ENTITIES_DIR = os.path.join(os.path.dirname(os.path.realpath(__file__)), "data/release")
+FATCAT_BASE_URL = 'https://fatcat.wiki/'
 
 status_mapping = {
     "Status.AMBIGUOUS": Status.AMBIGUOUS,
@@ -39,7 +40,9 @@ def test_compare():
                 pytest.fail("invalid test file, maybe missing a comma? {}".format(exc))
             status, reason = compare(load_release_ident(a), load_release_ident(b))
             if not expected_status or expected_status.lower() == "todo":
-                logger.debug("skipping test {} {}: no result defined (we think {}, {})".format(a, b, status, reason))
+                logger.debug(
+                    "skipping test {base}/release/{a} {base}/release/{b} -- no result defined (we think {status}, {reason})"
+                    .format(a=a, b=b, base=FATCAT_BASE_URL, status=status, reason=reason))
             assert status == status, "status: want {}, got {} for {} {}".format(
                 expected_status, status, a, b)
             if expected_reason:
