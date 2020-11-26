@@ -1,0 +1,50 @@
+{
+  "abstracts": [],
+  "container_id": "5wck4q4qdzfbzgvpit352qv6dy",
+  "contribs": [
+    {
+      "extra": {
+        "seq": "first"
+      },
+      "index": 0,
+      "raw_name": "Juan José Salinero Martín",
+      "role": "author"
+    },
+    {
+      "index": 1,
+      "raw_name": "Benito Pérez-González",
+      "role": "author"
+    },
+    {
+      "index": 2,
+      "raw_name": "Pablo Burillo",
+      "role": "author"
+    },
+    {
+      "index": 3,
+      "raw_name": "Mª Luisa Lesma",
+      "role": "author"
+    }
+  ],
+  "ext_ids": {
+    "doi": "10.5672/apunts.2014-0983.es.(2013/4).114.05"
+  },
+  "extra": {
+    "crossref": {
+      "type": "journal-article"
+    }
+  },
+  "ident": "rzicki3gcjayxaic7ckyx6bcmq",
+  "issue": "114",
+  "pages": "53-57",
+  "publisher": "Institut d'Educacio Fisica de Catalunya (INEFC)",
+  "refs": [],
+  "release_date": "2013-12-30",
+  "release_stage": "published",
+  "release_type": "article-journal",
+  "release_year": 2013,
+  "revision": "74ce6438-4d6d-4624-94fa-113196f08594",
+  "state": "active",
+  "title": "El efecto de la edad relativa en el fútbol español",
+  "work_id": "wbds5ds7tbeuzibfgy6rtaiudu"
+}

@@ -1,0 +1,50 @@
+{
+  "abstracts": [],
+  "container_id": "5wck4q4qdzfbzgvpit352qv6dy",
+  "contribs": [
+    {
+      "extra": {
+        "seq": "first"
+      },
+      "index": 0,
+      "raw_name": "Alejandro Prieto Ayuso",
+      "role": "author"
+    },
+    {
+      "index": 1,
+      "raw_name": "Juan Carlos Pastor Vicedo",
+      "role": "author"
+    },
+    {
+      "index": 2,
+      "raw_name": "Jaime Serra Olivares",
+      "role": "author"
+    },
+    {
+      "index": 3,
+      "raw_name": "Sixto González Víllora",
+      "role": "author"
+    }
+  ],
+  "ext_ids": {
+    "doi": "10.5672/apunts.2014-0983.es.(2015/3).121.05"
+  },
+  "extra": {
+    "crossref": {
+      "type": "journal-article"
+    }
+  },
+  "ident": "b5p5i7phjfejhiecjaz4arkp3m",
+  "issue": "121",
+  "pages": "36-43",
+  "publisher": "Institut d'Educacio Fisica de Catalunya (INEFC)",
+  "refs": [],
+  "release_date": "2015-09-30",
+  "release_stage": "published",
+  "release_type": "article-journal",
+  "release_year": 2015,
+  "revision": "9808cddd-a431-409a-97a3-1a8e49966f95",
+  "state": "active",
+  "title": "El efecto de la edad relativa en el fútbol español: temporada 2013/14",
+  "work_id": "gh7pttbf7rdh3n2e35xvkkilbq"
+}
