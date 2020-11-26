@@ -77,6 +77,10 @@ if __name__ == '__main__':
     sub_cluster.set_defaults(func=run_cluster)
     sub_cluster.add_argument('-f', '--files', default="-", help='input files')
     sub_cluster.add_argument('--key-denylist', help='file path to key denylist')
+    sub_cluster.add_argument('--min-cluster-size',
+                             default=2,
+                             type=int,
+                             help='ignore smaller clusters')
     sub_cluster.add_argument('-t',
                              '--type',
                              default='title',

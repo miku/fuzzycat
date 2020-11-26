@@ -160,6 +160,7 @@ def test_cluster():
         ]
     ],
                       release_key_title_normalized,
+                      min_cluster_size=1,
                       output=sio)
     stats = cluster.run()
     assert stats == {

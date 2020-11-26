@@ -311,6 +311,7 @@ class Cluster:
                  prefix: str = "fuzzycat-",
                  tmpdir: str = tempfile.gettempdir(),
                  strict: bool = False,
+                 min_cluster_size: int = 2,
                  max_cluster_size: int = 100,
                  verbose=True):
         self.iterable: collections.abc.Iterable = iterable
@@ -320,6 +321,7 @@ class Cluster:
         self.tmpdir: str = tmpdir
         self.strict = strict
         self.key_denylist = key_denylist
+        self.min_cluster_size = min_cluster_size
         self.max_cluster_size = max_cluster_size
         self.verbose = verbose
         self.counter: Dict[str, int] = collections.Counter({
@@ -361,6 +363,8 @@ class Cluster:
         sf = self.sort(tf.name, opts='-k 2')
         with open(sf) as f:
             for doc in self.group_by(f, key=cut(f=1)):
+                if len(doc["v"]) < self.min_cluster_size:
+                    continue
                 self.counter["num_clusters"] += 1
                 json.dump(doc, self.output)
                 self.output.write("\n")
