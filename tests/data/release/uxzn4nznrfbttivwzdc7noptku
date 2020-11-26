@@ -1,0 +1,81 @@
+{
+  "abstracts": [],
+  "container_id": "bl4qwti4nzhtndj2t4a2dmxhee",
+  "contribs": [
+    {
+      "creator_id": "fprtdr4lozaxhpnfm7qj2lju2q",
+      "extra": {
+        "seq": "first"
+      },
+      "index": 0,
+      "raw_name": "Stefan Pfenninger",
+      "role": "author"
+    },
+    {
+      "creator_id": "a4m6f3nr7bagte46uoveh334jm",
+      "index": 1,
+      "raw_name": "Iain Staffell",
+      "role": "author"
+    }
+  ],
+  "ext_ids": {
+    "core": "82106214",
+    "doi": "10.1016/j.energy.2016.08.060"
+  },
+  "extra": {
+    "crossref": {
+      "alternative-id": [
+        "S0360544216311744"
+      ],
+      "funder": [
+        {
+          "DOI": "10.13039/501100000781",
+          "award": [
+            "StG 2012–313553"
+          ],
+          "doi-asserted-by": "publisher",
+          "name": "European Research Council"
+        },
+        {
+          "DOI": "10.13039/501100000266",
+          "award": [
+            "EP/L024756/1"
+          ],
+          "doi-asserted-by": "crossref",
+          "name": "Engineering and Physical Sciences Research Council"
+        },
+        {
+          "award": [],
+          "name": "Grantham Institute at Imperial College London"
+        }
+      ],
+      "license": [
+        {
+          "URL": "http://creativecommons.org/licenses/by/4.0/",
+          "content-version": "vor",
+          "delay-in-days": 0,
+          "start": "2016-08-29T00:00:00Z"
+        }
+      ],
+      "subject": [
+        "General Energy",
+        "Pollution"
+      ],
+      "type": "journal-article"
+    }
+  },
+  "ident": "uxzn4nznrfbttivwzdc7noptku",
+  "language": "en",
+  "license_slug": "CC-BY",
+  "pages": "1251-1265",
+  "publisher": "Elsevier BV",
+  "refs": [],
+  "release_stage": "published",
+  "release_type": "article-journal",
+  "release_year": 2016,
+  "revision": "efd3835e-5241-4d0e-8551-0d16194d0a7d",
+  "state": "active",
+  "title": "Long-term patterns of European PV output using 30 years of validated hourly reanalysis and satellite data",
+  "volume": "114",
+  "work_id": "mzsftdc2rzbgng45zl76lqaj7e"
+}

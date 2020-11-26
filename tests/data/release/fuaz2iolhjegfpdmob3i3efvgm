@@ -1,0 +1,66 @@
+{
+  "abstracts": [],
+  "contribs": [
+    {
+      "given_name": "Stefan",
+      "index": 0,
+      "raw_name": "Stefan Pfenninger",
+      "role": "author",
+      "surname": "Pfenninger"
+    },
+    {
+      "given_name": "Iain",
+      "index": 1,
+      "raw_name": "Iain Staffell",
+      "role": "author",
+      "surname": "Staffell"
+    }
+  ],
+  "ext_ids": {
+    "doi": "10.3929/ethz-b-000121026"
+  },
+  "extra": {
+    "datacite": {
+      "license": [
+        {
+          "rights": "http://creativecommons.org/licenses/by/4.0/"
+        },
+        {
+          "rights": "info:eu-repo/semantics/openAccess"
+        }
+      ],
+      "resourceType": "Journal Article",
+      "resourceTypeGeneral": "Text",
+      "subjects": [
+        {
+          "subject": "Solar energy"
+        },
+        {
+          "subject": "Meteorological reanalysis"
+        },
+        {
+          "subject": "Satellite irradiance estimation"
+        },
+        {
+          "subject": "Renewables"
+        },
+        {
+          "subject": "Grid integration of renewables"
+        }
+      ]
+    },
+    "release_month": 11
+  },
+  "ident": "fuaz2iolhjegfpdmob3i3efvgm",
+  "language": "en",
+  "publisher": "ETH Zurich",
+  "refs": [],
+  "release_date": "2016-11-01",
+  "release_stage": "published",
+  "release_type": "article-journal",
+  "release_year": 2016,
+  "revision": "4b721392-4cd2-49e5-982f-7369e2924dbf",
+  "state": "active",
+  "title": "Long-term patterns of European PV output using 30 years of validated hourly reanalysis and satellite data",
+  "work_id": "6olh3bqqxbbtfoua54qm4nrqly"
+}
