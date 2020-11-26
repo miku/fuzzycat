@@ -219,43 +219,53 @@ def compare(a, b):
     except (AttributeError, ValueError, PathAccessError) as exc:
         pass
 
-    if a.get("release_type") and b.get(
-            "release_type") and a.get("release_type") != b.get("release_type"):
-        # TODO(martin): This can go wrong with "article" and "article-journal"
-        # TODO(martin): Some arxiv articles are marked are release_type: report
-        # or paper-conference
-        # (https://fatcat.wiki/release/l4fyyvsckneuxkq7d3y2zvkvbe)
-        types = set([a.get("release_type"), b.get("release_type")])
-        ignore_release_types = set(["article", "article-journal", "report", "paper-conference"])
-        if len(types & ignore_release_types) == 0:
-            return (Status.DIFFERENT, Miss.RELEASE_TYPE)
+    try:
+        if glom(a, "release_type") != glom(b, "release_type"):
+            # TODO(martin): This can go wrong with "article" and "article-journal"
+            # TODO(martin): Some arxiv articles are marked are release_type: report
+            # or paper-conference
+            # (https://fatcat.wiki/release/l4fyyvsckneuxkq7d3y2zvkvbe)
+            types = set([a.get("release_type"), b.get("release_type")])
+            ignore_release_types = set(["article", "article-journal", "report", "paper-conference"])
+            if len(types & ignore_release_types) == 0:
+                return (Status.DIFFERENT, Miss.RELEASE_TYPE)
+    except PathAccessError:
+        pass
 
-    if (a.get("release_type") == "dataset" and b.get("release_type") == "dataset"):
-        if (a.get("ext_ids", {}).get("doi") and b.get("ext_ids", {}).get("doi")
-                and a.get("ext_ids", {}).get("doi") != b.get("ext_ids", {}).get("doi")):
+    try:
+        if (glom(a, "release_type") == "dataset" and glom(b, "release_type") == "dataset"
+                and glom(a, "ext_ids.doi") != glom(b, "ext_ids.doi")):
             return (Status.DIFFERENT, Miss.DATASET_DOI)
+    except PathAccessError:
+        pass
 
-    if (a.get("release_type") == "chapter" and b.get("release_type") == "chapter"
-            and a.get("extra", {}).get("container_name")
-            and b.get("extra", {}).get("container_name") and
-            a.get("extra", {}).get("container_name") != b.get("extra", {}).get("container_name")):
-        return (Status.DIFFERENT, Miss.BOOK_CHAPTER)
+    try:
+        if (glom(a, "release_type") == "chapter" and glom(b, "release_type") == "chapter"
+                and glom(a, "extra.container_name") != glom(b, "extra.container_name")):
+            return (Status.DIFFERENT, Miss.BOOK_CHAPTER)
+    except PathAccessError:
+        pass
 
-    if a.get("extra", {}).get("crossref", {}).get(
-            "type", "") == "component" and a.get("title") != b.get("title"):
-        return (Status.DIFFERENT, Miss.COMPONENT)
+    try:
+        if glom(a, "extra.crossref.type") == "component" and glom(a, "title") != glom(b, "title"):
+            return (Status.DIFFERENT, Miss.COMPONENT)
+    except PathAccessError:
+        pass
 
     # https://fatcat.wiki/release/knzhequchfcethcyyi3gsp5gry, some title contain newlines
     a_slug_title = slugify_string(a.get("title", "")).replace("\n", " ")
     b_slug_title = slugify_string(b.get("title", "")).replace("\n", " ")
 
     if a_slug_title == b_slug_title:
-        a_subtitles = a.get("extra", {}).get("subtitle", []) or []
-        b_subtitles = b.get("extra", {}).get("subtitle", []) or []
-        for a_sub in a_subtitles:
-            for b_sub in b_subtitles:
-                if slugify_string(a_sub) != slugify_string(b_sub):
-                    return (Status.DIFFERENT, Miss.SUBTITLE)
+        try:
+            a_subtitles = glom(a, "extra.subtitle")
+            b_subtitles = glom(b, "extra.subtitle")
+            for a_sub in a_subtitles:
+                for b_sub in b_subtitles:
+                    if slugify_string(a_sub) != slugify_string(b_sub):
+                        return (Status.DIFFERENT, Miss.SUBTITLE)
+        except PathAccessError:
+            pass
 
     arxiv_id_a = a.get("ext_ids", {}).get("arxiv")
     arxiv_id_b = b.get("ext_ids", {}).get("arxiv")
@@ -267,7 +277,7 @@ def compare(a, b):
     a_release_year = a.get("release_year")
     b_release_year = b.get("release_year")
 
-    if a.get("title", "").lower() == b.get("title", "").lower():
+    if a_title_lower == b_title_lower:
         if a_authors and (a_authors == b_authors):
             # TODO: https://fatcat.wiki/release/utx5r5e6azbvljipznv7ejqzvq,
             # https://fatcat.wiki/release/oceozrqtcbc4tloizhddxaj2ti
@@ -278,9 +288,9 @@ def compare(a, b):
                 return (Status.DIFFERENT, Miss.YEAR)
             return (Status.EXACT, OK.TITLE_AUTHOR_MATCH)
 
-    if (len(a.get("title", "").split()) == 1 and re.match(r".*[.][a-z]{3,3}", a.get("title", ""))
+    if (len(a.get("title", "").split()) == 1 and re.match(r".*[.][a-z]{2,3}", a.get("title", ""))
             or len(b.get("title", "").split()) == 1
-            and re.match(r".*[.][a-z]{3,3}", b.get("title", ""))):
+            and re.match(r".*[.][a-z]{2,3}$", b.get("title", ""))):
         if a.get("title") != b.get("title"):
             return (Status.DIFFERENT, Miss.TITLE_FILENAME)
 
