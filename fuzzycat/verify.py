@@ -138,6 +138,8 @@ def compare(a, b):
     """
     Compare two entities, return match status and reason.
     """
+    if a.get("doi") and b.get("doi") and a.get("doi") == b.get("doi"):
+        return (Status.EXACT, OK.DOI)
     if len(a.get("title", "")) < 5:
         return (Status.AMBIGUOUS, Miss.SHORT_TITLE)
     if a.get("title", "").lower() in TITLE_BLACKLIST:
