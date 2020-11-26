@@ -1,0 +1,57 @@
+{
+  "abstracts": [
+    {
+      "content": "The study of the Luminosity Function (LF) of Lyman Break Galaxies (LBGs) at\nz=7 is important for ascertaining their role in the reionization of the\nUniverse. We perform a detailed and critical analysis of the statistical and\nsystematic errors in the z~7 LF determination: we have assembled a large sample\nof candidate LBGs at z~7 from different surveys, spanning a large variety of\nareas and depths. In particular, we have combined data from the deep (J<27.4)\nand ultradeep (J<29.2) surveys recently acquired with the new WFC3 NIR camera\non HST, over the GOODS-ERS and the HUDF fields, with ground based surveys in\nwide and shallow areas from VLT and Subaru. We have used public ACS images in\nthe z-band to select z-dropout galaxies, and other public data both in the blue\n(BVI) and in the red bands to reject possible low-redshift interlopers. We have\ncompared our results with extensive simulations to quantify the observational\neffects of our selection criteria as well as the effects of photometric\nscatter, color selections or the morphology of the candidates. We have found\nthat the number density of faint LBGs at z~7 is only marginally sensitive to\nthe color selection adopted, but it is strongly dependent from the assumption\nmade on the half light distributions of the simulated galaxies, used to correct\nthe observed sample for incompleteness. The slope of the faint end of the LBGs\nLF has thus a rather large uncertainty, due to the unknown distribution of\nphysical sizes of the z~7 LBGs. We conclude that galaxies at z~7 are unable to\nreionize the Universe unless there is a significant evolution in the clumpiness\nof the IGM or in the escape fraction of ionising photons or, alternatively,\nthere is a large population of z~7 LBGs with large physical dimensions but\nstill not detected by the present observations.",
+      "lang": "en",
+      "mimetype": "text/plain",
+      "sha1": "3ce6d15bc44ae2123849d55f3773893bc2dccec1"
+    }
+  ],
+  "contribs": [
+    {
+      "index": 0,
+      "raw_name": "A. Grazian",
+      "role": "author"
+    },
+    {
+      "index": 1,
+      "raw_name": "A. Fontana",
+      "role": "author"
+    },
+    {
+      "index": 2,
+      "raw_name": "M.\n  Giavalisco  INAF - Osservatorio Astronomico di Roma\n   Department of Astronomy",
+      "role": "author"
+    },
+    {
+      "index": 3,
+      "raw_name": "University\n  of Massachusetts)",
+      "role": "author"
+    }
+  ],
+  "ext_ids": {
+    "arxiv": "1011.6569v2"
+  },
+  "extra": {
+    "arxiv": {
+      "base_id": "1011.6569",
+      "categories": [
+        "astro-ph.CO"
+      ],
+      "comments": "15 pages, 11 figures, accepted for publication in A&A"
+    }
+  },
+  "ident": "twzjy7m5irdu5gjkvrsp65hefa",
+  "language": "en",
+  "license_slug": "ARXIV-1.0",
+  "refs": [],
+  "release_date": "2011-04-20",
+  "release_stage": "accepted",
+  "release_type": "article",
+  "release_year": 2011,
+  "revision": "283c3e3b-f36a-499d-af24-789ee12d5622",
+  "state": "active",
+  "title": "A critical analysis of the UV Luminosity Function at redshift 7 from\n  deep WFC3 data",
+  "version": "v2",
+  "work_id": "3wz7yfh6jfg6zkby45a6lohc6i"
+}

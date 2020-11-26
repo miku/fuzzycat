@@ -1,0 +1,973 @@
+{
+  "abstracts": [],
+  "container_id": "hn2qalwlofhybedfhzkh4ogcn4",
+  "contribs": [
+    {
+      "extra": {
+        "seq": "first"
+      },
+      "index": 0,
+      "raw_name": "A. Grazian",
+      "role": "author"
+    },
+    {
+      "index": 1,
+      "raw_name": "M. Castellano",
+      "role": "author"
+    },
+    {
+      "index": 2,
+      "raw_name": "A. M. Koekemoer",
+      "role": "author"
+    },
+    {
+      "index": 3,
+      "raw_name": "A. Fontana",
+      "role": "author"
+    },
+    {
+      "index": 4,
+      "raw_name": "L. Pentericci",
+      "role": "author"
+    },
+    {
+      "index": 5,
+      "raw_name": "V. Testa",
+      "role": "author"
+    },
+    {
+      "index": 6,
+      "raw_name": "K. Boutsia",
+      "role": "author"
+    },
+    {
+      "index": 7,
+      "raw_name": "E. Giallongo",
+      "role": "author"
+    },
+    {
+      "index": 8,
+      "raw_name": "M. Giavalisco",
+      "role": "author"
+    },
+    {
+      "index": 9,
+      "raw_name": "P. Santini",
+      "role": "author"
+    }
+  ],
+  "ext_ids": {
+    "doi": "10.1051/0004-6361/201015754"
+  },
+  "extra": {
+    "crossref": {
+      "alternative-id": [
+        "aa15754-10"
+      ],
+      "type": "journal-article"
+    }
+  },
+  "ident": "olhia3lm2jfsrg3jkisjjnowsu",
+  "pages": "A33",
+  "publisher": "EDP Sciences",
+  "refs": [
+    {
+      "container_name": "ApJ",
+      "extra": {
+        "authors": [
+          "Becker"
+        ],
+        "doi": "10.1086/517866",
+        "volume": "662"
+      },
+      "index": 0,
+      "key": "R1",
+      "locator": "72",
+      "year": 2007
+    },
+    {
+      "container_name": "AJ",
+      "extra": {
+        "authors": [
+          "Beckwith"
+        ],
+        "doi": "10.1086/507302",
+        "volume": "132"
+      },
+      "index": 1,
+      "key": "R2",
+      "locator": "1729",
+      "year": 2006
+    },
+    {
+      "container_name": "A&AS",
+      "extra": {
+        "authors": [
+          "Bertin"
+        ],
+        "doi": "10.1051/aas:1996164",
+        "volume": "117"
+      },
+      "index": 2,
+      "key": "R3",
+      "locator": "393",
+      "year": 1996
+    },
+    {
+      "container_name": "MNRAS",
+      "extra": {
+        "authors": [
+          "Bolton"
+        ],
+        "doi": "10.1111/j.1365-2966.2007.12372.x",
+        "volume": "382"
+      },
+      "index": 3,
+      "key": "R4",
+      "locator": "325",
+      "year": 2007
+    },
+    {
+      "container_name": "Nature",
+      "extra": {
+        "authors": [
+          "Bouwens"
+        ],
+        "doi": "10.1038/nature05156",
+        "volume": "443"
+      },
+      "index": 4,
+      "key": "R5",
+      "locator": "189",
+      "year": 2006
+    },
+    {
+      "container_name": "ApJ",
+      "extra": {
+        "authors": [
+          "Bouwens"
+        ],
+        "doi": "10.1086/423786",
+        "volume": "611"
+      },
+      "index": 5,
+      "key": "R6",
+      "locator": "L1",
+      "year": 2004
+    },
+    {
+      "container_name": "ApJ",
+      "extra": {
+        "authors": [
+          "Bouwens"
+        ],
+        "doi": "10.1086/521811",
+        "volume": "670"
+      },
+      "index": 6,
+      "key": "R7",
+      "locator": "928",
+      "year": 2007
+    },
+    {
+      "container_name": "ApJ",
+      "extra": {
+        "authors": [
+          "Bouwens"
+        ],
+        "doi": "10.1086/590103",
+        "volume": "686"
+      },
+      "index": 7,
+      "key": "R8",
+      "locator": "230",
+      "year": 2008
+    },
+    {
+      "container_name": "ApJ",
+      "extra": {
+        "authors": [
+          "Bouwens"
+        ],
+        "doi": "10.1088/2041-8205/709/2/l133",
+        "volume": "709"
+      },
+      "index": 8,
+      "key": "R9",
+      "locator": "L133",
+      "year": 2010
+    },
+    {
+      "container_name": "ApJ",
+      "extra": {
+        "authors": [
+          "Bouwens"
+        ],
+        "doi": "10.1088/0004-637x/725/2/1587",
+        "volume": "725"
+      },
+      "index": 9,
+      "key": "R10",
+      "locator": "1587",
+      "year": 2010
+    },
+    {
+      "extra": {
+        "unstructured": "Bouwens, R. J., Illingworth, G. D., Oesch, P. A., et al. 2011 [arXiv:1006.4360]"
+      },
+      "index": 10,
+      "key": "R11"
+    },
+    {
+      "container_name": "ApJ",
+      "extra": {
+        "authors": [
+          "Bridge"
+        ],
+        "doi": "10.1088/0004-637x/720/1/465",
+        "volume": "720"
+      },
+      "index": 11,
+      "key": "R12",
+      "locator": "465",
+      "year": 2010
+    },
+    {
+      "extra": {
+        "unstructured": "Bruzual, A. G. 2007, in IAU Symp. 241, ed. A. Vazdekis, & R. F. Peletier, 125"
+      },
+      "index": 12,
+      "key": "R13"
+    },
+    {
+      "container_name": "MNRAS",
+      "extra": {
+        "authors": [
+          "Bunker"
+        ],
+        "doi": "10.1111/j.1365-2966.2010.17350.x",
+        "volume": "409"
+      },
+      "index": 13,
+      "key": "R14",
+      "locator": "855",
+      "year": 2010
+    },
+    {
+      "container_name": "ApJ",
+      "extra": {
+        "authors": [
+          "Calzetti"
+        ],
+        "doi": "10.1086/308692",
+        "volume": "533"
+      },
+      "index": 14,
+      "key": "R15",
+      "locator": "682",
+      "year": 2000
+    },
+    {
+      "container_name": "ApJ",
+      "extra": {
+        "authors": [
+          "Capak"
+        ],
+        "doi": "10.1088/0004-637x/730/2/68",
+        "volume": "730"
+      },
+      "index": 15,
+      "key": "R16",
+      "locator": "68",
+      "year": 2011
+    },
+    {
+      "container_name": "A&A",
+      "extra": {
+        "authors": [
+          "Castellano"
+        ],
+        "doi": "10.1051/0004-6361/200913300",
+        "volume": "511"
+      },
+      "index": 16,
+      "key": "R17",
+      "locator": "20",
+      "year": 2010
+    },
+    {
+      "container_name": "A&A",
+      "extra": {
+        "authors": [
+          "Castellano"
+        ],
+        "doi": "10.1051/0004-6361/201015195",
+        "volume": "524"
+      },
+      "index": 17,
+      "key": "R18",
+      "locator": "28",
+      "year": 2010
+    },
+    {
+      "container_name": "ApJ",
+      "extra": {
+        "authors": [
+          "Cen"
+        ],
+        "doi": "10.1086/375217",
+        "volume": "591"
+      },
+      "index": 18,
+      "key": "R19",
+      "locator": "12",
+      "year": 2003
+    },
+    {
+      "extra": {
+        "unstructured": "Cen, R. 2010, ApJL, submitted [arXiv:1007.0704]"
+      },
+      "index": 19,
+      "key": "R20"
+    },
+    {
+      "container_name": "ApJ",
+      "extra": {
+        "authors": [
+          "Cowie"
+        ],
+        "doi": "10.1088/0004-637x/711/2/928",
+        "volume": "711"
+      },
+      "index": 20,
+      "key": "R21",
+      "locator": "928",
+      "year": 2010
+    },
+    {
+      "container_name": "ApJ",
+      "extra": {
+        "authors": [
+          "Dow-Hygelund"
+        ],
+        "doi": "10.1086/512025",
+        "volume": "660"
+      },
+      "index": 21,
+      "key": "R22",
+      "locator": "47",
+      "year": 2007
+    },
+    {
+      "container_name": "ApJS",
+      "extra": {
+        "authors": [
+          "Dunkley"
+        ],
+        "doi": "10.1088/0067-0049/180/2/306",
+        "volume": "180"
+      },
+      "index": 22,
+      "key": "R23",
+      "locator": "306",
+      "year": 2009
+    },
+    {
+      "container_name": "AJ",
+      "extra": {
+        "authors": [
+          "Fan"
+        ],
+        "doi": "10.1086/504836",
+        "volume": "132"
+      },
+      "index": 23,
+      "key": "R24",
+      "locator": "117",
+      "year": 2006
+    },
+    {
+      "container_name": "ApJ",
+      "extra": {
+        "authors": [
+          "Ferguson"
+        ],
+        "doi": "10.1086/378578",
+        "volume": "600"
+      },
+      "index": 24,
+      "key": "R25",
+      "locator": "L107",
+      "year": 2004
+    },
+    {
+      "container_name": "ApJ",
+      "extra": {
+        "authors": [
+          "Finkelstein"
+        ],
+        "doi": "10.1088/0004-637x/719/2/1250",
+        "volume": "719"
+      },
+      "index": 25,
+      "key": "R26",
+      "locator": "1250",
+      "year": 2010
+    },
+    {
+      "container_name": "ApJ",
+      "extra": {
+        "authors": [
+          "Fontana"
+        ],
+        "doi": "10.1088/2041-8205/725/2/l205",
+        "volume": "725"
+      },
+      "index": 26,
+      "key": "R27",
+      "locator": "L205",
+      "year": 2010
+    },
+    {
+      "container_name": "ApJ",
+      "extra": {
+        "authors": [
+          "Giavalisco"
+        ],
+        "doi": "10.1086/381244",
+        "volume": "600"
+      },
+      "index": 27,
+      "key": "R28",
+      "locator": "L103",
+      "year": 2004
+    },
+    {
+      "container_name": "ApJ",
+      "extra": {
+        "authors": [
+          "Gnedin"
+        ],
+        "doi": "10.1086/505790",
+        "volume": "648"
+      },
+      "index": 28,
+      "key": "R29",
+      "year": 2006
+    },
+    {
+      "container_name": "ApJ",
+      "extra": {
+        "authors": [
+          "Gnedin"
+        ],
+        "doi": "10.1086/304548",
+        "volume": "486"
+      },
+      "index": 29,
+      "key": "R30",
+      "locator": "581",
+      "year": 1997
+    },
+    {
+      "container_name": "MNRAS",
+      "extra": {
+        "authors": [
+          "Hickey"
+        ],
+        "volume": "404"
+      },
+      "index": 30,
+      "key": "R31",
+      "locator": "212",
+      "year": 2010
+    },
+    {
+      "container_name": "MNRAS",
+      "extra": {
+        "authors": [
+          "Kitzbichler"
+        ],
+        "doi": "10.1111/j.1365-2966.2007.11458.x",
+        "volume": "376"
+      },
+      "index": 31,
+      "key": "R32",
+      "year": 2007
+    },
+    {
+      "extra": {
+        "unstructured": "Koekemoer, A. M., Fruchter, A. S. Hook, R., & Hack, W. 2002, HST Calibration Worskhop, ed. S. Arribas, A. Koekemoer, & B. Whitmore, STScI, Baltimore, 337"
+      },
+      "index": 32,
+      "key": "R33"
+    },
+    {
+      "container_name": "ApJS",
+      "extra": {
+        "authors": [
+          "Komatsu"
+        ],
+        "doi": "10.1088/0067-0049/192/2/18",
+        "volume": "192"
+      },
+      "index": 33,
+      "key": "R34",
+      "locator": "18",
+      "year": 2011
+    },
+    {
+      "container_name": "ApJ",
+      "extra": {
+        "authors": [
+          "Labbé"
+        ],
+        "doi": "10.1086/508512",
+        "volume": "649"
+      },
+      "index": 34,
+      "key": "R35",
+      "locator": "L67",
+      "year": 2006
+    },
+    {
+      "container_name": "ApJ",
+      "extra": {
+        "authors": [
+          "Madau"
+        ],
+        "doi": "10.1086/175332",
+        "volume": "441"
+      },
+      "index": 35,
+      "key": "R36",
+      "locator": "18",
+      "year": 1995
+    },
+    {
+      "container_name": "ApJ",
+      "extra": {
+        "authors": [
+          "Madau"
+        ],
+        "doi": "10.1086/305523",
+        "volume": "498"
+      },
+      "index": 36,
+      "key": "R37",
+      "locator": "106",
+      "year": 1998
+    },
+    {
+      "container_name": "ApJ",
+      "extra": {
+        "authors": [
+          "Madau"
+        ],
+        "doi": "10.1086/381935",
+        "volume": "604"
+      },
+      "index": 37,
+      "key": "R38",
+      "locator": "484",
+      "year": 2004
+    },
+    {
+      "container_name": "A&A",
+      "extra": {
+        "authors": [
+          "Mannucci"
+        ],
+        "doi": "10.1051/0004-6361:20065993",
+        "volume": "461"
+      },
+      "index": 38,
+      "key": "R39",
+      "locator": "423",
+      "year": 2007
+    },
+    {
+      "container_name": "MNRAS",
+      "extra": {
+        "authors": [
+          "McLure"
+        ],
+        "doi": "10.1111/j.1365-2966.2009.14677.x",
+        "volume": "395"
+      },
+      "index": 39,
+      "key": "R40",
+      "locator": "2196",
+      "year": 2009
+    },
+    {
+      "container_name": "MNRAS",
+      "extra": {
+        "authors": [
+          "McLure"
+        ],
+        "doi": "10.1111/j.1365-2966.2009.16176.x",
+        "volume": "403"
+      },
+      "index": 40,
+      "key": "R41",
+      "locator": "960",
+      "year": 2010
+    },
+    {
+      "container_name": "RvMP",
+      "extra": {
+        "authors": [
+          "Meiksin"
+        ],
+        "volume": "81"
+      },
+      "index": 41,
+      "key": "R42",
+      "locator": "1405",
+      "year": 2009
+    },
+    {
+      "container_name": "ApJ",
+      "extra": {
+        "authors": [
+          "Meurer"
+        ],
+        "doi": "10.1086/307523",
+        "volume": "521"
+      },
+      "index": 42,
+      "key": "R43",
+      "locator": "64",
+      "year": 1999
+    },
+    {
+      "container_name": "ApJ",
+      "extra": {
+        "authors": [
+          "Oesch"
+        ],
+        "doi": "10.1086/522423",
+        "volume": "671"
+      },
+      "index": 43,
+      "key": "R44",
+      "locator": "1212",
+      "year": 2007
+    },
+    {
+      "container_name": "ApJ",
+      "extra": {
+        "authors": [
+          "Oesch"
+        ],
+        "doi": "10.1088/0004-637x/690/2/1350",
+        "volume": "690"
+      },
+      "index": 44,
+      "key": "R45",
+      "locator": "1350",
+      "year": 2009
+    },
+    {
+      "container_name": "ApJ",
+      "extra": {
+        "authors": [
+          "Oesch"
+        ],
+        "doi": "10.1088/2041-8205/709/1/l16",
+        "volume": "709"
+      },
+      "index": 45,
+      "key": "R46",
+      "locator": "L16",
+      "year": 2010
+    },
+    {
+      "container_name": "ApJ",
+      "extra": {
+        "authors": [
+          "Oesch"
+        ],
+        "doi": "10.1088/2041-8205/709/1/l21",
+        "volume": "709"
+      },
+      "index": 46,
+      "key": "R47",
+      "locator": "L21",
+      "year": 2010
+    },
+    {
+      "container_name": "ApJ",
+      "extra": {
+        "authors": [
+          "Ouchi"
+        ],
+        "doi": "10.1088/0004-637x/706/2/1136",
+        "volume": "706"
+      },
+      "index": 47,
+      "key": "R48",
+      "locator": "1136",
+      "year": 2009
+    },
+    {
+      "container_name": "MNRAS",
+      "extra": {
+        "authors": [
+          "Overzier"
+        ],
+        "doi": "10.1111/j.1365-2966.2008.14264.x",
+        "volume": "394"
+      },
+      "index": 48,
+      "key": "R49",
+      "locator": "577",
+      "year": 2009
+    },
+    {
+      "container_name": "ASPC",
+      "extra": {
+        "authors": [
+          "Pawlik"
+        ],
+        "volume": "432"
+      },
+      "index": 49,
+      "key": "R50",
+      "locator": "230",
+      "year": 2010
+    },
+    {
+      "container_name": "ApJ",
+      "extra": {
+        "authors": [
+          "Robertson"
+        ],
+        "doi": "10.1088/0004-637x/713/2/1266",
+        "volume": "713"
+      },
+      "index": 50,
+      "key": "R51",
+      "locator": "1266",
+      "year": 2010
+    },
+    {
+      "container_name": "ApJ",
+      "extra": {
+        "authors": [
+          "Schechter"
+        ],
+        "doi": "10.1086/154079",
+        "volume": "203"
+      },
+      "index": 51,
+      "key": "R52",
+      "locator": "297",
+      "year": 1976
+    },
+    {
+      "container_name": "ApJ",
+      "extra": {
+        "authors": [
+          "Siana"
+        ],
+        "doi": "10.1088/0004-637x/723/1/241",
+        "volume": "723"
+      },
+      "index": 52,
+      "key": "R53",
+      "locator": "241",
+      "year": 2010
+    },
+    {
+      "container_name": "ApJ",
+      "extra": {
+        "authors": [
+          "Somerville"
+        ],
+        "doi": "10.1086/378628",
+        "volume": "600"
+      },
+      "index": 53,
+      "key": "R54",
+      "locator": "L171",
+      "year": 2004
+    },
+    {
+      "container_name": "ApJ",
+      "extra": {
+        "authors": [
+          "Songaila"
+        ],
+        "doi": "10.1088/0004-637x/721/2/1448",
+        "volume": "721"
+      },
+      "index": 54,
+      "key": "R55",
+      "locator": "1448",
+      "year": 2010
+    },
+    {
+      "container_name": "MNRAS",
+      "extra": {
+        "authors": [
+          "Stanway"
+        ],
+        "doi": "10.1111/j.1365-2966.2008.13030.x",
+        "volume": "386"
+      },
+      "index": 55,
+      "key": "R56",
+      "locator": "370",
+      "year": 2008
+    },
+    {
+      "container_name": "ApJ",
+      "extra": {
+        "authors": [
+          "Vanzella"
+        ],
+        "doi": "10.1088/0004-637x/695/2/1163",
+        "volume": "695"
+      },
+      "index": 56,
+      "key": "R57",
+      "locator": "1163",
+      "year": 2009
+    },
+    {
+      "container_name": "ApJ",
+      "extra": {
+        "authors": [
+          "Vanzella"
+        ],
+        "doi": "10.1088/0004-637x/725/1/1011",
+        "volume": "725"
+      },
+      "index": 57,
+      "key": "R58",
+      "locator": "1011",
+      "year": 2010
+    },
+    {
+      "container_name": "ApJ",
+      "extra": {
+        "authors": [
+          "Vanzella"
+        ],
+        "doi": "10.1088/2041-8205/730/2/l35",
+        "volume": "730"
+      },
+      "index": 58,
+      "key": "R59",
+      "locator": "L35",
+      "year": 2011
+    },
+    {
+      "container_name": "ApJ",
+      "extra": {
+        "authors": [
+          "Venkatesan"
+        ],
+        "doi": "10.1086/345738",
+        "volume": "584"
+      },
+      "index": 59,
+      "key": "R60",
+      "locator": "621",
+      "year": 2003
+    },
+    {
+      "container_name": "MNRAS",
+      "extra": {
+        "authors": [
+          "Wilkins"
+        ],
+        "doi": "10.1111/j.1365-2966.2009.16175.x",
+        "volume": "403"
+      },
+      "index": 60,
+      "key": "R61",
+      "locator": "938",
+      "year": 2010
+    },
+    {
+      "container_name": "MNRAS",
+      "extra": {
+        "authors": [
+          "Wilkins"
+        ],
+        "doi": "10.1111/j.1365-2966.2010.17626.x",
+        "volume": "411"
+      },
+      "index": 61,
+      "key": "R62",
+      "locator": "23",
+      "year": 2011
+    },
+    {
+      "container_name": "AAS",
+      "extra": {
+        "authors": [
+          "Windhorst"
+        ],
+        "volume": "201"
+      },
+      "index": 62,
+      "key": "R63",
+      "locator": "3207",
+      "year": 2002
+    },
+    {
+      "container_name": "ApJS",
+      "extra": {
+        "authors": [
+          "Windhorst"
+        ],
+        "doi": "10.1088/0067-0049/193/2/27",
+        "volume": "193"
+      },
+      "index": 63,
+      "key": "R64",
+      "locator": "27",
+      "year": 2011
+    },
+    {
+      "container_name": "RAA",
+      "extra": {
+        "authors": [
+          "Yan"
+        ],
+        "volume": "10"
+      },
+      "index": 64,
+      "key": "R65",
+      "locator": "867",
+      "year": 2010
+    },
+    {
+      "container_name": "ApJ",
+      "extra": {
+        "authors": [
+          "Yan"
+        ],
+        "doi": "10.1088/2041-8205/728/1/l22",
+        "volume": "728"
+      },
+      "index": 65,
+      "key": "R66",
+      "locator": "22",
+      "year": 2011
+    }
+  ],
+  "release_date": "2011-07-18",
+  "release_stage": "published",
+  "release_type": "article-journal",
+  "release_year": 2011,
+  "revision": "3fd00c56-132a-4570-8c2b-637415a29160",
+  "state": "active",
+  "title": "A critical analysis of the UV luminosity function at redshift  ~7 from deep WFC3 data",
+  "volume": "532",
+  "work_id": "3wz7yfh6jfg6zkby45a6lohc6i"
+}
