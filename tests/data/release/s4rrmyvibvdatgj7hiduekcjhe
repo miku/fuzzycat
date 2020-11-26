@@ -1,0 +1,64 @@
+{
+  "abstracts": [
+    {
+      "content": "<jats:p>We present the first record of <jats:italic>Gomesa leinigii</jats:italic> (Pabst) M.W. Chase &amp; N.H. Williams in São Paulo state, Brazil, previously known only in the state of Paraná, extended its geographical distribution. We also document newly discovered populations of <jats:italic>Macradenia paraensis</jats:italic> Barb.Rodr. and <jats:italic>Peperomia psilostachya</jats:italic> C.DC. in São Paulo state, Brazil. Description, comments, conservation status, photographic figures and a distribution map of these species are presented. </jats:p>",
+      "mimetype": "application/xml+jats",
+      "sha1": "12062279b8ea7e12a37f038e989f8a0afc74abc2"
+    }
+  ],
+  "container_id": "ef2yttctrvcr3cgjntvgl4n7fq",
+  "contribs": [
+    {
+      "extra": {
+        "seq": "first"
+      },
+      "index": 0,
+      "raw_name": "Letícia Chedid Seidinger",
+      "role": "author"
+    },
+    {
+      "index": 1,
+      "raw_name": "Wilton Felipe Teixeira",
+      "role": "author"
+    },
+    {
+      "index": 2,
+      "raw_name": "Renata Giassi Udulutsch",
+      "role": "author"
+    }
+  ],
+  "ext_ids": {
+    "doi": "10.15560/14.5.1065"
+  },
+  "extra": {
+    "crossref": {
+      "license": [
+        {
+          "URL": "http://creativecommons.org/licenses/by/4.0/",
+          "content-version": "vor",
+          "delay-in-days": 0,
+          "start": "2018-11-16T00:00:00Z"
+        }
+      ],
+      "subject": [
+        "Ecology",
+        "Ecology, Evolution, Behavior and Systematics"
+      ],
+      "type": "journal-article"
+    }
+  },
+  "ident": "s4rrmyvibvdatgj7hiduekcjhe",
+  "license_slug": "CC-BY",
+  "pages": "1065-1070",
+  "publisher": "Pensoft Publishers",
+  "refs": [],
+  "release_date": "2018-11-16",
+  "release_stage": "published",
+  "release_type": "article-journal",
+  "release_year": 2018,
+  "revision": "5a584363-16c4-4508-b4de-82841718b6d1",
+  "state": "active",
+  "title": "A new occurrence of Gomesa leinigii (Pabst) M.W. Chase & N.H. Williams (Orchidaceae) and new populations of Macradenia paraensis Barb.Rodr. (Orchidaceae) and Peperomia psilostachya C.DC. (Piperaceae) in São Paulo state, Brazil",
+  "volume": "14",
+  "work_id": "imidp552hvdprjn4jxeqamrso4"
+}
