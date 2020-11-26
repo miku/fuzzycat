@@ -1,0 +1,44 @@
+{
+  "abstracts": [],
+  "container_id": "zh3l2vm63nc2hf7cfortftja5a",
+  "contribs": [
+    {
+      "extra": {
+        "seq": "first"
+      },
+      "index": 0,
+      "raw_name": "Arata Yoshihara",
+      "role": "author"
+    },
+    {
+      "index": 1,
+      "raw_name": "Yozo Hamano",
+      "role": "author"
+    }
+  ],
+  "ext_ids": {
+    "doi": "10.1016/j.precamres.2004.01.003"
+  },
+  "extra": {
+    "crossref": {
+      "alternative-id": [
+        "S0301926804000257"
+      ],
+      "type": "journal-article"
+    }
+  },
+  "ident": "pxzy4k45xjhgfgw6znf5xjayfa",
+  "issue": "1-2",
+  "language": "en",
+  "pages": "111-142",
+  "publisher": "Elsevier BV",
+  "refs": [],
+  "release_stage": "published",
+  "release_type": "article-journal",
+  "release_year": 2004,
+  "revision": "7c7f43bc-fca2-4fb9-b0d6-4368ba18ce57",
+  "state": "active",
+  "title": "Paleomagnetic constraints on the Archean geomagnetic field intensity obtained from komatiites of the Barberton and Belingwe greenstone belts, South Africa and Zimbabwe",
+  "volume": "131",
+  "work_id": "k6zqxcn3lbbbdktalmdb3xsl2i"
+}

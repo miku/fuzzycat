@@ -1,0 +1,31 @@
+{
+  "abstracts": [],
+  "contribs": [
+    {
+      "given_name": "Yozo Hamano",
+      "index": 0,
+      "raw_name": "Yozo Hamano Arata Yoshihara",
+      "role": "author",
+      "surname": "Arata Yoshihara"
+    }
+  ],
+  "ext_ids": {
+    "doi": "10.7288/v4/magic/12052"
+  },
+  "extra": {
+    "datacite": {
+      "metadataVersion": 2,
+      "resourceTypeGeneral": "Other"
+    }
+  },
+  "ident": "7j2dsplr45bhvdtrhqa7hykwka",
+  "publisher": "Magnetics Information Consortium (MagIC)",
+  "refs": [],
+  "release_stage": "published",
+  "release_type": "article",
+  "release_year": 2004,
+  "revision": "0f0cd5dd-918d-42de-a5e7-7ec8d6afbeb0",
+  "state": "active",
+  "title": "Paleomagnetic constraints on the Archean geomagnetic field intensity obtained from komatiites of the Barberton and Belingwe greenstone belts, South Africa and Zimbabwe",
+  "work_id": "at3sjd6qwvathml5mej65pfhaq"
+}

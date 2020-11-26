@@ -1,0 +1,61 @@
+{
+  "abstracts": [],
+  "contribs": [
+    {
+      "given_name": "Arata",
+      "index": 0,
+      "raw_name": "Arata Yoshihara",
+      "role": "author",
+      "surname": "Yoshihara"
+    },
+    {
+      "index": 1,
+      "raw_name": "Yozo Hamano",
+      "role": "author"
+    },
+    {
+      "extra": {
+        "type": "Distributor"
+      },
+      "raw_name": "Magnetics Information Consortium (MagIC)"
+    }
+  ],
+  "ext_ids": {
+    "doi": "10.7288/v4/magic/12052"
+  },
+  "extra": {
+    "datacite": {
+      "license": [
+        {
+          "rightsUri": "http://creativecommons.org/publicdomain/zero/1.0"
+        }
+      ],
+      "metadataVersion": 3,
+      "resourceTypeGeneral": "Dataset",
+      "subjects": [
+        {
+          "subject": "Intrusive",
+          "subjectScheme": "earthref.magic.geologic_classes"
+        },
+        {
+          "subject": "komatiites",
+          "subjectScheme": "earthref.magic.lithologies"
+        }
+      ]
+    },
+    "release_month": 12
+  },
+  "ident": "ud3tzdfacncvnkj232lkvvg34q",
+  "license_slug": "CC-0",
+  "publisher": "Precambrian Research",
+  "refs": [],
+  "release_date": "2006-12-22",
+  "release_stage": "published",
+  "release_type": "dataset",
+  "release_year": 2006,
+  "revision": "ced0e935-ec8c-457e-bde8-6082bae1c192",
+  "state": "active",
+  "title": "Paleomagnetic constraints on the Archean geomagnetic field intensity obtained from komatiites of the Barberton and Belingwe greenstone belts, South Africa and Zimbabwe (Dataset)",
+  "version": "2",
+  "work_id": "abs6cz427ncnhhbwpxjavdzxlu"
+}
