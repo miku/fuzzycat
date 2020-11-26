@@ -1,0 +1,44 @@
+{
+  "abstracts": [
+    {
+      "content": "With the introduction of Google Scholar in November 2004, research libraries faced the decision of whether to integrate this \"blended\" resource into their collections and services via their library Web sites. The authors are members of a Web Advisory Committee and present a case study detailing Rutgers University Libraries' experience with integrating Google Scholar onto the library's Web site. A descriptive study of all ARL university members' library Web sites also was undertaken to determine how other academic libraries were treating Google Scholar in July 2005. Did ARL libraries place Google Scholar on alphabetical lists of indexes and databases, subject guides, or in OPACs, for instance? Results from this study are presented and implications of putting Google Scholar on the Web site are discussed for all major user groups.",
+      "lang": "en",
+      "mimetype": "text/plain",
+      "sha1": "a055b7fd4a0c1e3338719b937d27a00a6ee85110"
+    }
+  ],
+  "contribs": [
+    {
+      "given_name": "Laura Bowering",
+      "index": 0,
+      "raw_name": "Laura Bowering Mullen",
+      "role": "author",
+      "surname": "Mullen"
+    },
+    {
+      "given_name": "Karen A.",
+      "index": 1,
+      "raw_name": "Karen A. Hartman",
+      "role": "author",
+      "surname": "Hartman"
+    }
+  ],
+  "ext_ids": {
+    "doi": "10.7282/t3kh0kq0"
+  },
+  "extra": {
+    "datacite": {
+      "resourceTypeGeneral": "Text"
+    }
+  },
+  "ident": "fbdg4rdgw5halgkhr4qcsex25y",
+  "publisher": "ACRL (Association of College and Research Libraries)",
+  "refs": [],
+  "release_stage": "published",
+  "release_type": "article-journal",
+  "release_year": 2006,
+  "revision": "dd4d43f8-954e-4826-8480-44e65087e9ee",
+  "state": "active",
+  "title": "Google Scholar and the Library Web Site: The Early Response by ARL Libraries",
+  "work_id": "l7sprlnz3vhqffso55t2shrhv4"
+}

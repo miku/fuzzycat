@@ -44,7 +44,8 @@ def test_compare():
                 logger.warning(
                     "skipping test {base}/release/{a} {base}/release/{b} -- no result defined (we think {status}, {reason})"
                     .format(a=a, b=b, base=FATCAT_BASE_URL, status=status, reason=reason))
-            assert status == status, "status: want {}, got {} for {} {}".format(
+                continue
+            assert status_mapping[expected_status] == status, "status: want {}, got {} for {} {}".format(
                 expected_status, status, a, b)
             if expected_reason:
                 assert expected_reason.lower() == reason.lower(
