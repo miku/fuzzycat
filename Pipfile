@@ -23,6 +23,7 @@ spacy = "*"
 nltk = "*"
 regex = "*"
 pytest-cov = "*"
+glom = "*"
 
 [requires]
 python_version = "3.7"
