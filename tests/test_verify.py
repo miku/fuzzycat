@@ -41,11 +41,12 @@ def test_compare():
                 pytest.fail("invalid test file, maybe missing a comma? {}".format(exc))
             status, reason = compare(load_release_ident(a), load_release_ident(b))
             if not expected_status or expected_status.lower() == "todo":
-                logger.warn(
+                logger.warning(
                     "skipping test {base}/release/{a} {base}/release/{b} -- no result defined (we think {status}, {reason})"
                     .format(a=a, b=b, base=FATCAT_BASE_URL, status=status, reason=reason))
             assert status == status, "status: want {}, got {} for {} {}".format(
                 expected_status, status, a, b)
             if expected_reason:
-                assert expected_reason.lower() == reason.lower(), "reason [{} {}]: want {}, got {}".format(a, b, expected_reason, reason)
+                assert expected_reason.lower() == reason.lower(
+                ), "reason [{} {}]: want {}, got {}".format(a, b, expected_reason, reason)
         logger.info("ran verification over {} cases (https://git.io/JkDgS)".format(i))

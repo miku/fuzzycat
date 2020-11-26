@@ -138,7 +138,8 @@ def compare(a, b):
     """
     Compare two entities, return match status and reason.
     """
-    if a.get("doi") and b.get("doi") and a.get("doi") == b.get("doi"):
+    if a.get("ext_ids", {}).get("doi") and b.get("ext_ids", {}).get("doi") and a.get(
+            "ext_ids", {}).get("doi") == b.get("ext_ids", {}).get("doi"):
         return (Status.EXACT, OK.DOI)
     if len(a.get("title", "")) < 5:
         return (Status.AMBIGUOUS, Miss.SHORT_TITLE)
@@ -157,10 +158,11 @@ def compare(a, b):
 
     # TODO: figshare versions, "xxx.v1"
     FIGSHARE_PREFIX = "10.6084"
-    if a.get("doi") and b.get("doi") and a.get("doi").startswith(FIGSHARE_PREFIX + "/") and b.get(
-            "doi").startswith(FIGSHARE_PREFIX + "/"):
-        a_doi_v_stripped = re.sub(r"[.]v[0-9]+$", "", a.get("doi"))
-        b_doi_v_stripped = re.sub(r"[.]v[0-9]+$", "", a.get("doi"))
+    if a.get("ext_ids", {}).get("doi") and b.get("ext_ids", {}).get("doi") and a.get(
+            "ext_ids", {}).get("doi").startswith(FIGSHARE_PREFIX + "/") and b.get(
+                "ext_ids", {}).get("doi").startswith(FIGSHARE_PREFIX + "/"):
+        a_doi_v_stripped = re.sub(r"[.]v[0-9]+$", "", a.get("ext_ids", {}).get("doi", ""))
+        b_doi_v_stripped = re.sub(r"[.]v[0-9]+$", "", a.get("ext_ids", {}).get("doi", ""))
         if a_doi_v_stripped == b_doi_v_stripped:
             return (Status.STRONG, OK.FIGSHARE_VERSION)
 
@@ -3542,4 +3544,3 @@ TITLE_BLACKLIST = set([
     "週刊ダイヤモンド = diamond weekly 69(1)",
     "週刊ダイヤモンド = diamond weekly 別冊",
 ])
-

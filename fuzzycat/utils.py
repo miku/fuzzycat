@@ -1,12 +1,13 @@
 import io
 import itertools
-import string
 import re
+import string
 
 printable_no_punct = string.digits + string.ascii_letters + string.whitespace
 
 # More correct: https://www.johndcook.com/blog/2016/02/04/regular-expression-to-match-a-chemical-element/
 CHEM_FORMULA = re.compile(r"([A-Z]{1,2}[0-9]{1,2})+")
+
 
 def slugify_string(s: str) -> str:
     """
@@ -89,4 +90,3 @@ def contains_chemical_formula(s):
     for token in s.split():
         if CHEM_FORMULA.search(token):
             return True
-
