@@ -72,6 +72,8 @@ import operator
 import re
 import sys
 
+from glom import PathAccessError, glom
+
 from fuzzycat.common import OK, Miss, Status
 from fuzzycat.utils import (author_similarity_score, contains_chemical_formula, num_project,
                             slugify_string)
@@ -138,63 +140,72 @@ def compare(a, b):
     """
     Compare two entities, return match status and reason.
     """
-    if a.get("ext_ids", {}).get("doi") and b.get("ext_ids", {}).get("doi") and a.get(
-            "ext_ids", {}).get("doi") == b.get("ext_ids", {}).get("doi"):
-        return (Status.EXACT, OK.DOI)
-    if len(a.get("title", "")) < 5:
+    try:
+        if glom(a, "ext_ids.doi") == glom(b, "ext_ids.doi"):
+            return (Status.EXACT, OK.DOI)
+    except PathAccessError:
+        pass
+
+    a_title = a.get("title", "")
+    a_title_lower = a_title.lower()
+    b_title = b.get("title", "")
+    b_title_lower = b_title.lower()
+
+    if len(a_title) < 5:
         return (Status.AMBIGUOUS, Miss.SHORT_TITLE)
-    if a.get("title", "").lower() in TITLE_BLACKLIST:
+    if a_title_lower in TITLE_BLACKLIST:
         return (Status.AMBIGUOUS, Miss.BLACKLISTED)
 
     for fragment in TITLE_FRAGMENT_BLACKLIST:
-        if fragment in a.get("title", "").lower():
+        if fragment in a_title_lower:
             return (Status.AMBIGUOUS, Miss.BLACKLISTED_FRAGMENT)
 
-    if "Zweckverband Volkshochschule " in a.get("title") and a.get("title") != b.get("title"):
+    if "Zweckverband Volkshochschule " in a_title and a_title != b_title:
         return (Status.DIFFERENT, Miss.CUSTOM_VHS)
 
-    if re.match(r"appendix ?[^ ]*$", a.get("title", "").lower()):
+    if re.match(r"appendix ?[^ ]*$", a_title_lower):
         return (Status.AMBIGUOUS, Miss.APPENDIX)
 
-    # TODO: figshare versions, "xxx.v1"
-    FIGSHARE_PREFIX = "10.6084"
-    if a.get("ext_ids", {}).get("doi") and b.get("ext_ids", {}).get("doi") and a.get(
-            "ext_ids", {}).get("doi").startswith(FIGSHARE_PREFIX + "/") and b.get(
-                "ext_ids", {}).get("doi").startswith(FIGSHARE_PREFIX + "/"):
-        a_doi_v_stripped = re.sub(r"[.]v[0-9]+$", "", a.get("ext_ids", {}).get("doi", ""))
-        b_doi_v_stripped = re.sub(r"[.]v[0-9]+$", "", a.get("ext_ids", {}).get("doi", ""))
-        if a_doi_v_stripped == b_doi_v_stripped:
-            return (Status.STRONG, OK.FIGSHARE_VERSION)
+    try:
+        # TODO: figshare versions, "xxx.v1"
+        FIGSHARE_PREFIX = "10.6084/"
+        if glom(a, "ext_ids.doi").startswith(FIGSHARE_PREFIX) and glom(
+                b, "ext_ids.doi").startswith(FIGSHARE_PREFIX):
+            a_doi_v_stripped = re.sub(r"[.]v[0-9]+$", "", glom(a, "ext_ids.doi"))
+            b_doi_v_stripped = re.sub(r"[.]v[0-9]+$", "", glom(b, "ext_ids.doi"))
+            if a_doi_v_stripped == b_doi_v_stripped:
+                return (Status.STRONG, OK.FIGSHARE_VERSION)
+    except PathAccessError:
+        pass
 
     # TODO: datacite specific vocabulary
     # extra.datacite.relations[].{relationType=IsNewerVersionOf,relatedIdentifier=10...}
     # beware: we have versions and "isPartOf", e.g. https://api.fatcat.wiki/v0/release/ybxygpeypbaq5pfrztu3z2itw4
     # TODO: does glom help?
     # ...
-    if "datacite" in a.get("extra", {}) and "datacite" in b.get("extra", {}):
-        # Relevant relationType values: IsSupplementTo, IsSupplementedBy,
-        # HasVersion, IsVersionOf, IsNewVersionOf, IsPreviousVersionOf
+    if "datacite" in a.get("extra") and "datacite" in b.get("extra"):
         whitelist = set([
-            "HasVersion", "IsVersionOf", "IsNewVersionOf", "IsPreviousVersionOf", "IsPartOf",
-            "HasPart"
+            "HasPart",
+            "HasVersion",
+            "IsNewVersionOf",
+            "IsPartOf",
+            "IsPreviousVersionOf",
+            "IsVersionOf",
         ])
 
-        def get_related_doi(doc):
-            dois = set()
-            for rel in doc.get("extra", {}).get("datacite", {}).get("relations", []):
-                if rel.get("relationType") not in whitelist:
-                    continue
-                if rel.get("relatedIdentifierType") != "DOI":
-                    continue
-                doi = rel.get("relatedIdentifier")
-                if not doi:
-                    continue
-                dois.add(doi)
-            return dois
+        def get_datacite_related_doi(doc):
+            spec = ("extra.datacite.relations", [{
+                "type": "relatedIdentifierType",
+                "id": "relatedIdentifier"
+            }])
+            try:
+                return set([v["id"] for v in glom(doc, spec) if v["type"].lower() == "doi"])
+            except PathAccessError:
+                return set()
 
-        a_doi_rel = get_related_doi(a)
-        b_doi_rel = get_related_doi(b)
-        if b.get("doi") in a_doi_rel or a.get("doi") in b_doi_rel:
+        a_doi_rel = get_datacite_related_doi(a)
+        b_doi_rel = get_datacite_related_doi(b)
+        if glom(b, "ext_ids.doi") in a_doi_rel or glom(a, "ext_ids.doi") in b_doi_rel:
             return (Status.STRONG, OK.DATACITE_RELATED_ID)
 
     arxiv_id_a = a.get("ext_ids", {}).get("arxiv")
