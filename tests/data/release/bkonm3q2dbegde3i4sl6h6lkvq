@@ -1,0 +1,52 @@
+{
+  "abstracts": [],
+  "container_id": "yvxuqnndanecfkaawvplfvqzdi",
+  "contribs": [
+    {
+      "extra": {
+        "seq": "first"
+      },
+      "given_name": "Hans-Ulrich",
+      "index": 0,
+      "raw_affiliation": "Freie Universität Berlin; Institut für Chemie und Biochemie; Takustr. 3 14195 Berlin GERMANY",
+      "raw_name": "Hans-Ulrich Reissig",
+      "role": "author",
+      "surname": "Reissig"
+    },
+    {
+      "given_name": "Martin",
+      "index": 1,
+      "raw_affiliation": "Universitat zu Koln; Department Chemie; GERMANY",
+      "raw_name": "Martin Breugst",
+      "role": "author",
+      "surname": "Breugst"
+    }
+  ],
+  "ext_ids": {
+    "doi": "10.1002/anie.202003115"
+  },
+  "extra": {
+    "crossref": {
+      "archive": [
+        "Portico"
+      ],
+      "subject": [
+        "General Chemistry",
+        "Catalysis"
+      ],
+      "type": "journal-article"
+    }
+  },
+  "ident": "bkonm3q2dbegde3i4sl6h6lkvq",
+  "language": "en",
+  "publisher": "Wiley",
+  "refs": [],
+  "release_date": "2020-04-07",
+  "release_stage": "published",
+  "release_type": "article-journal",
+  "release_year": 2020,
+  "revision": "3f3c93f2-27b0-476e-99b0-f1e2d86cf7da",
+  "state": "active",
+  "title": "Die Huisgen-Reaktion - Meilensteine der 1,3-Dipolaren Cycloaddition",
+  "work_id": "wi7i3alc2re2ljyzk5vfwsfp5y"
+}

@@ -1,0 +1,1572 @@
+{
+  "abstracts": [
+    {
+      "content": "Rolf Huisgen hat vor 60 Jahren das Konzept der 1,3-dipolaren Cycloaddition vorgestellt und dabei bis dahin unbekannte reaktive Zwischenstufen, wie z.B. Azomethinylide, in die organische Chemie eingeführt. Danach entwickelten sich die (3+2)-Cycloadditionen von 1,3-Dipolen an Mehrfachbindungssysteme zu einer der vielseitigsten Synthesemethoden in der Heterocyclen-chemie. In diesem Aufsatz gehen wir auf die geschichtliche Entwicklung dieses Arbeitsgebietes ein, führen die relevanten Vorläuferarbeiten auf und schildern das Entstehen des Konzeptes und seine Weiterentwicklung. Die wichtigsten mechanistischen und präparativen Befunde werden diskutiert. Quantenmechanische Berechnungen stützen den von R. Huisgen immer favorisierten konzertierten Reaktionsmechanismus, aber in Extremfällen können auch zwitterionische Zwischenstufen durchlaufen werden. Die Bedeutung der 1,3-dipolaren Cycloaddition für die experimentelle Umsetzung des Click-Chemie-Konzept von K. B. Sharpless wird ebenfalls diskutiert.",
+      "lang": "en",
+      "mimetype": "text/plain",
+      "sha1": "bb7891bd4132c96d1aa39ee00f8eeeb381614d8a"
+    }
+  ],
+  "container_id": "yvxuqnndanecfkaawvplfvqzdi",
+  "contribs": [
+    {
+      "extra": {},
+      "given_name": "Hans-Ulrich",
+      "index": 0,
+      "raw_affiliation": "Freie Universität Berlin, Institut für Chemie und Biochemie, Takustr. 3, 14195, Berlin, GERMANY.",
+      "raw_name": "Hans-Ulrich Reissig",
+      "role": "author",
+      "surname": "Reissig"
+    },
+    {
+      "extra": {},
+      "given_name": "Martin",
+      "index": 1,
+      "raw_affiliation": "Universitat zu Koln, Department Chemie, GERMANY.",
+      "raw_name": "Martin Breugst",
+      "role": "author",
+      "surname": "Breugst"
+    }
+  ],
+  "ext_ids": {
+    "doi": "10.1002/anie.202003115",
+    "pmid": "32255543"
+  },
+  "extra": {
+    "pubmed": {
+      "pub_types": [
+        "Journal Article"
+      ]
+    }
+  },
+  "ident": "s7mpon5havhx3eil563hcz6anu",
+  "language": "en",
+  "refs": [
+    {
+      "extra": {
+        "unstructured": " "
+      },
+      "index": 0
+    },
+    {
+      "extra": {
+        "unstructured": "R. Huisgen, in Zehnjahresfeier des Fonds der Chemischen Industrie, Düsseldorf, 1960, pp. 73-102 (Reprint in Naturwiss. Rundschau 1961, 1914, 1963);"
+      },
+      "index": 1
+    },
+    {
+      "extra": {
+        "unstructured": "R. Huisgen, Proc. Chem. Soc. London 1961, 357-369."
+      },
+      "index": 2
+    },
+    {
+      "extra": {
+        "unstructured": "Looking back, Huisgen was not happy about the choice of the name because it may be misleading. The name 1,3-dipole may imply high dipole moments of these compounds which is not the case for many 1,3-dipoles."
+      },
+      "index": 3
+    },
+    {
+      "extra": {
+        "unstructured": "In the first reviews (e.g., in ref. [33]) reactions of 1,3-dipoles without octet stabilization were included, for instance those of keto carbenes. Later it was recognized that they are better regarded as 2π components in cycloadditions."
+      },
+      "index": 4
+    },
+    {
+      "extra": {
+        "unstructured": "In our opinion and that of many colleagues, all 1,3-dipolar cycloadditions should be called Huisgen reactions. Occasionally, the cycloadditions of organic azides with alkynes are given the name Huisgen reaction. This is incorrect since this variation of the 1,3-dipolar cycloaddition was not discovered by Huisgen but by Arthur Michael already in 1893 (see ref. [14]). However, the Huisgen group investigated this reaction for the first time in detail and included it in the concept of 1,3-dipolar cycloadditions."
+      },
+      "index": 5
+    },
+    {
+      "extra": {
+        "unstructured": " "
+      },
+      "index": 6
+    },
+    {
+      "extra": {
+        "unstructured": "1,3-Dipolar Cycloaddition Chemistry, Vol. 1 and 2, (Ed.: A. Padwa), Wiley, New York, 1984;"
+      },
+      "index": 7
+    },
+    {
+      "extra": {
+        "unstructured": "Synthetic Applications of 1,3-Dipolar Cycloaddition Chemistry Toward Heterocycles and Natural Products (Eds.: A. Padwa, W. H. Pearson), Wiley, New York, 2002."
+      },
+      "index": 8
+    },
+    {
+      "extra": {
+        "unstructured": "R. Huisgen, in 1,3-Dipolar Cycloaddition Chemistry, Vol. 1 (Ed.: A. Padwa), Wiley, New York, 1984, pp. 1-176."
+      },
+      "index": 9
+    },
+    {
+      "extra": {
+        "unstructured": "R. Huisgen, The Adventure Playground of Mechanisms and Novel Reactions in Profiles, Pathways, and Dreams (Ed.: J. I. Seeman), American Chemical Society, Washington, DC, 1994."
+      },
+      "index": 10
+    },
+    {
+      "extra": {
+        "unstructured": " "
+      },
+      "index": 11
+    },
+    {
+      "extra": {
+        "unstructured": "A. Quilico, G. Stagno d'Alcontres, Gazz. Chim. Ital. 1949, 79, 654-666;"
+      },
+      "index": 12
+    },
+    {
+      "extra": {
+        "unstructured": "A. Quilico, G. Stagno d'Alcontres, Gazz. Chim. Ital. 1949, 79, 703-716;"
+      },
+      "index": 13
+    },
+    {
+      "extra": {
+        "unstructured": "R. Huisgen, M. Christl, Angew. Chem. Int. Ed. Engl. 1967, 6, 456-457;"
+      },
+      "index": 14
+    },
+    {
+      "extra": {
+        "unstructured": "Angew. Chem. 1967, 79, 471-472;"
+      },
+      "index": 15
+    },
+    {
+      "extra": {
+        "unstructured": "R. Huisgen, M. Christl, Chem. Ber. 1973, 106, 3291-3311."
+      },
+      "index": 16
+    },
+    {
+      "extra": {
+        "unstructured": " "
+      },
+      "index": 17
+    },
+    {
+      "extra": {
+        "unstructured": "P. Griess, Philos. Trans. R. Soc. London 1864, 13, 377;"
+      },
+      "index": 18
+    },
+    {
+      "extra": {
+        "unstructured": "P. Griess, Justus Liebigs Ann. Chem. 1866, 137, 39-91."
+      },
+      "index": 19
+    },
+    {
+      "extra": {
+        "unstructured": " "
+      },
+      "index": 20
+    },
+    {
+      "extra": {
+        "unstructured": "T. Curtius, Ber. Dtsch. Chem. Ges. 1883, 16, 2230-2231;"
+      },
+      "index": 21
+    },
+    {
+      "extra": {
+        "unstructured": "T. Curtius, Ber. Dtsch. Chem. Ges. 1884, 17, 953-959."
+      },
+      "index": 22
+    },
+    {
+      "extra": {
+        "unstructured": " "
+      },
+      "index": 23
+    },
+    {
+      "extra": {
+        "unstructured": "E. Buchner, Ber. Dtsch. Chem. Ges. 1888, 21, 2637-2647;"
+      },
+      "index": 24
+    },
+    {
+      "extra": {
+        "unstructured": "E. Buchner, Ber. Dtsch. Chem. Ges. 1890, 23, 701-707."
+      },
+      "index": 25
+    },
+    {
+      "extra": {
+        "unstructured": " "
+      },
+      "index": 26
+    },
+    {
+      "extra": {
+        "unstructured": "E. Buchner, Ber. Dtsch. Chem. Ges. 1889, 22, 842-847;"
+      },
+      "index": 27
+    },
+    {
+      "extra": {
+        "unstructured": "E. Buchner, Ber. Dtsch. Chem. Ges. 1889, 22, 2165-2167."
+      },
+      "index": 28
+    },
+    {
+      "extra": {
+        "unstructured": " "
+      },
+      "index": 29
+    },
+    {
+      "extra": {
+        "unstructured": "E. Beckmann, Ber. Dtsch. Chem. Ges. 1890, 23, 3331-3341;"
+      },
+      "index": 30
+    },
+    {
+      "extra": {
+        "unstructured": "E. Beckmann, Ber. Dtsch. Chem. Ges. 1894, 27, 1957-1959."
+      },
+      "index": 31
+    },
+    {
+      "extra": {
+        "unstructured": "A. Michael, J. Prakt. Chem. 1893, 48, 94-95."
+      },
+      "index": 32
+    },
+    {
+      "extra": {
+        "unstructured": "O. Dimroth, G. Fester, Ber. Dtsch. Chem. Ges. 1910, 43, 2219-2223."
+      },
+      "index": 33
+    },
+    {
+      "extra": {
+        "unstructured": "C. Harries, Justus Liebigs Ann. Chem. 1915, 410, 1-21."
+      },
+      "index": 34
+    },
+    {
+      "extra": {
+        "unstructured": " "
+      },
+      "index": 35
+    },
+    {
+      "extra": {
+        "unstructured": "R. Criegee, Justus Liebigs Ann. Chem. 1953, 583, 1-36;"
+      },
+      "index": 36
+    },
+    {
+      "extra": {
+        "unstructured": "R. Criegee, G. Schröder, Chem. Ber. 1960, 93, 689-700."
+      },
+      "index": 37
+    },
+    {
+      "extra": {
+        "unstructured": "K. von Auwers, F. König, Justus Liebigs Ann. Chem. 1932, 496, 27-51."
+      },
+      "index": 38
+    },
+    {
+      "extra": {
+        "unstructured": "J. C. Earl, A. W. Mackney, J. Chem. Soc. 1935, 899-900."
+      },
+      "index": 39
+    },
+    {
+      "extra": {
+        "unstructured": "R. Huisgen, R. Grashey, H. Gotthardt, R. Schmidt, Angew. Chem. Int. Ed. Engl. 1962, 1, 48-49;"
+      },
+      "index": 40
+    },
+    {
+      "extra": {
+        "unstructured": "Angew. Chem. 1962, 74, 29-30."
+      },
+      "index": 41
+    },
+    {
+      "extra": {
+        "unstructured": "At about the same time, a group in the Soviet Union investigated cycloadditions of “Sydnones”: V. F. Vasiléva, V. G. Yashunskii, M. N. Shchukina, J. Gen. Chem. USSR (Engl. Transl.) 1961, 31, 1390."
+      },
+      "index": 42
+    },
+    {
+      "extra": {
+        "unstructured": "L. I. Smith, Chem. Rev. 1938, 23, 193-285."
+      },
+      "index": 43
+    },
+    {
+      "extra": {
+        "unstructured": "Smith provided only few original contributions to the 1,3-additions; in the 1930s and 1940s he published a few reports concerning diazoalkane cycloadditions to α,β-unsaturated carbonyl compounds. He apparently lost interest in this research area later."
+      },
+      "index": 44
+    },
+    {
+      "extra": {
+        "unstructured": "R. Huisgen, R. Fleischmann, H. Stangl, München, unpublished results, 1957-1959; reported in Huisgen′s reviews."
+      },
+      "index": 45
+    },
+    {
+      "extra": {
+        "unstructured": "A. Quilico, G. Speroni, Gazz. Chim. Ital. 1946, 76, 148-166."
+      },
+      "index": 46
+    },
+    {
+      "extra": {
+        "unstructured": "T. Mukaiyama, T. Hoshino, J. Am. Chem. Soc. 1960, 82, 5339-5342."
+      },
+      "index": 47
+    },
+    {
+      "extra": {
+        "unstructured": " "
+      },
+      "index": 48
+    },
+    {
+      "extra": {
+        "unstructured": "N. A. LeBel, J. J. Whang, J. Am. Chem. Soc. 1959, 81, 6334-6335;"
+      },
+      "index": 49
+    },
+    {
+      "extra": {
+        "unstructured": "N. A. LeBel, M. E. Post, J. J. Whang, J. Am. Chem. Soc. 1964, 86, 3759-3767;"
+      },
+      "index": 50
+    },
+    {
+      "extra": {
+        "unstructured": "A. Padwa, Angew. Chem. Int. Ed. Engl. 1976, 15, 123-136;"
+      },
+      "index": 51
+    },
+    {
+      "extra": {
+        "unstructured": "Angew. Chem. 1976, 88, 131-144."
+      },
+      "index": 52
+    },
+    {
+      "extra": {
+        "unstructured": "R. Huisgen, R. Grashey, E. Steingruber, Tetrahedron Lett. 1963, 4, 1441-1445."
+      },
+      "index": 53
+    },
+    {
+      "extra": {
+        "unstructured": "R. Huisgen, A. Eckell, Tetrahedron Lett. 1960, 1, 5-8."
+      },
+      "index": 54
+    },
+    {
+      "extra": {
+        "unstructured": "R. Huisgen, H. Stangl, H. J. Sturm, H. Wagenhofer, Angew. Chem. Int. Ed. Engl. 1962, 1, 50;"
+      },
+      "index": 55
+    },
+    {
+      "extra": {
+        "unstructured": "Angew. Chem. 1962, 74, 31."
+      },
+      "index": 56
+    },
+    {
+      "extra": {
+        "unstructured": "R. Huisgen, M. Seidel, G. Wallbillich, H. Knupfer, Tetrahedron 1962, 17, 3-29."
+      },
+      "index": 57
+    },
+    {
+      "extra": {
+        "unstructured": "R. Huisgen, R. Knorr, Naturwissenschaften 1961, 48, 716."
+      },
+      "index": 58
+    },
+    {
+      "extra": {
+        "unstructured": "R. Huisgen, Angew. Chem. Int. Ed. Engl. 1963, 2, 565-598;"
+      },
+      "index": 59
+    },
+    {
+      "extra": {
+        "unstructured": "Angew. Chem. 1963, 75, 604-637."
+      },
+      "index": 60
+    },
+    {
+      "extra": {
+        "unstructured": "R. Huisgen, H. Gotthardt, H. O. Bayer, F. C. Schaefer, Angew. Chem. Int. Ed. Engl. 1964, 3, 136-137;"
+      },
+      "index": 61
+    },
+    {
+      "extra": {
+        "unstructured": "Angew. Chem. 1964, 76, 185-186."
+      },
+      "index": 62
+    },
+    {
+      "extra": {
+        "unstructured": "Short review: H.-U. Reissig, R. Zimmer, Angew. Chem. Int. Ed. 2014, 53, 9708-9710;"
+      },
+      "index": 63
+    },
+    {
+      "extra": {
+        "unstructured": "Angew. Chem. 2014, 126, 9864-9866. Arndtsen's phosphorus-containing “Montréalones” were also discussed here (D. J. St. Cyr, B. A. Arndtsen, J. Am. Chem. Soc. 2007, 129, 12366-12367 and subsequent publications)."
+      },
+      "index": 64
+    },
+    {
+      "extra": {
+        "unstructured": "Selected reviews for synthetic applications of azomethine ylide cycloadditions:"
+      },
+      "index": 65
+    },
+    {
+      "extra": {
+        "unstructured": "I. Coldham, R. Hufton, Chem. Rev. 2005, 105, 2765-2810;"
+      },
+      "index": 66
+    },
+    {
+      "extra": {
+        "unstructured": "G. Pandey, P. Banerjee, S. R. Gadre, Chem. Rev. 2006, 106, 4484-4517;"
+      },
+      "index": 67
+    },
+    {
+      "extra": {
+        "unstructured": "R. Narayan, M. Potowski, Z.-J. Jia, A. P. Antonchick, H. Waldmann, Acc. Chem. Res. 2014, 47, 1296-1310;"
+      },
+      "index": 68
+    },
+    {
+      "extra": {
+        "unstructured": "J. Adrio, J. C. Carretero, Chem. Commun. 2019, 55, 11979-11991;"
+      },
+      "index": 69
+    },
+    {
+      "extra": {
+        "unstructured": "C. Nájera, M. Sansano José, Pure Appl. Chem. 2019, 91, 575-596."
+      },
+      "index": 70
+    },
+    {
+      "extra": {
+        "unstructured": "A. Padwa, J. Smolanoff, J. Am. Chem. Soc. 1971, 93, 548-550."
+      },
+      "index": 71
+    },
+    {
+      "extra": {
+        "unstructured": "H. Giezendanner, M. Märky, B. Jackson, H. J. Hansen, H. Schmid, Helv. Chim. Acta 1972, 55, 745-748."
+      },
+      "index": 72
+    },
+    {
+      "extra": {
+        "unstructured": "R. Huisgen, Angew. Chem. Int. Ed. Engl. 1963, 2, 633-645;"
+      },
+      "index": 73
+    },
+    {
+      "extra": {
+        "unstructured": "Angew. Chem. 1963, 75, 742-754."
+      },
+      "index": 74
+    },
+    {
+      "extra": {
+        "unstructured": "R. Hoffmann, R. B. Woodward, J. Am. Chem. Soc. 1965, 87, 2046-2048."
+      },
+      "index": 75
+    },
+    {
+      "extra": {
+        "unstructured": " "
+      },
+      "index": 76
+    },
+    {
+      "extra": {
+        "unstructured": "R. Hoffmann, R. B. Woodward, Acc. Chem. Res. 1968, 1, 17-22;"
+      },
+      "index": 77
+    },
+    {
+      "extra": {
+        "unstructured": "R. B. Woodward, R. Hoffmann, Angew. Chem. Int. Ed. Engl. 1969, 8, 781-853;"
+      },
+      "index": 78
+    },
+    {
+      "extra": {
+        "unstructured": "Angew. Chem. 1969, 81, 797-869."
+      },
+      "index": 79
+    },
+    {
+      "extra": {
+        "unstructured": " "
+      },
+      "index": 80
+    },
+    {
+      "extra": {
+        "unstructured": "R. Huisgen, W. Scheer, G. Szeimies, H. Huber, Tetrahedron Lett. 1966, 7, 397-404;"
+      },
+      "index": 81
+    },
+    {
+      "extra": {
+        "unstructured": "R. Huisgen, W. Scheer, H. Huber, J. Am. Chem. Soc. 1967, 89, 1753-1755;"
+      },
+      "index": 82
+    },
+    {
+      "extra": {
+        "unstructured": "R. Huisgen, W. Scheer, H. Mäder, Angew. Chem. Int. Ed. Engl. 1969, 8, 602-604;"
+      },
+      "index": 83
+    },
+    {
+      "extra": {
+        "unstructured": "Angew. Chem. 1969, 81, 619-621."
+      },
+      "index": 84
+    },
+    {
+      "extra": {
+        "unstructured": " "
+      },
+      "index": 85
+    },
+    {
+      "extra": {
+        "unstructured": "R. A. Firestone, J. Org. Chem. 1968, 33, 2285-2290;"
+      },
+      "index": 86
+    },
+    {
+      "extra": {
+        "unstructured": "R. A. Firestone, J. Org. Chem. 1972, 37, 2181-2191;"
+      },
+      "index": 87
+    },
+    {
+      "extra": {
+        "unstructured": "R. A. Firestone, J. Org. Chem. 1976, 41, 2212-2214;"
+      },
+      "index": 88
+    },
+    {
+      "extra": {
+        "unstructured": "R. A. Firestone, Tetrahedron 1977, 33, 3009-3039;"
+      },
+      "index": 89
+    },
+    {
+      "extra": {
+        "unstructured": "R. A. Firestone, Int. J. Chem. Kinet. 2013, 45, 415-428."
+      },
+      "index": 90
+    },
+    {
+      "extra": {
+        "unstructured": "As a chemist working for Merck, Sharp & Dohme, Firestone had only limited possibilities to contribute experimental results."
+      },
+      "index": 91
+    },
+    {
+      "extra": {
+        "unstructured": " "
+      },
+      "index": 92
+    },
+    {
+      "extra": {
+        "unstructured": "R. Huisgen, J. Org. Chem. 1968, 33, 2291-2297;"
+      },
+      "index": 93
+    },
+    {
+      "extra": {
+        "unstructured": "R. Huisgen, J. Org. Chem. 1976, 41, 403-419."
+      },
+      "index": 94
+    },
+    {
+      "extra": {
+        "unstructured": "W. Bihlmaier, J. Geittner, R. Huisgen, H.-U. Reissig, Heterocycles 1978, 10, 147-152."
+      },
+      "index": 95
+    },
+    {
+      "extra": {
+        "unstructured": "K. N. Houk, R. A. Firestone, L. L. Munchausen, P. H. Mueller, B. H. Arison, L. A. Garcia, J. Am. Chem. Soc. 1985, 107, 7227-7228."
+      },
+      "index": 96
+    },
+    {
+      "extra": {
+        "unstructured": " "
+      },
+      "index": 97
+    },
+    {
+      "extra": {
+        "unstructured": "H. Jangra, Q. Chen, E. Fuks, I. Zenz, P. Mayer, A. R. Ofial, H. Zipse, H. Mayr, J. Am. Chem. Soc. 2018, 140, 16758-16772;"
+      },
+      "index": 98
+    },
+    {
+      "extra": {
+        "unstructured": "J. Zhang, Q. Chen, R. J. Mayer, J.-D. Yang, A. R. Ofial, J.-P. Cheng, H. Mayr, Angew. Chem. Int. Ed. 2020, https://doi.org/10.1002/anie.202003029;"
+      },
+      "index": 99
+    },
+    {
+      "extra": {
+        "unstructured": "Angew. Chem. 2020, https://doi.org/10.1002/ange.202003029."
+      },
+      "index": 100
+    },
+    {
+      "extra": {
+        "unstructured": "Reactions between diazoalkanes and highly reactive Michael acceptors such as 1,1-bis(phenylsulfonyl)ethene can be described very well with the reactivity parameters developed by Mayr et al. (H. Mayr, M. Patz, Angew. Chem. Int. Ed. Engl. 1994, 33, 938-957;"
+      },
+      "index": 101
+    },
+    {
+      "extra": {
+        "unstructured": "Angew. Chem. 1994, 106, 990-1010. In contrast, less reactive Michael acceptors such as methyl acrylate react much faster than predicted based on their reactivity parameters. However, the analysis relying on nucleophilicity and electrophilicity parameters is only valid when only one bond is formed in the rate-limiting transition state. This also means that the investigated (3+2) cycloadditions with less reactive Michael acceptors must proceed via a concerted mechanism with the formation of two bonds."
+      },
+      "index": 102
+    },
+    {
+      "extra": {
+        "unstructured": " "
+      },
+      "index": 103
+    },
+    {
+      "extra": {
+        "unstructured": "R. Huisgen, G. Mloston, E. Langhals, J. Am. Chem. Soc. 1986, 108, 6401-6402;"
+      },
+      "index": 104
+    },
+    {
+      "extra": {
+        "unstructured": "R. Huisgen, G. Mloston, E. Langhals, J. Org. Chem. 1986, 51, 4085-4087;"
+      },
+      "index": 105
+    },
+    {
+      "extra": {
+        "unstructured": "R. Huisgen, E. Langhals, G. Mloston, T. Oshima, Heterocycles 1989, 29, 2069-2074;"
+      },
+      "index": 106
+    },
+    {
+      "extra": {
+        "unstructured": "R. Huisgen, G. Mlostoń, E. Langhals, T. Oshima, Helv. Chim. Acta 2002, 85, 2668-2685."
+      },
+      "index": 107
+    },
+    {
+      "extra": {
+        "unstructured": "The observation of (4+3) cycloadducts by H. Mayr and colleagues indicate that stepwise reactions can also play an important role in cycloadditions to 1,3-dienes:"
+      },
+      "index": 108
+    },
+    {
+      "extra": {
+        "unstructured": "J. Baran, H. Mayr, J. Am. Chem. Soc. 1987, 109, 6519-6521;"
+      },
+      "index": 109
+    },
+    {
+      "extra": {
+        "unstructured": "J. Baran, H. Mayr, J. Org. Chem. 1989, 54, 5012-5016;"
+      },
+      "index": 110
+    },
+    {
+      "extra": {
+        "unstructured": "J. Baran, H. Mayr, J. Org. Chem. 1989, 54, 5774-5783;"
+      },
+      "index": 111
+    },
+    {
+      "extra": {
+        "unstructured": "H. Mayr, J. Baran, U. W. Heigl, Gazz. Chim. Ital. 1991, 121, 373-381."
+      },
+      "index": 112
+    },
+    {
+      "extra": {
+        "unstructured": "O. E. Polansky, P. Schuster, Tetrahedron Lett. 1964, 5, 2019-2022."
+      },
+      "index": 113
+    },
+    {
+      "extra": {
+        "unstructured": " "
+      },
+      "index": 114
+    },
+    {
+      "extra": {
+        "unstructured": "R. Sustmann, Tetrahedron Lett. 1971, 12, 2717-2720;"
+      },
+      "index": 115
+    },
+    {
+      "extra": {
+        "unstructured": "R. Sustmann, H. Trill, Angew. Chem. Int. Ed. Engl. 1972, 11, 838-840;"
+      },
+      "index": 116
+    },
+    {
+      "extra": {
+        "unstructured": "Angew. Chem. 1972, 84, 887-888."
+      },
+      "index": 117
+    },
+    {
+      "extra": {
+        "unstructured": "J. Bastide, N. El Ghandour, O. Henri-Rousseau, Tetrahedron Lett. 1972, 13, 4225-4228."
+      },
+      "index": 118
+    },
+    {
+      "extra": {
+        "unstructured": " "
+      },
+      "index": 119
+    },
+    {
+      "extra": {
+        "unstructured": "K. N. Houk, J. Am. Chem. Soc. 1972, 94, 8953-8955;"
+      },
+      "index": 120
+    },
+    {
+      "extra": {
+        "unstructured": "K. N. Houk, J. Sims, C. R. Watts, L. J. Luskus, J. Am. Chem. Soc. 1973, 95, 7301-7315."
+      },
+      "index": 121
+    },
+    {
+      "extra": {
+        "unstructured": "M. J. S. Dewar, S. Olivella, H. S. Rzepa, J. Am. Chem. Soc. 1978, 100, 5650-5659."
+      },
+      "index": 122
+    },
+    {
+      "extra": {
+        "unstructured": " "
+      },
+      "index": 123
+    },
+    {
+      "extra": {
+        "unstructured": "D. Poppinger, J. Am. Chem. Soc. 1975, 97, 7486-7488;"
+      },
+      "index": 124
+    },
+    {
+      "extra": {
+        "unstructured": "D. Poppinger, Aust. J. Chem. 1976, 29, 465-478."
+      },
+      "index": 125
+    },
+    {
+      "extra": {
+        "unstructured": "J. J. W. McDouall, M. A. Robb, U. Niazi, F. Bernardi, H. B. Schlegel, J. Am. Chem. Soc. 1987, 109, 4642-4648."
+      },
+      "index": 126
+    },
+    {
+      "extra": {
+        "unstructured": "M. T. Nguyen, A. K. Chandra, S. Sakai, K. Morokuma, J. Org. Chem. 1999, 64, 65-69."
+      },
+      "index": 127
+    },
+    {
+      "extra": {
+        "unstructured": "This established concept was challenged by L. R. Domingo and colleagues. Their investigations on the basis of molecular electron density theory (MEDT) indicated that concerted reactions take place, but depending on the employed dipole, different reaction types such as pseudo-radicals, carbenoids, and zwitterions exist. For a review, see: M. Ríos-Gutiérrez, L. R. Domingo, Eur. J. Org. Chem. 2019, 267-282."
+      },
+      "index": 128
+    },
+    {
+      "extra": {
+        "unstructured": "L. R. Domingo, M. T. Picher, Tetrahedron 2004, 60, 5053-5058."
+      },
+      "index": 129
+    },
+    {
+      "extra": {
+        "unstructured": "G. Haberhauer, R. Gleiter, S. Woitschetzki, J. Org. Chem. 2015, 80, 12321-12332."
+      },
+      "index": 130
+    },
+    {
+      "extra": {
+        "unstructured": " "
+      },
+      "index": 131
+    },
+    {
+      "extra": {
+        "unstructured": "S. Morrocchi, A. Ricca, A. Zanarotti, G. Bianchi, R. Gandolfi, P. Grűnanger, Tetrahedron Lett. 1969, 10, 3329-3332;"
+      },
+      "index": 132
+    },
+    {
+      "extra": {
+        "unstructured": "A. Battaglia, A. Dondoni, Tetrahedron Lett. 1970, 11, 1221-1224."
+      },
+      "index": 133
+    },
+    {
+      "extra": {
+        "unstructured": "Biradical intermediates have recently been proposed also for cycloadditions of selenophen-2-yl-substituted thiocarbonyl ylides:"
+      },
+      "index": 134
+    },
+    {
+      "extra": {
+        "unstructured": "M. L. McKee, G. Mloston, K. Urbaniak, H. Heimgartner, Beilstein J. Org. Chem. 2017, 13, 410-416;"
+      },
+      "index": 135
+    },
+    {
+      "extra": {
+        "unstructured": "G. Mlostoń, K. Urbaniak, A. Linden, H. Heimgartner, Helv. Chim. Acta 2015, 98, 453-461."
+      },
+      "index": 136
+    },
+    {
+      "extra": {
+        "unstructured": " "
+      },
+      "index": 137
+    },
+    {
+      "extra": {
+        "unstructured": "P. Beltrame, P. Sartirana, C. Vintani, J. Chem. Soc. B 1971, 814-817;"
+      },
+      "index": 138
+    },
+    {
+      "extra": {
+        "unstructured": "A. Dondoni, G. Barbaro, J. Chem. Soc. Perkin Trans. 2 1974, 1591-1594;"
+      },
+      "index": 139
+    },
+    {
+      "extra": {
+        "unstructured": "K. Bast, M. Christl, R. Huisgen, W. Mack, R. Sustmann, Chem. Ber. 1973, 106, 3258-3274."
+      },
+      "index": 140
+    },
+    {
+      "extra": {
+        "unstructured": " "
+      },
+      "index": 141
+    },
+    {
+      "extra": {
+        "unstructured": "D. H. Ess, K. N. Houk, J. Am. Chem. Soc. 2007, 129, 10646-10647;"
+      },
+      "index": 142
+    },
+    {
+      "extra": {
+        "unstructured": "D. H. Ess, K. N. Houk, J. Am. Chem. Soc. 2008, 130, 10187-10198;"
+      },
+      "index": 143
+    },
+    {
+      "extra": {
+        "unstructured": "B. Engels, M. Christl, Angew. Chem. Int. Ed. 2009, 48, 7968-7970;"
+      },
+      "index": 144
+    },
+    {
+      "extra": {
+        "unstructured": "Angew. Chem. 2009, 121, 8110-8112."
+      },
+      "index": 145
+    },
+    {
+      "extra": {
+        "unstructured": "The quoted values are taken from the National Institute of Standards and Technology (NIST) Chemistry WebBook, Standard Reference Database Number 69."
+      },
+      "index": 146
+    },
+    {
+      "extra": {
+        "unstructured": "F. M. Bickelhaupt, K. N. Houk, Angew. Chem. Int. Ed. 2017, 56, 10070-10086;"
+      },
+      "index": 147
+    },
+    {
+      "extra": {
+        "unstructured": "Angew. Chem. 2017, 129, 10204-10221."
+      },
+      "index": 148
+    },
+    {
+      "extra": {
+        "unstructured": "M. Breugst, R. Huisgen, H.-U. Reissig, Eur. J. Org. Chem. 2018, 2477-2485."
+      },
+      "index": 149
+    },
+    {
+      "extra": {
+        "unstructured": "T. A. Hamlin, D. Svatunek, S. Yu, L. Ridder, I. Infante, L. Visscher, F. M. Bickelhaupt, Eur. J. Org. Chem. 2019, 378-386."
+      },
+      "index": 150
+    },
+    {
+      "extra": {
+        "unstructured": "F. Zapata, L. Ridder, J. Hidding, QMflows, 2017, https://doi.org/10.5281/zenodo.1045523."
+      },
+      "index": 151
+    },
+    {
+      "extra": {
+        "unstructured": "J. Rebek, Jr., J.-C. E. Gehret, Tetrahedron Lett. 1977, 18, 3027-3028."
+      },
+      "index": 152
+    },
+    {
+      "extra": {
+        "unstructured": "Selected reviews:"
+      },
+      "index": 153
+    },
+    {
+      "extra": {
+        "unstructured": "K. V. Gothelf, K. A. Jørgensen, Chem. Rev. 1998, 98, 863-910;"
+      },
+      "index": 154
+    },
+    {
+      "extra": {
+        "unstructured": "H. Pellissier, Tetrahedron 2007, 63, 3235-3285;"
+      },
+      "index": 155
+    },
+    {
+      "extra": {
+        "unstructured": "L. M. Stanley, M. P. Sibi, Chem. Rev. 2008, 108, 2887-2902;"
+      },
+      "index": 156
+    },
+    {
+      "extra": {
+        "unstructured": "T. Hashimoto, K. Maruoka, Chem. Rev. 2015, 115, 5366-5412."
+      },
+      "index": 157
+    },
+    {
+      "extra": {
+        "unstructured": "J. Hartung, S. N. Greszler, R. C. Klix, J. M. Kallemeyn, Org. Process Res. Dev. 2019, 23, 2532-2537."
+      },
+      "index": 158
+    },
+    {
+      "extra": {
+        "unstructured": " "
+      },
+      "index": 159
+    },
+    {
+      "extra": {
+        "unstructured": "M. C. McMills, D. Wright, in Synthetic Applications of 1,3-Dipolar Cycloaddition Chemistry Toward Heterocycles and Natural Products (Eds.: A. Padwa, W. H. Pearson), Wiley, New York, 2002, pp. 253-314;"
+      },
+      "index": 160
+    },
+    {
+      "extra": {
+        "unstructured": "A. Padwa, Russ. Chem. Bull. 2016, 65, 2183-2194."
+      },
+      "index": 161
+    },
+    {
+      "extra": {
+        "unstructured": "For an intriguing recent synthetic application of thiocarbonyl ylides leading to highly substituted thiophene derivatives, see: F.-L. Haut, C. Habiger, K. Speck, K. Wurst, P. Mayer, J. N. Korber, T. Müller, T. Magauer, J. Am. Chem. Soc. 2019, 141, 13352-13357."
+      },
+      "index": 162
+    },
+    {
+      "extra": {
+        "unstructured": " "
+      },
+      "index": 163
+    },
+    {
+      "extra": {
+        "unstructured": "G. Stork, J. E. McMurry, J. Am. Chem. Soc. 1967, 89, 5461-5462;"
+      },
+      "index": 164
+    },
+    {
+      "extra": {
+        "unstructured": "G. Stork, J. E. McMurry, J. Am. Chem. Soc. 1967, 89, 5464-5465."
+      },
+      "index": 165
+    },
+    {
+      "extra": {
+        "unstructured": " "
+      },
+      "index": 166
+    },
+    {
+      "extra": {
+        "unstructured": "J. J. Tufariello, J. P. Tette, J. Chem. Soc. D 1971, 469-470;"
+      },
+      "index": 167
+    },
+    {
+      "extra": {
+        "unstructured": "J. J. Tufariello, Acc. Chem. Res. 1979, 12, 396-403."
+      },
+      "index": 168
+    },
+    {
+      "extra": {
+        "unstructured": "R. V. Stevens, J. M. Fitzpatrick, P. B. Germeraad, B. L. Harrison, R. Lapalme, J. Am. Chem. Soc. 1976, 98, 6313-6317."
+      },
+      "index": 169
+    },
+    {
+      "extra": {
+        "unstructured": "P. N. Confalone, E. D. Lollar, G. Pizzolato, M. R. Uskokovic, J. Am. Chem. Soc. 1978, 100, 6291-6292."
+      },
+      "index": 170
+    },
+    {
+      "extra": {
+        "unstructured": " "
+      },
+      "index": 171
+    },
+    {
+      "extra": {
+        "unstructured": "V. Jäger, H. Grund, Angew. Chem. Int. Ed. Engl. 1976, 15, 50-51;"
+      },
+      "index": 172
+    },
+    {
+      "extra": {
+        "unstructured": "Angew. Chem. 1976, 88, 27-28;"
+      },
+      "index": 173
+    },
+    {
+      "extra": {
+        "unstructured": "V. Jäger, I. Müller, R. Schohe, M. Frey, R. Ehrler, B. Häfele, D. Schroter, Lect. Heterocycl. Chem. 1985, 8, 79-98;"
+      },
+      "index": 174
+    },
+    {
+      "extra": {
+        "unstructured": "V. Jäger, P. A. Colinas, in Synthetic Applications of 1,3-Dipolar Cycloaddition Chemistry Toward Heterocycles and Natural Products (Eds.: A. Padwa, W. H. Pearson), Wiley, New York, 2002, pp. 361-472."
+      },
+      "index": 175
+    },
+    {
+      "extra": {
+        "unstructured": "A. P. Kozikowski, Acc. Chem. Res. 1984, 17, 410-416."
+      },
+      "index": 176
+    },
+    {
+      "extra": {
+        "unstructured": "D. P. Curran, in Advances in Cycloaddition (Ed.: D. P. Curran), JAI, London, 1988, pp. 129-189."
+      },
+      "index": 177
+    },
+    {
+      "extra": {
+        "unstructured": "Selected reviews:"
+      },
+      "index": 178
+    },
+    {
+      "extra": {
+        "unstructured": "J. Mulzer, in Organic Synthesis Highlights (Eds.: J. Mulzer, H.-J. Altenbach, M. Braun, K. Krohn, H.-U. Reissig), VCH, Weinheim, 1990, pp. 77-95;"
+      },
+      "index": 179
+    },
+    {
+      "extra": {
+        "unstructured": "G. Broggini, G. Zecchi, Synthesis 1999, 1999, 905-917;"
+      },
+      "index": 180
+    },
+    {
+      "extra": {
+        "unstructured": "L. Fišera, Top. Heterocycl. Chem. 2007, 7, 287-323;"
+      },
+      "index": 181
+    },
+    {
+      "extra": {
+        "unstructured": "V. Nair, T. D. Suja, Tetrahedron 2007, 63, 12247-12275;"
+      },
+      "index": 182
+    },
+    {
+      "extra": {
+        "unstructured": "A. Brandi, F. Cardona, S. Cicchi, F. M. Cordero, A. Goti, Chem. Eur. J. 2009, 15, 7808-7821."
+      },
+      "index": 183
+    },
+    {
+      "extra": {
+        "unstructured": "D. Muri, E. M. Carreira, J. Org. Chem. 2009, 74, 8695-8712."
+      },
+      "index": 184
+    },
+    {
+      "extra": {
+        "unstructured": "The total synthesis of viridin und viridiol is a recent example: Y. Ji, Z. Xin, H. He, S. Gao, J. Am. Chem. Soc. 2019, 141, 16208-16212."
+      },
+      "index": 185
+    },
+    {
+      "extra": {
+        "unstructured": "B.-X. Zhao, Y. Wang, D.-M. Zhang, X.-J. Huang, L.-L. Bai, Y. Yan, J.-M. Chen, T.-B. Lu, Y.-T. Wang, Q.-W. Zhang, W.-C. Ye, Org. Lett. 2012, 14, 3096-3099."
+      },
+      "index": 186
+    },
+    {
+      "extra": {
+        "unstructured": "H. Miyatake-Ondozabal, L. M. Bannwart, K. Gademann, Chem. Commun. 2013, 49, 1921-1923."
+      },
+      "index": 187
+    },
+    {
+      "extra": {
+        "unstructured": "M. Baunach, C. Hertweck, Angew. Chem. Int. Ed. 2015, 54, 12550-12552;"
+      },
+      "index": 188
+    },
+    {
+      "extra": {
+        "unstructured": "Angew. Chem. 2015, 127, 12732-12734."
+      },
+      "index": 189
+    },
+    {
+      "extra": {
+        "unstructured": "E. H. Krenske, A. Patel, K. N. Houk, J. Am. Chem. Soc. 2013, 135, 17638-17642."
+      },
+      "index": 190
+    },
+    {
+      "extra": {
+        "unstructured": "P. P. Painter, R. P. Pemberton, B. M. Wong, K. C. Ho, D. J. Tantillo, J. Org. Chem. 2014, 79, 432-435."
+      },
+      "index": 191
+    },
+    {
+      "extra": {
+        "unstructured": "K. A. P. Payne, M. D. White, K. Fisher, B. Khara, S. S. Bailey, D. Parker, N. J. W. Rattray, D. K. Trivedi, R. Goodacre, R. Beveridge, P. Barran, S. E. J. Rigby, N. S. Scrutton, S. Hay, D. Leys, Nature 2015, 522, 497-501."
+      },
+      "index": 192
+    },
+    {
+      "extra": {
+        "unstructured": "I. Rivilla, M. Odriozola-Gimeno, A. Aires, A. Gimeno, J. Jiménez-Barbero, M. Torrent-Sucarrat, A. L. Cortajarena, F. P. Cossío, J. Am. Chem. Soc. 2020, 142, 762-776."
+      },
+      "index": 193
+    },
+    {
+      "extra": {
+        "unstructured": "H. C. Kolb, M. G. Finn, K. B. Sharpless, Angew. Chem. Int. Ed. 2001, 40, 2004-2021;"
+      },
+      "index": 194
+    },
+    {
+      "extra": {
+        "unstructured": "Angew. Chem. 2001, 113, 2056-2075."
+      },
+      "index": 195
+    },
+    {
+      "extra": {
+        "unstructured": "See ref. [7], p. 92."
+      },
+      "index": 196
+    },
+    {
+      "extra": {
+        "unstructured": "C. W. Tornøe, C. Christensen, M. Meldal, J. Org. Chem. 2002, 67, 3057-3064."
+      },
+      "index": 197
+    },
+    {
+      "extra": {
+        "unstructured": "V. V. Rostovtsev, L. G. Green, V. V. Fokin, K. B. Sharpless, Angew. Chem. Int. Ed. 2002, 41, 2596-2599;"
+      },
+      "index": 198
+    },
+    {
+      "extra": {
+        "unstructured": "Angew. Chem. 2002, 114, 2708-2711."
+      },
+      "index": 199
+    },
+    {
+      "extra": {
+        "unstructured": " "
+      },
+      "index": 200
+    },
+    {
+      "extra": {
+        "unstructured": "R. Huisgen, R. Knorr, L. Möbius, G. Szeimies, Chem. Ber. 1965, 98, 4014-4021;"
+      },
+      "index": 201
+    },
+    {
+      "extra": {
+        "unstructured": "R. Huisgen, G. Szeimies, L. Möbius, Chem. Ber. 1967, 100, 2494-2507."
+      },
+      "index": 202
+    },
+    {
+      "extra": {
+        "unstructured": " "
+      },
+      "index": 203
+    },
+    {
+      "extra": {
+        "unstructured": "F. Himo, Z. P. Demko, L. Noodleman, K. B. Sharpless, J. Am. Chem. Soc. 2002, 124, 12210-12216;"
+      },
+      "index": 204
+    },
+    {
+      "extra": {
+        "unstructured": "F. Himo, T. Lovell, R. Hilgraf, V. V. Rostovtsev, L. Noodleman, K. B. Sharpless, V. V. Fokin, J. Am. Chem. Soc. 2005, 127, 210-216;"
+      },
+      "index": 205
+    },
+    {
+      "extra": {
+        "unstructured": "C. Nolte, P. Mayer, B. F. Straub, Angew. Chem. Int. Ed. 2007, 46, 2101-2103;"
+      },
+      "index": 206
+    },
+    {
+      "extra": {
+        "unstructured": "Angew. Chem. 2007, 119, 2147-2149;"
+      },
+      "index": 207
+    },
+    {
+      "extra": {
+        "unstructured": "R. Berg, B. F. Straub, Beilstein J. Org. Chem. 2013, 9, 2715-2750."
+      },
+      "index": 208
+    },
+    {
+      "extra": {
+        "unstructured": "Selected reviews:"
+      },
+      "index": 209
+    },
+    {
+      "extra": {
+        "unstructured": "M. Meldal, C. W. Tornøe, Chem. Rev. 2008, 108, 2952-3015;"
+      },
+      "index": 210
+    },
+    {
+      "extra": {
+        "unstructured": "P. Thirumurugan, D. Matosiuk, K. Jozwiak, Chem. Rev. 2013, 113, 4905-4979;"
+      },
+      "index": 211
+    },
+    {
+      "extra": {
+        "unstructured": "M. Arseneault, C. Wafer, J.-F. Morin, Molecules 2015, 20, 9263-9294;"
+      },
+      "index": 212
+    },
+    {
+      "extra": {
+        "unstructured": "V. K. Tiwari, B. B. Mishra, K. B. Mishra, N. Mishra, A. S. Singh, X. Chen, Chem. Rev. 2016, 116, 3086-3240;"
+      },
+      "index": 213
+    },
+    {
+      "extra": {
+        "unstructured": "K. Kacprzak, I. Skiera, M. Piasecka, Z. Paryzek, Chem. Rev. 2016, 116, 5689-5743;"
+      },
+      "index": 214
+    },
+    {
+      "extra": {
+        "unstructured": "D. Döhler, P. Michael, W. H. Binder, Acc. Chem. Res. 2017, 50, 2610-2620."
+      },
+      "index": 215
+    },
+    {
+      "extra": {
+        "unstructured": " "
+      },
+      "index": 216
+    },
+    {
+      "extra": {
+        "unstructured": "S. Bräse, C. Gil, K. Knepper, V. Zimmermann, Angew. Chem. Int. Ed. 2005, 44, 5188-5240;"
+      },
+      "index": 217
+    },
+    {
+      "extra": {
+        "unstructured": "Angew. Chem. 2005, 117, 5320-5374;"
+      },
+      "index": 218
+    },
+    {
+      "extra": {
+        "unstructured": "Organic Azides: Syntheses and Applications (Eds.: S. Bräse, K. Banert), Wiley, Chichester, 2010."
+      },
+      "index": 219
+    },
+    {
+      "extra": {
+        "unstructured": "N. J. Agard, J. A. Prescher, C. R. Bertozzi, J. Am. Chem. Soc. 2004, 126, 15046-15047."
+      },
+      "index": 220
+    },
+    {
+      "extra": {
+        "unstructured": "Selected reviews:"
+      },
+      "index": 221
+    },
+    {
+      "extra": {
+        "unstructured": "M. D. Best, Biochemistry 2009, 48, 6571-6584;"
+      },
+      "index": 222
+    },
+    {
+      "extra": {
+        "unstructured": "J. C. Jewett, C. R. Bertozzi, Chem. Soc. Rev. 2010, 39, 1272-1279;"
+      },
+      "index": 223
+    },
+    {
+      "extra": {
+        "unstructured": "P. Shieh, C. R. Bertozzi, Org. Biomol. Chem. 2014, 12, 9307-9320;"
+      },
+      "index": 224
+    },
+    {
+      "extra": {
+        "unstructured": "X. Zhang, Y. Zhang, Molecules 2013, 18, 7145-7159;"
+      },
+      "index": 225
+    },
+    {
+      "extra": {
+        "unstructured": "C. S. McKay, M. G. Finn, Chem. Biol. 2014, 21, 1075-1101."
+      },
+      "index": 226
+    },
+    {
+      "extra": {
+        "unstructured": "The very exothermic reaction of cyclooctyne with phenyl azide was known for a long time:"
+      },
+      "index": 227
+    },
+    {
+      "extra": {
+        "unstructured": "A. T. Blomquist, L. H. Liu, J. Am. Chem. Soc. 1953, 75, 2153-2154;"
+      },
+      "index": 228
+    },
+    {
+      "extra": {
+        "unstructured": "G. Wittig, A. Krebs, Chem. Ber. 1961, 94, 3260-3275."
+      },
+      "index": 229
+    },
+    {
+      "extra": {
+        "unstructured": "S. T. Laughlin, J. M. Baskin, S. L. Amacher, C. R. Bertozzi, Science 2008, 320, 664-667."
+      },
+      "index": 230
+    },
+    {
+      "extra": {
+        "unstructured": " "
+      },
+      "index": 231
+    },
+    {
+      "extra": {
+        "unstructured": "N. A. McGrath, R. T. Raines, Chem. Sci. 2012, 3, 3237-3240;"
+      },
+      "index": 232
+    },
+    {
+      "extra": {
+        "unstructured": "K. A. Andersen, M. R. Aronoff, N. A. McGrath, R. T. Raines, J. Am. Chem. Soc. 2015, 137, 2412-2415;"
+      },
+      "index": 233
+    },
+    {
+      "extra": {
+        "unstructured": "M. R. Aronoff, B. Gold, R. T. Raines, Org. Lett. 2016, 18, 1538-1541;"
+      },
+      "index": 234
+    },
+    {
+      "extra": {
+        "unstructured": "B. Gold, M. R. Aronoff, R. T. Raines, J. Org. Chem. 2016, 81, 5998-6006;"
+      },
+      "index": 235
+    },
+    {
+      "extra": {
+        "unstructured": "K. A. Mix, M. R. Aronoff, R. T. Raines, ACS Chem. Biol. 2016, 11, 3233-3244."
+      },
+      "index": 236
+    },
+    {
+      "extra": {
+        "unstructured": "Summaries of other important research areas explored by Rolf Huisgen (nitroso-, azo-, and diazonium compounds, medium-sized rings, electrocyclic reactions, [2+2] cycloadditions, sulfur organic chemistry) can be found in his autobiography (ref. [7]) and in the following reviews:"
+      },
+      "index": 237
+    },
+    {
+      "extra": {
+        "unstructured": "R. Sustmann, Heterocycles 1995, 40, 1-18;"
+      },
+      "index": 238
+    },
+    {
+      "extra": {
+        "unstructured": "C. Rüchardt, J. Sauer, R. Sustmann, Helv. Chim. Acta 2005, 88, 1154-1184;"
+      },
+      "index": 239
+    },
+    {
+      "extra": {
+        "unstructured": "K. N. Houk, Helv. Chim. Acta 2010, 93, 1241-1260;"
+      },
+      "index": 240
+    },
+    {
+      "extra": {
+        "unstructured": "K. N. Houk, H.-U. Reissig, Chem 2019, 5, 2499-2505."
+      },
+      "index": 241
+    },
+    {
+      "extra": {
+        "unstructured": "A. von Humboldt, speech at the opening session of the Assembly of German Natural Scientists and Physicians (Versammlung Deutscher Naturforscher und Ärzte) in Berlin, September 18, 1828."
+      },
+      "index": 242
+    },
+    {
+      "extra": {
+        "unstructured": "H. v. Pechmann, Ber. Dtsch. Chem. Ges. 1898, 31, 2950-2951."
+      },
+      "index": 243
+    },
+    {
+      "extra": {
+        "unstructured": "A. Werner, H. Buss, Ber. Dtsch. Chem. Ges. 1894, 27, 2193-2201."
+      },
+      "index": 244
+    },
+    {
+      "extra": {
+        "unstructured": "H. Boersch, Monatsh. Chem. 1934, 65, 311-337."
+      },
+      "index": 245
+    },
+    {
+      "extra": {
+        "unstructured": "K. Ziegler, H. Sauer, L. Bruns, H. Froitzheim-Kühlhorn, J. Schneider, Justus Liebigs Ann. Chem. 1954, 589, 122-156."
+      },
+      "index": 246
+    },
+    {
+      "extra": {
+        "unstructured": "R. Huisgen, in Chemistry and Biological Applications of Oxygen- and Sulfur-Containing Heterocycles (Ed.: V. G. Kartsev), IBX Press, Moscow, 2003, pp. 83-101."
+      },
+      "index": 247
+    },
+    {
+      "extra": {
+        "unstructured": " "
+      },
+      "index": 248
+    },
+    {
+      "extra": {
+        "unstructured": "A. K. Griffith, C. M. Vanos, T. H. Lambert, J. Am. Chem. Soc. 2012, 134, 18581-18584;"
+      },
+      "index": 249
+    },
+    {
+      "extra": {
+        "unstructured": "X. Hong, Y. Liang, A. K. Griffith, T. H. Lambert, K. N. Houk, Chem. Sci. 2014, 5, 471-475;"
+      },
+      "index": 250
+    },
+    {
+      "extra": {
+        "unstructured": "T. H. Lambert, Synlett 2019, 30, 1954-1965;"
+      },
+      "index": 251
+    },
+    {
+      "extra": {
+        "unstructured": "Y. Zhang, J. Jermaks, S. N. MacMillan, T. H. Lambert, ACS Catal. 2019, 9, 9259-9264."
+      },
+      "index": 252
+    }
+  ],
+  "release_date": "2020-04-07",
+  "release_stage": "published",
+  "release_type": "article-journal",
+  "release_year": 2020,
+  "revision": "5536158c-f03e-44c5-9e28-e6a456b62506",
+  "state": "active",
+  "title": "Die Huisgen-Reaktion - Meilensteine der 1,3-Dipolaren Cycloaddition",
+  "work_id": "h54zh2d6uffcxda2dkj7qbpozq"
+}
