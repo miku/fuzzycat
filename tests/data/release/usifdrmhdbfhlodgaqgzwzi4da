@@ -1,0 +1,38 @@
+{
+  "abstracts": [],
+  "container_id": "tol7woxlqjeg5bmzadeg6qrg3e",
+  "contribs": [
+    {
+      "extra": {
+        "seq": "first"
+      },
+      "index": 0,
+      "raw_name": "William J. Baumol",
+      "role": "author"
+    },
+    {
+      "index": 1,
+      "raw_name": "J. Gregory Sidak",
+      "role": "author"
+    }
+  ],
+  "ext_ids": {
+    "doi": "10.2139/ssrn.289386"
+  },
+  "extra": {
+    "crossref": {
+      "type": "journal-article"
+    }
+  },
+  "ident": "usifdrmhdbfhlodgaqgzwzi4da",
+  "language": "en",
+  "publisher": "Elsevier BV",
+  "refs": [],
+  "release_stage": "published",
+  "release_type": "article-journal",
+  "release_year": 2001,
+  "revision": "fa3a2688-4fd4-4df7-acb4-ca66ab8ce03a",
+  "state": "active",
+  "title": "The Pricing of Inputs Sold to Competitors",
+  "work_id": "ftqj2shrhbhc3enw7qhpe5cfsy"
+}

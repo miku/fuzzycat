@@ -1,0 +1,38 @@
+{
+  "abstracts": [],
+  "container_id": "tol7woxlqjeg5bmzadeg6qrg3e",
+  "contribs": [
+    {
+      "extra": {
+        "seq": "first"
+      },
+      "index": 0,
+      "raw_name": "J. Gregory Sidak",
+      "role": "author"
+    },
+    {
+      "index": 1,
+      "raw_name": "William J. Baumol",
+      "role": "author"
+    }
+  ],
+  "ext_ids": {
+    "doi": "10.2139/ssrn.299701"
+  },
+  "extra": {
+    "crossref": {
+      "type": "journal-article"
+    }
+  },
+  "ident": "r63fa4mqkfb3leafypdwnnj7jq",
+  "language": "en",
+  "publisher": "Elsevier BV",
+  "refs": [],
+  "release_stage": "published",
+  "release_type": "article-journal",
+  "release_year": 2002,
+  "revision": "1b909f9e-257e-444e-af5b-c8ffc974a2c3",
+  "state": "active",
+  "title": "The Pricing of Inputs Sold to Competitors: Rejoinder and Epilogue",
+  "work_id": "kq6ojcdvnjhwdg2oodwbkrof34"
+}
