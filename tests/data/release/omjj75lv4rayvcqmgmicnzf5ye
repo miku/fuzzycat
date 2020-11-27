@@ -1,0 +1,38 @@
+{
+  "abstracts": [],
+  "container_id": "jvflqhp7bfcydkqqx76brm32yq",
+  "contribs": [
+    {
+      "extra": {
+        "seq": "first"
+      },
+      "index": 0,
+      "raw_name": "Roger Chartier",
+      "role": "author"
+    }
+  ],
+  "ext_ids": {
+    "doi": "10.1086/427305"
+  },
+  "extra": {
+    "crossref": {
+      "alternative-id": [
+        "10.1086/427305"
+      ],
+      "type": "journal-article"
+    }
+  },
+  "ident": "omjj75lv4rayvcqmgmicnzf5ye",
+  "language": "en",
+  "pages": "133-152",
+  "publisher": "University of Chicago Press",
+  "refs": [],
+  "release_stage": "published",
+  "release_type": "article-journal",
+  "release_year": 2004,
+  "revision": "625cbca3-e225-4e43-b49c-b734e20f5d30",
+  "state": "active",
+  "title": "Languages, Books, and Reading from the Printed Word to the Digital Text",
+  "volume": "31",
+  "work_id": "hfvz7a6glbetxazjbldu4rq2ae"
+}

@@ -1,0 +1,42 @@
+{
+  "abstracts": [],
+  "container_id": "jvflqhp7bfcydkqqx76brm32yq",
+  "contribs": [
+    {
+      "extra": {
+        "seq": "first"
+      },
+      "index": 0,
+      "raw_name": "Chartier",
+      "role": "author"
+    },
+    {
+      "index": 1,
+      "raw_name": "Fagan",
+      "role": "author"
+    }
+  ],
+  "ext_ids": {
+    "doi": "10.2307/3651425"
+  },
+  "extra": {
+    "crossref": {
+      "alternative-id": [
+        "10.2307/3651425"
+      ],
+      "type": "journal-article"
+    }
+  },
+  "ident": "xxfujnvafrazbjw7kvh7bhmuvy",
+  "pages": "133",
+  "publisher": "JSTOR",
+  "refs": [],
+  "release_stage": "published",
+  "release_type": "article-journal",
+  "release_year": 2004,
+  "revision": "6d6c0868-b5ca-4ac1-8d20-eb2abacd6a6a",
+  "state": "active",
+  "title": "Languages, Books, and Reading from the Printed Word to the Digital Text",
+  "volume": "31",
+  "work_id": "zatbzwuebnamzn6adsp2twxj2q"
+}
