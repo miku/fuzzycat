@@ -258,8 +258,8 @@ def compare(a, b):
 
     if a_slug_title == b_slug_title:
         try:
-            a_subtitles = glom(a, "extra.subtitle")
-            b_subtitles = glom(b, "extra.subtitle")
+            a_subtitles = glom(a, "extra.subtitle") or []
+            b_subtitles = glom(b, "extra.subtitle") or []
             for a_sub in a_subtitles:
                 for b_sub in b_subtitles:
                     if slugify_string(a_sub) != slugify_string(b_sub):
