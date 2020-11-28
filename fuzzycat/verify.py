@@ -325,8 +325,11 @@ def compare(a, b):
         # in this block.
         Score = collections.namedtuple("Score", "a b value")
         scores = []
-        # account for the possible arbitrary ordering of authors
-        for a, b in itertools.product(a_slug_authors, b_slug_authors):
+        # account for the possible arbitrary ordering of authors, XXX: this
+        # explodes.
+        a_trimmed = sorted(a_slug_authors)[:5]
+        b_trimmed = sorted(b_slug_authors)[:5]
+        for a, b in itertools.product(a_trimmed, b_trimmed):
             scores.append(Score(a, b, author_similarity_score(a, b)))
         # TODO: less arbitrary metric and threshold
         top_scores = []
