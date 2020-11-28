@@ -44,8 +44,8 @@ def run_cluster(args):
                       tmpdir=args.tmpdir,
                       key_denylist=key_denylist,
                       prefix=args.prefix)
-    stats = cluster.run()
-    logger.debug(json.dumps(dict(stats)))
+    cluster.run()
+    logger.debug(json.dumps(dict(cluster.counter)))
 
 
 def run_verify(args):
@@ -62,6 +62,7 @@ if __name__ == '__main__':
         level=logging.DEBUG,
         format='%(asctime)s.%(msecs)03d %(levelname)s %(module)s - %(funcName)s: %(message)s',
         datefmt='%Y-%m-%d %H:%M:%S')
+
     parser = argparse.ArgumentParser(prog='fuzzycat',
                                      description=__doc__,
                                      usage='%(prog)s command [options]',

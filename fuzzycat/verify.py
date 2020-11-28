@@ -99,9 +99,9 @@ class GroupVerifier:
                  max_cluster_size: int = 10,
                  verbose=True):
         self.iterable: collections.abc.Iterable = iterable
-        self.max_cluster_size: int = 10
-        self.counter = collections.Counter()
+        self.max_cluster_size: int = max_cluster_size
         self.verbose = verbose
+        self.counter = collections.Counter()
 
     def run(self):
         for i, line in enumerate(self.iterable):
@@ -133,7 +133,6 @@ class GroupVerifier:
                       "https://fatcat.wiki/release/{}".format(b["ident"]), result, reason)
 
         self.counter["total"] = sum(v for _, v in self.counter.items())
-        print(json.dumps(dict(self.counter)), file=sys.stderr)
 
 
 def compare(a, b):
