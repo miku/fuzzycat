@@ -29,3 +29,27 @@ $ time zstdcat -T0 cluster_tsandcrawler_min_cluster_size_2.json.zst | \
     zstd -T0 -c9 > cluster_tsandcrawler_min_cluster_size_2_verify.tsv.zst
 ```
 
+The cluster size distribution is:
+
+```
+9086522 2
+1486742 3
+ 506125 4
+ 211335 5
+ 126678 6
+  67592 7
+  47085 8
+  32587 9
+  23975 10
+  19153 11
+  16318 12
+  12167 100
+  12051 13
+  10345 14
+   8687 15
+   7418 16
+   6655 17
+   6451 18
+   5233 19
+   4865 20
+```
