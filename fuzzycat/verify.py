@@ -182,7 +182,7 @@ def compare(a, b):
     # beware: we have versions and "isPartOf", e.g. https://api.fatcat.wiki/v0/release/ybxygpeypbaq5pfrztu3z2itw4
     # TODO: does glom help?
     # ...
-    if "datacite" in a.get("extra") and "datacite" in b.get("extra"):
+    if "datacite" in (a.get("extra", []) or []) and "datacite" in (b.get("extra", []) or []):
         whitelist = set([
             "HasPart",
             "HasVersion",

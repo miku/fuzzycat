@@ -45,8 +45,9 @@ def test_compare():
                     "skipping test {base}release/{a} {base}release/{b} -- no result defined (we think {status}, {reason})"
                     .format(a=a, b=b, base=FATCAT_BASE_URL, status=status, reason=reason))
                 continue
-            assert status_mapping[expected_status] == status, "status: want {}, got {} for {} {}".format(
-                expected_status, status, a, b)
+            assert status_mapping[
+                expected_status] == status, "status: want {}, got {} for {} {}".format(
+                    expected_status, status, a, b)
             if expected_reason:
                 assert expected_reason.lower() == reason.lower(
                 ), "reason [{} {}]: want {}, got {}".format(a, b, expected_reason, reason)
