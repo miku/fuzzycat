@@ -47,3 +47,4 @@ class Miss(str, Enum):
     SUBTITLE = 'miss.subtitle'
     TITLE_FILENAME = 'miss.title_filename'
     YEAR = 'miss.year'
+    CUSTOM_PREFIX_10_14288 = 'miss.custom_prefix_10_14288'

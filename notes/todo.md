@@ -11,6 +11,18 @@ Examples.
 > "reference-entry", "entry" - vs other type, e.g. article
 
 * https://fatcat.wiki/release/63g4ukdxajcqhdytqla6du3t3u https://fatcat.wiki/release/rz72bzfevzeofdeb342c6z45qu
+
+This example comes from datacite, the original md:
+
+* [https://api.datacite.org/dois/10.14288/1.0151581](https://api.datacite.org/dois/10.14288/1.0151581)
+
+Metadata similarly off on:
+
+* [https://commons.datacite.org/doi.org/10.14288/1.0011045?query=%2210.14288%22](https://commons.datacite.org/doi.org/10.14288/1.0011045?query=%2210.14288%22)
+* [https://api.datacite.org/application/vnd.datacite.datacite+json/10.14288/1.0011045](https://api.datacite.org/application/vnd.datacite.datacite+json/10.14288/1.0011045)
+
+Picture categorized as article.
+
 * https://fatcat.wiki/release/fwghjz4q7bdulismftuvagmgfu https://fatcat.wiki/release/jwbn7qohu5ggtc5okm4m7s5vja
 * https://fatcat.wiki/release/hhyyhosajjflpkufecx26gncwe https://fatcat.wiki/release/yxqwe4ns5vbntjzcse5igkgxk4
 * https://fatcat.wiki/release/ij3yuoh6lrh3tkrv5o7gfk6yyi https://fatcat.wiki/release/tur236mqljdfdnlzbbnks2sily

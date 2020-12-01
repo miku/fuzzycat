@@ -159,6 +159,18 @@ def compare(a, b):
         if fragment in a_title_lower:
             return (Status.AMBIGUOUS, Miss.BLACKLISTED_FRAGMENT)
 
+    try:
+        a_doi = glom(a, "ext_ids.doi")
+        b_doi = glom(b, "ext_ids.doi")
+        if a_doi.startswith("10.14288/") and b_doi.startswith("10.14288/") and a_doi != b_doi:
+            # UBC metadata slightly off;
+            # https://fatcat.wiki/release/63g4ukdxajcqhdytqla6du3t3u,
+            # https://fatcat.wiki/release/rz72bzfevzeofdeb342c6z45qu;
+            # https://api.datacite.org/application/vnd.datacite.datacite+json/10.14288/1.0011045
+            return (Status.DIFFERENT, Miss.CUSTOM_PREFIX_10_14288)
+    except PathAccessError:
+        pass
+
     if "Zweckverband Volkshochschule " in a_title and a_title != b_title:
         return (Status.DIFFERENT, Miss.CUSTOM_VHS)
 
