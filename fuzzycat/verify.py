@@ -237,7 +237,10 @@ def compare(a, b):
             # or paper-conference
             # (https://fatcat.wiki/release/l4fyyvsckneuxkq7d3y2zvkvbe)
             types = set([a.get("release_type"), b.get("release_type")])
-            ignore_release_types = set(["article", "article-journal", "report", "paper-conference"])
+            # Added "entry" via
+            # https://fatcat.wiki/release/xp3oxb7tqbgaxdzkzbchfkcjn4,
+            # https://fatcat.wiki/release/73pcaauzwbalvi7aqhv6vopxl4
+            ignore_release_types = set(["article", "article-journal", "report", "paper-conference", "entry", "book"])
             if len(types & ignore_release_types) == 0:
                 return (Status.DIFFERENT, Miss.RELEASE_TYPE)
     except PathAccessError:
