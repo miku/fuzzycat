@@ -21,9 +21,17 @@ Metadata similarly off on:
 * [https://commons.datacite.org/doi.org/10.14288/1.0011045?query=%2210.14288%22](https://commons.datacite.org/doi.org/10.14288/1.0011045?query=%2210.14288%22)
 * [https://api.datacite.org/application/vnd.datacite.datacite+json/10.14288/1.0011045](https://api.datacite.org/application/vnd.datacite.datacite+json/10.14288/1.0011045)
 
-Picture categorized as article.
+Picture categorized as article. Added custom rule as workaround.
 
 * https://fatcat.wiki/release/fwghjz4q7bdulismftuvagmgfu https://fatcat.wiki/release/jwbn7qohu5ggtc5okm4m7s5vja
+
+This seems to be a rerun or repackage of a science article:
+
+* https://stke.sciencemag.org/content/2006/316/tw466
+* https://science.sciencemag.org/content/310/5756/1865.6/tab-pdf
+
+STKE "fulltext" link does not lead anywhere; discontinued.
+
 * https://fatcat.wiki/release/hhyyhosajjflpkufecx26gncwe https://fatcat.wiki/release/yxqwe4ns5vbntjzcse5igkgxk4
 * https://fatcat.wiki/release/ij3yuoh6lrh3tkrv5o7gfk6yyi https://fatcat.wiki/release/tur236mqljdfdnlzbbnks2sily
 * https://fatcat.wiki/release/neznj5fb4nf3tdqnotnbe34b6e https://fatcat.wiki/release/gcqdvvjiq5bphl7lpc4invi4vy
