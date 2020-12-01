@@ -40,12 +40,15 @@ STKE "fulltext" link does not lead anywhere; discontinued.
 
 > preprint and IEEE published article
 
-* [ ] https://fatcat.wiki/release/neznj5fb4nf3tdqnotnbe34b6e https://fatcat.wiki/release/gcqdvvjiq5bphl7lpc4invi4vy
+* [x] https://fatcat.wiki/release/neznj5fb4nf3tdqnotnbe34b6e https://fatcat.wiki/release/gcqdvvjiq5bphl7lpc4invi4vy
 
 > a standard document; DOI and DOIu -- which means "undated" (as per URL) --
 > https://landingpage.bsigroup.com/LandingPage/Undated?UPI=000000000030281171
 
 * [ ] https://fatcat.wiki/release/fmi7hmpb3beotnj5kfyjjkolcy https://fatcat.wiki/release/isihxweh6ffxxhhrw2fthqymfa
+
+> Interestingly, the same item, altough different doi and URL, but image ID seems to be the same.
+
 * [ ] https://fatcat.wiki/release/he334wpbobegxhptpkvvrufioq https://fatcat.wiki/release/td3ouhgtzbbe7ctevfnldqkoba
 * [ ] https://fatcat.wiki/release/5zybwzmlsjexri6c3ma6tczf7q https://fatcat.wiki/release/35gerfmlirelfh3af6qug2oz4q
 * [ ] https://fatcat.wiki/release/rnso2swxzvfonemgzrth3arumi https://fatcat.wiki/release/caxa7qbfqvg3bkgz4nwvapgnvi
