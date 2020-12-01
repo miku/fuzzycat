@@ -160,6 +160,13 @@ def compare(a, b):
             return (Status.AMBIGUOUS, Miss.BLACKLISTED_FRAGMENT)
 
     try:
+        if a_title and a_title == b_title and glom(a, "extra.datacite.metadataVersion") != glom(
+                b, "extra.datacite.metadataVersion"):
+            return (Status.EXACT, OK.DATACITE_VERSION)
+    except PathAccessError:
+        pass
+
+    try:
         a_doi = glom(a, "ext_ids.doi")
         b_doi = glom(b, "ext_ids.doi")
         if a_doi.startswith("10.14288/") and b_doi.startswith("10.14288/") and a_doi != b_doi:

@@ -17,7 +17,10 @@ class OK(str, Enum):
     Reason for assuming we have a match.
     """
     ARXIV_VERSION = 'ok.arxiv_version'
+    CUSTOM_BSI_UNDATED = 'ok.custom_bsi_undated'
+    CUSTOM_IEEE_ARXIV = 'ok.custom_ieee_arxiv'
     DATACITE_RELATED_ID = 'ok.datacite_related_id'
+    DATACITE_VERSION = 'ok.datacite_version'
     DOI = 'ok.doi'
     DUMMY = 'ok.dummy'
     FIGSHARE_VERSION = 'ok.figshare_version'
@@ -25,8 +28,6 @@ class OK(str, Enum):
     SLUG_TITLE_AUTHOR_MATCH = 'ok.slug_title_author_match'
     TITLE_AUTHOR_MATCH = 'ok.title_author_match'
     TOKENIZED_AUTHORS = 'ok.tokenized_authors'
-    CUSTOM_IEEE_ARXIV = 'ok.custom_ieee_arxiv'
-    CUSTOM_BSI_UNDATED = 'ok.custom_bsi_undated'
 
 
 class Miss(str, Enum):
