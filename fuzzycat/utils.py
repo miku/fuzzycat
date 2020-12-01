@@ -13,7 +13,7 @@ def slugify_string(s: str) -> str:
     """
     Keeps ascii chars and single whitespace only.
     """
-    return ''.join((c for c in s.lower() if c in printable_no_punct))
+    return ' '.join(''.join((c for c in s.lower() if c in printable_no_punct)).split())
 
 
 def cut(f: int = 0, sep: str = '\t', ignore_missing_column: bool = True):

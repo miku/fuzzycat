@@ -9,9 +9,9 @@ def test_slugify_string():
     assert slugify_string("X") == "x"
     assert slugify_string("Xx") == "xx"
     assert slugify_string("Xx x") == "xx x"
-    assert slugify_string("Xx x  x") == "xx x  x"
-    assert slugify_string("Xx?x  x") == "xxx  x"
-    assert slugify_string("Xx? ?x  x") == "xx x  x"
+    assert slugify_string("Xx x  x") == "xx x x"
+    assert slugify_string("Xx?x  x") == "xxx x"
+    assert slugify_string("Xx? ?x  x") == "xx x x"
     assert slugify_string("Xx?_?x--x") == "xxxx"
     assert slugify_string("=?++*") == ""
 

@@ -240,7 +240,12 @@ def compare(a, b):
             # Added "entry" via
             # https://fatcat.wiki/release/xp3oxb7tqbgaxdzkzbchfkcjn4,
             # https://fatcat.wiki/release/73pcaauzwbalvi7aqhv6vopxl4
-            ignore_release_types = set(["article", "article-journal", "report", "paper-conference", "entry", "book"])
+            ignore_release_types = set([
+                "article",
+                "article-journal",
+                "report",
+                "paper-conference",
+            ])
             if len(types & ignore_release_types) == 0:
                 return (Status.DIFFERENT, Miss.RELEASE_TYPE)
     except PathAccessError:
@@ -269,6 +274,32 @@ def compare(a, b):
     # https://fatcat.wiki/release/knzhequchfcethcyyi3gsp5gry, some title contain newlines
     a_slug_title = slugify_string(a.get("title", "")).replace("\n", " ")
     b_slug_title = slugify_string(b.get("title", "")).replace("\n", " ")
+
+    try:
+        if glom(a, "ext_ids.doi") == "10.1109/nssmic.2013.6829591":
+            print(a_slug_title)
+            print(b_slug_title)
+    except PathAccessError:
+        pass
+
+    if a_slug_title == b_slug_title:
+        # via: https://fatcat.wiki/release/ij3yuoh6lrh3tkrv5o7gfk6yyi
+        # https://fatcat.wiki/release/tur236mqljdfdnlzbbnks2sily
+        def ieee_arxiv_pair_check(a, b):
+            try:
+                print(a_slug_title, glom(a, "ext_ids.doi"))
+                if (glom(a, "ext_ids.doi").split("/")[0] == "10.1109"
+                        and glom(b, "ext_ids.arxiv") != ""):
+                    return (Status.STRONG, OK.CUSTOM_IEEE_ARXIV)
+            except PathAccessError:
+                pass
+
+        result = ieee_arxiv_pair_check(a, b)
+        if result:
+            return result
+        result = ieee_arxiv_pair_check(b, a)
+        if result:
+            return result
 
     if a_slug_title == b_slug_title:
         try:

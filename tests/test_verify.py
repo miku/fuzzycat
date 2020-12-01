@@ -50,5 +50,6 @@ def test_compare():
                     expected_status, status, a, b)
             if expected_reason:
                 assert expected_reason.lower() == reason.lower(
-                ), "reason [{} {}]: want {}, got {}".format(a, b, expected_reason, reason)
+                ), "reason [{base}release/{a} {base}release/{b}]: want {reason}, got {expected_reason}".format(
+                    base=FATCAT_BASE_URL, a=a, b=b, expected_reason=expected_reason, reason=reason)
         logger.info("ran verification over {} cases (https://git.io/JkDgS)".format(i))

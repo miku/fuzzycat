@@ -1,0 +1,22 @@
+{
+  "abstracts": [],
+  "contribs": [],
+  "ext_ids": {
+    "doi": "10.1109/nssmic.2013.6829591"
+  },
+  "extra": {
+    "container_name": "2013 IEEE Nuclear Science Symposium and Medical Imaging Conference (2013 NSS/MIC)",
+    "crossref": {
+      "type": "proceedings-article"
+    }
+  },
+  "ident": "ij3yuoh6lrh3tkrv5o7gfk6yyi",
+  "publisher": "IEEE",
+  "refs": [],
+  "release_type": "paper-conference",
+  "release_year": 2013,
+  "revision": "86796ef0-33f9-46d2-bd17-7ffc6350077a",
+  "state": "active",
+  "title": "A balloon-borne measurement of high latitude atmospheric neutrons using a licaf neutron detector",
+  "work_id": "kfq2747aj5c7dfoaic2rrmo3ey"
+}

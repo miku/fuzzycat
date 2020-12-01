@@ -1,0 +1,108 @@
+{
+  "abstracts": [
+    {
+      "content": "PoGOLino is a scintillator-based neutron detector. Its main purpose is to\nprovide data on the neutron flux in the upper stratosphere at high latitudes at\nthermal and nonthermal energies for the PoGOLite instrument. PoGOLite is a\nballoon borne hard X-ray polarimeter for which the main source of background\nstems from high energy neutrons. No measurements of the neutron environment for\nthe planned flight latitude and altitude exist. Furthermore this neutron\nenvironment changes with altitude, latitude and solar activity, three variables\nthat will vary throughout the PoGOLite flight. PoGOLino was developed to study\nthe neutron environment and the influences from these three variables upon it.\nPoGOLino consists of two Europium doped Lithium Calcium Aluminium Fluoride\n(Eu:LiCAF) scintillators, each of which is sandwiched between 2 Bismuth\nGermanium Oxide (BGO) scintillating crystals, which serve to veto signals\nproduced by gamma-rays and charged particles. This allows the neutron flux to\nbe measured even in high radiation environments. Measurements of neutrons in\ntwo separate energy bands are achieved by placing one LiCAF detector inside a\nmoderating polyethylene shield while the second detector remains unshielded.\nThe PoGOLino instrument was launched on March 20th 2013 from the Esrange Space\nCenter in Northern Sweden to an altitude of 30.9 km. A description of the\ndetector design and read-out system is presented. A detailed set of simulations\nof the atmospheric neutron environment performed using both PLANETOCOSMICS and\nGeant4 will also be described. The comparison of the neutron flux measured\nduring flight to predictions based on these simulations will be presented and\nthe consequences for the PoGOLite background will be discussed.",
+      "lang": "en",
+      "mimetype": "text/plain",
+      "sha1": "555bc72b30fde1b0ae40c2846987dbe6c4f71eab"
+    }
+  ],
+  "contribs": [
+    {
+      "index": 0,
+      "raw_name": "Merlin Kole",
+      "role": "author"
+    },
+    {
+      "index": 1,
+      "raw_name": "Yasushi Fukazawa",
+      "role": "author"
+    },
+    {
+      "index": 2,
+      "raw_name": "Kentaro Fukuda",
+      "role": "author"
+    },
+    {
+      "index": 3,
+      "raw_name": "Sumito Ishizu",
+      "role": "author"
+    },
+    {
+      "index": 4,
+      "raw_name": "Miranda\n  Jackson",
+      "role": "author"
+    },
+    {
+      "index": 5,
+      "raw_name": "Tune Kamae",
+      "role": "author"
+    },
+    {
+      "index": 6,
+      "raw_name": "Noriaki Kawaguchi",
+      "role": "author"
+    },
+    {
+      "index": 7,
+      "raw_name": "Takafumi Kawano",
+      "role": "author"
+    },
+    {
+      "index": 8,
+      "raw_name": "Mózsi Kiss",
+      "role": "author"
+    },
+    {
+      "index": 9,
+      "raw_name": "Elena\n  Moretti",
+      "role": "author"
+    },
+    {
+      "index": 10,
+      "raw_name": "Maria Fernanda Muñoz Salinas",
+      "role": "author"
+    },
+    {
+      "index": 11,
+      "raw_name": "Mark Pearce",
+      "role": "author"
+    },
+    {
+      "index": 12,
+      "raw_name": "Stefan Rydström,\n  Hiromitsu Takahashi",
+      "role": "author"
+    },
+    {
+      "index": 13,
+      "raw_name": "Takayuki Yanagida",
+      "role": "author"
+    }
+  ],
+  "ext_ids": {
+    "arxiv": "1311.5531v1"
+  },
+  "extra": {
+    "arxiv": {
+      "base_id": "1311.5531",
+      "categories": [
+        "astro-ph.IM",
+        "physics.ins-det"
+      ],
+      "comments": "Presented at 2013 IEEE Nuclear Science Symposium, Seoul, Korea.\n  October 27 - November 2, 2013"
+    }
+  },
+  "ident": "tur236mqljdfdnlzbbnks2sily",
+  "language": "en",
+  "license_slug": "ARXIV-1.0",
+  "refs": [],
+  "release_date": "2013-11-21",
+  "release_stage": "submitted",
+  "release_type": "article",
+  "release_year": 2013,
+  "revision": "f1d2d5b4-2dbe-476e-bb3b-65397d2d062d",
+  "state": "active",
+  "title": "A Balloon-borne Measurement of High Latitude Atmospheric Neutrons Using\n  a LiCAF Neutron Detector",
+  "version": "v1",
+  "work_id": "phxon3cn6rbshkf3id6cfmdsza"
+}
