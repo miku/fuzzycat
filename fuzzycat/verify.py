@@ -75,8 +75,8 @@ import sys
 from glom import PathAccessError, glom
 
 from fuzzycat.common import OK, Miss, Status
-from fuzzycat.utils import (author_similarity_score, contains_chemical_formula, num_project,
-                            slugify_string)
+from fuzzycat.utils import (author_similarity_score, contains_chemical_formula, has_doi_prefix,
+                            num_project, slugify_string)
 
 # The result of clustering are documents that have a key k and a list of values
 # (of the cluster) v.
@@ -168,6 +168,15 @@ def compare(a, b):
             # https://fatcat.wiki/release/rz72bzfevzeofdeb342c6z45qu;
             # https://api.datacite.org/application/vnd.datacite.datacite+json/10.14288/1.0011045
             return (Status.DIFFERENT, Miss.CUSTOM_PREFIX_10_14288)
+    except PathAccessError:
+        pass
+
+    try:
+        a_doi = glom(a, "ext_ids.doi")
+        b_doi = glom(b, "ext_ids.doi")
+        if has_doi_prefix(a_doi, "10.3403") and has_doi_prefix(b_doi, "10.3403"):
+            if a_doi + "u" == b_doi or b_doi + "u" == a_doi:
+                return (Status.STRONG, OK.CUSTOM_BSI_UNDATED)
     except PathAccessError:
         pass
 
@@ -275,13 +284,6 @@ def compare(a, b):
     a_slug_title = slugify_string(a.get("title", "")).replace("\n", " ")
     b_slug_title = slugify_string(b.get("title", "")).replace("\n", " ")
 
-    try:
-        if glom(a, "ext_ids.doi") == "10.1109/nssmic.2013.6829591":
-            print(a_slug_title)
-            print(b_slug_title)
-    except PathAccessError:
-        pass
-
     if a_slug_title == b_slug_title:
         # via: https://fatcat.wiki/release/ij3yuoh6lrh3tkrv5o7gfk6yyi
         # https://fatcat.wiki/release/tur236mqljdfdnlzbbnks2sily
@@ -294,6 +296,8 @@ def compare(a, b):
             except PathAccessError:
                 pass
 
+        # TODO: we might want to have some light python DSL to express these
+        # (commute) things
         result = ieee_arxiv_pair_check(a, b)
         if result:
             return result

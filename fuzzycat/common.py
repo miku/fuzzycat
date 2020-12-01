@@ -26,6 +26,7 @@ class OK(str, Enum):
     TITLE_AUTHOR_MATCH = 'ok.title_author_match'
     TOKENIZED_AUTHORS = 'ok.tokenized_authors'
     CUSTOM_IEEE_ARXIV = 'ok.custom_ieee_arxiv'
+    CUSTOM_BSI_UNDATED = 'ok.custom_bsi_undated'
 
 
 class Miss(str, Enum):

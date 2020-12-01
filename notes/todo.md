@@ -36,11 +36,15 @@ STKE "fulltext" link does not lead anywhere; discontinued.
 
 > book vs article-journal
 
-* [ ] https://fatcat.wiki/release/ij3yuoh6lrh3tkrv5o7gfk6yyi https://fatcat.wiki/release/tur236mqljdfdnlzbbnks2sily
+* [x] https://fatcat.wiki/release/ij3yuoh6lrh3tkrv5o7gfk6yyi https://fatcat.wiki/release/tur236mqljdfdnlzbbnks2sily
 
 > preprint and IEEE published article
 
 * [ ] https://fatcat.wiki/release/neznj5fb4nf3tdqnotnbe34b6e https://fatcat.wiki/release/gcqdvvjiq5bphl7lpc4invi4vy
+
+> a standard document; DOI and DOIu -- which means "undated" (as per URL) --
+> https://landingpage.bsigroup.com/LandingPage/Undated?UPI=000000000030281171
+
 * [ ] https://fatcat.wiki/release/fmi7hmpb3beotnj5kfyjjkolcy https://fatcat.wiki/release/isihxweh6ffxxhhrw2fthqymfa
 * [ ] https://fatcat.wiki/release/he334wpbobegxhptpkvvrufioq https://fatcat.wiki/release/td3ouhgtzbbe7ctevfnldqkoba
 * [ ] https://fatcat.wiki/release/5zybwzmlsjexri6c3ma6tczf7q https://fatcat.wiki/release/35gerfmlirelfh3af6qug2oz4q

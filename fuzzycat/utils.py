@@ -9,6 +9,15 @@ printable_no_punct = string.digits + string.ascii_letters + string.whitespace
 CHEM_FORMULA = re.compile(r"([A-Z]{1,2}[0-9]{1,2})+")
 
 
+def has_doi_prefix(v, prefix="10.1234"):
+    """
+    Returns False, if we cannot parse v or prefix does not match.
+    """
+    if not v:
+        return False
+    return v.split("/")[0] == prefix
+
+
 def slugify_string(s: str) -> str:
     """
     Keeps ascii chars and single whitespace only.
