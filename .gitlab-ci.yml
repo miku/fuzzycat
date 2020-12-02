@@ -1,0 +1,15 @@
+image: python:3.8.5-slim-buster
+
+stages:
+  - test
+
+before_script:
+   - pip install --upgrade pip
+   - pip install pytest
+
+tests:
+  stage: test
+  script:
+    - python setup.py develop
+    - pytest
+
