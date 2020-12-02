@@ -1,4 +1,4 @@
-image: tirtir/fuzzycat-ci:1.0
+image: tirtir/fuzzycat-ci:latest
 
 stages:
   - test
@@ -10,6 +10,7 @@ before_script:
 tests:
   stage: test
   script:
+    - python3 --version
     - pipenv install
     - pipenv run pytest
 
