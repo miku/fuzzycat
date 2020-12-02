@@ -1,4 +1,4 @@
-image: python:3.8.5-slim-buster
+image: bnewbold/fatcat-test-base:latest
 
 stages:
   - test
