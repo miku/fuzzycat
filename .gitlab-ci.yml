@@ -4,12 +4,12 @@ stages:
   - test
 
 before_script:
-   - pip install --upgrade pip
-   - pip install pytest
+   - pip3 install --upgrade pip
+   - pip3 install pytest
 
 tests:
   stage: test
   script:
-    - python setup.py develop
-    - pytest
+    - pipenv install
+    - pipenv run pytest
 
