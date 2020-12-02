@@ -1,4 +1,4 @@
-image: bnewbold/fatcat-test-base:latest
+image: tirtir/fuzzycat-ci:latest
 
 stages:
   - test
