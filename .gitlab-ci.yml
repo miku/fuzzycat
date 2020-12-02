@@ -1,3 +1,5 @@
+# https://hub.docker.com/r/tirtir/fuzzycat-ci/tags
+# https://git.sr.ht/~miku/dockerfiles/blob/master/fuzzycat-ci/Dockerfile
 image: tirtir/fuzzycat-ci:latest
 
 stages:
@@ -13,3 +15,4 @@ tests:
     - python3 --version
     - pipenv install
     - pipenv run pytest -vv -s
+
