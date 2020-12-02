@@ -1,0 +1,31 @@
+{
+  "abstracts": [],
+  "contribs": [
+    {
+      "extra": {
+        "seq": "first"
+      },
+      "index": 0,
+      "raw_name": "Steven J. Suess",
+      "role": "author"
+    }
+  ],
+  "ext_ids": {
+    "doi": "10.1149/1.2408933"
+  },
+  "extra": {
+    "container_name": "ECS Transactions",
+    "crossref": {
+      "type": "proceedings-article"
+    }
+  },
+  "ident": "5b3lb2ebmrdp5nzxvohefmadre",
+  "publisher": "ECS",
+  "refs": [],
+  "release_type": "paper-conference",
+  "release_year": 2007,
+  "revision": "b852e6ef-2b3c-4a78-aad8-168c086ae1ab",
+  "state": "active",
+  "title": "Analysis of Discolored and Corroded Components",
+  "work_id": "ham5odne4jefbfcx4zsboiuzvu"
+}

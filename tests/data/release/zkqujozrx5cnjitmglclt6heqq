@@ -1,0 +1,27 @@
+{
+  "abstracts": [],
+  "container_id": "jq2tcuaoe5h6lkbunyw6ijhovi",
+  "contribs": [],
+  "ext_ids": {
+    "doi": "10.1144/pygs.15.3.483"
+  },
+  "extra": {
+    "crossref": {
+      "type": "journal-article"
+    }
+  },
+  "ident": "zkqujozrx5cnjitmglclt6heqq",
+  "language": "en",
+  "pages": "483-493",
+  "publisher": "Geological Society of London",
+  "refs": [],
+  "release_date": "1905-01-01",
+  "release_stage": "published",
+  "release_type": "article-journal",
+  "release_year": 1905,
+  "revision": "4e15035c-a8b5-43f3-9500-925bd6a9e042",
+  "state": "active",
+  "title": "RECORDS OF MEETINGS",
+  "volume": "15",
+  "work_id": "ydqm2e7jsndexkhpavlyqabram"
+}

@@ -1,0 +1,27 @@
+{
+  "abstracts": [],
+  "container_id": "jq2tcuaoe5h6lkbunyw6ijhovi",
+  "contribs": [],
+  "ext_ids": {
+    "doi": "10.1144/pygs.14.3.513"
+  },
+  "extra": {
+    "crossref": {
+      "type": "journal-article"
+    }
+  },
+  "ident": "urr2gs4dsbbwdl7asgyqnwwtxy",
+  "language": "en",
+  "pages": "513-524",
+  "publisher": "Geological Society of London",
+  "refs": [],
+  "release_date": "1902-01-01",
+  "release_stage": "published",
+  "release_type": "article-journal",
+  "release_year": 1902,
+  "revision": "3d406b3d-2065-4ffe-b953-0d06bfd377c8",
+  "state": "active",
+  "title": "Records of Meetings",
+  "volume": "14",
+  "work_id": "kxkil2n2vrdd5b7hcm565ekryi"
+}

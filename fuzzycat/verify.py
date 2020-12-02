@@ -159,12 +159,10 @@ def compare(a, b):
         if fragment in a_title_lower:
             return (Status.AMBIGUOUS, Miss.BLACKLISTED_FRAGMENT)
 
-
     # https://fatcat.wiki/release/rnso2swxzvfonemgzrth3arumi,
     # https://fatcat.wiki/release/caxa7qbfqvg3bkgz4nwvapgnvi
     if "subject index" in a_title_lower and "subject index" in b_title_lower:
         try:
-            print(a, b)
             if glom(a, "container_id") != glom(b, "container_id"):
                 return (Status.DIFFERENT, Miss.CONTAINER)
         except PathAccessError:
@@ -195,6 +193,16 @@ def compare(a, b):
         if has_doi_prefix(a_doi, "10.3403") and has_doi_prefix(b_doi, "10.3403"):
             if a_doi + "u" == b_doi or b_doi + "u" == a_doi:
                 return (Status.STRONG, OK.CUSTOM_BSI_UNDATED)
+    except PathAccessError:
+        pass
+
+    try:
+        a_doi = glom(a, "ext_ids.doi")
+        b_doi = glom(b, "ext_ids.doi")
+        if has_doi_prefix(a_doi, "10.1149") and has_doi_prefix(b_doi, "10.1149"):
+            if (a_doi.startswith("10.1149/ma") and not b_doi.startswith("10.1149/ma")
+                    or b_doi.startswith("10.1149/ma") and not a_doi.startswith("10.1149/ma")):
+                return (Status.DIFFERENT, Miss.CUSTOM_IOP_MA_PATTERN)
     except PathAccessError:
         pass
 
@@ -426,6 +434,8 @@ TITLE_FRAGMENT_BLACKLIST = set([
     "nouvelles du corps médical",
     "student government minutes:",
     "untersuchung einzelner abdominaler regionen und organe",
+    "annual general meeting",
+    "records of meetings",
 ])
 
 CONTAINER_NAME_BLACKLIST = set([
