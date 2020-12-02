@@ -12,5 +12,4 @@ tests:
   script:
     - python3 --version
     - pipenv install
-    - pipenv run pytest
-
+    - pipenv run pytest -vv -s
