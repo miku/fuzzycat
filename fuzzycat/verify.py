@@ -159,6 +159,17 @@ def compare(a, b):
         if fragment in a_title_lower:
             return (Status.AMBIGUOUS, Miss.BLACKLISTED_FRAGMENT)
 
+
+    # https://fatcat.wiki/release/rnso2swxzvfonemgzrth3arumi,
+    # https://fatcat.wiki/release/caxa7qbfqvg3bkgz4nwvapgnvi
+    if "subject index" in a_title_lower and "subject index" in b_title_lower:
+        try:
+            print(a, b)
+            if glom(a, "container_id") != glom(b, "container_id"):
+                return (Status.DIFFERENT, Miss.CONTAINER)
+        except PathAccessError:
+            pass
+
     try:
         if a_title and a_title == b_title and glom(a, "extra.datacite.metadataVersion") != glom(
                 b, "extra.datacite.metadataVersion"):
@@ -296,7 +307,6 @@ def compare(a, b):
         # https://fatcat.wiki/release/tur236mqljdfdnlzbbnks2sily
         def ieee_arxiv_pair_check(a, b):
             try:
-                print(a_slug_title, glom(a, "ext_ids.doi"))
                 if (glom(a, "ext_ids.doi").split("/")[0] == "10.1109"
                         and glom(b, "ext_ids.arxiv") != ""):
                     return (Status.STRONG, OK.CUSTOM_IEEE_ARXIV)

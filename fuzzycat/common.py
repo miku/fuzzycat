@@ -41,6 +41,7 @@ class Miss(str, Enum):
     BOOK_CHAPTER = 'miss.book_chapter'
     CHEM_FORMULA = 'miss.chem_formula'
     COMPONENT = 'miss.component'
+    CONTAINER = 'miss.container'
     CONTRIB_INTERSECTION_EMPTY = 'miss.contrib_intersection_empty'
     CUSTOM_VHS = 'miss.vhs'  # https://fatcat.wiki/release/44gk5ben5vghljq6twm7lwmxla
     DATASET_DOI = 'miss.dataset_doi'

@@ -1,0 +1,38 @@
+{
+  "abstracts": [],
+  "container_id": "qxxnnmcqozaubjb7lvgpdwft3q",
+  "contribs": [],
+  "ext_ids": {
+    "doi": "10.1159/000054005"
+  },
+  "extra": {
+    "crossref": {
+      "archive": [
+        "Portico"
+      ],
+      "license": [
+        {
+          "URL": "https://www.karger.com/Services/SiteLicenses",
+          "content-version": "vor",
+          "delay-in-days": 0,
+          "start": "2000-01-01T00:00:00Z"
+        }
+      ],
+      "type": "journal-article"
+    }
+  },
+  "ident": "caxa7qbfqvg3bkgz4nwvapgnvi",
+  "issue": "4-6",
+  "language": "en",
+  "pages": "343-344",
+  "publisher": "S. Karger AG",
+  "refs": [],
+  "release_stage": "published",
+  "release_type": "article-journal",
+  "release_year": 2000,
+  "revision": "76c66222-e00e-438b-a76e-9bb330747f1d",
+  "state": "active",
+  "title": "Subject Index Vol. 43, 2000",
+  "volume": "43",
+  "work_id": "nbx42io65bg4hbiiwesswgwizq"
+}

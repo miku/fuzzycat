@@ -4,7 +4,7 @@
 
 * 2805572 undecided items
 
-Examples.
+## Examples
 
 * [x] https://fatcat.wiki/release/73pcaauzwbalvi7aqhv6vopxl4 https://fatcat.wiki/release/xp3oxb7tqbgaxdzkzbchfkcjn4
 
@@ -49,6 +49,30 @@ STKE "fulltext" link does not lead anywhere; discontinued.
 
 > Interestingly, the same item, altough different doi and URL, but image ID seems to be the same.
 
-* [ ] https://fatcat.wiki/release/he334wpbobegxhptpkvvrufioq https://fatcat.wiki/release/td3ouhgtzbbe7ctevfnldqkoba
+* [x] https://fatcat.wiki/release/he334wpbobegxhptpkvvrufioq https://fatcat.wiki/release/td3ouhgtzbbe7ctevfnldqkoba
+
+> datacite version
+
 * [ ] https://fatcat.wiki/release/5zybwzmlsjexri6c3ma6tczf7q https://fatcat.wiki/release/35gerfmlirelfh3af6qug2oz4q
-* [ ] https://fatcat.wiki/release/rnso2swxzvfonemgzrth3arumi https://fatcat.wiki/release/caxa7qbfqvg3bkgz4nwvapgnvi
+* [x] https://fatcat.wiki/release/rnso2swxzvfonemgzrth3arumi https://fatcat.wiki/release/caxa7qbfqvg3bkgz4nwvapgnvi
+
+> too common title
+
+* [ ]  https://fatcat.wiki/release/tfhflmc2gnfrncsv2pm2b4oraq https://fatcat.wiki/release/gp7cnryj5bczhao6oor5sbjaoe Status.AMBIGUOUS OK.DUMMY
+
+> Two items, datacite, but both version 1; one lead to an inaccessible item
+
+* [ ]  https://fatcat.wiki/release/s4kjrs3g5ndlvixz2fgpydeuja https://fatcat.wiki/release/jn25jn44vzbc3nsubabl2wndsa Status.AMBIGUOUS OK.DUMMY
+* [ ]  https://fatcat.wiki/release/5xbugnniynea3k3pllzrb4lfeu https://fatcat.wiki/release/e52xw23ec5cxzi6mkyfyxifvhu Status.AMBIGUOUS OK.DUMMY
+
+* [ ]  https://fatcat.wiki/release/6udxu4cnk5egrcxtfrrqt3jcli https://fatcat.wiki/release/ett4oyembjfahhe3iwoc44dnja Status.AMBIGUOUS OK.DUMMY
+
+> distinguish by page
+
+* [ ]  https://fatcat.wiki/release/ehu6pdvzvvcmdoyq4l2yf4vciu https://fatcat.wiki/release/2omou6ehgjccbe6yjvr4wgnsha Status.AMBIGUOUS OK.DUMMY
+* [ ]  https://fatcat.wiki/release/zkqujozrx5cnjitmglclt6heqq https://fatcat.wiki/release/urr2gs4dsbbwdl7asgyqnwwtxy Status.AMBIGUOUS OK.DUMMY
+* [ ]  https://fatcat.wiki/release/yy2wzuaxhba7jht72mcjhxuaju https://fatcat.wiki/release/5b3lb2ebmrdp5nzxvohefmadre Status.AMBIGUOUS OK.DUMMY
+* [ ]  https://fatcat.wiki/release/iwtrxnov2repzlgoi2at2md6tm https://fatcat.wiki/release/s5hm65waingwjmgf3plu76hzu4 Status.AMBIGUOUS OK.DUMMY
+* [ ]  https://fatcat.wiki/release/b6wfpvotwrecdbygyn27kmihne https://fatcat.wiki/release/3vflegbxtrg4fknx4zyq3rf4im Status.AMBIGUOUS OK.DUMMY
+* [ ]  https://fatcat.wiki/release/zlywxoy7cfexvaatziqp4ip5m4 https://fatcat.wiki/release/phqelg6oc5hs5dehhgmodcnh5u Status.AMBIGUOUS OK.DUMMY
+
