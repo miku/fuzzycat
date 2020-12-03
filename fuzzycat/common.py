@@ -28,6 +28,7 @@ class OK(str, Enum):
     SLUG_TITLE_AUTHOR_MATCH = 'ok.slug_title_author_match'
     TITLE_AUTHOR_MATCH = 'ok.title_author_match'
     TOKENIZED_AUTHORS = 'ok.tokenized_authors'
+    WORK_ID = 'ok.work_id'
 
 
 class Miss(str, Enum):

@@ -145,6 +145,9 @@ def compare(a, b):
     except PathAccessError:
         pass
 
+    if a.get("work_id") and a.get("work_id") == b.get("work_id"):
+        return (Status.EXACT, OK.WORK_ID)
+
     a_title = a.get("title", "")
     a_title_lower = a_title.lower()
     b_title = b.get("title", "")

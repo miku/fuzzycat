@@ -90,16 +90,13 @@ Preliminary case distribution:
 
 ## Case Mining
 
-* [ ] https://fatcat.wiki/release/3jnis3ebrfgcdmdaa4aunc7xfi https://fatcat.wiki/release/wb3qvo27irfohmo3pa3aatpooa Status.AMBIGUOUS OK.DUMMY
+> "-" ignore, "x" done
 
-Too few hints.
-
-* [ ] https://fatcat.wiki/release/byrshkihwjfmplsv3ozbmpsz64 https://fatcat.wiki/release/fpll6q4ebvfgvonwi4vvetzjlq Status.AMBIGUOUS OK.DUMMY
-
-Too few hints.
-
-* [ ] https://fatcat.wiki/release/vqjpcuqxnbhdtelzspxjmklm7u https://fatcat.wiki/release/knuzh5bcqbg7ph7ffvqaiwevti Status.AMBIGUOUS OK.DUMMY
+* [-] https://fatcat.wiki/release/3jnis3ebrfgcdmdaa4aunc7xfi https://fatcat.wiki/release/wb3qvo27irfohmo3pa3aatpooa Status.AMBIGUOUS OK.DUMMY
+* [-] https://fatcat.wiki/release/byrshkihwjfmplsv3ozbmpsz64 https://fatcat.wiki/release/fpll6q4ebvfgvonwi4vvetzjlq Status.AMBIGUOUS OK.DUMMY
+* [x] https://fatcat.wiki/release/vqjpcuqxnbhdtelzspxjmklm7u https://fatcat.wiki/release/knuzh5bcqbg7ph7ffvqaiwevti Status.AMBIGUOUS OK.DUMMY
 * [ ] https://fatcat.wiki/release/psykbwxylndtdaand2ymtkgzqu https://fatcat.wiki/release/xizkwvsodzajnn4u7lgeldqoum Status.AMBIGUOUS OK.DUMMY
+
 * [ ] https://fatcat.wiki/release/in2mm2wafbczjgzlapq55rrksq https://fatcat.wiki/release/oaezupjwnfckxaajjhjb3fl42e Status.AMBIGUOUS OK.DUMMY
 * [ ] https://fatcat.wiki/release/u4mjilmo75bcnjyms564l66jea https://fatcat.wiki/release/6ofr4mqnmrdy3nyyh5ufm5ats4 Status.AMBIGUOUS OK.DUMMY
 * [ ] https://fatcat.wiki/release/2qcjbknhyrhh5dbuxobjy3gmqm https://fatcat.wiki/release/r6znetafszbuvaevbasn7ezsk4 Status.AMBIGUOUS OK.DUMMY

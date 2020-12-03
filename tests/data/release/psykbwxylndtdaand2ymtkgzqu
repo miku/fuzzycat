@@ -1,0 +1,35 @@
+{
+  "abstracts": [],
+  "container_id": "nzsu5tiiqzdajk5fqisig3k6du",
+  "contribs": [],
+  "ext_ids": {
+    "doi": "10.5694/j.1326-5377.1916.tb117279.x"
+  },
+  "extra": {
+    "crossref": {
+      "alternative-id": [
+        "10.5694/j.1326-5377.1916.tb117279.x"
+      ],
+      "archive": [
+        "Portico"
+      ],
+      "subject": [
+        "General Medicine"
+      ],
+      "type": "journal-article"
+    }
+  },
+  "ident": "psykbwxylndtdaand2ymtkgzqu",
+  "issue": "11",
+  "language": "en",
+  "pages": "218-219",
+  "publisher": "AMPCo",
+  "refs": [],
+  "release_stage": "published",
+  "release_type": "article-journal",
+  "release_year": 1916,
+  "revision": "ff37e91c-b10b-46eb-968f-aabfc0bcfdc2",
+  "state": "active",
+  "title": "JAMES JAMIESON",
+  "work_id": "7xwfqtxbxbhxbjorxgatseqhju"
+}
