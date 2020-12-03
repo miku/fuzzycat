@@ -45,6 +45,7 @@ class Miss(str, Enum):
     CONTRIB_INTERSECTION_EMPTY = 'miss.contrib_intersection_empty'
     CUSTOM_IOP_MA_PATTERN = 'miss.custom_iop_ma_pattern'
     CUSTOM_PREFIX_10_14288 = 'miss.custom_prefix_10_14288'
+    CUSTOM_PREFIX_10_5860_CHOICE_REVIEW = 'miss.custom_prefix_10_5860_choice_review'
     CUSTOM_PREFIX_10_7916 = 'miss.custom_prefix_10_7916'
     CUSTOM_VHS = 'miss.vhs'  # https://fatcat.wiki/release/44gk5ben5vghljq6twm7lwmxla
     DATASET_DOI = 'miss.dataset_doi'

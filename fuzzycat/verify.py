@@ -434,6 +434,16 @@ def compare(a, b):
         # https://fatcat.wiki/release/q66xv7drk5fnph7enwwlkyuwqm
         return (Status.DIFFERENT, Miss.CONTRIB_INTERSECTION_EMPTY)
 
+    # mark choicereview articles as ambiguous, as they seem to be behind a paywall
+    try:
+        a_doi = glom(a, "ext_ids.doi")
+        b_doi = glom(b, "ext_ids.doi")
+        if has_doi_prefix(a_doi, "10.5860") or has_doi_prefix(b_doi, "10.5860"):
+            return (Status.AMBIGUOUS, Miss.CUSTOM_PREFIX_10_5860_CHOICE_REVIEW)
+    except PathAccessError:
+        pass
+
+
     return (Status.AMBIGUOUS, OK.DUMMY)
 
 
