@@ -82,6 +82,12 @@ Blacklist fragment.
 > Meeting abstract (ma) versus document.
 
 * [ ]  https://fatcat.wiki/release/iwtrxnov2repzlgoi2at2md6tm https://fatcat.wiki/release/s5hm65waingwjmgf3plu76hzu4 Status.AMBIGUOUS OK.DUMMY
+
+> 10.1126 issue with moved items?
+
 * [ ]  https://fatcat.wiki/release/b6wfpvotwrecdbygyn27kmihne https://fatcat.wiki/release/3vflegbxtrg4fknx4zyq3rf4im Status.AMBIGUOUS OK.DUMMY
+
+> The same content, but hard to separate.
+
 * [ ]  https://fatcat.wiki/release/zlywxoy7cfexvaatziqp4ip5m4 https://fatcat.wiki/release/phqelg6oc5hs5dehhgmodcnh5u Status.AMBIGUOUS OK.DUMMY
 

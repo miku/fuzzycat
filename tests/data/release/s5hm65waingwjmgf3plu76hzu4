@@ -1,0 +1,27 @@
+{
+  "abstracts": [],
+  "container_id": "qirzh7firjdsjhg4tutxtir6ey",
+  "contribs": [],
+  "ext_ids": {
+    "doi": "10.1126/science.292.5522.1605k"
+  },
+  "extra": {
+    "crossref": {
+      "type": "journal-article"
+    }
+  },
+  "ident": "s5hm65waingwjmgf3plu76hzu4",
+  "issue": "5522",
+  "pages": "1605k-1605",
+  "publisher": "American Association for the Advancement of Science (AAAS)",
+  "refs": [],
+  "release_date": "2001-06-01",
+  "release_stage": "published",
+  "release_type": "article-journal",
+  "release_year": 2001,
+  "revision": "82c2fda4-78dd-4d97-966b-b188560ce671",
+  "state": "active",
+  "title": "The Act of Glucose Uptake",
+  "volume": "292",
+  "work_id": "k7zpqcgdfbfq3ifrubm52pzhvu"
+}

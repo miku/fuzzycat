@@ -1,0 +1,33 @@
+{
+  "abstracts": [],
+  "container_id": "6exof3jwwrc5zbt7thlulo6kd4",
+  "contribs": [],
+  "ext_ids": {
+    "doi": "10.1126/scisignal.852001tw7"
+  },
+  "extra": {
+    "crossref": {
+      "subject": [
+        "Cell Biology",
+        "Biochemistry",
+        "Molecular Biology"
+      ],
+      "type": "journal-article"
+    }
+  },
+  "ident": "iwtrxnov2repzlgoi2at2md6tm",
+  "issue": "85",
+  "language": "en",
+  "pages": "tw7-tw7",
+  "publisher": "American Association for the Advancement of Science (AAAS)",
+  "refs": [],
+  "release_date": "2001-06-05",
+  "release_stage": "published",
+  "release_type": "article-journal",
+  "release_year": 2001,
+  "revision": "4afee08e-f4df-4110-ac81-852b68565897",
+  "state": "active",
+  "title": "The Act of Glucose Uptake",
+  "volume": "2001",
+  "work_id": "inywd3hqqbby3db6aezs7fvtru"
+}
