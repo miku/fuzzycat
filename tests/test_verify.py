@@ -46,8 +46,8 @@ def test_compare():
                     .format(a=a, b=b, base=FATCAT_BASE_URL, status=status, reason=reason))
                 continue
             assert status_mapping[
-                expected_status] == status, "status: want {}, got {} for {} {}".format(
-                    expected_status, status, a, b)
+                expected_status] == status, "status: want {}, got {} {} for {} {}".format(
+                    expected_status, status, reason, a, b)
             if expected_reason:
                 assert expected_reason.lower() == reason.lower(
                 ), "reason [{base}release/{a} {base}release/{b}]: want {reason}, got {expected_reason}".format(

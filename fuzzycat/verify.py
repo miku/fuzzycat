@@ -212,6 +212,7 @@ def compare(a, b):
     if re.match(r"appendix ?[^ ]*$", a_title_lower):
         return (Status.AMBIGUOUS, Miss.APPENDIX)
 
+
     try:
         # TODO: figshare versions, "xxx.v1"
         FIGSHARE_PREFIX = "10.6084/"
@@ -329,6 +330,17 @@ def compare(a, b):
         result = ieee_arxiv_pair_check(b, a)
         if result:
             return result
+
+    if a_slug_title == b_slug_title:
+        try:
+            # https://dlc.library.columbia.edu/lcaaj/cul:p5hqbzkhxb,
+            # https://dlc.library.columbia.edu/lcaaj/cul:5tb2rbp0nj
+            a_doi = glom(a, "ext_ids.doi")
+            b_doi = glom(b, "ext_ids.doi")
+            if has_doi_prefix(a_doi, "10.7916") and has_doi_prefix(b_doi, "10.7916"):
+                return (Status.AMBIGUOUS, Miss.CUSTOM_PREFIX_10_7916)
+        except PathAccessError:
+            pass
 
     if a_slug_title == b_slug_title:
         try:

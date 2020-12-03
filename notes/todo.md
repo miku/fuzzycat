@@ -91,3 +91,4 @@ Blacklist fragment.
 
 * [ ]  https://fatcat.wiki/release/zlywxoy7cfexvaatziqp4ip5m4 https://fatcat.wiki/release/phqelg6oc5hs5dehhgmodcnh5u Status.AMBIGUOUS OK.DUMMY
 
+> one item contains more md, but the physical entity seems to be the same; 0058904_001 vs 0058904
