@@ -138,6 +138,9 @@ class GroupVerifier:
 def compare(a, b):
     """
     Compare two entities, return match status and reason.
+
+    TODO: We might want a bunch of kwargs for things like year gap threshold
+    and the like.
     """
     try:
         if glom(a, "ext_ids.doi") == glom(b, "ext_ids.doi"):
@@ -214,7 +217,6 @@ def compare(a, b):
 
     if re.match(r"appendix ?[^ ]*$", a_title_lower):
         return (Status.AMBIGUOUS, Miss.APPENDIX)
-
 
     try:
         # TODO: figshare versions, "xxx.v1"
@@ -313,6 +315,14 @@ def compare(a, b):
     # https://fatcat.wiki/release/knzhequchfcethcyyi3gsp5gry, some title contain newlines
     a_slug_title = slugify_string(a.get("title", "")).replace("\n", " ")
     b_slug_title = slugify_string(b.get("title", "")).replace("\n", " ")
+
+    # https://fatcat.wiki/release/psykbwxylndtdaand2ymtkgzqu
+    # https://fatcat.wiki/release/xizkwvsodzajnn4u7lgeldqoum
+    if a_slug_title == b_slug_title:
+        a_year = a.get("release_year")
+        b_year = b.get("release_year")
+        if a_year and b_year and abs(a_year - b_year) > 40:
+            return (Status.DIFFERENT, Miss.YEAR)
 
     if a_slug_title == b_slug_title:
         # via: https://fatcat.wiki/release/ij3yuoh6lrh3tkrv5o7gfk6yyi
@@ -445,7 +455,6 @@ def compare(a, b):
             return (Status.AMBIGUOUS, Miss.CUSTOM_PREFIX_10_5860_CHOICE_REVIEW)
     except PathAccessError:
         pass
-
 
     return (Status.AMBIGUOUS, OK.DUMMY)
 

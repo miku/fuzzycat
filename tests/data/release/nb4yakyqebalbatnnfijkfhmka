@@ -1,0 +1,43 @@
+{
+  "abstracts": [],
+  "container_id": "tol7woxlqjeg5bmzadeg6qrg3e",
+  "contribs": [
+    {
+      "extra": {
+        "seq": "first"
+      },
+      "index": 0,
+      "raw_name": "Giacomo Rodano",
+      "role": "author"
+    },
+    {
+      "index": 1,
+      "raw_name": "Nicolas Andre Benigno Serrano-Velarde",
+      "role": "author"
+    },
+    {
+      "index": 2,
+      "raw_name": "Emanuele Tarantino",
+      "role": "author"
+    }
+  ],
+  "ext_ids": {
+    "doi": "10.2139/ssrn.2645730"
+  },
+  "extra": {
+    "crossref": {
+      "type": "journal-article"
+    }
+  },
+  "ident": "nb4yakyqebalbatnnfijkfhmka",
+  "language": "en",
+  "publisher": "Elsevier BV",
+  "refs": [],
+  "release_stage": "published",
+  "release_type": "article-journal",
+  "release_year": 2015,
+  "revision": "6352e747-a5aa-487f-9a6e-b7a50dc5e2b4",
+  "state": "active",
+  "title": "Bankruptcy Law and Bank Financing",
+  "work_id": "ctu7mu3bongg7pbrf5n3cernde"
+}

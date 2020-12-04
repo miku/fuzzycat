@@ -1,0 +1,54 @@
+{
+  "abstracts": [],
+  "container_id": "exrvddewvnb4pffd64fjacpoq4",
+  "contribs": [
+    {
+      "extra": {
+        "seq": "first"
+      },
+      "index": 0,
+      "raw_name": "Giacomo Rodano",
+      "role": "author"
+    },
+    {
+      "index": 1,
+      "raw_name": "Nicolas Serrano-Velarde",
+      "role": "author"
+    },
+    {
+      "index": 2,
+      "raw_name": "Emanuele Tarantino",
+      "role": "author"
+    }
+  ],
+  "ext_ids": {
+    "doi": "10.1016/j.jfineco.2016.01.016"
+  },
+  "extra": {
+    "crossref": {
+      "alternative-id": [
+        "S0304405X16000210"
+      ],
+      "subject": [
+        "Strategy and Management",
+        "Economics and Econometrics",
+        "Accounting",
+        "Finance"
+      ],
+      "type": "journal-article"
+    }
+  },
+  "ident": "pr7e4l5eibaavm3zsk62nmphni",
+  "language": "en",
+  "pages": "363-382",
+  "publisher": "Elsevier BV",
+  "refs": [],
+  "release_stage": "published",
+  "release_type": "article-journal",
+  "release_year": 2016,
+  "revision": "2de55471-3503-4399-b790-2b2dc385c75f",
+  "state": "active",
+  "title": "Bankruptcy law and bank financing",
+  "volume": "120",
+  "work_id": "7uclti36yngurb374f4mcty2jy"
+}
