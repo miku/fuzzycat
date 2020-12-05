@@ -1,0 +1,136 @@
+{
+  "abstracts": [],
+  "container_id": "rdb2amf6urbpreyqgir3vc22le",
+  "contribs": [
+    {
+      "extra": {
+        "seq": "first"
+      },
+      "index": 0,
+      "raw_name": "V. A. Katanov",
+      "role": "author"
+    },
+    {
+      "index": 1,
+      "raw_name": "G. F. Markov",
+      "role": "author"
+    }
+  ],
+  "ext_ids": {
+    "doi": "10.1007/bf02502132"
+  },
+  "extra": {
+    "crossref": {
+      "alternative-id": [
+        "BF02502132"
+      ],
+      "type": "journal-article"
+    }
+  },
+  "ident": "oaezupjwnfckxaajjhjb3fl42e",
+  "language": "en",
+  "pages": "101-104",
+  "publisher": "Springer Nature",
+  "refs": [
+    {
+      "container_name": "Roller Bits for Drilling Blastholes",
+      "extra": {
+        "authors": [
+          "A. A. Peregudov"
+        ],
+        "unstructured": "A. A. Peregudov, M. G. Abramson, A. V. Andreev, and N. G. Dyukov, Roller Bits for Drilling Blastholes, [in Russian], Nedra, Moscow (1969).",
+        "volume-title": "Roller Bits for Drilling Blastholes"
+      },
+      "index": 0,
+      "key": "BF02502132_CR1",
+      "year": 1969
+    },
+    {
+      "extra": {
+        "unstructured": "N. V. Mel'nikov, B. A. Simkin, V. D. Korpukhin, and Yu. M. Motov, \"Results of bed tests of a new composite drilling bit,\" in: Reports on Rock Breaking in Drilling of Boreholes [in Russian], Abstracts of Reports, Moscow (1960)."
+      },
+      "index": 1,
+      "key": "BF02502132_CR2"
+    },
+    {
+      "container_name": "Drilling Bits: a Handbook",
+      "extra": {
+        "authors": [
+          "K. E. Korneev"
+        ],
+        "unstructured": "K. E. Korneev and P. A. Palii, Drilling Bits: a Handbook [in Russian], Nedra, Moscow (1965).",
+        "volume-title": "Drilling Bits: a Handbook"
+      },
+      "index": 2,
+      "key": "BF02502132_CR3",
+      "year": 1965
+    },
+    {
+      "container_name": "Experience of operation of drilling rigs in quarries of the Cheremkhovo deposit",
+      "extra": {
+        "authors": [
+          "V. A. Peretolchin"
+        ],
+        "unstructured": "V. A. Peretolchin, G. A. Eremin, et al., \"Experience of operation of drilling rigs in quarries of the Cheremkhovo deposit,\" Vostochno-Sib. Kn. Izd-vo, Irkutsk (1969).",
+        "volume-title": "Experience of operation of drilling rigs in quarries of the Cheremkhovo deposit"
+      },
+      "index": 3,
+      "key": "BF02502132_CR4",
+      "year": 1969
+    },
+    {
+      "extra": {
+        "unstructured": "A. G. Mdivani, A. M. Abdul-Zade, and S. M. Kuliev, Izv. Vuzov, Neft'. i Gaz, No. 8 (1963)."
+      },
+      "index": 4,
+      "key": "BF02502132_CR5"
+    },
+    {
+      "extra": {
+        "unstructured": "N. P. Yudin and I. A. Éidel'shtein, \"Comparative investigation of the process of breaking of rocks in the Karaganda coalfield by cutter and roller bits,\" in: Scientific Communications on Problems of Rock Breaking, Abstracts of Reports [in Russian] Moscow (1964)."
+      },
+      "index": 5,
+      "key": "BF02502132_CR6"
+    },
+    {
+      "container_name": "Open-Cut Coal Mining",
+      "extra": {
+        "authors": [
+          "B. A. Katanov"
+        ],
+        "unstructured": "B. A. Katanov, N. D. Benyukh, et al., in: Open-Cut Coal Mining [in Russian], No. 11, Nedra, Moscow (1966).",
+        "volume-title": "Open-Cut Coal Mining"
+      },
+      "index": 6,
+      "key": "BF02502132_CR7",
+      "year": 1966
+    },
+    {
+      "extra": {
+        "unstructured": "B. A. Katanov, Fiz.-Tekh. Probl. Razrabotki Polezn. Iskop., No. 1 (1969)."
+      },
+      "index": 7,
+      "key": "BF02502132_CR8"
+    },
+    {
+      "container_name": "Questions of Mechanization of Mining Operations",
+      "extra": {
+        "authors": [
+          "B. A. Katanov"
+        ],
+        "unstructured": "B. A. Katanov and G. F. Markov, in: Questions of Mechanization of Mining Operations [in Russian], Izd. KuzPI, Kemerovo (1967).",
+        "volume-title": "Questions of Mechanization of Mining Operations"
+      },
+      "index": 8,
+      "key": "BF02502132_CR9",
+      "year": 1967
+    }
+  ],
+  "release_stage": "published",
+  "release_type": "article-journal",
+  "release_year": 1973,
+  "revision": "be19815e-9015-4b71-a652-8a2b24bb2458",
+  "state": "active",
+  "title": "The design of composite rock-cutting bits",
+  "work_id": "xdmkndqcn5hlfb3j3farklkilm"
+}

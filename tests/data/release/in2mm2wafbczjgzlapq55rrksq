@@ -1,0 +1,29 @@
+{
+  "abstracts": [],
+  "container_id": "wwkgxanhx5efrbqepn7d4yhgge",
+  "contribs": [],
+  "ext_ids": {
+    "doi": "10.1016/0148-9062(74)91068-7"
+  },
+  "extra": {
+    "crossref": {
+      "alternative-id": [
+        "0148906274910687"
+      ],
+      "type": "journal-article"
+    }
+  },
+  "ident": "in2mm2wafbczjgzlapq55rrksq",
+  "language": "en",
+  "pages": "109",
+  "publisher": "Elsevier BV",
+  "refs": [],
+  "release_stage": "published",
+  "release_type": "article-journal",
+  "release_year": 1974,
+  "revision": "21e7a4af-f2f6-40ef-a413-29c948bbec67",
+  "state": "active",
+  "title": "The design of composite rock-cutting bits",
+  "volume": "11",
+  "work_id": "gubgjciwbbc5xggrstk5bp6344"
+}
