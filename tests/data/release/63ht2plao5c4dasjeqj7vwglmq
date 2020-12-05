@@ -1,0 +1,46 @@
+{
+  "abstracts": [
+    {
+      "content": "The majority of text is stored in UTF-8, which must be validated on\ningestion. We present the lookup algorithm, which outperforms UTF-8 validation\nroutines used in many libraries and languages by more than 10 times using\ncommonly available SIMD instructions. To ensure reproducibility, our work is\nfreely available as open source software.",
+      "lang": "en",
+      "mimetype": "text/plain",
+      "sha1": "bb3b47ddb92b73cd378bd18ebee600472e817274"
+    }
+  ],
+  "contribs": [
+    {
+      "index": 0,
+      "raw_name": "John Keiser",
+      "role": "author"
+    },
+    {
+      "index": 1,
+      "raw_name": "Daniel Lemire",
+      "role": "author"
+    }
+  ],
+  "ext_ids": {
+    "arxiv": "2010.03090v1"
+  },
+  "extra": {
+    "arxiv": {
+      "base_id": "2010.03090",
+      "categories": [
+        "cs.DB"
+      ]
+    }
+  },
+  "ident": "63ht2plao5c4dasjeqj7vwglmq",
+  "language": "en",
+  "license_slug": "CC-BY",
+  "refs": [],
+  "release_date": "2020-10-06",
+  "release_stage": "submitted",
+  "release_type": "article",
+  "release_year": 2020,
+  "revision": "a66120cf-3c39-48da-8d90-f63513840bab",
+  "state": "active",
+  "title": "Validating UTF-8 In Less Than One Instruction Per Byte",
+  "version": "v1",
+  "work_id": "pgixwot2knfmtfq5pwjr4cazf4"
+}

@@ -1,0 +1,287 @@
+{
+  "abstracts": [],
+  "container_id": "afve5b3tavbfzch46mdtazbqla",
+  "contribs": [
+    {
+      "extra": {
+        "seq": "first"
+      },
+      "given_name": "John",
+      "index": 0,
+      "raw_affiliation": "Microsoft  Redmond Washington USA",
+      "raw_name": "John Keiser",
+      "role": "author",
+      "surname": "Keiser"
+    },
+    {
+      "creator_id": "d7rv3jglprcd5nloqpfonppiom",
+      "given_name": "Daniel",
+      "index": 1,
+      "raw_affiliation": "DOT‐Lab Research Center Université du Québec (TELUQ)  Montreal Quebec Canada",
+      "raw_name": "Daniel Lemire",
+      "role": "author",
+      "surname": "Lemire"
+    }
+  ],
+  "ext_ids": {
+    "doi": "10.1002/spe.2920"
+  },
+  "extra": {
+    "crossref": {
+      "alternative-id": [
+        "10.1002/spe.2920"
+      ],
+      "archive": [
+        "Portico"
+      ],
+      "funder": [
+        {
+          "DOI": "10.13039/501100000046",
+          "award": [
+            "RGPIN‐2017‐03910"
+          ],
+          "doi-asserted-by": "publisher",
+          "name": "National Research Council Canada"
+        }
+      ],
+      "license": [
+        {
+          "URL": "http://onlinelibrary.wiley.com/termsAndConditions#vor",
+          "content-version": "vor",
+          "delay-in-days": 0,
+          "start": "2020-10-29T00:00:00Z"
+        }
+      ],
+      "subject": [
+        "Software"
+      ],
+      "type": "journal-article"
+    }
+  },
+  "ident": "zchlsocreffbdm36qhzy3cs32e",
+  "language": "en",
+  "publisher": "Wiley",
+  "refs": [
+    {
+      "extra": {
+        "unstructured": "YergeauF UTF‐8 a transformation format of ISO 10646; internet engineering task force request for comments 3629;2015.https://tools.ietf.org/html/rfc3629. Accessed July 2020."
+      },
+      "index": 0,
+      "key": "e_1_2_11_2_1"
+    },
+    {
+      "extra": {
+        "unstructured": "The MITRE CorporationCAPEC‐80: using UTF‐8 encoding to bypass validation logic;2019.https://capec.mitre.org/data/definitions/80.html. Accessed July 2020."
+      },
+      "index": 1,
+      "key": "e_1_2_11_3_1"
+    },
+    {
+      "extra": {
+        "unstructured": "ColletY. LZ4 ‐ Extremely fast compression;2020.https://github.com/lz4/lz4. Accessed July 2020."
+      },
+      "index": 2,
+      "key": "e_1_2_11_4_1"
+    },
+    {
+      "container_name": "IEEE Softw",
+      "extra": {
+        "authors": [
+          "Suneja N"
+        ],
+        "doi": "10.1109/ms.2019.2909854",
+        "volume": "36"
+      },
+      "index": 3,
+      "key": "e_1_2_11_5_1",
+      "locator": "96",
+      "title": "Scylladb optimizes database architecture to maximize hardware performance",
+      "year": 2019
+    },
+    {
+      "extra": {
+        "unstructured": "CaiY. Utils: optimize UTF‐8 validation;2019.https://bit.ly/2VrlQ37. Accessed July 2020."
+      },
+      "index": 4,
+      "key": "e_1_2_11_6_1"
+    },
+    {
+      "container_name": "2012 SC Companion: High Performance Computing, Networking Storage and Analysis",
+      "extra": {
+        "authors": [
+          "Cebrián JM"
+        ],
+        "doi": "10.1109/sc.companion.2012.93",
+        "volume-title": "2012 SC Companion: High Performance Computing, Networking Storage and Analysis"
+      },
+      "index": 5,
+      "key": "e_1_2_11_7_1",
+      "locator": "675",
+      "year": 2012
+    },
+    {
+      "extra": {
+        "doi": "10.1145/1133255.1133997"
+      },
+      "index": 6,
+      "key": "e_1_2_11_8_1"
+    },
+    {
+      "extra": {
+        "doi": "10.1109/iceccs.2013.40",
+        "unstructured": "XiaX LoD ZhuF WangX ZhouB. Software internationalization and localization: an industrial experience. Paper presented at: Proceedings of the 2013 18th International Conference on Engineering of Complex Computer Systems Singapore;2013:222‐231."
+      },
+      "index": 7,
+      "key": "e_1_2_11_9_1"
+    },
+    {
+      "container_name": "IITM J Manag IT",
+      "extra": {
+        "authors": [
+          "Singh T"
+        ],
+        "volume": "10"
+      },
+      "index": 8,
+      "key": "e_1_2_11_10_1",
+      "locator": "65",
+      "title": "Fuchsia OS‐a threat to android",
+      "year": 2019
+    },
+    {
+      "extra": {
+        "unstructured": "HöhrmannB Flexible and economical UTF‐8 decoder;2010.http://bjoern.hoehrmann.de/utf‐8/decoder/dfa/. Accessed July 2020."
+      },
+      "index": 9,
+      "key": "e_1_2_11_11_1"
+    },
+    {
+      "container_name": "VLDB J",
+      "extra": {
+        "authors": [
+          "Langdale G"
+        ],
+        "doi": "10.1007/s00778-019-00578-5",
+        "volume": "28"
+      },
+      "index": 10,
+      "key": "e_1_2_11_12_1",
+      "locator": "941",
+      "title": "Parsing gigabytes of JSON per second",
+      "year": 2019
+    },
+    {
+      "extra": {
+        "doi": "10.1007/978-1-4684-2001-2_9"
+      },
+      "index": 11,
+      "key": "e_1_2_11_13_1"
+    },
+    {
+      "extra": {
+        "doi": "10.1145/2807591.2807644",
+        "unstructured": "HoeflerT BelliR. Scientific benchmarking of parallel computing systems: twelve ways to tell the masses when reporting performance results. Paper presented at: Proceedings of the International Conference for High Performance Computing Networking Storage and Analysis Austin Texas;2015:1‐12."
+      },
+      "index": 12,
+      "key": "e_1_2_11_14_1"
+    },
+    {
+      "container_name": "ACM Trans Web",
+      "extra": {
+        "authors": [
+          "Muła W"
+        ],
+        "doi": "10.1145/3132709",
+        "volume": "12"
+      },
+      "index": 13,
+      "key": "e_1_2_11_15_1",
+      "title": "Faster Base64 encoding and decoding using AVX2 instructions",
+      "year": 2018
+    },
+    {
+      "extra": {
+        "doi": "10.1002/spe.2777"
+      },
+      "index": 14,
+      "key": "e_1_2_11_16_1"
+    },
+    {
+      "extra": {
+        "doi": "10.1145/1463788.1463811",
+        "unstructured": "CameronRD HerdyKS LinD. High performance XML parsing using parallel bit stream technology. Paper presented at: Proceedings of the 2008 Conference of the Center for Advanced Studies on Collaborative Research: Meeting of Minds CASCON '08;2008:17:222–17:235; New York NY ACM."
+      },
+      "index": 15,
+      "key": "e_1_2_11_17_1"
+    },
+    {
+      "extra": {
+        "doi": "10.1145/2541940.2541988",
+        "unstructured": "MytkowiczT MusuvathiM SchulteW. Data‐parallel finite‐state machines. Paper presented at: Proceedings of the 19th International Conference on Architectural Support for Programming Languages and Operating Systems ASPLOS '14;2014:529‐542; New York NY ACM."
+      },
+      "index": 16,
+      "key": "e_1_2_11_18_1"
+    },
+    {
+      "container_name": "Proc VLDB Endow",
+      "extra": {
+        "authors": [
+          "Mühlbauer T"
+        ],
+        "doi": "10.14778/2556549.2556555",
+        "issue": "14"
+      },
+      "index": 17,
+      "key": "e_1_2_11_19_1",
+      "locator": "1702",
+      "title": "Instant loading for main memory databases",
+      "year": 2013
+    },
+    {
+      "extra": {
+        "doi": "10.1145/1345206.1345222",
+        "unstructured": "CameronRD. A case study in SIMD text processing with parallel bit streams: UTF‐8 to UTF‐16 transcoding. Paper presented at: Proceedings of the 13th ACM SIGPLAN Symposium on Principles and Practice of Parallel Programming;2008:91‐98; ACM New York NY."
+      },
+      "index": 18,
+      "key": "e_1_2_11_20_1"
+    },
+    {
+      "extra": {
+        "doi": "10.1145/3018743.3018760",
+        "unstructured": "JiangP AgrawalG.Combining SIMD and Many/Multi‐core parallelism for finite state machines with enumerative speculation. Paper presented at: Proceedings of the 22nd ACM SIGPLAN Symposium on Principles and Practice of Parallel Programming Austin Texas;2017:179‐191."
+      },
+      "index": 19,
+      "key": "e_1_2_11_21_1"
+    },
+    {
+      "extra": {
+        "doi": "10.1109/mm.2017.35"
+      },
+      "index": 20,
+      "key": "e_1_2_11_22_1"
+    },
+    {
+      "container_name": "Perform Eval",
+      "extra": {
+        "authors": [
+          "Pohl A"
+        ],
+        "doi": "10.1016/j.peva.2020.102106",
+        "volume": "140"
+      },
+      "index": 21,
+      "key": "e_1_2_11_23_1",
+      "locator": "102106",
+      "title": "Vectorization cost modeling for NEON, AVX and SVE",
+      "year": 2020
+    }
+  ],
+  "release_date": "2020-10-29",
+  "release_stage": "published",
+  "release_type": "article-journal",
+  "release_year": 2020,
+  "revision": "4da1f7f7-f39e-4487-aca2-8626b9009497",
+  "state": "active",
+  "title": "Validating UTF‐8 in less than one instruction per byte",
+  "work_id": "izbh6u37vzb2fauftewcwdxi4m"
+}
