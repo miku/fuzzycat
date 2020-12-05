@@ -1,0 +1,28 @@
+{
+  "abstracts": [],
+  "container_id": "pg5nv3ik7jhu5kcz3czdz75dvm",
+  "contribs": [],
+  "ext_ids": {
+    "doi": "10.1001/jama.1956.02970310075021"
+  },
+  "extra": {
+    "crossref": {
+      "type": "journal-article"
+    }
+  },
+  "ident": "6ofr4mqnmrdy3nyyh5ufm5ats4",
+  "issue": "14",
+  "language": "en",
+  "pages": "1347",
+  "publisher": "American Medical Association (AMA)",
+  "refs": [],
+  "release_date": "1956-12-01",
+  "release_stage": "published",
+  "release_type": "article-journal",
+  "release_year": 1956,
+  "revision": "5fce55c2-d58d-4c5a-9b35-49f6be46fb4f",
+  "state": "active",
+  "title": "Medical Effects of the Atomic Bomb in Japan",
+  "volume": "162",
+  "work_id": "nhqe4xmktrcvfozxdwl4pbv6ge"
+}
