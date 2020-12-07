@@ -1,0 +1,59 @@
+{
+  "abstracts": [
+    {
+      "content": "We present an unifying description of the graded $SL(p,q)$ KP-KdV\nhierarchies, including the Wronskian construction of their tau-functions as\nwell as the coefficients of the pertinent Lax operators, obtained via\nsuccessive applications of special Darboux-B\\\"{a}cklund transformations. The\nemerging Darboux-B\\\"{a}cklund structure is identified as a constrained\ngeneralized Toda lattice system relevant for the two-matrix string model. Also,\nthe exact Wronskian solution for the two-matrix model partition function is\nfound.",
+      "lang": "en",
+      "mimetype": "application/x-latex",
+      "sha1": "ad522144528d651d3b68a90de2b7c2678e79f7f7"
+    },
+    {
+      "content": "We present an unifying description of the graded SL(p,q) KP-KdV\nhierarchies, including the Wronskian construction of their tau-functions as\nwell as the coefficients of the pertinent Lax operators, obtained via\nsuccessive applications of special Darboux-Bäcklund transformations. The\nemerging Darboux-Bäcklund structure is identified as a constrained\ngeneralized Toda lattice system relevant for the two-matrix string model. Also,\nthe exact Wronskian solution for the two-matrix model partition function is\nfound.",
+      "lang": "en",
+      "mimetype": "text/plain",
+      "sha1": "d9022380d1bc4c34a1f4fdc5c846bf14cedc2f9a"
+    }
+  ],
+  "contribs": [
+    {
+      "index": 0,
+      "raw_name": "H. Aratyn",
+      "role": "author"
+    },
+    {
+      "index": 1,
+      "raw_name": "E. Nissimov",
+      "role": "author"
+    },
+    {
+      "index": 2,
+      "raw_name": "S. Pacheva",
+      "role": "author"
+    }
+  ],
+  "ext_ids": {
+    "arxiv": "hep-th/9501018v2"
+  },
+  "extra": {
+    "arxiv": {
+      "base_id": "hep-th/9501018",
+      "categories": [
+        "hep-th"
+      ],
+      "comments": "LaTeX, 13 pgs, minor typos corrected (incl. in eq. (90))",
+      "journal_ref": "Phys.Lett. A201 (1995) 293-305",
+      "report-no": "BGU-94/25/December - PH, UICHEP-TH/94-12"
+    }
+  },
+  "ident": "zphoquzqbfccjoqix3wkpyhrm4",
+  "language": "en",
+  "refs": [],
+  "release_date": "1995-06-05",
+  "release_stage": "accepted",
+  "release_type": "article",
+  "release_year": 1995,
+  "revision": "cdc30994-55d9-4849-a3f3-661baa09ce96",
+  "state": "active",
+  "title": "Darboux-Backlund Solutions of SL(p,q) KP-KdV Hierarchies, Constrained\n  Generalized Toda Lattices, and Two-Matrix String Model",
+  "version": "v2",
+  "work_id": "5w6i6nwqjrcvdorwbf6zlsuavi"
+}

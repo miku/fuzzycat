@@ -1,0 +1,49 @@
+{
+  "abstracts": [],
+  "container_id": "j5vumr4o65agbmeqovmzt67pqe",
+  "contribs": [
+    {
+      "extra": {
+        "seq": "first"
+      },
+      "index": 0,
+      "raw_name": "H. Aratyn",
+      "role": "author"
+    },
+    {
+      "index": 1,
+      "raw_name": "E. Nissimov",
+      "role": "author"
+    },
+    {
+      "index": 2,
+      "raw_name": "S. Pacheva",
+      "role": "author"
+    }
+  ],
+  "ext_ids": {
+    "core": "2539909",
+    "doi": "10.1016/0375-9601(95)00295-e"
+  },
+  "extra": {
+    "crossref": {
+      "alternative-id": [
+        "037596019500295E"
+      ],
+      "type": "journal-article"
+    }
+  },
+  "ident": "yp3rs3xb5ra2riyx5xayrlqfum",
+  "language": "en",
+  "pages": "293-305",
+  "publisher": "Elsevier BV",
+  "refs": [],
+  "release_stage": "published",
+  "release_type": "article-journal",
+  "release_year": 1995,
+  "revision": "ec4c8257-de24-4d52-a8d0-4ca92f31a272",
+  "state": "active",
+  "title": "Darboux-Bäcklund solutions of SL(p, q) KP-KdV hierarchies, constrained generalized Toda lattices, and two-matrix string model",
+  "volume": "201",
+  "work_id": "5w6i6nwqjrcvdorwbf6zlsuavi"
+}
