@@ -119,8 +119,14 @@ BSI, but no "u" pattern.
 
 One is a book, the other one is a review (choice review).
 
-* [ ] https://fatcat.wiki/release/g2swo5fewnhv3ihmlpl32sojr4 https://fatcat.wiki/release/ab2q56gokfdmzpccrmwfcdljgy Status.AMBIGUOUS OK.DUMMY
+* [x] https://fatcat.wiki/release/g2swo5fewnhv3ihmlpl32sojr4 https://fatcat.wiki/release/ab2q56gokfdmzpccrmwfcdljgy Status.AMBIGUOUS OK.DUMMY
+
+Choice review.
+
 * [ ] https://fatcat.wiki/release/3w4tibll4rdernjrn4hkkyqsem https://fatcat.wiki/release/tmlg73royrdwdhl6nijf6m7vzy Status.AMBIGUOUS OK.DUMMY
+
+Tow different reviews. md: one has an author, the other not.
+
 * [ ] https://fatcat.wiki/release/kqlifv7lyjdmbfictjzaoixahm https://fatcat.wiki/release/54ilu5kdj5fktohbs5zybtfq7y Status.AMBIGUOUS OK.DUMMY
 * [ ] https://fatcat.wiki/release/7x7tszf54zggvp4xkrhakp667u https://fatcat.wiki/release/eqcgtpav3na5jh56o5vjsvb4ei Status.AMBIGUOUS OK.DUMMY
 * [ ] https://fatcat.wiki/release/idpgijvcsnbqrgs2dg36vzzdzm https://fatcat.wiki/release/wm2p5fznwffknjx56lvmr7hn4q Status.AMBIGUOUS OK.DUMMY

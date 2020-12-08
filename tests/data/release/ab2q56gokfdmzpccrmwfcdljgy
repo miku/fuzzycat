@@ -1,0 +1,36 @@
+{
+  "abstracts": [],
+  "container_id": "on7pto6emjcyjebuutelzf34nq",
+  "contribs": [
+    {
+      "extra": {
+        "seq": "first"
+      },
+      "index": 0,
+      "raw_name": "M. Seigel",
+      "role": "author"
+    }
+  ],
+  "ext_ids": {
+    "doi": "10.1215/00182168-2007-045"
+  },
+  "extra": {
+    "crossref": {
+      "type": "journal-article"
+    }
+  },
+  "ident": "ab2q56gokfdmzpccrmwfcdljgy",
+  "language": "en",
+  "pages": "733-734",
+  "publisher": "Duke University Press",
+  "refs": [],
+  "release_date": "2007-11-01",
+  "release_stage": "published",
+  "release_type": "article-journal",
+  "release_year": 2007,
+  "revision": "86bb892c-3316-427b-bfc5-5ede9b4b7c80",
+  "state": "active",
+  "title": "A Nation among Nations: America's Place in World History",
+  "volume": "87",
+  "work_id": "mi3hgj2mfzfaxlnnnafsiqfyxu"
+}

@@ -1,0 +1,35 @@
+{
+  "abstracts": [],
+  "contribs": [
+    {
+      "extra": {
+        "seq": "first"
+      },
+      "index": 0,
+      "raw_affiliation": "None",
+      "raw_name": "Douglas R. Egerton",
+      "role": "author"
+    }
+  ],
+  "ext_ids": {
+    "doi": "10.31390/cwbr.17.2.26"
+  },
+  "extra": {
+    "container_name": "Civil War Book Review",
+    "crossref": {
+      "type": "journal-article"
+    }
+  },
+  "ident": "tmlg73royrdwdhl6nijf6m7vzy",
+  "publisher": "Louisiana State University Libraries",
+  "refs": [],
+  "release_date": "2015-01-01",
+  "release_stage": "published",
+  "release_type": "article-journal",
+  "release_year": 2015,
+  "revision": "5bc8ddd1-5078-4b64-8e61-99730b039181",
+  "state": "active",
+  "title": "The Ordeal of the Reunion: A New History of Reconstruction",
+  "volume": "17",
+  "work_id": "rvtgbosqnfcz3ktvy4jwcuzbly"
+}
