@@ -1,0 +1,100 @@
+{
+  "abstracts": [],
+  "container_id": "45htzocesfgzboeve2ffw2z7cy",
+  "contribs": [
+    {
+      "extra": {
+        "seq": "first"
+      },
+      "index": 0,
+      "raw_name": "Liza Shapiro",
+      "role": "author"
+    }
+  ],
+  "ext_ids": {
+    "doi": "10.1093/jmammal/gyv086"
+  },
+  "extra": {
+    "crossref": {
+      "alternative-id": [
+        "10.1093/jmammal/gyv086"
+      ],
+      "type": "journal-article"
+    }
+  },
+  "ident": "fo5dsqeocfekfhqdzgqyng3z6q",
+  "language": "en",
+  "pages": "1107-1108",
+  "publisher": "Oxford University Press (OUP)",
+  "refs": [
+    {
+      "container_name": "An introduction to human evolutionary anatomy",
+      "extra": {
+        "authors": [
+          "Aiello"
+        ],
+        "volume-title": "An introduction to human evolutionary anatomy"
+      },
+      "index": 0,
+      "key": "2015092913485026000_96.5.1107.1",
+      "year": 1990
+    },
+    {
+      "container_name": "Primate anatomy: an introduction",
+      "extra": {
+        "authors": [
+          "Ankel-Simons"
+        ],
+        "volume-title": "Primate anatomy: an introduction"
+      },
+      "index": 1,
+      "key": "2015092913485026000_96.5.1107.2",
+      "year": 2007
+    },
+    {
+      "container_name": "Primate adaptation and evolution",
+      "extra": {
+        "authors": [
+          "Fleagle"
+        ],
+        "volume-title": "Primate adaptation and evolution"
+      },
+      "index": 2,
+      "key": "2015092913485026000_96.5.1107.3",
+      "year": 2013
+    },
+    {
+      "container_name": "Postcranial adaptation in nonhuman primates",
+      "extra": {
+        "authors": [
+          "Gebo"
+        ],
+        "volume-title": "Postcranial adaptation in nonhuman primates"
+      },
+      "index": 3,
+      "key": "2015092913485026000_96.5.1107.4",
+      "year": 1993
+    },
+    {
+      "container_name": "A photographic atlas for physical anthropology",
+      "extra": {
+        "authors": [
+          "Whitehead"
+        ],
+        "volume-title": "A photographic atlas for physical anthropology"
+      },
+      "index": 4,
+      "key": "2015092913485026000_96.5.1107.5",
+      "year": 2005
+    }
+  ],
+  "release_date": "2015-06-05",
+  "release_stage": "published",
+  "release_type": "article-journal",
+  "release_year": 2015,
+  "revision": "9b58c702-a218-4322-9b15-f9ce40048a17",
+  "state": "active",
+  "title": "Primate comparative anatomy",
+  "volume": "96",
+  "work_id": "bfletbokjfbnxgxkibqqiquf7y"
+}

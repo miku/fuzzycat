@@ -108,8 +108,17 @@ Seems to be the same, but hard to confirm. Paywall.
 Great example; same, but sparse md.
 
 * [ ] https://fatcat.wiki/release/2qcjbknhyrhh5dbuxobjy3gmqm https://fatcat.wiki/release/r6znetafszbuvaevbasn7ezsk4 Status.AMBIGUOUS OK.DUMMY
+
+Two different reviews on the same book or article. A review is usually short (e.g. 1-2 pages only).
+
 * [ ] https://fatcat.wiki/release/fidfj3g6ync2xdpkfcfdtf2jbu https://fatcat.wiki/release/rhu6ehpipbdofaijktvqypf5fe Status.AMBIGUOUS OK.DUMMY
-* [ ] https://fatcat.wiki/release/mz6a32xbp5f67i2cnbco2hmzj4 https://fatcat.wiki/release/fo5dsqeocfekfhqdzgqyng3z6q Status.AMBIGUOUS OK.DUMMY
+
+BSI, but no "u" pattern.
+
+* [x] https://fatcat.wiki/release/mz6a32xbp5f67i2cnbco2hmzj4 https://fatcat.wiki/release/fo5dsqeocfekfhqdzgqyng3z6q Status.AMBIGUOUS OK.DUMMY
+
+One is a book, the other one is a review (choice review).
+
 * [ ] https://fatcat.wiki/release/g2swo5fewnhv3ihmlpl32sojr4 https://fatcat.wiki/release/ab2q56gokfdmzpccrmwfcdljgy Status.AMBIGUOUS OK.DUMMY
 * [ ] https://fatcat.wiki/release/3w4tibll4rdernjrn4hkkyqsem https://fatcat.wiki/release/tmlg73royrdwdhl6nijf6m7vzy Status.AMBIGUOUS OK.DUMMY
 * [ ] https://fatcat.wiki/release/kqlifv7lyjdmbfictjzaoixahm https://fatcat.wiki/release/54ilu5kdj5fktohbs5zybtfq7y Status.AMBIGUOUS OK.DUMMY
