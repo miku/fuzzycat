@@ -1,0 +1,44 @@
+{
+  "abstracts": [],
+  "container_id": "c2hyf2djkvdbbd6hpr3s7otqcq",
+  "contribs": [
+    {
+      "extra": {
+        "seq": "first"
+      },
+      "index": 0,
+      "raw_name": "S.T. Horseman",
+      "role": "author"
+    },
+    {
+      "index": 1,
+      "raw_name": "T.J. McEwen",
+      "role": "author"
+    }
+  ],
+  "ext_ids": {
+    "doi": "10.1016/0013-7952(95)00046-1"
+  },
+  "extra": {
+    "crossref": {
+      "alternative-id": [
+        "0013795295000461"
+      ],
+      "type": "journal-article"
+    }
+  },
+  "ident": "zeoquc2f4nbmdbmbcbkmkxmtzi",
+  "issue": "1-4",
+  "language": "en",
+  "pages": "5-16",
+  "publisher": "Elsevier BV",
+  "refs": [],
+  "release_stage": "published",
+  "release_type": "article-journal",
+  "release_year": 1996,
+  "revision": "d302fc86-45f4-468a-aaf0-947a115eee07",
+  "state": "active",
+  "title": "Thermal constraints on disposal of heat-emitting waste in argillaceous rocks",
+  "volume": "41",
+  "work_id": "4adugyubj5g6nawywlsxt2nvwa"
+}

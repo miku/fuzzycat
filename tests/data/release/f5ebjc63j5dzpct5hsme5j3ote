@@ -1,0 +1,29 @@
+{
+  "abstracts": [],
+  "container_id": "wwkgxanhx5efrbqepn7d4yhgge",
+  "contribs": [],
+  "ext_ids": {
+    "doi": "10.1016/0148-9062(96)83629-1"
+  },
+  "extra": {
+    "crossref": {
+      "alternative-id": [
+        "0148906296836291"
+      ],
+      "type": "journal-article"
+    }
+  },
+  "ident": "f5ebjc63j5dzpct5hsme5j3ote",
+  "language": "en",
+  "pages": "A328",
+  "publisher": "Elsevier BV",
+  "refs": [],
+  "release_stage": "published",
+  "release_type": "article-journal",
+  "release_year": 1996,
+  "revision": "852a8a08-23e6-466f-9c95-4c2c6367b379",
+  "state": "active",
+  "title": "Thermal constraints on disposal of heat-emitting waste in argillaceous rocks",
+  "volume": "33",
+  "work_id": "dfjtp6lyxncijbxp34exkkk6xa"
+}
