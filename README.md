@@ -65,7 +65,7 @@ Single threaded, 42h.
 
 ```
 $ time zstdcat -T0 release_export_expanded.json.zst | \
-    TMPDIR=/bigger/tmp python -m fuzzycat cluster --tmpdir /bigger/tmp -t tsandcrawler \ |
+    TMPDIR=/bigger/tmp python -m fuzzycat cluster --tmpdir /bigger/tmp -t tsandcrawler | \
     zstd -c9 > cluster_tsandcrawler.json.zst
 {
   "key_fail": 0,
@@ -81,6 +81,19 @@ sys     118m38.141s
 ```
 
 So, 29881072 (about 20%) docs in the potentially duplicated set.
+
+Verification (about 15h):
+
+```
+$ time zstdcat -T0 cluster_tsandcrawler.json.zst | python -m fuzzycat verify | \
+    zstd -c9 > cluster_tsandcrawler_verified_3c7378.tsv.zst
+
+...
+
+real    927m28.631s
+user    939m32.761s
+sys     36m47.602s
+```
 
 
 # Use cases
