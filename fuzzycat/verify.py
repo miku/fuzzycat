@@ -454,7 +454,7 @@ def compare(a, b):
     # Does not cover case, where both authors are empty.
     if a_release_year == b_release_year and a_title_lower == b_title_lower:
         if ((dict_key_exists(a, "ext_ids.pmid") and dict_key_exists(b, "ext_ids.doi"))
-                or (dict_key_exists(b, "ext_ids.pmid") and dict_key_exists(b, "ext_ids.doi"))):
+                or (dict_key_exists(b, "ext_ids.pmid") and dict_key_exists(a, "ext_ids.doi"))):
             return (Status.STRONG, OK.PMID_DOI_PAIR)
 
     # Two JSTOR items will probably be different.
