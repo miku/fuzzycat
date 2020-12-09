@@ -1,0 +1,60 @@
+{
+  "abstracts": [],
+  "container_id": "ud7h2fmzczbshoux3s2pzgtf2q",
+  "contribs": [
+    {
+      "extra": {
+        "seq": "first"
+      },
+      "index": 0,
+      "raw_name": "Kuidong Xu",
+      "role": "author"
+    },
+    {
+      "index": 1,
+      "raw_name": "Joong Ki Choi",
+      "role": "author"
+    },
+    {
+      "index": 2,
+      "raw_name": "Eun Jin Yang",
+      "role": "author"
+    },
+    {
+      "index": 3,
+      "raw_name": "Kyu Chul Lee",
+      "role": "author"
+    },
+    {
+      "index": 4,
+      "raw_name": "Yanli Lei",
+      "role": "author"
+    }
+  ],
+  "ext_ids": {
+    "doi": "10.1016/s0025-326x(02)00090-5",
+    "pmid": "12405212",
+    "wikidata_qid": "Q53142806"
+  },
+  "extra": {
+    "crossref": {
+      "alternative-id": [
+        "S0025326X02000905"
+      ],
+      "type": "journal-article"
+    }
+  },
+  "ident": "3f3yt32rrbdzdewtcyrcyihgju",
+  "language": "en",
+  "pages": "877-886",
+  "publisher": "Elsevier BV",
+  "refs": [],
+  "release_stage": "published",
+  "release_type": "article-journal",
+  "release_year": 2002,
+  "revision": "2d34fb3a-2b9b-4f4b-9748-ac77a7c774da",
+  "state": "active",
+  "title": "Biomonitoring of coastal pollution status using protozoan communities with a modified PFU method",
+  "volume": "44",
+  "work_id": "usqag3t54jaghddclwakg7tgaq"
+}

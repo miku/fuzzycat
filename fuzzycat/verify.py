@@ -76,7 +76,7 @@ from glom import PathAccessError, glom
 
 from fuzzycat.common import OK, Miss, Status
 from fuzzycat.utils import (author_similarity_score, contains_chemical_formula, has_doi_prefix,
-                            num_project, slugify_string)
+                            num_project, slugify_string, jaccard)
 
 # The result of clustering are documents that have a key k and a list of values
 # (of the cluster) v.
@@ -437,6 +437,15 @@ def compare(a, b):
                 (dict_key_exists(b, "ext_ids.pmid") and not dict_key_exists(b, "ext_ids.doi"))):
                 return (Status.STRONG, OK.PMID_DOI_PAIR)
 
+    # Two JSTOR items will probably be different.
+    try:
+        a_jstor_id = glom(a, "ext_ids.jstor")
+        b_jstor_id = glom(b, "ext_ids.jstor")
+        if a_jstor_id != b_jstor_id:
+            return (Status.DIFFERENT, Miss.JSTOR_ID)
+    except PathAccessError:
+        pass
+
     # Publication from same publisher and different DOI or year a probably
     # different.
     try:
@@ -473,6 +482,20 @@ def compare(a, b):
             avg_score = sum(top_scores) / len(top_scores)
             if avg_score > 0.5:
                 return (Status.STRONG, OK.TOKENIZED_AUTHORS)
+            else:
+                # Kuidong Xu, Joong Ki Choi, Eun Jin Yang, Kyu Chul Lee, Yanli Lei
+                # J.K. Choi, K. Xu, E.J. Yang, K.C. Lee, Y. Lei
+                # 0.2942857142857143
+                print("author comp score: {}".format(avg_score))
+
+        # Fallback jaccard token comparison.
+        # Kuidong Xu, Joong Ki Choi, Eun Jin Yang, Kyu Chul Lee, Yanli Lei
+        # J.K. Choi, K. Xu, E.J. Yang, K.C. Lee, Y. Lei
+        # avg_score was 0.2942857142857143, but jaccard ~0.38
+        a_tok = [tok for tok in re.findall(r"[\w]{3,}", " ".join(a_slug_authors)) if tok]
+        b_tok = [tok for tok in re.findall(r"[\w]{3,}", " ".join(b_slug_authors)) if tok]
+        if jaccard(set(a_tok), set(b_tok)) > 0.35:
+            return (Status.STRONG, OK.JACCARD_AUTHORS)
 
         # TODO: This misses spelling differences, e.g.
         # https://fatcat.wiki/release/7nbcgsohrrak5cuyk6dnit6ega and

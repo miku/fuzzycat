@@ -1,0 +1,51 @@
+{
+  "abstracts": [],
+  "contribs": [
+    {
+      "extra": {
+        "seq": "first"
+      },
+      "index": 0,
+      "raw_name": "J.K. Choi",
+      "role": "author"
+    },
+    {
+      "index": 1,
+      "raw_name": "K. Xu",
+      "role": "author"
+    },
+    {
+      "index": 2,
+      "raw_name": "E.J. Yang",
+      "role": "author"
+    },
+    {
+      "index": 3,
+      "raw_name": "K.C. Lee",
+      "role": "author"
+    },
+    {
+      "index": 4,
+      "raw_name": "Y. Lei",
+      "role": "author"
+    }
+  ],
+  "ext_ids": {
+    "doi": "10.1109/oceans.2003.178350"
+  },
+  "extra": {
+    "container_name": "Oceans 2003. Celebrating the Past ... Teaming Toward the Future (IEEE Cat. No.03CH37492)",
+    "crossref": {
+      "type": "proceedings-article"
+    }
+  },
+  "ident": "hxmxijrd3fgodd3q3crgt7d3c4",
+  "publisher": "IEEE",
+  "refs": [],
+  "release_type": "paper-conference",
+  "release_year": 2003,
+  "revision": "e049728c-a800-472f-9001-b5a09d556761",
+  "state": "active",
+  "title": "Biomonitoring of coastal pollution status using protozoan communities with a modified PFU method",
+  "work_id": "mlhtnjhxefeudk3ya57ksvxqim"
+}

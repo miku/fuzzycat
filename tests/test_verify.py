@@ -38,7 +38,7 @@ def test_compare():
             try:
                 a, b, expected_status, expected_reason = row
             except ValueError as exc:
-                pytest.fail("invalid test file, maybe missing a comma? {}".format(exc))
+                pytest.fail("invalid test file, maybe too many (or few) commas in row {}? {}".format(i + 1, exc))
             status, reason = compare(load_release_ident(a), load_release_ident(b))
             if not expected_status or expected_status.lower() == "todo":
                 logger.warning(
