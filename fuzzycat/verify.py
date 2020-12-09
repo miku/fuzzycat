@@ -332,6 +332,15 @@ def compare(a, b):
     except PathAccessError:
         pass
 
+    try:
+        if glom(a, "extra.crossref.type") == "component" and glom(b, "extra.crossref.type"):
+            a_doi = glom(a, "ext_ids.doi")
+            b_doi = glom(b, "ext_ids.doi")
+            if a_doi != b_doi:
+                return (Status.DIFFERENT, Miss.COMPONENT)
+    except PathAccessError:
+        pass
+
     # https://fatcat.wiki/release/knzhequchfcethcyyi3gsp5gry, some title contain newlines
     a_slug_title = slugify_string(a.get("title", "")).replace("\n", " ")
     b_slug_title = slugify_string(b.get("title", "")).replace("\n", " ")

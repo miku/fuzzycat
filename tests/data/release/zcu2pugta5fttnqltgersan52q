@@ -1,0 +1,20 @@
+{
+  "abstracts": [],
+  "contribs": [],
+  "ext_ids": {
+    "doi": "10.1021/ic0620891.s014"
+  },
+  "extra": {
+    "crossref": {
+      "type": "component"
+    }
+  },
+  "ident": "zcu2pugta5fttnqltgersan52q",
+  "publisher": "American Chemical Society (ACS)",
+  "refs": [],
+  "release_type": "component",
+  "revision": "a2b8063e-67bc-474b-a396-22d9b499a8d1",
+  "state": "active",
+  "title": "Single-Molecule Magnet Behavior in Heterometallic MII-MnIII2-MII Tetramers (MII = Cu, Ni) Containing MnIII Salen-Type Dinuclear Core",
+  "work_id": "cjzr63koybhvhd5ofsswvwip2m"
+}
