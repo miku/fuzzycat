@@ -1,0 +1,53 @@
+{
+  "abstracts": [
+    {
+      "content": "Data collected by a single observer on 362 patients taking part in an acute intervention trial were used to derive simple methods of predicting outcome in conscious stroke victims. The effectiveness of these univariate methods was then compared with that of multivariate models based on discriminant function analysis. The multivariate models were somewhat better at predicting death within the first month in newly-admitted patients, and in predicting lack of functional improvement between one and six months in those still in hospital at one month. Even so, these predictions could not be made with certainty and the improvements in probability offered by multivariate over univariate analysis are unlikely to be of practical benefit to the clinician. Single variables such as power in the affected arm and continence were as good as the discriminant functions at predicting discharge within the first month and first six months, respectively. The predictive power of these single simple clinical variables was validated in a separate group of 277 stroke patients. The various proposed methods of prognostication in stroke need to be compared in prospective studies, but until this is done, we recommend a simple approach using the best available clinical information.",
+      "lang": "en",
+      "mimetype": "text/plain",
+      "sha1": "4d38ae4fa2c0c3e2c78e882712ffcec9bf44b49e"
+    }
+  ],
+  "container_id": "rj4lpn3f6vbhbnoknd2zccrydm",
+  "contribs": [
+    {
+      "extra": {},
+      "given_name": "D H",
+      "index": 0,
+      "raw_affiliation": "Department of Medicine, University Hospital, Queens Medical Centre, Nottingham.",
+      "raw_name": "D H Barer",
+      "role": "author",
+      "surname": "Barer"
+    },
+    {
+      "extra": {},
+      "given_name": "J R",
+      "index": 1,
+      "raw_name": "J R Mitchell",
+      "role": "author",
+      "surname": "Mitchell"
+    }
+  ],
+  "ext_ids": {
+    "pmid": "2574484"
+  },
+  "extra": {
+    "pubmed": {
+      "pub_types": [
+        "Journal Article"
+      ]
+    }
+  },
+  "ident": "eqcgtpav3na5jh56o5vjsvb4ei",
+  "issue": "261",
+  "language": "en",
+  "pages": "27-39",
+  "refs": [],
+  "release_stage": "published",
+  "release_type": "article-journal",
+  "release_year": 1989,
+  "revision": "17e56502-50a5-4438-a691-0014285a2ae9",
+  "state": "active",
+  "title": "Predicting the outcome of acute stroke: do multivariate models help?",
+  "volume": "70",
+  "work_id": "ypaisxszjnhtjb5qdyvvpzsz7e"
+}

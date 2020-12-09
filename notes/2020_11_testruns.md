@@ -128,7 +128,14 @@ Choice review.
 Tow different reviews. md: one has an author, the other not.
 
 * [ ] https://fatcat.wiki/release/kqlifv7lyjdmbfictjzaoixahm https://fatcat.wiki/release/54ilu5kdj5fktohbs5zybtfq7y Status.AMBIGUOUS OK.DUMMY
+
+Defer.
+
 * [ ] https://fatcat.wiki/release/7x7tszf54zggvp4xkrhakp667u https://fatcat.wiki/release/eqcgtpav3na5jh56o5vjsvb4ei Status.AMBIGUOUS OK.DUMMY
+
+Same, pubmed id only and oxfordjournals doi, same year.
+
+
 * [ ] https://fatcat.wiki/release/idpgijvcsnbqrgs2dg36vzzdzm https://fatcat.wiki/release/wm2p5fznwffknjx56lvmr7hn4q Status.AMBIGUOUS OK.DUMMY
 * [ ] https://fatcat.wiki/release/nqcfu4il45aixekvk3rwflahdm https://fatcat.wiki/release/72uzveph65ce7kfdct2wpgh5j4 Status.AMBIGUOUS OK.DUMMY
 * [ ] https://fatcat.wiki/release/zizw6bgxu5cnxfx5h3v7q7gute https://fatcat.wiki/release/jwh6xci4m5dktmea6bphhc3mjy Status.AMBIGUOUS OK.DUMMY

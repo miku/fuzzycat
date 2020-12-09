@@ -24,6 +24,7 @@ class OK(str, Enum):
     DOI = 'ok.doi'
     DUMMY = 'ok.dummy'
     FIGSHARE_VERSION = 'ok.figshare_version'
+    PMID_DOI_PAIR = 'ok.pmid_doi_pair'
     PREPRINT_PUBLISHED = 'ok.preprint_published'
     SLUG_TITLE_AUTHOR_MATCH = 'ok.slug_title_author_match'
     TITLE_AUTHOR_MATCH = 'ok.title_author_match'

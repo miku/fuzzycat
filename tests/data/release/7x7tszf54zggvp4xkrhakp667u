@@ -1,0 +1,24 @@
+{
+  "abstracts": [],
+  "container_id": "qd2paoh6sbg2xpfkny7g5j3ape",
+  "contribs": [],
+  "ext_ids": {
+    "doi": "10.1093/oxfordjournals.qjmed.a068298"
+  },
+  "extra": {
+    "crossref": {
+      "type": "journal-article"
+    }
+  },
+  "ident": "7x7tszf54zggvp4xkrhakp667u",
+  "language": "en",
+  "publisher": "Oxford University Press (OUP)",
+  "refs": [],
+  "release_stage": "published",
+  "release_type": "article-journal",
+  "release_year": 1989,
+  "revision": "671374c0-62d9-4b44-952f-d92108b95221",
+  "state": "active",
+  "title": "Predicting the Outcome of Acute Stroke: Do Multivariate Models Help?",
+  "work_id": "ss3yihoe3fcjze7uqyq3rvderm"
+}

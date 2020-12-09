@@ -135,6 +135,18 @@ class GroupVerifier:
         self.counter["total"] = sum(v for _, v in self.counter.items())
 
 
+def dict_key_exists(doc, path):
+    """
+    Return true, if a value at a given path exists. XXX: probably in glom, too.
+    """
+    try:
+        _ = glom(doc, path)
+    except PathAccessError:
+        return False
+    else:
+        return True
+
+
 def compare(a, b):
     """
     Compare two entities, return match status and reason.
@@ -418,6 +430,12 @@ def compare(a, b):
             " ", "") == b_slug_title.strip().replace(" ", ""):
         if len(a_slug_authors & b_slug_authors) > 0:
             return (Status.STRONG, OK.SLUG_TITLE_AUTHOR_MATCH)
+
+    if any([a_authors, b_authors]) and not (a_authors and b_authors):
+        if a_release_year == b_release_year and a_title_lower == b_title_lower:
+            if ((dict_key_exists(a, "ext_ids.pmid") and not dict_key_exists(a, "ext_ids.doi")) or
+                (dict_key_exists(b, "ext_ids.pmid") and not dict_key_exists(b, "ext_ids.doi"))):
+                return (Status.STRONG, OK.PMID_DOI_PAIR)
 
     if a_authors and len(a_slug_authors & b_slug_authors) == 0:
         # Before we bail out, run an authors similarity check. TODO: This is
