@@ -5,7 +5,7 @@ class Status(str, Enum):
     """
     Match status.
     """
-    AMBIGUOUS = 'ambigiuous'
+    AMBIGUOUS = 'ambiguous'
     DIFFERENT = 'different'
     EXACT = 'exact'
     STRONG = 'strong'
