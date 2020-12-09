@@ -153,8 +153,10 @@ Different.
 
 * [ ] https://fatcat.wiki/release/dauh7n5w65enhk5zwdfwqxv344 https://fatcat.wiki/release/773m6wdunreqzlae6nts44rudy Status.AMBIGUOUS OK.DUMMY
 
+Component (pdf, video)
 
 * [ ] https://fatcat.wiki/release/voruupqxhvggfex4zlczcmjxxu https://fatcat.wiki/release/jg72qhdvmncfdfxg5l47hw3uba Status.AMBIGUOUS OK.DUMMY
+
 * [ ] https://fatcat.wiki/release/nc5qyc3umff5zevew2dobmispy https://fatcat.wiki/release/frdluoflhfgglphbotrazdyioq Status.AMBIGUOUS OK.DUMMY
 * [ ] https://fatcat.wiki/release/yq5m7zo3gfeivlrgpwy26znuva https://fatcat.wiki/release/zng4vgsqsnfejo55eixtkdqs5m Status.AMBIGUOUS OK.DUMMY
 * [ ] https://fatcat.wiki/release/yp3rs3xb5ra2riyx5xayrlqfum https://fatcat.wiki/release/6ysfa7ncx5fldmvmwvjgpf2i6e Status.AMBIGUOUS OK.DUMMY
