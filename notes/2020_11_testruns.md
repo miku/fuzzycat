@@ -157,9 +157,21 @@ Component (pdf, video)
 
 * [ ] https://fatcat.wiki/release/voruupqxhvggfex4zlczcmjxxu https://fatcat.wiki/release/jg72qhdvmncfdfxg5l47hw3uba Status.AMBIGUOUS OK.DUMMY
 
+Different, but apart from "chapter" vs "article-journal" nothing to use.
+
 * [ ] https://fatcat.wiki/release/nc5qyc3umff5zevew2dobmispy https://fatcat.wiki/release/frdluoflhfgglphbotrazdyioq Status.AMBIGUOUS OK.DUMMY
+
+> reference entries; probably an update of a "base" publication from 2012; paywalled
+
 * [ ] https://fatcat.wiki/release/yq5m7zo3gfeivlrgpwy26znuva https://fatcat.wiki/release/zng4vgsqsnfejo55eixtkdqs5m Status.AMBIGUOUS OK.DUMMY
+
+Two different editions (7th and 8th) - do we group editions under work? In FRBR
+lingo, this might be a "derivative relationship" - so we should probably use
+WEAK, DIFFERENT or AMBIGUOUS
+
 * [ ] https://fatcat.wiki/release/yp3rs3xb5ra2riyx5xayrlqfum https://fatcat.wiki/release/6ysfa7ncx5fldmvmwvjgpf2i6e Status.AMBIGUOUS OK.DUMMY
+
+
 * [ ] https://fatcat.wiki/release/arqtphat7fashokettncepu7xe https://fatcat.wiki/release/v6p7xct6kfgwtdbh57zfjqmuua Status.AMBIGUOUS OK.DUMMY
 * [ ] https://fatcat.wiki/release/b3uhit7b4vhvliocdzwxr7peyy https://fatcat.wiki/release/zwru5ugcsfcyzeuqlygfw46vwq Status.AMBIGUOUS OK.DUMMY
 * [ ] https://fatcat.wiki/release/s7a4o5v5gfg4tbzna6poyg7nzy https://fatcat.wiki/release/tcro5wr6brhqnf5wettyiauw34 Status.AMBIGUOUS OK.DUMMY
