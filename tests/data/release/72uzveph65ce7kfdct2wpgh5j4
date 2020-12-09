@@ -1,0 +1,39 @@
+{
+  "abstracts": [],
+  "container_id": "vwxhgxrd4jbuxezkdnja7bmufe",
+  "contribs": [
+    {
+      "extra": {
+        "seq": "first"
+      },
+      "index": 0,
+      "raw_name": "Clark G. Reynolds",
+      "role": "author"
+    },
+    {
+      "index": 1,
+      "raw_name": "Kenneth J. Hagan",
+      "role": "author"
+    }
+  ],
+  "ext_ids": {
+    "doi": "10.2307/1985804"
+  },
+  "extra": {
+    "crossref": {
+      "type": "journal-article"
+    }
+  },
+  "ident": "72uzveph65ce7kfdct2wpgh5j4",
+  "pages": "296",
+  "publisher": "JSTOR",
+  "refs": [],
+  "release_stage": "published",
+  "release_type": "article-journal",
+  "release_year": 1992,
+  "revision": "a7dfe9d0-7c2e-4f12-b957-a9af50fdd96b",
+  "state": "active",
+  "title": "This People's Navy: The Making of American Sea Power.",
+  "volume": "56",
+  "work_id": "zsobpjizijbb5bebucusbi5vam"
+}
