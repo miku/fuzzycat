@@ -1,0 +1,35 @@
+{
+  "abstracts": [],
+  "container_id": "ukcgvohme5g23jziitrgo66y5q",
+  "contribs": [
+    {
+      "extra": {
+        "seq": "first"
+      },
+      "index": 0,
+      "raw_name": ", ,",
+      "role": "author"
+    }
+  ],
+  "ext_ids": {
+    "doi": "10.22486/iwj.v37i1.179068"
+  },
+  "extra": {
+    "crossref": {
+      "type": "journal-article"
+    }
+  },
+  "ident": "jg72qhdvmncfdfxg5l47hw3uba",
+  "pages": "35",
+  "publisher": "The Indian Institute of Welding",
+  "refs": [],
+  "release_date": "2004-01-01",
+  "release_stage": "published",
+  "release_type": "article-journal",
+  "release_year": 2004,
+  "revision": "c5f3486c-36f7-4950-874f-c25a1748ccff",
+  "state": "active",
+  "title": "Corrosion of Stainless Steels",
+  "volume": "37",
+  "work_id": "7b4lju3xbfdt5gnjoc2soyhmh4"
+}
