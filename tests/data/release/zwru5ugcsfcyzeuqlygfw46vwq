@@ -1,0 +1,29 @@
+{
+  "abstracts": [],
+  "contribs": [],
+  "ext_ids": {
+    "doi": "10.7916/d8-s2a1-pb94"
+  },
+  "extra": {
+    "datacite": {
+      "metadataVersion": 2,
+      "subjects": [
+        {
+          "subject": "Corporations--Headquarters"
+        }
+      ]
+    },
+    "release_month": 4
+  },
+  "ident": "zwru5ugcsfcyzeuqlygfw46vwq",
+  "publisher": "Columbia University",
+  "refs": [],
+  "release_date": "2019-04-23",
+  "release_stage": "published",
+  "release_type": "article",
+  "release_year": 2019,
+  "revision": "de459267-23e4-4300-aa11-f9ec6c551077",
+  "state": "active",
+  "title": "Test column : Johnson Wax Co. building, Frank Loyd Wright architect, B. E. Wiltscheck contractor",
+  "work_id": "j75ximvlbnhi5mionfrsrjqqzi"
+}
