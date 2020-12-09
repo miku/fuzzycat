@@ -483,10 +483,11 @@ def compare(a, b):
             if avg_score > 0.5:
                 return (Status.STRONG, OK.TOKENIZED_AUTHORS)
             else:
+                pass
                 # Kuidong Xu, Joong Ki Choi, Eun Jin Yang, Kyu Chul Lee, Yanli Lei
                 # J.K. Choi, K. Xu, E.J. Yang, K.C. Lee, Y. Lei
                 # 0.2942857142857143
-                print("author comp score: {}".format(avg_score))
+                # print("author comp score: {}".format(avg_score))
 
         # Fallback jaccard token comparison.
         # Kuidong Xu, Joong Ki Choi, Eun Jin Yang, Kyu Chul Lee, Yanli Lei
