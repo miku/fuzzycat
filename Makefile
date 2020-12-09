@@ -31,7 +31,7 @@ cov: ## Run coverage report
 
 .PHONY: test
 test: ## Run coverage report
-	pytest -o log_cli=true -v fuzzycat/*.py tests/*.py
+	pytest -o log_cli=true -s -vvv fuzzycat/*.py tests/*.py
 
 .PHONY: lint
 lint: $(PY_FILES)

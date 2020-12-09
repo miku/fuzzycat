@@ -57,3 +57,4 @@ class Miss(str, Enum):
     SUBTITLE = 'miss.subtitle'
     TITLE_FILENAME = 'miss.title_filename'
     YEAR = 'miss.year'
+    SHARED_DOI_PREFIX = 'miss.shared_doi_prefix'

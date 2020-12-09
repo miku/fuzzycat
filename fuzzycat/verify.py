@@ -437,6 +437,20 @@ def compare(a, b):
                 (dict_key_exists(b, "ext_ids.pmid") and not dict_key_exists(b, "ext_ids.doi"))):
                 return (Status.STRONG, OK.PMID_DOI_PAIR)
 
+    # Publication from same publisher and different DOI or year a probably
+    # different.
+    try:
+        a_container_id = glom(a, "container_id")
+        b_container_id = glom(b, "container_id")
+        a_doi = glom(a, "ext_ids.doi")
+        b_doi = glom(b, "ext_ids.doi")
+
+        if a_container_id == b_container_id and a_doi != b_doi and not has_doi_prefix(
+                a_doi, "10.1126"):
+            return (Status.DIFFERENT, Miss.SHARED_DOI_PREFIX)
+    except PathAccessError:
+        pass
+
     if a_authors and len(a_slug_authors & b_slug_authors) == 0:
         # Before we bail out, run an authors similarity check. TODO: This is
         # not the right place, but lives here now, since these cases popped up
