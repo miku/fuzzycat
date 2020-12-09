@@ -17,6 +17,7 @@ class OK(str, Enum):
     Reason for assuming we have a match.
     """
     ARXIV_VERSION = 'ok.arxiv_version'
+    CUSTOM_BSI_SUBDOC = 'ok.custom_bsi_subdoc'
     CUSTOM_BSI_UNDATED = 'ok.custom_bsi_undated'
     CUSTOM_IEEE_ARXIV = 'ok.custom_ieee_arxiv'
     DATACITE_RELATED_ID = 'ok.datacite_related_id'

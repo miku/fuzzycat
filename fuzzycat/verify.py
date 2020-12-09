@@ -76,7 +76,7 @@ from glom import PathAccessError, glom
 
 from fuzzycat.common import OK, Miss, Status
 from fuzzycat.utils import (author_similarity_score, contains_chemical_formula, has_doi_prefix,
-                            num_project, slugify_string, jaccard)
+                            jaccard, num_project, slugify_string)
 
 # The result of clustering are documents that have a key k and a list of values
 # (of the cluster) v.
@@ -211,6 +211,14 @@ def compare(a, b):
         if has_doi_prefix(a_doi, "10.3403") and has_doi_prefix(b_doi, "10.3403"):
             if a_doi + "u" == b_doi or b_doi + "u" == a_doi:
                 return (Status.STRONG, OK.CUSTOM_BSI_UNDATED)
+            # Reference to subdocument.
+            # https://api.fatcat.wiki/v0/release/tcro5wr6brhqnf5wettyiauw34
+            # https://api.fatcat.wiki/v0/release/s7a4o5v5gfg4tbzna6poyg7nzy
+            if a_title == b_title and ((dict_key_exists(a, "extra.subtitle")
+                                        and not dict_key_exists(b, "extra.subtitle")) or
+                                       (dict_key_exists(b, "extra.subtitle")
+                                        and not dict_key_exists(a, "extra.subtitle"))):
+                return (Status.STRONG, OK.CUSTOM_BSI_SUBDOC)
     except PathAccessError:
         pass
 

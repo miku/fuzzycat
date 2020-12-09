@@ -179,7 +179,12 @@ Ambiguous.
 
 * [ ] https://fatcat.wiki/release/b3uhit7b4vhvliocdzwxr7peyy https://fatcat.wiki/release/zwru5ugcsfcyzeuqlygfw46vwq Status.AMBIGUOUS OK.DUMMY
 
+A difficult prefix.
+
 * [ ] https://fatcat.wiki/release/s7a4o5v5gfg4tbzna6poyg7nzy https://fatcat.wiki/release/tcro5wr6brhqnf5wettyiauw34 Status.AMBIGUOUS OK.DUMMY
+
+BSI, one is a subdocument of another. The subdocument has a subtitle. That's more is-part-of.
+
 * [ ] https://fatcat.wiki/release/b3odcrpuwveqljszl7l4c4ah5e https://fatcat.wiki/release/j4drpogsbzfd7esim4um5me374 Status.AMBIGUOUS OK.DUMMY
 * [ ] https://fatcat.wiki/release/4owywaqwwvhrthytdjbulmltue https://fatcat.wiki/release/cy2v4wpm7nfptexi6ybjylapee Status.AMBIGUOUS OK.DUMMY
 * [ ] https://fatcat.wiki/release/5ba6m23tmvcwdcpq3a2rcof4du https://fatcat.wiki/release/wczxyrrmovf3te5ziep7bbdreu Status.AMBIGUOUS OK.DUMMY

@@ -1,0 +1,23 @@
+{
+  "abstracts": [],
+  "contribs": [],
+  "ext_ids": {
+    "doi": "10.3403/02279101u"
+  },
+  "extra": {
+    "crossref": {
+      "type": "standard"
+    },
+    "subtitle": [
+      "Fixed pipette method"
+    ]
+  },
+  "ident": "s7a4o5v5gfg4tbzna6poyg7nzy",
+  "publisher": "BSI British Standards",
+  "refs": [],
+  "release_type": "standard",
+  "revision": "9ae088bf-5480-4a5b-b68d-356096d28d16",
+  "state": "active",
+  "title": "Determination of particle size distribution by gravitational liquid sedimentation methods",
+  "work_id": "chjktubyxbdpviowq6p4agfh5y"
+}
