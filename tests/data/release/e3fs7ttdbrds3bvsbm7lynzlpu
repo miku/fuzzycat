@@ -1,0 +1,38 @@
+{
+  "abstracts": [],
+  "container_id": "eoaasu7cqnbqxm7j4qk2xszfpq",
+  "contribs": [
+    {
+      "extra": {
+        "seq": "first"
+      },
+      "index": 0,
+      "raw_name": "Nathan Kantrowitz",
+      "role": "author"
+    },
+    {
+      "index": 1,
+      "raw_name": "Joseph P. Fitzpatrick",
+      "role": "author"
+    }
+  ],
+  "ext_ids": {
+    "doi": "10.2307/2062139"
+  },
+  "extra": {
+    "crossref": {
+      "type": "journal-article"
+    }
+  },
+  "ident": "e3fs7ttdbrds3bvsbm7lynzlpu",
+  "pages": "83",
+  "publisher": "SAGE Publications",
+  "refs": [],
+  "release_stage": "published",
+  "release_type": "article-journal",
+  "release_year": 1973,
+  "revision": "3ba93895-2862-4092-9ce3-075a3bf673d7",
+  "state": "active",
+  "title": "Puerto Rican Americans: The Meaning of Migration to the Mainland.",
+  "work_id": "obvoaf2i7jdvtk5wtjxbh65xwu"
+}

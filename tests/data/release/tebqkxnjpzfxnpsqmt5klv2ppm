@@ -1,0 +1,38 @@
+{
+  "abstracts": [],
+  "container_id": "w5pzcsrl7ndtnhpc2e2bzavyjy",
+  "contribs": [
+    {
+      "extra": {
+        "seq": "first"
+      },
+      "index": 0,
+      "raw_name": "&NA; T D",
+      "role": "author"
+    }
+  ],
+  "ext_ids": {
+    "doi": "10.1097/00000441-195606000-00020"
+  },
+  "extra": {
+    "crossref": {
+      "type": "journal-article"
+    },
+    "subtitle": [
+      ""
+    ]
+  },
+  "ident": "tebqkxnjpzfxnpsqmt5klv2ppm",
+  "language": "en",
+  "pages": "727-728",
+  "publisher": "Elsevier BV",
+  "refs": [],
+  "release_stage": "published",
+  "release_type": "article-journal",
+  "release_year": 1956,
+  "revision": "3ff23bc1-390e-418d-ab7f-3a5ffdbf3d9d",
+  "state": "active",
+  "title": "Symposium on Atherosclerosis",
+  "volume": "231",
+  "work_id": "47uhom6dhvh2pacv7b4ohobqnq"
+}

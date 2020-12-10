@@ -10,6 +10,7 @@ class Status(str, Enum):
     EXACT = 'exact'
     STRONG = 'strong'
     WEAK = 'weak'
+    TODO = 'todo'
 
 
 class OK(str, Enum):

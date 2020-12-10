@@ -1,0 +1,39 @@
+{
+  "abstracts": [],
+  "container_id": "weq5aye5ibfdvmhgqhoub6xv2y",
+  "contribs": [
+    {
+      "extra": {
+        "seq": "first"
+      },
+      "index": 0,
+      "raw_name": "Robert LaPorte",
+      "role": "author"
+    },
+    {
+      "index": 1,
+      "raw_name": "G. W. Choudhury",
+      "role": "author"
+    }
+  ],
+  "ext_ids": {
+    "doi": "10.2307/2054147"
+  },
+  "extra": {
+    "crossref": {
+      "type": "journal-article"
+    }
+  },
+  "ident": "4m6ijk5gu5gxhcbvd2f4i2xk5u",
+  "pages": "586",
+  "publisher": "Cambridge University Press (CUP)",
+  "refs": [],
+  "release_stage": "published",
+  "release_type": "article-journal",
+  "release_year": 1977,
+  "revision": "301e0916-e548-436d-9cf7-203b7e6ec449",
+  "state": "active",
+  "title": "India, Pakistan, Bangladesh, and the Major Powers: Politics of a Divided Subcontinent.",
+  "volume": "36",
+  "work_id": "buqjzw6kh5gadp5php4y7pca5e"
+}

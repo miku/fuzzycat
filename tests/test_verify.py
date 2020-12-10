@@ -17,6 +17,7 @@ status_mapping = {
     "Status.EXACT": Status.EXACT,
     "Status.STRONG": Status.STRONG,
     "Status.WEAK": Status.WEAK,
+    "Status.TODO": Status.TODO,
 }
 
 logger = logging.getLogger('test_verify')

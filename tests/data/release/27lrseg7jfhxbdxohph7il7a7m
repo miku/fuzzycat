@@ -1,0 +1,32 @@
+{
+  "abstracts": [],
+  "container_id": "nbmd5wsw4jbdpdxl5dijlj6og4",
+  "contribs": [],
+  "ext_ids": {
+    "jstor": "20559948"
+  },
+  "extra": {
+    "jstor": {
+      "issue_id": "i20559932",
+      "journal_ids": [
+        "artprog",
+        "j50000510"
+      ]
+    }
+  },
+  "ident": "27lrseg7jfhxbdxohph7il7a7m",
+  "issue": "2",
+  "language": "en",
+  "pages": "44",
+  "publisher": "American Federation of Arts",
+  "refs": [],
+  "release_date": "1909-12-01",
+  "release_stage": "published",
+  "release_type": "article-journal",
+  "release_year": 1909,
+  "revision": "6d1f2e84-fc19-41ef-af9d-15f41ed951bb",
+  "state": "active",
+  "title": "State Art Commission",
+  "volume": "1",
+  "work_id": "ig234zpdw5gtdm5a2ceays6lu4"
+}
