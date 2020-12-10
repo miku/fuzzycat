@@ -56,6 +56,7 @@ class Miss(str, Enum):
     DATASET_DOI = 'miss.dataset_doi'
     JSTOR_ID = 'miss.jstor_id'
     NUM_DIFF = 'miss.num_diff'
+    PAGE_COUNT = 'miss.page_count'
     RELEASE_TYPE = 'miss.release_type'
     SHARED_DOI_PREFIX = 'miss.shared_doi_prefix'
     SHORT_TITLE = 'miss.short_title'

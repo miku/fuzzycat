@@ -1,0 +1,26 @@
+{
+  "abstracts": [],
+  "contribs": [],
+  "ext_ids": {
+    "doi": "10.5169/seals-463775"
+  },
+  "extra": {
+    "datacite": {
+      "metadataVersion": 2,
+      "resourceType": "Journal Article",
+      "resourceTypeGeneral": "Text"
+    },
+    "release_month": 5
+  },
+  "ident": "uplqxenmk5axjes6zokml6q73y",
+  "publisher": "E. Löpfe-Benz",
+  "refs": [],
+  "release_date": "1931-05-15",
+  "release_stage": "published",
+  "release_type": "article-journal",
+  "release_year": 1931,
+  "revision": "e3572a08-2c3e-4231-8548-6427b11752c3",
+  "state": "active",
+  "title": "Leitbild",
+  "work_id": "fcu63qnsmbfmbc53x5jrhh3lma"
+}

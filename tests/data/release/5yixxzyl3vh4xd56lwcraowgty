@@ -1,0 +1,43 @@
+{
+  "abstracts": [],
+  "container_id": "cjmzhtkkdjgjphz5zuzahenz2a",
+  "contribs": [
+    {
+      "extra": {
+        "seq": "first"
+      },
+      "index": 0,
+      "raw_name": "WALTER S. ROOT",
+      "role": "author"
+    },
+    {
+      "index": 1,
+      "raw_name": "FREDERICK G. HOFMANN",
+      "role": "author"
+    }
+  ],
+  "ext_ids": {
+    "doi": "10.1097/00000542-196701000-00100"
+  },
+  "extra": {
+    "crossref": {
+      "type": "journal-article"
+    },
+    "subtitle": [
+      ""
+    ]
+  },
+  "ident": "5yixxzyl3vh4xd56lwcraowgty",
+  "language": "en",
+  "pages": "284",
+  "publisher": "Ovid Technologies (Wolters Kluwer Health)",
+  "refs": [],
+  "release_stage": "published",
+  "release_type": "article-journal",
+  "release_year": 1967,
+  "revision": "ec95ac81-64ec-41c0-af9e-845f0dd6cbbe",
+  "state": "active",
+  "title": "Physiological Pharmacology. A Comprehensive Treatise",
+  "volume": "28",
+  "work_id": "gznfk7fm4jdwzkbudxyo3kemfu"
+}

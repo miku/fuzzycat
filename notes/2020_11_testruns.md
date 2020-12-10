@@ -225,8 +225,6 @@ Hard to say (but seem to be a rerun of an article in a "similar" journal).
 Ok.
 
 * [ ] https://fatcat.wiki/release/hwnqyz7n65eabhlivvkipkytji https://fatcat.wiki/release/cwqujxztefdghhssb7ysxj7b5m Status.AMBIGUOUS OK.DUMMY
-
-
 * [ ] https://fatcat.wiki/release/yespzqkm2zed7n4vhjpkddap5e https://fatcat.wiki/release/5yixxzyl3vh4xd56lwcraowgty Status.AMBIGUOUS OK.DUMMY
 * [ ] https://fatcat.wiki/release/47opwjqugjecjmiqgukahw6p2m https://fatcat.wiki/release/real7tmfxjan7j3fgkilt7fze4 Status.AMBIGUOUS OK.DUMMY
 * [ ] https://fatcat.wiki/release/gaf7gjwetrbpzntrp4bt4nxaiy https://fatcat.wiki/release/htsa3mrirndbdjtdangr4mzrdu Status.AMBIGUOUS OK.DUMMY

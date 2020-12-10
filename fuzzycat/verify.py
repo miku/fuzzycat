@@ -322,6 +322,8 @@ def compare(a, b):
             ])
             if len(types & ignore_release_types) == 0:
                 return (Status.DIFFERENT, Miss.RELEASE_TYPE)
+            if "dataset" in types and ("article" in types or "article-journal" in types):
+                return (Status.DIFFERENT, Miss.RELEASE_TYPE)
     except PathAccessError:
         pass
 
@@ -540,6 +542,26 @@ def compare(a, b):
         b_doi = glom(b, "ext_ids.doi")
         if has_doi_prefix(a_doi, "10.5860") or has_doi_prefix(b_doi, "10.5860"):
             return (Status.AMBIGUOUS, Miss.CUSTOM_PREFIX_10_5860_CHOICE_REVIEW)
+    except PathAccessError:
+        pass
+
+    # If pages exists, but differ too much, bail out.
+    # https://fatcat.wiki/release/tm3gaiumkvb3xc7t3i6suna6u4
+    # https://fatcat.wiki/release/r6dj63wh3zcrrolisn6xuacnve
+    try:
+        a_pages = glom(a, "pages")
+        b_pages = glom(b, "pages")
+        page_pattern = re.compile("([0-9]{1,})-([0-9]{1,})")
+        a_match = page_pattern.match(a_pages)
+        b_match = page_pattern.match(b_pages)
+        if a_match and b_match:
+            a_start, a_end = a_match.groups()
+            b_start, b_end = b_match.groups()
+            a_num_pages = int(a_end) - int(a_start)
+            b_num_pages = int(b_end) - int(b_start)
+            if a_num_pages >= 0 and b_num_pages >= 0:
+                if abs(a_num_pages - b_num_pages) > 5:
+                    return (Status.DIFFERENT, Miss.PAGE_COUNT)
     except PathAccessError:
         pass
 

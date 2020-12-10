@@ -1,0 +1,21 @@
+{
+  "abstracts": [],
+  "contribs": [],
+  "ext_ids": {
+    "doi": "10.1163/2352-0248_edn_a2481000"
+  },
+  "extra": {
+    "container_name": "Enzyklopädie der Neuzeit Online",
+    "crossref": {
+      "type": "dataset"
+    }
+  },
+  "ident": "pobnow7sxfhnxhltgwpru5k7oi",
+  "publisher": "Brill Academic Publishers",
+  "refs": [],
+  "release_type": "dataset",
+  "revision": "8266c500-5b31-47e5-94dd-d04d90f5fe45",
+  "state": "active",
+  "title": "Leitbild",
+  "work_id": "bzxfao6pe5hmvar75ebglzyl3i"
+}
