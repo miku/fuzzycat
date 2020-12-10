@@ -206,3 +206,26 @@ Hard to say (but seem to be a rerun of an article in a "similar" journal).
 
 Ok.
 
+----
+
+* https://fatcat.wiki/release/lqswbciv2vfkzit5zamjaqik6m https://fatcat.wiki/release/zularouecbg5fg4nd6yswxf3s4 Status.AMBIGUOUS OK.DUMMY
+* https://fatcat.wiki/release/ir25q7j34ncszlum44akptu46m https://fatcat.wiki/release/tynvvphz4berldsn4qot3iprre Status.AMBIGUOUS OK.DUMMY
+* https://fatcat.wiki/release/q6gjpbdoarf6dj2fpddziaijma https://fatcat.wiki/release/q3uoqjeslrc4jiwtbea5n62uxi Status.AMBIGUOUS OK.DUMMY
+* https://fatcat.wiki/release/j6ipokw3lfflhl2de7afxhac2a https://fatcat.wiki/release/rbgpleyhanakxing2f3234d7xq Status.AMBIGUOUS OK.DUMMY
+* https://fatcat.wiki/release/t2bdv2otczav5du5b65q46oivq https://fatcat.wiki/release/c5dj5ifvfnfidejfl3wpbigcqa Status.AMBIGUOUS OK.DUMMY
+* https://fatcat.wiki/release/bruczmzvnzhtdkd2tf3meg3oou https://fatcat.wiki/release/a7wuehxrv5edpb5265qx27yvmy Status.AMBIGUOUS OK.DUMMY
+* https://fatcat.wiki/release/uqyjav3arngq7bqmzsllxrkpmu https://fatcat.wiki/release/tebqkxnjpzfxnpsqmt5klv2ppm Status.AMBIGUOUS OK.DUMMY
+* https://fatcat.wiki/release/vpswmj3cgfhktggwvmz33fkwuq https://fatcat.wiki/release/e3fs7ttdbrds3bvsbm7lynzlpu Status.AMBIGUOUS OK.DUMMY
+* https://fatcat.wiki/release/gtsbvudmjzdeppqgzjpmfedycq https://fatcat.wiki/release/27lrseg7jfhxbdxohph7il7a7m Status.AMBIGUOUS OK.DUMMY
+* https://fatcat.wiki/release/a3kmwzn4kjerbingv7oyfs5gwe https://fatcat.wiki/release/4m6ijk5gu5gxhcbvd2f4i2xk5u Status.AMBIGUOUS OK.DUMMY
+* https://fatcat.wiki/release/swpqbs3zo5co5fzfpvkg3abtfa https://fatcat.wiki/release/dyye7bybcfbifebunhxtwrc4jm Status.AMBIGUOUS OK.DUMMY
+* https://fatcat.wiki/release/m2smjyfyfzfkrdq2narn7fm24a https://fatcat.wiki/release/u2j2domfnjdppnxpggjzxasoou Status.AMBIGUOUS OK.DUMMY
+* https://fatcat.wiki/release/254alcrrgfcz7l6j6kce7xqoli https://fatcat.wiki/release/kix6fwgliffudepddlnflom6pq Status.AMBIGUOUS OK.DUMMY
+* https://fatcat.wiki/release/s5gvgub2nvhazb5w7qae7w2dki https://fatcat.wiki/release/ac5cwyrtljgtji3jfgw3s2ckfe Status.AMBIGUOUS OK.DUMMY
+* https://fatcat.wiki/release/xtmmrroid5eipncw5yvzlgewym https://fatcat.wiki/release/j6qkx4iysrcdjmop5dlxw7yrpy Status.AMBIGUOUS OK.DUMMY
+* https://fatcat.wiki/release/qnblx3fetbegpe7ryt444dpkke https://fatcat.wiki/release/kokj44xkcfhxvorj7cs7rov2ku Status.AMBIGUOUS OK.DUMMY
+* https://fatcat.wiki/release/46jjucwbwne7vpwssyrtspnwoe https://fatcat.wiki/release/6i6umgkeo5dp3gbe2gapbmqbri Status.AMBIGUOUS OK.DUMMY
+* https://fatcat.wiki/release/vrwrf372jbd2vbwcb6fllsvhae https://fatcat.wiki/release/s43ecmng5bbqzcqhxmo7wbfsma Status.AMBIGUOUS OK.DUMMY
+* https://fatcat.wiki/release/4z2amr4cizd2jexlr7uu4jxrsa https://fatcat.wiki/release/nvyd2rotrraelcuchnu6cjbxty Status.AMBIGUOUS OK.DUMMY
+* https://fatcat.wiki/release/fupvtkn7t5d5xohffx5bt4yn24 https://fatcat.wiki/release/qqsdtxm5hjadta3jf7bgt3bnm4 Status.AMBIGUOUS OK.DUMMY
+
