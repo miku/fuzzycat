@@ -324,6 +324,8 @@ def compare(a, b):
                 return (Status.DIFFERENT, Miss.RELEASE_TYPE)
             if "dataset" in types and ("article" in types or "article-journal" in types):
                 return (Status.DIFFERENT, Miss.RELEASE_TYPE)
+            if "book" in types and ("article" in types or "article-journal" in types):
+                return (Status.DIFFERENT, Miss.RELEASE_TYPE)
     except PathAccessError:
         pass
 

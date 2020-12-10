@@ -1,0 +1,44 @@
+{
+  "abstracts": [],
+  "container_id": "5idg4ohjqfggjd2vdgxino7424",
+  "contribs": [
+    {
+      "extra": {
+        "seq": "first"
+      },
+      "index": 0,
+      "raw_affiliation": "Haveratock Hill",
+      "raw_name": "C. A. Ward",
+      "role": "author"
+    }
+  ],
+  "ext_ids": {
+    "doi": "10.1093/nq/s6-x.243.147c"
+  },
+  "extra": {
+    "crossref": {
+      "subject": [
+        "Linguistics and Language",
+        "Literature and Literary Theory",
+        "Library and Information Sciences",
+        "Language and Linguistics"
+      ],
+      "type": "journal-article"
+    }
+  },
+  "ident": "kokj44xkcfhxvorj7cs7rov2ku",
+  "issue": "243",
+  "language": "en",
+  "pages": "147-147",
+  "publisher": "Oxford University Press (OUP)",
+  "refs": [],
+  "release_date": "1884-08-23",
+  "release_stage": "published",
+  "release_type": "article-journal",
+  "release_year": 1884,
+  "revision": "a235ad3f-fdef-48d1-ae3e-c4cdab3bc83e",
+  "state": "active",
+  "title": "Dennis",
+  "volume": "s6-X",
+  "work_id": "3l3zxdptyzdqzfx4xwx5we6w5e"
+}

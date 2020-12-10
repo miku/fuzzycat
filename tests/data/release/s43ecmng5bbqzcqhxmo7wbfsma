@@ -1,0 +1,47 @@
+{
+  "abstracts": [],
+  "container_id": "tlbcf4zay5agfmghpe7enspjla",
+  "contribs": [
+    {
+      "extra": {
+        "seq": "first"
+      },
+      "index": 0,
+      "raw_name": "Lise M. Stevens",
+      "role": "author"
+    },
+    {
+      "index": 1,
+      "raw_name": "Cassio Lynm",
+      "role": "author"
+    },
+    {
+      "index": 2,
+      "raw_name": "Richard M. Glass",
+      "role": "author"
+    }
+  ],
+  "ext_ids": {
+    "doi": "10.1001/jama.292.9.1134",
+    "pmid": "15339902"
+  },
+  "extra": {
+    "crossref": {
+      "type": "journal-article"
+    }
+  },
+  "ident": "s43ecmng5bbqzcqhxmo7wbfsma",
+  "language": "en",
+  "pages": "1134",
+  "publisher": "American Medical Association (AMA)",
+  "refs": [],
+  "release_date": "2004-09-01",
+  "release_stage": "published",
+  "release_type": "article-journal",
+  "release_year": 2004,
+  "revision": "522679bf-adde-476b-9c96-8ccc936e8877",
+  "state": "active",
+  "title": "Academic Health Centers",
+  "volume": "292",
+  "work_id": "fxjwnfqtujcahjnxnoxwjo22ki"
+}
