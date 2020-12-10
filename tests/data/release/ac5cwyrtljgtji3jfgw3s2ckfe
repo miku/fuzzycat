@@ -1,0 +1,157 @@
+{
+  "abstracts": [],
+  "container_id": "7k22liqkg5cyxmwnzwhrnmkl6i",
+  "contribs": [],
+  "ext_ids": {
+    "pmcid": "PMC1799454",
+    "pmid": "5124429"
+  },
+  "extra": {
+    "pubmed": {
+      "pub_types": [
+        "Journal Article"
+      ]
+    }
+  },
+  "ident": "ac5cwyrtljgtji3jfgw3s2ckfe",
+  "issue": "5784",
+  "language": "en",
+  "pages": "378-9",
+  "refs": [
+    {
+      "extra": {
+        "pmid": "5936552",
+        "unstructured": "Arch Surg. 1966 Jul;93(1):21-32"
+      },
+      "index": 0,
+      "target_release_id": "rbsbff57ozaqndak34vpfmp7dy"
+    },
+    {
+      "extra": {
+        "pmid": "13637686",
+        "unstructured": "Ann Surg. 1959 May;149(5):684-9"
+      },
+      "index": 1,
+      "target_release_id": "ogoigrzokrd7hl7iazm3bhjlxa"
+    },
+    {
+      "extra": {
+        "pmid": "5578422",
+        "unstructured": "Surg Gynecol Obstet. 1971 Jun;132(6):1009-14"
+      },
+      "index": 2
+    },
+    {
+      "extra": {
+        "pmid": "13059764",
+        "unstructured": "Cancer. 1953 Jul;6(4):704-7"
+      },
+      "index": 3,
+      "target_release_id": "kum3eqexbbfmdlcstniuzd7l64"
+    },
+    {
+      "extra": {
+        "pmid": "6026495",
+        "unstructured": "Gut. 1967 Jun;8(3):206-20"
+      },
+      "index": 4,
+      "target_release_id": "axfnrniuovg7pnrfi33ld24wta"
+    },
+    {
+      "extra": {
+        "pmid": "6023235",
+        "unstructured": "N Engl J Med. 1967 May 25;276(21):1175-8"
+      },
+      "index": 5,
+      "target_release_id": "rzdwfbcy7vgmxi6fixplrv6gs4"
+    },
+    {
+      "extra": {
+        "pmid": "5649846",
+        "unstructured": "Am J Surg. 1968 Jun;115(6):864-9"
+      },
+      "index": 6,
+      "target_release_id": "t6pjbqu7lbfenfqtest5two47q"
+    },
+    {
+      "extra": {
+        "pmid": "13383150",
+        "unstructured": "Br J Surg. 1956 Nov;44(185):247-9"
+      },
+      "index": 7,
+      "target_release_id": "7gp6byfd4vep3aazzc76qo4ixu"
+    },
+    {
+      "extra": {
+        "pmid": "6021256",
+        "unstructured": "Surgery. 1967 Mar;61(3):372-6"
+      },
+      "index": 8
+    },
+    {
+      "extra": {
+        "pmid": "5910657",
+        "unstructured": "Am J Surg. 1966 Apr;111(4):493-5"
+      },
+      "index": 9,
+      "target_release_id": "acsr5ayfbvf63bp2xsflmrpbbi"
+    },
+    {
+      "extra": {
+        "pmid": "4175602",
+        "unstructured": "Lancet. 1968 Oct 12;2(7572):795-8"
+      },
+      "index": 10,
+      "target_release_id": "cg3gm3pkbbhgjgm2l2laakhfxu"
+    },
+    {
+      "extra": {
+        "pmid": "5926246",
+        "unstructured": "Ann Surg. 1966 Dec;164(6):1085-8"
+      },
+      "index": 11,
+      "target_release_id": "n3vsgc5ttzct5naerjg52xt4iu"
+    },
+    {
+      "extra": {
+        "pmid": "5844938",
+        "unstructured": "Am J Roentgenol Radium Ther Nucl Med. 1965 Nov;95(3):731-44"
+      },
+      "index": 12,
+      "target_release_id": "tr27dzz4dzaszl2okee62z4v4u"
+    },
+    {
+      "extra": {
+        "pmid": "5416813",
+        "unstructured": "Br Med J. 1970 Feb 7;1(5692):342-5"
+      },
+      "index": 13,
+      "target_release_id": "wl4bbyrlcncqvpkvm6gebkn7pm"
+    },
+    {
+      "extra": {
+        "pmid": "5677648",
+        "unstructured": "Clin Radiol. 1968 Jul;19(3):309-14"
+      },
+      "index": 14,
+      "target_release_id": "fmuypkr24vh2jcgjhkbsos44oi"
+    },
+    {
+      "extra": {
+        "pmid": "13444544",
+        "unstructured": "Am J Surg. 1957 Aug;94(2):262-7; discussion, 267-9"
+      },
+      "index": 15,
+      "target_release_id": "aneb2pvwdvcr5akqtw737yxb5u"
+    }
+  ],
+  "release_date": "1971-11-13",
+  "release_stage": "published",
+  "release_type": "article-journal",
+  "release_year": 1971,
+  "revision": "9607bed8-8a88-4eca-8163-b925e104f586",
+  "state": "active",
+  "title": "Compression of coeliac axis",
+  "volume": "4",
+  "work_id": "ih3u7aih4vcvbfqprmi5oghu54"
+}

@@ -1,0 +1,27 @@
+{
+  "abstracts": [],
+  "container_id": "xl3flnwhiretnie6tm4qjkvr3a",
+  "contribs": [],
+  "ext_ids": {
+    "doi": "10.1136/bmj.1.5692.317-a"
+  },
+  "extra": {
+    "crossref": {
+      "type": "journal-article"
+    }
+  },
+  "ident": "s5gvgub2nvhazb5w7qae7w2dki",
+  "issue": "5692",
+  "language": "en",
+  "pages": "317-318",
+  "publisher": "BMJ",
+  "refs": [],
+  "release_date": "1970-02-07",
+  "release_stage": "published",
+  "release_type": "article-journal",
+  "release_year": 1970,
+  "revision": "fe1d64c6-3530-45cc-b860-1a958f55bafa",
+  "state": "active",
+  "title": "Compression of coeliac axis.",
+  "work_id": "cla4qwtwdveybhjinymmlkstzy"
+}
