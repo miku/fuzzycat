@@ -208,6 +208,12 @@ Ok.
 
 ----
 
+* https://fatcat.wiki/release/xxfujnvafrazbjw7kvh7bhmuvy, https://fatcat.wiki/release/omjj75lv4rayvcqmgmicnzf5ye
+
+Here, it is the same, but we say different; md names author in one, translator in the other.
+
+----
+
 * https://fatcat.wiki/release/lqswbciv2vfkzit5zamjaqik6m https://fatcat.wiki/release/zularouecbg5fg4nd6yswxf3s4 Status.AMBIGUOUS OK.DUMMY
 * https://fatcat.wiki/release/ir25q7j34ncszlum44akptu46m https://fatcat.wiki/release/tynvvphz4berldsn4qot3iprre Status.AMBIGUOUS OK.DUMMY
 * https://fatcat.wiki/release/q6gjpbdoarf6dj2fpddziaijma https://fatcat.wiki/release/q3uoqjeslrc4jiwtbea5n62uxi Status.AMBIGUOUS OK.DUMMY
@@ -243,7 +249,6 @@ One doi is not valid anymore.
 Different reviews.
 
 * https://fatcat.wiki/release/s5gvgub2nvhazb5w7qae7w2dki https://fatcat.wiki/release/ac5cwyrtljgtji3jfgw3s2ckfe Status.AMBIGUOUS OK.DUMMY
-
 * https://fatcat.wiki/release/xtmmrroid5eipncw5yvzlgewym https://fatcat.wiki/release/j6qkx4iysrcdjmop5dlxw7yrpy Status.AMBIGUOUS OK.DUMMY
 * https://fatcat.wiki/release/qnblx3fetbegpe7ryt444dpkke https://fatcat.wiki/release/kokj44xkcfhxvorj7cs7rov2ku Status.AMBIGUOUS OK.DUMMY
 * https://fatcat.wiki/release/46jjucwbwne7vpwssyrtspnwoe https://fatcat.wiki/release/6i6umgkeo5dp3gbe2gapbmqbri Status.AMBIGUOUS OK.DUMMY
