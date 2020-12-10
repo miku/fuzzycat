@@ -248,11 +248,13 @@ One doi is not valid anymore.
 
 Different reviews.
 
-* https://fatcat.wiki/release/s5gvgub2nvhazb5w7qae7w2dki https://fatcat.wiki/release/ac5cwyrtljgtji3jfgw3s2ckfe Status.AMBIGUOUS OK.DUMMY
-* https://fatcat.wiki/release/xtmmrroid5eipncw5yvzlgewym https://fatcat.wiki/release/j6qkx4iysrcdjmop5dlxw7yrpy Status.AMBIGUOUS OK.DUMMY
-* https://fatcat.wiki/release/qnblx3fetbegpe7ryt444dpkke https://fatcat.wiki/release/kokj44xkcfhxvorj7cs7rov2ku Status.AMBIGUOUS OK.DUMMY
-* https://fatcat.wiki/release/46jjucwbwne7vpwssyrtspnwoe https://fatcat.wiki/release/6i6umgkeo5dp3gbe2gapbmqbri Status.AMBIGUOUS OK.DUMMY
-* https://fatcat.wiki/release/vrwrf372jbd2vbwcb6fllsvhae https://fatcat.wiki/release/s43ecmng5bbqzcqhxmo7wbfsma Status.AMBIGUOUS OK.DUMMY
-* https://fatcat.wiki/release/4z2amr4cizd2jexlr7uu4jxrsa https://fatcat.wiki/release/nvyd2rotrraelcuchnu6cjbxty Status.AMBIGUOUS OK.DUMMY
-* https://fatcat.wiki/release/fupvtkn7t5d5xohffx5bt4yn24 https://fatcat.wiki/release/qqsdtxm5hjadta3jf7bgt3bnm4 Status.AMBIGUOUS OK.DUMMY
+----
 
+More patterns:
+
+### Chapter vs Book
+
+* https://fatcat.wiki/release/ameuzneqizg3ff7ep4bmg4io6m
+* https://fatcat.wiki/release/s2thvzarsfbodd52w46zy2xple
+
+The DOI has some "-12" suffix for the chapter.

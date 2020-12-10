@@ -1,0 +1,29 @@
+{
+  "abstracts": [],
+  "container_id": "qfnh4nq7zjgv7ogw7sfrvtnf3a",
+  "contribs": [],
+  "ext_ids": {
+    "doi": "10.1016/0378-4320(86)90116-8"
+  },
+  "extra": {
+    "crossref": {
+      "alternative-id": [
+        "0378432086901168"
+      ],
+      "type": "journal-article"
+    }
+  },
+  "ident": "qqsdtxm5hjadta3jf7bgt3bnm4",
+  "language": "en",
+  "pages": "159-160",
+  "publisher": "Elsevier BV",
+  "refs": [],
+  "release_stage": "published",
+  "release_type": "article-journal",
+  "release_year": 1986,
+  "revision": "ac5ee164-d93a-4de6-85e4-e311afbb7131",
+  "state": "active",
+  "title": "One medicine",
+  "volume": "11",
+  "work_id": "dgmbo4ej7zfrvdycnhjlc5yejm"
+}
