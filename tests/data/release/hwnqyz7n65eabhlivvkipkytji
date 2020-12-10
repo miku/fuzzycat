@@ -1,0 +1,31 @@
+{
+  "abstracts": [],
+  "contribs": [],
+  "ext_ids": {
+    "doi": "10.21203/rs.2.18406/v1"
+  },
+  "extra": {
+    "crossref": {
+      "license": [
+        {
+          "URL": "https://creativecommons.org/licenses/by/4.0/",
+          "content-version": "unspecified",
+          "delay-in-days": 0,
+          "start": "2019-12-10T00:00:00Z"
+        }
+      ],
+      "type": "posted-content"
+    }
+  },
+  "ident": "hwnqyz7n65eabhlivvkipkytji",
+  "license_slug": "CC-BY",
+  "publisher": "Research Square",
+  "refs": [],
+  "release_date": "2019-12-10",
+  "release_type": "post",
+  "release_year": 2019,
+  "revision": "fafa138b-cad0-447d-a3e4-5d666d63943b",
+  "state": "active",
+  "title": "Beyond Health System Contact: Measuring and Validating Quality of Childbirth Care Indicators in Primary Level Facilities of Northern Ethiopia",
+  "work_id": "hlaan73lp5hezd4w25ec4ohnhq"
+}

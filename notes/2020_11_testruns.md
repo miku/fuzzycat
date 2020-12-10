@@ -214,10 +214,19 @@ Component.
 
 * [ ] https://fatcat.wiki/release/5rcu6myqx5ezjjytzpvsauyut4 https://fatcat.wiki/release/zvsffdeufjb5dbchww7ydqdq3a Status.AMBIGUOUS OK.DUMMY
 
+> pmid
 
 * [ ] https://fatcat.wiki/release/f5ebjc63j5dzpct5hsme5j3ote https://fatcat.wiki/release/zeoquc2f4nbmdbmbcbkmkxmtzi Status.AMBIGUOUS OK.DUMMY
+
+Hard to say (but seem to be a rerun of an article in a "similar" journal).
+
 * [ ] https://fatcat.wiki/release/cd5aik2whrd5jlvleyvdq6iwja https://fatcat.wiki/release/kfttghqcsbddvofqd7l4bhtavy Status.AMBIGUOUS OK.DUMMY
+
+Ok.
+
 * [ ] https://fatcat.wiki/release/hwnqyz7n65eabhlivvkipkytji https://fatcat.wiki/release/cwqujxztefdghhssb7ysxj7b5m Status.AMBIGUOUS OK.DUMMY
+
+
 * [ ] https://fatcat.wiki/release/yespzqkm2zed7n4vhjpkddap5e https://fatcat.wiki/release/5yixxzyl3vh4xd56lwcraowgty Status.AMBIGUOUS OK.DUMMY
 * [ ] https://fatcat.wiki/release/47opwjqugjecjmiqgukahw6p2m https://fatcat.wiki/release/real7tmfxjan7j3fgkilt7fze4 Status.AMBIGUOUS OK.DUMMY
 * [ ] https://fatcat.wiki/release/gaf7gjwetrbpzntrp4bt4nxaiy https://fatcat.wiki/release/htsa3mrirndbdjtdangr4mzrdu Status.AMBIGUOUS OK.DUMMY

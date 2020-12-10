@@ -1,0 +1,70 @@
+{
+  "abstracts": [
+    {
+      "content": "<title>Abstract</title>\n        <p>\n            Background: Measurement of quality of health care has been largely overlooked and continues to be a major health system bottleneck in monitoring performance and quality to evaluate progress against defined targets for better decision making. Hence, metrics of maternity care are needed to advance from health service contact alone to content of care. We assessed the accuracy of indicators that describe the quality of basic care for childbirth functions both at the individual level as well as at the population level in Northern Ethiopia. Methods: A validation study was conducted by comparing women's self-reported coverage of maternal and newborn health interventions during intra-partum and immediate postpartum care received in primary level care facilities of Northern Ethiopia against a gold standard of direct observation by a trained third party (n=478). Sensitivity, specificity and individual-level reporting accuracy via the area under the receiver operating curve (AUC) and inflation factor (IF) to estimate population-level accuracy for each indicator was applied for validity analysis. Findings: 455(97.5%) of women completed the survey describing health interventions. Thirty-two (43.2%) of the 93-basic quality child birth care indicators that were assessed could be accurately measure at the facility and population level (AUC&gt;0.60 and 0.75\n        </p>",
+      "mimetype": "application/xml+jats",
+      "sha1": "6d69e892d6cb1bd11222b6a9e41b03dc6a77bed5"
+    }
+  ],
+  "contribs": [
+    {
+      "creator_id": "htz2j4a44fch5juh5c7dj5eody",
+      "extra": {
+        "seq": "first"
+      },
+      "given_name": "Haftom",
+      "index": 0,
+      "raw_name": "Haftom Weldearegay",
+      "role": "author",
+      "surname": "Weldearegay"
+    },
+    {
+      "given_name": "Araya",
+      "index": 1,
+      "raw_name": "Araya Medhanyie",
+      "role": "author",
+      "surname": "Medhanyie"
+    },
+    {
+      "given_name": "Hagos",
+      "index": 2,
+      "raw_name": "Hagos Godefay",
+      "role": "author",
+      "surname": "Godefay"
+    },
+    {
+      "given_name": "Alemayehu",
+      "index": 3,
+      "raw_name": "Alemayehu Kahsay",
+      "role": "author",
+      "surname": "Kahsay"
+    }
+  ],
+  "ext_ids": {
+    "doi": "10.21203/rs.2.18406/v2"
+  },
+  "extra": {
+    "crossref": {
+      "license": [
+        {
+          "URL": "https://creativecommons.org/licenses/by/4.0/",
+          "content-version": "unspecified",
+          "delay-in-days": 0,
+          "start": "2020-03-26T00:00:00Z"
+        }
+      ],
+      "type": "posted-content"
+    }
+  },
+  "ident": "cwqujxztefdghhssb7ysxj7b5m",
+  "license_slug": "CC-BY",
+  "publisher": "Research Square",
+  "refs": [],
+  "release_date": "2020-03-26",
+  "release_type": "post",
+  "release_year": 2020,
+  "revision": "9b5ced4c-5988-483c-857a-44d1c206f9bf",
+  "state": "active",
+  "title": "Beyond Health System Contact: Measuring and Validating Quality of Childbirth Care Indicators in Primary Level Facilities of Northern Ethiopia",
+  "work_id": "4lqckr4udfamneczsq7mogy5yq"
+}

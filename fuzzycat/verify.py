@@ -252,6 +252,17 @@ def compare(a, b):
     except PathAccessError:
         pass
 
+    try:
+        # https://fatcat.wiki/release/cwqujxztefdghhssb7ysxj7b5m
+        # https://fatcat.wiki/release/hwnqyz7n65eabhlivvkipkytji
+        a_doi = glom(a, "ext_ids.doi")
+        b_doi = glom(b, "ext_ids.doi")
+        versioned_doi_pattern = '10[.].*/v[0-9]{1,}$'
+        if re.match(versioned_doi_pattern, a_doi) and re.match(versioned_doi_pattern, b_doi):
+            return (Status.STRONG, OK.VERSIONED_DOI)
+    except PathAccessError:
+        pass
+
     # TODO: datacite specific vocabulary
     # extra.datacite.relations[].{relationType=IsNewerVersionOf,relatedIdentifier=10...}
     # beware: we have versions and "isPartOf", e.g. https://api.fatcat.wiki/v0/release/ybxygpeypbaq5pfrztu3z2itw4
@@ -335,7 +346,7 @@ def compare(a, b):
         pass
 
     try:
-        if glom(a, "extra.crossref.type") == "component" and glom(b, "extra.crossref.type"):
+        if glom(a, "release_type") == "component" and glom(b, "release_type") == "component":
             a_doi = glom(a, "ext_ids.doi")
             b_doi = glom(b, "ext_ids.doi")
             if a_doi != b_doi:
