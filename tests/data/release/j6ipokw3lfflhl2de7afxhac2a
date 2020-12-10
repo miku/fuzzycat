@@ -1,0 +1,30 @@
+{
+  "abstracts": [],
+  "container_id": "guimwrqoe5d2pkicpa2s32l6xu",
+  "contribs": [],
+  "ext_ids": {
+    "doi": "10.1016/s0168-1591(05)00350-3"
+  },
+  "extra": {
+    "crossref": {
+      "alternative-id": [
+        "S0168159105003503"
+      ],
+      "type": "journal-article"
+    }
+  },
+  "ident": "j6ipokw3lfflhl2de7afxhac2a",
+  "issue": "3-4",
+  "language": "en",
+  "pages": "277-278",
+  "publisher": "Elsevier BV",
+  "refs": [],
+  "release_stage": "published",
+  "release_type": "article-journal",
+  "release_year": 2005,
+  "revision": "beccbee6-2bdc-4ead-93f4-3b23d2b6f435",
+  "state": "active",
+  "title": "Contents Volume 95",
+  "volume": "95",
+  "work_id": "5e7xafxmybcczjcmggzdoj3miq"
+}

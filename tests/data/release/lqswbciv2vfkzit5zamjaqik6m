@@ -1,0 +1,33 @@
+{
+  "abstracts": [],
+  "container_id": "ijnmqztdpngstlqhxy57nugiki",
+  "contribs": [],
+  "ext_ids": {
+    "doi": "10.2307/781535",
+    "jstor": "781535"
+  },
+  "extra": {
+    "crossref": {
+      "type": "journal-article"
+    },
+    "jstor": {
+      "issue_id": "i231955",
+      "journal_ids": [
+        "yalelawj",
+        "j100412"
+      ]
+    }
+  },
+  "ident": "lqswbciv2vfkzit5zamjaqik6m",
+  "language": "en",
+  "pages": "44",
+  "publisher": "The Yale Law Journal Company",
+  "refs": [],
+  "release_stage": "published",
+  "release_type": "review-book",
+  "release_year": 1894,
+  "revision": "e146bb9a-bce9-4182-b7b4-2deb7ae82343",
+  "state": "active",
+  "title": "The Historical Development of the Jury System",
+  "work_id": "6tt2vuje7zg7jedk3hjlb3cpzq"
+}

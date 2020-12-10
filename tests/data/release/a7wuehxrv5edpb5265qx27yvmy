@@ -1,0 +1,81 @@
+{
+  "abstracts": [],
+  "container_id": "hfz3linxqrghpptd5ehtsayeae",
+  "contribs": [
+    {
+      "creator_id": "a6hdfqmxcrelngknfp4ofaw664",
+      "extra": {
+        "seq": "first"
+      },
+      "index": 0,
+      "raw_affiliation": "Department\nof Microbiology and Immunology, University of British Columbia, Vancouver, British Columbia V6T 1Z4, Canada",
+      "raw_name": "Joe C. H. Ho",
+      "role": "author"
+    },
+    {
+      "index": 1,
+      "raw_affiliation": "Department\nof Chemical & Biological Engineering, University of British Columbia, Vancouver, British Columbia V6T 1Z4, Canada",
+      "raw_name": "Sandip V. Pawar",
+      "role": "author"
+    },
+    {
+      "index": 2,
+      "raw_affiliation": "Department\nof Microbiology and Immunology, University of British Columbia, Vancouver, British Columbia V6T 1Z4, Canada",
+      "raw_name": "Steven J. Hallam",
+      "role": "author"
+    },
+    {
+      "creator_id": "bvqy7ker6jekbjuajnr6pkdole",
+      "index": 3,
+      "raw_affiliation": "Department\nof Chemical & Biological Engineering, University of British Columbia, Vancouver, British Columbia V6T 1Z4, Canada",
+      "raw_name": "Vikramaditya G. Yadav",
+      "role": "author"
+    }
+  ],
+  "ext_ids": {
+    "doi": "10.1021/acssynbio.7b00412",
+    "pmid": "29182267",
+    "wikidata_qid": "Q47307188"
+  },
+  "extra": {
+    "crossref": {
+      "alternative-id": [
+        "10.1021/acssynbio.7b00412"
+      ],
+      "funder": [
+        {
+          "DOI": "10.13039/501100000196",
+          "award": [],
+          "doi-asserted-by": "publisher",
+          "name": "Canada Foundation for Innovation"
+        },
+        {
+          "DOI": "10.13039/501100000038",
+          "award": [],
+          "doi-asserted-by": "publisher",
+          "name": "Natural Sciences and Engineering Research Council of Canada"
+        },
+        {
+          "DOI": "10.13039/100007631",
+          "award": [],
+          "doi-asserted-by": "publisher",
+          "name": "Canadian Institute for Advanced Research"
+        }
+      ],
+      "type": "journal-article"
+    }
+  },
+  "ident": "a7wuehxrv5edpb5265qx27yvmy",
+  "language": "en",
+  "pages": "392-398",
+  "publisher": "American Chemical Society (ACS)",
+  "refs": [],
+  "release_date": "2017-12-04",
+  "release_stage": "published",
+  "release_type": "article-journal",
+  "release_year": 2017,
+  "revision": "43afde9f-af4f-4a4d-914d-3764459ea6f2",
+  "state": "active",
+  "title": "An Improved Whole-Cell Biosensor for the Discovery of Lignin-Transforming Enzymes in Functional Metagenomic Screens",
+  "work_id": "j4irqclqhzfmpicokyblpplw2y"
+}

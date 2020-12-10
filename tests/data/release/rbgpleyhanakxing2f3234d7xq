@@ -1,0 +1,29 @@
+{
+  "abstracts": [],
+  "container_id": "d3c67rfklzdw5oc3jn74iprzui",
+  "contribs": [],
+  "ext_ids": {
+    "doi": "10.1016/0022-0981(86)90263-7"
+  },
+  "extra": {
+    "crossref": {
+      "alternative-id": [
+        "0022098186902637"
+      ],
+      "type": "journal-article"
+    }
+  },
+  "ident": "rbgpleyhanakxing2f3234d7xq",
+  "language": "en",
+  "pages": "i-ii",
+  "publisher": "Elsevier BV",
+  "refs": [],
+  "release_stage": "published",
+  "release_type": "article-journal",
+  "release_year": 1986,
+  "revision": "b7a26d37-fab3-448b-b194-ce9baa7f70f1",
+  "state": "active",
+  "title": "Contents volume 95",
+  "volume": "95",
+  "work_id": "n5dojgtwzrarpnohhoiwdgkyta"
+}

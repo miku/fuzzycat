@@ -1,0 +1,20 @@
+{
+  "abstracts": [],
+  "contribs": [],
+  "ext_ids": {
+    "doi": "10.1021/acssynbio.7b00412.s001"
+  },
+  "extra": {
+    "crossref": {
+      "type": "component"
+    }
+  },
+  "ident": "bruczmzvnzhtdkd2tf3meg3oou",
+  "publisher": "American Chemical Society (ACS)",
+  "refs": [],
+  "release_type": "component",
+  "revision": "f1dabe96-12f8-482f-bf7a-9266cfaf1ea3",
+  "state": "active",
+  "title": "An Improved Whole-Cell Biosensor for the Discovery of Lignin-Transforming Enzymes in Functional Metagenomic Screens",
+  "work_id": "6e5mctgorbb3vcege3catlflia"
+}

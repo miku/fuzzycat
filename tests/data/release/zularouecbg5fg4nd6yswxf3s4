@@ -1,0 +1,41 @@
+{
+  "abstracts": [],
+  "container_id": "mir3hjw6zffxpiosieziqd36se",
+  "contribs": [
+    {
+      "index": 0,
+      "raw_name": "W. D. L.",
+      "role": "author"
+    }
+  ],
+  "ext_ids": {
+    "doi": "10.2307/3305883",
+    "jstor": "3305883"
+  },
+  "extra": {
+    "crossref": {
+      "type": "journal-article"
+    },
+    "jstor": {
+      "issue_id": "i272899",
+      "journal_ids": [
+        "amerlawregirevi",
+        "j101029"
+      ]
+    }
+  },
+  "ident": "zularouecbg5fg4nd6yswxf3s4",
+  "issue": "10",
+  "language": "en",
+  "pages": "762",
+  "publisher": "University of Pennsylvania Press",
+  "refs": [],
+  "release_stage": "published",
+  "release_type": "review-book",
+  "release_year": 1894,
+  "revision": "c8e301ba-29bf-40ed-adb5-f070cbc89eab",
+  "state": "active",
+  "title": "The Historical Development of the Jury System",
+  "volume": "42",
+  "work_id": "2kacegvffbbm5g7cprzyglckgi"
+}
