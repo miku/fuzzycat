@@ -190,24 +190,6 @@ A difficult prefix.
 
 BSI, one is a subdocument of another. The subdocument has a subtitle. That's more is-part-of.
 
-* [ ] https://fatcat.wiki/release/b3odcrpuwveqljszl7l4c4ah5e https://fatcat.wiki/release/j4drpogsbzfd7esim4um5me374 Status.AMBIGUOUS OK.DUMMY
-* [ ] https://fatcat.wiki/release/4owywaqwwvhrthytdjbulmltue https://fatcat.wiki/release/cy2v4wpm7nfptexi6ybjylapee Status.AMBIGUOUS OK.DUMMY
-* [ ] https://fatcat.wiki/release/5ba6m23tmvcwdcpq3a2rcof4du https://fatcat.wiki/release/wczxyrrmovf3te5ziep7bbdreu Status.AMBIGUOUS OK.DUMMY
-* [ ] https://fatcat.wiki/release/tksiqaqw3fb2rdiszgsal26lku https://fatcat.wiki/release/6kzbczpsxjhtjjz6x2srkp4rbe Status.AMBIGUOUS OK.DUMMY
-* [ ] https://fatcat.wiki/release/wvgpq3vdd5hdrosg6nun2jobly https://fatcat.wiki/release/4dm7vmuv7fadxh5uumc3x4eal4 Status.AMBIGUOUS OK.DUMMY
-* [ ] https://fatcat.wiki/release/n2agfjrbvjbxnocoobb7cofqzy https://fatcat.wiki/release/rbvztbywgfd3vpbelawvb7ulty Status.AMBIGUOUS OK.DUMMY
-* [ ] https://fatcat.wiki/release/gncyo2gjrrbiphavmpbd7yix7y https://fatcat.wiki/release/olw7i5gmyjgfji3lk57mmo3rrm Status.AMBIGUOUS OK.DUMMY
-* [ ] https://fatcat.wiki/release/owv47unlhjduhbnf6vftfe5364 https://fatcat.wiki/release/ig5cqwobgjgcforiq3zvxp4poq Status.AMBIGUOUS OK.DUMMY
-* [ ] https://fatcat.wiki/release/ewgtefev5rcabisgixerg7aep4 https://fatcat.wiki/release/urtols4ovjg57k5do5kb7cg3ui Status.AMBIGUOUS OK.DUMMY
-* [ ] https://fatcat.wiki/release/ocdgt5h5nzgc3pr3hledvlks7a https://fatcat.wiki/release/xcno2xuoc5eo7ajsvv7ol6zkpa Status.AMBIGUOUS OK.DUMMY
-* [ ] https://fatcat.wiki/release/lghaypucrraevgpwqsauyc4vg4 https://fatcat.wiki/release/nusozx5eijd7hjpokzxot6duru Status.AMBIGUOUS OK.DUMMY
-* [ ] https://fatcat.wiki/release/4rxft53u5rfd7orhfhkjgwu6ly https://fatcat.wiki/release/b2zqn4bjqrdyhdvdl2baivxf4i Status.AMBIGUOUS OK.DUMMY
-* [ ] https://fatcat.wiki/release/ojk6vxg2krajbf5nr6klq4fmty https://fatcat.wiki/release/zq42eqmnfvdh7dmf774d4zwlx4 Status.AMBIGUOUS OK.DUMMY
-* [ ] https://fatcat.wiki/release/3d73i34irjedjnhulyhmehnrvq https://fatcat.wiki/release/winjvljpu5al5deaz7v5qi7kta Status.AMBIGUOUS OK.DUMMY
-* [ ] https://fatcat.wiki/release/jna6aodi2rfq7gwzxhb4s45kqy https://fatcat.wiki/release/3qst2qrdbvdhrdvu22kyqt22xy Status.AMBIGUOUS OK.DUMMY
-
-----
-
 * [ ] https://fatcat.wiki/release/eomug3y4afbynhcyzrtcvki55u https://fatcat.wiki/release/zcu2pugta5fttnqltgersan52q Status.AMBIGUOUS OK.DUMMY
 
 Component.
@@ -223,11 +205,4 @@ Hard to say (but seem to be a rerun of an article in a "similar" journal).
 * [ ] https://fatcat.wiki/release/cd5aik2whrd5jlvleyvdq6iwja https://fatcat.wiki/release/kfttghqcsbddvofqd7l4bhtavy Status.AMBIGUOUS OK.DUMMY
 
 Ok.
-
-* [ ] https://fatcat.wiki/release/hwnqyz7n65eabhlivvkipkytji https://fatcat.wiki/release/cwqujxztefdghhssb7ysxj7b5m Status.AMBIGUOUS OK.DUMMY
-* [ ] https://fatcat.wiki/release/yespzqkm2zed7n4vhjpkddap5e https://fatcat.wiki/release/5yixxzyl3vh4xd56lwcraowgty Status.AMBIGUOUS OK.DUMMY
-* [ ] https://fatcat.wiki/release/47opwjqugjecjmiqgukahw6p2m https://fatcat.wiki/release/real7tmfxjan7j3fgkilt7fze4 Status.AMBIGUOUS OK.DUMMY
-* [ ] https://fatcat.wiki/release/gaf7gjwetrbpzntrp4bt4nxaiy https://fatcat.wiki/release/htsa3mrirndbdjtdangr4mzrdu Status.AMBIGUOUS OK.DUMMY
-* [ ] https://fatcat.wiki/release/pobnow7sxfhnxhltgwpru5k7oi https://fatcat.wiki/release/uplqxenmk5axjes6zokml6q73y Status.AMBIGUOUS OK.DUMMY
-* [ ] https://fatcat.wiki/release/tm3gaiumkvb3xc7t3i6suna6u4 https://fatcat.wiki/release/r6dj63wh3zcrrolisn6xuacnve Status.AMBIGUOUS OK.DUMMY
 
