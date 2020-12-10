@@ -258,3 +258,5 @@ More patterns:
 * https://fatcat.wiki/release/s2thvzarsfbodd52w46zy2xple
 
 The DOI has some "-12" suffix for the chapter.
+
+PREFIX: 10.1515
