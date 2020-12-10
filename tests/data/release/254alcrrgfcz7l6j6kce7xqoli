@@ -1,0 +1,28 @@
+{
+  "abstracts": [],
+  "container_id": "vppizkaoijdnjjof52qyt7oto4",
+  "contribs": [],
+  "ext_ids": {
+    "doi": "10.1016/1053-0770(93)90136-9"
+  },
+  "extra": {
+    "crossref": {
+      "alternative-id": [
+        "1053077093901369"
+      ],
+      "type": "journal-article"
+    }
+  },
+  "ident": "254alcrrgfcz7l6j6kce7xqoli",
+  "language": "en",
+  "pages": "117-118",
+  "publisher": "Elsevier BV",
+  "refs": [],
+  "release_stage": "published",
+  "release_type": "article-journal",
+  "release_year": 1993,
+  "revision": "fd0ef44f-763b-4fd3-bfac-a4b9721413ad",
+  "state": "active",
+  "title": "Adenosine versus verapamil in the treatment of supraventricular tachycardia: A randomized double-crossover trial",
+  "work_id": "aw72teh6indmzf36ilmwxdkrua"
+}

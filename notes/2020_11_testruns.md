@@ -228,10 +228,20 @@ Ok.
 
 * https://fatcat.wiki/release/a3kmwzn4kjerbingv7oyfs5gwe https://fatcat.wiki/release/4m6ijk5gu5gxhcbvd2f4i2xk5u Status.AMBIGUOUS OK.DUMMY
 
+Ok.
 
 * https://fatcat.wiki/release/swpqbs3zo5co5fzfpvkg3abtfa https://fatcat.wiki/release/dyye7bybcfbifebunhxtwrc4jm Status.AMBIGUOUS OK.DUMMY
+
+These DOI lead nowhere.
+
 * https://fatcat.wiki/release/m2smjyfyfzfkrdq2narn7fm24a https://fatcat.wiki/release/u2j2domfnjdppnxpggjzxasoou Status.AMBIGUOUS OK.DUMMY
+
+One doi is not valid anymore.
+
 * https://fatcat.wiki/release/254alcrrgfcz7l6j6kce7xqoli https://fatcat.wiki/release/kix6fwgliffudepddlnflom6pq Status.AMBIGUOUS OK.DUMMY
+
+Different reviews.
+
 * https://fatcat.wiki/release/s5gvgub2nvhazb5w7qae7w2dki https://fatcat.wiki/release/ac5cwyrtljgtji3jfgw3s2ckfe Status.AMBIGUOUS OK.DUMMY
 * https://fatcat.wiki/release/xtmmrroid5eipncw5yvzlgewym https://fatcat.wiki/release/j6qkx4iysrcdjmop5dlxw7yrpy Status.AMBIGUOUS OK.DUMMY
 * https://fatcat.wiki/release/qnblx3fetbegpe7ryt444dpkke https://fatcat.wiki/release/kokj44xkcfhxvorj7cs7rov2ku Status.AMBIGUOUS OK.DUMMY

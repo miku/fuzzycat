@@ -1,0 +1,38 @@
+{
+  "abstracts": [],
+  "container_id": "yewzjtpl3varhgx3mlhwq23pfa",
+  "contribs": [
+    {
+      "extra": {
+        "seq": "first"
+      },
+      "index": 0,
+      "raw_name": "Todd Zaayer",
+      "role": "author"
+    }
+  ],
+  "ext_ids": {
+    "doi": "10.1016/0736-4679(93)90530-k"
+  },
+  "extra": {
+    "crossref": {
+      "alternative-id": [
+        "073646799390530K"
+      ],
+      "type": "journal-article"
+    }
+  },
+  "ident": "kix6fwgliffudepddlnflom6pq",
+  "language": "en",
+  "pages": "231",
+  "publisher": "Elsevier BV",
+  "refs": [],
+  "release_stage": "published",
+  "release_type": "article-journal",
+  "release_year": 1993,
+  "revision": "8d4c2cdf-ed6d-4623-aac7-2180949b646a",
+  "state": "active",
+  "title": "Adenosine versus verapamil in the treatment of supraventricular tachycardia: A randomized double-crossover trial",
+  "volume": "11",
+  "work_id": "igpkntkj2vfobhqibhmuut6hxy"
+}
