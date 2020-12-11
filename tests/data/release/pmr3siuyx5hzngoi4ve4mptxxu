@@ -1,0 +1,351 @@
+{
+  "abstracts": [],
+  "container_id": "gpcjw62aabbk3hu3lc4fgubxse",
+  "contribs": [
+    {
+      "extra": {
+        "seq": "first"
+      },
+      "index": 0,
+      "raw_name": "Bruce Edmonds",
+      "role": "author"
+    }
+  ],
+  "ext_ids": {
+    "doi": "10.1007/978-3-319-66948-9_4"
+  },
+  "extra": {
+    "crossref": {
+      "license": [
+        {
+          "URL": "http://www.springer.com/tdm",
+          "content-version": "unspecified",
+          "delay-in-days": 0,
+          "start": "2017-01-01T00:00:00Z"
+        },
+        {
+          "URL": "http://www.springer.com/tdm",
+          "content-version": "unspecified",
+          "delay-in-days": 0,
+          "start": "2017-01-01T00:00:00Z"
+        }
+      ],
+      "type": "book-chapter"
+    }
+  },
+  "ident": "pmr3siuyx5hzngoi4ve4mptxxu",
+  "pages": "39-58",
+  "publisher": "Springer International Publishing",
+  "refs": [
+    {
+      "container_name": "The evolution of cooperation",
+      "extra": {
+        "authors": [
+          "R Axelrod"
+        ],
+        "unstructured": "Axelrod, R. (1984). The evolution of cooperation. New York, NY: Basic Books.",
+        "volume-title": "The evolution of cooperation"
+      },
+      "index": 0,
+      "key": "4_CR1",
+      "year": 1984
+    },
+    {
+      "container_name": "Science",
+      "extra": {
+        "authors": [
+          "R Axelrod"
+        ],
+        "doi": "10.1126/science.7466396",
+        "unstructured": "Axelrod, R., & Hamilton, W. D. (1981). The evolution of cooperation. Science, 211, 1390–1396.",
+        "volume": "211"
+      },
+      "index": 1,
+      "key": "4_CR2",
+      "locator": "1390",
+      "year": 1981
+    },
+    {
+      "container_name": "How the laws of physics lie",
+      "extra": {
+        "authors": [
+          "N Cartwright"
+        ],
+        "doi": "10.1093/0198247044.001.0001",
+        "unstructured": "Cartwright, N. (1983). How the laws of physics lie. Oxford: Oxford University Press.",
+        "volume-title": "How the laws of physics lie"
+      },
+      "index": 2,
+      "key": "4_CR3",
+      "year": 1983
+    },
+    {
+      "container_name": "International Journal of Approximate Reasoning",
+      "extra": {
+        "authors": [
+          "PR Cohen"
+        ],
+        "unstructured": "Cohen, P. R. (1984a). Heuristic reasoning about uncertainty: an artificial intelligence approach. International Journal of Approximate Reasoning, 1(2), 243–245."
+      },
+      "index": 3,
+      "key": "4_CR4",
+      "locator": "243",
+      "year": 1984
+    },
+    {
+      "container_name": "Heuristic reasoning about uncertainty: an artificial intelligence approach",
+      "extra": {
+        "authors": [
+          "PR Cohen"
+        ],
+        "unstructured": "Cohen, P. R. (1984b). Heuristic reasoning about uncertainty: an artificial intelligence approach. Marshfield, MA: Pitman Publishing.",
+        "volume-title": "Heuristic reasoning about uncertainty: an artificial intelligence approach"
+      },
+      "index": 4,
+      "key": "4_CR5",
+      "year": 1984
+    },
+    {
+      "container_name": "Multi agent based simulation",
+      "extra": {
+        "authors": [
+          "B Edmonds"
+        ],
+        "doi": "10.1007/3-540-44561-7_2",
+        "series-title": "Lecture notes in artificial intelligence",
+        "unstructured": "Edmonds, B. (2001). The use of models - making MABS actually work. In S. Moss & P. Davidsson (Eds.), Multi agent based simulation, Lecture notes in artificial intelligence (Vol. 1979, pp. 15–32). Berlin: Springer-Verlag.",
+        "volume-title": "Multi agent based simulation"
+      },
+      "index": 5,
+      "key": "4_CR6",
+      "locator": "15",
+      "year": 2001
+    },
+    {
+      "container_name": "Journal of Artificial Societies and Social Simulation",
+      "extra": {
+        "authors": [
+          "B Edmonds"
+        ],
+        "doi": "10.18564/jasss.1523",
+        "unstructured": "Edmonds, B. (2010). Bootstrapping knowledge about social phenomena using simulation models. Journal of Artificial Societies and Social Simulation, 13(1), 8. \nhttp://jasss.soc.surrey.ac.uk/13/1/8.html",
+        "volume": "13"
+      },
+      "index": 6,
+      "key": "4_CR7",
+      "year": 2010
+    },
+    {
+      "extra": {
+        "doi": "10.1007/978-3-319-66948-9_28",
+        "unstructured": "Edmonds, B., Lucas, P., Rouchier, J., & Taylor, R. (2017). Understanding human societies. doi:\nhttps://doi.org/10.1007/978-3-319-66948-9_28\n\n."
+      },
+      "index": 7,
+      "key": "4_CR8"
+    },
+    {
+      "container_name": "Journal of Artificial Societies and Social Simulation",
+      "extra": {
+        "authors": [
+          "JM Epstein"
+        ],
+        "unstructured": "Epstein, J. M. (2008). Why model? Journal of Artificial Societies and Social Simulation, 11(4), 12. \nhttp://jasss.soc.surrey.ac.uk/11/4/12.html",
+        "volume": "11"
+      },
+      "index": 8,
+      "key": "4_CR9",
+      "locator": "12",
+      "year": 2008
+    },
+    {
+      "extra": {
+        "doi": "10.1007/978-3-319-66948-9_7",
+        "unstructured": "Galán, J. M., Izquierdo, L. R., Izquierdo, S. S., Santos, J. I., del Olmo, R., & López-Paredes, A. (2017a). Checking simulations: Detecting and avoiding errors and artefacts. doi:\nhttps://doi.org/10.1007/978-3-319-66948-9_7\n\n."
+      },
+      "index": 9,
+      "key": "4_CR12"
+    },
+    {
+      "container_name": "Ecological Modelling",
+      "extra": {
+        "authors": [
+          "V Grimm"
+        ],
+        "doi": "10.1016/j.ecolmodel.2006.04.023",
+        "unstructured": "Grimm, V., Berger, U., Bastiansen, F., Eliassen, S., Ginot, V., Giske, J., et al. (2006). A standard protocol for describing individual-based and agent-based models. Ecological Modelling, 198, 115–126.",
+        "volume": "198"
+      },
+      "index": 10,
+      "key": "4_CR10",
+      "locator": "115",
+      "year": 2006
+    },
+    {
+      "container_name": "Ecological Modelling",
+      "extra": {
+        "authors": [
+          "V Grimm"
+        ],
+        "doi": "10.1016/j.ecolmodel.2010.08.019",
+        "unstructured": "Grimm, V., Berger, U., DeAngelis, D. L., Polhill, J. G., Giske, J., & Railsback, S. F. (2010). The ODD protocol: A review and first update. Ecological Modelling, 221, 2760–2768.",
+        "volume": "221"
+      },
+      "index": 11,
+      "key": "4_CR11",
+      "locator": "2760",
+      "year": 2010
+    },
+    {
+      "container_name": "The structure of scientific revolutions",
+      "extra": {
+        "authors": [
+          "TS Kuhn"
+        ],
+        "unstructured": "Kuhn, T. S. (1962). The structure of scientific revolutions. Chicago, IL: University of Chicago Press.",
+        "volume-title": "The structure of scientific revolutions"
+      },
+      "index": 12,
+      "key": "4_CR13",
+      "year": 1962
+    },
+    {
+      "container_name": "American Anthropologist",
+      "extra": {
+        "authors": [
+          "JS Lansing"
+        ],
+        "doi": "10.1525/aa.1993.95.1.02a00050",
+        "unstructured": "Lansing, J. S., & Kramer, J. N. (1993). Emergent properties of balinese water temple networks: coadaptation on a rugged fitness landscape. American Anthropologist, 1, 97–114."
+      },
+      "index": 13,
+      "key": "4_CR14",
+      "locator": "97",
+      "year": 1993
+    },
+    {
+      "container_name": "Journal of International Economics",
+      "extra": {
+        "authors": [
+          "RA Meese"
+        ],
+        "doi": "10.1016/0022-1996(83)90017-x",
+        "unstructured": "Meese, R. A., & Rogoff, K. (1983). Empirical exchange rate models of the seventies - Do they fit out of sample? Journal of International Economics, 14, 3–24.",
+        "volume": "14"
+      },
+      "index": 14,
+      "key": "4_CR15",
+      "year": 1983
+    },
+    {
+      "container_name": "Journal of Artificial Societies and Social Simulation",
+      "extra": {
+        "authors": [
+          "S Moss"
+        ],
+        "unstructured": "Moss, S. (1998). Critical incident management: An empirically derived computational model. Journal of Artificial Societies and Social Simulation, 1(4), 1. \nhttp://jasss.soc.surrey.ac.uk/1/4/1.html"
+      },
+      "index": 15,
+      "key": "4_CR16",
+      "year": 1998
+    },
+    {
+      "container_name": "Human problem solving",
+      "extra": {
+        "authors": [
+          "A Newell"
+        ],
+        "unstructured": "Newell, A., & Simon, H. A. (1972). Human problem solving. Englewood Cliffs, NJ: Prentice-Hall.",
+        "volume-title": "Human problem solving"
+      },
+      "index": 16,
+      "key": "4_CR17",
+      "year": 1972
+    },
+    {
+      "extra": {
+        "doi": "10.1007/978-3-319-66948-9_5",
+        "unstructured": "Norling, E., Meyer, R., & Edmonds, B. (2017). Informal approaches to developing simulations. doi:\nhttps://doi.org/10.1007/978-3-319-66948-9_5\n\n."
+      },
+      "index": 17,
+      "key": "4_CR18"
+    },
+    {
+      "container_name": "The American Economic Review",
+      "extra": {
+        "authors": [
+          "TC Schelling"
+        ],
+        "unstructured": "Schelling, T. C. (1969). Models of segregation. The American Economic Review, 59(2), 488–493.",
+        "volume": "59"
+      },
+      "index": 18,
+      "key": "4_CR19",
+      "locator": "488",
+      "year": 1969
+    },
+    {
+      "container_name": "Journal of Mathematical Sociology",
+      "extra": {
+        "authors": [
+          "TC Schelling"
+        ],
+        "doi": "10.1080/0022250x.1971.9989794",
+        "unstructured": "Schelling, T. C. (1971). Dynamic models of segregation. Journal of Mathematical Sociology, 1(2), 143–186."
+      },
+      "index": 19,
+      "key": "4_CR20",
+      "locator": "143",
+      "year": 1971
+    },
+    {
+      "container_name": "The signal and the noise: the art and science of prediction",
+      "extra": {
+        "authors": [
+          "N Silver"
+        ],
+        "unstructured": "Silver, N. (2012). The signal and the noise: the art and science of prediction. London: Penguin.",
+        "volume-title": "The signal and the noise: the art and science of prediction"
+      },
+      "index": 20,
+      "key": "4_CR21",
+      "year": 2012
+    },
+    {
+      "container_name": "Journal of Artificial Societies and Social Simulation",
+      "extra": {
+        "authors": [
+          "W Thorngate"
+        ],
+        "doi": "10.18564/jasss.2139",
+        "unstructured": "Thorngate, W., & Edmonds, B. (2013). Measuring simulation-observation fit: An introduction to ordinal pattern analysis. Journal of Artificial Societies and Social Simulation, 16(2), 14. \nhttp://jasss.soc.surrey.ac.uk/16/2/4.html",
+        "volume": "16"
+      },
+      "index": 21,
+      "key": "4_CR22",
+      "locator": "14",
+      "year": 2013
+    },
+    {
+      "container_name": "American Journal of Sociology",
+      "extra": {
+        "authors": [
+          "DJ Watts"
+        ],
+        "doi": "10.1086/678271",
+        "unstructured": "Watts, D. J. (2014). Common sense and sociological explanations. American Journal of Sociology, 120(2), 313–351.",
+        "volume": "120"
+      },
+      "index": 22,
+      "key": "4_CR23",
+      "locator": "313",
+      "year": 2014
+    }
+  ],
+  "release_stage": "published",
+  "release_type": "chapter",
+  "release_year": 2017,
+  "revision": "5132511b-62f9-48e4-b440-3519b498a69c",
+  "state": "active",
+  "title": "Different Modelling Purposes",
+  "work_id": "2ohizpyozzeoxkw75b6wzaieyu"
+}

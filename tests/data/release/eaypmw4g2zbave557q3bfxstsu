@@ -1,0 +1,103 @@
+{
+  "abstracts": [],
+  "container_id": "klq2tnwbsbhohor7blhqllaz2y",
+  "contribs": [
+    {
+      "extra": {
+        "seq": "first"
+      },
+      "given_name": "Bruce",
+      "index": 0,
+      "raw_name": "Bruce Edmonds",
+      "role": "author",
+      "surname": "Edmonds"
+    },
+    {
+      "given_name": "Christophe",
+      "index": 1,
+      "raw_name": "Christophe Le Page",
+      "role": "author",
+      "surname": "Le Page"
+    },
+    {
+      "given_name": "Mike",
+      "index": 2,
+      "raw_name": "Mike Bithell",
+      "role": "author",
+      "surname": "Bithell"
+    },
+    {
+      "given_name": "Edmund",
+      "index": 3,
+      "raw_name": "Edmund Chattoe-Brown",
+      "role": "author",
+      "surname": "Chattoe-Brown"
+    },
+    {
+      "given_name": "Volker",
+      "index": 4,
+      "raw_name": "Volker Grimm",
+      "role": "author",
+      "surname": "Grimm"
+    },
+    {
+      "given_name": "Ruth",
+      "index": 5,
+      "raw_name": "Ruth Meyer",
+      "role": "author",
+      "surname": "Meyer"
+    },
+    {
+      "given_name": "Cristina",
+      "index": 6,
+      "raw_name": "Cristina Montañola-Sales",
+      "role": "author",
+      "surname": "Montañola-Sales"
+    },
+    {
+      "given_name": "Paul",
+      "index": 7,
+      "raw_name": "Paul Ormerod",
+      "role": "author",
+      "surname": "Ormerod"
+    },
+    {
+      "given_name": "Hilton",
+      "index": 8,
+      "raw_name": "Hilton Root",
+      "role": "author",
+      "surname": "Root"
+    },
+    {
+      "given_name": "Flaminio",
+      "index": 9,
+      "raw_name": "Flaminio Squazzoni",
+      "role": "author",
+      "surname": "Squazzoni"
+    }
+  ],
+  "ext_ids": {
+    "doi": "10.18564/jasss.3993"
+  },
+  "extra": {
+    "crossref": {
+      "subject": [
+        "Computer Science (miscellaneous)",
+        "General Social Sciences"
+      ],
+      "type": "journal-article"
+    }
+  },
+  "ident": "eaypmw4g2zbave557q3bfxstsu",
+  "language": "en",
+  "publisher": "Journal of Artificial Societies and Social Simulation",
+  "refs": [],
+  "release_stage": "published",
+  "release_type": "article-journal",
+  "release_year": 2019,
+  "revision": "9d60ded6-1d61-44b2-9722-9a9fb6208bf9",
+  "state": "active",
+  "title": "Different Modelling Purposes",
+  "volume": "22",
+  "work_id": "eglvdwxvx5df7nkrou3iuesgea"
+}
