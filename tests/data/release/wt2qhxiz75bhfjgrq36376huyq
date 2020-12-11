@@ -1,0 +1,36 @@
+{
+  "abstracts": [],
+  "contribs": [
+    {
+      "extra": {
+        "seq": "first"
+      },
+      "index": 0,
+      "raw_name": "Shusong Li",
+      "role": "author"
+    },
+    {
+      "index": 1,
+      "raw_name": "Shiyong Zhang",
+      "role": "author"
+    }
+  ],
+  "ext_ids": {
+    "doi": "10.1109/cinc.2010.5643896"
+  },
+  "extra": {
+    "container_name": "2010 Second International Conference on Computational Intelligence and Natural Computing",
+    "crossref": {
+      "type": "proceedings-article"
+    }
+  },
+  "ident": "wt2qhxiz75bhfjgrq36376huyq",
+  "publisher": "IEEE",
+  "refs": [],
+  "release_type": "paper-conference",
+  "release_year": 2010,
+  "revision": "6063390d-df22-465d-b266-e09e81d6fc70",
+  "state": "active",
+  "title": "Leader and follower: Agents in an Opinion Dynamics and Bounded Confidence model on the stochastic movement world",
+  "work_id": "vco3f2gz2ffy3lshkrgbhnhuou"
+}

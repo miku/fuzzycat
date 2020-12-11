@@ -1,0 +1,36 @@
+{
+  "abstracts": [],
+  "contribs": [
+    {
+      "extra": {
+        "seq": "first"
+      },
+      "index": 0,
+      "raw_name": "Shusong Li",
+      "role": "author"
+    },
+    {
+      "index": 1,
+      "raw_name": "Shiyong Zhang",
+      "role": "author"
+    }
+  ],
+  "ext_ids": {
+    "doi": "10.1109/iske.2010.5680855"
+  },
+  "extra": {
+    "container_name": "2010 IEEE International Conference on Intelligent Systems and Knowledge Engineering",
+    "crossref": {
+      "type": "proceedings-article"
+    }
+  },
+  "ident": "6gnyb4zr25fodcooyfpyfd75bi",
+  "publisher": "IEEE",
+  "refs": [],
+  "release_type": "paper-conference",
+  "release_year": 2010,
+  "revision": "24623036-03dd-49d6-b00a-e3c09bccb39c",
+  "state": "active",
+  "title": "The Opinion Dynamics and Bounded Confidence model on Flocking movement world",
+  "work_id": "kw4ceoatpzcyhn42ovqlfgt3d4"
+}
