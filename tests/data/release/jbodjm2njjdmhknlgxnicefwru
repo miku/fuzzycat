@@ -1,0 +1,80 @@
+{
+  "abstracts": [],
+  "container_id": "2zf5r3wbbvhipahlndcchkgbaq",
+  "contribs": [
+    {
+      "extra": {
+        "seq": "first"
+      },
+      "index": 0,
+      "raw_affiliation": "College of Materials Science and Engineering, Beijing University of Chemical Technology, Beijing 100029, P. R. China",
+      "raw_name": "Miao Yao",
+      "role": "author"
+    },
+    {
+      "creator_id": "aezbrpio5reqlotv444szqqlmy",
+      "index": 1,
+      "raw_affiliation": "College of Materials Science and Engineering, Beijing University of Chemical Technology, Beijing 100029, P. R. China",
+      "raw_name": "Jun Nie",
+      "role": "author"
+    },
+    {
+      "creator_id": "elw6od6mkvgvzogi7juafwv2b4",
+      "index": 2,
+      "raw_affiliation": "College of Materials Science and Engineering, Beijing University of Chemical Technology, Beijing 100029, P. R. China",
+      "raw_name": "Yong He",
+      "role": "author"
+    }
+  ],
+  "ext_ids": {
+    "doi": "10.1021/acs.macromol.8b01263"
+  },
+  "extra": {
+    "crossref": {
+      "alternative-id": [
+        "10.1021/acs.macromol.8b01263"
+      ],
+      "funder": [
+        {
+          "DOI": "10.13039/501100002855",
+          "award": [
+            "2017YFB0307800"
+          ],
+          "doi-asserted-by": "publisher",
+          "name": "Ministry of Science and Technology of the People's Republic of China"
+        },
+        {
+          "DOI": "10.13039/501100001809",
+          "award": [
+            "51373015",
+            "51573011"
+          ],
+          "doi-asserted-by": "publisher",
+          "name": "National Natural Science Foundation of China"
+        }
+      ],
+      "subject": [
+        "Inorganic Chemistry",
+        "Organic Chemistry",
+        "Materials Chemistry",
+        "Polymers and Plastics"
+      ],
+      "type": "journal-article"
+    }
+  },
+  "ident": "jbodjm2njjdmhknlgxnicefwru",
+  "issue": "15",
+  "language": "en",
+  "pages": "5904-5910",
+  "publisher": "American Chemical Society (ACS)",
+  "refs": [],
+  "release_date": "2018-07-30",
+  "release_stage": "published",
+  "release_type": "article-journal",
+  "release_year": 2018,
+  "revision": "1908f259-ec17-49bf-8280-dba906990738",
+  "state": "active",
+  "title": "0 + 0 = 2: Changeover of Stability and Photopolymerization Kinetics for the Rotator Phase of Long-Chain Acrylate through the Ultra-Addition Effect in Binary Systems",
+  "volume": "51",
+  "work_id": "gie72lmh4vcrzng3jyxjabawe4"
+}

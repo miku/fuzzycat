@@ -33,6 +33,7 @@ PUBLISHER_BLACKLIST = set([
 # These titles (or close variants) appear too often, so ignore them for now.
 TITLE_BLACKLIST = set([
     "",
+    "sensitive",
     "05-20-t001-15 一流110mハードル選手の踏切および踏切準備動作に関するバイオメカニクス的研究(05 バイオメカニクス,一般研究発表抄録)",
     "09方-3a-p31 スポーツ選手のid化による競技サポートの検討(09.体育方法,一般研究発表抄録)",
     "1-i-20 ラット水晶体におけるビタミンb_2代謝,特に吸収について : 第34回大会研究発表要旨 : 日本ビタミン学会",
