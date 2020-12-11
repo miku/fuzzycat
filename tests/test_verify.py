@@ -5,7 +5,7 @@ import os
 
 import pytest
 
-from fuzzycat.verify import Status, compare
+from fuzzycat.verify import Status, verify
 
 VERIFY_CSV = os.path.join(os.path.dirname(os.path.realpath(__file__)), "data/verify.csv")
 RELEASE_ENTITIES_DIR = os.path.join(os.path.dirname(os.path.realpath(__file__)), "data/release")
@@ -32,7 +32,7 @@ def load_release_ident(ident):
         return json.load(f)
 
 
-def test_compare():
+def test_verify():
     with open(VERIFY_CSV) as f:
         reader = csv.reader(f, delimiter=',')
         for i, row in enumerate(reader):
@@ -42,7 +42,7 @@ def test_compare():
                 pytest.fail(
                     "invalid test file, maybe too many (or few) commas in row {}? {}".format(
                         i + 1, exc))
-            status, reason = compare(load_release_ident(a), load_release_ident(b))
+            status, reason = verify(load_release_ident(a), load_release_ident(b))
             if not expected_status or expected_status.lower() == "todo":
                 logger.warning(
                     "skipping test {base}release/{a} {base}release/{b} -- no result defined (we think {status}, {reason})"

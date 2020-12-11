@@ -77,8 +77,8 @@ from glom import PathAccessError, glom
 from fuzzycat.common import OK, Miss, Status
 from fuzzycat.data import (CONTAINER_NAME_BLACKLIST, PUBLISHER_BLACKLIST, TITLE_BLACKLIST,
                            TITLE_FRAGMENT_BLACKLIST)
-from fuzzycat.utils import (author_similarity_score, contains_chemical_formula, has_doi_prefix,
-                            jaccard, num_project, slugify_string)
+from fuzzycat.utils import (author_similarity_score, contains_chemical_formula, dict_key_exists,
+                            has_doi_prefix, jaccard, num_project, slugify_string)
 
 # The result of clustering are documents that have a key k and a list of values
 # (of the cluster) v.
@@ -129,7 +129,7 @@ class GroupVerifier:
                     if re.get("publisher", "").lower().strip() in PUBLISHER_BLACKLIST:
                         self.counter["skip.publisher_blacklist"] += 1
                         continue
-                result, reason = compare(a, b)
+                result, reason = verify(a, b)
                 self.counter[reason] += 1
                 print("https://fatcat.wiki/release/{}".format(a["ident"]),
                       "https://fatcat.wiki/release/{}".format(b["ident"]), result, reason)
@@ -137,21 +137,9 @@ class GroupVerifier:
         self.counter["total"] = sum(v for _, v in self.counter.items())
 
 
-def dict_key_exists(doc, path):
+def verify(a, b):
     """
-    Return true, if a value at a given path exists. XXX: probably in glom, too.
-    """
-    try:
-        _ = glom(doc, path)
-    except PathAccessError:
-        return False
-    else:
-        return True
-
-
-def compare(a, b):
-    """
-    Compare two entities, return match status and reason.
+    Compare two entities (dicts), return tuple of match status and reason.
 
     TODO: We might want a bunch of kwargs for things like year gap threshold
     and the like.
@@ -259,6 +247,17 @@ def compare(a, b):
         b_doi = glom(b, "ext_ids.doi")
         versioned_doi_pattern = '10[.].*/v[0-9]{1,}$'
         if re.match(versioned_doi_pattern, a_doi) and re.match(versioned_doi_pattern, b_doi):
+            return (Status.STRONG, OK.VERSIONED_DOI)
+    except PathAccessError:
+        pass
+
+    # A paper/component pattern.  10.1021/acs.cgd.7b00396,
+    # https://fatcat.wiki/release/c43itb7esjc3heb64xbohigqge,
+    # https://fatcat.wiki/release/6kuxfopbcjcrdnhvfokjgbd5wm
+    try:
+        a_doi = glom(a, "ext_ids.doi")
+        b_doi = glom(b, "ext_ids.doi")
+        if a_doi.split(".")[:-1] == b_doi.split(".") or a_doi.split(".") == b_doi.split(".")[:-1]:
             return (Status.STRONG, OK.VERSIONED_DOI)
     except PathAccessError:
         pass

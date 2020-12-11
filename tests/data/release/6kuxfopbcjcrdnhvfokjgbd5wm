@@ -1,0 +1,67 @@
+{
+  "abstracts": [],
+  "container_id": "tfncqskjxjgbvilbdcq654of3m",
+  "contribs": [
+    {
+      "creator_id": "xf7grzc3gjfg5kbwbgfvppmn5m",
+      "extra": {
+        "seq": "first"
+      },
+      "index": 0,
+      "raw_affiliation": "Electronic Materials Research\nDivision, Osaka Municipal Technical Research Institute, Joto-ku, Osaka 536-8553, Japan",
+      "raw_name": "Tsutomu Shinagawa",
+      "role": "author"
+    },
+    {
+      "index": 1,
+      "raw_affiliation": "Electronic Materials Research\nDivision, Osaka Municipal Technical Research Institute, Joto-ku, Osaka 536-8553, Japan",
+      "raw_name": "Mitsuru Watanabe",
+      "role": "author"
+    },
+    {
+      "index": 2,
+      "raw_affiliation": "Electronic Materials Research\nDivision, Osaka Municipal Technical Research Institute, Joto-ku, Osaka 536-8553, Japan",
+      "raw_name": "Jun-ichi Tani",
+      "role": "author"
+    },
+    {
+      "index": 3,
+      "raw_affiliation": "Electronic Materials Research\nDivision, Osaka Municipal Technical Research Institute, Joto-ku, Osaka 536-8553, Japan",
+      "raw_name": "Masaya Chigane",
+      "role": "author"
+    }
+  ],
+  "ext_ids": {
+    "doi": "10.1021/acs.cgd.7b00396"
+  },
+  "extra": {
+    "crossref": {
+      "alternative-id": [
+        "10.1021/acs.cgd.7b00396"
+      ],
+      "funder": [
+        {
+          "DOI": "10.13039/501100001700",
+          "award": [],
+          "doi-asserted-by": "publisher",
+          "name": "Ministry of Education, Culture, Sports, Science and Technology"
+        }
+      ],
+      "type": "journal-article"
+    }
+  },
+  "ident": "6kuxfopbcjcrdnhvfokjgbd5wm",
+  "language": "en",
+  "pages": "3826-3833",
+  "publisher": "American Chemical Society (ACS)",
+  "refs": [],
+  "release_date": "2017-06-08",
+  "release_stage": "published",
+  "release_type": "article-journal",
+  "release_year": 2017,
+  "revision": "feea6f2d-0996-4e3a-bd8d-1c543a228699",
+  "state": "active",
+  "title": "(0001)-Oriented Single-Crystal-Like Porous ZnO on ITO Substrates via Quasi-Topotactic Transformation from (001)-Oriented Zinc Hydroxychloride Crystals",
+  "volume": "17",
+  "work_id": "qc6y573kejhurfijmya7gmymeq"
+}
