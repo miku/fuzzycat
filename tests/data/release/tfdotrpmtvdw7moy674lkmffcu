@@ -1,0 +1,120 @@
+{
+  "abstracts": [
+    {
+      "content": "This work aimed at investigating the presence of disseminated neoplasia in the Baltic clam Limecola balthica. We conducted a field survey in the Dutch Wadden Sea (10 sampling sites) to determine the prevalence of the disease in Baltic tellins in the Wadden Sea and to quantify its severity via histology. Briefly, bivalves were sampled by brushing away the first 10 cm of the sediment surface. Organisms were then collected by hand and keep in the Davidson's fixative on back in the lab. Tissues of samples were then collected and embedded in paraffin blocks. Histological sections of 5 µm thickness were stained with haematoxylin and eosin (H&E), and the slides examined for the presence of disseminated neoplasia using light microscopy. If neoplastic cells were present, we determined the disease severity according to Christensen et al. (1974) and Pekkarinen (1993) as follows: stage 1, local neoplastic cells noticed in the gills; stage 2, gills totally invaded with neoplastic cells; stage 3, spots of neoplastic cells in other tissues than gills, and stage 4, widespread neoplastic cells. For each sampling site, we calculated the prevalence of the disease and the prevalence of each stage of the disease. The data set is an excel file, with different columns, specifying where and when bivalves were sampled, the type of environment (sandy mud, muddy sand or sand), the density of the bivalve at each location, and the stage of the disease (O to 4).",
+      "lang": "en",
+      "mimetype": "text/plain",
+      "sha1": "8fa5bbb893d213bb85b260074784dec21745a97f"
+    }
+  ],
+  "contribs": [
+    {
+      "creator_id": "4tspry3zzvcnthoda2xf5qofuq",
+      "index": 0,
+      "raw_name": "Dairain, A. (Annabelle)",
+      "role": "author"
+    },
+    {
+      "creator_id": "s6q7753pjrbttnnet2er2il6mq",
+      "index": 1,
+      "raw_name": "Engelsma, M.Y. (Marc)",
+      "role": "author"
+    },
+    {
+      "creator_id": "hzl6m3c3qvenhfk74ktjwgufwq",
+      "index": 2,
+      "raw_name": "Drent, J. (Jan)",
+      "role": "author"
+    },
+    {
+      "index": 3,
+      "raw_name": "Dekker, R. (Rob)",
+      "role": "author"
+    },
+    {
+      "creator_id": "wegtinfzl5c6nhkgmeubr6w2ti",
+      "index": 4,
+      "raw_name": "Thieltges, D.W. (David)",
+      "role": "author"
+    },
+    {
+      "extra": {
+        "type": "Other"
+      },
+      "given_name": "Part Of Wageningen University",
+      "raw_name": "Wageningen Bioveterinary Research, Part Of Wageningen University",
+      "surname": "Wageningen Bioveterinary Research"
+    },
+    {
+      "extra": {
+        "type": "Other"
+      },
+      "given_name": "Department Of Coastal Systems",
+      "raw_name": "NIOZ Royal Netherlands Institute For Sea Research, Department Of Coastal Systems",
+      "surname": "NIOZ Royal Netherlands Institute For Sea Research"
+    }
+  ],
+  "ext_ids": {
+    "doi": "10.4121/uuid:6d4e69a4-d373-42c8-999e-dfa5d3ea340b"
+  },
+  "extra": {
+    "datacite": {
+      "license": [
+        {
+          "rightsUri": "info:eu-repo/semantics/openAccess"
+        },
+        {
+          "rightsUri": "https://creativecommons.org/publicdomain/zero/1.0"
+        }
+      ],
+      "metadataVersion": 1,
+      "resourceType": "Dataset",
+      "resourceTypeGeneral": "Dataset",
+      "subjects": [
+        {
+          "subject": "Bivalvia"
+        },
+        {
+          "subject": "Marine Ecology"
+        },
+        {
+          "subject": "Mollusca"
+        },
+        {
+          "subject": "disease"
+        },
+        {
+          "subject": "0602 - Ecology",
+          "subjectScheme": "Australian and New Zealand Standard Research Classification (ANZSRC), 2008"
+        },
+        {
+          "subject": "0608 - Zoology",
+          "subjectScheme": "Australian and New Zealand Standard Research Classification (ANZSRC), 2008"
+        },
+        {
+          "subject": "0707 - Veterinary Sciences",
+          "subjectScheme": "Australian and New Zealand Standard Research Classification (ANZSRC), 2008"
+        }
+      ]
+    }
+  },
+  "ident": "tfdotrpmtvdw7moy674lkmffcu",
+  "language": "en",
+  "license_slug": "CC-0",
+  "publisher": "4TU.Centre for Research Data",
+  "refs": [
+    {
+      "extra": {
+        "doi": "10.3354/dao03448"
+      },
+      "index": 0
+    }
+  ],
+  "release_stage": "published",
+  "release_type": "dataset",
+  "release_year": 2020,
+  "revision": "8c87d33d-cec5-4bf5-8e49-a427a871f2ed",
+  "state": "active",
+  "title": "Data presented in the paper 'High prevalences of disseminated neoplasia in the Baltic tellin Limecola balthica in the Wadden Sea'",
+  "work_id": "dhd7hpmbcrc53d5awb2tpltokq"
+}

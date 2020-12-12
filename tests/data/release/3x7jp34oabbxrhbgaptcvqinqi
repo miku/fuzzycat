@@ -1,0 +1,80 @@
+{
+  "abstracts": [
+    {
+      "content": "The Baltic tellin Limecola balthica is one of the most common bivalves in intertidal areas in the Northern Hemisphere. Over the last 2 decades, the species has been suffering from a decrease in adult survival in the European Wadden Sea. While several factors such as global warming and fisheries have been suggested to influence the population dynamics of this bivalve mollusc, the potential role of diseases has never been investigated. In this study, we investigated whether disseminated neoplasia, a common proliferative disorder in bivalve molluscs, could play a potential role in the recent population decline of Baltic tellins in the Wadden Sea. We conducted a field survey in the Dutch Wadden Sea to (1) determine whether the disease occurs in Baltic tellins in the Wadden Sea and (2) quantify the occurrence and severity of the disease via histology. Disseminated neoplasia occurred in L. balthica at each of the 10 sampled locations with very high prevalences (21-89%) compared to those reported elsewhere for this species. The highest severity category was found in 8 to 87% of affected individuals, with severity generally increasing with prevalence. Disseminated neoplasia usually increases mortality among affected individuals and may also be associated with important sub-lethal effects, especially regarding gametogenesis. Thus, we suggest that disseminated neoplasia may play a key role in the population dynamics of the Baltic tellin, the extent of which remains to be investigated in future studies.",
+      "lang": "en",
+      "mimetype": "text/plain",
+      "sha1": "61c101d654c071dc0a96a7c1bb2ee0d56f4ccceb"
+    }
+  ],
+  "container_id": "to323l4vlrbfhial3g4bvzkdpi",
+  "contribs": [
+    {
+      "extra": {
+        "seq": "first"
+      },
+      "index": 0,
+      "raw_name": "A Dairain",
+      "role": "author",
+      "surname": "Dairain"
+    },
+    {
+      "given_name": "MY",
+      "index": 1,
+      "raw_name": "MY Engelsma",
+      "role": "author",
+      "surname": "Engelsma"
+    },
+    {
+      "index": 2,
+      "raw_name": "J Drent",
+      "role": "author",
+      "surname": "Drent"
+    },
+    {
+      "index": 3,
+      "raw_name": "R Dekker",
+      "role": "author",
+      "surname": "Dekker"
+    },
+    {
+      "given_name": "DW",
+      "index": 4,
+      "raw_name": "DW Thieltges",
+      "role": "author",
+      "surname": "Thieltges"
+    }
+  ],
+  "ext_ids": {
+    "doi": "10.3354/dao03448",
+    "pmid": "32103823"
+  },
+  "extra": {
+    "crossref": {
+      "subject": [
+        "Aquatic Science",
+        "Ecology, Evolution, Behavior and Systematics"
+      ],
+      "type": "journal-article"
+    },
+    "pubmed": {
+      "pub_types": [
+        "Journal Article"
+      ]
+    }
+  },
+  "ident": "3x7jp34oabbxrhbgaptcvqinqi",
+  "language": "en",
+  "pages": "89-96",
+  "publisher": "Inter-Research Science Center",
+  "refs": [],
+  "release_date": "2020-02-27",
+  "release_stage": "published",
+  "release_type": "article-journal",
+  "release_year": 2020,
+  "revision": "17a428b2-9d66-48a6-b422-aa8a23ab13d1",
+  "state": "active",
+  "title": "High prevalences of disseminated neoplasia in the Baltic tellin Limecola balthica in the Wadden Sea",
+  "volume": "138",
+  "work_id": "uzqqdebn4zgf3px5gjyym3cwku"
+}
