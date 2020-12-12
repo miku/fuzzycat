@@ -81,10 +81,6 @@ from fuzzycat.data import (CONTAINER_NAME_BLACKLIST, PUBLISHER_BLACKLIST, TITLE_
 from fuzzycat.utils import (author_similarity_score, contains_chemical_formula, dict_key_exists,
                             has_doi_prefix, jaccard, num_project, slugify_string)
 
-# The result of clustering are documents that have a key k and a list of values
-# (of the cluster) v.
-get_key_values = operator.itemgetter("k", "v")
-
 
 class GroupVerifier:
     """
@@ -107,6 +103,9 @@ class GroupVerifier:
         self.counter = collections.Counter()
 
     def run(self):
+        # The result of clustering are documents that have a key k and a list of values
+        # (of the cluster) v.
+        get_key_values = operator.itemgetter("k", "v")
         for i, line in enumerate(self.iterable):
             if i % 20000 == 0 and self.verbose:
                 print(i, file=sys.stderr)
