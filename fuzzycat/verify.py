@@ -71,6 +71,7 @@ import json
 import operator
 import re
 import sys
+from typing import Dict, Tuple
 
 from glom import PathAccessError, glom
 
@@ -137,7 +138,7 @@ class GroupVerifier:
         self.counter["total"] = sum(v for _, v in self.counter.items())
 
 
-def verify(a, b):
+def verify(a: Dict, b: Dict) -> Tuple[str, str]:
     """
     Compare two entities (dicts), return tuple of match status and reason.
 
