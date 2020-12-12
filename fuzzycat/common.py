@@ -3,7 +3,8 @@ from enum import Enum
 
 class Status(str, Enum):
     """
-    Match status.
+    Match status. The match status "TODO" is a placeholder, e.g. to trigger a
+    test failure.
     """
     AMBIGUOUS = 'ambiguous'
     DIFFERENT = 'different'
@@ -13,54 +14,51 @@ class Status(str, Enum):
     TODO = 'todo'
 
 
-class OK(str, Enum):
+class Reason(str, Enum):
     """
-    Reason for assuming we have a match.
+    Reason for assuming we have a match or miss. No hard rules on naming.
     """
-    ARXIV_VERSION = 'ok.arxiv_version'
-    CUSTOM_BSI_SUBDOC = 'ok.custom_bsi_subdoc'
-    CUSTOM_BSI_UNDATED = 'ok.custom_bsi_undated'
-    CUSTOM_IEEE_ARXIV = 'ok.custom_ieee_arxiv'
-    DATACITE_RELATED_ID = 'ok.datacite_related_id'
-    DATACITE_VERSION = 'ok.datacite_version'
-    DOI = 'ok.doi'
-    DUMMY = 'ok.dummy'
-    FIGSHARE_VERSION = 'ok.figshare_version'
-    JACCARD_AUTHORS = 'ok.jaccard_authors'
-    PMID_DOI_PAIR = 'ok.pmid_doi_pair'
-    PREPRINT_PUBLISHED = 'ok.preprint_published'
-    SLUG_TITLE_AUTHOR_MATCH = 'ok.slug_title_author_match'
-    TITLE_AUTHOR_MATCH = 'ok.title_author_match'
-    TOKENIZED_AUTHORS = 'ok.tokenized_authors'
-    VERSIONED_DOI = 'ok.versioned_doi'
-    WORK_ID = 'ok.work_id'
-
-
-class Miss(str, Enum):
-    """
-    Reasons indicating mismatch.
-    """
-    APPENDIX = 'miss.appendix'
-    ARXIV_VERSION = 'miss.arxiv_version'
-    BLACKLISTED = 'miss.blacklisted'
-    BLACKLISTED_FRAGMENT = 'miss.blacklisted_fragment'
-    BOOK_CHAPTER = 'miss.book_chapter'
-    CHEM_FORMULA = 'miss.chem_formula'
-    COMPONENT = 'miss.component'
-    CONTAINER = 'miss.container'
-    CONTRIB_INTERSECTION_EMPTY = 'miss.contrib_intersection_empty'
-    CUSTOM_IOP_MA_PATTERN = 'miss.custom_iop_ma_pattern'
-    CUSTOM_PREFIX_10_14288 = 'miss.custom_prefix_10_14288'
-    CUSTOM_PREFIX_10_5860_CHOICE_REVIEW = 'miss.custom_prefix_10_5860_choice_review'
-    CUSTOM_PREFIX_10_7916 = 'miss.custom_prefix_10_7916'
-    CUSTOM_VHS = 'miss.vhs'  # https://fatcat.wiki/release/44gk5ben5vghljq6twm7lwmxla
-    DATASET_DOI = 'miss.dataset_doi'
-    JSTOR_ID = 'miss.jstor_id'
-    NUM_DIFF = 'miss.num_diff'
-    PAGE_COUNT = 'miss.page_count'
-    RELEASE_TYPE = 'miss.release_type'
-    SHARED_DOI_PREFIX = 'miss.shared_doi_prefix'
-    SHORT_TITLE = 'miss.short_title'
-    SUBTITLE = 'miss.subtitle'
-    TITLE_FILENAME = 'miss.title_filename'
-    YEAR = 'miss.year'
+    APPENDIX = 'appendix'
+    ARXIV_VERSION = 'arxiv_version'
+    BLACKLISTED = 'blacklisted'
+    BLACKLISTED_FRAGMENT = 'blacklisted_fragment'
+    BOOK_CHAPTER = 'book_chapter'
+    CHEM_FORMULA = 'chem_formula'
+    COMPONENT = 'component'
+    CONTAINER = 'container'
+    CONTAINER_NAME_BLACKLIST = 'container_name_blacklist'
+    CONTRIB_INTERSECTION_EMPTY = 'contrib_intersection_empty'
+    CUSTOM_BSI_SUBDOC = 'custom_bsi_subdoc'
+    CUSTOM_BSI_UNDATED = 'custom_bsi_undated'
+    CUSTOM_IEEE_ARXIV = 'custom_ieee_arxiv'
+    CUSTOM_IOP_MA_PATTERN = 'custom_iop_ma_pattern'
+    CUSTOM_PREFIX_10_14288 = 'custom_prefix_10_14288'
+    CUSTOM_PREFIX_10_5860_CHOICE_REVIEW = 'custom_prefix_10_5860_choice_review'
+    CUSTOM_PREFIX_10_7916 = 'custom_prefix_10_7916'
+    CUSTOM_VHS = 'vhs'  # https://fatcat.wiki/release/44gk5ben5vghljq6twm7lwmxla
+    DATACITE_RELATED_ID = 'datacite_related_id'
+    DATACITE_VERSION = 'datacite_version'
+    DATASET_DOI = 'dataset_doi'
+    DOI = 'doi'
+    DUMMY = 'dummy'
+    FIGSHARE_VERSION = 'figshare_version'
+    JACCARD_AUTHORS = 'jaccard_authors'
+    JSTOR_ID = 'jstor_id'
+    MAX_CLUSTER_SIZE_EXCEEDED = 'max_cluster_size_exceeded'
+    NUM_DIFF = 'num_diff'
+    PAGE_COUNT = 'page_count'
+    PMID_DOI_PAIR = 'pmid_doi_pair'
+    PREPRINT_PUBLISHED = 'preprint_published'
+    PUBLISHER_BLACKLIST = 'publisher_blacklist'
+    RELEASE_TYPE = 'release_type'
+    SHARED_DOI_PREFIX = 'shared_doi_prefix'
+    SHORT_TITLE = 'short_title'
+    SINGULAR_CLUSTER = 'singular_cluster'
+    SLUG_TITLE_AUTHOR_MATCH = 'slug_title_author_match'
+    SUBTITLE = 'subtitle'
+    TITLE_AUTHOR_MATCH = 'title_author_match'
+    TITLE_FILENAME = 'title_filename'
+    TOKENIZED_AUTHORS = 'tokenized_authors'
+    VERSIONED_DOI = 'versioned_doi'
+    WORK_ID = 'work_id'
+    YEAR = 'year'
