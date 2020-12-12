@@ -1,7 +1,8 @@
 """
 Verification part of matching.
 
-We represent clusters as json lines. One example input line:
+Clustering results in a documents with keys and values, where values is a list
+of entites associated with a cluster.
 
     {
       "v": [
@@ -10,48 +11,10 @@ We represent clusters as json lines. One example input line:
       "k": "1 Grundlagen",
     }
 
-Examples from clustering stage (from a sample of 100k records):
+The list of documents will often contain false positives. The `verify` routine
+is a way to get a match quality assessment.
 
-    ["Global residue formula for logarithmic indices of foliations",2]
-    ["Glossary",8]
-    ["Gordonia sp.",4]
-    ["ERRATA",6]
-    ["ERRATUM",4]
-    ["Editor's Note",8]
-    ["Editorial",95]
-    ["Editorial Board",154]
-    ["Editorial Board & Publication Information",2]
-    ...
-
-WIPv1 (10m)
-
-    {
-      "miss.appendix": 176,
-      "miss.blacklisted": 12124,
-      "miss.blacklisted_fragment": 9,
-      "miss.book_chapter": 46733,
-      "miss.component": 2173,
-      "miss.contrib_intersection_empty": 73592,
-      "miss.dataset_doi": 30806,
-      "miss.num_diff": 1,
-      "miss.release_type": 19767,
-      "miss.short_title": 16737,
-      "miss.subtitle": 11975,
-      "miss.title_filename": 87,
-      "miss.year": 123288,
-      "ok.arxiv_version": 90726,
-      "ok.dummy": 106196,
-      "ok.preprint_published": 10495,
-      "ok.slug_title_author_match": 47285,
-      "ok.title_author_match": 65685,
-      "ok.tokenized_authors": 7592,
-      "skip.container_name_blacklist": 20,
-      "skip.publisher_blacklist": 456,
-      "skip.too_large": 7430,
-      "skip.unique": 8808462,
-      "total": 9481815
-    }
-
+> Notes
 
 TODO: allow to pass in a DOI blacklist, e.g. a list of DOI which are not valid
 any more; example: https://fatcat.wiki/release/azbcyqjnmrdofigpgk24ck4rpq,
@@ -63,6 +26,54 @@ various md extractors
 
 Contributor lists; "one that have the index set"; affiliations may end up
 there; "subset" is an ordered list; pubmed, crossref important
+
+> Stats
+
+Stats from running over a full database dump. We need to run verification over
+25586837 entity pairs, of which we 1346217/25586837 (or about 5%) are too
+ambiguous at this time.
+
+TODO: rerun to adjust formatting.
+
+    3450874 OK.TITLE_AUTHOR_MATCH
+    2619990 OK.SLUG_TITLE_AUTHOR_MATCH
+    2487633 Miss.YEAR
+    2434532 OK.WORK_ID
+    2085006 Miss.CONTRIB_INTERSECTION_EMPTY
+    1397420 Miss.SHARED_DOI_PREFIX
+    1355852 Miss.RELEASE_TYPE
+    1346217 OK.DUMMY
+    1145511 Miss.BOOK_CHAPTER
+    1009657 Miss.DATASET_DOI
+     996503 OK.PMID_DOI_PAIR
+     868951 OK.DATACITE_VERSION
+     796216 OK.DATACITE_RELATED_ID
+     704154 OK.FIGSHARE_VERSION
+     534963 OK.VERSIONED_DOI
+     343310 OK.TOKENIZED_AUTHORS
+     334974 OK.JACCARD_AUTHORS
+     293835 OK.PREPRINT_PUBLISHED
+     269366 Miss.COMPONENT
+     263626 Miss.SUBTITLE
+     224021 Miss.SHORT_TITLE
+     133811 Miss.CUSTOM_PREFIX_10_5860_CHOICE_REVIEW
+     122600 Miss.CUSTOM_PREFIX_10_7916
+      96935 Miss.PAGE_COUNT
+      79664 OK.CUSTOM_IEEE_ARXIV
+      46649 Miss.CUSTOM_PREFIX_10_14288
+      39797 Miss.JSTOR_ID
+      38598 OK.CUSTOM_BSI_UNDATED
+      18907 OK.CUSTOM_BSI_SUBDOC
+      15465 OK.DOI
+      13393 Miss.CUSTOM_IOP_MA_PATTERN
+      10378 Miss.CONTAINER
+       3081 Miss.BLACKLISTED
+       2504 Miss.BLACKLISTED_FRAGMENT
+       1273 Miss.APPENDIX
+       1063 Miss.TITLE_FILENAME
+	104 Miss.NUM_DIFF
+	  4 OK.ARXIV_VERSION
+
 """
 
 import collections
@@ -71,7 +82,7 @@ import json
 import operator
 import re
 import sys
-from typing import Dict, Tuple
+from typing import Dict, Tuple, Counter
 
 from glom import PathAccessError, glom
 
@@ -99,8 +110,8 @@ class GroupVerifier:
                  verbose=True):
         self.iterable: collections.abc.Iterable = iterable
         self.max_cluster_size: int = max_cluster_size
-        self.verbose = verbose
-        self.counter = collections.Counter()
+        self.verbose: bool = verbose
+        self.counter: Counter = collections.Counter()
 
     def run(self):
         # The result of clustering are documents that have a key k and a list of values
