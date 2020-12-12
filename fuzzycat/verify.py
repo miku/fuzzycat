@@ -148,32 +148,34 @@ class GroupVerifier:
         self.counter["total"] = sum(v for _, v in self.counter.items())
 
 
-def verify(a: Dict, b: Dict) -> Tuple[str, str]:
+def verify(a: Dict, b: Dict, min_title_length=5) -> Tuple[str, str]:
     """
     Compare two entities (dicts), return tuple of match status and reason.
-
-    TODO: We might want a bunch of kwargs for things like year gap threshold
-    and the like.
     """
+
+    # A few items have the same DOI.
     try:
         if glom(a, "ext_ids.doi") == glom(b, "ext_ids.doi"):
             return (Status.EXACT, Reason.DOI)
     except PathAccessError:
         pass
 
+    # Some pre-verified pairs.
     if a.get("work_id") and a.get("work_id") == b.get("work_id"):
         return (Status.EXACT, Reason.WORK_ID)
 
-    a_title = a.get("title", "")
+    a_title = a.get("title", "") or ""
     a_title_lower = a_title.lower()
-    b_title = b.get("title", "")
+    b_title = b.get("title", "") or ""
     b_title_lower = b_title.lower()
 
-    if len(a_title) < 5:
+    assert isinstance(a_title, str)
+    assert isinstance(b_title, str)
+
+    if len(a_title) < min_title_length:
         return (Status.AMBIGUOUS, Reason.SHORT_TITLE)
     if a_title_lower in TITLE_BLACKLIST:
         return (Status.AMBIGUOUS, Reason.BLACKLISTED)
-
     for fragment in TITLE_FRAGMENT_BLACKLIST:
         if fragment in a_title_lower:
             return (Status.AMBIGUOUS, Reason.BLACKLISTED_FRAGMENT)
@@ -195,9 +197,10 @@ def verify(a: Dict, b: Dict) -> Tuple[str, str]:
         pass
 
     try:
+        prefix = "10.14288/"
         a_doi = glom(a, "ext_ids.doi")
         b_doi = glom(b, "ext_ids.doi")
-        if a_doi.startswith("10.14288/") and b_doi.startswith("10.14288/") and a_doi != b_doi:
+        if a_doi.startswith(prefix) and b_doi.startswith(prefix) and a_doi != b_doi:
             # UBC metadata slightly off;
             # https://fatcat.wiki/release/63g4ukdxajcqhdytqla6du3t3u,
             # https://fatcat.wiki/release/rz72bzfevzeofdeb342c6z45qu;
