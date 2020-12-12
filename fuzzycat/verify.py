@@ -75,7 +75,7 @@ from typing import Dict, Tuple
 
 from glom import PathAccessError, glom
 
-from fuzzycat.common import Status, Reason
+from fuzzycat.common import Reason, Status
 from fuzzycat.data import (CONTAINER_NAME_BLACKLIST, PUBLISHER_BLACKLIST, TITLE_BLACKLIST,
                            TITLE_FRAGMENT_BLACKLIST)
 from fuzzycat.utils import (author_similarity_score, contains_chemical_formula, dict_key_exists,

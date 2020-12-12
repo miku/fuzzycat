@@ -3,7 +3,7 @@ import itertools
 import re
 import string
 
-from glom import glom, PathAccessError
+from glom import PathAccessError, glom
 
 printable_no_punct = string.digits + string.ascii_letters + string.whitespace
 
