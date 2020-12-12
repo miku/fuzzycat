@@ -82,7 +82,7 @@ import json
 import operator
 import re
 import sys
-from typing import Dict, Tuple, Counter
+from typing import Counter, Dict, Tuple
 
 from glom import PathAccessError, glom
 
@@ -189,6 +189,7 @@ def verify(a: Dict, b: Dict, min_title_length=5) -> Tuple[str, str]:
         except PathAccessError:
             pass
 
+    # Datacite keeps track of versions.
     try:
         if a_title and a_title == b_title and glom(a, "extra.datacite.metadataVersion") != glom(
                 b, "extra.datacite.metadataVersion"):
@@ -196,6 +197,7 @@ def verify(a: Dict, b: Dict, min_title_length=5) -> Tuple[str, str]:
     except PathAccessError:
         pass
 
+    # UBC repository, we assume that different items in the same pool.
     try:
         prefix = "10.14288/"
         a_doi = glom(a, "ext_ids.doi")
@@ -209,15 +211,17 @@ def verify(a: Dict, b: Dict, min_title_length=5) -> Tuple[str, str]:
     except PathAccessError:
         pass
 
+    # The British Standards Institution (BSI) keeps various version of
+    # standards around, among them an "undated" variant.
+    # Reference to subdocument.
+    # https://api.fatcat.wiki/v0/release/tcro5wr6brhqnf5wettyiauw34
+    # https://api.fatcat.wiki/v0/release/s7a4o5v5gfg4tbzna6poyg7nzy
     try:
         a_doi = glom(a, "ext_ids.doi")
         b_doi = glom(b, "ext_ids.doi")
         if has_doi_prefix(a_doi, "10.3403") and has_doi_prefix(b_doi, "10.3403"):
             if a_doi + "u" == b_doi or b_doi + "u" == a_doi:
                 return (Status.STRONG, Reason.CUSTOM_BSI_UNDATED)
-            # Reference to subdocument.
-            # https://api.fatcat.wiki/v0/release/tcro5wr6brhqnf5wettyiauw34
-            # https://api.fatcat.wiki/v0/release/s7a4o5v5gfg4tbzna6poyg7nzy
             if a_title == b_title and ((dict_key_exists(a, "extra.subtitle")
                                         and not dict_key_exists(b, "extra.subtitle")) or
                                        (dict_key_exists(b, "extra.subtitle")
@@ -226,24 +230,28 @@ def verify(a: Dict, b: Dict, min_title_length=5) -> Tuple[str, str]:
     except PathAccessError:
         pass
 
+    # IOP science.
     try:
+        prefix = "10.1149"
         a_doi = glom(a, "ext_ids.doi")
         b_doi = glom(b, "ext_ids.doi")
-        if has_doi_prefix(a_doi, "10.1149") and has_doi_prefix(b_doi, "10.1149"):
-            if (a_doi.startswith("10.1149/ma") and not b_doi.startswith("10.1149/ma")
-                    or b_doi.startswith("10.1149/ma") and not a_doi.startswith("10.1149/ma")):
+        if has_doi_prefix(a_doi, prefix) and has_doi_prefix(b_doi, prefix):
+            v = "{}/ma".format(prefix)
+            if (a_doi.startswith(v) and not b_doi.startswith(v)
+                    or b_doi.startswith(v) and not a_doi.startswith(v)):
                 return (Status.DIFFERENT, Reason.CUSTOM_IOP_MA_PATTERN)
     except PathAccessError:
         pass
 
+    # Very manual, XXX: move this into blacklist.
     if "Zweckverband Volkshochschule " in a_title and a_title != b_title:
         return (Status.DIFFERENT, Reason.CUSTOM_VHS)
 
     if re.match(r"appendix ?[^ ]*$", a_title_lower):
         return (Status.AMBIGUOUS, Reason.APPENDIX)
 
+    # Figshare, versions.
     try:
-        # TODO: figshare versions, "xxx.v1"
         FIGSHARE_PREFIX = "10.6084/"
         if glom(a, "ext_ids.doi").startswith(FIGSHARE_PREFIX) and glom(
                 b, "ext_ids.doi").startswith(FIGSHARE_PREFIX):
@@ -254,9 +262,10 @@ def verify(a: Dict, b: Dict, min_title_length=5) -> Tuple[str, str]:
     except PathAccessError:
         pass
 
+    # Generic, versioned DOI.
+    # https://fatcat.wiki/release/cwqujxztefdghhssb7ysxj7b5m
+    # https://fatcat.wiki/release/hwnqyz7n65eabhlivvkipkytji
     try:
-        # https://fatcat.wiki/release/cwqujxztefdghhssb7ysxj7b5m
-        # https://fatcat.wiki/release/hwnqyz7n65eabhlivvkipkytji
         a_doi = glom(a, "ext_ids.doi")
         b_doi = glom(b, "ext_ids.doi")
         versioned_doi_pattern = '10[.].*/v[0-9]{1,}$'
@@ -276,12 +285,12 @@ def verify(a: Dict, b: Dict, min_title_length=5) -> Tuple[str, str]:
     except PathAccessError:
         pass
 
-    # TODO: datacite specific vocabulary
+    # Datacite related identifiers.
     # extra.datacite.relations[].{relationType=IsNewerVersionOf,relatedIdentifier=10...}
-    # beware: we have versions and "isPartOf", e.g. https://api.fatcat.wiki/v0/release/ybxygpeypbaq5pfrztu3z2itw4
-    # TODO: does glom help?
-    # ...
-    if "datacite" in (a.get("extra", []) or []) and "datacite" in (b.get("extra", []) or []):
+    # beware: we have versions and "isPartOf", e.g.
+    # https://api.fatcat.wiki/v0/release/ybxygpeypbaq5pfrztu3z2itw4
+    # Datacite md schema: https://doi.org/10.14454/7xq3-zf69
+    if dict_key_exists(a, "extra.datacite") and dict_key_exists(b, "extra.datacite"):
         whitelist = set([
             "HasPart",
             "HasVersion",
@@ -309,6 +318,7 @@ def verify(a: Dict, b: Dict, min_title_length=5) -> Tuple[str, str]:
         except PathAccessError:
             pass
 
+    # Arxiv versions.
     try:
         id_a = re.match(r"(.*)v[0-9]{1,}$", glom(a, "ext_ids.arxiv")).group(1)
         id_b = re.match(r"(.*)v[0-9]{1,}$", glom(b, "ext_ids.arxiv")).group(1)
@@ -342,6 +352,7 @@ def verify(a: Dict, b: Dict, min_title_length=5) -> Tuple[str, str]:
     except PathAccessError:
         pass
 
+    # Datasets are typically different (and have less md and look similar).
     try:
         if (glom(a, "release_type") == "dataset" and glom(b, "release_type") == "dataset"
                 and glom(a, "ext_ids.doi") != glom(b, "ext_ids.doi")):
@@ -349,6 +360,7 @@ def verify(a: Dict, b: Dict, min_title_length=5) -> Tuple[str, str]:
     except PathAccessError:
         pass
 
+    # Common chapter names should be handled here.
     try:
         if (glom(a, "release_type") == "chapter" and glom(b, "release_type") == "chapter"
                 and glom(a, "extra.container_name") != glom(b, "extra.container_name")):
@@ -356,6 +368,7 @@ def verify(a: Dict, b: Dict, min_title_length=5) -> Tuple[str, str]:
     except PathAccessError:
         pass
 
+    # Components tend to have similar names.
     try:
         if glom(a, "extra.crossref.type") == "component" and glom(a, "title") != glom(b, "title"):
             return (Status.DIFFERENT, Reason.COMPONENT)
