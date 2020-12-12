@@ -10,10 +10,15 @@ printable_no_punct = string.digits + string.ascii_letters + string.whitespace
 # More correct: https://www.johndcook.com/blog/2016/02/04/regular-expression-to-match-a-chemical-element/
 CHEM_FORMULA = re.compile(r"([A-Z]{1,2}[0-9]{1,2})+")
 
+def parse_page_string(s):
+    """
+    Parse typical page strings, e.g. 150-180.
+    """
+    raise NotImplementedError()
 
 def dict_key_exists(doc, path):
     """
-    Return true, if a value at a given path exists. XXX: probably in glom, too.
+    Return true, if key at a given path exists. XXX: probably already in glom.
     """
     try:
         _ = glom(doc, path)

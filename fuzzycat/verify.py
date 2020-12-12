@@ -579,6 +579,7 @@ def verify(a: Dict, b: Dict, min_title_length=5) -> Tuple[str, str]:
     try:
         a_pages = glom(a, "pages")
         b_pages = glom(b, "pages")
+        # XXX: Pages might be of the form "261-5", meaning: 261-265.
         page_pattern = re.compile("([0-9]{1,})-([0-9]{1,})")
         a_match = page_pattern.match(a_pages)
         b_match = page_pattern.match(b_pages)
