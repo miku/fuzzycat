@@ -1,0 +1,326 @@
+{
+  "abstracts": [
+    {
+      "content": "<jats:p>In the title compound, C<jats:sub>14</jats:sub>H<jats:sub>18</jats:sub>N<jats:sub>2</jats:sub>O<jats:sub>2</jats:sub>S, the piperidine ring has a chair conformation. Its mean plane is twisted with respect to the 4-methoxybenzoyl ring, with a dihedral angle of 63.0 (3)°. The central N—C(=S)—N(H)—C(=O) bridge is twisted with an N—C—N—C torsion angle of 74.8 (6)°. In the crystal, molecules are linked by N—H...O and C—H...O hydrogen bonds, forming chains along the <jats:italic>c</jats:italic>-axis direction. Adjacent chains are linked by C—H...π interactions, forming layers parallel to the <jats:italic>ac</jats:italic> plane. The layers are linked by offset π–π interactions [intercentroid distance = 3.927 (3) Å], forming a supramolecular three-dimensional structure.</jats:p>",
+      "mimetype": "application/xml+jats",
+      "sha1": "e09399bfb043f24950b38bf282933baf8551fa7b"
+    }
+  ],
+  "container_id": "kioyazb4yfhmxj4rvcrja5tjma",
+  "contribs": [
+    {
+      "extra": {
+        "seq": "first"
+      },
+      "index": 0,
+      "raw_name": "Khairi Suhud",
+      "role": "author"
+    },
+    {
+      "index": 1,
+      "raw_name": "Siti Aishah Hasbullah",
+      "role": "author"
+    },
+    {
+      "index": 2,
+      "raw_name": "Musa Ahmad",
+      "role": "author"
+    },
+    {
+      "index": 3,
+      "raw_name": "Lee Yook Heng",
+      "role": "author"
+    },
+    {
+      "creator_id": "kzdyatiywbdgzcekjfw76ch5ca",
+      "index": 4,
+      "raw_name": "Mohammad B. Kassim",
+      "role": "author"
+    }
+  ],
+  "ext_ids": {
+    "core": "87614202",
+    "doi": "10.1107/s2056989017013317",
+    "pmcid": "PMC5730311",
+    "pmid": "29250374",
+    "wikidata_qid": "Q47116296"
+  },
+  "extra": {
+    "crossref": {
+      "alternative-id": [
+        "S2056989017013317"
+      ],
+      "funder": [
+        {
+          "DOI": "10.13039/501100004515",
+          "award": [
+            "DLP-2013–001",
+            "DIP-2012–11",
+            "DPP-2014–048",
+            "DPP-2013–043"
+          ],
+          "doi-asserted-by": "crossref",
+          "name": "Universiti Kebangsaan Malaysia"
+        },
+        {
+          "DOI": "10.13039/501100003093",
+          "award": [
+            "FRGS/1/2014/ST01/UKM/02/2"
+          ],
+          "doi-asserted-by": "crossref",
+          "name": "Ministry of Higher Education, Malaysia"
+        }
+      ],
+      "license": [
+        {
+          "URL": "http://creativecommons.org/licenses/by/2.0/uk/legalcode",
+          "content-version": "vor",
+          "delay-in-days": 0,
+          "start": "2017-09-25T00:00:00Z"
+        }
+      ],
+      "type": "journal-article"
+    }
+  },
+  "ident": "3qrr7truzbfzfpsglzsfzeymxe",
+  "issue": "10",
+  "pages": "1530-1533",
+  "publisher": "International Union of Crystallography (IUCr)",
+  "refs": [
+    {
+      "container_name": "Acta Cryst. E",
+      "extra": {
+        "authors": [
+          "Al-abbasi"
+        ],
+        "volume": "68"
+      },
+      "index": 0,
+      "key": "su4162_bb1",
+      "locator": "o201",
+      "year": 2012
+    },
+    {
+      "container_name": "Turk. J. Chem.",
+      "extra": {
+        "authors": [
+          "Arslan"
+        ],
+        "volume": "30"
+      },
+      "index": 1,
+      "key": "su4162_bb2",
+      "locator": "429",
+      "year": 2006
+    },
+    {
+      "container_name": "Tetrahedron Lett.",
+      "extra": {
+        "authors": [
+          "Brahmachari"
+        ],
+        "volume": "53"
+      },
+      "index": 2,
+      "key": "su4162_bb3",
+      "locator": "1479",
+      "year": 2012
+    },
+    {
+      "extra": {
+        "unstructured": "Bruker (2007). SMART, SAINT and SADABS. Bruker AXS Inc., Madison, Wisconsin, USA."
+      },
+      "index": 3,
+      "key": "su4162_bb4"
+    },
+    {
+      "container_name": "Acta Cryst. E",
+      "extra": {
+        "authors": [
+          "Dillen"
+        ],
+        "volume": "62"
+      },
+      "index": 4,
+      "key": "su4162_bb5",
+      "locator": "o5225",
+      "year": 2006
+    },
+    {
+      "container_name": "J. Appl. Cryst.",
+      "extra": {
+        "authors": [
+          "Dolomanov"
+        ],
+        "volume": "42"
+      },
+      "index": 5,
+      "key": "su4162_bb6",
+      "locator": "339",
+      "year": 2009
+    },
+    {
+      "container_name": "Acta Cryst. B",
+      "extra": {
+        "authors": [
+          "Groom"
+        ],
+        "volume": "72"
+      },
+      "index": 6,
+      "key": "su4162_bb7",
+      "locator": "171",
+      "year": 2016
+    },
+    {
+      "container_name": "Polyhedron",
+      "extra": {
+        "authors": [
+          "Isab"
+        ],
+        "volume": "29"
+      },
+      "index": 7,
+      "key": "su4162_bb8",
+      "locator": "1251",
+      "year": 2010
+    },
+    {
+      "container_name": "Tetrahedron",
+      "extra": {
+        "authors": [
+          "Kovačková"
+        ],
+        "volume": "67"
+      },
+      "index": 8,
+      "key": "su4162_bb9",
+      "locator": "1485",
+      "year": 2011
+    },
+    {
+      "container_name": "Polyhedron",
+      "extra": {
+        "authors": [
+          "Małecki"
+        ],
+        "volume": "55"
+      },
+      "index": 9,
+      "key": "su4162_bb10",
+      "locator": "49",
+      "year": 2013
+    },
+    {
+      "container_name": "Acta Cryst. A",
+      "extra": {
+        "authors": [
+          "Sheldrick"
+        ],
+        "volume": "64"
+      },
+      "index": 10,
+      "key": "su4162_bb11",
+      "locator": "112",
+      "year": 2008
+    },
+    {
+      "container_name": "Acta Cryst. C",
+      "extra": {
+        "authors": [
+          "Sheldrick"
+        ],
+        "volume": "71"
+      },
+      "index": 11,
+      "key": "su4162_bb12",
+      "year": 2015
+    },
+    {
+      "container_name": "Acta Cryst. D",
+      "extra": {
+        "authors": [
+          "Spek"
+        ],
+        "volume": "65"
+      },
+      "index": 12,
+      "key": "su4162_bb22",
+      "locator": "148",
+      "year": 2009
+    },
+    {
+      "container_name": "Acta Cryst. E",
+      "extra": {
+        "authors": [
+          "Suhud"
+        ],
+        "volume": "71"
+      },
+      "index": 13,
+      "key": "su4162_bb13",
+      "locator": "o225",
+      "year": 2015
+    },
+    {
+      "container_name": "J. Solution Chem.",
+      "extra": {
+        "authors": [
+          "Suhud"
+        ],
+        "volume": "44"
+      },
+      "index": 14,
+      "key": "su4162_bb14",
+      "locator": "181",
+      "year": 2015
+    },
+    {
+      "container_name": "Polyhedron",
+      "extra": {
+        "authors": [
+          "Tan"
+        ],
+        "volume": "68"
+      },
+      "index": 15,
+      "key": "su4162_bb15",
+      "locator": "287",
+      "year": 2014
+    },
+    {
+      "container_name": "Org. Lett.",
+      "extra": {
+        "authors": [
+          "Watson"
+        ]
+      },
+      "index": 16,
+      "key": "su4162_bb16",
+      "locator": "3679",
+      "year": 2000
+    },
+    {
+      "container_name": "J. Appl. Cryst.",
+      "extra": {
+        "authors": [
+          "Westrip"
+        ],
+        "volume": "43"
+      },
+      "index": 17,
+      "key": "su4162_bb17",
+      "locator": "920",
+      "year": 2010
+    }
+  ],
+  "release_date": "2017-09-25",
+  "release_stage": "published",
+  "release_type": "article-journal",
+  "release_year": 2017,
+  "revision": "f9fffd28-f4fd-44e4-b985-3deab532bd96",
+  "state": "active",
+  "title": "Crystal structure of 4-methoxy-N-(piperidine-1-carbonothioyl)benzamide",
+  "volume": "73",
+  "work_id": "zfj5e74acfgkpj2wturne3frfq"
+}

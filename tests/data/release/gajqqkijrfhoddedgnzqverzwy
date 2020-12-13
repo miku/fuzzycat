@@ -1,0 +1,262 @@
+{
+  "abstracts": [
+    {
+      "content": "<jats:p>In the title compound, C<jats:sub>13</jats:sub>H<jats:sub>16</jats:sub>N<jats:sub>2</jats:sub>O<jats:sub>2</jats:sub>S, the pyrrolidine ring has a twisted conformation on the central –CH<jats:sub>2</jats:sub>–CH<jats:sub>2</jats:sub>– bond. Its mean plane is inclined to the 4-methoxybenzoyl ring by 72.79 (15)°. In the crystal, molecules are linked by N—H...O and C—H...O hydrogen bonds to the same O-atom acceptor, forming chains along [001]. The chains are linked<jats:italic>via</jats:italic>slipped parallel π–π interactions [inter-centroid distance = 3.7578 (13) Å], forming undulating slabs parallel to (100).</jats:p>",
+      "mimetype": "application/xml+jats",
+      "sha1": "4ce595534190c75a3fde5863d6b8465ad7a159ad"
+    }
+  ],
+  "container_id": "kioyazb4yfhmxj4rvcrja5tjma",
+  "contribs": [
+    {
+      "extra": {
+        "seq": "first"
+      },
+      "index": 0,
+      "raw_name": "Khairi Suhud",
+      "role": "author"
+    },
+    {
+      "index": 1,
+      "raw_name": "Lee Yook Heng",
+      "role": "author"
+    },
+    {
+      "index": 2,
+      "raw_name": "Siti Aishah Hasbullah",
+      "role": "author"
+    },
+    {
+      "index": 3,
+      "raw_name": "Musa Ahmad",
+      "role": "author"
+    },
+    {
+      "index": 4,
+      "raw_name": "Mohammad B. Kassim",
+      "role": "author"
+    }
+  ],
+  "ext_ids": {
+    "core": "90077012",
+    "doi": "10.1107/s2056989015003813",
+    "pmcid": "PMC4438823",
+    "pmid": "26029426",
+    "wikidata_qid": "Q35647510"
+  },
+  "extra": {
+    "crossref": {
+      "alternative-id": [
+        "S2056989015003813"
+      ],
+      "license": [
+        {
+          "URL": "http://creativecommons.org/licenses/by/2.0/uk/legalcode",
+          "content-version": "vor",
+          "delay-in-days": 0,
+          "start": "2015-03-04T00:00:00Z"
+        }
+      ],
+      "type": "journal-article"
+    }
+  },
+  "ident": "gajqqkijrfhoddedgnzqverzwy",
+  "pages": "o225-o226",
+  "publisher": "International Union of Crystallography (IUCr)",
+  "refs": [
+    {
+      "container_name": "Acta Cryst. E",
+      "extra": {
+        "authors": [
+          "Al-abbasi"
+        ],
+        "doi": "10.1107/s1600536811049208",
+        "volume": "67"
+      },
+      "index": 0,
+      "key": "su5083_bb1",
+      "locator": "o3414",
+      "year": 2011
+    },
+    {
+      "container_name": "Acta Cryst. E",
+      "extra": {
+        "authors": [
+          "Al-abbasi"
+        ],
+        "doi": "10.1107/s1600536811053694",
+        "volume": "68"
+      },
+      "index": 1,
+      "key": "su5083_bb2",
+      "locator": "o201",
+      "year": 2012
+    },
+    {
+      "container_name": "Turk. J. Chem.",
+      "extra": {
+        "authors": [
+          "Arslan"
+        ],
+        "volume": "30"
+      },
+      "index": 2,
+      "key": "su5083_bb3",
+      "locator": "429",
+      "year": 2006
+    },
+    {
+      "extra": {
+        "unstructured": "Bruker (2007). SMART, SAINT and SADABS. Bruker AXS Inc., Madison, Wisconsin, USA."
+      },
+      "index": 3,
+      "key": "su5083_bb4"
+    },
+    {
+      "container_name": "Pharm. J.",
+      "extra": {
+        "authors": [
+          "Cikla"
+        ],
+        "volume": "14"
+      },
+      "index": 4,
+      "key": "su5083_bb5",
+      "locator": "13",
+      "year": 2010
+    },
+    {
+      "container_name": "Acta Cryst. E",
+      "extra": {
+        "authors": [
+          "Hassan"
+        ],
+        "doi": "10.1107/s1600536808030596",
+        "volume": "64"
+      },
+      "index": 5,
+      "key": "su5083_bb6",
+      "locator": "o2083",
+      "year": 2008
+    },
+    {
+      "container_name": "Acta Cryst. E",
+      "extra": {
+        "authors": [
+          "Hassan"
+        ],
+        "doi": "10.1107/s1600536809046169",
+        "volume": "65"
+      },
+      "index": 6,
+      "key": "su5083_bb7",
+      "locator": "o3078",
+      "year": 2009
+    },
+    {
+      "container_name": "Turk. J. Chem.",
+      "extra": {
+        "authors": [
+          "Kulcu"
+        ],
+        "volume": "29"
+      },
+      "index": 7,
+      "key": "su5083_bb8",
+      "year": 2005
+    },
+    {
+      "container_name": "Acta Cryst. E",
+      "extra": {
+        "authors": [
+          "Md Nasir"
+        ],
+        "doi": "10.1107/s1600536811025785",
+        "volume": "67"
+      },
+      "index": 8,
+      "key": "su5083_bb9",
+      "locator": "o1947",
+      "year": 2011
+    },
+    {
+      "container_name": "J. Inorg. Biochem.",
+      "extra": {
+        "authors": [
+          "Rodríguez-Fernández"
+        ],
+        "doi": "10.1016/j.jinorgbio.2005.05.004",
+        "volume": "99"
+      },
+      "index": 9,
+      "key": "su5083_bb10",
+      "locator": "1558",
+      "year": 2005
+    },
+    {
+      "container_name": "Acta Cryst. A",
+      "extra": {
+        "authors": [
+          "Sheldrick"
+        ],
+        "doi": "10.1107/s0108767307043930",
+        "volume": "64"
+      },
+      "index": 10,
+      "key": "su5083_bb11",
+      "locator": "112",
+      "year": 2008
+    },
+    {
+      "container_name": "Acta Cryst. D",
+      "extra": {
+        "authors": [
+          "Spek"
+        ],
+        "doi": "10.1107/s090744490804362x",
+        "volume": "65"
+      },
+      "index": 11,
+      "key": "su5083_bb12",
+      "locator": "148",
+      "year": 2009
+    },
+    {
+      "container_name": "Polyhedron",
+      "extra": {
+        "authors": [
+          "Tan"
+        ],
+        "doi": "10.1016/j.poly.2013.11.005",
+        "volume": "68"
+      },
+      "index": 12,
+      "key": "su5083_bb13",
+      "locator": "287",
+      "year": 2014
+    },
+    {
+      "container_name": "J. Appl. Cryst.",
+      "extra": {
+        "authors": [
+          "Westrip"
+        ],
+        "doi": "10.1107/s0021889810022120",
+        "volume": "43"
+      },
+      "index": 13,
+      "key": "su5083_bb14",
+      "locator": "920",
+      "year": 2010
+    }
+  ],
+  "release_date": "2015-03-04",
+  "release_stage": "published",
+  "release_type": "article-journal",
+  "release_year": 2015,
+  "revision": "b4f4aebe-5523-4af1-98e3-22dbbbb0a141",
+  "state": "active",
+  "title": "Crystal structure of 4-methoxy-N-[(pyrrolidin-1-yl)carbothioyl]benzamide",
+  "volume": "71",
+  "work_id": "tovl4qjvlravnicxzurpvye63i"
+}
