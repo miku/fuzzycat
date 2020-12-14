@@ -151,6 +151,13 @@ class GroupVerifier:
 def verify(a: Dict, b: Dict, min_title_length=5) -> Tuple[str, str]:
     """
     Compare two entities (dicts), return tuple of match status and reason.
+
+    Note: This is a too long function, but tested so open to near-term
+    refactor. On the plus, it is uniform in the sense, that a few lines take
+    care of a specific case.
+
+    The cases are relatively independent, so order should not matter, but that
+    can be pinned down much more clearly.
     """
 
     # A few items have the same DOI.
