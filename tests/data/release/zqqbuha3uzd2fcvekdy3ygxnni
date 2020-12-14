@@ -1,0 +1,66 @@
+{
+  "abstracts": [
+    {
+      "content": "<p>Purpose: to generalize and systematize the information available in the literature about the anatomy of the posterior connective arteries in adults. Scientific works (monographs, articles, dissertations and abstracts of dissertations) of native and foreign authors for the period from 1928 to 2017 were worked out to achieve the goal. Data on the variants of artery discharge, areas of blood supply and major anomalies are presented. The size characteristics of arteries (length, outer diameter, wall thickness and lumen diameter) are presented taking into account bilateral, age and sexual differences.</p>",
+      "lang": "en",
+      "mimetype": "text/plain",
+      "sha1": "f3b51c625cddca0b8ccde8732708c99ada479473"
+    }
+  ],
+  "container_id": "gfiokeh43nfdlliq5wose6os5u",
+  "contribs": [
+    {
+      "index": 0,
+      "raw_affiliation": "Saratov State Medical University",
+      "raw_name": "Fomkina О.А.",
+      "role": "author"
+    },
+    {
+      "index": 1,
+      "raw_affiliation": "Saratov State Medical University",
+      "raw_name": "Nikolenko V.N.",
+      "role": "author"
+    },
+    {
+      "index": 2,
+      "raw_affiliation": "Saratov State Medical University",
+      "raw_name": "Gladilin Yu.A.",
+      "role": "author"
+    }
+  ],
+  "ext_ids": {
+    "doaj": "c7260a162f8b477082502647f526af18"
+  },
+  "extra": {
+    "country": "ru",
+    "doaj": {
+      "keywords": [
+        "blood supply to the brain",
+        "branches of the cerebral part of the internal carotid arteries",
+        "cerebral artery",
+        "posterior communicating artery"
+      ],
+      "subject": [
+        {
+          "code": "R5-920",
+          "scheme": "LCC",
+          "term": "Medicine (General)"
+        }
+      ]
+    }
+  },
+  "ident": "zqqbuha3uzd2fcvekdy3ygxnni",
+  "language": "ru",
+  "license_slug": "cc-by-nc",
+  "pages": "25-29",
+  "publisher": "Saratov State Medical University",
+  "refs": [],
+  "release_stage": "published",
+  "release_type": "article-journal",
+  "release_year": 2018,
+  "revision": "16e44506-baf6-4446-bcbb-19198475e2c8",
+  "state": "active",
+  "title": "Anatomy of the posterior communicating artery",
+  "volume": "14",
+  "work_id": "p4qabodb6jbcrjvtknrqkp67ie"
+}

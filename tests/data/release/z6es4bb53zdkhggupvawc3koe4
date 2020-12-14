@@ -1,0 +1,55 @@
+{
+  "abstracts": [
+    {
+      "content": "Background: Urinary tract infection is a common disease in childhood. The aim of this study was to determine the diagnostic performance of urinary analysis, assess the role of urine culture in determining its necessity and evaluate etiologic agents and antimicrobial resistance patterns in children with urinary tract infection.Methods: Our study was made by evaluating the patients who applied to the Antalya Research and Training Hospital- Turkey, between 2015 and 2017. A total 237 urine analysis and urine culture were retrospectively analyzed. Culture results were taken a reference for microscopic and chemical examination of urine and diagnostic accuracy of the test parameters, and the performance of urine analysis were calculated. The culture and antibiogram results were examined and antibiotic resistance with infectious agents frequency was evaluated.Results: The 42.4% of culture negative samples showed leukocyte esterase, nitrite, bacterial and leukocyte counts, which are indicative of infection in urine analysis, were found in normal range. The highest sensitivity (90%) was in the presence of leucocyte esterase and bacteria, while the highest specificity (99.4%) was in the presence of nitrite alone or with other components (leucocyte or leucocyte esterase). The highest antibiotic resistance was found in beta lactam antibiotics. The lowest antibiotic resistance was detected in the carbapenem followed by fluoroquinolone group antibiotics.Conclusion: Microscopic and chemical examination of urine analysis can give us information about urine culture requirement. The observation of increasing overall resistance to antibiotics authorize further studies that lead to new recommendations to antibiotic use in children and adolescents.",
+      "lang": "en",
+      "mimetype": "text/plain",
+      "sha1": "1ec3953f5cdc4de95a89b42d53be696e42317fff"
+    }
+  ],
+  "container_id": "c5imu6adlfbwhm6drjxzqr3euu",
+  "contribs": [
+    {
+      "index": 0,
+      "raw_affiliation": "Antalya Research and Education Hospital, Pediatric Nephrology Department, Antalya, Turkey.",
+      "raw_name": "Rahime Renda",
+      "role": "author"
+    }
+  ],
+  "ext_ids": {
+    "doaj": "535731c0ffdd4ff2a3ceced9d70f9320",
+    "doi": "10.22038/ijp.2017.28352.2462"
+  },
+  "extra": {
+    "country": "ir",
+    "doaj": {
+      "keywords": [
+        "antibiotic resistance",
+        "Children",
+        "urinary tract enfection",
+        "sensitivity",
+        "specificity"
+      ],
+      "subject": [
+        {
+          "code": "RJ1-570",
+          "scheme": "LCC",
+          "term": "Pediatrics"
+        }
+      ]
+    }
+  },
+  "ident": "z6es4bb53zdkhggupvawc3koe4",
+  "language": "en",
+  "license_slug": "cc-by-sa",
+  "pages": "6815-6822",
+  "publisher": "Mashhad University of Medical Sciences",
+  "refs": [],
+  "release_stage": "published",
+  "release_type": "article-journal",
+  "release_year": 2018,
+  "revision": "81e55606-d17b-4f56-a186-ddb8f78f16d2",
+  "state": "active",
+  "title": "Diagnosis and Antibiotic Resistance Distribution in Children with Urinary Tract Infection: A Single Center Experience",
+  "work_id": "tg4mhif5o5f4hmpfbp65ygzquu"
+}

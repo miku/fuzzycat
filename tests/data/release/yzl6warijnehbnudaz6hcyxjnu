@@ -1,0 +1,378 @@
+{
+  "abstracts": [
+    {
+      "content": "Background Urinary tract infection is a common disease in childhood, yet the appropriate approach for a child is still a matter of controversy. The aim of this study was to determine the diagnostic performance of urinary analysis, assess the role of urine culture in determining its necessity and evaluate etiologic agents and antimicrobial resistance patterns in children with urinary tract infection.",
+      "mimetype": "text/plain",
+      "sha1": "226cdfa20c6cb73b497dcc48fc870fe40cd091d3"
+    }
+  ],
+  "contribs": [
+    {
+      "index": 0,
+      "raw_name": "Rahime Renda",
+      "role": "author"
+    }
+  ],
+  "ext_ids": {},
+  "extra": {
+    "container_name": "Int J Pediatr",
+    "doi": "10.22038/ijp.2017.28352.2462",
+    "longtail_oa": true
+  },
+  "ident": "yzl6warijnehbnudaz6hcyxjnu",
+  "issue": "49",
+  "refs": [
+    {
+      "extra": {
+        "authors": [
+          "O Söylemezoğlu",
+          "Üriner Sistem Enfeksiyonları",
+          "İçinde"
+        ],
+        "volume": "2010"
+      },
+      "index": 0,
+      "key": "b0",
+      "title": "Temel pediatri. Ankara: Güneş Tıp Kitabevleri"
+    },
+    {
+      "extra": {
+        "authors": [
+          "J Larcombe"
+        ],
+        "volume": "319"
+      },
+      "index": 1,
+      "key": "b1",
+      "title": "Urinary tract infection in children",
+      "year": 1999
+    },
+    {
+      "extra": {
+        "authors": [
+          "A Sirin",
+          "S Emre",
+          "H Alpay",
+          "A Nayir",
+          "I Bilge",
+          "F Tanman"
+        ],
+        "volume": null
+      },
+      "index": 2,
+      "key": "b2",
+      "title": "Etiology of chronic renal failure in Turkish children",
+      "year": 1995
+    },
+    {
+      "extra": {
+        "authors": [
+          "D Kayalp",
+          "K Dogan",
+          "G Ceylan"
+        ]
+      },
+      "index": 3,
+      "key": "b3"
+    },
+    {
+      "extra": {
+        "authors": [
+          null,
+          "Yucel"
+        ],
+        "volume": "46"
+      },
+      "index": 4,
+      "key": "b4",
+      "title": "Can routine automated urinalysis reduce culture requests?",
+      "year": 2013
+    },
+    {
+      "extra": {
+        "authors": [
+          "P Whiting",
+          "M Westwood",
+          "L Bojke",
+          "S Palmer",
+          "G Richardson",
+          "J Cooper"
+        ],
+        "volume": "10"
+      },
+      "index": 5,
+      "key": "b5",
+      "title": "Clinical effectiveness and cost-effectiveness of tests for the diagnosis and investigation of urinary tract infection in children: a systematic review and economic model",
+      "year": 2006
+    },
+    {
+      "extra": {
+        "authors": [
+          "H Yüksel",
+          "İ Kaplan",
+          "T Dal",
+          "S Kuş",
+          "G Toprak",
+          "O Evliyaoğlu"
+        ],
+        "volume": null
+      },
+      "index": 6,
+      "key": "b6",
+      "title": "The performance of fully automated urine analysis results for predicting the need of urine culture test",
+      "year": 2014
+    },
+    {
+      "extra": {
+        "authors": [
+          "L Korbel",
+          "M Howell",
+          "J Spencer"
+        ],
+        "volume": null
+      },
+      "index": 7,
+      "key": "b7",
+      "title": "The clinical diagnosis and management of urinary tract infections in children and adolescents",
+      "year": 2017
+    },
+    {
+      "extra": {
+        "authors": [
+          null,
+          "Fairhurst"
+        ],
+        "volume": "110"
+      },
+      "index": 8,
+      "key": "b8",
+      "title": "Will the implementation of the 2007 National Institute for Health and ClinicalExcellence (NICE) guidelines on childhood urinary tract infection (UTI) in the UK miss significant urinary tract pathology?",
+      "year": 2012
+    },
+    {
+      "extra": {
+        "authors": [
+          "J Robinson",
+          "J Finlay",
+          "M Lang",
+          "R Bortolussi"
+        ],
+        "volume": "19"
+      },
+      "index": 9,
+      "key": "b9",
+      "title": "Infectious Diseases and Immunization Committee, Community Paediatrics Committee. Urinary tract infections in infants and children: Diagnosis and management",
+      "year": 2014
+    },
+    {
+      "extra": {
+        "authors": [
+          "G Williams",
+          "P Macaskill",
+          "S Chan",
+          "R Turner",
+          "E Hodson",
+          "J Craig"
+        ],
+        "volume": "10"
+      },
+      "index": 10,
+      "key": "b10",
+      "title": "Absolute and relative accuracy of rapid urine tests for urinary tract infection in children: a metaanalysis",
+      "year": 1997
+    },
+    {
+      "index": 11,
+      "key": "b11",
+      "title": "American Academy of Pediatrics, Subcommittee on Urinary Tract Infection, Steering Committee on Quality Improvement and Management"
+    },
+    {
+      "extra": {
+        "authors": [
+          "K Roberts"
+        ],
+        "volume": "128"
+      },
+      "index": 12,
+      "key": "b12",
+      "title": "Urinary tract infection: Clincal practice guideline for diagnosis and management of the initial UTI in febrile infants and children 2 to 24 months",
+      "year": 2011
+    },
+    {
+      "extra": {
+        "authors": [
+          "P Whiting",
+          "M Westwood",
+          "I Watt",
+          "J Cooper",
+          "J Kleijnen"
+        ],
+        "volume": null
+      },
+      "index": 13,
+      "key": "b13",
+      "title": "Rapid tests and urine sampling techniques for the diagnosis of urinary tract infection (UTI) in children under five years: A systematic review",
+      "year": 2005
+    },
+    {
+      "extra": {
+        "authors": [
+          "J Mcgregor",
+          "Y Quach",
+          "D Bearden",
+          "D Smith",
+          "S Sharp",
+          "J Guzmancottrill"
+        ],
+        "volume": "29"
+      },
+      "index": 14,
+      "key": "b14",
+      "title": "Variation in antibiotic susceptibility of uropathogens by age among ambulatory pediatric patients",
+      "year": 2014
+    },
+    {
+      "extra": {
+        "authors": [
+          "A Calzi",
+          "S Grignolo",
+          "I Caviglia",
+          "M Calevo",
+          "G Losurdo",
+          "G Piaggio"
+        ],
+        "volume": "175"
+      },
+      "index": 15,
+      "key": "b15",
+      "title": "Resistance to oral antibiotics in 4569 Gramnegative rods isolated",
+      "year": 2016
+    },
+    {
+      "extra": {
+        "authors": [
+          "S Conkar",
+          "S Demirkaya"
+        ],
+        "volume": "42"
+      },
+      "index": 16,
+      "key": "b16",
+      "title": "Çocuklarda idrar örneklerinden saptanan toplum kaynaklı gram negatif mikroorganizmaların dağ ılımı ve 2013 yılı antibiyotik dirençleri",
+      "year": 2015
+    },
+    {
+      "extra": {
+        "authors": [
+          "N Çelikbilek",
+          "A Gözalan",
+          "B Özdemir",
+          "F Kırca",
+          "Z Açıkgöz"
+        ],
+        "volume": "49"
+      },
+      "index": 17,
+      "key": "b17",
+      "title": "Ayaktan başvuran hastaların idrar kültürlerinde üretilen enterobacteriaceae izolatlarında genişlemiş spektrumlu beta-laktamaz üretimi: Yedi yıllık izlem sonuçları",
+      "year": 2015
+    },
+    {
+      "extra": {
+        "authors": [
+          "H Shao",
+          "W Wang",
+          "X Zhang",
+          "Z Li"
+        ],
+        "volume": null
+      },
+      "index": 18,
+      "key": "b18",
+      "title": "Distribution and resistance trends of pathogens from urinary tract infections and impact on management",
+      "year": 2003
+    },
+    {
+      "extra": {
+        "authors": [
+          "Ö Yavaşcan",
+          "G Sözen",
+          "O Kara",
+          "N Aksu"
+        ],
+        "volume": "15"
+      },
+      "index": 19,
+      "key": "b19",
+      "title": "Çocuklarda idrar yolu infeksiyonu etkenleri ve antibiyotik direnci",
+      "year": 2005
+    },
+    {
+      "extra": {
+        "authors": [
+          "A Komurluoglu",
+          "K Aykac",
+          "Ozsurekci"
+        ]
+      },
+      "index": 20,
+      "key": "b20"
+    },
+    {
+      "extra": {
+        "authors": [
+          "Y Basaranoglu",
+          null,
+          "Asiye Bıcakcıgili",
+          "A Liste",
+          null
+        ],
+        "volume": null
+      },
+      "index": 21,
+      "key": "b21",
+      "title": "Antibiotic Resistance Distribution of Gram-Negative Urinary Tract Infectious Agents: Single Center Experience",
+      "year": 2017
+    },
+    {
+      "extra": {
+        "authors": [
+          "S Mir",
+          "H Erdoğan",
+          "S Güler",
+          "G Şengül",
+          "A Koyu"
+        ],
+        "volume": "41"
+      },
+      "index": 22,
+      "key": "b22",
+      "title": "Çocuk yaş grubu idrar yolu enfeksiyonlarında Ege bölgesi antibiyotik direnci",
+      "year": 2002
+    },
+    {
+      "extra": {
+        "authors": [
+          "E Mantadakis",
+          "E Vouloumanou",
+          "M Panopoulou",
+          "E Tsouvala",
+          "A Tsalkidis",
+          "A Chatzimichael",
+          "M Falagas"
+        ],
+        "volume": null
+      },
+      "index": 23,
+      "key": "b23",
+      "title": "Susceptibility patterns of uropathogens identified in hospitalised children with communityacquired urinary tract infections in Thrace",
+      "year": 2015
+    }
+  ],
+  "release_type": "article-journal",
+  "release_year": 2018,
+  "revision": "0ed4e97a-237d-4afa-9860-0158f9f9f51d",
+  "state": "active",
+  "title": "Diagnosis and Antibiotic Resistance Distribution in Children with Urinary Tract Infection: A Single Center Experience",
+  "work_id": "jmle4cidnfhcvl6oa3pu7spkye"
+}

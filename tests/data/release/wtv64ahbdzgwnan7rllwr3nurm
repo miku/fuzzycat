@@ -1,0 +1,468 @@
+{
+  "abstracts": [
+    {
+      "content": "<jats:p>Studies were carried out on the Inlets of Orange and Catuama at the Santa Cruz Channel, Itamaracá-PE, in the rainy and dry seasons, in a nyctemeral cycle, and in a transversal profile, with intervals of three hours between collections. The objective was to determine the spacial and temporal variation of the N:Si:P atomic ratio, and its possible inter-relations and dependencies, as well as the influence of the hydrodynamism provoked by the variation of the tides at different times of the year. Nitrite-N and nitrate-N were higher in the rainy season, while ammonia-N, phosphate-P and silicate-Si were higher in the dry season, which indicated different results than previous studies. The N:P atomic ratio was lower than 16:1, in all seasons and stations, being highest in the rainy season at Inlet Orange. The Si:P atomic ratio was always high. During the observed nyctemeral cycles, the main factors influencing the composition of the physical, chemical and biological parameters were the tide cycles and the meteorological parameters.</jats:p>",
+      "mimetype": "application/xml+jats",
+      "sha1": "bb9ed2819a4669769fb4f2b440f427678b280b36"
+    }
+  ],
+  "container_id": "26kd6oqjfbep7n4kgxjqtmryji",
+  "contribs": [
+    {
+      "extra": {
+        "seq": "first"
+      },
+      "index": 0,
+      "raw_affiliation": "UFPE",
+      "raw_name": "Manuel de Jesús Flores Montes",
+      "role": "author"
+    },
+    {
+      "index": 1,
+      "raw_affiliation": "UFPE",
+      "raw_name": "Silvio José de Macêdo",
+      "role": "author"
+    },
+    {
+      "index": 2,
+      "raw_affiliation": "UFPE",
+      "raw_name": "Maria Luise Koening",
+      "role": "author"
+    }
+  ],
+  "ext_ids": {
+    "core": "28252107",
+    "doi": "10.1590/s1516-89132002000200002"
+  },
+  "extra": {
+    "crossref": {
+      "alternative-id": [
+        "S1516-89132002000200002"
+      ],
+      "type": "journal-article"
+    }
+  },
+  "ident": "wtv64ahbdzgwnan7rllwr3nurm",
+  "pages": "115-124",
+  "publisher": "FapUNIFESP (SciELO)",
+  "refs": [
+    {
+      "container_name": "Marine Chemistry",
+      "extra": {
+        "authors": [
+          "Boulahdid M."
+        ],
+        "doi": "10.1016/0304-4203(89)90057-1",
+        "volume": "26"
+      },
+      "index": 0,
+      "key": "ref1",
+      "locator": "133",
+      "title": "Oxygen consumption and nutrient regeneration ratios along isopycnal horizons in the Pacific Ocean",
+      "year": 1989
+    },
+    {
+      "container_name": "A comparative analysis of nutrients and other factors influencing estuarine phytoplankton production",
+      "extra": {
+        "authors": [
+          "Boynton W. R."
+        ],
+        "series-title": "Estuarine Comparisons",
+        "volume-title": "A comparative analysis of nutrients and other factors influencing estuarine phytoplankton production"
+      },
+      "index": 1,
+      "key": "ref2",
+      "locator": "69",
+      "year": 1982
+    },
+    {
+      "extra": {
+        "authors": [
+          "Chester R."
+        ],
+        "series-title": "Marine Geochemistry"
+      },
+      "index": 2,
+      "key": "ref3",
+      "year": 1990
+    },
+    {
+      "container_name": "Marine Chemistry",
+      "extra": {
+        "authors": [
+          "Degobbis D."
+        ],
+        "doi": "10.1016/0304-4203(90)90016-6",
+        "issue": "2/3",
+        "volume": "29"
+      },
+      "index": 3,
+      "key": "ref4",
+      "locator": "235",
+      "title": "A stoichiometric model of nutrient cycling in the northern Adriatic Sea and its relation to regeneration processes",
+      "year": 1990
+    },
+    {
+      "container_name": "Limnol. Oceanogr.",
+      "extra": {
+        "authors": [
+          "Dustan P."
+        ],
+        "doi": "10.4319/lo.1989.34.2.0410",
+        "volume": "34"
+      },
+      "index": 4,
+      "key": "ref5",
+      "locator": "410",
+      "title": "Tidally induced estuarine phytoplankton patchiness",
+      "year": 1989
+    },
+    {
+      "container_name": "Ophelia",
+      "extra": {
+        "authors": [
+          "Escaravage V."
+        ],
+        "doi": "10.1080/00785326.1995.10431497",
+        "volume": "42"
+      },
+      "index": 5,
+      "key": "ref6",
+      "locator": "55",
+      "title": "The development of a Phaeocystis bloom im a mesocosm experiment in relation to nutrients, irradiance and coexisting algae",
+      "year": 1995
+    },
+    {
+      "container_name": "Marine Chemistry",
+      "extra": {
+        "authors": [
+          "Fan A."
+        ],
+        "issue": "3/4",
+        "volume": "27"
+      },
+      "index": 6,
+      "key": "ref7",
+      "locator": "259",
+      "title": "Tidal effect on nutrient exchange in Xiangshan Bay, China",
+      "year": 1989
+    },
+    {
+      "container_name": "Marine Chemistry",
+      "extra": {
+        "authors": [
+          "Flint R. W."
+        ],
+        "doi": "10.1016/0304-4203(85)90056-8",
+        "volume": "16"
+      },
+      "index": 7,
+      "key": "ref8",
+      "locator": "351",
+      "title": "Coastal ecosystem dynamics: relevance of benthic processes",
+      "year": 1985
+    },
+    {
+      "extra": {
+        "authors": [
+          "Flores Montes M. de J."
+        ],
+        "series-title": "Variação nictemeral do fitoplâncton e parâmetros hidrológicos no Canal de Santa Cruz, Itamaracá, PE"
+      },
+      "index": 8,
+      "key": "ref9",
+      "year": 1997
+    },
+    {
+      "container_name": "Limnol. Oceanogr.",
+      "extra": {
+        "authors": [
+          "Froelich P. N."
+        ],
+        "volume": "33"
+      },
+      "index": 9,
+      "key": "ref10",
+      "locator": "649",
+      "title": "Kinetic control of dissolved phosphate in natural waters and estuaries: A primer on the phosphate buffer mechanism",
+      "year": 1988
+    },
+    {
+      "extra": {
+        "authors": [
+          "Grasshoff K."
+        ],
+        "series-title": "Methods of seawater analysis"
+      },
+      "index": 10,
+      "key": "ref11",
+      "year": 1983
+    },
+    {
+      "container_name": "Marine Chemistry",
+      "extra": {
+        "authors": [
+          "Grzetic Z."
+        ],
+        "doi": "10.1016/0304-4203(91)90046-y",
+        "issue": "2/4",
+        "volume": "32"
+      },
+      "index": 11,
+      "key": "ref12",
+      "locator": "313",
+      "title": "Nutrient enrichment and phytoplankton response in a Adriatic karstic estuary",
+      "year": 1991
+    },
+    {
+      "container_name": "Limnol. Oceanogr.",
+      "extra": {
+        "authors": [
+          "Hansen D. V."
+        ],
+        "doi": "10.4319/lo.1966.11.3.0319",
+        "volume": "11"
+      },
+      "index": 12,
+      "key": "ref13",
+      "locator": "319",
+      "title": "New dimensions in estuary classification",
+      "year": 1966
+    },
+    {
+      "container_name": "Limnol. Oceanogr.",
+      "extra": {
+        "authors": [
+          "Howarth R. W."
+        ],
+        "volume": "33"
+      },
+      "index": 13,
+      "key": "ref14",
+      "locator": "part 2, 669",
+      "title": "Nitrogen fixation in freshwater, estuarine and marine ecosystems: 1. Rates and importance",
+      "year": 1988
+    },
+    {
+      "container_name": "Phytoplankton nutrients in estuaries",
+      "extra": {
+        "authors": [
+          "Ketchum B. H."
+        ],
+        "series-title": "Estuaries",
+        "volume-title": "Phytoplankton nutrients in estuaries"
+      },
+      "index": 14,
+      "key": "ref15",
+      "locator": "329",
+      "year": 1967
+    },
+    {
+      "extra": {
+        "authors": [
+          "Koening M. L."
+        ],
+        "series-title": "Biomassa e fracionamento do fitoplâncton em viveiros de cultivo de peixes(Itamaracá-PE)"
+      },
+      "index": 15,
+      "key": "ref16",
+      "year": 1983
+    },
+    {
+      "container_name": "Ophelia.",
+      "extra": {
+        "authors": [
+          "Legendre L."
+        ],
+        "doi": "10.1080/00785236.1995.10422042",
+        "volume": "41"
+      },
+      "index": 16,
+      "key": "ref17",
+      "locator": "153",
+      "title": "Plankton and nutrient dynamics in marine waters",
+      "year": 1995
+    },
+    {
+      "container_name": "Marine Chemistry",
+      "extra": {
+        "authors": [
+          "Legovic T."
+        ],
+        "issue": "2/4",
+        "volume": "32"
+      },
+      "index": 17,
+      "key": "ref18",
+      "locator": "121",
+      "title": "Eutrophication in the Krka stuary",
+      "year": 1991
+    },
+    {
+      "container_name": "B. Rec. Nat.",
+      "extra": {
+        "authors": [
+          "Macêdo S. J."
+        ],
+        "issue": "1/2",
+        "volume": "11"
+      },
+      "index": 18,
+      "key": "ref19",
+      "title": "Condições hidrológicas do Canal de Santa Cruz, Itamaracá-PE",
+      "year": 1973
+    },
+    {
+      "extra": {
+        "authors": [
+          "Macêdo S. J. de"
+        ],
+        "series-title": "Fisioecologia de alguns estuários do Canal de Santa Cruz (Itamaracá-PE)"
+      },
+      "index": 19,
+      "key": "ref20",
+      "year": 1974
+    },
+    {
+      "extra": {
+        "authors": [
+          "Medeiros C."
+        ],
+        "series-title": "Circulation and mixing processes in the Itamaracá estuarine system, Brazil"
+      },
+      "index": 20,
+      "key": "ref21",
+      "year": 1991
+    },
+    {
+      "extra": {
+        "authors": [
+          "Millero F. J."
+        ],
+        "series-title": "Chemical Oceanography"
+      },
+      "index": 21,
+      "key": "ref22",
+      "year": 1992
+    },
+    {
+      "container_name": "Ophelia",
+      "extra": {
+        "authors": [
+          "Paerl H. W."
+        ],
+        "doi": "10.1080/00785236.1995.10422046",
+        "volume": "41"
+      },
+      "index": 22,
+      "key": "ref23",
+      "locator": "237",
+      "title": "Coastal eutrophication in relation to atmosphera nitrogen deposition: current perspectives",
+      "year": 1995
+    },
+    {
+      "extra": {
+        "authors": [
+          "Parsons T. R."
+        ],
+        "series-title": "Biological oceanographics processes"
+      },
+      "index": 23,
+      "key": "ref24",
+      "year": 1984
+    },
+    {
+      "container_name": "Trab. Oceanogr. Univ. Fed. Pe.",
+      "extra": {
+        "authors": [
+          "Passavante J. Z. de O."
+        ],
+        "volume": "14"
+      },
+      "index": 24,
+      "key": "ref25",
+      "locator": "31",
+      "title": "Contribuição ao estudo dos dinoflagelados da plataforma continental de Pernambuco (Brasil)",
+      "year": 1979
+    },
+    {
+      "container_name": "Ophelia",
+      "extra": {
+        "authors": [
+          "Rasmussen B"
+        ],
+        "volume": "42"
+      },
+      "index": 25,
+      "key": "ref26",
+      "locator": "313",
+      "title": "Stratification and wind mixing in the southern Kattegat"
+    },
+    {
+      "container_name": "Limnol. Oceanogr.",
+      "extra": {
+        "authors": [
+          "Rhee G. Y."
+        ],
+        "doi": "10.4319/lo.1978.23.1.0010",
+        "volume": "23"
+      },
+      "index": 26,
+      "key": "ref27",
+      "locator": "10",
+      "title": "Effects of N: P atomic ratios and nitrate limitation on algal growth, cell composition and nitrate uptake",
+      "year": 1978
+    },
+    {
+      "container_name": "Limnol. Oceanogr.",
+      "extra": {
+        "authors": [
+          "Smith S. V."
+        ],
+        "doi": "10.4319/lo.1984.29.6.1149",
+        "volume": "29"
+      },
+      "index": 27,
+      "key": "ref28",
+      "locator": "1149",
+      "title": "Phosphorus versus nitrogen limitation in the marine environment",
+      "year": 1984
+    },
+    {
+      "container_name": "Bull. Fish. Res. Bd. Can.",
+      "extra": {
+        "authors": [
+          "Strickland J. D. H."
+        ],
+        "volume": "125"
+      },
+      "index": 28,
+      "key": "ref29",
+      "title": "A mannual of sea water analysis",
+      "year": 1960
+    },
+    {
+      "container_name": "Bolm. Inst. Oceanogr. S. Paulo",
+      "extra": {
+        "authors": [
+          "Teixeira C."
+        ],
+        "doi": "10.1590/s0373-55241991000100002",
+        "volume": "39"
+      },
+      "index": 29,
+      "key": "ref30",
+      "locator": "15",
+      "title": "Variação nictemeral da clorofila \"a\", produção primária do fitoplâncton e fatores ambientais da região de Ubatuba (Lat. 23 30'S, Long. 45 06'W)",
+      "year": 1991
+    }
+  ],
+  "release_stage": "published",
+  "release_type": "article-journal",
+  "release_year": 2002,
+  "revision": "d9e72ef0-2a5f-46e5-913f-15d7c6da6d04",
+  "state": "active",
+  "title": "N:Si:P atomic ratio in the Santa Cruz Channel, Itamaracá-PE (Northeast Brazil): a nyctemeral variation",
+  "volume": "45",
+  "work_id": "3tfyf7cdcjaq7pyjv6w6dw3bbu"
+}

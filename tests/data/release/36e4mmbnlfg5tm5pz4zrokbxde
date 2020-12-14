@@ -1,0 +1,60 @@
+{
+  "abstracts": [
+    {
+      "content": "<jats:p>Penelitian ini bertujuan untuk: (1) mengembangkan model asesmen kepemimpinan pembel-ajaran kepala sekolah, dan (2) mengetahui keefektifan kepemimpinan pembelajaran kepala sekolah. Model asesmen kepemimpinan pembelajaran ini menggunakan pendekatan 360-degree assesessment, yakni asesmen dari guru, kepala sekolah dan pengawas. Jumlah responden sebanyak 560 yang terdiri dari 466 guru, 47 kepala sekolah, dan 47 pengawas pada jenjang SD dan SMP. Dua daerah dipilih untuk mewakili Provinsi Kalimantan Selatan, yakni masing-masing satu dari Kabupaten Banjar dan Kota Banjarbaru. Ukuran sampel sekolah sebanyak 47 diambil dari wilayah berbeda, yakni wilayah kota, pinggiran, dan desa. Pengumpulan data menggunakan kuesioner skala Likert (1-4) yang terdiri atas 36 item. Responden dari setiap sekolah terdiri atas 10 guru, satu kepala sekolah, dan satu pengawas dari sekolah yang sama untuk mengisi instrumen. Teknik analisis data untuk uji kecocokan model dengan data dan invariansi parameter model antar group rater menggunakan Confirmatory Factor Analysis. Hasil penelitian menunjukkan bahwa: (1) model asesmen kepemimpinan pembelajaran kepala sekolah dengan 4 dimensi dan 36 items menunjukkan kecocokan dengan data empiris (χ2, p=0,347&gt;0,050; RMSEA=0,006&lt;0,080) dan semua item memiliki standardized loading factor yang signifikan (t&gt;1,96; λ&gt;0,50), dan (2) persentase kepala sekolah yang memiliki keefektifan kepemimpinan pembelajaran pada kategori tinggi dan sedang berturut-turut adalah sebesar 19% dan 79%, dan dengan skala 100, rerata skor dimensi visi, supervisi, penilaian  kinerja guru, dan pengembangan keprofesian guru berturut-turut adalah sebesar 74,  65,  65 dan 63. Kata kunci: model asesmen, kepemimpinan pembelajaran ______________________________________________________________A MODEL FOR ASSESSMENT OF PRINCIPAL INSTRUCTIONAL LEADERSHIP OF BASIC EDUCATIONAbstract This study aims to: (1) develop a model for assessment of principal instructional leadership, and (2) describe the effectiveness of the principal instructional leadership. This assessment model was developed by using 360 degree assessment approach, i.e. the assessment from teachers, principals, and supervisors. The  respondents were 560 people that consisted of 466 teachers, 47 principals, and 47 supervisors from elementary and secondary school. Banjar and Banjarbaru districts were selected to represent the South Kalimantan Province. A sample of 47 schools was established from the different areas: urban, suburban, and rural areas. The data were collected using a Likert scale questionaire (1-4) with 36 items. The respondents who were selected from each school consisted of 10 teachers, one principal, and one supervisor to complete the questionaire. The Confirmatory Factor Analysis was used to test the fitness between model and data and invariance of measurement across group raters. The findings of this study show that: (1) the model for assessment of instructional  leadership with four dimensions and 36 items shows a good fitness to data (χ2, p=0.347&gt;0.050; RMSEA= 0.006&lt;0.080) and all items have the significant standardized loading factors (t&gt;1.96; λ&gt;0.50), and (2) the percentage of principals having instructional leadership effectiveness at high and moderate cotegory repectively is 19% and 79%, and by 100 scale, the mean score of vision for learning, supervision, assessmnet of teacher performance, teacher professional development, respectively is 74,  65, 65, and 63.Keywords: assessment model, instructional leadership</jats:p>",
+      "mimetype": "application/xml+jats",
+      "sha1": "fa3218d6ff7e166c08f600960eb639656c26bc5d"
+    }
+  ],
+  "container_id": "zsx7e2gfk5gjhhyy5umwdjceua",
+  "contribs": [
+    {
+      "extra": {
+        "seq": "first"
+      },
+      "index": 0,
+      "raw_name": "Zaenal Fanani",
+      "role": "author"
+    },
+    {
+      "index": 1,
+      "raw_name": "Djemari Mardapi",
+      "role": "author"
+    },
+    {
+      "index": 2,
+      "raw_name": "Wuradji Wuradji",
+      "role": "author"
+    }
+  ],
+  "ext_ids": {
+    "doi": "10.21831/pep.v18i1.2129"
+  },
+  "extra": {
+    "crossref": {
+      "license": [
+        {
+          "URL": "http://creativecommons.org/licenses/by-sa/4.0",
+          "content-version": "unspecified",
+          "delay-in-days": 0,
+          "start": "2014-06-01T00:00:00Z"
+        }
+      ],
+      "type": "journal-article"
+    }
+  },
+  "ident": "36e4mmbnlfg5tm5pz4zrokbxde",
+  "license_slug": "CC-BY-SA",
+  "pages": "129-145",
+  "publisher": "Universitas Negeri Yogyakarta",
+  "refs": [],
+  "release_date": "2014-06-01",
+  "release_stage": "published",
+  "release_type": "article-journal",
+  "release_year": 2014,
+  "revision": "04e1e6f3-fe0f-4bb3-b414-bf4b9194eb77",
+  "state": "active",
+  "title": "MODEL ASESMEN KEPEMIMPINAN PEMBELAJARAN KEPALA SEKOLAH PENDIDIKAN DASAR",
+  "volume": "18",
+  "work_id": "kdpifcacyfapvisevejhawlfse"
+}

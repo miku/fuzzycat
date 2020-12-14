@@ -1,0 +1,63 @@
+{
+  "abstracts": [
+    {
+      "content": "Studies were carried out on the Inlets of Orange and Catuama at the Santa Cruz Channel, Itamaracá-PE, in the rainy and dry seasons, in a nyctemeral cycle, and in a transversal profile, with intervals of three hours between collections. The objective was to determine the spacial and temporal variation of the N:Si:P atomic ratio, and its possible inter-relations and dependencies, as well as the influence of the hydrodynamism provoked by the variation of the tides at different times of the year. Nitrite-N and nitrate-N were higher in the rainy season, while ammonia-N, phosphate-P and silicate-Si were higher in the dry season, which indicated different results than previous studies. The N:P atomic ratio was lower than 16:1, in all seasons and stations, being highest in the rainy season at Inlet Orange. The Si:P atomic ratio was always high. During the observed nyctemeral cycles, the main factors influencing the composition of the physical, chemical and biological parameters were the tide cycles and the meteorological parameters.",
+      "lang": "en",
+      "mimetype": "text/plain",
+      "sha1": "db11b9c3612cdf940981efa8c9443bcbab59cbd5"
+    }
+  ],
+  "container_id": "26kd6oqjfbep7n4kgxjqtmryji",
+  "contribs": [
+    {
+      "index": 0,
+      "raw_name": "Montes Manuel de Jesús Flores",
+      "role": "author"
+    },
+    {
+      "index": 1,
+      "raw_name": "Macêdo Silvio José de",
+      "role": "author"
+    },
+    {
+      "index": 2,
+      "raw_name": "Koening Maria Luise",
+      "role": "author"
+    }
+  ],
+  "ext_ids": {
+    "doaj": "23334e6b8a8b4f2486c469d33d8e772b"
+  },
+  "extra": {
+    "country": "br",
+    "doaj": {
+      "keywords": [
+        "N:Si:P atomic ratio",
+        "dissolved nutrients",
+        "estuary",
+        "nyctemeral variation"
+      ],
+      "subject": [
+        {
+          "code": "TP248.13-248.65",
+          "scheme": "LCC",
+          "term": "Biotechnology"
+        }
+      ]
+    }
+  },
+  "ident": "6nmlwrlcindltmrbrfb3k6bmmy",
+  "language": "en",
+  "license_slug": "cc-by-nc",
+  "pages": "115-124",
+  "publisher": "Instituto de Tecnologia do Paraná (Tecpar)",
+  "refs": [],
+  "release_stage": "published",
+  "release_type": "article-journal",
+  "release_year": 2002,
+  "revision": "081fecaa-0c27-47f9-ae30-580cde8cca27",
+  "state": "active",
+  "title": "N:Si:P atomic ratio in the Santa Cruz Channel, Itamaracá-PE (Northeast Brazil): a nyctemeral variation",
+  "volume": "45",
+  "work_id": "otmf7xlrrremppomhmxabf75qe"
+}

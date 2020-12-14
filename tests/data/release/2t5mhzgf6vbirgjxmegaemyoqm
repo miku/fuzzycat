@@ -1,0 +1,44 @@
+{
+  "abstracts": [],
+  "container_id": "vmecceydlnbtlkuz7fldkscnaa",
+  "contribs": [
+    {
+      "index": 0,
+      "raw_name": "GIZELLE GUADALUPE MACÍAS GONZÁLEZ",
+      "role": "author"
+    }
+  ],
+  "ext_ids": {
+    "doaj": "07c8814c8fb54d42acdb32c54c67bee1"
+  },
+  "extra": {
+    "country": "mx",
+    "doaj": {
+      "subject": [
+        {
+          "code": "HQ1-2044",
+          "scheme": "LCC",
+          "term": "The family. Marriage. Woman"
+        },
+        {
+          "code": "HQ1101-2030.7",
+          "scheme": "LCC",
+          "term": "Women. Feminism"
+        }
+      ]
+    }
+  },
+  "ident": "2t5mhzgf6vbirgjxmegaemyoqm",
+  "issue": "44",
+  "language": "es",
+  "pages": "187-194",
+  "publisher": "Universidad de Guadalajara",
+  "refs": [],
+  "release_stage": "published",
+  "release_type": "article-journal",
+  "release_year": 2016,
+  "revision": "d4e68368-a0c7-4a2e-bf60-d524de986f93",
+  "state": "active",
+  "title": "LA MONETARIZACIÓN DE LA POBREZA, LAS MUJERES Y LA REVOLUCIÓN MICROFINANCIERA EN MÉXICO La monetarización de la pobreza. Estrategias financieras de los hogares mexicanos. LucÌa Baz·n Levy y Gonzalo A. SaravÌ, 2012. Publicaciones de la casa Chata, Centro de Investigaciones y Estudios Superiores en AntropologÌa Social, MÈxico, 331 pp.",
+  "work_id": "3sjhusd76jax3mcbxnrn7gjc5a"
+}

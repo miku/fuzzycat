@@ -1,0 +1,56 @@
+{
+  "abstracts": [
+    {
+      "content": "This study examines whether the nonlinear adjustment dynamic of stock returns to the equilibrium level in an emerging stock market is symmetrical or asymmetrical. The empirical results suggest that the data generating process of Iran stock returns series is nonlinear Smooth Transition Autoregressive (STAR) and dynamic adjustment of the stock returns to the long run equilibrium level is asymmetric. The adjustment mechanism of the Iran stock returns deviations from the equilibrium level are different in the bull and bear markets.",
+      "lang": "en",
+      "mimetype": "text/plain",
+      "sha1": "0c5322cb540f198cb13fc868b834263a1e7c12f5"
+    }
+  ],
+  "container_id": "g4qpxtnjxfhpxj6vudhotsmppe",
+  "contribs": [
+    {
+      "index": 0,
+      "raw_name": "Seyyed Ali Paytakhti Oskooe",
+      "role": "author"
+    }
+  ],
+  "ext_ids": {
+    "doaj": "752301cd26c54e76887aea4f3ad6d4d1"
+  },
+  "extra": {
+    "country": "tr",
+    "doaj": {
+      "keywords": [
+        "Stock returns",
+        "Smooth transition",
+        "Bull and bear markets"
+      ],
+      "subject": [
+        {
+          "code": "HF5001-6182",
+          "scheme": "LCC",
+          "term": "Business"
+        },
+        {
+          "code": "HB71-74",
+          "scheme": "LCC",
+          "term": "Economics as a science"
+        }
+      ]
+    }
+  },
+  "ident": "z6427hizordgdghd2g26uwp45a",
+  "language": "en",
+  "license_slug": "cc-by",
+  "pages": "179-183",
+  "publisher": "EconJournals",
+  "refs": [],
+  "release_stage": "published",
+  "release_type": "article-journal",
+  "release_year": 2012,
+  "revision": "d9fd513d-790e-404e-85f5-4632736e487e",
+  "state": "active",
+  "title": "Nonlinear Adjustment of Emerging Stock Market Returns: Symmetrical or Asymmetrical",
+  "work_id": "kcou5atkvbfz7omt2sjxgqbav4"
+}

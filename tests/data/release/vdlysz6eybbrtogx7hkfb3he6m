@@ -1,0 +1,60 @@
+{
+  "abstracts": [
+    {
+      "content": "Este artículo indica la existencia de un vínculo entre la violencia contra las mujeres y el discurso milenario orientado por el patriarcalismo y por ideas preconcebidas de superioridad de los hombres sobre las mujeres. A lo largo del texto, se resaltan algunas de las tesis que fueron defendidas por grandes pensadores en el pasado, tales como Aristóteles, Platón y Freud, que fueron incorporadas por la cultura social dominante occidental y brasileña, mucho más por el respeto a dichos pensadores y por la preexistencia de un discurso patriarcal y machista, que las aceptó, que por el fundamento científico de tales tesis, que tuvieron su falsedad comprobada en el siglo XX, específicamente con las investigaciones impulsadas por el movimiento feminista en el libro de Simone de Beauvoir \"El segundo sexo\". Desmitificadas las tesis sexistas, ni por eso la sociedad pasó a tratar de forma igualitaria a hombres y mujeres, que siguen siendo víctimas de discriminación sexista y de otras especies de violencia, practicadas por hombres en todos los niveles sociales, lo que hace que sea necesaria la implantación de una política pública de Estado que viabilice el trato igualitario entre los géneros sociales. Esta necesidad es efectuada por los datos de la Campaña Compromiso y Actitud, la cual articula y moviliza los sistemas de seguridad y justicia para fortalecer la implementación de la Ley Maria da Penha, ley brasileña que garantiza la protección de las mujeres contra cualquier tipo de violencia doméstica, sea física, psicológica, patrimonial o moral. Lo que se pretende con el artículo es mostrar la necesidad de estudios e investigaciones con el tema violencia de género, así como comprobar, por medio de datos y estudios brasileños, la gravedad del sexismo en Brasil, que presenta números altísimos en términos mundiales de violencia contra las mujeres y el feminicidio, especialmente en relación con las mujeres negras y más pobres. Además, el artículo a través de la denuncia de la violencia, tiene como objetivo la concientización del  [...]",
+      "lang": "es",
+      "mimetype": "text/plain",
+      "sha1": "a575181a69a68b38d3dbfe23d541764a6c83801e"
+    }
+  ],
+  "contribs": [
+    {
+      "given_name": "Ana Catarina De Pinho Simas",
+      "index": 0,
+      "raw_affiliation": "Universidade Federal do Espírito Santo",
+      "raw_name": "Ana Catarina De Pinho Simas Oliveira",
+      "role": "author",
+      "surname": "Oliveira"
+    }
+  ],
+  "ext_ids": {
+    "doi": "10.5281/zenodo.3605302"
+  },
+  "extra": {
+    "datacite": {
+      "license": [
+        {
+          "rights": "Creative Commons Attribution 4.0 International",
+          "rightsUri": "http://creativecommons.org/licenses/by/4.0/legalcode"
+        },
+        {
+          "rights": "Open Access",
+          "rightsUri": "info:eu-repo/semantics/openAccess"
+        }
+      ],
+      "relations": [
+        {
+          "relatedIdentifier": "10.5281/zenodo.3605303",
+          "relatedIdentifierType": "DOI",
+          "relationType": "HasVersion"
+        }
+      ],
+      "resourceType": "Journal article",
+      "resourceTypeGeneral": "Text"
+    },
+    "release_month": 1
+  },
+  "ident": "vdlysz6eybbrtogx7hkfb3he6m",
+  "language": "es",
+  "license_slug": "CC-BY",
+  "publisher": "Zenodo",
+  "refs": [],
+  "release_date": "2020-01-12",
+  "release_stage": "published",
+  "release_type": "article-journal",
+  "release_year": 2020,
+  "revision": "886d6501-bc0c-434e-bb49-6d1cf451b31a",
+  "state": "active",
+  "title": "Violencia contra las mujeres: un problema cultural en Brasil",
+  "work_id": "mlps7axbprhbtd77ww2fbwpf7i"
+}

@@ -1,0 +1,77 @@
+{
+  "abstracts": [],
+  "container_id": "td5cjnem25b35nugn4qftmwcna",
+  "contribs": [
+    {
+      "extra": {
+        "seq": "first"
+      },
+      "index": 0,
+      "raw_name": "Don F. Schomer",
+      "role": "author"
+    },
+    {
+      "index": 1,
+      "raw_name": "Michael P. Marks",
+      "role": "author"
+    },
+    {
+      "index": 2,
+      "raw_name": "Gary K. Steinberg",
+      "role": "author"
+    },
+    {
+      "index": 3,
+      "raw_name": "Iain M. Johnstone",
+      "role": "author"
+    },
+    {
+      "index": 4,
+      "raw_name": "Derek B. Boothroyd",
+      "role": "author"
+    },
+    {
+      "index": 5,
+      "raw_name": "Michael R. Ross",
+      "role": "author"
+    },
+    {
+      "index": 6,
+      "raw_name": "Norbert J. Pelc",
+      "role": "author"
+    },
+    {
+      "index": 7,
+      "raw_name": "Dieter R. Enzmann",
+      "role": "author"
+    }
+  ],
+  "ext_ids": {
+    "doi": "10.1056/nejm199406023302204",
+    "pmid": "8177246",
+    "wikidata_qid": "Q48107133"
+  },
+  "extra": {
+    "crossref": {
+      "alternative-id": [
+        "10.1056/NEJM199406023302204"
+      ],
+      "type": "journal-article"
+    }
+  },
+  "ident": "drzpue5r6zajlpa3fkyjdetuqy",
+  "issue": "22",
+  "language": "en",
+  "pages": "1565-1570",
+  "publisher": "New England Journal of Medicine (NEJM/MMS)",
+  "refs": [],
+  "release_date": "1994-06-02",
+  "release_stage": "published",
+  "release_type": "article-journal",
+  "release_year": 1994,
+  "revision": "a082d169-33ab-4f8d-abb7-c8c9d3da4813",
+  "state": "active",
+  "title": "The Anatomy of the Posterior Communicating Artery as a Risk Factor for Ischemic Cerebral Infarction",
+  "volume": "330",
+  "work_id": "belijr2wjvbnljqguskmcaqfwy"
+}

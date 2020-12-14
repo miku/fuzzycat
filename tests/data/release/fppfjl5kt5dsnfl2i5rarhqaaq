@@ -1,0 +1,54 @@
+{
+  "abstracts": [],
+  "container_id": "eoj7hypwqbf5xghanb7oz2snce",
+  "contribs": [
+    {
+      "extra": {},
+      "given_name": "J",
+      "index": 0,
+      "raw_affiliation": "Department of Human Anatomy, University Medical School Warsaw.",
+      "raw_name": "J Klapecki",
+      "role": "author",
+      "surname": "Klapecki"
+    },
+    {
+      "extra": {},
+      "given_name": "E",
+      "index": 1,
+      "raw_name": "E Pacholec",
+      "role": "author",
+      "surname": "Pacholec"
+    },
+    {
+      "extra": {},
+      "given_name": "B",
+      "index": 2,
+      "raw_name": "B Ciszek",
+      "role": "author",
+      "surname": "Ciszek"
+    }
+  ],
+  "ext_ids": {
+    "pmid": "9243899"
+  },
+  "extra": {
+    "pubmed": {
+      "pub_types": [
+        "Journal Article"
+      ]
+    }
+  },
+  "ident": "fppfjl5kt5dsnfl2i5rarhqaaq",
+  "issue": "4",
+  "language": "en",
+  "pages": "335-7",
+  "refs": [],
+  "release_stage": "published",
+  "release_type": "article-journal",
+  "release_year": 1996,
+  "revision": "1270c447-21aa-407b-8195-d96d4340d956",
+  "state": "active",
+  "title": "Anatomy of the posterior communicating artery--preliminary report",
+  "volume": "55",
+  "work_id": "nkiw6l3owba7lgw4opdumhhqzi"
+}

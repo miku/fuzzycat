@@ -1,0 +1,135 @@
+{
+  "abstracts": [
+    {
+      "content": "This study examines whether the nonlinear adjustment dynamic of stock returns to the equilibrium level in an emerging stock market is symmetrical or asymmetrical. The empirical results suggest that the data generating process of Iran stock returns series is nonlinear Smooth Transition Autoregressive (STAR) and dynamic adjustment of the stock returns to the long run equilibrium level is asymmetric. The adjustment mechanism of the Iran stock returns deviations from the equilibrium level are different in the bull and bear markets.",
+      "mimetype": "text/plain",
+      "sha1": "0c5322cb540f198cb13fc868b834263a1e7c12f5"
+    }
+  ],
+  "contribs": [
+    {
+      "index": 0,
+      "raw_name": "Seyyed Ali",
+      "role": "author"
+    },
+    {
+      "index": 1,
+      "raw_name": "Paytakhti Oskooe",
+      "role": "author"
+    }
+  ],
+  "ext_ids": {},
+  "extra": {
+    "container_name": "International Journal of Economics and Financial Issues",
+    "longtail_oa": true
+  },
+  "ident": "c3m3t2l2urbkhmmy6qvvjnhb5q",
+  "refs": [
+    {
+      "extra": {
+        "authors": [
+          "W Enders"
+        ]
+      },
+      "index": 0,
+      "key": "b0",
+      "title": "Applied Econometric Time Series. 3 nd",
+      "year": 2010
+    },
+    {
+      "extra": {
+        "authors": [
+          "M Bradley",
+          "D Jensen"
+        ],
+        "volume": "20"
+      },
+      "index": 1,
+      "key": "b1",
+      "title": "Forecasting with a nonlinear dynamic model of stock returns and industrial production",
+      "year": 2004
+    },
+    {
+      "extra": {
+        "authors": [
+          "L Bonga-Bonga",
+          "M Makakabule"
+        ],
+        "volume": "19"
+      },
+      "index": 2,
+      "key": "b2",
+      "title": "Modelling Stock Returns in the South African Stock Exchange: A Nonlinear Approach",
+      "year": 2010
+    },
+    {
+      "extra": {
+        "authors": [
+          "S Manzan"
+        ],
+        "issue": null,
+        "volume": null
+      },
+      "index": 3,
+      "key": "b3",
+      "title": "Nonlinear mean reversion in stock prices",
+      "year": 2006
+    },
+    {
+      "extra": {
+        "authors": [
+          "D Mcmillan"
+        ]
+      },
+      "index": 4,
+      "key": "b4",
+      "title": "Non-linear predictability of stock market returns: evidence from nonparametric and threshold models",
+      "year": 2001
+    },
+    {
+      "extra": {
+        "authors": [
+          "D Mcmillan"
+        ],
+        "volume": "84"
+      },
+      "index": 5,
+      "key": "b5",
+      "title": "Non-linear predictability of short-run deviations in UK stock market returns",
+      "year": 2004
+    },
+    {
+      "extra": {
+        "authors": [
+          "T Teräsvirta"
+        ],
+        "volume": "89"
+      },
+      "index": 6,
+      "key": "b6",
+      "title": "Specification; Estimation, and Evaluation of Smooth Transition Autoregressive Models",
+      "year": 1994
+    },
+    {
+      "extra": {
+        "authors": [
+          "D Van Dijk",
+          "T Teräsvirta",
+          "P Franses"
+        ],
+        "issue": null,
+        "volume": "21"
+      },
+      "index": 7,
+      "key": "b7",
+      "title": "Smooth Transition Autoregressive Models-a Survey of Recent Developments",
+      "year": 2002
+    }
+  ],
+  "release_type": "article-journal",
+  "release_year": 2012,
+  "revision": "4190806d-f9dc-46ac-9a2f-f2f3b9e6bb90",
+  "state": "active",
+  "title": "Nonlinear Adjustment of Emerging Stock Market Returns: Symmetrical or Asymmetrical",
+  "work_id": "q5xw4v67obdatpswf4prwx462m"
+}

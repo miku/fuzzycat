@@ -1,0 +1,60 @@
+{
+  "abstracts": [
+    {
+      "content": "Penelitian ini bertujuan untuk: (1) mengembangkan model asesmen kepemimpinan pembel-ajaran kepala sekolah, dan (2) mengetahui keefektifan kepemimpinan pembelajaran kepala sekolah. Model asesmen kepemimpinan pembelajaran ini menggunakan pendekatan 360-degree assesessment, yakni asesmen dari guru, kepala sekolah dan pengawas. Jumlah responden sebanyak 560 yang terdiri dari 466 guru, 47 kepala sekolah, dan 47 pengawas pada jenjang SD dan SMP. Dua daerah dipilih untuk mewakili Provinsi Kalimantan Selatan, yakni masing-masing satu dari Kabupaten Banjar dan Kota Banjarbaru. Ukuran sampel sekolah sebanyak 47 diambil dari wilayah berbeda, yakni wilayah kota, pinggiran, dan desa. Pengumpulan data menggunakan kuesioner skala Likert (1-4) yang terdiri atas 36 item. Responden dari setiap sekolah terdiri atas 10 guru, satu kepala sekolah, dan satu pengawas dari sekolah yang sama untuk mengisi instrumen. Teknik analisis data untuk uji kecocokan model dengan data dan invariansi parameter model antar group rater menggunakan Confirmatory Factor Analysis. Hasil penelitian menunjukkan bahwa: (1) model asesmen kepemimpinan pembelajaran kepala sekolah dengan 4 dimensi dan 36 items menunjukkan kecocokan dengan data empiris (χ2, p=0,347>0,050; RMSEA=0,006<0,080) dan semua item memiliki standardized loading factor yang signifikan (t>1,96; λ>0,50), dan (2) persentase kepala sekolah yang memiliki keefektifan kepemimpinan pembelajaran pada kategori tinggi dan sedang berturut-turut adalah sebesar 19% dan 79%, dan dengan skala 100, rerata skor dimensi visi, supervisi, penilaian  kinerja guru, dan pengembangan keprofesian guru berturut-turut adalah sebesar 74,  65,  65 dan 63.\n Kata kunci: model asesmen, kepemimpinan pembelajaran\n ______________________________________________________________\nA MODEL FOR ASSESSMENT OF PRINCIPAL INSTRUCTIONAL LEADERSHIP OF BASIC EDUCATION\nAbstract This study aims to: (1) develop a model for assessment of principal instructional leadership, and (2) describe the effectiveness of the principal instructional leade [...]",
+      "lang": "id",
+      "mimetype": "text/plain",
+      "sha1": "a211a0bc25fbdd887a80d55e666489346f377b9a"
+    }
+  ],
+  "container_id": "zsx7e2gfk5gjhhyy5umwdjceua",
+  "contribs": [
+    {
+      "index": 0,
+      "raw_affiliation": "LPMP Provinsi Kalimantan Selatan",
+      "raw_name": "Zaenal Fanani",
+      "role": "author"
+    },
+    {
+      "index": 1,
+      "raw_affiliation": "Universitas Negeri Yogyakarta",
+      "raw_name": "Djemari Mardapi",
+      "role": "author"
+    },
+    {
+      "index": 2,
+      "raw_affiliation": "Universitas Negeri Yogyakarta",
+      "raw_name": "Wuradji Wuradji",
+      "role": "author"
+    }
+  ],
+  "ext_ids": {
+    "doaj": "b5ef9b53fdba49da8380e9ff308694a5"
+  },
+  "extra": {
+    "country": "id",
+    "doaj": {
+      "subject": [
+        {
+          "code": "L",
+          "scheme": "LCC",
+          "term": "Education"
+        }
+      ]
+    }
+  },
+  "ident": "oxptehhpj5aihk2l42alqg55he",
+  "language": "en",
+  "license_slug": "cc-by-sa",
+  "pages": "129-145",
+  "publisher": "Universitas Negeri Yogyakarta",
+  "refs": [],
+  "release_stage": "published",
+  "release_type": "article-journal",
+  "release_year": 2014,
+  "revision": "3dd91901-7907-4498-a5ac-d2e1a2b017f4",
+  "state": "active",
+  "title": "MODEL ASESMEN KEPEMIMPINAN PEMBELAJARAN KEPALA SEKOLAH PENDIDIKAN DASAR",
+  "volume": "18",
+  "work_id": "zfu62vobojgezchs7bbrn3h3ai"
+}
