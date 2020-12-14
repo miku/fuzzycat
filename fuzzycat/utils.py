@@ -1,3 +1,4 @@
+import collections
 import io
 import itertools
 import re
@@ -10,15 +11,34 @@ printable_no_punct = string.digits + string.ascii_letters + string.whitespace
 # More correct: https://www.johndcook.com/blog/2016/02/04/regular-expression-to-match-a-chemical-element/
 CHEM_FORMULA = re.compile(r"([A-Z]{1,2}[0-9]{1,2})+")
 
+ParsedPages = collections.namedtuple("ParsedPages", "start end count")
+
 def parse_page_string(s):
     """
     Parse typical page strings, e.g. 150-180.
     """
-    raise NotImplementedError()
+    if not s:
+        raise ValueError('page parsing: empty string')
+    if s.isnumeric():
+        return ParsedPages(start=int(s), end=int(s), count=1)
+    page_pattern = re.compile("([0-9]{1,})-([0-9]{1,})")
+    match = page_pattern.match(s)
+    if not match:
+        raise ValueError('cannot parse page pattern from {}'.format(s))
+    start, end = match.groups()
+    if len(end) == 1 and start and start[-1] < end:
+        # 261-5, odd, but happens
+        end = start[:-1] + end
+    a, b = int(start), int(end)
+    if a > b:
+        raise ValueError('invalid page range: {}'.format(s))
+    count = b - a + 1
+    return ParsedPages(start=a, end=b, count=count)
 
 def dict_key_exists(doc, path):
     """
-    Return true, if key at a given path exists. XXX: probably already in glom.
+    Return true, if key in a dictionary at a given path exists. XXX: probably
+    already in glom.
     """
     try:
         _ = glom(doc, path)

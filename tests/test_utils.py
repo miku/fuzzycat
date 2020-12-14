@@ -1,7 +1,7 @@
 import pytest
 
 from fuzzycat.utils import (author_similarity_score, cut, jaccard, nwise, slugify_string,
-                            token_n_grams, tokenize_string)
+                            token_n_grams, tokenize_string, parse_page_string, dict_key_exists)
 
 
 def test_slugify_string():
@@ -63,3 +63,22 @@ def test_nwise():
     assert list(nwise("1234")) == [("1", "2"), ("3", "4")]
     assert list(nwise("1234", n=1)) == [("1", ), ("2", ), ("3", ), ("4", )]
     assert list(nwise([1, 2, 3, 4, 5], n=3)) == [(1, 2, 3), (4, 5)]
+
+def test_dict_key_exists():
+    assert dict_key_exists({}, "") is False
+    assert dict_key_exists({"a": "a"}, "a") == True
+    assert dict_key_exists({"a": "a"}, "b") == False
+    assert dict_key_exists({"a": {"b": "c"}}, "a.b") == True
+    assert dict_key_exists({"a": {"b": None}}, "a.b") == True
+    assert dict_key_exists({"a": {"b": "c"}}, "a.b.c") == False
+
+def test_page_page_string():
+    reject = ("", "123-2", "123-120", "123a-124", "-2-1")
+    for s in reject:
+        with pytest.raises(ValueError):
+            assert parse_page_string(s)
+    assert parse_page_string("123") == (123, 123, 1)
+    assert parse_page_string("123-5") == (123, 125, 3)
+    assert parse_page_string("123-125") == (123, 125, 3)
+    assert parse_page_string("123-124a") == (123, 124, 2)
+    assert parse_page_string("1-1000") == (1, 1000, 1000)

@@ -90,7 +90,7 @@ from fuzzycat.common import Reason, Status
 from fuzzycat.data import (CONTAINER_NAME_BLACKLIST, PUBLISHER_BLACKLIST, TITLE_BLACKLIST,
                            TITLE_FRAGMENT_BLACKLIST)
 from fuzzycat.utils import (author_similarity_score, contains_chemical_formula, dict_key_exists,
-                            has_doi_prefix, jaccard, num_project, slugify_string)
+                            has_doi_prefix, jaccard, num_project, slugify_string, parse_page_string)
 
 
 class GroupVerifier:
@@ -577,21 +577,11 @@ def verify(a: Dict, b: Dict, min_title_length=5) -> Tuple[str, str]:
     # https://fatcat.wiki/release/tm3gaiumkvb3xc7t3i6suna6u4
     # https://fatcat.wiki/release/r6dj63wh3zcrrolisn6xuacnve
     try:
-        a_pages = glom(a, "pages")
-        b_pages = glom(b, "pages")
-        # XXX: Pages might be of the form "261-5", meaning: 261-265.
-        page_pattern = re.compile("([0-9]{1,})-([0-9]{1,})")
-        a_match = page_pattern.match(a_pages)
-        b_match = page_pattern.match(b_pages)
-        if a_match and b_match:
-            a_start, a_end = a_match.groups()
-            b_start, b_end = b_match.groups()
-            a_num_pages = int(a_end) - int(a_start)
-            b_num_pages = int(b_end) - int(b_start)
-            if a_num_pages >= 0 and b_num_pages >= 0:
-                if abs(a_num_pages - b_num_pages) > 5:
-                    return (Status.DIFFERENT, Reason.PAGE_COUNT)
-    except PathAccessError:
+        a_parsed_pages = parse_page_string(glom(a, "pages"))
+        b_parsed_pages = parse_page_string(glom(b, "pages"))
+        if abs(a_parsed_pages.count - b_parsed_pages.count) > 5:
+            return (Status.DIFFERENT, Reason.PAGE_COUNT)
+    except (ValueError, PathAccessError):
         pass
 
     return (Status.AMBIGUOUS, Reason.DUMMY)

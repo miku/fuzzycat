@@ -1,5 +1,5 @@
 """
-Static assets, e.g. blacklists.
+Static assets, e.g. whilelists, blacklists, etc.
 """
 
 __all__ = [
