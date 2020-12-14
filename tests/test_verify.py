@@ -7,7 +7,23 @@ import pytest
 
 from fuzzycat.verify import Status, verify
 
+# > VERIFY_CSV is a 4-column file describing cases (ident, ident, match status,
+# reason), like:
+#
+# zvsffdeufjb5dbchww7ydqdq3a,5rcu6myqx5ezjjytzpvsauyut4,Status.STRONG,PMID_DOI_PAIR
+# cd5aik2whrd5jlvleyvdq6iwja,kfttghqcsbddvofqd7l4bhtavy,Status.DIFFERENT,COMPONENT
+# hwnqyz7n65eabhlivvkipkytji,cwqujxztefdghhssb7ysxj7b5m,Status.STRONG,VERSIONED_DOI
+# yespzqkm2zed7n4vhjpkddap5e,5yixxzyl3vh4xd56lwcraowgty,Status.AMBIGUOUS,
+# pobnow7sxfhnxhltgwpru5k7oi,uplqxenmk5axjes6zokml6q73y,Status.DIFFERENT,RELEASE_TYPE
+#
+# Idea is to have an easy way to extend and adjust this list and to have it
+# indepenent of code (ident, ident, match status) are mandatory, and match
+# reason nice to have.
+#
+# Use Status.TODO to trigger a failure (and see what the matching algorithm
+# says). Leave status and reason blank to exclude row from test.
 VERIFY_CSV = os.path.join(os.path.dirname(os.path.realpath(__file__)), "data/verify.csv")
+
 RELEASE_ENTITIES_DIR = os.path.join(os.path.dirname(os.path.realpath(__file__)), "data/release")
 FATCAT_BASE_URL = 'https://fatcat.wiki/'
 
