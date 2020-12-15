@@ -64,6 +64,7 @@ def test_nwise():
     assert list(nwise("1234", n=1)) == [("1", ), ("2", ), ("3", ), ("4", )]
     assert list(nwise([1, 2, 3, 4, 5], n=3)) == [(1, 2, 3), (4, 5)]
 
+
 def test_dict_key_exists():
     assert dict_key_exists({}, "") is False
     assert dict_key_exists({"a": "a"}, "a") == True
@@ -71,6 +72,7 @@ def test_dict_key_exists():
     assert dict_key_exists({"a": {"b": "c"}}, "a.b") == True
     assert dict_key_exists({"a": {"b": None}}, "a.b") == True
     assert dict_key_exists({"a": {"b": "c"}}, "a.b.c") == False
+
 
 def test_page_page_string():
     reject = ("", "123-2", "123-120", "123a-124", "-2-1")

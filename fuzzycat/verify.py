@@ -90,7 +90,9 @@ from fuzzycat.common import Reason, Status
 from fuzzycat.data import (CONTAINER_NAME_BLACKLIST, PUBLISHER_BLACKLIST, TITLE_BLACKLIST,
                            TITLE_FRAGMENT_BLACKLIST)
 from fuzzycat.utils import (author_similarity_score, contains_chemical_formula, dict_key_exists,
-                            has_doi_prefix, jaccard, num_project, slugify_string, parse_page_string)
+                            has_doi_prefix, jaccard, num_project, parse_page_string, slugify_string)
+
+Verify = collections.namedtuple("Verify", "status reason")
 
 
 class GroupVerifier:
@@ -163,13 +165,13 @@ def verify(a: Dict, b: Dict, min_title_length=5) -> Tuple[str, str]:
     # A few items have the same DOI.
     try:
         if glom(a, "ext_ids.doi") == glom(b, "ext_ids.doi"):
-            return (Status.EXACT, Reason.DOI)
+            return Verify(Status.EXACT, Reason.DOI)
     except PathAccessError:
         pass
 
     # Some pre-verified pairs.
     if a.get("work_id") and a.get("work_id") == b.get("work_id"):
-        return (Status.EXACT, Reason.WORK_ID)
+        return Verify(Status.EXACT, Reason.WORK_ID)
 
     a_title = a.get("title", "") or ""
     a_title_lower = a_title.lower()
@@ -180,19 +182,19 @@ def verify(a: Dict, b: Dict, min_title_length=5) -> Tuple[str, str]:
     assert isinstance(b_title, str)
 
     if len(a_title) < min_title_length:
-        return (Status.AMBIGUOUS, Reason.SHORT_TITLE)
+        return Verify(Status.AMBIGUOUS, Reason.SHORT_TITLE)
     if a_title_lower in TITLE_BLACKLIST:
-        return (Status.AMBIGUOUS, Reason.BLACKLISTED)
+        return Verify(Status.AMBIGUOUS, Reason.BLACKLISTED)
     for fragment in TITLE_FRAGMENT_BLACKLIST:
         if fragment in a_title_lower:
-            return (Status.AMBIGUOUS, Reason.BLACKLISTED_FRAGMENT)
+            return Verify(Status.AMBIGUOUS, Reason.BLACKLISTED_FRAGMENT)
 
     # https://fatcat.wiki/release/rnso2swxzvfonemgzrth3arumi,
     # https://fatcat.wiki/release/caxa7qbfqvg3bkgz4nwvapgnvi
     if "subject index" in a_title_lower and "subject index" in b_title_lower:
         try:
             if glom(a, "container_id") != glom(b, "container_id"):
-                return (Status.DIFFERENT, Reason.CONTAINER)
+                return Verify(Status.DIFFERENT, Reason.CONTAINER)
         except PathAccessError:
             pass
 
@@ -200,7 +202,7 @@ def verify(a: Dict, b: Dict, min_title_length=5) -> Tuple[str, str]:
     try:
         if a_title and a_title == b_title and glom(a, "extra.datacite.metadataVersion") != glom(
                 b, "extra.datacite.metadataVersion"):
-            return (Status.EXACT, Reason.DATACITE_VERSION)
+            return Verify(Status.EXACT, Reason.DATACITE_VERSION)
     except PathAccessError:
         pass
 
@@ -214,7 +216,7 @@ def verify(a: Dict, b: Dict, min_title_length=5) -> Tuple[str, str]:
             # https://fatcat.wiki/release/63g4ukdxajcqhdytqla6du3t3u,
             # https://fatcat.wiki/release/rz72bzfevzeofdeb342c6z45qu;
             # https://api.datacite.org/application/vnd.datacite.datacite+json/10.14288/1.0011045
-            return (Status.DIFFERENT, Reason.CUSTOM_PREFIX_10_14288)
+            return Verify(Status.DIFFERENT, Reason.CUSTOM_PREFIX_10_14288)
     except PathAccessError:
         pass
 
@@ -228,12 +230,12 @@ def verify(a: Dict, b: Dict, min_title_length=5) -> Tuple[str, str]:
         b_doi = glom(b, "ext_ids.doi")
         if has_doi_prefix(a_doi, "10.3403") and has_doi_prefix(b_doi, "10.3403"):
             if a_doi + "u" == b_doi or b_doi + "u" == a_doi:
-                return (Status.STRONG, Reason.CUSTOM_BSI_UNDATED)
+                return Verify(Status.STRONG, Reason.CUSTOM_BSI_UNDATED)
             if a_title == b_title and ((dict_key_exists(a, "extra.subtitle")
                                         and not dict_key_exists(b, "extra.subtitle")) or
                                        (dict_key_exists(b, "extra.subtitle")
                                         and not dict_key_exists(a, "extra.subtitle"))):
-                return (Status.STRONG, Reason.CUSTOM_BSI_SUBDOC)
+                return Verify(Status.STRONG, Reason.CUSTOM_BSI_SUBDOC)
     except PathAccessError:
         pass
 
@@ -246,16 +248,16 @@ def verify(a: Dict, b: Dict, min_title_length=5) -> Tuple[str, str]:
             v = "{}/ma".format(prefix)
             if (a_doi.startswith(v) and not b_doi.startswith(v)
                     or b_doi.startswith(v) and not a_doi.startswith(v)):
-                return (Status.DIFFERENT, Reason.CUSTOM_IOP_MA_PATTERN)
+                return Verify(Status.DIFFERENT, Reason.CUSTOM_IOP_MA_PATTERN)
     except PathAccessError:
         pass
 
     # Very manual, XXX: move this into blacklist.
     if "Zweckverband Volkshochschule " in a_title and a_title != b_title:
-        return (Status.DIFFERENT, Reason.CUSTOM_VHS)
+        return Verify(Status.DIFFERENT, Reason.CUSTOM_VHS)
 
     if re.match(r"appendix ?[^ ]*$", a_title_lower):
-        return (Status.AMBIGUOUS, Reason.APPENDIX)
+        return Verify(Status.AMBIGUOUS, Reason.APPENDIX)
 
     # Figshare, versions.
     try:
@@ -265,7 +267,7 @@ def verify(a: Dict, b: Dict, min_title_length=5) -> Tuple[str, str]:
             a_doi_v_stripped = re.sub(r"[.]v[0-9]+$", "", glom(a, "ext_ids.doi"))
             b_doi_v_stripped = re.sub(r"[.]v[0-9]+$", "", glom(b, "ext_ids.doi"))
             if a_doi_v_stripped == b_doi_v_stripped:
-                return (Status.STRONG, Reason.FIGSHARE_VERSION)
+                return Verify(Status.STRONG, Reason.FIGSHARE_VERSION)
     except PathAccessError:
         pass
 
@@ -277,7 +279,7 @@ def verify(a: Dict, b: Dict, min_title_length=5) -> Tuple[str, str]:
         b_doi = glom(b, "ext_ids.doi")
         versioned_doi_pattern = '10[.].*/v[0-9]{1,}$'
         if re.match(versioned_doi_pattern, a_doi) and re.match(versioned_doi_pattern, b_doi):
-            return (Status.STRONG, Reason.VERSIONED_DOI)
+            return Verify(Status.STRONG, Reason.VERSIONED_DOI)
     except PathAccessError:
         pass
 
@@ -288,7 +290,7 @@ def verify(a: Dict, b: Dict, min_title_length=5) -> Tuple[str, str]:
         a_doi = glom(a, "ext_ids.doi")
         b_doi = glom(b, "ext_ids.doi")
         if a_doi.split(".")[:-1] == b_doi.split(".") or a_doi.split(".") == b_doi.split(".")[:-1]:
-            return (Status.STRONG, Reason.VERSIONED_DOI)
+            return Verify(Status.STRONG, Reason.VERSIONED_DOI)
     except PathAccessError:
         pass
 
@@ -321,7 +323,7 @@ def verify(a: Dict, b: Dict, min_title_length=5) -> Tuple[str, str]:
         b_doi_rel = get_datacite_related_doi(b)
         try:
             if glom(b, "ext_ids.doi") in a_doi_rel or glom(a, "ext_ids.doi") in b_doi_rel:
-                return (Status.STRONG, Reason.DATACITE_RELATED_ID)
+                return Verify(Status.STRONG, Reason.DATACITE_RELATED_ID)
         except PathAccessError:
             pass
 
@@ -330,7 +332,7 @@ def verify(a: Dict, b: Dict, min_title_length=5) -> Tuple[str, str]:
         id_a = re.match(r"(.*)v[0-9]{1,}$", glom(a, "ext_ids.arxiv")).group(1)
         id_b = re.match(r"(.*)v[0-9]{1,}$", glom(b, "ext_ids.arxiv")).group(1)
         if id_a == id_b:
-            return (Status.STRONG, Reason.ARXIV_VERSION)
+            return Verify(Status.STRONG, Reason.ARXIV_VERSION)
     except (AttributeError, ValueError, PathAccessError) as exc:
         pass
 
@@ -351,11 +353,11 @@ def verify(a: Dict, b: Dict, min_title_length=5) -> Tuple[str, str]:
                 "paper-conference",
             ])
             if len(types & ignore_release_types) == 0:
-                return (Status.DIFFERENT, Reason.RELEASE_TYPE)
+                return Verify(Status.DIFFERENT, Reason.RELEASE_TYPE)
             if "dataset" in types and ("article" in types or "article-journal" in types):
-                return (Status.DIFFERENT, Reason.RELEASE_TYPE)
+                return Verify(Status.DIFFERENT, Reason.RELEASE_TYPE)
             if "book" in types and ("article" in types or "article-journal" in types):
-                return (Status.DIFFERENT, Reason.RELEASE_TYPE)
+                return Verify(Status.DIFFERENT, Reason.RELEASE_TYPE)
     except PathAccessError:
         pass
 
@@ -363,7 +365,7 @@ def verify(a: Dict, b: Dict, min_title_length=5) -> Tuple[str, str]:
     try:
         if (glom(a, "release_type") == "dataset" and glom(b, "release_type") == "dataset"
                 and glom(a, "ext_ids.doi") != glom(b, "ext_ids.doi")):
-            return (Status.DIFFERENT, Reason.DATASET_DOI)
+            return Verify(Status.DIFFERENT, Reason.DATASET_DOI)
     except PathAccessError:
         pass
 
@@ -371,14 +373,14 @@ def verify(a: Dict, b: Dict, min_title_length=5) -> Tuple[str, str]:
     try:
         if (glom(a, "release_type") == "chapter" and glom(b, "release_type") == "chapter"
                 and glom(a, "extra.container_name") != glom(b, "extra.container_name")):
-            return (Status.DIFFERENT, Reason.BOOK_CHAPTER)
+            return Verify(Status.DIFFERENT, Reason.BOOK_CHAPTER)
     except PathAccessError:
         pass
 
     # Components tend to have similar names.
     try:
         if glom(a, "extra.crossref.type") == "component" and glom(a, "title") != glom(b, "title"):
-            return (Status.DIFFERENT, Reason.COMPONENT)
+            return Verify(Status.DIFFERENT, Reason.COMPONENT)
     except PathAccessError:
         pass
 
@@ -387,7 +389,7 @@ def verify(a: Dict, b: Dict, min_title_length=5) -> Tuple[str, str]:
             a_doi = glom(a, "ext_ids.doi")
             b_doi = glom(b, "ext_ids.doi")
             if a_doi != b_doi:
-                return (Status.DIFFERENT, Reason.COMPONENT)
+                return Verify(Status.DIFFERENT, Reason.COMPONENT)
     except PathAccessError:
         pass
 
@@ -401,7 +403,7 @@ def verify(a: Dict, b: Dict, min_title_length=5) -> Tuple[str, str]:
         a_year = a.get("release_year")
         b_year = b.get("release_year")
         if a_year and b_year and abs(a_year - b_year) > 40:
-            return (Status.DIFFERENT, Reason.YEAR)
+            return Verify(Status.DIFFERENT, Reason.YEAR)
 
     if a_slug_title == b_slug_title:
         # via: https://fatcat.wiki/release/ij3yuoh6lrh3tkrv5o7gfk6yyi
@@ -410,7 +412,7 @@ def verify(a: Dict, b: Dict, min_title_length=5) -> Tuple[str, str]:
             try:
                 if (glom(a, "ext_ids.doi").split("/")[0] == "10.1109"
                         and glom(b, "ext_ids.arxiv") != ""):
-                    return (Status.STRONG, Reason.CUSTOM_IEEE_ARXIV)
+                    return Verify(Status.STRONG, Reason.CUSTOM_IEEE_ARXIV)
             except PathAccessError:
                 pass
 
@@ -430,7 +432,7 @@ def verify(a: Dict, b: Dict, min_title_length=5) -> Tuple[str, str]:
             a_doi = glom(a, "ext_ids.doi")
             b_doi = glom(b, "ext_ids.doi")
             if has_doi_prefix(a_doi, "10.7916") and has_doi_prefix(b_doi, "10.7916"):
-                return (Status.AMBIGUOUS, Reason.CUSTOM_PREFIX_10_7916)
+                return Verify(Status.AMBIGUOUS, Reason.CUSTOM_PREFIX_10_7916)
         except PathAccessError:
             pass
 
@@ -441,7 +443,7 @@ def verify(a: Dict, b: Dict, min_title_length=5) -> Tuple[str, str]:
             for a_sub in a_subtitles:
                 for b_sub in b_subtitles:
                     if slugify_string(a_sub) != slugify_string(b_sub):
-                        return (Status.DIFFERENT, Reason.SUBTITLE)
+                        return Verify(Status.DIFFERENT, Reason.SUBTITLE)
         except PathAccessError:
             pass
 
@@ -463,54 +465,54 @@ def verify(a: Dict, b: Dict, min_title_length=5) -> Tuple[str, str]:
             # year; compromise allow a small gap
             if a_release_year and b_release_year and abs(int(a_release_year) -
                                                          int(b_release_year)) > 1:
-                return (Status.DIFFERENT, Reason.YEAR)
-            return (Status.EXACT, Reason.TITLE_AUTHOR_MATCH)
+                return Verify(Status.DIFFERENT, Reason.YEAR)
+            return Verify(Status.EXACT, Reason.TITLE_AUTHOR_MATCH)
 
     if (len(a.get("title", "").split()) == 1 and re.match(r".*[.][a-z]{2,3}", a.get("title", ""))
             or len(b.get("title", "").split()) == 1
             and re.match(r".*[.][a-z]{2,3}$", b.get("title", ""))):
         if a.get("title") != b.get("title"):
-            return (Status.DIFFERENT, Reason.TITLE_FILENAME)
+            return Verify(Status.DIFFERENT, Reason.TITLE_FILENAME)
 
     if a.get("title") and a.get("title") == b.get("title"):
         if a_release_year and b_release_year:
             if abs(int(a_release_year) - int(b_release_year)) > 2:
-                return (Status.DIFFERENT, Reason.YEAR)
+                return Verify(Status.DIFFERENT, Reason.YEAR)
 
     if contains_chemical_formula(a_slug_title) or contains_chemical_formula(b_slug_title) and (
             a_slug_title != b_slug_title):
-        return (Status.DIFFERENT, Reason.CHEM_FORMULA)
+        return Verify(Status.DIFFERENT, Reason.CHEM_FORMULA)
 
     if len(a_slug_title) < 10 and a_slug_title != b_slug_title:
-        return (Status.AMBIGUOUS, Reason.SHORT_TITLE)
+        return Verify(Status.AMBIGUOUS, Reason.SHORT_TITLE)
 
     if re.search(r'\d+', a_slug_title) and a_slug_title != b_slug_title and num_project(
             a_slug_title) == num_project(b_slug_title):
-        return (Status.DIFFERENT, Reason.NUM_DIFF)
+        return Verify(Status.DIFFERENT, Reason.NUM_DIFF)
 
     if a_slug_title and b_slug_title and a_slug_title == b_slug_title:
         if a_authors and len(a_authors & b_authors) > 0:
             if arxiv_id_a is not None and arxiv_id_b is None or arxiv_id_a is None and arxiv_id_b is not None:
-                return (Status.STRONG, Reason.PREPRINT_PUBLISHED)
+                return Verify(Status.STRONG, Reason.PREPRINT_PUBLISHED)
 
     if a_slug_title and b_slug_title and a_slug_title.strip().replace(
             " ", "") == b_slug_title.strip().replace(" ", ""):
         if len(a_slug_authors & b_slug_authors) > 0:
-            return (Status.STRONG, Reason.SLUG_TITLE_AUTHOR_MATCH)
+            return Verify(Status.STRONG, Reason.SLUG_TITLE_AUTHOR_MATCH)
 
     # if any([a_authors, b_authors]) and not (a_authors and b_authors):
     # Does not cover case, where both authors are empty.
     if a_release_year == b_release_year and a_title_lower == b_title_lower:
         if ((dict_key_exists(a, "ext_ids.pmid") and dict_key_exists(b, "ext_ids.doi"))
                 or (dict_key_exists(b, "ext_ids.pmid") and dict_key_exists(a, "ext_ids.doi"))):
-            return (Status.STRONG, Reason.PMID_DOI_PAIR)
+            return Verify(Status.STRONG, Reason.PMID_DOI_PAIR)
 
     # Two JSTOR items will probably be different.
     try:
         a_jstor_id = glom(a, "ext_ids.jstor")
         b_jstor_id = glom(b, "ext_ids.jstor")
         if a_jstor_id != b_jstor_id:
-            return (Status.DIFFERENT, Reason.JSTOR_ID)
+            return Verify(Status.DIFFERENT, Reason.JSTOR_ID)
     except PathAccessError:
         pass
 
@@ -524,7 +526,7 @@ def verify(a: Dict, b: Dict, min_title_length=5) -> Tuple[str, str]:
 
         if a_container_id == b_container_id and a_doi != b_doi and not has_doi_prefix(
                 a_doi, "10.1126"):
-            return (Status.DIFFERENT, Reason.SHARED_DOI_PREFIX)
+            return Verify(Status.DIFFERENT, Reason.SHARED_DOI_PREFIX)
     except PathAccessError:
         pass
 
@@ -549,7 +551,7 @@ def verify(a: Dict, b: Dict, min_title_length=5) -> Tuple[str, str]:
         if len(top_scores) > 0:
             avg_score = sum(top_scores) / len(top_scores)
             if avg_score > 0.5:
-                return (Status.STRONG, Reason.TOKENIZED_AUTHORS)
+                return Verify(Status.STRONG, Reason.TOKENIZED_AUTHORS)
             else:
                 pass
                 # Kuidong Xu, Joong Ki Choi, Eun Jin Yang, Kyu Chul Lee, Yanli Lei
@@ -564,19 +566,19 @@ def verify(a: Dict, b: Dict, min_title_length=5) -> Tuple[str, str]:
         a_tok = [tok for tok in re.findall(r"[\w]{3,}", " ".join(a_slug_authors)) if tok]
         b_tok = [tok for tok in re.findall(r"[\w]{3,}", " ".join(b_slug_authors)) if tok]
         if jaccard(set(a_tok), set(b_tok)) > 0.35:
-            return (Status.STRONG, Reason.JACCARD_AUTHORS)
+            return Verify(Status.STRONG, Reason.JACCARD_AUTHORS)
 
         # TODO: This misses spelling differences, e.g.
         # https://fatcat.wiki/release/7nbcgsohrrak5cuyk6dnit6ega and
         # https://fatcat.wiki/release/q66xv7drk5fnph7enwwlkyuwqm
-        return (Status.DIFFERENT, Reason.CONTRIB_INTERSECTION_EMPTY)
+        return Verify(Status.DIFFERENT, Reason.CONTRIB_INTERSECTION_EMPTY)
 
     # mark choicereview articles as ambiguous, as they seem to be behind a paywall
     try:
         a_doi = glom(a, "ext_ids.doi")
         b_doi = glom(b, "ext_ids.doi")
         if has_doi_prefix(a_doi, "10.5860") or has_doi_prefix(b_doi, "10.5860"):
-            return (Status.AMBIGUOUS, Reason.CUSTOM_PREFIX_10_5860_CHOICE_REVIEW)
+            return Verify(Status.AMBIGUOUS, Reason.CUSTOM_PREFIX_10_5860_CHOICE_REVIEW)
     except PathAccessError:
         pass
 
@@ -587,8 +589,8 @@ def verify(a: Dict, b: Dict, min_title_length=5) -> Tuple[str, str]:
         a_parsed_pages = parse_page_string(glom(a, "pages"))
         b_parsed_pages = parse_page_string(glom(b, "pages"))
         if abs(a_parsed_pages.count - b_parsed_pages.count) > 5:
-            return (Status.DIFFERENT, Reason.PAGE_COUNT)
+            return Verify(Status.DIFFERENT, Reason.PAGE_COUNT)
     except (ValueError, PathAccessError):
         pass
 
-    return (Status.AMBIGUOUS, Reason.DUMMY)
+    return Verify(Status.AMBIGUOUS, Reason.DUMMY)

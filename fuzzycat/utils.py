@@ -1,6 +1,8 @@
 import collections
 import io
 import itertools
+import os
+import random
 import re
 import string
 
@@ -12,6 +14,7 @@ printable_no_punct = string.digits + string.ascii_letters + string.whitespace
 CHEM_FORMULA = re.compile(r"([A-Z]{1,2}[0-9]{1,2})+")
 
 ParsedPages = collections.namedtuple("ParsedPages", "start end count")
+
 
 def parse_page_string(s):
     """
@@ -34,6 +37,7 @@ def parse_page_string(s):
         raise ValueError('invalid page range: {}'.format(s))
     count = b - a + 1
     return ParsedPages(start=a, end=b, count=count)
+
 
 def dict_key_exists(doc, path):
     """
@@ -138,3 +142,33 @@ def contains_chemical_formula(s):
     for token in s.split():
         if CHEM_FORMULA.search(token):
             return True
+
+
+def random_word(func=lambda w: True, wordsfile='/usr/share/dict/words'):
+    """
+    Requires the UNIX words file in a typical location. Returns a single,
+    random word.
+    """
+    if not os.path.exists(wordsfile):
+        raise RuntimeError('file not found: {}'.format(wordsfile))
+    with open(wordsfile) as f:
+        words = list(filter(func, (word.strip() for word in f)))
+    return random.choice(words)
+
+
+def random_idents_from_query(query="*",
+                             es="https://search.fatcat.wiki/fatcat_release/_search",
+                             max_retries=10,
+                             r=2):
+    """
+    Return a number of random idents from a search query.
+    """
+    for _ in range(max_retries):
+        r = requests.get(es, params={"q": query})
+        if r.status_code != 200:
+            raise RuntimeError('could not query {} for random item: {}'.format(es, r.url))
+        resp = r.json()
+        if resp["hits"]["total"] < 2:
+            continue
+        idents = [doc["_source"]["ident"] for doc in resp["hits"]["hits"]]
+        return random.sample(idents, r)

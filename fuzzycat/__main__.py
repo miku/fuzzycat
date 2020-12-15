@@ -17,13 +17,20 @@ import io
 import json
 import logging
 import pstats
+import random
 import sys
 import tempfile
+
+import requests
 
 from fuzzycat.cluster import (Cluster, release_key_title, release_key_title_ngram,
                               release_key_title_normalized, release_key_title_nysiis,
                               release_key_title_sandcrawler)
-from fuzzycat.verify import GroupVerifier
+from fuzzycat.utils import random_word
+from fuzzycat.verify import GroupVerifier, verify
+
+logging.getLogger("requests").setLevel(logging.WARNING)
+logging.getLogger("urllib3").setLevel(logging.WARNING)
 
 
 def run_cluster(args):
@@ -55,6 +62,31 @@ def run_verify(args):
     """
     gv = GroupVerifier(iterable=fileinput.input(files=args.files))
     gv.run()
+
+
+def run_verify_single(args):
+    """
+    Run a single verification on a pair.
+    """
+    result = {}
+    if args.a and args.b:
+        a, b = args.a, args.b
+    elif not args.a and not args.b:
+        word = random_word(wordsfile='/usr/share/dict/words')
+        a, b = random_idents_from_query(query=word, r=2)
+        result.update({"extra": {"q": "https://fatcat.wiki/release/search?q={}".format(word)}})
+    else:
+        raise ValueError('specify either both -a, -b or none')
+
+    def fetch_ident(ident):
+        return requests.get("https://api.fatcat.wiki/v0/release/{}".format(ident)).json()
+
+    result.update({
+        "a": "https://fatcat.wiki/release/{}".format(a),
+        "b": "https://fatcat.wiki/release/{}".format(b),
+        "r": verify(fetch_ident(a), fetch_ident(b)),
+    })
+    print(json.dumps(result))
 
 
 if __name__ == '__main__':
@@ -90,6 +122,13 @@ if __name__ == '__main__':
     sub_verify = subparsers.add_parser('verify', help='verify groups', parents=[parser])
     sub_verify.add_argument('-f', '--files', default="-", help='input files')
     sub_verify.set_defaults(func=run_verify)
+
+    sub_verify_single = subparsers.add_parser('verify-single',
+                                              help='verify a single pair',
+                                              parents=[parser])
+    sub_verify_single.add_argument('-a', help='ident or url to release')
+    sub_verify_single.add_argument('-b', help='ident or url to release')
+    sub_verify_single.set_defaults(func=run_verify_single)
 
     args = parser.parse_args()
     if not args.__dict__.get("func"):
