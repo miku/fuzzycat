@@ -72,9 +72,17 @@ def run_verify_single(args):
     if args.a and args.b:
         a, b = args.a, args.b
     elif not args.a and not args.b:
-        word = random_word(wordsfile='/usr/share/dict/words')
-        a, b = random_idents_from_query(query=word, r=2)
-        result.update({"extra": {"q": "https://fatcat.wiki/release/search?q={}".format(word)}})
+        for _ in range(10):
+            word = random_word(wordsfile='/usr/share/dict/words')
+            try:
+                idents = random_idents_from_query(query=word, r=2)
+            except RuntimeError:
+                continue
+            result.update({"extra": {"q": "https://fatcat.wiki/release/search?q={}".format(word)}})
+            a, b = idents
+            break
+        else:
+            raise RuntimeError('could not fetch random releases')
     else:
         raise ValueError('specify either both -a, -b or none')
 

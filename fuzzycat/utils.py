@@ -159,17 +159,15 @@ def random_word(func=lambda w: True, wordsfile='/usr/share/dict/words'):
 
 def random_idents_from_query(query="*",
                              es="https://search.fatcat.wiki/fatcat_release/_search",
-                             max_retries=10,
                              r=2):
     """
     Return a number of random idents from a search query.
     """
-    for _ in range(max_retries):
-        resp = requests.get(es, params={"q": query})
-        if resp.status_code != 200:
-            raise RuntimeError('could not query {} for random item: {}'.format(es, r.url))
-        payload = resp.json()
-        if payload["hits"]["total"] < 2:
-            continue
-        idents = [doc["_source"]["ident"] for doc in payload["hits"]["hits"]]
-        return random.sample(idents, r)
+    resp = requests.get(es, params={"q": query})
+    if resp.status_code != 200:
+        raise RuntimeError('could not query {} for random item: {}'.format(es, r.url))
+    payload = resp.json()
+    if payload["hits"]["total"] < 2:
+        raise RuntimeError('to few documents')
+    idents = [doc["_source"]["ident"] for doc in payload["hits"]["hits"]]
+    return random.sample(idents, r)
