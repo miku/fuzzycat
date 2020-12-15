@@ -26,7 +26,7 @@ import requests
 from fuzzycat.cluster import (Cluster, release_key_title, release_key_title_ngram,
                               release_key_title_normalized, release_key_title_nysiis,
                               release_key_title_sandcrawler)
-from fuzzycat.utils import random_word
+from fuzzycat.utils import random_idents_from_query, random_word
 from fuzzycat.verify import GroupVerifier, verify
 
 logging.getLogger("requests").setLevel(logging.WARNING)

@@ -6,6 +6,7 @@ import random
 import re
 import string
 
+import requests
 from glom import PathAccessError, glom
 
 printable_no_punct = string.digits + string.ascii_letters + string.whitespace
@@ -164,11 +165,11 @@ def random_idents_from_query(query="*",
     Return a number of random idents from a search query.
     """
     for _ in range(max_retries):
-        r = requests.get(es, params={"q": query})
-        if r.status_code != 200:
+        resp = requests.get(es, params={"q": query})
+        if resp.status_code != 200:
             raise RuntimeError('could not query {} for random item: {}'.format(es, r.url))
-        resp = r.json()
-        if resp["hits"]["total"] < 2:
+        payload = resp.json()
+        if payload["hits"]["total"] < 2:
             continue
-        idents = [doc["_source"]["ident"] for doc in resp["hits"]["hits"]]
+        idents = [doc["_source"]["ident"] for doc in payload["hits"]["hits"]]
         return random.sample(idents, r)
