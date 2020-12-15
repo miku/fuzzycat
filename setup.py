@@ -31,6 +31,9 @@ with open("README.md", "r") as fh:
             "pydantic",
             "toml",
             "unidecode>=0.10",
+            "fatcat-openapi-client", # https://pypi.org/project/fatcat-openapi-client/
+            "elasticsearch",
+            "elasticsearch-dsl",
         ],
         extras_require={"dev": [
             "ipython",
