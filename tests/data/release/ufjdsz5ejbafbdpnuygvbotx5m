@@ -1,0 +1,38 @@
+{
+  "abstracts": [],
+  "container_id": "qrvhqahjjzf4ddjs5l4hjv2b6y",
+  "contribs": [
+    {
+      "extra": {
+        "seq": "first"
+      },
+      "index": 0,
+      "raw_name": "Emanuel Parzen",
+      "role": "author"
+    }
+  ],
+  "ext_ids": {
+    "doi": "10.2307/1266111"
+  },
+  "extra": {
+    "crossref": {
+      "subject": [
+        "Modelling and Simulation",
+        "Statistics and Probability",
+        "Applied Mathematics"
+      ],
+      "type": "journal-article"
+    }
+  },
+  "ident": "ufjdsz5ejbafbdpnuygvbotx5m",
+  "pages": "167",
+  "publisher": "JSTOR",
+  "refs": [],
+  "release_stage": "published",
+  "release_type": "article-journal",
+  "release_year": 1961,
+  "revision": "f0c830a7-69f9-441d-ad71-ae21e03ac935",
+  "state": "active",
+  "title": "Mathematical Considerations in the Estimation of Spectra",
+  "work_id": "22j43n7ygbazjdhyevqhsq5j6q"
+}

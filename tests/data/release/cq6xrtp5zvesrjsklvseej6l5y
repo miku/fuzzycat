@@ -1,0 +1,459 @@
+{
+  "abstracts": [],
+  "container_id": "qrvhqahjjzf4ddjs5l4hjv2b6y",
+  "contribs": [
+    {
+      "extra": {
+        "seq": "first"
+      },
+      "index": 0,
+      "raw_name": "Emanuel Parzen",
+      "role": "author"
+    }
+  ],
+  "ext_ids": {
+    "doi": "10.1080/00401706.1961.10489939"
+  },
+  "extra": {
+    "crossref": {
+      "alternative-id": [
+        "10.1080/00401706.1961.10489939"
+      ],
+      "type": "journal-article"
+    }
+  },
+  "ident": "cq6xrtp5zvesrjsklvseej6l5y",
+  "language": "en",
+  "pages": "167-190",
+  "publisher": "Informa UK Limited",
+  "refs": [
+    {
+      "container_name": "J. Roy. Stat. Soc., Suppl.",
+      "extra": {
+        "authors": [
+          "Bartlett M. S."
+        ],
+        "doi": "10.2307/2983611"
+      },
+      "index": 0,
+      "key": "CIT0001",
+      "locator": "27",
+      "year": 1946
+    },
+    {
+      "container_name": "Nature",
+      "extra": {
+        "authors": [
+          "Bartlett M. S."
+        ],
+        "doi": "10.1038/161686a0",
+        "volume": "161"
+      },
+      "index": 1,
+      "key": "CIT0002",
+      "locator": "686",
+      "year": 1948
+    },
+    {
+      "container_name": "Biometrika",
+      "extra": {
+        "authors": [
+          "Bartlett M. S."
+        ],
+        "volume": "37"
+      },
+      "index": 2,
+      "key": "CIT0003",
+      "year": 1950
+    },
+    {
+      "container_name": "Biometrika",
+      "extra": {
+        "authors": [
+          "Bartlett M. S."
+        ],
+        "volume": "42"
+      },
+      "index": 3,
+      "key": "CIT0004",
+      "locator": "143",
+      "year": 1955
+    },
+    {
+      "container_name": "Publ. Inst. Statist. Univ. Paris",
+      "extra": {
+        "authors": [
+          "Bartlett M. S."
+        ]
+      },
+      "index": 4,
+      "key": "CIT0005",
+      "locator": "119",
+      "year": 1954
+    },
+    {
+      "container_name": "An Introduction to Stochastic Processes",
+      "extra": {
+        "authors": [
+          "Bartlett M. S."
+        ],
+        "volume-title": "An Introduction to Stochastic Processes"
+      },
+      "index": 5,
+      "key": "CIT0006",
+      "year": 1955
+    },
+    {
+      "container_name": "The measurement of power spectra from the point of view of communications engineering",
+      "extra": {
+        "authors": [
+          "Blackman R. B."
+        ],
+        "volume-title": "The measurement of power spectra from the point of view of communications engineering"
+      },
+      "index": 6,
+      "key": "CIT0007",
+      "year": 1959
+    },
+    {
+      "container_name": "J. Roy. Stat. Soc. A",
+      "extra": {
+        "authors": [
+          "Craddock J. M."
+        ],
+        "doi": "10.2307/2342847",
+        "volume": "120"
+      },
+      "index": 7,
+      "key": "CIT0008",
+      "locator": "387",
+      "year": 1957
+    },
+    {
+      "container_name": "Stochastic Processes",
+      "extra": {
+        "authors": [
+          "Doob J. L."
+        ],
+        "volume-title": "Stochastic Processes"
+      },
+      "index": 8,
+      "key": "CIT0009",
+      "year": 1953
+    },
+    {
+      "container_name": "Arkiv. für Mathematik",
+      "extra": {
+        "authors": [
+          "Grenander U."
+        ],
+        "doi": "10.1007/bf02591360"
+      },
+      "index": 9,
+      "key": "CIT0010",
+      "locator": "503",
+      "year": 1951
+    },
+    {
+      "container_name": "Ann. Math. Stat.",
+      "extra": {
+        "authors": [
+          "Grenander U."
+        ],
+        "doi": "10.1214/aoms/1177728913",
+        "volume": "24"
+      },
+      "index": 10,
+      "key": "CIT0011",
+      "locator": "537",
+      "year": 1953
+    },
+    {
+      "extra": {
+        "unstructured": "Grenander, U. and Rosenblatt, M. \"Some problems in estimating the spectrum of a time series,\". Proceedings of the Third Berkeley Symposium on Mathematical Statistics and Probability. pp.77–93. University of California Press."
+      },
+      "index": 11,
+      "key": "CIT0012"
+    },
+    {
+      "container_name": "Statistical Analysis of Stationary Time Series",
+      "extra": {
+        "authors": [
+          "Grenander U."
+        ],
+        "volume-title": "Statistical Analysis of Stationary Time Series"
+      },
+      "index": 12,
+      "key": "CIT0013",
+      "year": 1957
+    },
+    {
+      "container_name": "J. Roy. Stat. Soc., B",
+      "extra": {
+        "authors": [
+          "Grenander U."
+        ],
+        "volume": "20"
+      },
+      "index": 13,
+      "key": "CIT0014",
+      "locator": "152",
+      "year": 1958
+    },
+    {
+      "container_name": "J. Roy. Stat. Soc. B",
+      "extra": {
+        "authors": [
+          "Jenkins G. M."
+        ],
+        "volume": "19"
+      },
+      "index": 14,
+      "key": "CIT0015",
+      "year": 1957
+    },
+    {
+      "container_name": "J. Roy. Stat. Soc. B",
+      "extra": {
+        "authors": [
+          "Lomnicki Z. A."
+        ],
+        "volume": "19"
+      },
+      "index": 15,
+      "key": "CIT0016",
+      "locator": "13",
+      "year": 1957
+    },
+    {
+      "container_name": "Monatshefte für Mathematik",
+      "extra": {
+        "authors": [
+          "Lomnicki Z. A."
+        ],
+        "doi": "10.1007/bf01305937",
+        "volume": "61"
+      },
+      "index": 16,
+      "key": "CIT0017",
+      "locator": "318",
+      "year": 1957
+    },
+    {
+      "container_name": "J. Roy. Stat. Soc. B",
+      "extra": {
+        "authors": [
+          "Lomnicki Z. A."
+        ],
+        "volume": "21"
+      },
+      "index": 17,
+      "key": "CIT0018",
+      "locator": "169",
+      "year": 1959
+    },
+    {
+      "container_name": "Proc. Nat. Acad. Sci.",
+      "extra": {
+        "authors": [
+          "Parzen E."
+        ],
+        "doi": "10.1073/pnas.42.3.154",
+        "volume": "42"
+      },
+      "index": 18,
+      "key": "CIT0019",
+      "locator": "154",
+      "year": 1956
+    },
+    {
+      "container_name": "Ann. Math. Stat.",
+      "extra": {
+        "authors": [
+          "Parzen E."
+        ],
+        "doi": "10.1214/aoms/1177706962",
+        "volume": "28"
+      },
+      "index": 19,
+      "key": "CIT0020",
+      "locator": "329",
+      "year": 1957
+    },
+    {
+      "container_name": "Annals Math. Stat.",
+      "extra": {
+        "authors": [
+          "Parzen E."
+        ],
+        "doi": "10.1214/aoms/1177706793",
+        "volume": "28"
+      },
+      "index": 20,
+      "key": "CIT0021",
+      "locator": "921",
+      "year": 1957
+    },
+    {
+      "container_name": "J. Roy. Stat. Soc. B",
+      "extra": {
+        "authors": [
+          "Parzen E."
+        ],
+        "volume": "20"
+      },
+      "index": 21,
+      "key": "CIT0022",
+      "locator": "303",
+      "year": 1958
+    },
+    {
+      "extra": {
+        "unstructured": "Parzen, E. March 1957.\"Conditions that a stochastic process be ergodic,\", March, 14Stanford University Department of Statistics. Technical Report 11"
+      },
+      "index": 22,
+      "key": "CIT0023"
+    },
+    {
+      "container_name": "Ann. Math. Stat.",
+      "extra": {
+        "authors": [
+          "Parzen E."
+        ],
+        "doi": "10.1214/aoms/1177707050",
+        "volume": "28"
+      },
+      "index": 23,
+      "key": "CIT0024",
+      "locator": "252",
+      "year": 1957
+    },
+    {
+      "container_name": "Modern Probability Theory and its Applications",
+      "extra": {
+        "authors": [
+          "Parzen E."
+        ],
+        "volume-title": "Modern Probability Theory and its Applications"
+      },
+      "index": 24,
+      "key": "CIT0025",
+      "year": 1960
+    },
+    {
+      "container_name": "\"Estimating the covariance function of a stationary time series,\"",
+      "extra": {
+        "authors": [
+          "Parzen E."
+        ],
+        "volume-title": "\"Estimating the covariance function of a stationary time series,\""
+      },
+      "index": 25,
+      "key": "CIT0026"
+    },
+    {
+      "container_name": "\"Mean square error criteria in empirical spectral analysis,\"",
+      "extra": {
+        "authors": [
+          "Parzen E."
+        ],
+        "volume-title": "\"Mean square error criteria in empirical spectral analysis,\""
+      },
+      "index": 26,
+      "key": "CIT0027"
+    },
+    {
+      "container_name": "Probability and Statistics",
+      "extra": {
+        "authors": [
+          "Rosenblatt M."
+        ],
+        "volume-title": "Probability and Statistics"
+      },
+      "index": 27,
+      "key": "CIT0028",
+      "locator": "246",
+      "year": 1959
+    },
+    {
+      "extra": {
+        "unstructured": "Tukey, J. W. \"The sampling theory of power spectrum estimates,\". Symposium on Applications of Autocorrelation Analysis to Physical Problems. Woods Hole, Mass. June. Also \"Measuring noise color,\" an unpublished memorandum"
+      },
+      "index": 28,
+      "key": "CIT0029"
+    },
+    {
+      "container_name": "On Numerical Approximation",
+      "extra": {
+        "authors": [
+          "Tukey J. W."
+        ],
+        "volume-title": "On Numerical Approximation"
+      },
+      "index": 29,
+      "key": "CIT0030",
+      "locator": "389",
+      "year": 1959
+    },
+    {
+      "container_name": "Probability and Statistics",
+      "extra": {
+        "authors": [
+          "Tukey J. W."
+        ],
+        "volume-title": "Probability and Statistics"
+      },
+      "index": 30,
+      "key": "CIT0031",
+      "locator": "300",
+      "year": 1959
+    },
+    {
+      "container_name": "Trabajos de Estadistica",
+      "extra": {
+        "authors": [
+          "Whittle P."
+        ],
+        "doi": "10.1007/bf03002861"
+      },
+      "index": 31,
+      "key": "CIT0032",
+      "locator": "43",
+      "year": 1952
+    },
+    {
+      "container_name": "J. Roy. Stat. Soc. B",
+      "extra": {
+        "authors": [
+          "Whittle P."
+        ],
+        "volume": "19"
+      },
+      "index": 32,
+      "key": "CIT0033",
+      "locator": "38",
+      "year": 1957
+    },
+    {
+      "container_name": "Monatshefte für Mathematik",
+      "extra": {
+        "authors": [
+          "Zaremba S. K."
+        ],
+        "doi": "10.1007/bf01319054",
+        "volume": "64"
+      },
+      "index": 33,
+      "key": "CIT0034",
+      "locator": "68",
+      "year": 1960
+    }
+  ],
+  "release_stage": "published",
+  "release_type": "article-journal",
+  "release_year": 1961,
+  "revision": "85c72a4b-7680-43ee-92b0-691b839c4b6e",
+  "state": "active",
+  "title": "Mathematical Considerations in the Estimation of Spectra",
+  "work_id": "uq5qbmkybbeb5kvlbaclipmdx4"
+}
