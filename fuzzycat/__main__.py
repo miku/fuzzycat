@@ -1,13 +1,15 @@
 #!/usr/bin/env python
 """Usage: fuzzycat COMMAND [options]
 
-Commands: cluster, verify
+Commands: cluster, verify, verify-single
 
 Run, e.g. fuzzycat cluster --help for more options. Example:
 
     $ zstdcat -T0 release_export_expanded.json.zst |
       parallel --tmpdir /fast/tmp --roundrobin --pipe -j 4 |
       python -m fuzzycat.main cluster --tmpdir /fast/tmp -t tnorm > clusters.jsonl
+
+TODO: add docs.
 """
 
 import argparse

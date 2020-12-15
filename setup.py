@@ -31,8 +31,6 @@ with open("README.md", "r") as fh:
             "pydantic",
             "toml",
             "unidecode>=0.10",
-            # "fatcat-openapi-client",
-            # "simhash",
         ],
         extras_require={"dev": [
             "ipython",
