@@ -27,7 +27,7 @@ dist: ## Create source distribution and wheel
 
 .PHONY: cov
 cov: ## Run coverage report
-	pytest --cov=fuzzycat fuzzycat/*.py tests/
+	pytest --cov-report annotate:cov_annotate --cov-report html --cov=fuzzycat fuzzycat/*.py tests/
 
 .PHONY: test
 test: ## Run coverage report
@@ -48,6 +48,8 @@ clean: ## Clean all artifacts
 	rm -rf fuzzycat.egg-info/
 	rm -rf .pytest_cache/
 	rm -rf .coverage
+	rm -rf htmlcov/
+	rm -rf cov_annotate/
 	rm -rf .mypy_cache/
 	find . -name "__pycache__" -type d -exec rm -rf {} \;
 
