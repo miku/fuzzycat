@@ -1,6 +1,6 @@
 import os
 import re
-from typing import List, Union, Type
+from typing import List, Type, Union
 
 import elasticsearch
 import elasticsearch_dsl
