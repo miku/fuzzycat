@@ -227,7 +227,7 @@ if __name__ == '__main__':
     sub_verify.add_argument('-f', '--files', default="-", help='input files')
     sub_verify.set_defaults(func=run_verify)
 
-    sub_verify_single = subparsers.add_parser('verify-single',
+    sub_verify_single = subparsers.add_parser('verify_single',
                                               help='verify a single pair',
                                               parents=[parser])
     sub_verify_single.add_argument('-a', help='ident or url to release')
