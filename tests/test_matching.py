@@ -13,7 +13,7 @@ def es_client():
     return elasticsearch.Elasticsearch(["https://search.fatcat.wiki:443"])
 
 
-@pytest.mark.skip(reason="we cannot use POST on es, which client uses: https://git.io/JLsYb")
+@pytest.mark.skip(reason="we cannot use POST on es, which client uses: https://git.io/JLssk")
 def test_match_release_fuzzy(es_client):
     cases = (("wtv64ahbdzgwnan7rllwr3nurm", 2), )
     for case, count in cases:
