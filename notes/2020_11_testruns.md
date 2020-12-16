@@ -1,6 +1,18 @@
-# Test runs
+# Test run notes
 
-## Using --min-cluster-size
+## 12/2020
+
+
+
+### More versions
+
+* https://fatcat.wiki/release/3n4enptukfg5hpsomskg7ebh2e
+* https://fatcat.wiki/release/b34keiknkvf5ril7fcajuzzt4a
+
+
+## 11/2020
+
+### Using --min-cluster-size
 
 Skipping writes of single element clusters cuts clustering from ~42h to ~22h.
 
@@ -98,7 +110,7 @@ Preliminary case distribution:
       4 OK.ARXIV_VERSION
 ```
 
-## Case Mining
+### Case Mining
 
 > "-" ignore, "x" done
 
@@ -257,7 +269,7 @@ Different reviews.
 
 More patterns:
 
-### Chapter vs Book
+Chapter vs Book
 
 * https://fatcat.wiki/release/ameuzneqizg3ff7ep4bmg4io6m
 * https://fatcat.wiki/release/s2thvzarsfbodd52w46zy2xple
