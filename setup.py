@@ -26,21 +26,19 @@ with open("README.md", "r") as fh:
             "fuzzycat=fuzzycat.main:main"
         ]},
         install_requires=[
-            "ftfy",
-            "fuzzy",
-            "pydantic",
-            "toml",
-            "unidecode>=0.10",
-            "fatcat-openapi-client", # https://pypi.org/project/fatcat-openapi-client/
             "elasticsearch",
             "elasticsearch-dsl",
+            "fatcat-openapi-client", # https://pypi.org/project/fatcat-openapi-client/
+            "ftfy",
+            "fuzzy",
+            "glom",
+            "toml",
+            "unidecode>=0.10",
         ],
         extras_require={"dev": [
             "ipython",
             "isort",
-            "jupyter",
-            "matplotlib",
-            "pandas",
+            "mypy",
             "pylint",
             "pytest",
             "pytest-cov",
