@@ -59,6 +59,7 @@ import sys
 import tempfile
 
 import requests
+from fatcat_openapi_client import ReleaseEntity
 
 from fuzzycat.cluster import (Cluster, release_key_title, release_key_title_ngram,
                               release_key_title_normalized, release_key_title_nysiis,
@@ -67,7 +68,6 @@ from fuzzycat.entities import entity_to_dict
 from fuzzycat.matching import anything_to_entity, match_release_fuzzy
 from fuzzycat.utils import random_idents_from_query, random_word
 from fuzzycat.verify import GroupVerifier, verify
-from fatcat_openapi_client import ReleaseEntity
 
 logging.getLogger("requests").setLevel(logging.WARNING)
 logging.getLogger("urllib3").setLevel(logging.WARNING)

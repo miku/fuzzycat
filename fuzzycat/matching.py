@@ -1,11 +1,13 @@
 import os
 import re
+import sys
 from typing import List, Type, Union
 
 import elasticsearch
 import elasticsearch_dsl
+import fatcat_openapi_client
 import requests
-from fatcat_openapi_client import ContainerEntity, ReleaseEntity
+from fatcat_openapi_client import ContainerEntity, DefaultApi, ReleaseEntity
 
 from fuzzycat.entities import entity_from_dict, entity_from_json
 
@@ -87,6 +89,62 @@ def match_release_fuzzy(release: ReleaseEntity, size=5, es=None) -> List[Release
 
     # TODO: perform more queries on other fields.
     return []
+
+
+def public_api(host_uri):
+    """
+    Note: unlike the authenticated variant, this helper might get called even
+    if the API isn't going to be used, so it's important that it doesn't try to
+    actually connect to the API host or something.
+    """
+    conf = fatcat_openapi_client.Configuration()
+    conf.host = host_uri
+    return fatcat_openapi_client.DefaultApi(fatcat_openapi_client.ApiClient(conf))
+
+
+def retrieve_entity_list(
+    ids: List[str],
+    api: DefaultApi = None,
+    entity_type: Union[Type[ReleaseEntity], Type[ContainerEntity]] = ReleaseEntity,
+) -> List[Union[Type[ReleaseEntity], Type[ContainerEntity]]]:
+    """
+    Retrieve a list of entities. Some entities might be missing. Return all
+    that are accessible.
+    """
+    if api is None:
+        api = public_api("https://api.fatcat.wiki/v0")
+    result = []
+    if entity_type == ReleaseEntity:
+        for id in ids:
+            try:
+                re = api.get_release(id, hide="refs,abstracts", expand="container")
+                result.append(re)
+            except ApiException as exc:
+                if exc.status == 404:
+                    print("[err] failed to retrieve release entity: {} (maybe stale index)".format(
+                        id),
+                          file=sys.stderr)
+                else:
+                    print("[err] api failed with {}: {}".format(exc.status, exc.message),
+                          file=sys.stderr)
+    elif entity_type == ContainerEntity:
+        for id in ids:
+            try:
+                re = api.get_container(id)
+                result.append(re)
+            except ApiException as exc:
+                if exc.status == 404:
+                    print(
+                        "[err] failed to retrieve container entity: {} (maybe stale index)".format(
+                            id),
+                        file=sys.stderr)
+                else:
+                    print("[err] api failed with {}: {}".format(exc.status, exc.message),
+                          file=sys.stderr)
+    else:
+        raise ValueError("[err] cannot retrieve ids {} of type {}".format(ids, entity_type))
+
+    return result
 
 
 def response_to_entity_list(response, size=5, entity_type=ReleaseEntity):
