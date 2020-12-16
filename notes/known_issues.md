@@ -31,3 +31,20 @@ $ python -m fuzzycat verify-single | jq .
 
 * https://fatcat.wiki/release/zrkabzp4vjbwfdixvjkohgeh3a (book)
 * https://fatcat.wiki/release/ojcucauvkvhg5cazfhzplcot7q (chapter)
+
+## Tokenized authors is flaky
+
+```
+$ python -m fuzzycat verify_single | jq .
+{
+  "extra": {
+    "q": "https://fatcat.wiki/release/search?q=cleaves"
+  },
+  "a": "https://fatcat.wiki/release/mi6y2jtl55egxi5qfhovswxcba",
+  "b": "https://fatcat.wiki/release/7hjisijl7nczhbghdd6l56n6py",
+  "r": [
+    "strong",
+    "tokenized_authors"
+  ]
+}
+```
