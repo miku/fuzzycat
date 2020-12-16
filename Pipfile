@@ -25,6 +25,7 @@ elasticsearch = "*"
 elasticsearch-dsl = "*"
 fatcat-openapi-client = "*"
 unidecode = ">=0.10"
+requests = "*"
 
 [requires]
 python_version = "3.7"

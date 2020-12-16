@@ -32,6 +32,7 @@ with open("README.md", "r") as fh:
             "ftfy",
             "fuzzy",
             "glom",
+            "requests",
             "toml",
             "unidecode>=0.10",
         ],
