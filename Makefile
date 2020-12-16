@@ -27,7 +27,7 @@ dist: ## Create source distribution and wheel
 
 .PHONY: cov
 cov: ## Run coverage report
-	pytest --cov-report annotate:cov_annotate --cov-report html --cov=fuzzycat fuzzycat/*.py tests/
+	pytest --cov=fuzzycat fuzzycat/*.py tests/ # --cov-report annotate:cov_annotate --cov-report html
 
 .PHONY: test
 test: ## Run coverage report
