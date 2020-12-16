@@ -42,6 +42,9 @@ EXAMPLES
 
       $ python -m fuzzycat release_match -q "hello world"
 
+      TODO: Elasticsearch might not respond to POST queries (which is what the
+      client library uses, see: https://git.io/JLsYb).
+
 """
 
 import argparse
