@@ -97,14 +97,9 @@ Verify = collections.namedtuple("Verify", "status reason")
 
 class GroupVerifier:
     """
-    Verifier.
-
-    Within a group, we could have multiple sub clusters, e.g.
-
-    > [AABAB]
-
-    We would need to compare each possible pair and decide whether they are the
-    same.
+    Given an iterable (lines) from clustering step, run verification on every
+    pair of the cluster, e.g. a cluster of four elements will yield nCr(4, 2) =
+    10 pairs.
     """
     def __init__(self,
                  iterable: collections.abc.Iterable,

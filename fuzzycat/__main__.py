@@ -194,6 +194,7 @@ if __name__ == '__main__':
         format='%(asctime)s.%(msecs)03d %(levelname)s %(module)s - %(funcName)s: %(message)s',
         datefmt='%Y-%m-%d %H:%M:%S')
 
+    # TODO: group flags sensibly
     parser = argparse.ArgumentParser(prog='fuzzycat',
                                      description=__doc__,
                                      usage='%(prog)s command [options]',
