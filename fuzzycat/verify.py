@@ -154,6 +154,8 @@ def verify(a: Dict, b: Dict, min_title_length=5) -> Tuple[str, str]:
 
     The cases are relatively independent, so order should not matter, but that
     can be pinned down much more clearly.
+
+    TODO: add wrapper release entities
     """
 
     # A few items have the same DOI.

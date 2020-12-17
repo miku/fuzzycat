@@ -33,6 +33,7 @@ def match_release_fuzzy(
         es = elasticsearch.Elasticsearch()
 
     # Try to match by external identifier.
+    # TODO: use api, ability to disable; benchmark
     ext_ids = release.ext_ids
     attrs = {
         "doi": "doi",

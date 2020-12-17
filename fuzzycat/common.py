@@ -5,13 +5,15 @@ class Status(str, Enum):
     """
     Match status. The match status "TODO" is a placeholder, e.g. to trigger a
     test failure.
+
+    TODO: FuzzyStatus, FuzzycatStatus, MatchVerifyStatus, MatchConfidence
     """
     AMBIGUOUS = 'ambiguous'
     DIFFERENT = 'different'
     EXACT = 'exact'
     STRONG = 'strong'
     WEAK = 'weak'
-    TODO = 'todo'
+    TODO = 'todo' # maybe UNIMPLEMENTED
 
 
 class Reason(str, Enum):
