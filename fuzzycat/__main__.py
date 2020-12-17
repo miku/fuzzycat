@@ -102,7 +102,10 @@ def run_verify(args):
     """
     Run match verification over dataset from clustering step.
     """
-    GroupVerifier(iterable=fileinput.input(files=args.files)).run()
+    verifier = GroupVerifier(iterable=fileinput.input(files=args.files),
+                             verbose=args.verbose,
+                             max_cluster_size=args.max_cluster_size)
+    verifier.run()
 
 
 def run_verify_single(args):
@@ -208,6 +211,7 @@ if __name__ == '__main__':
                         help="output format, e.g. tsv or json",
                         default="tsv")
     parser.add_argument("-s", "--size", help="number of results to return", default=5, type=int)
+    parser.add_argument("-v", "--verbose", help="be verbose", action='store_true')
     subparsers = parser.add_subparsers()
 
     sub_cluster = subparsers.add_parser('cluster', help='group entities', parents=[parser])
@@ -225,6 +229,10 @@ if __name__ == '__main__':
 
     sub_verify = subparsers.add_parser('verify', help='verify groups', parents=[parser])
     sub_verify.add_argument('-f', '--files', default="-", help='input files')
+    sub_verify.add_argument('--max-cluster-size',
+                            default=10,
+                            type=int,
+                            help='ignore large clusters')
     sub_verify.set_defaults(func=run_verify)
 
     sub_verify_single = subparsers.add_parser('verify_single',

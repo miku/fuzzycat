@@ -109,7 +109,7 @@ class GroupVerifier:
     def __init__(self,
                  iterable: collections.abc.Iterable,
                  max_cluster_size: int = 10,
-                 verbose=True):
+                 verbose=False):
         self.iterable: collections.abc.Iterable = iterable
         self.max_cluster_size: int = max_cluster_size
         self.verbose: bool = verbose
