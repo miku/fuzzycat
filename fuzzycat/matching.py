@@ -125,7 +125,7 @@ def retrieve_entity_list(
                 result.append(re)
             except ApiException as exc:
                 if exc.status == 404:
-                    print("[err] failed to retrieve release entity: {} (maybe stale index)".format(
+                    print("[err] failed to retrieve release entity: {}".format(
                         id),
                           file=sys.stderr)
                 else:
@@ -139,7 +139,7 @@ def retrieve_entity_list(
             except ApiException as exc:
                 if exc.status == 404:
                     print(
-                        "[err] failed to retrieve container entity: {} (maybe stale index)".format(
+                        "[err] failed to retrieve container entity: {}".format(
                             id),
                         file=sys.stderr)
                 else:
@@ -183,7 +183,7 @@ def anything_to_entity(
         ReleaseEntity: "release",
     }
     if not entity_type in names:
-        raise ValueError("cannot convert {} - only: {}".format(entity_type, names.keys()))
+        raise ValueError("cannot convert {}, only: {}".format(entity_type, names.keys()))
     entity_name = names[entity_type]
 
     if s is None:
@@ -203,6 +203,7 @@ def anything_to_entity(
             raise ValueError("entity not found: {}".format(url))
 
     if re.match("[0-9]{4}(-)?[0-9]{3,3}[0-9xx]", s):
+        # TODO: make index name configurable
         url = "{}/fatcat_{}/_search?q=issns:{}".format(es_url, entity_name, s)
         doc = requests.get(url).json()
         if doc["hits"]["total"] == 1:
