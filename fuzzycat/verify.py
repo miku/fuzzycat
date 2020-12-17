@@ -158,7 +158,9 @@ def verify(a: Dict, b: Dict, min_title_length=5) -> Tuple[str, str]:
 
     # A few items have the same DOI.
     try:
-        if glom(a, "ext_ids.doi") == glom(b, "ext_ids.doi"):
+        a_doi = glom(a, "ext_ids.doi")
+        b_doi = glom(b, "ext_ids.doi")
+        if a_doi is not None and a_doi == b_doi:
             return Verify(Status.EXACT, Reason.DOI)
     except PathAccessError:
         pass
