@@ -2,6 +2,20 @@
 
 ## 12/2020
 
+A verification test run with GNU parallel:
+
+```
+$ zstdcat -T0 cluster_tsandcrawler.json.zst | wc -l
+124321361
+
+$ time zstdcat -T0 cluster_tsandcrawler.json.zst | \
+    parallel --pipe python -m fuzzycat verify | \
+    zstd -c9 > out
+...
+real    194m33.272s
+user    2479m56.510s
+sys     462m14.991s
+```
 
 
 ### More versions
