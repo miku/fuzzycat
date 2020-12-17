@@ -174,9 +174,6 @@ def verify(a: Dict, b: Dict, min_title_length=5) -> Tuple[str, str]:
     b_title = b.get("title", "") or ""
     b_title_lower = b_title.lower()
 
-    assert isinstance(a_title, str)
-    assert isinstance(b_title, str)
-
     if len(a_title) < min_title_length:
         return Verify(Status.AMBIGUOUS, Reason.SHORT_TITLE)
     if a_title_lower in TITLE_BLACKLIST:
