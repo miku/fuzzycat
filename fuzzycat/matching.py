@@ -1,7 +1,7 @@
 import os
 import re
 import sys
-from typing import List, Type, Union, Optional
+from typing import List, Optional, Type, Union
 
 import elasticsearch
 import elasticsearch_dsl
@@ -125,9 +125,7 @@ def retrieve_entity_list(
                 result.append(re)
             except ApiException as exc:
                 if exc.status == 404:
-                    print("[err] failed to retrieve release entity: {}".format(
-                        id),
-                          file=sys.stderr)
+                    print("[err] failed to retrieve release entity: {}".format(id), file=sys.stderr)
                 else:
                     print("[err] api failed with {}: {}".format(exc.status, exc.message),
                           file=sys.stderr)
@@ -138,10 +136,8 @@ def retrieve_entity_list(
                 result.append(re)
             except ApiException as exc:
                 if exc.status == 404:
-                    print(
-                        "[err] failed to retrieve container entity: {}".format(
-                            id),
-                        file=sys.stderr)
+                    print("[err] failed to retrieve container entity: {}".format(id),
+                          file=sys.stderr)
                 else:
                     print("[err] api failed with {}: {}".format(exc.status, exc.message),
                           file=sys.stderr)
