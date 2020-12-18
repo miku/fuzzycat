@@ -1,23 +1,45 @@
 # fuzzycat (wip)
 
-Fuzzy matching publications for [fatcat](https://fatcat.wiki).
+Fuzzy matching utilities for [fatcat](https://fatcat.wiki).
 
 ![https://pypi.org/project/fuzzycat/](https://img.shields.io/pypi/v/fuzzycat?style=flat-square)
 
-# Example Run
+## Dataset
 
-Run any clustering algorithm.
+For development, we worked on a `release_export_expanded.json` dump (113G/700G
+zstd/plain, XXX lines) and with the [fatcat API](https://api.fatcat.wiki/).
+
+Workflow Fall 2020
+
+![](notes/steps.png)
+
+## Facilities
+
+### Clustering
+
+Derive cluster of similar documents from a [fatcat database release
+dump](https://archive.org/details/fatcat_snapshots_and_exports?&sort=-publicdate).
+
+Following algorithms are implemented (or planned):
+
+* [x] exact title matches (title)
+* [x] normalized title matches (tnorm)
+* [x] NYSIIS encoded title matches (tnysi)
+* [x] extended title normalization (tsandcrawler)
+
+Example running clustering:
 
 ```
-$ time python -m fuzzycat cluster -t tsandcrawler < data/sample10m.json | \
-    zstd -c9 > sample_cluster.json.zst
-2020-11-18 00:19:48.194 DEBUG __main__ - run_cluster:
-    {"key_fail": 0, "key_ok": 9999938, "key_empty": 62, "key_denylist": 0, "num_clusters": 9040789}
-
-real    75m23.045s
-user    95m14.455s
-sys     3m39.121s
+$ python -m fuzzycat cluster -t tsandcrawler < data/re.json > cluster.json.zst
 ```
+
+Clustering works in a three step process:
+
+1. key extraction for each document (choose algorithm)
+2. sorting by keys (via GNU sort)
+3. group by key and write out ([itertools.groupby](https://docs.python.org/3/library/itertools.html#itertools.groupby))
+
+### Verification
 
 Run verification.
 
