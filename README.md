@@ -34,7 +34,7 @@ $ python -m fuzzycat cluster -t tsandcrawler < data/re.json > cluster.json.zst
 Clustering works in a three step process:
 
 1. key extraction for each document (choose algorithm)
-2. sorting by keys (via GNU sort)
+2. sorting by keys (via [GNU sort](https://www.gnu.org/software/coreutils/manual/html_node/sort-invocation.html))
 3. group by key and write out ([itertools.groupby](https://docs.python.org/3/library/itertools.html#itertools.groupby))
 
 ### Verification
