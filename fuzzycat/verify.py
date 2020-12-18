@@ -42,7 +42,7 @@ Found   Status                  Reason
 2085006 Status.DIFFERENT        Reason.CONTRIB_INTERSECTION_EMPTY
 1397420 Status.DIFFERENT        Reason.SHARED_DOI_PREFIX
 1355852 Status.DIFFERENT        Reason.RELEASE_TYPE
-1290162 Status.AMBIGUOUS        Reason.DUMMY
+1290162 Status.AMBIGUOUS        Reason.UNKNOWN
 1145511 Status.DIFFERENT        Reason.BOOK_CHAPTER
 1009657 Status.DIFFERENT        Reason.DATASET_DOI
  996503 Status.STRONG   	Reason.PMID_DOI_PAIR
@@ -588,4 +588,4 @@ def verify(a: Dict, b: Dict, min_title_length=5) -> Tuple[str, str]:
     except (ValueError, PathAccessError):
         pass
 
-    return Verify(Status.AMBIGUOUS, Reason.DUMMY)
+    return Verify(Status.AMBIGUOUS, Reason.UNKNOWN)

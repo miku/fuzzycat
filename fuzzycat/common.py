@@ -13,12 +13,13 @@ class Status(str, Enum):
     EXACT = 'exact'
     STRONG = 'strong'
     WEAK = 'weak'
-    TODO = 'todo' # maybe UNIMPLEMENTED
+    TODO = 'todo'  # maybe UNIMPLEMENTED, TODO: change this after !MR92
 
 
 class Reason(str, Enum):
     """
-    Reason for assuming we have a match or miss. No hard rules on naming.
+    Reason for assuming we have a match or miss. No hard rules on naming, maybe
+    if a rule leans toward specific sources, you can use `CUSTOM_` as prefix.
     """
     APPENDIX = 'appendix'
     ARXIV_VERSION = 'arxiv_version'
@@ -42,7 +43,6 @@ class Reason(str, Enum):
     DATACITE_VERSION = 'datacite_version'
     DATASET_DOI = 'dataset_doi'
     DOI = 'doi'
-    DUMMY = 'dummy'
     FIGSHARE_VERSION = 'figshare_version'
     JACCARD_AUTHORS = 'jaccard_authors'
     JSTOR_ID = 'jstor_id'
@@ -61,6 +61,7 @@ class Reason(str, Enum):
     TITLE_AUTHOR_MATCH = 'title_author_match'
     TITLE_FILENAME = 'title_filename'
     TOKENIZED_AUTHORS = 'tokenized_authors'
+    UNKNOWN = 'unknown'
     VERSIONED_DOI = 'versioned_doi'
     WORK_ID = 'work_id'
     YEAR = 'year'
