@@ -1,5 +1,5 @@
 digraph steps {
-    node [shape=note, fontname="helvetica"];
+    node [shape=plaintext, fontname="helvetica"];
     graph [fontname = "helvetica"];
     edge [fontname = "helvetica"];
 
