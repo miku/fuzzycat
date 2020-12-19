@@ -21,6 +21,8 @@ def match_release_fuzzy(
     """
     Given a release entity, return a number similar release entities from
     fatcat using Elasticsearch.
+
+    TODO: rename "es" parameter to "es_client", which would be clearer
     """
     assert isinstance(release, ReleaseEntity)
 
