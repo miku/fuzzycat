@@ -1,3 +1,6 @@
+"""
+Taken from https://git.io/JLRbX, transforms/entities.py
+"""
 import collections
 import json
 

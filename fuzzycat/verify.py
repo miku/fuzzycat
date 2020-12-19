@@ -81,7 +81,7 @@ import json
 import operator
 import re
 import sys
-from typing import Counter, Dict, Tuple
+from typing import Counter, Dict, Tuple, Type
 
 from glom import PathAccessError, glom
 
@@ -90,6 +90,8 @@ from fuzzycat.data import (CONTAINER_NAME_BLACKLIST, PUBLISHER_BLACKLIST, TITLE_
                            TITLE_FRAGMENT_BLACKLIST)
 from fuzzycat.utils import (author_similarity_score, contains_chemical_formula, dict_key_exists,
                             has_doi_prefix, jaccard, num_project, parse_page_string, slugify_string)
+from fuzzycat.entities import entity_to_dict
+from fatcat_openapi_client import ReleaseEntity
 
 Verify = collections.namedtuple("Verify", "status reason")
 
@@ -143,6 +145,9 @@ class GroupVerifier:
 
         self.counter["total"] = sum(v for _, v in self.counter.items())
 
+
+def verify_release_entities(a: ReleaseEntity, b: ReleaseEntity, min_title_length=5) -> Type[Verify]:
+    return verify(entity_to_dict(a), entity_to_dict(b), min_title_length=min_title_length)
 
 def verify(a: Dict, b: Dict, min_title_length=5) -> Tuple[str, str]:
     """
