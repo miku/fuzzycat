@@ -8,6 +8,7 @@ import elasticsearch_dsl
 import fatcat_openapi_client
 import requests
 from fatcat_openapi_client import ContainerEntity, DefaultApi, ReleaseEntity
+from fatcat_openapi_client.rest import ApiException
 
 from fuzzycat.entities import entity_from_dict, entity_from_json
 
