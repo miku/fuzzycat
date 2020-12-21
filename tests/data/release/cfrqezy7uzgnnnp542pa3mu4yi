@@ -1,0 +1,38 @@
+{
+  "abstracts": [],
+  "container_id": "ys5g75cbb5cv5luuzssh3loggy",
+  "contribs": [
+    {
+      "extra": {
+        "seq": "first"
+      },
+      "index": 0,
+      "raw_name": "Michelle Bachelet Jeria",
+      "role": "author"
+    }
+  ],
+  "ext_ids": {
+    "core": "127009692",
+    "doi": "10.5354/0717-5051.2006.5118"
+  },
+  "extra": {
+    "crossref": {
+      "alternative-id": [
+        "Pág. 4-6"
+      ],
+      "type": "journal-article"
+    }
+  },
+  "ident": "cfrqezy7uzgnnnp542pa3mu4yi",
+  "issue": "14",
+  "publisher": "Universidad de Chile",
+  "refs": [],
+  "release_date": "2010-09-29",
+  "release_stage": "published",
+  "release_type": "article-journal",
+  "release_year": 2010,
+  "revision": "0c4caff2-edef-4362-bc3f-4842a40c80da",
+  "state": "active",
+  "title": "Vivienda y ciudad",
+  "work_id": "6qerh65kh5grjm4z7szv4tjyoe"
+}

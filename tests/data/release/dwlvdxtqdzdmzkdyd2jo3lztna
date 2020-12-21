@@ -1,0 +1,56 @@
+{
+  "abstracts": [
+    {
+      "content": "Enunciado general de una Política Urbana que se orienta hacia la calidad de vida y la equidad territo de Chile./ General statement of an urban policy that is oriented towards the quality of life and equity territory of Chile.",
+      "lang": "en",
+      "mimetype": "text/plain",
+      "sha1": "b774e2729f2120dafb5ffc659bdfb335474f6ca2"
+    }
+  ],
+  "container_id": "ys5g75cbb5cv5luuzssh3loggy",
+  "contribs": [
+    {
+      "index": 0,
+      "raw_name": "Bachelet Jeria, Michelle",
+      "role": "author"
+    }
+  ],
+  "ext_ids": {
+    "doaj": "dfe02d541f3b47f1b22542d6634dabf2"
+  },
+  "extra": {
+    "country": "cl",
+    "doaj": {
+      "keywords": [
+        "Discurso de la Presidenta de la República de Chile",
+        "el 21 de mayo de 2006."
+      ],
+      "subject": [
+        {
+          "code": "G1-922",
+          "scheme": "LCC",
+          "term": "Geography (General)"
+        },
+        {
+          "code": "HT101-395",
+          "scheme": "LCC",
+          "term": "Urban groups. The city. Urban sociology"
+        }
+      ]
+    },
+    "release_month": 6
+  },
+  "ident": "dwlvdxtqdzdmzkdyd2jo3lztna",
+  "issue": "14",
+  "language": "es",
+  "license_slug": "cc-by-nc-nd",
+  "publisher": "Universidad de Chile",
+  "refs": [],
+  "release_stage": "published",
+  "release_type": "article-journal",
+  "release_year": 2006,
+  "revision": "34ea5c07-c2f2-47e6-bc7b-51e1b5b53432",
+  "state": "active",
+  "title": "Vivienda y ciudad / Housing and town.",
+  "work_id": "2ksdrcdw5vhjfceztkecmx7u5m"
+}
