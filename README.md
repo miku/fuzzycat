@@ -39,7 +39,7 @@ Clustering works in a three step process:
 
 ### Verification
 
-Run verification.
+Run verification (pairwise *double-check* of match candidates in a cluster).
 
 ```
 $ time zstdcat -T0 sample_cluster.json.zst | python -m fuzzycat verify > sample_verify.txt
@@ -49,37 +49,13 @@ user    8m50.703s
 sys     0m29.262s
 ```
 
+This is a one-pass operation. For processing 150M docs, we very much depend on
+the documents being on disk in a file (we keep the complete document in a
+clustering doc).
 
 Example results over 10M docs:
 
-```json
-{
-  "miss.appendix": 176,
-  "miss.blacklisted": 12124,
-  "miss.blacklisted_fragment": 9,
-  "miss.book_chapter": 46733,
-  "miss.component": 2173,
-  "miss.contrib_intersection_empty": 73592,
-  "miss.dataset_doi": 30806,
-  "miss.num_diff": 1,
-  "miss.release_type": 19767,
-  "miss.short_title": 16737,
-  "miss.subtitle": 11975,
-  "miss.title_filename": 87,
-  "miss.year": 123288,
-  "ok.arxiv_version": 90726,
-  "ok.dummy": 106196,
-  "ok.preprint_published": 10495,
-  "ok.slug_title_author_match": 47285,
-  "ok.title_author_match": 65685,
-  "ok.tokenized_authors": 7592,
-  "skip.container_name_blacklist": 20,
-  "skip.publisher_blacklist": 456,
-  "skip.too_large": 7430,
-  "skip.unique": 8808462,
-  "total": 9481815
-}
-```
+
 
 # A full run
 
