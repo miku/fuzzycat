@@ -1,0 +1,108 @@
+{
+  "abstracts": [],
+  "container_id": "7gh7nfaxorfrbegwg2tkwo5moa",
+  "contribs": [
+    {
+      "extra": {
+        "seq": "first"
+      },
+      "given_name": "Xinglai",
+      "index": 0,
+      "raw_affiliation": "Shenyang National Laboratory for Materials ScienceInstitute of Metal ResearchChinese Academy of Sciences Shenyang 110016 P. R. China",
+      "raw_name": "Xinglai Zhang",
+      "role": "author",
+      "surname": "Zhang"
+    },
+    {
+      "given_name": "Jian",
+      "index": 1,
+      "raw_affiliation": "Shenyang National Laboratory for Materials ScienceInstitute of Metal ResearchChinese Academy of Sciences Shenyang 110016 P. R. China",
+      "raw_name": "Jian Zhang",
+      "role": "author",
+      "surname": "Zhang"
+    },
+    {
+      "given_name": "Bing",
+      "index": 2,
+      "raw_affiliation": "Department of Plastic SurgeryThe first Affiliated Hospital of China Medical University Shenyang 110001 P. R. China",
+      "raw_name": "Bing Leng",
+      "role": "author",
+      "surname": "Leng"
+    },
+    {
+      "given_name": "Jing",
+      "index": 3,
+      "raw_affiliation": "Shenyang National Laboratory for Materials ScienceInstitute of Metal ResearchChinese Academy of Sciences Shenyang 110016 P. R. China",
+      "raw_name": "Jing Li",
+      "role": "author",
+      "surname": "Li"
+    },
+    {
+      "given_name": "Zongyi",
+      "index": 4,
+      "raw_affiliation": "Shenyang National Laboratory for Materials ScienceInstitute of Metal ResearchChinese Academy of Sciences Shenyang 110016 P. R. China",
+      "raw_name": "Zongyi Ma",
+      "role": "author",
+      "surname": "Ma"
+    },
+    {
+      "given_name": "Wenjin",
+      "index": 5,
+      "raw_affiliation": "Shenyang National Laboratory for Materials ScienceInstitute of Metal ResearchChinese Academy of Sciences Shenyang 110016 P. R. China",
+      "raw_name": "Wenjin Yang",
+      "role": "author",
+      "surname": "Yang"
+    },
+    {
+      "given_name": "Fei",
+      "index": 6,
+      "raw_affiliation": "State Key Laboratory of Optoelectronic Materials and Technologies and School of Electronics and Information TechnologySun Yat‐Sen University Guangzhou 510275 P. R. China",
+      "raw_name": "Fei Liu",
+      "role": "author",
+      "surname": "Liu"
+    },
+    {
+      "given_name": "Baodan",
+      "index": 7,
+      "raw_affiliation": "Shenyang National Laboratory for Materials ScienceInstitute of Metal ResearchChinese Academy of Sciences Shenyang 110016 P. R. China",
+      "raw_name": "Baodan Liu",
+      "role": "author",
+      "surname": "Liu"
+    }
+  ],
+  "ext_ids": {
+    "doi": "10.1002/admi.201970145"
+  },
+  "extra": {
+    "crossref": {
+      "alternative-id": [
+        "10.1002/admi.201970145"
+      ],
+      "archive": [
+        "Portico"
+      ],
+      "license": [
+        {
+          "URL": "http://onlinelibrary.wiley.com/termsAndConditions#vor",
+          "content-version": "vor",
+          "delay-in-days": 5,
+          "start": "2019-12-06T00:00:00Z"
+        }
+      ],
+      "type": "journal-article"
+    }
+  },
+  "ident": "3w7pt5hlu5bvjkyo2dtoxm4ltq",
+  "issue": "23",
+  "language": "en",
+  "pages": "1970145",
+  "publisher": "Wiley",
+  "refs": [],
+  "release_stage": "published",
+  "release_type": "article-journal",
+  "release_year": 2019,
+  "revision": "21cff085-b86a-43b9-8c5f-c19938e9ec44",
+  "state": "active",
+  "title": "Photodetectors: Enhanced Performances of PVK/ZnO Nanorods/Graphene Heterostructure UV Photodetector via Piezo‐Phototronic Interface Engineering (Adv. Mater. Interfaces 23/2019)",
+  "work_id": "jxkmb72wozbn5jk2fwxznh335m"
+}

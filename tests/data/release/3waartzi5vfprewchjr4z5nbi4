@@ -1,0 +1,513 @@
+{
+  "abstracts": [],
+  "container_id": "7gh7nfaxorfrbegwg2tkwo5moa",
+  "contribs": [
+    {
+      "extra": {
+        "seq": "first"
+      },
+      "given_name": "Xinglai",
+      "index": 0,
+      "raw_affiliation": "Shenyang National Laboratory for Materials ScienceInstitute of Metal ResearchChinese Academy of Sciences Shenyang 110016 P. R. China",
+      "raw_name": "Xinglai Zhang",
+      "role": "author",
+      "surname": "Zhang"
+    },
+    {
+      "given_name": "Jian",
+      "index": 1,
+      "raw_affiliation": "Shenyang National Laboratory for Materials ScienceInstitute of Metal ResearchChinese Academy of Sciences Shenyang 110016 P. R. China",
+      "raw_name": "Jian Zhang",
+      "role": "author",
+      "surname": "Zhang"
+    },
+    {
+      "given_name": "Bing",
+      "index": 2,
+      "raw_affiliation": "Department of Plastic SurgeryThe first Affiliated Hospital of China Medical University Shenyang 110001 P. R. China",
+      "raw_name": "Bing Leng",
+      "role": "author",
+      "surname": "Leng"
+    },
+    {
+      "given_name": "Jing",
+      "index": 3,
+      "raw_affiliation": "Shenyang National Laboratory for Materials ScienceInstitute of Metal ResearchChinese Academy of Sciences Shenyang 110016 P. R. China",
+      "raw_name": "Jing Li",
+      "role": "author",
+      "surname": "Li"
+    },
+    {
+      "given_name": "Zongyi",
+      "index": 4,
+      "raw_affiliation": "Shenyang National Laboratory for Materials ScienceInstitute of Metal ResearchChinese Academy of Sciences Shenyang 110016 P. R. China",
+      "raw_name": "Zongyi Ma",
+      "role": "author",
+      "surname": "Ma"
+    },
+    {
+      "given_name": "Wenjin",
+      "index": 5,
+      "raw_affiliation": "Shenyang National Laboratory for Materials ScienceInstitute of Metal ResearchChinese Academy of Sciences Shenyang 110016 P. R. China",
+      "raw_name": "Wenjin Yang",
+      "role": "author",
+      "surname": "Yang"
+    },
+    {
+      "given_name": "Fei",
+      "index": 6,
+      "raw_affiliation": "State Key Laboratory of Optoelectronic Materials and Technologies and School of Electronics and Information TechnologySun Yat‐Sen University Guangzhou 510275 P. R. China",
+      "raw_name": "Fei Liu",
+      "role": "author",
+      "surname": "Liu"
+    },
+    {
+      "creator_id": "cxkipewtdvc4xd4eodikkeqcsy",
+      "given_name": "Baodan",
+      "index": 7,
+      "raw_affiliation": "Shenyang National Laboratory for Materials ScienceInstitute of Metal ResearchChinese Academy of Sciences Shenyang 110016 P. R. China",
+      "raw_name": "Baodan Liu",
+      "role": "author",
+      "surname": "Liu"
+    }
+  ],
+  "ext_ids": {
+    "doi": "10.1002/admi.201901365"
+  },
+  "extra": {
+    "crossref": {
+      "alternative-id": [
+        "10.1002/admi.201901365"
+      ],
+      "archive": [
+        "Portico"
+      ],
+      "funder": [
+        {
+          "DOI": "10.13039/501100001809",
+          "award": [
+            "51702326",
+            "51872296"
+          ],
+          "doi-asserted-by": "publisher",
+          "name": "National Natural Science Foundation of China"
+        },
+        {
+          "DOI": "10.13039/501100004739",
+          "award": [
+            "2019197"
+          ],
+          "doi-asserted-by": "publisher",
+          "name": "Youth Innovation Promotion Association of the Chinese Academy of Sciences"
+        }
+      ],
+      "type": "journal-article"
+    }
+  },
+  "ident": "3waartzi5vfprewchjr4z5nbi4",
+  "language": "en",
+  "pages": "1901365",
+  "publisher": "Wiley",
+  "refs": [
+    {
+      "extra": {
+        "doi": "10.1002/adma.201104333"
+      },
+      "index": 0,
+      "key": "e_1_2_7_1_1"
+    },
+    {
+      "extra": {
+        "doi": "10.1038/nnano.2010.46"
+      },
+      "index": 1,
+      "key": "e_1_2_7_2_1"
+    },
+    {
+      "extra": {
+        "doi": "10.1002/adma.201104365"
+      },
+      "index": 2,
+      "key": "e_1_2_7_3_1"
+    },
+    {
+      "extra": {
+        "doi": "10.1002/adma.201502579"
+      },
+      "index": 3,
+      "key": "e_1_2_7_4_1"
+    },
+    {
+      "extra": {
+        "doi": "10.1093/nsr/nwt002"
+      },
+      "index": 4,
+      "key": "e_1_2_7_5_1"
+    },
+    {
+      "extra": {
+        "doi": "10.1002/adma.201506472"
+      },
+      "index": 5,
+      "key": "e_1_2_7_6_1"
+    },
+    {
+      "extra": {
+        "doi": "10.1021/nn3035765"
+      },
+      "index": 6,
+      "key": "e_1_2_7_7_1"
+    },
+    {
+      "extra": {
+        "doi": "10.1021/nn506427p"
+      },
+      "index": 7,
+      "key": "e_1_2_7_8_1"
+    },
+    {
+      "extra": {
+        "doi": "10.1016/j.nanoen.2016.01.007"
+      },
+      "index": 8,
+      "key": "e_1_2_7_9_1"
+    },
+    {
+      "extra": {
+        "doi": "10.1016/j.nanoen.2014.07.019"
+      },
+      "index": 9,
+      "key": "e_1_2_7_10_1"
+    },
+    {
+      "extra": {
+        "doi": "10.1021/acsnano.6b01666"
+      },
+      "index": 10,
+      "key": "e_1_2_7_11_1"
+    },
+    {
+      "extra": {
+        "doi": "10.1021/nl304163n"
+      },
+      "index": 11,
+      "key": "e_1_2_7_12_1"
+    },
+    {
+      "extra": {
+        "doi": "10.1038/nphoton.2013.191"
+      },
+      "index": 12,
+      "key": "e_1_2_7_13_1"
+    },
+    {
+      "extra": {
+        "doi": "10.1016/j.nanoen.2013.08.008"
+      },
+      "index": 13,
+      "key": "e_1_2_7_14_1"
+    },
+    {
+      "extra": {
+        "doi": "10.1016/j.nanoen.2016.02.057"
+      },
+      "index": 14,
+      "key": "e_1_2_7_15_1"
+    },
+    {
+      "extra": {
+        "doi": "10.1021/acsnano.5b02081"
+      },
+      "index": 15,
+      "key": "e_1_2_7_16_1"
+    },
+    {
+      "extra": {
+        "doi": "10.1002/aelm.201600242"
+      },
+      "index": 16,
+      "key": "e_1_2_7_17_1"
+    },
+    {
+      "extra": {
+        "doi": "10.1002/adfm.201706379"
+      },
+      "index": 17,
+      "key": "e_1_2_7_18_1"
+    },
+    {
+      "extra": {
+        "doi": "10.1016/j.nanoen.2017.11.076"
+      },
+      "index": 18,
+      "key": "e_1_2_7_19_1"
+    },
+    {
+      "extra": {
+        "doi": "10.1016/j.jpcs.2016.11.009"
+      },
+      "index": 19,
+      "key": "e_1_2_7_20_1"
+    },
+    {
+      "extra": {
+        "doi": "10.1021/acsnano.5b07678"
+      },
+      "index": 20,
+      "key": "e_1_2_7_21_1"
+    },
+    {
+      "extra": {
+        "doi": "10.1088/0957-4484/27/37/375704"
+      },
+      "index": 21,
+      "key": "e_1_2_7_22_1"
+    },
+    {
+      "extra": {
+        "doi": "10.1016/j.electacta.2018.03.168"
+      },
+      "index": 22,
+      "key": "e_1_2_7_23_1"
+    },
+    {
+      "extra": {
+        "doi": "10.1021/nl202619d"
+      },
+      "index": 23,
+      "key": "e_1_2_7_24_1"
+    },
+    {
+      "extra": {
+        "doi": "10.1021/acsnano.5b00072"
+      },
+      "index": 24,
+      "key": "e_1_2_7_25_1"
+    },
+    {
+      "extra": {
+        "doi": "10.1002/adfm.201500801"
+      },
+      "index": 25,
+      "key": "e_1_2_7_26_1"
+    },
+    {
+      "extra": {
+        "doi": "10.1557/mrs.2018.295"
+      },
+      "index": 26,
+      "key": "e_1_2_7_27_1"
+    },
+    {
+      "extra": {
+        "doi": "10.1002/adma.201502579"
+      },
+      "index": 27,
+      "key": "e_1_2_7_28_1"
+    },
+    {
+      "extra": {
+        "doi": "10.1016/j.nanoen.2018.01.033"
+      },
+      "index": 28,
+      "key": "e_1_2_7_29_1"
+    },
+    {
+      "extra": {
+        "doi": "10.1002/smll.201702377"
+      },
+      "index": 29,
+      "key": "e_1_2_7_30_1"
+    },
+    {
+      "extra": {
+        "doi": "10.1016/j.nantod.2010.10.008"
+      },
+      "index": 30,
+      "key": "e_1_2_7_31_1"
+    },
+    {
+      "extra": {
+        "doi": "10.1021/nn1022878"
+      },
+      "index": 31,
+      "key": "e_1_2_7_32_1"
+    },
+    {
+      "extra": {
+        "doi": "10.1039/c2nr33281g"
+      },
+      "index": 32,
+      "key": "e_1_2_7_33_1"
+    },
+    {
+      "extra": {
+        "doi": "10.1002/adfm.201200344"
+      },
+      "index": 33,
+      "key": "e_1_2_7_34_1"
+    },
+    {
+      "extra": {
+        "doi": "10.1016/j.nanoen.2014.09.037"
+      },
+      "index": 34,
+      "key": "e_1_2_7_35_1"
+    },
+    {
+      "extra": {
+        "doi": "10.1063/1.5058173"
+      },
+      "index": 35,
+      "key": "e_1_2_7_36_1"
+    },
+    {
+      "extra": {
+        "doi": "10.1109/jlt.2018.2868292"
+      },
+      "index": 36,
+      "key": "e_1_2_7_37_1"
+    },
+    {
+      "extra": {
+        "doi": "10.1016/j.nanoen.2019.01.024"
+      },
+      "index": 37,
+      "key": "e_1_2_7_38_1"
+    },
+    {
+      "extra": {
+        "doi": "10.1039/c7tc00594f"
+      },
+      "index": 38,
+      "key": "e_1_2_7_39_1"
+    },
+    {
+      "extra": {
+        "doi": "10.1021/acsami.6b14907"
+      },
+      "index": 39,
+      "key": "e_1_2_7_40_1"
+    },
+    {
+      "extra": {
+        "doi": "10.1021/acsnano.5b07217"
+      },
+      "index": 40,
+      "key": "e_1_2_7_41_1"
+    },
+    {
+      "extra": {
+        "doi": "10.1016/j.nanoen.2017.02.052"
+      },
+      "index": 41,
+      "key": "e_1_2_7_42_1"
+    },
+    {
+      "extra": {
+        "doi": "10.1016/j.nanoen.2011.12.007"
+      },
+      "index": 42,
+      "key": "e_1_2_7_43_1"
+    },
+    {
+      "extra": {
+        "doi": "10.1002/adma.201602854"
+      },
+      "index": 43,
+      "key": "e_1_2_7_44_1"
+    },
+    {
+      "extra": {
+        "doi": "10.1038/nature13792"
+      },
+      "index": 44,
+      "key": "e_1_2_7_45_1"
+    },
+    {
+      "extra": {
+        "doi": "10.1021/acsnano.9b03239"
+      },
+      "index": 45,
+      "key": "e_1_2_7_46_1"
+    },
+    {
+      "extra": {
+        "doi": "10.1021/acsnano.7b02811"
+      },
+      "index": 46,
+      "key": "e_1_2_7_47_1"
+    },
+    {
+      "extra": {
+        "doi": "10.1021/nn401232k"
+      },
+      "index": 47,
+      "key": "e_1_2_7_48_1"
+    },
+    {
+      "extra": {
+        "doi": "10.1016/j.nanoen.2018.03.025"
+      },
+      "index": 48,
+      "key": "e_1_2_7_49_1"
+    },
+    {
+      "extra": {
+        "doi": "10.1021/acsami.9b07423"
+      },
+      "index": 49,
+      "key": "e_1_2_7_50_1"
+    },
+    {
+      "extra": {
+        "doi": "10.1002/adma.201806411"
+      },
+      "index": 50,
+      "key": "e_1_2_7_51_1"
+    },
+    {
+      "extra": {
+        "doi": "10.1039/b816791e"
+      },
+      "index": 51,
+      "key": "e_1_2_7_52_1"
+    },
+    {
+      "extra": {
+        "doi": "10.1021/acsnano.8b07997"
+      },
+      "index": 52,
+      "key": "e_1_2_7_53_1"
+    },
+    {
+      "extra": {
+        "doi": "10.1021/acsami.8b17689"
+      },
+      "index": 53,
+      "key": "e_1_2_7_54_1"
+    },
+    {
+      "extra": {
+        "doi": "10.1039/c6nr06236a"
+      },
+      "index": 54,
+      "key": "e_1_2_7_55_1"
+    },
+    {
+      "extra": {
+        "doi": "10.1021/acsami.6b13771"
+      },
+      "index": 55,
+      "key": "e_1_2_7_56_1"
+    }
+  ],
+  "release_date": "2019-10-07",
+  "release_stage": "published",
+  "release_type": "article-journal",
+  "release_year": 2019,
+  "revision": "f2601389-8f40-45e2-92eb-563b361c5aa8",
+  "state": "active",
+  "title": "Enhanced Performances of PVK/ZnO Nanorods/Graphene Heterostructure UV Photodetector via Piezo‐Phototronic Interface Engineering",
+  "work_id": "tpp3n4ouzjb3xnmoneyz7o5dwq"
+}
