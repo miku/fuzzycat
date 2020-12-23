@@ -39,7 +39,10 @@ items.
 ## Dataset
 
 For development, we worked on a `release_export_expanded.json` dump (113G/700G
-zstd/plain, XXX lines) and with the [fatcat API](https://api.fatcat.wiki/).
+zstd/plain, 154203375 lines) and with the [fatcat
+API](https://api.fatcat.wiki/).
+
+The development workflow looked something like the following.
 
 ![](notes/steps.png)
 
