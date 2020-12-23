@@ -38,33 +38,34 @@ def match_release_fuzzy(
         es = elasticsearch.Elasticsearch([es])
     if es is None:
         es = elasticsearch.Elasticsearch()
+    if api is None:
+        api = public_api(FATCAT_API_URL)
 
     # Try to match by external identifier.
     # TODO: use api, ability to disable; benchmark
     ext_ids = release.ext_ids
-    attrs = {
-        "doi": "doi",
-        "wikidata_qid": "wikidata_qid",
-        "isbn13": "isbn13",
-        "pmid": "pmid",
-        "pmcid": "pmcid",
-        "core": "code_id",
-        "arxiv": "arxiv_id",
-        "jstor": "jstor_id",
-        "ark": "ark_id",
-        "mag": "mag_id",
-    }
-    for attr, es_field in attrs.items():
+    attrs = (
+        "doi",
+        "wikidata_qid",
+        "isbn13",
+        "pmid",
+        "pmcid",
+        "core",
+        "arxiv",
+        "jstor",
+        "ark",
+        "mag",
+        "doaj",
+        "dblp",
+        "oai",
+    )
+    for attr in attrs:
         value = getattr(ext_ids, attr)
         if not value:
             continue
-        s = (elasticsearch_dsl.Search(using=es,
-                                      index="fatcat_release").query("term", **{
-                                          es_field: value
-                                      }).extra(size=size))
-        resp = s.execute()
-        if len(resp) > 0:
-            return response_to_entity_list(resp, entity_type=ReleaseEntity, api=api)
+        r = api.lookup_release(**{attr: value})
+        if r:
+            return r
 
     body = {
         "query": {
