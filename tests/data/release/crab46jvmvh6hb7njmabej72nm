@@ -1,0 +1,301 @@
+{
+  "abstracts": [
+    {
+      "content": "We present a new heuristic for 2D-packing of rectangles inside a rectangular area where the aesthetics of the resulting packing is amenable to generating large collages of photographs or images. The heuristic works by maintaining a sorted collection of vertical segments covering the area to be packed. The segments define the leftmost boundaries of rectangular and possibly overlapping areas that are yet to be covered. The use of this data structure allows for easily defining ahead of time arbitrary rectangular areas that the packing must avoid. The 2D-packing heuristic presented does not allow the rectangles to be rotated during the packing, but could easily be modified to implement this feature. The execution time of the present heuristic on various benchmark problems is on par with recently published research in this area, including some that do allow rotation of items while packing. Several examples of image packing are presented.",
+      "mimetype": "text/plain",
+      "sha1": "e5ddba8b6e8fcaf6a58656ded2ee73ffa4e8b8af"
+    }
+  ],
+  "contribs": [
+    {
+      "index": 0,
+      "raw_name": "Dominique Thiebaut",
+      "role": "author"
+    }
+  ],
+  "ext_ids": {},
+  "extra": {
+    "longtail_oa": true
+  },
+  "ident": "crab46jvmvh6hb7njmabej72nm",
+  "refs": [
+    {
+      "extra": {
+        "authors": [
+          "B Baker",
+          "D Brown",
+          "H Katseff"
+        ],
+        "volume": null
+      },
+      "index": 0,
+      "key": "b0",
+      "title": "A 5/4 algorithm for two-dimensional packing",
+      "year": 1981
+    },
+    {
+      "extra": {
+        "authors": [
+          "B Baker",
+          null,
+          "R Rivest"
+        ],
+        "volume": null
+      },
+      "index": 1,
+      "key": "b1",
+      "title": "Orthogonal packings in two dimensions",
+      "year": 1980
+    },
+    {
+      "extra": {
+        "authors": [
+          "R Baldacci",
+          "M Boschetti"
+        ],
+        "issue": null,
+        "volume": "183"
+      },
+      "index": 2,
+      "key": "b2",
+      "title": "A cutting-plane approach for the two-dimensional orthogonal non-guillotine cutting problem",
+      "year": 2007
+    },
+    {
+      "extra": {
+        "authors": [
+          "J Beasley"
+        ],
+        "issue": null,
+        "volume": "33"
+      },
+      "index": 3,
+      "key": "b3",
+      "title": "An exact two-dimensional non-guillotine cutting tree search procedure",
+      "year": 1985
+    },
+    {
+      "extra": {
+        "authors": [
+          "E Burke",
+          "G Kendall",
+          "G Whitwell"
+        ],
+        "issue": null,
+        "volume": "52"
+      },
+      "index": 4,
+      "key": "b4",
+      "title": "A new placement heuristic for the orthogonal stock-cutting problem",
+      "year": 2004
+    },
+    {
+      "extra": {
+        "authors": [
+          "E Coffman",
+          "M Gazey",
+          "D Johnson"
+        ]
+      },
+      "index": 5,
+      "key": "b5",
+      "title": "Approximation algorithms for bin-packing an updated survey",
+      "year": 1984
+    },
+    {
+      "extra": {
+        "authors": [
+          "R Dietrich",
+          "S Yakowitz"
+        ],
+        "volume": "29"
+      },
+      "index": 6,
+      "key": "b6",
+      "title": "A rule-based approach to the trimloss problem",
+      "year": 1991
+    },
+    {
+      "extra": {
+        "authors": [
+          "H Dyckhoff"
+        ],
+        "volume": "44"
+      },
+      "index": 7,
+      "key": "b7",
+      "title": "Typology of cutting and packing problems",
+      "year": 1990
+    },
+    {
+      "extra": {
+        "authors": [
+          "M Garey",
+          "D Johnson"
+        ]
+      },
+      "index": 8,
+      "key": "b8",
+      "title": "Computers and Intractability: A Guide to the Theory of NP-Completeness",
+      "year": 1979
+    },
+    {
+      "extra": {
+        "authors": [
+          "L Guibas",
+          "R Sedgewick"
+        ],
+        "volume": null
+      },
+      "index": 9,
+      "key": "b9",
+      "title": "A dichromatic framework for balanced trees",
+      "year": 1978
+    },
+    {
+      "extra": {
+        "authors": [
+          "E Hopper"
+        ]
+      },
+      "index": 10,
+      "key": "b10",
+      "title": "Two-dimensional packing utilising evolutionary algorithms and other meta-heuristic methods",
+      "year": 2000
+    },
+    {
+      "extra": {
+        "authors": [
+          "E Hopper",
+          "B Turton"
+        ],
+        "issue": "128",
+        "volume": null
+      },
+      "index": 11,
+      "key": "b11",
+      "title": "An empirical investigation of meta heuristic and heuristic algorithms for a 2d packing problem",
+      "year": 2000
+    },
+    {
+      "extra": {
+        "authors": [
+          "W Huang",
+          "D Chen"
+        ]
+      },
+      "index": 12,
+      "key": "b12",
+      "title": "July) Simulated annealing",
+      "year": 2008
+    },
+    {
+      "extra": {
+        "url": "http://cdn.intechopen.com/pdfs/4629/InTech"
+      },
+      "index": 13,
+      "key": "b13",
+      "title": "An efficient quasi human heuristic algorithm for solving the rectangle packing problem"
+    },
+    {
+      "extra": {
+        "authors": [
+          "W Huang",
+          "D Chen",
+          "R Xu"
+        ],
+        "issue": "11",
+        "volume": "34"
+      },
+      "index": 14,
+      "key": "b14",
+      "title": "A new heuristic algorithm for rectangle packing",
+      "year": 2007
+    },
+    {
+      "extra": {
+        "authors": [
+          "S Imahori",
+          "M Yagiur"
+        ],
+        "issue": null,
+        "volume": "37"
+      },
+      "index": 15,
+      "key": "b15",
+      "title": "The best-fit heuristic for the rectangular strip packing problem: An efficient implementation and the worst-case approximation ratio",
+      "year": 2010
+    },
+    {
+      "extra": {
+        "authors": [
+          "C Kenyon",
+          "E Remilia"
+        ]
+      },
+      "index": 16,
+      "key": "b16",
+      "title": "Approximate strip-packing",
+      "year": 1996
+    },
+    {
+      "extra": {
+        "authors": [
+          "T Leung",
+          "C Chan",
+          "M Troutt"
+        ],
+        "issue": null,
+        "volume": "145"
+      },
+      "index": 17,
+      "key": "b17",
+      "title": "Application of a mixed simulated annealing genetic algorithm heuristic for the two-dimensional orthogonal packing problem",
+      "year": 2003
+    },
+    {
+      "extra": {
+        "authors": [
+          "D Liu",
+          "H Teng"
+        ],
+        "issue": null,
+        "volume": "112"
+      },
+      "index": 18,
+      "key": "b18",
+      "title": "An improved bl-algorithm for genetic algorithm of the orthogonal packing of rectangles",
+      "year": 1999
+    },
+    {
+      "extra": {
+        "authors": [
+          "D Sleator"
+        ],
+        "volume": "10"
+      },
+      "index": 19,
+      "key": "b19",
+      "title": "A 2.5 times optimal algorithm for packing in two dimensions",
+      "year": 1980
+    },
+    {
+      "extra": {
+        "authors": [
+          "J Verstichel",
+          "P Causmaecker",
+          "G Berghe"
+        ]
+      },
+      "index": 20,
+      "key": "b20",
+      "title": "An improved best fit heuristic for the orthogonal strip packing problem",
+      "year": 2013
+    }
+  ],
+  "release_type": "article-journal",
+  "revision": "26300485-268b-43c1-8334-e95eb47eea7e",
+  "state": "active",
+  "title": "2D-Packing Images on a Large Scale",
+  "work_id": "6s3kcsxotregxctxp2upttr2ym"
+}
