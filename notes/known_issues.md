@@ -26,6 +26,14 @@ Sometimes, a lexicon entry is a "dataset", sometimes a "book", e.g. "Unold, Max"
 * https://fatcat.wiki/release/2kpa6ynwjzhtbbokqyxcl25gmm
 * https://fatcat.wiki/release/o4dh7w7nqvdknm4j336yrom4wy
 
+## Article and Erratum
+
+* https://fatcat.wiki/release/s5a6e6wnlvdelge256xpha6oqu
+* https://fatcat.wiki/release/zoeto2mymzhi3l74fr2ps5qjyy
+
+We think "EXACT", but is an errata and an article an exact match? They should
+belong to the same cluster, that's probably ok.
+
 # Ideas for fixes
 
 * [x] when title and authors match, check the year, and maybe the doi prefix;

@@ -1,0 +1,44 @@
+{
+  "abstracts": [],
+  "container_id": "jurtf7gsrbgzzm2hdpnmafjeju",
+  "contribs": [
+    {
+      "index": 0,
+      "raw_name": "D. Daubner",
+      "role": "author"
+    },
+    {
+      "index": 1,
+      "raw_name": "T. Juratli",
+      "role": "author"
+    },
+    {
+      "index": 2,
+      "raw_name": "K. Engellandt",
+      "role": "author"
+    }
+  ],
+  "ext_ids": {
+    "doi": "10.1055/s-0032-1330472"
+  },
+  "extra": {
+    "crossref": {
+      "type": "journal-article"
+    }
+  },
+  "ident": "zoeto2mymzhi3l74fr2ps5qjyy",
+  "issue": "01",
+  "language": "de",
+  "pages": "E2-E2",
+  "publisher": "Georg Thieme Verlag KG",
+  "refs": [],
+  "release_date": "2012-12-20",
+  "release_stage": "published",
+  "release_type": "article-journal",
+  "release_year": 2012,
+  "revision": "df95fb6f-ad31-45a2-8b97-322fc1fb3342",
+  "state": "active",
+  "title": "Ruptur eines reifen intrakraniellen Teratoms",
+  "volume": "185",
+  "work_id": "wb533kwwszbqfijj2lq7su3kva"
+}
