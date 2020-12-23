@@ -1,0 +1,94 @@
+{
+  "abstracts": [],
+  "container_id": "qq4ijsawy5cuxl5pxjq6mo6zoy",
+  "contribs": [
+    {
+      "extra": {
+        "seq": "first"
+      },
+      "index": 0,
+      "raw_name": "Fredrik Heyman",
+      "role": "author"
+    },
+    {
+      "index": 1,
+      "raw_name": "Pehr-Johan Norbäck",
+      "role": "author"
+    },
+    {
+      "index": 2,
+      "raw_name": "Lars Persson",
+      "role": "author"
+    }
+  ],
+  "ext_ids": {
+    "doi": "10.1016/j.econlet.2017.12.034"
+  },
+  "extra": {
+    "crossref": {
+      "alternative-id": [
+        "S0165176517305293"
+      ],
+      "funder": [
+        {
+          "DOI": "10.13039/501100006636",
+          "award": [
+            "2013-0305"
+          ],
+          "doi-asserted-by": "publisher",
+          "name": "Forskningsrådet om Hälsa, Arbetsliv och Välfärd"
+        },
+        {
+          "DOI": "10.13039/100007464",
+          "award": [
+            "E58/12"
+          ],
+          "doi-asserted-by": "publisher",
+          "name": "Torsten Söderbergs Stiftelse"
+        },
+        {
+          "DOI": "10.13039/100007439",
+          "award": [
+            "P2016-0099:1"
+          ],
+          "doi-asserted-by": "publisher",
+          "name": "Jan Wallanders och Tom Hedelius Stiftelse samt Tore Browaldhs Stiftelse"
+        },
+        {
+          "DOI": "10.13039/501100009762",
+          "award": [
+            "69/16"
+          ],
+          "doi-asserted-by": "crossref",
+          "name": "Johan och Jakob Söderbergs stiftelse"
+        },
+        {
+          "DOI": "10.13039/501100001858",
+          "award": [
+            "P2015-0096:1"
+          ],
+          "doi-asserted-by": "publisher",
+          "name": "VINNOVA"
+        }
+      ],
+      "subject": [
+        "Economics and Econometrics",
+        "Finance"
+      ],
+      "type": "journal-article"
+    }
+  },
+  "ident": "2pio2snbkvaizhf7e4t7ukqlp4",
+  "language": "en",
+  "pages": "50-57",
+  "publisher": "Elsevier BV",
+  "refs": [],
+  "release_stage": "published",
+  "release_type": "article-journal",
+  "release_year": 2018,
+  "revision": "a2f1d167-d5af-4a03-876b-7abbeeb8aed3",
+  "state": "active",
+  "title": "Who creates jobs and who creates productivity? Small versus large versus young versus old",
+  "volume": "164",
+  "work_id": "64i4rwsp5javxovfiabwodojlm"
+}

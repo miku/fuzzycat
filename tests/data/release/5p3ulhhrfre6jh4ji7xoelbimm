@@ -1,0 +1,30 @@
+{
+  "abstracts": [],
+  "contribs": [
+    {
+      "given_name": "John",
+      "index": 0,
+      "raw_name": "John Haltiwanger",
+      "role": "author",
+      "surname": "Haltiwanger"
+    }
+  ],
+  "ext_ids": {
+    "doi": "10.7910/dvn/23304"
+  },
+  "extra": {
+    "datacite": {
+      "resourceTypeGeneral": "Text"
+    }
+  },
+  "ident": "5p3ulhhrfre6jh4ji7xoelbimm",
+  "publisher": ":unav",
+  "refs": [],
+  "release_stage": "published",
+  "release_type": "article-journal",
+  "release_year": 2013,
+  "revision": "90bbf3fc-54c2-4d28-875d-b049a2960f78",
+  "state": "active",
+  "title": "Replication data for: Who Creates Jobs?  Small Versus Large Versus Young",
+  "work_id": "t747yms6ifhklgist6wpdepfc4"
+}

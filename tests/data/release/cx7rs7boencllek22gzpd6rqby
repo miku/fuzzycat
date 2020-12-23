@@ -1,0 +1,228 @@
+{
+  "abstracts": [],
+  "container_id": "s2vfdmfltzhsbomm27f2galmxi",
+  "contribs": [
+    {
+      "extra": {
+        "seq": "first"
+      },
+      "index": 0,
+      "raw_name": "John Haltiwanger",
+      "role": "author"
+    },
+    {
+      "index": 1,
+      "raw_name": "Ron S. Jarmin",
+      "role": "author"
+    },
+    {
+      "index": 2,
+      "raw_name": "Javier Miranda",
+      "role": "author"
+    }
+  ],
+  "ext_ids": {
+    "doi": "10.1162/rest_a_00288"
+  },
+  "extra": {
+    "crossref": {
+      "alternative-id": [
+        "10.1162/REST_a_00288"
+      ],
+      "type": "journal-article"
+    }
+  },
+  "ident": "cx7rs7boencllek22gzpd6rqby",
+  "language": "en",
+  "pages": "347-361",
+  "publisher": "MIT Press - Journals",
+  "refs": [
+    {
+      "extra": {
+        "doi": "10.1016/0883-9026(89)90008-6"
+      },
+      "index": 0,
+      "key": "p_2"
+    },
+    {
+      "container_name": "Public Interest",
+      "extra": {
+        "authors": [
+          "Birch David L"
+        ],
+        "volume": "65"
+      },
+      "index": 1,
+      "key": "p_6",
+      "year": 1981
+    },
+    {
+      "container_name": "Monthly Labor Review",
+      "extra": {
+        "authors": [
+          "Butani Shail"
+        ]
+      },
+      "index": 2,
+      "key": "p_10",
+      "year": 2006
+    },
+    {
+      "extra": {
+        "doi": "10.1080/1043859042000201911"
+      },
+      "index": 3,
+      "key": "p_14"
+    },
+    {
+      "extra": {
+        "doi": "10.2307/2937862"
+      },
+      "index": 4,
+      "key": "p_15"
+    },
+    {
+      "extra": {
+        "doi": "10.2307/2297841"
+      },
+      "index": 5,
+      "key": "p_16"
+    },
+    {
+      "extra": {
+        "doi": "10.2307/2098588"
+      },
+      "index": 6,
+      "key": "p_17"
+    },
+    {
+      "extra": {
+        "doi": "10.1086/261629"
+      },
+      "index": 7,
+      "key": "p_18"
+    },
+    {
+      "container_name": "this REVIEW",
+      "extra": {
+        "authors": [
+          "Foster Lucia"
+        ],
+        "volume": "88"
+      },
+      "index": 8,
+      "key": "p_19",
+      "locator": "748",
+      "year": 2006
+    },
+    {
+      "container_name": "Journal of Economic Literature",
+      "extra": {
+        "authors": [
+          "Friedman Milton"
+        ],
+        "volume": "30"
+      },
+      "index": 9,
+      "key": "p_21",
+      "locator": "2129",
+      "year": 1992
+    },
+    {
+      "container_name": "NBER working paper",
+      "extra": {
+        "authors": [
+          "Haltiwanger John"
+        ]
+      },
+      "index": 10,
+      "key": "p_23",
+      "locator": "16300",
+      "year": 2010
+    },
+    {
+      "extra": {
+        "doi": "10.2307/2951541"
+      },
+      "index": 11,
+      "key": "p_25"
+    },
+    {
+      "container_name": "CES working paper",
+      "extra": {
+        "authors": [
+          "Jarmin Ron S"
+        ]
+      },
+      "index": 12,
+      "key": "p_27",
+      "locator": "02",
+      "year": 2002
+    },
+    {
+      "extra": {
+        "doi": "10.2307/1912606"
+      },
+      "index": 13,
+      "key": "p_28"
+    },
+    {
+      "container_name": "this REVIEW",
+      "extra": {
+        "authors": [
+          "Neumark David"
+        ],
+        "volume": "93"
+      },
+      "index": 14,
+      "key": "p_29",
+      "locator": "16",
+      "year": 2011
+    },
+    {
+      "container_name": "Monthly Labor Review",
+      "extra": {
+        "authors": [
+          "Okolie Cordelia"
+        ]
+      },
+      "index": 15,
+      "key": "p_30",
+      "year": 2004
+    },
+    {
+      "container_name": "Journal of Economic Literature",
+      "extra": {
+        "authors": [
+          "Sutton John"
+        ],
+        "volume": "35"
+      },
+      "index": 16,
+      "key": "p_31",
+      "locator": "40",
+      "year": 1997
+    },
+    {
+      "container_name": "American Statistician",
+      "extra": {
+        "authors": [
+          "Tornqvist Leo"
+        ],
+        "volume": "39"
+      },
+      "index": 17,
+      "key": "p_32",
+      "locator": "43",
+      "year": 1985
+    }
+  ],
+  "release_stage": "published",
+  "release_type": "article-journal",
+  "release_year": 2013,
+  "revision": "dd5ce2e3-192c-4399-a3e6-fb0eb6acf602",
+  "state": "active",
+  "title": "Who Creates Jobs? Small versus Large versus Young",
+  "volume": "95",
+  "work_id": "tlxaeaj24zeytn7binxwelqaxe"
+}
