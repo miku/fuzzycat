@@ -4,6 +4,25 @@ Fuzzy matching utilities for [fatcat](https://fatcat.wiki).
 
 ![https://pypi.org/project/fuzzycat/](https://img.shields.io/pypi/v/fuzzycat?style=flat-square)
 
+To install with [pip](https://pypi.org/project/pip/):
+
+```
+$ pip install fuzzycat
+```
+
+## Overview
+
+The fuzzycat library currently works on [fatcat database release
+dumps](https://archive.org/details/fatcat_snapshots_and_exports?&sort=-publicdate)
+and can cluster similar release items, that is it can find clusters and can
+verify match candidates.
+
+For example we can identify:
+
+* versions of various items (arxiv, figshare, datacite, ...)
+* preprint and published pairs
+* similar items from different sources
+
 ## Dataset
 
 For development, we worked on a `release_export_expanded.json` dump (113G/700G
@@ -15,7 +34,7 @@ zstd/plain, XXX lines) and with the [fatcat API](https://api.fatcat.wiki/).
 
 ### Clustering
 
-Derive cluster of similar documents from a [fatcat database release
+Clustering derives sets of similar documents from a [fatcat database release
 dump](https://archive.org/details/fatcat_snapshots_and_exports?&sort=-publicdate).
 
 Following algorithms are implemented (or planned):
@@ -50,14 +69,53 @@ sys     0m29.262s
 ```
 
 This is a one-pass operation. For processing 150M docs, we very much depend on
-the documents being on disk in a file (we keep the complete document in a
-clustering doc).
+the documents being on disk in a file (we keep the complete document in the
+clustering result).
 
-Example results over 10M docs:
+Example results:
 
+```
+3450874 Status.EXACT Reason.TITLE_AUTHOR_MATCH
+2619990 Status.STRONG Reason.SLUG_TITLE_AUTHOR_MATCH
+2487633 Status.DIFFERENT Reason.YEAR
+2434532 Status.EXACT Reason.WORK_ID
+2085006 Status.DIFFERENT Reason.CONTRIB_INTERSECTION_EMPTY
+1397420 Status.DIFFERENT Reason.SHARED_DOI_PREFIX
+1355852 Status.DIFFERENT Reason.RELEASE_TYPE
+1290162 Status.AMBIGUOUS Reason.DUMMY
+1145511 Status.DIFFERENT Reason.BOOK_CHAPTER
+1009657 Status.DIFFERENT Reason.DATASET_DOI
+ 996503 Status.STRONG Reason.PMID_DOI_PAIR
+ 868951 Status.EXACT Reason.DATACITE_VERSION
+ 796216 Status.STRONG Reason.DATACITE_RELATED_ID
+ 704154 Status.STRONG Reason.FIGSHARE_VERSION
+ 534963 Status.STRONG Reason.VERSIONED_DOI
+ 343310 Status.STRONG Reason.TOKENIZED_AUTHORS
+ 334974 Status.STRONG Reason.JACCARD_AUTHORS
+ 293835 Status.STRONG Reason.PREPRINT_PUBLISHED
+ 269366 Status.DIFFERENT Reason.COMPONENT
+ 263626 Status.DIFFERENT Reason.SUBTITLE
+ 224021 Status.AMBIGUOUS Reason.SHORT_TITLE
+ 152990 Status.DIFFERENT Reason.PAGE_COUNT
+ 133811 Status.AMBIGUOUS Reason.CUSTOM_PREFIX_10_5860_CHOICE_REVIEW
+ 122600 Status.AMBIGUOUS Reason.CUSTOM_PREFIX_10_7916
+  79664 Status.STRONG Reason.CUSTOM_IEEE_ARXIV
+  46649 Status.DIFFERENT Reason.CUSTOM_PREFIX_10_14288
+  39797 Status.DIFFERENT Reason.JSTOR_ID
+  38598 Status.STRONG Reason.CUSTOM_BSI_UNDATED
+  18907 Status.STRONG Reason.CUSTOM_BSI_SUBDOC
+  15465 Status.EXACT Reason.DOI
+  13393 Status.DIFFERENT Reason.CUSTOM_IOP_MA_PATTERN
+  10378 Status.DIFFERENT Reason.CONTAINER
+   3081 Status.AMBIGUOUS Reason.BLACKLISTED
+   2504 Status.AMBIGUOUS Reason.BLACKLISTED_FRAGMENT
+   1273 Status.AMBIGUOUS Reason.APPENDIX
+   1063 Status.DIFFERENT Reason.TITLE_FILENAME
+    104 Status.DIFFERENT Reason.NUM_DIFF
+      4 Status.STRONG Reason.ARXIV_VERSION
+```
 
-
-# A full run
+## A full run
 
 Single threaded, 42h.
 
@@ -80,7 +138,7 @@ sys     118m38.141s
 
 So, 29881072 (about 20%) docs in the potentially duplicated set.
 
-Verification (about 15h):
+Verification (about 15h w/o parallel):
 
 ```
 $ time zstdcat -T0 cluster_tsandcrawler.json.zst | python -m fuzzycat verify | \
@@ -132,51 +190,3 @@ $ cat data/sample.json | parallel -j 8 --pipe --roundrobin python -m fuzzycat.ma
 
 Interestingly, the parallel variants detects fewer clusters (because data is
 split and clusters are searched within each batch). TODO(miku): sort out sharding bug.
-
-
-## QA
-
-### 10M release dataset
-
-Notes on cadd28a version clustering (nysiis) and verification.
-
-* 10M docs
-* 9040789 groups
-* 665447 verification pairs
-
-```
-3578378 OK.TITLE_AUTHOR_MATCH
-2989618 Miss.CONTRIB_INTERSECTION_EMPTY
-2731528 OK.SLUG_TITLE_AUTHOR_MATCH
-2654787 Miss.YEAR
-2434532 OK.WORK_ID
-2050468 OK.DUMMY
-1619330 Miss.SHARED_DOI_PREFIX
-1145571 Miss.BOOK_CHAPTER
-1023925 Miss.DATASET_DOI
- 934075 OK.DATACITE_RELATED_ID
- 868951 OK.DATACITE_VERSION
- 704154 OK.FIGSHARE_VERSION
- 682784 Miss.RELEASE_TYPE
- 607117 OK.TOKENIZED_AUTHORS
- 298928 OK.PREPRINT_PUBLISHED
- 270658 Miss.SUBTITLE
- 227537 Miss.SHORT_TITLE
- 196402 Miss.COMPONENT
- 163158 Miss.CUSTOM_PREFIX_10_5860_CHOICE_REVIEW
- 122614 Miss.CUSTOM_PREFIX_10_7916
-  79687 OK.CUSTOM_IEEE_ARXIV
-  69648 OK.PMID_DOI_PAIR
-  46649 Miss.CUSTOM_PREFIX_10_14288
-  38598 OK.CUSTOM_BSI_UNDATED
-  15465 OK.DOI
-  13393 Miss.CUSTOM_IOP_MA_PATTERN
-  10378 Miss.CONTAINER
-   3045 Miss.BLACKLISTED
-   2504 Miss.BLACKLISTED_FRAGMENT
-   1574 Miss.TITLE_FILENAME
-   1273 Miss.APPENDIX
-    104 Miss.NUM_DIFF
-      4 OK.ARXIV_VERSION
-
-```
