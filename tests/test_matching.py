@@ -3,14 +3,18 @@ from fatcat_openapi_client import ReleaseEntity
 import pytest
 import elasticsearch
 import logging
+from dynaconf import Dynaconf
 
 logger = logging.getLogger('test_matching')
 logger.setLevel(logging.DEBUG)
 
+settings = Dynaconf(envvar_prefix="FUZZYCAT")
+FATCAT_SEARCH_URL = settings.get("FATCAT_SEARCH_URL", "https://search.fatcat.wiki:443")
+
 
 @pytest.fixture
 def es_client():
-    return elasticsearch.Elasticsearch(["https://search.fatcat.wiki:443"])
+    return elasticsearch.Elasticsearch([FATCAT_SEARCH_URL])
 
 
 @pytest.mark.skip(reason="we cannot use POST on es, which client uses: https://git.io/JLssk")

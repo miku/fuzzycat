@@ -7,10 +7,14 @@ import elasticsearch
 import elasticsearch_dsl
 import fatcat_openapi_client
 import requests
+from dynaconf import Dynaconf
 from fatcat_openapi_client import ContainerEntity, DefaultApi, ReleaseEntity
 from fatcat_openapi_client.rest import ApiException
 
 from fuzzycat.entities import entity_from_dict, entity_from_json
+
+settings = Dynaconf(envvar_prefix="FUZZYCAT")
+FATCAT_API_URL = settings.get("FATCAT_API_URL", "https://api.fatcat.wiki/v0")
 
 
 def match_release_fuzzy(
@@ -120,7 +124,7 @@ def retrieve_entity_list(
     that are accessible.
     """
     if api is None:
-        api = public_api("https://api.fatcat.wiki/v0")
+        api = public_api(FATCAT_API_URL)
     result = []
     if entity_type == ReleaseEntity:
         for id in ids:
