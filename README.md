@@ -4,7 +4,7 @@ Fuzzy matching utilities for [fatcat](https://fatcat.wiki).
 
 ![https://pypi.org/project/fuzzycat/](https://img.shields.io/pypi/v/fuzzycat?style=flat-square)
 
-To install with [pip](https://pypi.org/project/pip/):
+To install with [pip](https://pypi.org/project/pip/), run:
 
 ```
 $ pip install fuzzycat
@@ -23,6 +23,19 @@ For example we can identify:
 * preprint and published pairs
 * similar items from different sources
 
+## TODO
+
+* [ ] take a list of title strings and return match candidates (faster than
+  elasticsearch); e.g. derive a key and find similar keys some cached clusters
+* [ ] take a list of title, author documents and return match candidates; e.g.
+  key may depend on title only, but verification can be more precise
+* [ ] take a more complete, yet partial document and return match candidates
+
+For this to work, we will need to have cluster from fatcat precomputed and
+cache. We also might want to have it sorted by key (which is a side effect of
+clustering) so we can binary search into the cluster file for the above todo
+items.
+
 ## Dataset
 
 For development, we worked on a `release_export_expanded.json` dump (113G/700G
@@ -30,9 +43,7 @@ zstd/plain, XXX lines) and with the [fatcat API](https://api.fatcat.wiki/).
 
 ![](notes/steps.png)
 
-## Facilities
-
-### Clustering
+## Clustering
 
 Clustering derives sets of similar documents from a [fatcat database release
 dump](https://archive.org/details/fatcat_snapshots_and_exports?&sort=-publicdate).
@@ -56,7 +67,7 @@ Clustering works in a three step process:
 2. sorting by keys (via [GNU sort](https://www.gnu.org/software/coreutils/manual/html_node/sort-invocation.html))
 3. group by key and write out ([itertools.groupby](https://docs.python.org/3/library/itertools.html#itertools.groupby))
 
-### Verification
+## Verification
 
 Run verification (pairwise *double-check* of match candidates in a cluster).
 
@@ -136,9 +147,7 @@ user    2605m41.347s
 sys     118m38.141s
 ```
 
-So, 29881072 (about 20%) docs in the potentially duplicated set.
-
-Verification (about 15h w/o parallel):
+So, 29881072 (about 20%) docs in the potentially duplicated set. Verification (about 15h w/o parallel):
 
 ```
 $ time zstdcat -T0 cluster_tsandcrawler.json.zst | python -m fuzzycat verify | \
@@ -151,8 +160,11 @@ user    939m32.761s
 sys     36m47.602s
 ```
 
+----
 
-# Use cases
+# Misc
+
+## Use cases
 
 * [ ] take a release entity database dump as JSON lines and cluster releases
   (according to various algorithms)
@@ -162,7 +174,7 @@ sys     36m47.602s
   strings to release titles (this needs some transparent setup, e.g. filling of
 a cache before ops)
 
-# Usage
+## Usage
 
 Release clusters start with release entities json lines.
 
