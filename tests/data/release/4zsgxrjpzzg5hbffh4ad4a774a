@@ -1,0 +1,55 @@
+{
+  "abstracts": [
+    {
+      "content": "In this paper, we show that the Givental group action on genus zero\ncohomological field theories, also known as formal Frobenius manifolds or\nhypercommutative algebras, naturally arises in the deformation theory of\nBatalin--Vilkovisky algebras. We prove that the Givental action is equal to an\naction of the trivialisations of the trivial circle action. This result relies\non the equality of two Lie algebra actions coming from two apparently remote\ndomains: geometry and homotopical algebra.",
+      "lang": "en",
+      "mimetype": "text/plain",
+      "sha1": "1dfef4245d595da9e003606bf5a4a662b06ff7ee"
+    }
+  ],
+  "contribs": [
+    {
+      "index": 0,
+      "raw_name": "Vladimir Dotsenko",
+      "role": "author"
+    },
+    {
+      "index": 1,
+      "raw_name": "Sergey Shadrin",
+      "role": "author"
+    },
+    {
+      "index": 2,
+      "raw_name": "Bruno Vallette",
+      "role": "author"
+    }
+  ],
+  "ext_ids": {
+    "arxiv": "1304.3343v2"
+  },
+  "extra": {
+    "arxiv": {
+      "base_id": "1304.3343",
+      "categories": [
+        "math.QA",
+        "math.AG"
+      ],
+      "comments": "26 pages. Substantially changed version containing an extra section",
+      "journal_ref": "J. \\'Ec. polytech. Math. 2 (2015), 213-246"
+    },
+    "superceded": true
+  },
+  "ident": "4zsgxrjpzzg5hbffh4ad4a774a",
+  "language": "en",
+  "license_slug": "ARXIV-1.0",
+  "refs": [],
+  "release_date": "2013-05-28",
+  "release_stage": "submitted",
+  "release_type": "article",
+  "release_year": 2013,
+  "revision": "b8e065ce-8c16-4f27-8438-eebeefeca277",
+  "state": "active",
+  "title": "Givental Action and Trivialisation of Circle Action",
+  "version": "v2",
+  "work_id": "2ernmbelnzccnjhlwddvh44hjq"
+}

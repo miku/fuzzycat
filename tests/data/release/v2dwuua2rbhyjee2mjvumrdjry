@@ -1,0 +1,44 @@
+{
+  "abstracts": [],
+  "container_id": "cvldukhq6bh5fe6kbeb6hdy7x4",
+  "contribs": [
+    {
+      "extra": {
+        "seq": "first"
+      },
+      "index": 0,
+      "raw_name": "Vladimir Dotsenko",
+      "role": "author"
+    },
+    {
+      "index": 1,
+      "raw_name": "Sergey Shadrin",
+      "role": "author"
+    },
+    {
+      "index": 2,
+      "raw_name": "Bruno Vallette",
+      "role": "author"
+    }
+  ],
+  "ext_ids": {
+    "core": "85833075",
+    "doi": "10.5802/jep.23"
+  },
+  "extra": {
+    "crossref": {
+      "type": "journal-article"
+    }
+  },
+  "ident": "v2dwuua2rbhyjee2mjvumrdjry",
+  "pages": "213-246",
+  "publisher": "Cellule MathDoc/CEDRAM",
+  "refs": [],
+  "release_stage": "published",
+  "release_type": "article-journal",
+  "release_year": 2015,
+  "revision": "dfd0e8c7-3c01-46e5-97ff-fe75d892f12c",
+  "state": "active",
+  "title": "Givental action and trivialisation of circle action",
+  "work_id": "nlyjz7tcobbx3pingqm6m7pmlq"
+}
