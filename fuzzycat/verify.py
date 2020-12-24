@@ -465,7 +465,7 @@ def verify(a: Dict, b: Dict, min_title_length=5) -> Tuple[str, str]:
             # preprint and published work may not be published in the same
             # year; compromise allow a small gap
             if a_release_year and b_release_year and abs(int(a_release_year) -
-                                                         int(b_release_year)) > 1:
+                                                         int(b_release_year)) > 2:
                 return Verify(Status.DIFFERENT, Reason.YEAR)
             return Verify(Status.EXACT, Reason.TITLE_AUTHOR_MATCH)
 
