@@ -1,6 +1,6 @@
-approach.png: approach.dot
+steps.png: steps.dot
 	dot -Tpng $^ > $@
 
 .PHONY: clean
 clean:
-	rm -rf approach.png
+	rm -rf steps.png

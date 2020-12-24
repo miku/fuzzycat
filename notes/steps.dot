@@ -3,12 +3,14 @@ digraph steps {
     graph [fontname = "helvetica"];
     edge [fontname = "helvetica"];
 
-    "release_export_expanded.json" -> "clustered" [label="fuzzycat cluster"];
-    "clustered" -> "verified" [label="fuzzycat verify"];
+    "release_export_expanded.json" -> "clustered";
+    "clustered" -> "verified";
     "verified" -> "manual review";
     "manual review" -> "discover pattern";
     "manual review" -> "fix codepath";
     "fix codepath" -> "add verification test case";
     "discover pattern" -> "add verification test case";
-    "add verification test case" -> "clustered" [label="repeat"];
+    "discover pattern" -> "fix codepath";
+    "fix codepath" -> "discover pattern";
+    "add verification test case" -> "clustered";
 }
