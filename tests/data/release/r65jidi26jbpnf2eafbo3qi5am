@@ -1,0 +1,51 @@
+{
+  "abstracts": [],
+  "contribs": [
+    {
+      "extra": {
+        "seq": "first"
+      },
+      "index": 0,
+      "raw_name": "Abram Hindle",
+      "role": "author"
+    },
+    {
+      "index": 1,
+      "raw_name": "Earl T. Barr",
+      "role": "author"
+    },
+    {
+      "index": 2,
+      "raw_name": "Zhendong Su",
+      "role": "author"
+    },
+    {
+      "index": 3,
+      "raw_name": "Mark Gabel",
+      "role": "author"
+    },
+    {
+      "index": 4,
+      "raw_name": "Premkumar Devanbu",
+      "role": "author"
+    }
+  ],
+  "ext_ids": {
+    "doi": "10.1109/icse.2012.6227135"
+  },
+  "extra": {
+    "container_name": "2012 34th International Conference on Software Engineering (ICSE)",
+    "crossref": {
+      "type": "proceedings-article"
+    }
+  },
+  "ident": "r65jidi26jbpnf2eafbo3qi5am",
+  "publisher": "IEEE",
+  "refs": [],
+  "release_type": "paper-conference",
+  "release_year": 2012,
+  "revision": "997b7888-65c7-4590-b85e-b80665c1359f",
+  "state": "active",
+  "title": "On the naturalness of software",
+  "work_id": "ewpldvhthbbdrilubzhignz2mu"
+}

@@ -1,0 +1,462 @@
+{
+  "abstracts": [],
+  "container_id": "i6iajiiyxvgz3ob6jwcn2pufni",
+  "contribs": [
+    {
+      "extra": {
+        "seq": "first"
+      },
+      "index": 0,
+      "raw_affiliation": "University of Alberta, Edmonton, Canada",
+      "raw_name": "Abram Hindle",
+      "role": "author"
+    },
+    {
+      "index": 1,
+      "raw_affiliation": "University College London, United Kingdom",
+      "raw_name": "Earl T. Barr",
+      "role": "author"
+    },
+    {
+      "index": 2,
+      "raw_affiliation": "UC Davis, CA",
+      "raw_name": "Mark Gabel",
+      "role": "author"
+    },
+    {
+      "index": 3,
+      "raw_affiliation": "UC Davis, CA",
+      "raw_name": "Zhendong Su",
+      "role": "author"
+    },
+    {
+      "index": 4,
+      "raw_affiliation": "UC Davis, CA",
+      "raw_name": "Premkumar Devanbu",
+      "role": "author"
+    }
+  ],
+  "ext_ids": {
+    "doi": "10.1145/2902362"
+  },
+  "extra": {
+    "crossref": {
+      "license": [
+        {
+          "URL": "http://www.acm.org/publications/policies/copyright_policy#Background",
+          "content-version": "vor",
+          "delay-in-days": 0,
+          "start": "2016-04-26T00:00:00Z"
+        }
+      ],
+      "type": "journal-article"
+    }
+  },
+  "ident": "osgdmzg32jcr5ngh5p4laeeira",
+  "language": "en",
+  "pages": "122-131",
+  "publisher": "Association for Computing Machinery (ACM)",
+  "refs": [
+    {
+      "extra": {
+        "doi": "10.1145/2635868.2635901",
+        "unstructured": "Allamanis, M., Sutton, C. Mining idioms from source code. InFSE. ACM, 2014."
+      },
+      "index": 0,
+      "key": "key-10.1145/2902362-1"
+    },
+    {
+      "extra": {
+        "unstructured": "Antoniol, G., Canfora, G., Casazza, G., Lucia, A.D., Merlo, E. Recovering traceability links between code and documentation.IEEE Trans. Softw. Eng. 28(2002), 970--983."
+      },
+      "index": 1,
+      "key": "key-10.1145/2902362-2"
+    },
+    {
+      "extra": {
+        "unstructured": "Arnold, S., Mark, L., Goldthwaite, J. Programming by voice, Vocal Programming. InProceedings, ACM Conference on Assistive Technologies.ACM, 2000, 149--155."
+      },
+      "index": 2,
+      "key": "key-10.1145/2902362-3"
+    },
+    {
+      "extra": {
+        "doi": "10.1109/vlhcc.2004.49",
+        "unstructured": "Begel, A. Spoken language support for software development. InProceedings, VL/HCC.IEEE Computer Society, 2004, 271--272."
+      },
+      "index": 3,
+      "key": "key-10.1145/2902362-4"
+    },
+    {
+      "extra": {
+        "unstructured": "Bellegarda, J. Statistical language model adaptation: Review and perspectives.Speech Commun. 42, 1 (2004), 93--108."
+      },
+      "index": 4,
+      "key": "key-10.1145/2902362-5"
+    },
+    {
+      "extra": {
+        "doi": "10.1145/1985441.1985471",
+        "unstructured": "Binkley, D., Hearn, M., Lawrie, D. Improving identifier informativeness using part of speech information. InProceedings, MSR.ACM, 2011."
+      },
+      "index": 5,
+      "key": "key-10.1145/2902362-6"
+    },
+    {
+      "extra": {
+        "unstructured": "Bruch, M., Bodden, E., Monperrus, M., Mezini, M. Ide 2.0: Collective intelligence in software development. InProceedings of the FSE/SDP workshop on Future of Software Engineering Research.ACM, 2010, 53--58."
+      },
+      "index": 6,
+      "key": "key-10.1145/2902362-7"
+    },
+    {
+      "extra": {
+        "doi": "10.1145/1595696.1595728",
+        "unstructured": "Bruch, M., Monperrus, M., Mezini, M. Learning from examples to improve code completion systems. InProceedings, ACM SIGSOFT ESEC/FSE, 2009."
+      },
+      "index": 7,
+      "key": "key-10.1145/2902362-8"
+    },
+    {
+      "extra": {
+        "doi": "10.1145/1858996.1859005",
+        "unstructured": "Buse, R., Weimer, W. Automatically documenting program changes. InProceedings, ASE.ACM, 2010, 33--42."
+      },
+      "index": 8,
+      "key": "key-10.1145/2902362-9"
+    },
+    {
+      "extra": {
+        "unstructured": "Campbell, J.C., Hindle, A., Amaral, J.N. Syntax errors just aren't natural: Improving error reporting with language models. InMSR.ACM, 2014."
+      },
+      "index": 9,
+      "key": "key-10.1145/2902362-10"
+    },
+    {
+      "extra": {
+        "unstructured": "Franks, C., Tu, Z., Devanbu, P., Hellendoorn, V. Cacheca: A cache language model based code suggestion tool.ICSE Demonst. Track(2015)."
+      },
+      "index": 10,
+      "key": "key-10.1145/2902362-11"
+    },
+    {
+      "extra": {
+        "unstructured": "Gabel, M., Su, Z. Javert: Fully automatic mining of general temporal properties from dynamic traces. InProceedings, ACM SIGSOFT FSE.ACM, 2008, 339--349."
+      },
+      "index": 11,
+      "key": "key-10.1145/2902362-12"
+    },
+    {
+      "extra": {
+        "doi": "10.1145/1882291.1882315",
+        "unstructured": "Gabel, M., Su, Z. A study of the uniqueness of source code. InProceedings, ACM SIGSOFT FSE.ACM, 2010, 147--156."
+      },
+      "index": 12,
+      "key": "key-10.1145/2902362-13"
+    },
+    {
+      "extra": {
+        "doi": "10.1109/ase.2009.64",
+        "unstructured": "Han, S., Wallace, D.R., Miller, R.C. Code completion from abbreviated input. InASE.IEEE Computer Society, 2009, 332--343."
+      },
+      "index": 13,
+      "key": "key-10.1145/2902362-14"
+    },
+    {
+      "extra": {
+        "unstructured": "Høst, E.W., Østvold, B.M.Software Language Engineering. Chapter The Java Programmer's Phrase Book.Springer-Verlag, Berlin, Heidelberg, 2009."
+      },
+      "index": 14,
+      "key": "key-10.1145/2902362-15"
+    },
+    {
+      "extra": {
+        "doi": "10.1007/978-3-642-03013-0_14",
+        "unstructured": "Høst, E., Østvold, B. Debugging method names. InProceedings ECOOP.Springer, 2009, 294--317."
+      },
+      "index": 15,
+      "key": "key-10.1145/2902362-16"
+    },
+    {
+      "extra": {
+        "doi": "10.1109/icsm.2011.6080790",
+        "unstructured": "Hou, D. Pletcher, D. An evaluation of the strategies of sorting, filtering, and grouping API methods for code completion. InProceedings, ICSM, 2011."
+      },
+      "index": 16,
+      "key": "key-10.1145/2902362-17"
+    },
+    {
+      "extra": {
+        "unstructured": "Hubbell, T., Langan, D, Hain, T. A voice-activated syntax-directed editor for manually disabled programme RS. InProceedings, ACM SIGACCESS.ACM, 2006."
+      },
+      "index": 17,
+      "key": "key-10.1145/2902362-18"
+    },
+    {
+      "extra": {
+        "doi": "10.1145/1900008.1900143",
+        "unstructured": "Jacob, F., Tairas, R. Code template inference using language models. InProceedings of the 48th Annual Southeast Regional Conference, 2010."
+      },
+      "index": 18,
+      "key": "key-10.1145/2902362-19"
+    },
+    {
+      "extra": {
+        "doi": "10.1145/2661136.2661148",
+        "unstructured": "Karaivanov, S., Raychev, V., Vechev, M. Phrase-based statistical translation of programming languages. InOnward!ACM, 2014, 173--184."
+      },
+      "index": 19,
+      "key": "key-10.1145/2902362-20"
+    },
+    {
+      "extra": {
+        "doi": "10.1145/1181775.1181781",
+        "unstructured": "Kim, S., Pan, K., Whitehead, E. Jr. Memories of bug fixes. InProceedings, ACM SIGSOFT FSE.ACM, 2006, 35--45."
+      },
+      "index": 20,
+      "key": "key-10.1145/2902362-21"
+    },
+    {
+      "extra": {
+        "doi": "10.1145/1357054.1357127",
+        "unstructured": "Kittur, A., Chi, E., Suh, B. Crowdsourcing user studies with mechanical turk. InProceedings, CHI.ACM, 2008."
+      },
+      "index": 21,
+      "key": "key-10.1145/2902362-22"
+    },
+    {
+      "extra": {
+        "unstructured": "Knuth, D.E. Literate programming.Comput. J. 21, 2 (1984), 97--111."
+      },
+      "index": 22,
+      "key": "key-10.1145/2902362-23"
+    },
+    {
+      "extra": {
+        "unstructured": "Koehn, P.Statistical Machine Translation.Cambridge University Press, 2010."
+      },
+      "index": 23,
+      "key": "key-10.1145/2902362-24"
+    },
+    {
+      "extra": {
+        "doi": "10.1109/icse.2005.1553580",
+        "unstructured": "Konrad, S., Cheng, B. Real-time specification patterns. InProceedings ICSE, 2005."
+      },
+      "index": 24,
+      "key": "key-10.1145/2902362-25"
+    },
+    {
+      "extra": {
+        "unstructured": "Körner, S.J., Tichy, W.F. Text to software. InProceedings of FSE/SDP Workshop on the Future of Software Engineering Research.ACM, Nov. 2010."
+      },
+      "index": 25,
+      "key": "key-10.1145/2902362-26"
+    },
+    {
+      "extra": {
+        "unstructured": "Lawrie, D., Morrell, C., field, H., Binkley, D. What's in a name? A study of identifiers.Proceedings, ICPC, 2006."
+      },
+      "index": 26,
+      "key": "key-10.1145/2902362-27"
+    },
+    {
+      "extra": {
+        "unstructured": "Linstead, E., Bajracharya, S., Ngo, T., Rigor, P., Lopes, C., Baldi, P. Sourcerer: Mining and searching internet-scale software repositories.Data Mining Knowl. Discov. 18, 2 (2009), 300--336."
+      },
+      "index": 27,
+      "key": "key-10.1145/2902362-28"
+    },
+    {
+      "extra": {
+        "unstructured": "Livshits, B., Zimmermann, T. Dynamine: Finding common error patterns by mining software revision histories.ACM SIGSOFT Softw. Eng. Notes 30, 5 (2005)."
+      },
+      "index": 28,
+      "key": "key-10.1145/2902362-29"
+    },
+    {
+      "extra": {
+        "unstructured": "Mandelin, D., Xu, L., Bodík, R., Kimelman, D. Jungloid mining: Helping to navigate the API jungle. InACM SIGPLAN Notices.Volume 40. ACM, 2005."
+      },
+      "index": 29,
+      "key": "key-10.1145/2902362-30"
+    },
+    {
+      "extra": {
+        "unstructured": "Manning, C., Schütze, H.Foundations of Statistical Natural Language Processing.Volume 59. MIT Press, 1999."
+      },
+      "index": 30,
+      "key": "key-10.1145/2902362-31"
+    },
+    {
+      "extra": {
+        "unstructured": "Marcus, M., Marcinkiewicz, M., Santorini, B. Building a large annotated corpus of English: The Penn treebank.Comput. Linguist. 19, 2 (1993), 313--330."
+      },
+      "index": 31,
+      "key": "key-10.1145/2902362-32"
+    },
+    {
+      "extra": {
+        "doi": "10.1109/wac.2006.375941",
+        "unstructured": "Mills, S., Saadat, S., Whiting, D. Is voice recognition the solution to keyboard-based RSI? InAutomation Congress, 2006. WAC'06. World, 2006."
+      },
+      "index": 32,
+      "key": "key-10.1145/2902362-33"
+    },
+    {
+      "extra": {
+        "doi": "10.1145/2642937.2643010",
+        "unstructured": "Nguyen, A.T., Nguyen, H.A., Nguyen, T.T., Nguyen, T.N. Statistical learning approach for mining API usage mappings for code migration. InASE, 2014."
+      },
+      "index": 33,
+      "key": "key-10.1145/2902362-34"
+    },
+    {
+      "extra": {
+        "unstructured": "Nguyen, A.T., Nguyen, T.N. Graph-based statistical language model for code. 2015."
+      },
+      "index": 34,
+      "key": "key-10.1145/2902362-35"
+    },
+    {
+      "extra": {
+        "doi": "10.1145/2491411.2494584",
+        "unstructured": "Nguyen, A.T., Nguyen, T.T., Nguyen, T.N. Lexical statistical machine translation for language migration. InFSE, 2013."
+      },
+      "index": 35,
+      "key": "key-10.1145/2902362-36"
+    },
+    {
+      "extra": {
+        "doi": "10.1145/2591062.2591072",
+        "unstructured": "Nguyen, A.T., Nguyen, T.T., Nguyen, T.N. Migrating code with statistical machine translation. InICSE Companion, 2014."
+      },
+      "index": 36,
+      "key": "key-10.1145/2902362-37"
+    },
+    {
+      "extra": {
+        "doi": "10.1145/2491411.2491458",
+        "unstructured": "Nguyen, T.T., Nguyen, A.T., Nguyen, H.A., Nguyen, T.N. A statistical semantic language model for source code. InESEC FSE.ACM, 2013."
+      },
+      "index": 37,
+      "key": "key-10.1145/2902362-38"
+    },
+    {
+      "extra": {
+        "unstructured": "Pinker, S.The Language Instinct: The New Science of Language and Mind.Volume 7529. Penguin, London, UK, 1994."
+      },
+      "index": 38,
+      "key": "key-10.1145/2902362-39"
+    },
+    {
+      "extra": {
+        "unstructured": "Rastkar, S., Murphy, G.C., Bradley, A. Generating natural language summaries for cross-cutting source code concerns. InProceedings, ICSM, 2011."
+      },
+      "index": 39,
+      "key": "key-10.1145/2902362-40"
+    },
+    {
+      "extra": {
+        "doi": "10.1145/2676726.2677009",
+        "unstructured": "Raychev, V., Vechev, M., Krause, A. Predicting program properties from big code. InPOPL.ACM, 2015."
+      },
+      "index": 40,
+      "key": "key-10.1145/2902362-41"
+    },
+    {
+      "extra": {
+        "unstructured": "Robbes, R., Lanza, M. Improving code completion with program history.Autom. Softw. Eng. 17, 2 (2010), 181--212."
+      },
+      "index": 41,
+      "key": "key-10.1145/2902362-42"
+    },
+    {
+      "extra": {
+        "doi": "10.1007/bfb0035136",
+        "unstructured": "Rolland, C., Proix, C. A natural language approach for requirements engineering. InAdvanced Information Systems Engineering.Springer, 1992, 257--277."
+      },
+      "index": 42,
+      "key": "key-10.1145/2902362-43"
+    },
+    {
+      "extra": {
+        "doi": "10.1145/1218563.1218587",
+        "unstructured": "Shepherd, D., Fry, Z., Hill, E., Pollock, L., Vijay-Shanker, K. Using natural language program analysis to locate and understand action-oriented concerns. InProceedings, AOSD.ACM, 2007, 212--224."
+      },
+      "index": 43,
+      "key": "key-10.1145/2902362-44"
+    },
+    {
+      "extra": {
+        "doi": "10.1145/1082983.1083129",
+        "unstructured": "Shepherd, D., Pollock, L., Tourwé, T. Using language clues to discover crosscutting concerns. InACM SIGSOFT Software Engineering Notes.Volume 30. ACM, 2005."
+      },
+      "index": 44,
+      "key": "key-10.1145/2902362-45"
+    },
+    {
+      "extra": {
+        "unstructured": "Sparck-Jones, K. Natural language processing: A historical review.Current Issues in Computational Linguistics: In Honour of Don Walker (Ed Zampolli, Calzolari and Palmer).Kluwer, Amsterdam, the Netherlands, 1994."
+      },
+      "index": 45,
+      "key": "key-10.1145/2902362-46"
+    },
+    {
+      "extra": {
+        "doi": "10.1145/1858996.1859006",
+        "unstructured": "Sridhara, G., Hill, E., Muppaneni, D., Pollock, L., Vijay-Shanker, K. Towards automatically generating summary comments for Java methods. InProceedings, ASE, 2010."
+      },
+      "index": 46,
+      "key": "key-10.1145/2902362-47"
+    },
+    {
+      "extra": {
+        "doi": "10.1145/1985793.1985808",
+        "unstructured": "Sridhara, G., Pollock, L., Vijay-Shanker, K. Automatically detecting and describing high level actions within methods. InProceedings, ICSE, 2011."
+      },
+      "index": 47,
+      "key": "key-10.1145/2902362-48"
+    },
+    {
+      "extra": {
+        "doi": "10.1145/2635868.2635875",
+        "unstructured": "Tu, Z., Su, Z., Devanbu, P. On the localness of software. InFSE.ACM, 2014, 269--280."
+      },
+      "index": 48,
+      "key": "key-10.1145/2902362-49"
+    },
+    {
+      "extra": {
+        "doi": "10.1109/msr.2015.38",
+        "unstructured": "White, M., Vendome, C., Linares-Vásquez, M., Poshyvanyk, D. Toward deep learning software repositories. InMSR, 2015."
+      },
+      "index": 49,
+      "key": "key-10.1145/2902362-50"
+    },
+    {
+      "extra": {
+        "unstructured": "Xie, T., Thummalapenta, S., Lo, D., Liu, C. Data mining for software engineering.IEEE Comput. 42, 8 (2009)."
+      },
+      "index": 50,
+      "key": "key-10.1145/2902362-51"
+    },
+    {
+      "extra": {
+        "doi": "10.1109/icse.2004.1317478",
+        "unstructured": "Zimmermann, T., Weisgerber, P., Diehl, S., Zeller, A. Mining version histories to guide software changes. InICSE.IEEE Computer Society, 2004."
+      },
+      "index": 51,
+      "key": "key-10.1145/2902362-52"
+    }
+  ],
+  "release_date": "2016-04-26",
+  "release_stage": "published",
+  "release_type": "article-journal",
+  "release_year": 2016,
+  "revision": "704dbdea-eff5-4c8c-82bb-3c11dd4ca877",
+  "state": "active",
+  "title": "On the naturalness of software",
+  "volume": "59",
+  "work_id": "ga3y432u4vfabmbkkou4rnwf2i"
+}

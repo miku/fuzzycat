@@ -1,0 +1,31 @@
+{
+  "abstracts": [],
+  "contribs": [
+    {
+      "extra": {
+        "seq": "first"
+      },
+      "index": 0,
+      "raw_name": "Prem Devanbu",
+      "role": "author"
+    }
+  ],
+  "ext_ids": {
+    "doi": "10.1145/2442754.2442763"
+  },
+  "extra": {
+    "container_name": "Proceedings of the 6th India Software Engineering Conference on - ISEC '13",
+    "crossref": {
+      "type": "proceedings-article"
+    }
+  },
+  "ident": "zh4tnlduu5bmngeipxaftaqwqq",
+  "publisher": "ACM Press",
+  "refs": [],
+  "release_type": "paper-conference",
+  "release_year": 2013,
+  "revision": "c6a978b2-c79e-4241-8bbe-0cefd2ac8370",
+  "state": "active",
+  "title": "On the naturalness of software",
+  "work_id": "hi4bcgrlofbu3mflibl2ou4444"
+}
