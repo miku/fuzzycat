@@ -1,0 +1,55 @@
+{
+  "abstracts": [
+    {
+      "content": "<jats:p>The Necropolis of Chirnogi – Suvita Iorgulescu (Calarasi county) was located on the high terrace of the Danube and was investigated by Done Serba˘nescu (in 1989) by means of the archaeological excavations carried out for the construction of the Danube-Bucharest Channel. For this study, we analysed the archaeological assemblage preserved in the Museum of Gumelnita civilization from Oltenita (Calarasi county) coming from 10 graves, out of a total of 58, which are attributed to the Gumelnita culture (the second half of the 5th millennium BC). The personal adornments are mainly bracelets made of Spondylus valve (16 specimens) which appear in most of the graves, along with an equal number of perforated plates made of Sus scrofa canine, this time the pieces being grouped into two graves. The funeral inventory is complemented by small cylindrical, tubular or biconvex beads, made of various raw materials: Spondylus valve, bone, malachite, cooper and green slate. At the technical level, attention is drawn towards the technological transformation scheme of the raw material, which is extremely uniform for the two main categories of ornaments. Also, the analysed pieces showed different degrees of use-wear, demonstrating on the one hand that they were worn before the deposition in graves, and on the other that the accumulationof these items took place over time.</jats:p>",
+      "mimetype": "application/xml+jats",
+      "sha1": "d0c5660a991e0d27172c0d70e9ed4119eb64dfd7"
+    }
+  ],
+  "container_id": "wszfqmxt6razpetsvihear7ldm",
+  "contribs": [
+    {
+      "extra": {
+        "seq": "first"
+      },
+      "given_name": "Monica",
+      "index": 0,
+      "raw_name": "Monica Margarit",
+      "role": "author",
+      "surname": "Margarit"
+    },
+    {
+      "given_name": "Madalina",
+      "index": 1,
+      "raw_name": "Madalina Dimache",
+      "role": "author",
+      "surname": "Dimache"
+    }
+  ],
+  "ext_ids": {
+    "doi": "10.4312/dp.46-25"
+  },
+  "extra": {
+    "crossref": {
+      "subject": [
+        "Archaeology",
+        "Archaeology",
+        "Anthropology"
+      ],
+      "type": "journal-article"
+    }
+  },
+  "ident": "c7cdwdbcqfaj5ku72s5dlrylaq",
+  "pages": "398-413",
+  "publisher": "University of Ljubljana",
+  "refs": [],
+  "release_date": "2019-12-09",
+  "release_stage": "published",
+  "release_type": "article-journal",
+  "release_year": 2019,
+  "revision": "36722675-c3ea-4350-98c3-00850cd91d31",
+  "state": "active",
+  "title": "Personal adornments from the Eneolithic necropolis of Chirnogi-Suvita Iorgulescu (Romania):",
+  "volume": "46",
+  "work_id": "nmzwc2um4nf6jmtbl3ql5g65ve"
+}
