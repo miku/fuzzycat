@@ -1,0 +1,50 @@
+{
+  "abstracts": [
+    {
+      "content": "We provide a class of optimal nondecomposable entanglement witnesses for 4N x\n4N composite quantum systems or, equivalently, a new construction of\nnondecomposable positive maps in the algebra of 4N x 4N complex matrices. This\nconstruction provides natural generalization of the Robertson map. It is shown\nthat their structural physical approximations give rise to entanglement\nbreaking channels.",
+      "lang": "en",
+      "mimetype": "text/plain",
+      "sha1": "5f9fce982c3d66731bf671c10001e741a875d053"
+    }
+  ],
+  "contribs": [
+    {
+      "index": 0,
+      "raw_name": "Dariusz Chruscinski",
+      "role": "author"
+    },
+    {
+      "index": 1,
+      "raw_name": "Justyna Pytel",
+      "role": "author"
+    }
+  ],
+  "ext_ids": {
+    "arxiv": "1006.3059v1"
+  },
+  "extra": {
+    "arxiv": {
+      "base_id": "1006.3059",
+      "categories": [
+        "quant-ph",
+        "math-ph",
+        "math.MP"
+      ],
+      "comments": "6 pages",
+      "journal_ref": "Phys. Rev. A 82, 052310 (2010)"
+    }
+  },
+  "ident": "qmtuvezglnembenfilx7b6ecae",
+  "language": "en",
+  "license_slug": "ARXIV-1.0",
+  "refs": [],
+  "release_date": "2010-06-15",
+  "release_stage": "submitted",
+  "release_type": "article",
+  "release_year": 2010,
+  "revision": "b9c8fd47-c5e1-4f41-84cb-675c4a03080c",
+  "state": "active",
+  "title": "Constructing optimal entanglement witnesses. II",
+  "version": "v1",
+  "work_id": "5mrqtpzqwvfdjefcrkult3wryy"
+}

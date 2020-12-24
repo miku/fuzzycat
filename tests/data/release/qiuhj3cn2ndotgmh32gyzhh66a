@@ -1,0 +1,494 @@
+{
+  "abstracts": [],
+  "container_id": "iedolmzeofgc3ezyedga7h4eba",
+  "contribs": [
+    {
+      "extra": {
+        "seq": "first"
+      },
+      "index": 0,
+      "raw_name": "Dariusz Chruściński",
+      "role": "author"
+    },
+    {
+      "index": 1,
+      "raw_name": "Justyna Pytel",
+      "role": "author"
+    },
+    {
+      "index": 2,
+      "raw_name": "Gniewomir Sarbicki",
+      "role": "author"
+    }
+  ],
+  "ext_ids": {
+    "core": "2067847",
+    "doi": "10.1103/physreva.80.062314"
+  },
+  "extra": {
+    "crossref": {
+      "license": [
+        {
+          "URL": "http://link.aps.org/licenses/aps-default-license",
+          "content-version": "vor",
+          "delay-in-days": 0,
+          "start": "2009-12-07T00:00:00Z"
+        }
+      ],
+      "type": "journal-article"
+    }
+  },
+  "ident": "qiuhj3cn2ndotgmh32gyzhh66a",
+  "language": "en",
+  "publisher": "American Physical Society (APS)",
+  "refs": [
+    {
+      "container_name": "Quantum Computation and Quantum Information",
+      "extra": {
+        "authors": [
+          "M. A. Nielsen"
+        ],
+        "volume-title": "Quantum Computation and Quantum Information"
+      },
+      "index": 0,
+      "key": "PhysRevA.80.062314Cc1R1",
+      "year": 2000
+    },
+    {
+      "extra": {
+        "doi": "10.1103/revmodphys.81.865"
+      },
+      "index": 1,
+      "key": "PhysRevA.80.062314Cc2R1"
+    },
+    {
+      "extra": {
+        "doi": "10.1016/s0375-9601(96)00706-2"
+      },
+      "index": 2,
+      "key": "PhysRevA.80.062314Cc3R1"
+    },
+    {
+      "extra": {
+        "doi": "10.1016/s0375-9601(00)00401-1"
+      },
+      "index": 3,
+      "key": "PhysRevA.80.062314Cc4R1"
+    },
+    {
+      "extra": {
+        "doi": "10.1016/s0304-3975(02)00139-1"
+      },
+      "index": 4,
+      "key": "PhysRevA.80.062314Cc5R1"
+    },
+    {
+      "extra": {
+        "doi": "10.1103/physreva.62.052310"
+      },
+      "index": 5,
+      "key": "PhysRevA.80.062314Cc6R1"
+    },
+    {
+      "extra": {
+        "doi": "10.1103/physreva.63.044304"
+      },
+      "index": 6,
+      "key": "PhysRevA.80.062314Cc7R1"
+    },
+    {
+      "extra": {
+        "doi": "10.1103/physreva.65.042327"
+      },
+      "index": 7,
+      "key": "PhysRevA.80.062314Cc8R1"
+    },
+    {
+      "extra": {
+        "doi": "10.1103/physreva.72.012321"
+      },
+      "index": 8,
+      "key": "PhysRevA.80.062314Cc9R1"
+    },
+    {
+      "extra": {
+        "doi": "10.1063/1.1494474"
+      },
+      "index": 9,
+      "key": "PhysRevA.80.062314Cc10R1"
+    },
+    {
+      "extra": {
+        "doi": "10.1103/physrevlett.94.060501"
+      },
+      "index": 10,
+      "key": "PhysRevA.80.062314Cc11R1"
+    },
+    {
+      "extra": {
+        "doi": "10.1103/physreva.66.032319"
+      },
+      "index": 11,
+      "key": "PhysRevA.80.062314Cc12R1"
+    },
+    {
+      "extra": {
+        "doi": "10.1103/physreva.72.022310"
+      },
+      "index": 12,
+      "key": "PhysRevA.80.062314Cc13R1"
+    },
+    {
+      "extra": {
+        "doi": "10.1088/1751-8113/41/37/375303"
+      },
+      "index": 13,
+      "key": "PhysRevA.80.062314Cc14R1"
+    },
+    {
+      "extra": {
+        "doi": "10.1088/1751-8113/41/14/145301"
+      },
+      "index": 14,
+      "key": "PhysRevA.80.062314Cc15R1"
+    },
+    {
+      "extra": {
+        "doi": "10.1103/physrevlett.92.087902"
+      },
+      "index": 15,
+      "key": "PhysRevA.80.062314Cc16R1"
+    },
+    {
+      "extra": {
+        "doi": "10.1103/physreva.72.032309"
+      },
+      "index": 16,
+      "key": "PhysRevA.80.062314Cc17R1"
+    },
+    {
+      "extra": {
+        "doi": "10.1103/physrevlett.88.187904"
+      },
+      "index": 17,
+      "key": "PhysRevA.80.062314Cc18R1"
+    },
+    {
+      "extra": {
+        "doi": "10.1103/physrevlett.93.220503"
+      },
+      "index": 18,
+      "key": "PhysRevA.80.062314Cc19R1"
+    },
+    {
+      "extra": {
+        "doi": "10.1103/physreva.70.062317"
+      },
+      "index": 19,
+      "key": "PhysRevA.80.062314Cc20R1"
+    },
+    {
+      "extra": {
+        "doi": "10.1016/0024-3795(75)90075-0"
+      },
+      "index": 20,
+      "key": "PhysRevA.80.062314Cc21R1"
+    },
+    {
+      "extra": {
+        "doi": "10.1016/0034-4877(72)90011-0"
+      },
+      "index": 21,
+      "key": "PhysRevA.80.062314Cc22R1"
+    },
+    {
+      "container_name": "Pac. J. Math.",
+      "extra": {
+        "authors": [
+          "J. de Pillis"
+        ],
+        "volume": "23"
+      },
+      "index": 22,
+      "key": "PhysRevA.80.062314Cc23R1",
+      "locator": "129",
+      "year": 1967
+    },
+    {
+      "extra": {
+        "doi": "10.1016/0034-4877(76)90038-0"
+      },
+      "index": 23,
+      "key": "PhysRevA.80.062314Cc24R1"
+    },
+    {
+      "extra": {
+        "doi": "10.1007/bf02391860"
+      },
+      "index": 24,
+      "key": "PhysRevA.80.062314Cc25R1"
+    },
+    {
+      "extra": {
+        "doi": "10.1016/0024-3795(75)90058-0"
+      },
+      "index": 25,
+      "key": "PhysRevA.80.062314Cc26R1"
+    },
+    {
+      "container_name": "J. Oper. Theory",
+      "extra": {
+        "authors": [
+          "M.-D. Choi"
+        ]
+      },
+      "index": 26,
+      "key": "PhysRevA.80.062314Cc26R2",
+      "locator": "271",
+      "year": 1980
+    },
+    {
+      "extra": {
+        "doi": "10.1007/bf01617922"
+      },
+      "index": 27,
+      "key": "PhysRevA.80.062314Cc27R1"
+    },
+    {
+      "extra": {
+        "doi": "10.1017/s0305004100061144"
+      },
+      "index": 28,
+      "key": "PhysRevA.80.062314Cc28R1"
+    },
+    {
+      "container_name": "Math. Proc. Cambridge Philos. Soc.",
+      "extra": {
+        "authors": [
+          "A. G. Robertson"
+        ],
+        "volume": "34"
+      },
+      "index": 29,
+      "key": "PhysRevA.80.062314Cc28R2",
+      "locator": "87",
+      "year": 1983
+    },
+    {
+      "extra": {
+        "doi": "10.1112/jlms/s2-32.1.133"
+      },
+      "index": 30,
+      "key": "PhysRevA.80.062314Cc28R3"
+    },
+    {
+      "extra": {
+        "doi": "10.1016/0024-3795(86)90290-9"
+      },
+      "index": 31,
+      "key": "PhysRevA.80.062314Cc29R1"
+    },
+    {
+      "container_name": "Can. Math. Bull.",
+      "extra": {
+        "authors": [
+          "K. Tanahashi"
+        ],
+        "volume": "31"
+      },
+      "index": 32,
+      "key": "PhysRevA.80.062314Cc30R1",
+      "locator": "308",
+      "year": 1988
+    },
+    {
+      "extra": {
+        "doi": "10.1016/0024-3795(91)90211-e"
+      },
+      "index": 33,
+      "key": "PhysRevA.80.062314Cc31R1"
+    },
+    {
+      "extra": {
+        "doi": "10.1016/0024-3795(93)90283-t"
+      },
+      "index": 34,
+      "key": "PhysRevA.80.062314Cc31R2"
+    },
+    {
+      "extra": {
+        "doi": "10.1016/j.physleta.2004.04.046"
+      },
+      "index": 35,
+      "key": "PhysRevA.80.062314Cc32R1"
+    },
+    {
+      "extra": {
+        "doi": "10.2977/prims/1195144425"
+      },
+      "index": 36,
+      "key": "PhysRevA.80.062314Cc33R1"
+    },
+    {
+      "extra": {
+        "doi": "10.1088/0305-4470/38/41/014"
+      },
+      "index": 37,
+      "key": "PhysRevA.80.062314Cc34R1"
+    },
+    {
+      "extra": {
+        "doi": "10.1016/j.physleta.2004.04.008"
+      },
+      "index": 38,
+      "key": "PhysRevA.80.062314Cc34R2"
+    },
+    {
+      "extra": {
+        "doi": "10.1023/a:1025101606680"
+      },
+      "index": 39,
+      "key": "PhysRevA.80.062314Cc35R1"
+    },
+    {
+      "extra": {
+        "doi": "10.1103/physrevlett.97.080501"
+      },
+      "index": 40,
+      "key": "PhysRevA.80.062314Cc36R1"
+    },
+    {
+      "extra": {
+        "doi": "10.1088/0305-4470/39/45/020"
+      },
+      "index": 41,
+      "key": "PhysRevA.80.062314Cc37R1"
+    },
+    {
+      "extra": {
+        "doi": "10.1007/s11080-007-9052-4"
+      },
+      "index": 42,
+      "key": "PhysRevA.80.062314Cc38R1"
+    },
+    {
+      "extra": {
+        "doi": "10.1088/1751-8113/41/21/215201"
+      },
+      "index": 43,
+      "key": "PhysRevA.80.062314Cc39R1"
+    },
+    {
+      "extra": {
+        "doi": "10.1007/s00220-009-0790-8"
+      },
+      "index": 44,
+      "key": "PhysRevA.80.062314Cc40R1"
+    },
+    {
+      "extra": {
+        "doi": "10.1103/physreva.80.042314"
+      },
+      "index": 45,
+      "key": "PhysRevA.80.062314Cc41R1"
+    },
+    {
+      "extra": {
+        "doi": "10.1016/j.physleta.2009.04.068"
+      },
+      "index": 46,
+      "key": "PhysRevA.80.062314Cc42R1"
+    },
+    {
+      "extra": {
+        "doi": "10.1103/physreva.68.052101"
+      },
+      "index": 47,
+      "key": "PhysRevA.80.062314Cc43R1"
+    },
+    {
+      "extra": {
+        "doi": "10.1103/physrevlett.89.127902"
+      },
+      "index": 48,
+      "key": "PhysRevA.80.062314Cc44R1"
+    },
+    {
+      "extra": {
+        "doi": "10.1103/physreva.78.062105"
+      },
+      "index": 49,
+      "key": "PhysRevA.80.062314Cc45R1"
+    },
+    {
+      "extra": {
+        "doi": "10.1103/physreva.61.040301"
+      },
+      "index": 50,
+      "key": "PhysRevA.80.062314Cc47R1"
+    },
+    {
+      "extra": {
+        "doi": "10.1103/physreva.63.050301"
+      },
+      "index": 51,
+      "key": "PhysRevA.80.062314Cc47R2"
+    },
+    {
+      "extra": {
+        "doi": "10.1103/physreva.59.4206"
+      },
+      "index": 52,
+      "key": "PhysRevA.80.062314Cc48R1"
+    },
+    {
+      "container_name": "Quantum Inf. Comput.",
+      "extra": {
+        "authors": [
+          "K. Chen"
+        ]
+      },
+      "index": 53,
+      "key": "PhysRevA.80.062314Cc49R1",
+      "locator": "193",
+      "year": 2003
+    },
+    {
+      "extra": {
+        "doi": "10.1007/s11128-005-5664-1"
+      },
+      "index": 54,
+      "key": "PhysRevA.80.062314Cc49R2"
+    },
+    {
+      "extra": {
+        "doi": "10.1103/physreva.74.022308"
+      },
+      "index": 55,
+      "key": "PhysRevA.80.062314Cc51R1"
+    },
+    {
+      "extra": {
+        "doi": "10.1103/physreva.76.032308"
+      },
+      "index": 56,
+      "key": "PhysRevA.80.062314Cc52R1"
+    },
+    {
+      "extra": {
+        "doi": "10.1088/1751-8113/41/38/385301"
+      },
+      "index": 57,
+      "key": "PhysRevA.80.062314Cc52R2"
+    }
+  ],
+  "release_date": "2009-12-07",
+  "release_stage": "published",
+  "release_type": "article-journal",
+  "release_year": 2009,
+  "revision": "6cb8af5e-a7d1-48b4-88d8-6642a4ad443f",
+  "state": "active",
+  "title": "Constructing optimal entanglement witnesses",
+  "volume": "80",
+  "work_id": "2e26j7l2bnf7xna6qhvqe2354a"
+}

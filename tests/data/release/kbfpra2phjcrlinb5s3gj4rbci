@@ -1,0 +1,271 @@
+{
+  "abstracts": [],
+  "container_id": "iedolmzeofgc3ezyedga7h4eba",
+  "contribs": [
+    {
+      "extra": {
+        "seq": "first"
+      },
+      "index": 0,
+      "raw_name": "Dariusz Chruściński",
+      "role": "author"
+    },
+    {
+      "index": 1,
+      "raw_name": "Justyna Pytel",
+      "role": "author"
+    }
+  ],
+  "ext_ids": {
+    "core": "2129651",
+    "doi": "10.1103/physreva.82.052310"
+  },
+  "extra": {
+    "crossref": {
+      "license": [
+        {
+          "URL": "http://link.aps.org/licenses/aps-default-license",
+          "content-version": "vor",
+          "delay-in-days": 0,
+          "start": "2010-11-15T00:00:00Z"
+        }
+      ],
+      "type": "journal-article"
+    }
+  },
+  "ident": "kbfpra2phjcrlinb5s3gj4rbci",
+  "language": "en",
+  "publisher": "American Physical Society (APS)",
+  "refs": [
+    {
+      "container_name": "Quantum Computation and Quantum Information",
+      "extra": {
+        "authors": [
+          "M. A. Nielsen"
+        ],
+        "volume-title": "Quantum Computation and Quantum Information"
+      },
+      "index": 0,
+      "key": "PhysRevA.82.052310Cc1R1",
+      "year": 2000
+    },
+    {
+      "extra": {
+        "doi": "10.1103/revmodphys.81.865"
+      },
+      "index": 1,
+      "key": "PhysRevA.82.052310Cc2R1"
+    },
+    {
+      "extra": {
+        "doi": "10.1016/s0375-9601(96)00706-2"
+      },
+      "index": 2,
+      "key": "PhysRevA.82.052310Cc3R1"
+    },
+    {
+      "extra": {
+        "doi": "10.1016/s0375-9601(00)00401-1"
+      },
+      "index": 3,
+      "key": "PhysRevA.82.052310Cc4R1"
+    },
+    {
+      "extra": {
+        "doi": "10.1016/s0304-3975(02)00139-1"
+      },
+      "index": 4,
+      "key": "PhysRevA.82.052310Cc5R1"
+    },
+    {
+      "extra": {
+        "doi": "10.1103/physreva.62.052310"
+      },
+      "index": 5,
+      "key": "PhysRevA.82.052310Cc6R1"
+    },
+    {
+      "extra": {
+        "doi": "10.1103/physreva.63.044304"
+      },
+      "index": 6,
+      "key": "PhysRevA.82.052310Cc7R1"
+    },
+    {
+      "extra": {
+        "doi": "10.1103/physreva.65.042327"
+      },
+      "index": 7,
+      "key": "PhysRevA.82.052310Cc8R1"
+    },
+    {
+      "extra": {
+        "doi": "10.1103/physreva.72.012321"
+      },
+      "index": 8,
+      "key": "PhysRevA.82.052310Cc9R1"
+    },
+    {
+      "extra": {
+        "doi": "10.1063/1.1494474"
+      },
+      "index": 9,
+      "key": "PhysRevA.82.052310Cc10R1"
+    },
+    {
+      "extra": {
+        "doi": "10.1103/physrevlett.94.060501"
+      },
+      "index": 10,
+      "key": "PhysRevA.82.052310Cc11R1"
+    },
+    {
+      "extra": {
+        "doi": "10.1103/physreva.66.032319"
+      },
+      "index": 11,
+      "key": "PhysRevA.82.052310Cc12R1"
+    },
+    {
+      "extra": {
+        "doi": "10.1103/physreva.72.022310"
+      },
+      "index": 12,
+      "key": "PhysRevA.82.052310Cc13R1"
+    },
+    {
+      "extra": {
+        "doi": "10.1103/physreva.70.062317"
+      },
+      "index": 13,
+      "key": "PhysRevA.82.052310Cc14R1"
+    },
+    {
+      "extra": {
+        "doi": "10.1103/physreva.72.012321"
+      },
+      "index": 14,
+      "key": "PhysRevA.82.052310Cc15R1"
+    },
+    {
+      "extra": {
+        "doi": "10.1103/physrevlett.97.080501"
+      },
+      "index": 15,
+      "key": "PhysRevA.82.052310Cc16R1"
+    },
+    {
+      "extra": {
+        "doi": "10.1088/0305-4470/39/45/020"
+      },
+      "index": 16,
+      "key": "PhysRevA.82.052310Cc17R1"
+    },
+    {
+      "extra": {
+        "doi": "10.1088/1751-8113/41/14/145301"
+      },
+      "index": 17,
+      "key": "PhysRevA.82.052310Cc18R1"
+    },
+    {
+      "extra": {
+        "doi": "10.1016/j.physrep.2009.02.004"
+      },
+      "index": 18,
+      "key": "PhysRevA.82.052310Cc19R1"
+    },
+    {
+      "extra": {
+        "doi": "10.1007/s11080-007-9052-4"
+      },
+      "index": 19,
+      "key": "PhysRevA.82.052310Cc20R1"
+    },
+    {
+      "extra": {
+        "doi": "10.1088/1751-8113/41/21/215201"
+      },
+      "index": 20,
+      "key": "PhysRevA.82.052310Cc20R2"
+    },
+    {
+      "extra": {
+        "doi": "10.1016/j.physleta.2009.04.068"
+      },
+      "index": 21,
+      "key": "PhysRevA.82.052310Cc20R3"
+    },
+    {
+      "extra": {
+        "doi": "10.1007/s00220-009-0790-8"
+      },
+      "index": 22,
+      "key": "PhysRevA.82.052310Cc21R1"
+    },
+    {
+      "extra": {
+        "doi": "10.1103/physreva.80.042314"
+      },
+      "index": 23,
+      "key": "PhysRevA.82.052310Cc22R1"
+    },
+    {
+      "extra": {
+        "doi": "10.1103/physreva.80.062314"
+      },
+      "index": 24,
+      "key": "PhysRevA.82.052310Cc23R1"
+    },
+    {
+      "extra": {
+        "doi": "10.1112/jlms/s2-32.1.133"
+      },
+      "index": 25,
+      "key": "PhysRevA.82.052310Cc24R1"
+    },
+    {
+      "extra": {
+        "doi": "10.1103/physreva.68.052101"
+      },
+      "index": 26,
+      "key": "PhysRevA.82.052310Cc25R1"
+    },
+    {
+      "extra": {
+        "doi": "10.1103/physrevlett.89.127902"
+      },
+      "index": 27,
+      "key": "PhysRevA.82.052310Cc26R1"
+    },
+    {
+      "extra": {
+        "doi": "10.1103/physreva.78.062105"
+      },
+      "index": 28,
+      "key": "PhysRevA.82.052310Cc27R1"
+    },
+    {
+      "container_name": "Positive Definite Matrices",
+      "extra": {
+        "authors": [
+          "R. Bhatia"
+        ],
+        "doi": "10.1515/9781400827787",
+        "volume-title": "Positive Definite Matrices"
+      },
+      "index": 29,
+      "key": "PhysRevA.82.052310Cc29R1",
+      "year": 2006
+    }
+  ],
+  "release_date": "2010-11-15",
+  "release_stage": "published",
+  "release_type": "article-journal",
+  "release_year": 2010,
+  "revision": "5332fafb-ccce-48b8-95a4-ef5fb1b3086a",
+  "state": "active",
+  "title": "Constructing optimal entanglement witnesses. II. Witnessing entanglement in4N×4Nsystems",
+  "volume": "82",
+  "work_id": "5mrqtpzqwvfdjefcrkult3wryy"
+}
