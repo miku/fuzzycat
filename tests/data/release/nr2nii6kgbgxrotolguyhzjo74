@@ -1,0 +1,795 @@
+{
+  "abstracts": [],
+  "container_id": "s3gm7274mfe6fcs7e3jterqlri",
+  "contribs": [
+    {
+      "extra": {
+        "seq": "first"
+      },
+      "index": 0,
+      "raw_name": "Oscar Beijbom",
+      "role": "author"
+    },
+    {
+      "index": 1,
+      "raw_name": "Peter J. Edmunds",
+      "role": "author"
+    },
+    {
+      "index": 2,
+      "raw_name": "Chris Roelfsema",
+      "role": "author"
+    },
+    {
+      "index": 3,
+      "raw_name": "Jennifer Smith",
+      "role": "author"
+    },
+    {
+      "index": 4,
+      "raw_name": "David I. Kline",
+      "role": "author"
+    },
+    {
+      "index": 5,
+      "raw_name": "Benjamin P. Neal",
+      "role": "author"
+    },
+    {
+      "index": 6,
+      "raw_name": "Matthew J. Dunlap",
+      "role": "author"
+    },
+    {
+      "index": 7,
+      "raw_name": "Vincent Moriarty",
+      "role": "author"
+    },
+    {
+      "index": 8,
+      "raw_name": "Tung-Yung Fan",
+      "role": "author"
+    },
+    {
+      "index": 9,
+      "raw_name": "Chih-Jui Tan",
+      "role": "author"
+    },
+    {
+      "index": 10,
+      "raw_name": "Stephen Chan",
+      "role": "author"
+    },
+    {
+      "index": 11,
+      "raw_name": "Tali Treibitz",
+      "role": "author"
+    },
+    {
+      "index": 12,
+      "raw_name": "Anthony Gamst",
+      "role": "author"
+    },
+    {
+      "index": 13,
+      "raw_name": "B. Greg Mitchell",
+      "role": "author"
+    },
+    {
+      "index": 14,
+      "raw_name": "David Kriegman",
+      "role": "author"
+    },
+    {
+      "extra": {
+        "seq": "first"
+      },
+      "raw_name": "Chaolun Allen Chen",
+      "role": "editor"
+    }
+  ],
+  "ext_ids": {
+    "core": "89800888",
+    "doi": "10.1371/journal.pone.0130312",
+    "pmcid": "PMC4496057",
+    "pmid": "26154157",
+    "wikidata_qid": "Q30979230"
+  },
+  "extra": {
+    "crossref": {
+      "license": [
+        {
+          "URL": "https://creativecommons.org/publicdomain/zero/1.0/",
+          "content-version": "vor",
+          "delay-in-days": 0,
+          "start": "2015-07-08T00:00:00Z"
+        }
+      ],
+      "type": "journal-article"
+    }
+  },
+  "ident": "nr2nii6kgbgxrotolguyhzjo74",
+  "language": "en",
+  "pages": "e0130312",
+  "publisher": "Public Library of Science (PLoS)",
+  "refs": [
+    {
+      "container_name": "Ecol Econ",
+      "extra": {
+        "authors": [
+          "R Costanza"
+        ],
+        "doi": "10.1016/s0921-8009(98)00020-2",
+        "volume": "25"
+      },
+      "index": 0,
+      "key": "ref1",
+      "title": "The value of the world's ecosystem services and natural capital",
+      "year": 1998
+    },
+    {
+      "extra": {
+        "unstructured": "Cesar H, Burke L, Pet-Soede L. The economics of worldwide coral reef degradation. Cesar Environ Econ Consult. 2003;"
+      },
+      "index": 1,
+      "key": "ref2"
+    },
+    {
+      "container_name": "Science",
+      "extra": {
+        "authors": [
+          "O Hoegh-Guldberg"
+        ],
+        "doi": "10.1126/science.1152509",
+        "volume": "318"
+      },
+      "index": 2,
+      "key": "ref3",
+      "locator": "1737",
+      "title": "Coral reefs under rapid climate change and ocean acidification",
+      "year": 2007
+    },
+    {
+      "container_name": "Science",
+      "extra": {
+        "authors": [
+          "TA Gardner"
+        ],
+        "doi": "10.1126/science.1086050",
+        "volume": "301"
+      },
+      "index": 3,
+      "key": "ref4",
+      "locator": "958",
+      "title": "Long-term region-wide declines in Caribbean corals",
+      "year": 2003
+    },
+    {
+      "container_name": "PLoS One",
+      "extra": {
+        "authors": [
+          "JF Bruno"
+        ],
+        "doi": "10.1371/journal.pone.0000711"
+      },
+      "index": 4,
+      "key": "ref5",
+      "locator": "e711",
+      "title": "Regional Decline of Coral Cover in the Indo-Pacific: Timing, Extent, and Subregional Comparisons",
+      "year": 2007
+    },
+    {
+      "container_name": "Nat Clim Change",
+      "extra": {
+        "authors": [
+          "R Van Hooidonk"
+        ],
+        "doi": "10.1038/nclimate1829"
+      },
+      "index": 5,
+      "key": "ref6",
+      "locator": "508",
+      "title": "Temporary refugia for coral reefs in a warming world",
+      "year": 2013
+    },
+    {
+      "container_name": "Science",
+      "extra": {
+        "authors": [
+          "TP Hughes"
+        ],
+        "doi": "10.1126/science.1085046",
+        "volume": "301"
+      },
+      "index": 6,
+      "key": "ref7",
+      "locator": "929",
+      "title": "Climate change, human impacts, and the resilience of coral reefs",
+      "year": 2003
+    },
+    {
+      "container_name": "Nature",
+      "extra": {
+        "authors": [
+          "DR Bellwood"
+        ],
+        "doi": "10.1038/nature02691",
+        "volume": "429"
+      },
+      "index": 7,
+      "key": "ref8",
+      "locator": "827",
+      "title": "Confronting the coral reef crisis",
+      "year": 2004
+    },
+    {
+      "container_name": "Oceanogr",
+      "extra": {
+        "authors": [
+          "JS Jaffe"
+        ],
+        "doi": "10.5670/oceanog.2001.24",
+        "volume": "14"
+      },
+      "index": 8,
+      "key": "ref9",
+      "locator": "66",
+      "title": "Underwater optical imaging: status and prospects",
+      "year": 2001
+    },
+    {
+      "container_name": "J Mar Biol",
+      "extra": {
+        "authors": [
+          "E Pante"
+        ],
+        "doi": "10.1155/2012/802875",
+        "volume": "2012"
+      },
+      "index": 9,
+      "key": "ref10",
+      "title": "Getting to the Point: Accuracy of Point Count in Monitoring Ecosystem Change",
+      "year": 2012
+    },
+    {
+      "container_name": "Coral Reefs",
+      "extra": {
+        "authors": [
+          "ACR Gleason"
+        ],
+        "doi": "10.1007/s00338-009-0544-2",
+        "volume": "29"
+      },
+      "index": 10,
+      "key": "ref11",
+      "locator": "253",
+      "title": "Landscape video mosaic from a mesophotic coral reef",
+      "year": 2010
+    },
+    {
+      "container_name": "Coral Reefs",
+      "extra": {
+        "authors": [
+          "JH Carleton"
+        ],
+        "doi": "10.1007/bf00304070",
+        "volume": "14"
+      },
+      "index": 11,
+      "key": "ref12",
+      "locator": "35",
+      "title": "Quantitative video sampling of coral reef benthos: large-scale application",
+      "year": 1995
+    },
+    {
+      "container_name": "Mar Ecol Prog Ser",
+      "extra": {
+        "authors": [
+          "R Ninio"
+        ],
+        "doi": "10.3354/meps265107",
+        "volume": "265"
+      },
+      "index": 12,
+      "key": "ref13",
+      "locator": "107",
+      "title": "Estimating cover of benthic organisms from underwater video images: variability associated with multiple observers",
+      "year": 2003
+    },
+    {
+      "container_name": "Subsurf Sens Technol Appl",
+      "extra": {
+        "authors": [
+          "H Singh"
+        ],
+        "doi": "10.1023/b:ssta.0000018445.25977.f3"
+      },
+      "index": 13,
+      "key": "ref14",
+      "locator": "25",
+      "title": "Imaging coral I: imaging coral habitats with the SeaBED AUV",
+      "year": 2004
+    },
+    {
+      "container_name": "J Mar Technol Society",
+      "extra": {
+        "authors": [
+          "JW Nicholson"
+        ],
+        "doi": "10.4031/002533208786861272",
+        "volume": "42"
+      },
+      "index": 14,
+      "key": "ref15",
+      "locator": "44",
+      "title": "The present state of autonomous underwater vehicle (AUV) applications and technologies",
+      "year": 2008
+    },
+    {
+      "extra": {
+        "authors": [
+          "A Eleftheriou"
+        ]
+      },
+      "index": 15,
+      "key": "ref16",
+      "year": 2013
+    },
+    {
+      "container_name": "Aquat Conserv",
+      "extra": {
+        "authors": [
+          "M González-Rivero"
+        ],
+        "doi": "10.1002/aqc.2505",
+        "volume": "24"
+      },
+      "index": 16,
+      "key": "ref17",
+      "locator": "184",
+      "title": "The Catlin Seaview Survey–kilometre-scale seascape assessment, and monitoring of coral reef ecosystems",
+      "year": 2014
+    },
+    {
+      "container_name": "Aquat Conserv",
+      "extra": {
+        "authors": [
+          "PP Molloy"
+        ],
+        "doi": "10.1002/aqc.2372",
+        "volume": "23"
+      },
+      "index": 17,
+      "key": "ref18",
+      "locator": "820",
+      "title": "How much sampling does it take to detect trends in coral-reef habitat using photoquadrat surveys?",
+      "year": 2013
+    },
+    {
+      "container_name": "Comput Geosci",
+      "extra": {
+        "authors": [
+          "KE Kohler"
+        ],
+        "doi": "10.1016/j.cageo.2005.11.009",
+        "volume": "32"
+      },
+      "index": 18,
+      "key": "ref19",
+      "locator": "1259",
+      "title": "Coral Point Count with Excel extensions (CPCe): A Visual Basic program for the determination of coral and substrate coverage using random point count methodology",
+      "year": 2006
+    },
+    {
+      "container_name": "J Exp Mar Bio Ecol",
+      "extra": {
+        "authors": [
+          "V Trygonis"
+        ],
+        "doi": "10.1016/j.jembe.2012.04.018",
+        "volume": "424"
+      },
+      "index": 19,
+      "key": "ref20",
+      "locator": "99",
+      "title": "photoQuad: A dedicated seabed image processing software, and a comparative error analysis of four photoquadrat methods",
+      "year": 2012
+    },
+    {
+      "extra": {
+        "unstructured": "Porter JW, Kosmynin V, Patterson KL, Porter KG, Jaap WC, Wheaton JL, et al. Detection of coral reef change by the Florida Keys coral reef monitoring project. The Everglades, Florida Bay, and coral reefs of the Florida Keys: An ecosystem sourcebook. 2002; 749–769."
+      },
+      "index": 20,
+      "key": "ref21"
+    },
+    {
+      "container_name": "Optics Express",
+      "extra": {
+        "authors": [
+          "MSA Marcos"
+        ],
+        "doi": "10.1364/opex.13.008766",
+        "volume": "13"
+      },
+      "index": 21,
+      "key": "ref22",
+      "locator": "8766",
+      "title": "Classification of coral reef images from underwater video using neural networks",
+      "year": 2005
+    },
+    {
+      "container_name": "Limnol Oceanogr Meth",
+      "extra": {
+        "authors": [
+          "MD Stokes"
+        ],
+        "doi": "10.4319/lom.2009.7.157"
+      },
+      "index": 22,
+      "key": "ref23",
+      "locator": "157",
+      "title": "Automated processing of coral reef benthic images",
+      "year": 2009
+    },
+    {
+      "container_name": "Proc IEEE Comput Soc Conf Comput Vis Pattern Recognit",
+      "extra": {
+        "authors": [
+          "O Beijbom"
+        ]
+      },
+      "index": 23,
+      "key": "ref24",
+      "locator": "1170",
+      "title": "Automated annotation of coral reef survey images",
+      "year": 2012
+    },
+    {
+      "extra": {
+        "unstructured": "Bewley M, Douillard B, Nourani-Vatani N, Friedman A, Pizarro O, Williams S. Automated species detection: An experimental approach to kelp detection from sea-floor AUV images. Proc Australas Conf Rob Autom. 2012;"
+      },
+      "index": 24,
+      "key": "ref25"
+    },
+    {
+      "container_name": "Remote Sens",
+      "extra": {
+        "authors": [
+          "ASM Shihavuddin"
+        ],
+        "doi": "10.3390/rs5041809"
+      },
+      "index": 25,
+      "key": "ref26",
+      "locator": "1809",
+      "title": "Image-Based Coral Reef Classification and Thematic Mapping",
+      "year": 2013
+    },
+    {
+      "container_name": "Int J Remote Sens",
+      "extra": {
+        "authors": [
+          "SR Phinn"
+        ],
+        "doi": "10.1080/01431161.2011.633122",
+        "volume": "33"
+      },
+      "index": 26,
+      "key": "ref27",
+      "locator": "3768",
+      "title": "Multi-scale, object-based image analysis for mapping geomorphic and ecological zones on coral reefs",
+      "year": 2012
+    },
+    {
+      "container_name": "J Mach Learn Res",
+      "extra": {
+        "authors": [
+          "R-E Fan"
+        ]
+      },
+      "index": 27,
+      "key": "ref28",
+      "locator": "1871",
+      "title": "LIBLINEAR: A library for large linear classification",
+      "year": 2008
+    },
+    {
+      "container_name": "Proc IEEE Comput Soc Conf Comput Vis Pattern Recognit",
+      "extra": {
+        "authors": [
+          "F Perronnin"
+        ]
+      },
+      "index": 28,
+      "key": "ref29",
+      "title": "Fisher kernels on visual vocabularies for image categorization",
+      "year": 2007
+    },
+    {
+      "extra": {
+        "doi": "10.5244/c.25.76",
+        "unstructured": "Chatfield K, Lempitsky V, Vedaldi A, Zisserman A. The devil is in the details: an evaluation of recent feature encoding methods. Proc Br Mach Vis Conf. 2011;"
+      },
+      "index": 29,
+      "key": "ref30"
+    },
+    {
+      "extra": {
+        "doi": "10.1109/cvpr.2013.236",
+        "unstructured": "Branson S, Beijbom O, Belongie S. Efficient large-scale structured learning. Proc IEEE Comput Soc Conf Comput Vis Pattern Recognit. 2013. pp. 1806–1813."
+      },
+      "index": 30,
+      "key": "ref31"
+    },
+    {
+      "container_name": "Comput Linguist",
+      "extra": {
+        "authors": [
+          "J Carletta"
+        ],
+        "volume": "22"
+      },
+      "index": 31,
+      "key": "ref32",
+      "locator": "249",
+      "title": "Assessing agreement on classification tasks: the kappa statistic",
+      "year": 1996
+    },
+    {
+      "container_name": "J Mach Learn Res",
+      "extra": {
+        "authors": [
+          "R Rifkin"
+        ]
+      },
+      "index": 32,
+      "key": "ref33",
+      "locator": "101",
+      "title": "In defense of one-vs-all classification",
+      "year": 2004
+    },
+    {
+      "container_name": "Proc Int Conf Mach Learn",
+      "extra": {
+        "authors": [
+          "DD Lewis"
+        ],
+        "volume": "94"
+      },
+      "index": 33,
+      "key": "ref34",
+      "locator": "148",
+      "title": "Heterogenous Uncertainty Sampling for Supervised Learning",
+      "year": 1994
+    },
+    {
+      "container_name": "Mar Ecol Prog Ser",
+      "extra": {
+        "authors": [
+          "A Solow"
+        ],
+        "doi": "10.3354/meps216309",
+        "volume": "216"
+      },
+      "index": 34,
+      "key": "ref35",
+      "locator": "309",
+      "title": "Estimating the taxonomic composition of a sample when individuals are classified with error",
+      "year": 2001
+    },
+    {
+      "container_name": "Am J Pol Sci",
+      "extra": {
+        "authors": [
+          "DJ Hopkins"
+        ],
+        "doi": "10.1111/j.1540-5907.2009.00428.x",
+        "volume": "54"
+      },
+      "index": 35,
+      "key": "ref36",
+      "locator": "229",
+      "title": "A method of automated nonparametric content analysis for social science",
+      "year": 2010
+    },
+    {
+      "extra": {
+        "authors": [
+          "P Good"
+        ]
+      },
+      "index": 36,
+      "key": "ref37",
+      "title": "parametric and bootstrap tests of hypotheses",
+      "year": 2005
+    },
+    {
+      "container_name": "J Appl Ecol",
+      "extra": {
+        "authors": [
+          "O Allouche"
+        ],
+        "doi": "10.1111/j.1365-2664.2006.01214.x",
+        "volume": "43"
+      },
+      "index": 37,
+      "key": "ref38",
+      "locator": "1223",
+      "title": "Assessing the accuracy of species distribution models: prevalence, kappa and the true skill statistic (TSS)",
+      "year": 2006
+    },
+    {
+      "container_name": "J Appl Ecol",
+      "extra": {
+        "authors": [
+          "S Manel"
+        ],
+        "doi": "10.1046/j.1365-2664.2001.00647.x",
+        "volume": "38"
+      },
+      "index": 38,
+      "key": "ref39",
+      "locator": "921",
+      "title": "Evaluating presence–absence models in ecology: the need to account for prevalence",
+      "year": 2001
+    },
+    {
+      "container_name": "Ecol Model",
+      "extra": {
+        "authors": [
+          "RA Monserud"
+        ],
+        "doi": "10.1016/0304-3800(92)90003-w",
+        "volume": "62"
+      },
+      "index": 39,
+      "key": "ref40",
+      "locator": "275",
+      "title": "Comparing global vegetation maps with the Kappa statistic",
+      "year": 1992
+    },
+    {
+      "extra": {
+        "doi": "10.2307/2529310",
+        "unstructured": "Landis JR, Koch GG. The measurement of observer agreement for categorical data. Biometrics. 1977; 159–174."
+      },
+      "index": 40,
+      "key": "ref41"
+    },
+    {
+      "container_name": "Stat Methods Rates Prop",
+      "extra": {
+        "authors": [
+          "JL Fleiss"
+        ]
+      },
+      "index": 41,
+      "key": "ref42",
+      "locator": "212",
+      "title": "The measurement of interrater agreement",
+      "year": 1981
+    },
+    {
+      "container_name": "Coral Reefs",
+      "extra": {
+        "authors": [
+          "I Miller"
+        ],
+        "doi": "10.1007/s003380050212",
+        "volume": "18"
+      },
+      "index": 42,
+      "key": "ref43",
+      "locator": "353",
+      "title": "Validity and reproducibility of benthic cover estimates made during broadscale surveys of coral reefs by manta tow",
+      "year": 1999
+    },
+    {
+      "container_name": "PLoS One",
+      "extra": {
+        "authors": [
+          "DG Zawada"
+        ],
+        "doi": "10.1371/journal.pone.0084570"
+      },
+      "index": 43,
+      "key": "ref44",
+      "locator": "e84570",
+      "title": "Fluorescence-Based Classification of Caribbean Coral Reef Organisms and Substrates",
+      "year": 2014
+    },
+    {
+      "container_name": "Sci Rep",
+      "extra": {
+        "authors": [
+          "T Treibitz"
+        ],
+        "doi": "10.1038/srep07694"
+      },
+      "index": 44,
+      "key": "ref45",
+      "title": "Wide Field-of-View Fluorescence Imaging of Coral Reefs",
+      "year": 2015
+    },
+    {
+      "container_name": "Harmful Algae",
+      "extra": {
+        "authors": [
+          "EJ Buskey"
+        ],
+        "doi": "10.1016/j.hal.2006.02.003"
+      },
+      "index": 45,
+      "key": "ref46",
+      "locator": "685",
+      "title": "Use of the FlowCAM for semi-automated recognition and enumeration of red tide cells (Karenia brevis) in natural plankton samples",
+      "year": 2006
+    },
+    {
+      "container_name": "Limnol Oceanogr Methods",
+      "extra": {
+        "authors": [
+          "HM Sosik"
+        ],
+        "doi": "10.4319/lom.2007.5.204"
+      },
+      "index": 46,
+      "key": "ref47",
+      "locator": "204",
+      "title": "Automated taxonomic classification of phytoplankton sampled with imaging-in-flow cytometry",
+      "year": 2007
+    },
+    {
+      "container_name": "Limnol Oceanogr Methods",
+      "extra": {
+        "authors": [
+          "RJ Olson"
+        ],
+        "doi": "10.4319/lom.2007.5.195"
+      },
+      "index": 47,
+      "key": "ref48",
+      "locator": "195",
+      "title": "A submersible imaging-in-flow instrument to analyze nano-and microplankton: Imaging FlowCytobot",
+      "year": 2007
+    },
+    {
+      "extra": {
+        "unstructured": "Beijbom O. Cost-Effective Sampling for Pairs of Annotators. arXiv preprint arXiv:14107074. 2014;"
+      },
+      "index": 48,
+      "key": "ref49"
+    },
+    {
+      "container_name": "IEEE Trans Knowl Data Eng",
+      "extra": {
+        "authors": [
+          "SJ Pan"
+        ],
+        "doi": "10.1109/tkde.2009.191",
+        "volume": "22"
+      },
+      "index": 49,
+      "key": "ref50",
+      "locator": "1345",
+      "title": "A survey on transfer learning",
+      "year": 2010
+    },
+    {
+      "extra": {
+        "unstructured": "Beijbom O. Domain Adaptations for Computer Vision Applications. arXiv preprint arXiv:12114860. 2012;"
+      },
+      "index": 50,
+      "key": "ref51"
+    }
+  ],
+  "release_date": "2015-07-08",
+  "release_stage": "published",
+  "release_type": "article-journal",
+  "release_year": 2015,
+  "revision": "3e0b46b6-eb2d-408b-af22-69a95935d5bd",
+  "state": "active",
+  "title": "Towards Automated Annotation of Benthic Survey Images: Variability of Human Experts and Operational Modes of Automation",
+  "volume": "10",
+  "work_id": "phgvvw2kgze2vgksws7yek6avu"
+}

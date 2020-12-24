@@ -1,0 +1,217 @@
+{
+  "abstracts": [],
+  "contribs": [
+    {
+      "given_name": "Oscar",
+      "index": 0,
+      "raw_name": "Oscar Beijbom",
+      "role": "author",
+      "surname": "Beijbom"
+    },
+    {
+      "given_name": "Peter J.",
+      "index": 1,
+      "raw_name": "Peter J. Edmunds",
+      "role": "author",
+      "surname": "Edmunds"
+    },
+    {
+      "given_name": "Chris",
+      "index": 2,
+      "raw_name": "Chris Roelfsema",
+      "role": "author",
+      "surname": "Roelfsema"
+    },
+    {
+      "given_name": "Jennifer",
+      "index": 3,
+      "raw_name": "Jennifer Smith",
+      "role": "author",
+      "surname": "Smith"
+    },
+    {
+      "given_name": "David I.",
+      "index": 4,
+      "raw_name": "David I. Kline",
+      "role": "author",
+      "surname": "Kline"
+    },
+    {
+      "given_name": "Benjamin",
+      "index": 5,
+      "raw_name": "Benjamin Neal",
+      "role": "author",
+      "surname": "Neal"
+    },
+    {
+      "given_name": "Matthew J.",
+      "index": 6,
+      "raw_name": "Matthew J. Dunlap",
+      "role": "author",
+      "surname": "Dunlap"
+    },
+    {
+      "given_name": "Vincent",
+      "index": 7,
+      "raw_name": "Vincent Moriarty",
+      "role": "author",
+      "surname": "Moriarty"
+    },
+    {
+      "given_name": "Tung-Yung",
+      "index": 8,
+      "raw_name": "Tung-Yung Fan",
+      "role": "author",
+      "surname": "Fan"
+    },
+    {
+      "given_name": "Chih-Jui",
+      "index": 9,
+      "raw_name": "Chih-Jui Tan",
+      "role": "author",
+      "surname": "Tan"
+    },
+    {
+      "given_name": "Stephen",
+      "index": 10,
+      "raw_name": "Stephen Chan",
+      "role": "author",
+      "surname": "Chan"
+    },
+    {
+      "given_name": "Tali",
+      "index": 11,
+      "raw_name": "Tali Treibitz",
+      "role": "author",
+      "surname": "Treibitz"
+    },
+    {
+      "given_name": "Anthony",
+      "index": 12,
+      "raw_name": "Anthony Gamst",
+      "role": "author",
+      "surname": "Gamst"
+    },
+    {
+      "given_name": "B. Greg",
+      "index": 13,
+      "raw_name": "B. Greg Mitchell",
+      "role": "author",
+      "surname": "Mitchell"
+    },
+    {
+      "given_name": "David",
+      "index": 14,
+      "raw_name": "David Kriegman",
+      "role": "author",
+      "surname": "Kriegman"
+    }
+  ],
+  "ext_ids": {
+    "doi": "10.5061/dryad.m5pr3"
+  },
+  "extra": {
+    "datacite": {
+      "license": [
+        {
+          "rightsUri": "http://creativecommons.org/publicdomain/zero/1.0"
+        }
+      ],
+      "metadataVersion": 9,
+      "relations": [
+        {
+          "relatedIdentifier": "10.1371/journal.pone.0130312",
+          "relatedIdentifierType": "DOI",
+          "relationType": "IsSupplementTo"
+        },
+        {
+          "relatedIdentifier": "26154157",
+          "relatedIdentifierType": "PMID",
+          "relationType": "IsSupplementTo"
+        }
+      ],
+      "resourceType": "DataPackage",
+      "resourceTypeGeneral": "Dataset",
+      "subjects": [
+        {
+          "subject": "coral ecology"
+        },
+        {
+          "subject": "coral reefs"
+        },
+        {
+          "subject": "ecological surveys"
+        },
+        {
+          "subject": "data mining"
+        },
+        {
+          "subject": "machine learning"
+        },
+        {
+          "subject": "computer vision"
+        },
+        {
+          "subject": "applied mathematics"
+        },
+        {
+          "subject": "marine monitoring"
+        },
+        {
+          "subject": "biology and life sciences"
+        },
+        {
+          "subject": "community ecology"
+        },
+        {
+          "subject": "active learning"
+        },
+        {
+          "subject": "Pacific Ocean"
+        },
+        {
+          "subject": "2005-2012"
+        },
+        {
+          "subject": "Acropora"
+        },
+        {
+          "subject": "Favia"
+        },
+        {
+          "subject": "Favites"
+        },
+        {
+          "subject": "Montastraea"
+        },
+        {
+          "subject": "Pavona"
+        },
+        {
+          "subject": "Platygyra"
+        },
+        {
+          "subject": "Pocillopora"
+        },
+        {
+          "subject": "Porites"
+        },
+        {
+          "subject": "Millepora"
+        }
+      ]
+    }
+  },
+  "ident": "txmwrcsl2fhb3inlntigbglegm",
+  "license_slug": "CC-0",
+  "publisher": "Dryad Digital Repository",
+  "refs": [],
+  "release_stage": "published",
+  "release_type": "dataset",
+  "release_year": 2015,
+  "revision": "c9f636d1-94de-4595-aee7-615f82357c6d",
+  "state": "active",
+  "title": "Data from: Towards automated annotation of benthic survey images: variability of human experts and operational modes of automation",
+  "version": "1",
+  "work_id": "ianubb56dfebrfs6iqnlxj3oxy"
+}
