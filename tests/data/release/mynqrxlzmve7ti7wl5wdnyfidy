@@ -1,0 +1,39 @@
+{
+  "abstracts": [],
+  "container_id": "kbuwkyjxzfdynlhxw73fg7wlrq",
+  "contribs": [
+    {
+      "extra": {
+        "seq": "first"
+      },
+      "index": 0,
+      "raw_name": "W. G. Kellaway",
+      "role": "author"
+    }
+  ],
+  "ext_ids": {
+    "doi": "10.1017/s0025557200207882"
+  },
+  "extra": {
+    "crossref": {
+      "alternative-id": [
+        "S0025557200207882"
+      ],
+      "type": "journal-article"
+    }
+  },
+  "ident": "mynqrxlzmve7ti7wl5wdnyfidy",
+  "issue": "388",
+  "language": "en",
+  "pages": "190-191",
+  "publisher": "Cambridge University Press (CUP)",
+  "refs": [],
+  "release_stage": "published",
+  "release_type": "article-journal",
+  "release_year": 1970,
+  "revision": "b6427776-687c-4fc2-a7ac-8086a7d96c72",
+  "state": "active",
+  "title": "An Introduction to Matrices and Linear Transformations. By John H. Staib. Pp. xii, 336. 1969. (Addison-Wesley.)",
+  "volume": "54",
+  "work_id": "oqf75bruczbb3ou4monbol63ve"
+}

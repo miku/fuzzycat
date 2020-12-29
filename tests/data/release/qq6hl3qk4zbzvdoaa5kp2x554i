@@ -1,0 +1,37 @@
+{
+  "abstracts": [],
+  "container_id": "ptdzvkiimng2hoib3gq2mgqyi4",
+  "contribs": [
+    {
+      "extra": {
+        "seq": "first"
+      },
+      "index": 0,
+      "raw_name": "Robert J. Wisner",
+      "role": "author"
+    }
+  ],
+  "ext_ids": {
+    "doi": "10.1137/1002053"
+  },
+  "extra": {
+    "crossref": {
+      "alternative-id": [
+        "10.1137/1002053"
+      ],
+      "type": "journal-article"
+    }
+  },
+  "ident": "qq6hl3qk4zbzvdoaa5kp2x554i",
+  "language": "en",
+  "pages": "226-227",
+  "publisher": "Society for Industrial & Applied Mathematics (SIAM)",
+  "refs": [],
+  "release_stage": "published",
+  "release_type": "article-journal",
+  "release_year": 1960,
+  "revision": "9a774bb3-dda4-408e-a1c6-80aa42c34e7a",
+  "state": "active",
+  "title": "Introduction to Matrices and Linear Transformations (Daniel T. Finkbeiner)",
+  "work_id": "ncijiodvkzb5hhwhawiqc6t6ym"
+}

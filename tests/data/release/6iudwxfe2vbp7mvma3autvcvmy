@@ -1,0 +1,39 @@
+{
+  "abstracts": [],
+  "container_id": "6jb2mei4hzg4vdohokley4c5om",
+  "contribs": [
+    {
+      "extra": {
+        "seq": "first"
+      },
+      "index": 0,
+      "raw_name": "K. R. Rebman",
+      "role": "author"
+    },
+    {
+      "index": 1,
+      "raw_name": "Daniel T. Finkbeiner",
+      "role": "author"
+    }
+  ],
+  "ext_ids": {
+    "doi": "10.2307/2314304"
+  },
+  "extra": {
+    "crossref": {
+      "type": "journal-article"
+    }
+  },
+  "ident": "6iudwxfe2vbp7mvma3autvcvmy",
+  "pages": "750",
+  "publisher": "JSTOR",
+  "refs": [],
+  "release_stage": "published",
+  "release_type": "article-journal",
+  "release_year": 1967,
+  "revision": "7bde0eb2-805d-4370-8f27-36bf35c61764",
+  "state": "active",
+  "title": "Introduction to Matrices and Linear Transformations.",
+  "volume": "74",
+  "work_id": "udfbobff4vh5bkid2qynfmgrnu"
+}

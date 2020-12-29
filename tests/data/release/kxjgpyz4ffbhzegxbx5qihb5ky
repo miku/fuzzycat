@@ -1,0 +1,39 @@
+{
+  "abstracts": [],
+  "container_id": "hm2lhqyfr5evljkr2l267hw22q",
+  "contribs": [
+    {
+      "extra": {
+        "seq": "first"
+      },
+      "index": 0,
+      "raw_name": "L GODDARD",
+      "role": "author"
+    }
+  ],
+  "ext_ids": {
+    "doi": "10.1016/0160-9327(61)90009-6"
+  },
+  "extra": {
+    "crossref": {
+      "alternative-id": [
+        "0160-9327(61)90009-6"
+      ],
+      "type": "journal-article"
+    }
+  },
+  "ident": "kxjgpyz4ffbhzegxbx5qihb5ky",
+  "issue": "79",
+  "language": "en",
+  "pages": "167",
+  "publisher": "Elsevier BV",
+  "refs": [],
+  "release_stage": "published",
+  "release_type": "article-journal",
+  "release_year": 1961,
+  "revision": "a18dccee-5018-4eaf-8807-ebc620d8f5ef",
+  "state": "active",
+  "title": "Introduction to matrices and linear transformations By Daniel T. Finkbeiner II. Pp. vii + 248. W. H. Freeman & Co. Ltd, London. 1960. 38s. net",
+  "volume": "20",
+  "work_id": "gcnyssteurgqxmsz5gyrkbvdm4"
+}

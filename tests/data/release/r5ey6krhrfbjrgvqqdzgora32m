@@ -1,0 +1,43 @@
+{
+  "abstracts": [],
+  "container_id": "6jovszxj2jeptgymwhghz5hjnq",
+  "contribs": [
+    {
+      "extra": {
+        "seq": "first"
+      },
+      "index": 0,
+      "raw_name": "Daniel T. Finkbeiner",
+      "role": "author"
+    },
+    {
+      "index": 1,
+      "raw_name": "Dagmar Henney",
+      "role": "author"
+    }
+  ],
+  "ext_ids": {
+    "doi": "10.1063/1.3034111"
+  },
+  "extra": {
+    "crossref": {
+      "alternative-id": [
+        "10.1063/1.3034111"
+      ],
+      "type": "journal-article"
+    }
+  },
+  "ident": "r5ey6krhrfbjrgvqqdzgora32m",
+  "language": "en",
+  "pages": "123-123",
+  "publisher": "AIP Publishing",
+  "refs": [],
+  "release_stage": "published",
+  "release_type": "article-journal",
+  "release_year": 1967,
+  "revision": "1ae82deb-6914-40a5-9894-a2b5edaebde3",
+  "state": "active",
+  "title": "Introduction to Matrices and Linear Transformations",
+  "volume": "20",
+  "work_id": "hqo24teo5facjg4gwfmsgimwme"
+}

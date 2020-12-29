@@ -1,0 +1,40 @@
+{
+  "abstracts": [],
+  "container_id": "kbuwkyjxzfdynlhxw73fg7wlrq",
+  "contribs": [
+    {
+      "extra": {
+        "seq": "first"
+      },
+      "index": 0,
+      "raw_name": "J. Asquith",
+      "role": "author"
+    },
+    {
+      "index": 1,
+      "raw_name": "Daniel T. Finkbeiner II",
+      "role": "author"
+    }
+  ],
+  "ext_ids": {
+    "doi": "10.2307/3615907"
+  },
+  "extra": {
+    "crossref": {
+      "type": "journal-article"
+    }
+  },
+  "ident": "uvvfqlbtezh45ctyqrwqwfxlo4",
+  "issue": "427",
+  "pages": "73",
+  "publisher": "JSTOR",
+  "refs": [],
+  "release_stage": "published",
+  "release_type": "article-journal",
+  "release_year": 1980,
+  "revision": "eb5362a6-9104-4830-9b2b-1b4054a5e2fb",
+  "state": "active",
+  "title": "Introduction to Matrices and Linear Transformations",
+  "volume": "64",
+  "work_id": "dq5mgext7rfn7f5y2xudlhvibu"
+}

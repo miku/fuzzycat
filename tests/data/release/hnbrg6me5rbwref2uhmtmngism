@@ -1,0 +1,39 @@
+{
+  "abstracts": [],
+  "container_id": "6jb2mei4hzg4vdohokley4c5om",
+  "contribs": [
+    {
+      "extra": {
+        "seq": "first"
+      },
+      "index": 0,
+      "raw_name": "Albert Newhouse",
+      "role": "author"
+    },
+    {
+      "index": 1,
+      "raw_name": "Daniel T. Finkbeiner",
+      "role": "author"
+    }
+  ],
+  "ext_ids": {
+    "doi": "10.2307/2311391"
+  },
+  "extra": {
+    "crossref": {
+      "type": "journal-article"
+    }
+  },
+  "ident": "hnbrg6me5rbwref2uhmtmngism",
+  "pages": "78",
+  "publisher": "JSTOR",
+  "refs": [],
+  "release_stage": "published",
+  "release_type": "article-journal",
+  "release_year": 1961,
+  "revision": "b45a40ca-4041-42cc-a9c3-d8cd38cffaf9",
+  "state": "active",
+  "title": "Introduction to Matrices and Linear Transformations.",
+  "volume": "68",
+  "work_id": "j63v4kespzhavou4f6fyj5piu4"
+}

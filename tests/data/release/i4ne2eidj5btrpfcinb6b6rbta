@@ -1,0 +1,40 @@
+{
+  "abstracts": [],
+  "container_id": "kbuwkyjxzfdynlhxw73fg7wlrq",
+  "contribs": [
+    {
+      "extra": {
+        "seq": "first"
+      },
+      "index": 0,
+      "raw_name": "D. E. Littlewood",
+      "role": "author"
+    },
+    {
+      "index": 1,
+      "raw_name": "Daniel T. Finkbeiner",
+      "role": "author"
+    }
+  ],
+  "ext_ids": {
+    "doi": "10.2307/3612997"
+  },
+  "extra": {
+    "crossref": {
+      "type": "journal-article"
+    }
+  },
+  "ident": "i4ne2eidj5btrpfcinb6b6rbta",
+  "issue": "378",
+  "pages": "363",
+  "publisher": "JSTOR",
+  "refs": [],
+  "release_stage": "published",
+  "release_type": "article-journal",
+  "release_year": 1967,
+  "revision": "aafec2a6-2469-4e87-985c-ad42122ce274",
+  "state": "active",
+  "title": "Introduction to Matrices and Linear Transformations",
+  "volume": "51",
+  "work_id": "3vbc2vfkgffjti5l246uqy5lea"
+}

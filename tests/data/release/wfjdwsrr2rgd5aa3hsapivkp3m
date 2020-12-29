@@ -1,0 +1,40 @@
+{
+  "abstracts": [],
+  "container_id": "kbuwkyjxzfdynlhxw73fg7wlrq",
+  "contribs": [
+    {
+      "extra": {
+        "seq": "first"
+      },
+      "index": 0,
+      "raw_name": "L. Mirsky",
+      "role": "author"
+    },
+    {
+      "index": 1,
+      "raw_name": "D. T. Finkbeiner",
+      "role": "author"
+    }
+  ],
+  "ext_ids": {
+    "doi": "10.2307/3614147"
+  },
+  "extra": {
+    "crossref": {
+      "type": "journal-article"
+    }
+  },
+  "ident": "wfjdwsrr2rgd5aa3hsapivkp3m",
+  "issue": "354",
+  "pages": "371",
+  "publisher": "JSTOR",
+  "refs": [],
+  "release_stage": "published",
+  "release_type": "article-journal",
+  "release_year": 1961,
+  "revision": "5afae8bd-4a0f-43f6-9a21-694e207f7e87",
+  "state": "active",
+  "title": "Introduction to Matrices and Linear Transformations",
+  "volume": "45",
+  "work_id": "ms33dtzjqfh4laely3su6fabei"
+}
