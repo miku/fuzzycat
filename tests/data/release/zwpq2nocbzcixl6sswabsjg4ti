@@ -1,0 +1,42 @@
+{
+  "abstracts": [
+    {
+      "content": "<jats:p>The Euro-American Consortium for Promotion of the Application of Mathematics in Technical and Natural Sciences was founded in 2008 as a non-governmental non-profit organization in order to foster the scientific activity and informal international exchange. Since then a main tool to realize this intention and idea became an annual conference called AMiTaNS.</jats:p>",
+      "mimetype": "application/xml+jats",
+      "sha1": "99246d0004c21717d3d54d582141d04ec73abc14"
+    }
+  ],
+  "container_id": "rdsyxm4euvcltmorydiwlnsrja",
+  "contribs": [
+    {
+      "extra": {
+        "seq": "first"
+      },
+      "given_name": "Michail",
+      "index": 0,
+      "raw_name": "Michail Todorov",
+      "role": "author",
+      "surname": "Todorov"
+    }
+  ],
+  "ext_ids": {
+    "doi": "10.11145/bmc.2020.12.287"
+  },
+  "extra": {
+    "crossref": {
+      "type": "journal-article"
+    }
+  },
+  "ident": "zwpq2nocbzcixl6sswabsjg4ti",
+  "pages": "62",
+  "publisher": "Biomath Forum",
+  "refs": [],
+  "release_date": "2020-12-29",
+  "release_stage": "published",
+  "release_type": "article-journal",
+  "release_year": 2020,
+  "revision": "32b5e85b-a253-482f-b7bc-17b82cce04e3",
+  "state": "active",
+  "title": "AMiTaNS -- Euro-American Consortium for Promoting the Application of Mathematics in Technical and Natural Sciences - Retrospection, Present and Future",
+  "work_id": "sjgskmdtljdi7envg6fkljt62y"
+}

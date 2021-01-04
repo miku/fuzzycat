@@ -1,0 +1,50 @@
+{
+  "abstracts": [
+    {
+      "content": "We study numerically a system of linearly coupled Goodwin oscillators for two regions, which, when isolated, differ in period and amplitude of regional business cycle. This system is described by the following equations [1]: Here у fit) = regional income, є* > 0, 0, > 0 = time-lag of the dynamic multiplier and the time-lag between investment decisions and the resulting outlays, s, = marginal propensity to save, 0 < s, < 1 , 7 * = ε* + 0 ^ , m , = marginal propensity to import, 0 < m i < 1 , pfix) = induced investment function, pfix) > 0 ; pfiO) = 0 ; <р((0) = n > 0 ; p (y)-/ mini if x->-oo; pfix)-> / тахі if x oo, i = 1 , 2 .",
+      "mimetype": "text/plain",
+      "sha1": "32003097dc22ffea4ad7a3b2c66adf7cd629cc74"
+    }
+  ],
+  "contribs": [
+    {
+      "index": 0,
+      "raw_name": "A Antonova",
+      "role": "author"
+    },
+    {
+      "index": 1,
+      "raw_name": "S Reznik",
+      "role": "author"
+    },
+    {
+      "index": 2,
+      "raw_name": "M Todorov",
+      "role": "author"
+    }
+  ],
+  "ext_ids": {},
+  "extra": {
+    "container_name": "Ninth International Conference on Application of Mathematics in Technical and Natural Sciences 21-26",
+    "longtail_oa": true
+  },
+  "ident": "ex2u4mgrpffp3asznccqd6n35q",
+  "refs": [
+    {
+      "extra": {
+        "authors": [
+          "T Puu"
+        ]
+      },
+      "index": 0,
+      "key": "b0",
+      "year": 1997
+    }
+  ],
+  "release_type": "article-journal",
+  "release_year": 2017,
+  "revision": "7a94a5b5-7659-48e4-8667-c09862ce233f",
+  "state": "active",
+  "title": "BOOK OF ABSTRACTS Euro-American Consortium for Promoting the Application of Mathematics in Technical and Natural Sciences Edited by Michail Todorov The Dynamics of Two Linearly Coupled Goodwin Oscillators",
+  "work_id": "fpk5zbttfzbdnjpaza753z2s7a"
+}
