@@ -91,7 +91,8 @@ from fuzzycat.data import (CONTAINER_NAME_BLACKLIST, PUBLISHER_BLACKLIST, TITLE_
                            TITLE_FRAGMENT_BLACKLIST)
 from fuzzycat.entities import entity_to_dict
 from fuzzycat.utils import (author_similarity_score, contains_chemical_formula, dict_key_exists,
-                            has_doi_prefix, jaccard, num_project, parse_page_string, slugify_string)
+                            doi_prefix, has_doi_prefix, jaccard, num_project, parse_page_string,
+                            slugify_string)
 
 Verify = collections.namedtuple("Verify", "status reason")
 
@@ -526,7 +527,7 @@ def verify(a: Dict, b: Dict, min_title_length=5) -> Tuple[str, str]:
         b_doi = glom(b, "ext_ids.doi")
 
         if a_container_id == b_container_id and a_doi != b_doi and not has_doi_prefix(
-                a_doi, "10.1126"):
+                a_doi, "10.1126") and doi_prefix(a_doi) == doi_prefix(b_doi):
             return Verify(Status.DIFFERENT, Reason.SHARED_DOI_PREFIX)
     except PathAccessError:
         pass
@@ -541,6 +542,7 @@ def verify(a: Dict, b: Dict, min_title_length=5) -> Tuple[str, str]:
         # explodes.
         a_trimmed = sorted(a_slug_authors)[:5]
         b_trimmed = sorted(b_slug_authors)[:5]
+        num_authors = min(len(a_trimmed), len(b_trimmed))
         for a, b in itertools.product(a_trimmed, b_trimmed):
             scores.append(Score(a, b, author_similarity_score(a, b)))
         # TODO: less arbitrary metric and threshold
@@ -551,7 +553,7 @@ def verify(a: Dict, b: Dict, min_title_length=5) -> Tuple[str, str]:
                 top_scores.append(sorted_scores[0].value)
         if len(top_scores) > 0:
             avg_score = sum(top_scores) / len(top_scores)
-            if avg_score > 0.5:
+            if (num_authors < 3 and avg_score > 0.9) or (num_authors >= 3 and avg_score > 0.5):
                 return Verify(Status.STRONG, Reason.TOKENIZED_AUTHORS)
             else:
                 pass

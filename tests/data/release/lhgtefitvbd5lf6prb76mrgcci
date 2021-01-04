@@ -1,0 +1,312 @@
+{
+  "abstracts": [],
+  "container_id": "sjomsvi4zngnnh4gx5bz2onwye",
+  "contribs": [
+    {
+      "extra": {
+        "seq": "first"
+      },
+      "index": 0,
+      "raw_name": "Jill H. Larkin",
+      "role": "author"
+    },
+    {
+      "index": 1,
+      "raw_name": "Herbert A. Simon",
+      "role": "author"
+    }
+  ],
+  "ext_ids": {
+    "doi": "10.1111/j.1551-6708.1987.tb00863.x",
+    "wikidata_qid": "Q30473523"
+  },
+  "extra": {
+    "crossref": {
+      "type": "journal-article"
+    }
+  },
+  "ident": "lhgtefitvbd5lf6prb76mrgcci",
+  "language": "en",
+  "pages": "65-100",
+  "publisher": "Wiley",
+  "refs": [
+    {
+      "container_name": "Psychological Review",
+      "extra": {
+        "authors": [
+          "Anderson"
+        ],
+        "doi": "10.1037/0033-295x.85.4.249",
+        "volume": "85"
+      },
+      "index": 0,
+      "key": "10.1111/j.1551-6708.1987.tb00863.x-BIB1|cit1",
+      "locator": "249",
+      "title": "Arguments concerning representations for mental imagery",
+      "year": 1978
+    },
+    {
+      "container_name": "Representational Types: A Tricode Proposal (Technical Report #82-1)",
+      "extra": {
+        "authors": [
+          "Anderson"
+        ],
+        "volume-title": "Representational Types: A Tricode Proposal (Technical Report #82-1)"
+      },
+      "index": 1,
+      "key": "10.1111/j.1551-6708.1987.tb00863.x-BIB2|cit2",
+      "year": 1984
+    },
+    {
+      "container_name": "Addison-Wesley Series in Artificial Intelligence. Programming Expert Systems in OPS5",
+      "extra": {
+        "authors": [
+          "Brownston"
+        ],
+        "volume-title": "Addison-Wesley Series in Artificial Intelligence. Programming Expert Systems in OPS5"
+      },
+      "index": 2,
+      "key": "10.1111/j.1551-6708.1987.tb00863.x-BIB3|cit3",
+      "year": 1985
+    },
+    {
+      "container_name": "Visual information processing",
+      "extra": {
+        "authors": [
+          "Chase"
+        ],
+        "volume-title": "Visual information processing"
+      },
+      "index": 3,
+      "key": "10.1111/j.1551-6708.1987.tb00863.x-BIB4|cit4",
+      "year": 1973
+    },
+    {
+      "container_name": "The Feynman Lectures on Physics. Figures 4-12",
+      "extra": {
+        "authors": [
+          "Feynman"
+        ],
+        "volume-title": "The Feynman Lectures on Physics. Figures 4-12"
+      },
+      "index": 4,
+      "key": "10.1111/j.1551-6708.1987.tb00863.x-BIB5|cit5",
+      "locator": "11",
+      "year": 1966
+    },
+    {
+      "container_name": "The psychology of invention in the mathematical field",
+      "extra": {
+        "authors": [
+          "Hadamard"
+        ],
+        "volume-title": "The psychology of invention in the mathematical field"
+      },
+      "index": 5,
+      "key": "10.1111/j.1551-6708.1987.tb00863.x-BIB6|cit6",
+      "year": 1945
+    },
+    {
+      "container_name": "Fundamentals of physics",
+      "extra": {
+        "authors": [
+          "Halliday"
+        ],
+        "volume-title": "Fundamentals of physics"
+      },
+      "index": 6,
+      "key": "10.1111/j.1551-6708.1987.tb00863.x-BIB7|cit7",
+      "year": 1970
+    },
+    {
+      "container_name": "Knowledge and cognition",
+      "extra": {
+        "authors": [
+          "Hayes"
+        ],
+        "volume-title": "Knowledge and cognition"
+      },
+      "index": 7,
+      "key": "10.1111/j.1551-6708.1987.tb00863.x-BIB8|cit8",
+      "year": 1974
+    },
+    {
+      "container_name": "Cognition and Instruction",
+      "extra": {
+        "authors": [
+          "Heller"
+        ],
+        "doi": "10.1207/s1532690xci0102_2"
+      },
+      "index": 8,
+      "key": "10.1111/j.1551-6708.1987.tb00863.x-BIB9|cit9",
+      "locator": "177",
+      "title": "Prescribing effective human problem-solving processes: Problem description in physics",
+      "year": 1984
+    },
+    {
+      "container_name": "Psychological Review",
+      "extra": {
+        "authors": [
+          "Kintsch"
+        ],
+        "doi": "10.1037/0033-295x.85.5.363",
+        "volume": "85"
+      },
+      "index": 9,
+      "key": "10.1111/j.1551-6708.1987.tb00863.x-BIB10|cit10",
+      "locator": "363",
+      "title": "Toward a model of text comprehension and production",
+      "year": 1978
+    },
+    {
+      "container_name": "Mechanisms of effective problem representation in physics (C.I.P. 434)",
+      "extra": {
+        "authors": [
+          "Larkin"
+        ],
+        "volume-title": "Mechanisms of effective problem representation in physics (C.I.P. 434)"
+      },
+      "index": 10,
+      "key": "10.1111/j.1551-6708.1987.tb00863.x-BIB11|cit11",
+      "year": 1983
+    },
+    {
+      "container_name": "Principles of economics",
+      "extra": {
+        "authors": [
+          "Marshall"
+        ],
+        "volume-title": "Principles of economics"
+      },
+      "index": 11,
+      "key": "10.1111/j.1551-6708.1987.tb00863.x-BIB12|cit12",
+      "year": 1890
+    },
+    {
+      "container_name": "Cognitive skills and their acquisition",
+      "extra": {
+        "authors": [
+          "Neves"
+        ],
+        "volume-title": "Cognitive skills and their acquisition"
+      },
+      "index": 12,
+      "key": "10.1111/j.1551-6708.1987.tb00863.x-BIB13|cit13",
+      "year": 1981
+    },
+    {
+      "container_name": "Proceedings of the Western Joint Conference on Artificial Intelligence",
+      "extra": {
+        "authors": [
+          "Newell"
+        ],
+        "volume-title": "Proceedings of the Western Joint Conference on Artificial Intelligence"
+      },
+      "index": 13,
+      "key": "10.1111/j.1551-6708.1987.tb00863.x-BIB14|cit14",
+      "year": 1959
+    },
+    {
+      "container_name": "Problem solving",
+      "extra": {
+        "authors": [
+          "Paige"
+        ],
+        "volume-title": "Problem solving"
+      },
+      "index": 14,
+      "key": "10.1111/j.1551-6708.1987.tb00863.x-BIB15|cit15",
+      "year": 1966
+    },
+    {
+      "container_name": "Psychological Bulletin",
+      "extra": {
+        "authors": [
+          "Pylyshyn"
+        ],
+        "doi": "10.1037/h0034650",
+        "volume": "80"
+      },
+      "index": 15,
+      "key": "10.1111/j.1551-6708.1987.tb00863.x-BIB16|cit16",
+      "title": "What the mind's eye tells the mind's brain: A critique of mental imagery",
+      "year": 1973
+    },
+    {
+      "container_name": "Physics",
+      "extra": {
+        "authors": [
+          "Sears"
+        ],
+        "volume-title": "Physics"
+      },
+      "index": 16,
+      "key": "10.1111/j.1551-6708.1987.tb00863.x-BIB17|cit17",
+      "year": 1981
+    },
+    {
+      "container_name": "Minnesota studies in the philosophy of science. Vol. ix: Perception and cognition: Issues in the foundations of psychology",
+      "extra": {
+        "authors": [
+          "Simon"
+        ],
+        "volume-title": "Minnesota studies in the philosophy of science. Vol. ix: Perception and cognition: Issues in the foundations of psychology"
+      },
+      "index": 17,
+      "key": "10.1111/j.1551-6708.1987.tb00863.x-BIB18|cit18",
+      "year": 1978
+    },
+    {
+      "container_name": "Psychological Review",
+      "extra": {
+        "authors": [
+          "Simon"
+        ],
+        "doi": "10.1037/h0028154",
+        "volume": "76"
+      },
+      "index": 18,
+      "key": "10.1111/j.1551-6708.1987.tb00863.x-BIB19|cit19",
+      "locator": "473",
+      "title": "Information Processing Analysis of Perceptual Processes in Problem Solving",
+      "year": 1969
+    },
+    {
+      "container_name": "Artificial Intelligence",
+      "extra": {
+        "authors": [
+          "Waterman"
+        ],
+        "doi": "10.1016/0004-3702(70)90004-4"
+      },
+      "index": 19,
+      "key": "10.1111/j.1551-6708.1987.tb00863.x-BIB20|cit20",
+      "locator": "121",
+      "title": "Generalization learning techniques for automating the learning of heuristics",
+      "year": 1970
+    },
+    {
+      "container_name": "Productive Thinking",
+      "extra": {
+        "authors": [
+          "Wertheimer"
+        ],
+        "volume-title": "Productive Thinking"
+      },
+      "index": 20,
+      "key": "10.1111/j.1551-6708.1987.tb00863.x-BIB21|cit21",
+      "locator": "228",
+      "year": 1959
+    }
+  ],
+  "release_date": "1987-01-03",
+  "release_stage": "published",
+  "release_type": "article-journal",
+  "release_year": 1987,
+  "revision": "542a0bc9-83db-4c69-9c47-2dae034cbcfb",
+  "state": "active",
+  "title": "Why a Diagram is (Sometimes) Worth Ten Thousand Words",
+  "volume": "11",
+  "work_id": "plzrdqz5l5cjnhizr2x7r64zum"
+}

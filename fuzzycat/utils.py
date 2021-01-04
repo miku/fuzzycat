@@ -53,6 +53,13 @@ def dict_key_exists(doc, path):
         return True
 
 
+def doi_prefix(v):
+    """
+    Return the prefix of a DOI.
+    """
+    return v.split("/")[0]
+
+
 def has_doi_prefix(v, prefix="10.1234"):
     """
     Returns False, if we cannot parse v or prefix does not match.

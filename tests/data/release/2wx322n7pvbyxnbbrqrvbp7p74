@@ -1,0 +1,48 @@
+{
+  "abstracts": [],
+  "container_id": "sjomsvi4zngnnh4gx5bz2onwye",
+  "contribs": [
+    {
+      "extra": {
+        "seq": "first"
+      },
+      "index": 0,
+      "raw_name": "J LARKIN",
+      "role": "author"
+    },
+    {
+      "index": 1,
+      "raw_name": "H SIMON",
+      "role": "author"
+    }
+  ],
+  "ext_ids": {
+    "doi": "10.1016/s0364-0213(87)80026-5"
+  },
+  "extra": {
+    "crossref": {
+      "alternative-id": [
+        "S0364021387800265"
+      ],
+      "subject": [
+        "Experimental and Cognitive Psychology",
+        "Cognitive Neuroscience",
+        "Artificial Intelligence"
+      ],
+      "type": "journal-article"
+    }
+  },
+  "ident": "2wx322n7pvbyxnbbrqrvbp7p74",
+  "language": "en",
+  "pages": "65-100",
+  "publisher": "Wiley",
+  "refs": [],
+  "release_stage": "published",
+  "release_type": "article-journal",
+  "release_year": 1987,
+  "revision": "acc4e4c6-f95c-467a-8873-de4dafd2f889",
+  "state": "active",
+  "title": "Why a Diagram is (Sometimes) Worth Ten Thousand Words",
+  "volume": "11",
+  "work_id": "22e2h3f2m5ghbp5mkdlmkoisxy"
+}
