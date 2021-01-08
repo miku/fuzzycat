@@ -1,0 +1,46 @@
+{
+  "abstracts": [],
+  "container_id": "oyuolsoctnezfhswyufqrsbjou",
+  "contribs": [
+    {
+      "index": 0,
+      "raw_name": "José Eymard H. Pittella",
+      "role": "author"
+    },
+    {
+      "index": 1,
+      "raw_name": "Alfredo J. A. Barbosa",
+      "role": "author"
+    }
+  ],
+  "ext_ids": {
+    "doaj": "9f88dd0f9f5848359eeef3d5e8663084"
+  },
+  "extra": {
+    "country": "br",
+    "doaj": {
+      "subject": [
+        {
+          "code": "RB1-214",
+          "scheme": "LCC",
+          "term": "Pathology"
+        }
+      ]
+    },
+    "release_month": 12
+  },
+  "ident": "c5ui7bgop5bfpk67l7ngvr4uxy",
+  "language": "en",
+  "license_slug": "cc-by",
+  "pages": "406-407",
+  "publisher": "Sociedade Brasileira de Patologia Clínica",
+  "refs": [],
+  "release_stage": "published",
+  "release_type": "article-journal",
+  "release_year": 2012,
+  "revision": "06b028af-5a12-41ae-8a5c-5d0aa4323f69",
+  "state": "active",
+  "title": "A nova classificação dos tumores da mama da OMS The new WHO classification of breast tumors",
+  "volume": "48",
+  "work_id": "jgchw45ryrd5xei2spovs3wntm"
+}

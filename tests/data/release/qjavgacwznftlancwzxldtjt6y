@@ -1,0 +1,43 @@
+{
+  "abstracts": [],
+  "container_id": "5idg4ohjqfggjd2vdgxino7424",
+  "contribs": [
+    {
+      "extra": {
+        "seq": "first"
+      },
+      "index": 0,
+      "raw_name": "N. G. N. L.",
+      "role": "author"
+    }
+  ],
+  "ext_ids": {
+    "doi": "10.1093/nq/s7-i.25.498c"
+  },
+  "extra": {
+    "crossref": {
+      "subject": [
+        "Linguistics and Language",
+        "Literature and Literary Theory",
+        "Library and Information Sciences",
+        "Language and Linguistics"
+      ],
+      "type": "journal-article"
+    }
+  },
+  "ident": "qjavgacwznftlancwzxldtjt6y",
+  "issue": "25",
+  "language": "en",
+  "pages": "498-498",
+  "publisher": "Oxford University Press (OUP)",
+  "refs": [],
+  "release_date": "1886-06-19",
+  "release_stage": "published",
+  "release_type": "article-journal",
+  "release_year": 1886,
+  "revision": "0c45d3fa-589b-4107-9e1e-950dcd68861c",
+  "state": "active",
+  "title": "\"Deux oreilles\"",
+  "volume": "s7-I",
+  "work_id": "aoludylnmrgppdmrblnakpbm2m"
+}

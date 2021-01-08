@@ -58,6 +58,7 @@ class Reason(str, Enum):
     SINGULAR_CLUSTER = 'singular_cluster'
     SLUG_TITLE_AUTHOR_MATCH = 'slug_title_author_match'
     SUBTITLE = 'subtitle'
+    TITLE_ARTIFACT = 'title_artifact'
     TITLE_AUTHOR_MATCH = 'title_author_match'
     TITLE_FILENAME = 'title_filename'
     TOKENIZED_AUTHORS = 'tokenized_authors'

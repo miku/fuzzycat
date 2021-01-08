@@ -1,0 +1,43 @@
+{
+  "abstracts": [],
+  "container_id": "oyuolsoctnezfhswyufqrsbjou",
+  "contribs": [
+    {
+      "extra": {
+        "seq": "first"
+      },
+      "index": 0,
+      "raw_name": "José Eymard H. Pittella",
+      "role": "author"
+    },
+    {
+      "index": 1,
+      "raw_name": "Alfredo J. A. Barbosa",
+      "role": "author"
+    }
+  ],
+  "ext_ids": {
+    "doi": "10.1590/s1676-24442012000600002"
+  },
+  "extra": {
+    "crossref": {
+      "alternative-id": [
+        "S1676-24442012000600002"
+      ],
+      "type": "journal-article"
+    }
+  },
+  "ident": "2fok7qpz5nbofay762elgqklwa",
+  "language": "en",
+  "pages": "406-407",
+  "publisher": "FapUNIFESP (SciELO)",
+  "refs": [],
+  "release_stage": "published",
+  "release_type": "article-journal",
+  "release_year": 2012,
+  "revision": "3c528b1e-e308-439a-9c68-11436b028750",
+  "state": "active",
+  "title": "A nova classificação dos tumores da mama da OMS",
+  "volume": "48",
+  "work_id": "lxey46fwm5csnote5v3owqi7eq"
+}

@@ -596,4 +596,14 @@ def verify(a: Dict, b: Dict, min_title_length=5) -> Tuple[str, str]:
     except (ValueError, PathAccessError):
         pass
 
+    # A variant of translated titles, e.g. https://fatcat.wiki/release/search?q=%22A+nova+classifica%C3%A7%C3%A3o+dos+tumores+da+mama+%22
+    try:
+        a_container_id = glom(a, "container_id")
+        b_container_id = glom(b, "container_id")
+        if a_authors == b_authors and a_container_id == b_container_id and a_release_year == b_release_year and a_title != b_title and (
+                a_title in b_title or b_title in a_title):
+            return Verify(Status.STRONG, Reason.TITLE_ARTIFACT)
+    except PathAccessError:
+        pass
+
     return Verify(Status.AMBIGUOUS, Reason.UNKNOWN)
