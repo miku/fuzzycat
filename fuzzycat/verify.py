@@ -596,7 +596,8 @@ def verify(a: Dict, b: Dict, min_title_length=5) -> Tuple[str, str]:
     except (ValueError, PathAccessError):
         pass
 
-    # A variant of translated titles, e.g. https://fatcat.wiki/release/search?q=%22A+nova+classifica%C3%A7%C3%A3o+dos+tumores+da+mama+%22
+    # A variant of translated titles, e.g.
+    # https://fatcat.wiki/release/search?q=%22A+nova+classifica%C3%A7%C3%A3o+dos+tumores+da+mama+%22
     try:
         a_container_id = glom(a, "container_id")
         b_container_id = glom(b, "container_id")
