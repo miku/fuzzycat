@@ -27,6 +27,7 @@ fatcat-openapi-client = "*"
 unidecode = ">=0.10"
 requests = "*"
 dynaconf = "*"
+regex = "*"
 
 [requires]
 python_version = "3.7"
