@@ -1,0 +1,32 @@
+{
+  "abstracts": [],
+  "container_id": "td5cjnem25b35nugn4qftmwcna",
+  "contribs": [],
+  "ext_ids": {
+    "doi": "10.1056/nejmc1108653",
+    "pmid": "21991909"
+  },
+  "extra": {
+    "crossref": {
+      "alternative-id": [
+        "10.1056/NEJMc1108653"
+      ],
+      "type": "journal-article"
+    }
+  },
+  "ident": "vfdeyz6khrflxivy5n2byocmjy",
+  "issue": "13",
+  "language": "en",
+  "pages": "1258-1259",
+  "publisher": "New England Journal of Medicine (NEJM/MMS)",
+  "refs": [],
+  "release_date": "2011-09-29",
+  "release_stage": "published",
+  "release_type": "article-journal",
+  "release_year": 2011,
+  "revision": "e503fe7b-aa55-4c3f-93c5-89391e69ff1e",
+  "state": "active",
+  "title": "Antitrypanosomal Therapy for Chronic Chagas' Disease",
+  "volume": "365",
+  "work_id": "6ztmi5xqqfdubdjoyk7uol6wmi"
+}

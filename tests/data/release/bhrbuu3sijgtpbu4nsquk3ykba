@@ -1,0 +1,42 @@
+{
+  "abstracts": [],
+  "container_id": "td5cjnem25b35nugn4qftmwcna",
+  "contribs": [
+    {
+      "extra": {
+        "seq": "first"
+      },
+      "index": 0,
+      "raw_name": "Caryn Bern",
+      "role": "author"
+    }
+  ],
+  "ext_ids": {
+    "doi": "10.1056/nejmct1014204",
+    "pmid": "21714649",
+    "wikidata_qid": "Q37895691"
+  },
+  "extra": {
+    "crossref": {
+      "alternative-id": [
+        "10.1056/NEJMct1014204"
+      ],
+      "type": "journal-article"
+    }
+  },
+  "ident": "bhrbuu3sijgtpbu4nsquk3ykba",
+  "issue": "26",
+  "language": "en",
+  "pages": "2527-2534",
+  "publisher": "New England Journal of Medicine (NEJM/MMS)",
+  "refs": [],
+  "release_date": "2011-06-30",
+  "release_stage": "published",
+  "release_type": "article-journal",
+  "release_year": 2011,
+  "revision": "04d557af-42c1-4460-a008-fec7a4e5b29f",
+  "state": "active",
+  "title": "Antitrypanosomal Therapy for Chronic Chagas' Disease",
+  "volume": "364",
+  "work_id": "3eydmicsbfbcveljmy37zvud2q"
+}
