@@ -1,0 +1,44 @@
+{
+  "abstracts": [],
+  "contribs": [
+    {
+      "extra": {
+        "seq": "first"
+      },
+      "given_name": "R. M.",
+      "index": 0,
+      "raw_name": "R. M. Solow",
+      "role": "author",
+      "surname": "Solow"
+    }
+  ],
+  "ext_ids": {
+    "doi": "10.4324/9781315240084-3"
+  },
+  "extra": {
+    "container_name": "The Economics of Sustainability",
+    "crossref": {
+      "type": "book-chapter"
+    }
+  },
+  "ident": "zyv5tpidcza33kkc5dn3lxrbd4",
+  "pages": "45-61",
+  "publisher": "Routledge",
+  "refs": [
+    {
+      "extra": {
+        "unstructured": "1 Arrow, K. and Kurz, M . Public Investment, the Rate of Return and Optimal Fiscal Policy (Johns Hopkins, Baltimore, 1970)."
+      },
+      "index": 0,
+      "key": "ref3"
+    }
+  ],
+  "release_date": "2017-09-08",
+  "release_stage": "published",
+  "release_type": "chapter",
+  "release_year": 2017,
+  "revision": "0a1d2462-4b6e-4855-b38a-ecfe09619088",
+  "state": "active",
+  "title": "Intergenerational Equity and Exhaustible Resources 1 , 2",
+  "work_id": "hxomilerxffbfdpegppoos73ie"
+}

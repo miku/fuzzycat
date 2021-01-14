@@ -1,0 +1,34 @@
+{
+  "abstracts": [],
+  "container_id": "4gp7xsp5mndehl3evvt3ibyvbi",
+  "contribs": [
+    {
+      "extra": {
+        "seq": "first"
+      },
+      "index": 0,
+      "raw_name": "R. M. Solow",
+      "role": "author"
+    }
+  ],
+  "ext_ids": {
+    "doi": "10.2307/2296370"
+  },
+  "extra": {
+    "crossref": {
+      "type": "journal-article"
+    }
+  },
+  "ident": "5b7dlm6ux5gppon3f2s5jj7sr4",
+  "pages": "29",
+  "publisher": "Oxford University Press (OUP)",
+  "refs": [],
+  "release_stage": "published",
+  "release_type": "article-journal",
+  "release_year": 1974,
+  "revision": "7c67ea2c-c4be-4417-9b1d-8affbe642176",
+  "state": "active",
+  "title": "Intergenerational Equity and Exhaustible Resources",
+  "volume": "41",
+  "work_id": "2kydyyo6lbatjlxmcdcpwlcrbe"
+}
