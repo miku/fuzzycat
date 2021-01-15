@@ -1,0 +1,350 @@
+{
+  "abstracts": [],
+  "container_id": "cjuvthxkpfgllgt7puxhw6bmme",
+  "contribs": [
+    {
+      "extra": {
+        "seq": "first"
+      },
+      "index": 0,
+      "raw_name": "Carol E. Chenoweth",
+      "role": "author"
+    },
+    {
+      "index": 1,
+      "raw_name": "Suzanne F. Bradley",
+      "role": "author"
+    },
+    {
+      "index": 2,
+      "raw_name": "Margaret S. Terpenning",
+      "role": "author"
+    },
+    {
+      "index": 3,
+      "raw_name": "Lidija T. Zarins",
+      "role": "author"
+    },
+    {
+      "index": 4,
+      "raw_name": "Mary A. Ramsey",
+      "role": "author"
+    },
+    {
+      "index": 5,
+      "raw_name": "Dennis R. Schaberg",
+      "role": "author"
+    },
+    {
+      "index": 6,
+      "raw_name": "Carol A. Kauffman",
+      "role": "author"
+    }
+  ],
+  "ext_ids": {
+    "doi": "10.2307/30148336",
+    "pmid": "7852726"
+  },
+  "extra": {
+    "crossref": {
+      "alternative-id": [
+        "10.2307/30148336"
+      ],
+      "type": "journal-article"
+    }
+  },
+  "ident": "45kgugyzbzadjmkqi5l6lekxq4",
+  "issue": "11",
+  "pages": "703-709",
+  "publisher": "JSTOR",
+  "refs": [
+    {
+      "extra": {
+        "doi": "10.1016/0002-9343(91)90346-y"
+      },
+      "index": 0,
+      "key": "r80_c80"
+    },
+    {
+      "container_name": "Arch Intern Med",
+      "extra": {
+        "authors": [
+          "Kaye D."
+        ],
+        "doi": "10.1001/archinte.1982.00340240028006",
+        "volume": "142"
+      },
+      "index": 1,
+      "key": "r81_c81",
+      "locator": "2006",
+      "year": 1982
+    },
+    {
+      "container_name": "Am J Med Sci",
+      "extra": {
+        "authors": [
+          "Gross PA"
+        ],
+        "doi": "10.1097/00000441-197607000-00009",
+        "volume": "272"
+      },
+      "index": 2,
+      "key": "r82_c82",
+      "locator": "75",
+      "year": 1976
+    },
+    {
+      "container_name": "Arch Intern Med",
+      "extra": {
+        "authors": [
+          "Mandell GL"
+        ],
+        "doi": "10.1001/archinte.1970.00310020064005",
+        "volume": "125"
+      },
+      "index": 3,
+      "key": "r83_c83",
+      "locator": "258",
+      "year": 1970
+    },
+    {
+      "extra": {
+        "doi": "10.2307/30105215"
+      },
+      "index": 4,
+      "key": "r84_c84"
+    },
+    {
+      "extra": {
+        "doi": "10.7326/0003-4819-106-5-687"
+      },
+      "index": 5,
+      "key": "r85_c85"
+    },
+    {
+      "extra": {
+        "doi": "10.7326/0003-4819-117-2-112"
+      },
+      "index": 6,
+      "key": "r87_c87"
+    },
+    {
+      "container_name": "Antimicrob Agents Chemother",
+      "extra": {
+        "authors": [
+          "Horodniceanu T"
+        ],
+        "doi": "10.1128/aac.16.5.686",
+        "volume": "16"
+      },
+      "index": 7,
+      "key": "r88_c88",
+      "locator": "686",
+      "year": 1979
+    },
+    {
+      "container_name": "J Infect Dis",
+      "extra": {
+        "authors": [
+          "Mederski-Samoraj BD."
+        ],
+        "doi": "10.1093/infdis/147.4.751",
+        "volume": "147"
+      },
+      "index": 8,
+      "key": "r89_c89",
+      "locator": "751",
+      "year": 1983
+    },
+    {
+      "extra": {
+        "doi": "10.1001/archinte.147.9.1591"
+      },
+      "index": 9,
+      "key": "r90_c90"
+    },
+    {
+      "container_name": "Infect Control Hosp Epidemiol",
+      "extra": {
+        "authors": [
+          "Terpenning MS"
+        ],
+        "doi": "10.1086/645743"
+      },
+      "index": 10,
+      "key": "r91_c91",
+      "locator": "457",
+      "year": 1988
+    },
+    {
+      "extra": {
+        "doi": "10.7326/0003-4819-115-6-417"
+      },
+      "index": 11,
+      "key": "r92_c92"
+    },
+    {
+      "extra": {
+        "doi": "10.1016/0196-6553(88)90053-3"
+      },
+      "index": 12,
+      "key": "r94_c94"
+    },
+    {
+      "container_name": "J Clin Microbiol",
+      "extra": {
+        "authors": [
+          "Zervos MJ"
+        ],
+        "volume": "25"
+      },
+      "index": 13,
+      "key": "r95_c95",
+      "locator": "2443",
+      "year": 1987
+    },
+    {
+      "container_name": "Nucleic Acids Research",
+      "extra": {
+        "authors": [
+          "Ish-Horowitz D"
+        ],
+        "doi": "10.1093/nar/9.13.2989"
+      },
+      "index": 14,
+      "key": "r96_c96",
+      "locator": "2989",
+      "year": 1981
+    },
+    {
+      "container_name": "Clin Microbiol Rev",
+      "extra": {
+        "authors": [
+          "Murray BE"
+        ],
+        "doi": "10.1128/cmr.3.1.46"
+      },
+      "index": 15,
+      "key": "r98_c98",
+      "locator": "46",
+      "year": 1990
+    },
+    {
+      "extra": {
+        "doi": "10.1093/clinids/14.6.1173"
+      },
+      "index": 16,
+      "key": "r99_c99"
+    },
+    {
+      "container_name": "Arch Intern Med",
+      "extra": {
+        "authors": [
+          "Morrison AJ"
+        ],
+        "doi": "10.1001/archinte.1986.00360200111018",
+        "volume": "146"
+      },
+      "index": 17,
+      "key": "r100_c100",
+      "locator": "1549",
+      "year": 1986
+    },
+    {
+      "extra": {
+        "doi": "10.1097/00005792-198807000-00005"
+      },
+      "index": 18,
+      "key": "r101_c101"
+    },
+    {
+      "container_name": "J Antimicrobial Chemother",
+      "extra": {
+        "authors": [
+          "Moellering"
+        ],
+        "doi": "10.1093/jac/28.1.1",
+        "volume": "28"
+      },
+      "index": 19,
+      "key": "r102_c102",
+      "year": 1992
+    },
+    {
+      "container_name": "J Bacteriol",
+      "extra": {
+        "authors": [
+          "Ferreti JJ"
+        ],
+        "volume": "167"
+      },
+      "index": 20,
+      "key": "r103_c103",
+      "locator": "631",
+      "year": 1986
+    },
+    {
+      "container_name": "Antimicrob Agents Chemother",
+      "extra": {
+        "authors": [
+          "Zervos MJ"
+        ],
+        "doi": "10.1128/aac.30.1.78",
+        "volume": "30"
+      },
+      "index": 21,
+      "key": "r104_c104",
+      "locator": "78",
+      "year": 1986
+    },
+    {
+      "container_name": "J Infect Dis",
+      "extra": {
+        "authors": [
+          "Patterson JE"
+        ],
+        "doi": "10.1093/infdis/158.1.212",
+        "volume": "158"
+      },
+      "index": 22,
+      "key": "r105_c105",
+      "locator": "212",
+      "year": 1988
+    },
+    {
+      "extra": {
+        "doi": "10.2307/30147097"
+      },
+      "index": 23,
+      "key": "r106_c106"
+    },
+    {
+      "container_name": "Infect Control",
+      "extra": {
+        "authors": [
+          "Ward TT"
+        ],
+        "doi": "10.1017/s0195941700055715"
+      },
+      "index": 24,
+      "key": "r107_c107",
+      "locator": "453",
+      "year": 1981
+    },
+    {
+      "extra": {
+        "doi": "10.2307/30145488"
+      },
+      "index": 25,
+      "key": "r108_c108"
+    }
+  ],
+  "release_stage": "published",
+  "release_type": "article-journal",
+  "release_year": 1994,
+  "revision": "e4dbc6c7-a3ed-4b2a-b2c5-c68befa9bd11",
+  "state": "active",
+  "title": "Colonization and Transmission of High-Level Gentamicin-Resistant Enterococci in a Long-Term Care Facility",
+  "volume": "15",
+  "work_id": "mgxb7umcr5dwvdgx3kjxgbasgq"
+}

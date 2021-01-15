@@ -1,0 +1,71 @@
+{
+  "abstracts": [],
+  "container_id": "cjuvthxkpfgllgt7puxhw6bmme",
+  "contribs": [
+    {
+      "extra": {
+        "seq": "first"
+      },
+      "index": 0,
+      "raw_name": "Carol E. Chenoweth",
+      "role": "author"
+    },
+    {
+      "index": 1,
+      "raw_name": "Suzanne F. Bradley",
+      "role": "author"
+    },
+    {
+      "index": 2,
+      "raw_name": "Margaret S. Terpenning",
+      "role": "author"
+    },
+    {
+      "index": 3,
+      "raw_name": "Lidija T. Zarins",
+      "role": "author"
+    },
+    {
+      "index": 4,
+      "raw_name": "Mary A. Ramsey",
+      "role": "author"
+    },
+    {
+      "index": 5,
+      "raw_name": "Dennis R. Schaberg",
+      "role": "author"
+    },
+    {
+      "index": 6,
+      "raw_name": "Carol A. Kauffman",
+      "role": "author"
+    }
+  ],
+  "ext_ids": {
+    "doi": "10.1086/646841",
+    "pmid": "7852726",
+    "wikidata_qid": "Q54192219"
+  },
+  "extra": {
+    "crossref": {
+      "alternative-id": [
+        "10.1086/646841"
+      ],
+      "type": "journal-article"
+    }
+  },
+  "ident": "dgbgkxqihjgelpdaghsnxoybmm",
+  "issue": "11",
+  "language": "en",
+  "pages": "703-709",
+  "publisher": "Cambridge University Press (CUP)",
+  "refs": [],
+  "release_stage": "published",
+  "release_type": "article-journal",
+  "release_year": 1994,
+  "revision": "0f82a78f-adfa-4155-92f7-7c476a7855da",
+  "state": "active",
+  "title": "Colonization and Transmission of High-Level Gentamicin-Resistant Enterococci in a Long-Term Care Facility",
+  "volume": "15",
+  "work_id": "fgcdrlslo5fxdcgyja6wj23pee"
+}
