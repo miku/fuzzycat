@@ -1,0 +1,73 @@
+{
+  "abstracts": [],
+  "contribs": [
+    {
+      "given_name": "Naphtal",
+      "index": 0,
+      "raw_name": "Naphtal Habiyaremye",
+      "role": "author",
+      "surname": "Habiyaremye"
+    },
+    {
+      "given_name": "Justus",
+      "index": 1,
+      "raw_name": "Justus Ochieng",
+      "role": "author",
+      "surname": "Ochieng"
+    },
+    {
+      "given_name": "Thomas",
+      "index": 2,
+      "raw_name": "Thomas Heckelei",
+      "role": "author",
+      "surname": "Heckelei"
+    },
+    {
+      "given_name": "Naphtal",
+      "index": 3,
+      "raw_name": "Naphtal Habiyaremye",
+      "role": "author",
+      "surname": "Habiyaremye"
+    },
+    {
+      "given_name": "Justus",
+      "index": 4,
+      "raw_name": "Justus Ochieng",
+      "role": "author",
+      "surname": "Ochieng"
+    },
+    {
+      "given_name": "Thomas",
+      "index": 5,
+      "raw_name": "Thomas Heckelei",
+      "role": "author",
+      "surname": "Heckelei"
+    }
+  ],
+  "ext_ids": {
+    "doi": "10.22004/ag.econ.295750"
+  },
+  "extra": {
+    "datacite": {
+      "resourceType": "Text",
+      "resourceTypeGeneral": "Text",
+      "subjects": [
+        {
+          "subject": "Crop Production/Industries"
+        },
+        {
+          "subject": "Productivity Analysis"
+        }
+      ]
+    }
+  },
+  "ident": "ixktsx5gmnbonl5zxubhxhfgya",
+  "language": "en",
+  "refs": [],
+  "release_type": "article-journal",
+  "release_year": 2019,
+  "revision": "67058a24-574e-4a42-b048-56292f0afd8d",
+  "state": "active",
+  "title": "Economic analysis of integrated vegetable-poultry production systems in the Babati District of Tanzania",
+  "work_id": "lurv5vhvtvdwze2o4gc5b6hsxq"
+}

@@ -1,0 +1,712 @@
+{
+  "abstracts": [
+    {
+      "content": "<jats:title>Abstract</jats:title><jats:sec>\n                <jats:title>Background</jats:title>\n                <jats:p>Integrated vegetable–poultry production system has recently attracted attention both from the scientific and policy making communities for its potential contribution to food security as well as the opportunities it offers in improving the livelihoods of smallholder farmers in Tanzania. Despite the efforts made, its benefits and costs in heterogeneous and real-world settings are not fully understood. Despite the promising design of the vegetable–poultry production system, rather little is known of its profitability and its contribution to better living conditions of rural households in different real-world settings. The same applies regarding the knowledge on factors influencing the decision to adopt such an integrated system.</jats:p>\n              </jats:sec><jats:sec>\n                <jats:title>Methods</jats:title>\n                <jats:p>Using cross-sectional data collected from 250 households in Babati district of Tanzania, we employ a gross margin analysis and a logit model to evaluate the profitability and to investigate the factors influencing the decision to integrate vegetable and poultry production systems.</jats:p>\n              </jats:sec><jats:sec>\n                <jats:title>Results</jats:title>\n                <jats:p>We find that the integrated vegetable–poultry production system is more profitable than vegetable farming alone and the profitability increases as the poultry flock size increases. An integrating household should keep 18 birds to get significant higher profit than non-integrator. Furthermore, gender and education level of the household head, awareness of integration benefits, land owned, household size, off-farm income, and total income received by the household influence the decision to integrate vegetable and poultry.</jats:p>\n              </jats:sec><jats:sec>\n                <jats:title>Conclusion</jats:title>\n                <jats:p>The study strongly promotes the integration of vegetable–poultry production system and highlights the influence of gender and awareness of integration benefits on the decision to integrate vegetable and poultry. Hence, the policy implication is to empower women and provide capacity building through training and extension services such as provision of affordable and improved vegetable seeds and poultry breeds.</jats:p>\n              </jats:sec>",
+      "mimetype": "application/xml+jats",
+      "sha1": "a64beeb17f086c5305ccedaa20bd57dbba96e997"
+    }
+  ],
+  "container_id": "sqka2txaabehngv6j2hatyvwpq",
+  "contribs": [
+    {
+      "creator_id": "il5ajfxrkzcmdds6n5rn4ciadq",
+      "extra": {
+        "seq": "first"
+      },
+      "given_name": "Naphtal",
+      "index": 0,
+      "raw_name": "Naphtal Habiyaremye",
+      "role": "author",
+      "surname": "Habiyaremye"
+    },
+    {
+      "given_name": "Justus",
+      "index": 1,
+      "raw_name": "Justus Ochieng",
+      "role": "author",
+      "surname": "Ochieng"
+    },
+    {
+      "given_name": "Thomas",
+      "index": 2,
+      "raw_name": "Thomas Heckelei",
+      "role": "author",
+      "surname": "Heckelei"
+    }
+  ],
+  "ext_ids": {
+    "doi": "10.1186/s40066-020-00272-8"
+  },
+  "extra": {
+    "crossref": {
+      "alternative-id": [
+        "272"
+      ],
+      "funder": [
+        {
+          "award": [
+            "AID-BFS-G-11-00002"
+          ],
+          "name": "Africa Research in Sustainable Intensification for the Next Generation"
+        }
+      ],
+      "license": [
+        {
+          "URL": "http://creativecommons.org/licenses/by/4.0/",
+          "content-version": "vor",
+          "delay-in-days": 0,
+          "start": "2021-01-12T00:00:00Z"
+        }
+      ],
+      "type": "journal-article"
+    }
+  },
+  "ident": "q5yheygzs5fxnahqihwejepn6u",
+  "language": "en",
+  "license_slug": "CC-BY",
+  "publisher": "Springer Science and Business Media LLC",
+  "refs": [
+    {
+      "container_name": "Technol Forecast Soc Chang",
+      "extra": {
+        "authors": [
+          "IO Abara"
+        ],
+        "doi": "10.1016/0040-1625(93)90057-e",
+        "issue": "3–4",
+        "unstructured": "Abara IO, Singh S. Ethics and biases in technology adoption: The small-firm argument. Technol Forecast Soc Chang. 1993;43(3–4):289–300.",
+        "volume": "43"
+      },
+      "index": 0,
+      "key": "272_CR1",
+      "locator": "289",
+      "year": 1993
+    },
+    {
+      "container_name": "J Saudi Soc Agric Sci",
+      "extra": {
+        "authors": [
+          "A Adekiya"
+        ],
+        "unstructured": "Adekiya A, Agbede T. Effect of methods and time of poultry manure application on soil and leaf nutrient concentrations, growth and fruit yield of tomato (Lycopersicon esculentum Mill). J Saudi Soc Agric Sci. 2016;16:383–8.",
+        "volume": "16"
+      },
+      "index": 1,
+      "key": "272_CR2",
+      "locator": "383",
+      "year": 2016
+    },
+    {
+      "container_name": "Trop Anim Health Prod",
+      "extra": {
+        "authors": [
+          "H Aklilu"
+        ],
+        "doi": "10.1007/s11250-007-9002-8",
+        "unstructured": "Aklilu H, Almekinders C, Udo H, Van der Zijpp A. Village poultry consumption and marketing in relation to gender, religious festivals and market access. Trop Anim Health Prod. 2007;39(3):165–77.",
+        "volume": "39"
+      },
+      "index": 2,
+      "key": "272_CR3",
+      "locator": "165",
+      "year": 2007
+    },
+    {
+      "container_name": "J Bangladesh Agric Univ",
+      "extra": {
+        "authors": [
+          "S Akter"
+        ],
+        "doi": "10.3329/jbau.v9i2.11036",
+        "unstructured": "Akter S, Islam M, Rahman M. An economic analysis of winter vegetables production in some selected areas of Narsingdi district. J Bangladesh Agric Univ. 2012;9(2):241–6."
+      },
+      "index": 3,
+      "key": "272_CR4",
+      "locator": "241",
+      "year": 2012
+    },
+    {
+      "container_name": "J Bangladesh Soc Agric Sci Technol",
+      "extra": {
+        "authors": [
+          "M Akteruzzaman"
+        ],
+        "unstructured": "Akteruzzaman M, Parvin T, Islam S. Improvement of integrated farming systems for maximizing income and food security in Noakhali region. J Bangladesh Soc Agric Sci Technol. 2012;9:139–46."
+      },
+      "index": 4,
+      "key": "272_CR5",
+      "locator": "139",
+      "year": 2012
+    },
+    {
+      "container_name": "Food Policy",
+      "extra": {
+        "authors": [
+          "S Asfaw"
+        ],
+        "doi": "10.1016/j.foodpol.2012.02.013",
+        "unstructured": "Asfaw S, Shiferaw B, Simtowe F, Lipper L. Impact of modern agricultural technologies on smallholder welfare: evidence from Tanzania and Ethiopia. Food Policy. 2012;37(3):283–95.",
+        "volume": "37"
+      },
+      "index": 5,
+      "key": "272_CR6",
+      "locator": "283",
+      "year": 2012
+    },
+    {
+      "container_name": "Curr Nutr Food Sci",
+      "extra": {
+        "authors": [
+          "J Beattie"
+        ],
+        "doi": "10.2174/1573401052953294",
+        "unstructured": "Beattie J, Crozier A, Duthie GG. Potential health benefits of berries. Curr Nutr Food Sci. 2005;1(1):71–86."
+      },
+      "index": 6,
+      "key": "272_CR7",
+      "locator": "71",
+      "year": 2005
+    },
+    {
+      "container_name": "Climate change and multi-dimensional sustainability in African agriculture",
+      "extra": {
+        "authors": [
+          "F Brentrup"
+        ],
+        "doi": "10.1007/978-3-319-41238-2_7",
+        "unstructured": "Brentrup F, Lammel J, Plassmann K, Schroeder D. Sustainability of intensification of smallholder maize production in Tanzania. In: Climate change and multi-dimensional sustainability in African agriculture. Berlin: Springer; 2016. p. 127–48.",
+        "volume-title": "Climate change and multi-dimensional sustainability in African agriculture"
+      },
+      "index": 7,
+      "key": "272_CR8",
+      "locator": "127",
+      "year": 2016
+    },
+    {
+      "container_name": "Agric Food Secur",
+      "extra": {
+        "authors": [
+          "T Chagomoka"
+        ],
+        "doi": "10.1186/s40066-016-0052-x",
+        "unstructured": "Chagomoka T, Unger S, Drescher A, Glaser R, Marschner B, Schlesinger J. Food coping strategies in northern Ghana. A socio-spatial analysis along the urban–rural continuum. Agric Food Secur. 2016;5(1):1."
+      },
+      "index": 8,
+      "key": "272_CR9",
+      "year": 2016
+    },
+    {
+      "extra": {
+        "doi": "10.5367/000000001101293427",
+        "unstructured": "Delgado CL, Rosegrant MW, Meijer S. Livestock to 2020: the revolution continues. In: Paper presented at the annual meetings of the International Agricultural Trade Research Consortium (IATRC), Auckland, New Zealand; 2001."
+      },
+      "index": 9,
+      "key": "272_CR10"
+    },
+    {
+      "container_name": "Outlook Agric",
+      "extra": {
+        "authors": [
+          "C Devendra"
+        ],
+        "doi": "10.5367/000000002101294010",
+        "unstructured": "Devendra C, Chantalakhana C. Animals, poor people and food insecurity: opportunities for improved livelihoods through efficient natural resource management. Outlook Agric. 2002;31:161–75.",
+        "volume": "31"
+      },
+      "index": 10,
+      "key": "272_CR11",
+      "locator": "161",
+      "year": 2002
+    },
+    {
+      "container_name": "Profitability, labour input, fertilizer application and crop protection in vegetable production in the Arusha region",
+      "extra": {
+        "authors": [
+          "AP Everaarts"
+        ],
+        "unstructured": "Everaarts AP, de Putter H, Maerere A. Profitability, labour input, fertilizer application and crop protection in vegetable production in the Arusha region. Tanzania: PPO AGV; 2015.",
+        "volume-title": "Profitability, labour input, fertilizer application and crop protection in vegetable production in the Arusha region"
+      },
+      "index": 11,
+      "key": "272_CR12",
+      "year": 2015
+    },
+    {
+      "container_name": "The state of food insecurity in the world 2014: strengthening the enabling environment for food security and nutrition",
+      "extra": {
+        "authors": [
+          "FAO, Ifad, & WFP"
+        ],
+        "unstructured": "FAO, Ifad, & WFP. The state of food insecurity in the world 2014: strengthening the enabling environment for food security and nutrition. Rome: Food and Agricultural Organization of the United Nations; 2014.",
+        "volume-title": "The state of food insecurity in the world 2014: strengthening the enabling environment for food security and nutrition"
+      },
+      "index": 12,
+      "key": "272_CR13",
+      "year": 2014
+    },
+    {
+      "extra": {
+        "unstructured": "FAO & WHO. Fruit and vegetables for health: report of a Joint FAO/WHO Workshop, 1–3 September, 2004, Kobe, Japan. In: Paper presented at the Fruit and vegetables for health: Report of a Joint FAO/WHO Workshop, 1–3 September, 2004, Kobe, Japan; 2005."
+      },
+      "index": 13,
+      "key": "272_CR14"
+    },
+    {
+      "container_name": "Food Policy",
+      "extra": {
+        "authors": [
+          "S Feleke"
+        ],
+        "doi": "10.1016/j.foodpol.2005.12.003",
+        "unstructured": "Feleke S, Zegeye T. Adoption of improved maize varieties in Southern Ethiopia: factors and strategy options. Food Policy. 2006;31(5):442–57.",
+        "volume": "31"
+      },
+      "index": 14,
+      "key": "272_CR15",
+      "locator": "442",
+      "year": 2006
+    },
+    {
+      "container_name": "J Agric Appl Econ",
+      "extra": {
+        "authors": [
+          "J Fernandez-Cornejo"
+        ],
+        "doi": "10.1017/s1074070800027073",
+        "unstructured": "Fernandez-Cornejo J, Hendricks C, Mishra A. Technology adoption and off-farm household income: the case of herbicide-tolerant soybeans. J Agric Appl Econ. 2005;37(3):549–63.",
+        "volume": "37"
+      },
+      "index": 15,
+      "key": "272_CR16",
+      "locator": "549",
+      "year": 2005
+    },
+    {
+      "container_name": "Rice Sci",
+      "extra": {
+        "authors": [
+          "R Ghimire"
+        ],
+        "doi": "10.1016/j.rsci.2015.05.006",
+        "unstructured": "Ghimire R, Wen-chi H, Shrestha RB. Factors affecting adoption of improved rice varieties among rural farm households in Central Nepal. Rice Sci. 2015;22(1):35–43.",
+        "volume": "22"
+      },
+      "index": 16,
+      "key": "272_CR17",
+      "locator": "35",
+      "year": 2015
+    },
+    {
+      "container_name": "Outlook Agric",
+      "extra": {
+        "authors": [
+          "E Guèye"
+        ],
+        "doi": "10.5367/000000000101293130",
+        "unstructured": "Guèye E. The role of family poultry in poverty alleviation, food security and the promotion of gender equality in rural Africa. Outlook Agric. 2000;29(2):129–36.",
+        "volume": "29"
+      },
+      "index": 17,
+      "key": "272_CR18",
+      "locator": "129",
+      "year": 2000
+    },
+    {
+      "container_name": "World's Poult Sci J",
+      "extra": {
+        "authors": [
+          "E Guèye"
+        ],
+        "doi": "10.1079/wps200440",
+        "issue": "01",
+        "unstructured": "Guèye E. Gender aspects in family poultry management systems in developing countries. World's Poult Sci J. 2005;61(01):39–46.",
+        "volume": "61"
+      },
+      "index": 18,
+      "key": "272_CR19",
+      "locator": "39",
+      "year": 2005
+    },
+    {
+      "extra": {
+        "unstructured": "Hochmuth G, Hochmuth R, Mylavarapu R. Using composted poultry manure (litter) in mulched vegetable production. Teknik Rapor; 2009."
+      },
+      "index": 19,
+      "key": "272_CR20"
+    },
+    {
+      "extra": {
+        "unstructured": "IFSNAReport. Integrated Food Security and Nutrition Assessment Report of the 2009/10 Main (Masika/Msimu) Season for the Market Year 2010/2011; 2010. http://www.ipcinfo.org/fileadmin/user_upload/ipcinfo/docs/1_IPC_TZA_Nutrition%20Assessement_10_10_Report.pdf. Accessed 26 Nov 2017."
+      },
+      "index": 20,
+      "key": "272_CR21"
+    },
+    {
+      "container_name": "Int J Poult Sci",
+      "extra": {
+        "authors": [
+          "P Ike"
+        ],
+        "doi": "10.3923/ijps.2011.106.109",
+        "unstructured": "Ike P, Ugwumba C. Profitability of small scale broiler production in Onitsha North local government area of Anambra State Nigeria. Int J Poult Sci. 2011;10(2):106–9.",
+        "volume": "10"
+      },
+      "index": 21,
+      "key": "272_CR22",
+      "locator": "106",
+      "year": 2011
+    },
+    {
+      "container_name": "Climate change 2014–impacts, adaptation and vulnerability: regional aspects",
+      "extra": {
+        "authors": [
+          "IPCC"
+        ],
+        "unstructured": "IPCC. Climate change 2014–impacts, adaptation and vulnerability: regional aspects. Cambridge: Cambridge University Press; 2014.",
+        "volume-title": "Climate change 2014–impacts, adaptation and vulnerability: regional aspects"
+      },
+      "index": 22,
+      "key": "272_CR23",
+      "year": 2014
+    },
+    {
+      "container_name": "J Horticult Res",
+      "extra": {
+        "authors": [
+          "RT Kamga"
+        ],
+        "doi": "10.2478/johr-2013-0014",
+        "unstructured": "Kamga RT, Kouamé C, Atangana A, Chagomoka T, Ndango R. Nutritional evaluation of five African indigenous vegetables. J Horticult Res. 2013;21(1):99–106.",
+        "volume": "21"
+      },
+      "index": 23,
+      "key": "272_CR24",
+      "locator": "99",
+      "year": 2013
+    },
+    {
+      "container_name": "World Dev",
+      "extra": {
+        "authors": [
+          "M Kassie"
+        ],
+        "doi": "10.1016/j.worlddev.2011.04.023",
+        "issue": "10",
+        "unstructured": "Kassie M, Shiferaw B, Muricho G. Agricultural technology, crop income, and poverty alleviation in Uganda. World Dev. 2011;39(10):1784–95.",
+        "volume": "39"
+      },
+      "index": 24,
+      "key": "272_CR25",
+      "locator": "1784",
+      "year": 2011
+    },
+    {
+      "container_name": "Int J Veg Sci",
+      "extra": {
+        "authors": [
+          "V Lazaro"
+        ],
+        "doi": "10.1080/19315260.2017.1341445",
+        "unstructured": "Lazaro V, Rajendran S, Afari-Sefa V, Kazuzuru B. Analysis of good agricultural practices in an integrated maize-based farming system. Int J Veg Sci. 2017;23:598–604.",
+        "volume": "23"
+      },
+      "index": 25,
+      "key": "272_CR26",
+      "locator": "598",
+      "year": 2017
+    },
+    {
+      "extra": {
+        "unstructured": "Lumpkin T, Weinberger K, Moore S. Increasing income through fruit and vegetable production opportunities and challenges; 2005. https://cgspace.cgiar.org/bitstream/handle/10947/3904/agm05_stake_4c_lumpkin.pdf?sequence=1&isAllowed=y. Accessed 26 Nov 2017."
+      },
+      "index": 26,
+      "key": "272_CR27"
+    },
+    {
+      "container_name": "Quantity and quality of poultry manure produced under current management programs",
+      "extra": {
+        "authors": [
+          "GW Malone"
+        ],
+        "unstructured": "Malone GW, Sims JT, Gedamu N. Quantity and quality of poultry manure produced under current management programs. Final Rep. Delaware Dep. Natural Resources Environ. Control, Dover; 1992.",
+        "volume-title": "Quantity and quality of poultry manure produced under current management programs"
+      },
+      "index": 27,
+      "key": "272_CR28",
+      "year": 1992
+    },
+    {
+      "extra": {
+        "unstructured": "Mangesho W, Loina R, Diyu J, Urassa V, Lukuyu BA. Report of a feed assessment in Babati District, Tanzania; 2013."
+      },
+      "index": 28,
+      "key": "272_CR29"
+    },
+    {
+      "container_name": "2013 global food policy report",
+      "extra": {
+        "authors": [
+          "A Marble"
+        ],
+        "unstructured": "Marble A, Fritschel H. 2013 global food policy report. Washington: International Food Policy Research Institute; 2014.",
+        "volume-title": "2013 global food policy report"
+      },
+      "index": 29,
+      "key": "272_CR30",
+      "year": 2014
+    },
+    {
+      "container_name": "Agric Syst",
+      "extra": {
+        "authors": [
+          "MJ Mariano"
+        ],
+        "doi": "10.1016/j.agsy.2012.03.010",
+        "unstructured": "Mariano MJ, Villano R, Fleming E. Factors influencing farmers' adoption of modern rice technologies and good management practices in the Philippines. Agric Syst. 2012;110:41–53.",
+        "volume": "110"
+      },
+      "index": 30,
+      "key": "272_CR31",
+      "locator": "41",
+      "year": 2012
+    },
+    {
+      "extra": {
+        "unstructured": "Marwa L, Lukuyu B, Mbaga S, Mutayoba S, Bekunda M. Characterization of local chicken production and management systems in Babati, Tanzania; 2016."
+      },
+      "index": 31,
+      "key": "272_CR32"
+    },
+    {
+      "container_name": "Climate change 2001: impacts, adaptation, and vulnerability: contribution of Working Group II to the third assessment report of the Intergovernmental Panel on Climate Change (Vol. 2)",
+      "extra": {
+        "unstructured": "McCarthy JJ, Canziani OF, Leary NA, Dokken DJ, White KS, editors. Climate change 2001: impacts, adaptation, and vulnerability: contribution of Working Group II to the third assessment report of the Intergovernmental Panel on Climate Change (Vol. 2). Cambridge: Cambridge University Press; 2001.",
+        "volume-title": "Climate change 2001: impacts, adaptation, and vulnerability: contribution of Working Group II to the third assessment report of the Intergovernmental Panel on Climate Change (Vol. 2)"
+      },
+      "index": 32,
+      "key": "272_CR33",
+      "year": 2001
+    },
+    {
+      "container_name": "Food Policy",
+      "extra": {
+        "authors": [
+          "M Mendola"
+        ],
+        "doi": "10.1016/j.foodpol.2006.07.003",
+        "unstructured": "Mendola M. Agricultural technology adoption and poverty reduction: a propensity-score matching analysis for rural Bangladesh. Food Policy. 2007;32(3):372–93.",
+        "volume": "32"
+      },
+      "index": 33,
+      "key": "272_CR34",
+      "locator": "372",
+      "year": 2007
+    },
+    {
+      "container_name": "Livestock Res Rural Dev",
+      "extra": {
+        "authors": [
+          "S Mutayoba"
+        ],
+        "unstructured": "Mutayoba S, Katule A, Minga U, Mtambo M, Olsen JE. The effect of supplementation on the performance of free range local chickens in Tanzania. Livestock Res Rural Dev. 2012;24(5):93.",
+        "volume": "24"
+      },
+      "index": 34,
+      "key": "272_CR35",
+      "locator": "93",
+      "year": 2012
+    },
+    {
+      "extra": {
+        "unstructured": "Mwaniki A. Achieving food security in Africa: challenges and issues. UN Office of the Special Advisor on Africa (OSAA); 2006. http://www.un.org/africa/osaa/reports/Achieving%20Food%20Security%20in%20Africa-Challenges%20and%20Issues.pdf. Accessed 9 May 2010."
+      },
+      "index": 35,
+      "key": "272_CR36"
+    },
+    {
+      "container_name": "J Anim Plant Sci",
+      "extra": {
+        "authors": [
+          "BM Namwata"
+        ],
+        "unstructured": "Namwata BM, Lwelamira J, Mzirai O. Adoption of improved agricultural technologies for Irish potatoes (Solanum tuberosum) among farmers in Mbeya Rural district, Tanzania: a case of Ilungu ward. J Anim Plant Sci. 2010;8(1):927–35."
+      },
+      "index": 36,
+      "key": "272_CR37",
+      "locator": "927",
+      "year": 2010
+    },
+    {
+      "extra": {
+        "unstructured": "NSCA (2008) National Sample Census of Agriculture. http://www.kilimo.go.tz/uploads/Crops_National_Report_(2008).pdf. Accessed 26 Nov 2017."
+      },
+      "index": 37,
+      "key": "272_CR38"
+    },
+    {
+      "container_name": "Renew Agric Food Syst",
+      "extra": {
+        "authors": [
+          "J Ochieng"
+        ],
+        "doi": "10.1017/s1742170516000508",
+        "unstructured": "Ochieng J, Afari-Sefa V, Karanja D, Kessy R, Rajendran S, Samali S. How promoting consumption of traditional African vegetables affects household nutrition security in Tanzania. Renew Agric Food Syst. 2017;33:105.",
+        "volume": "33"
+      },
+      "index": 38,
+      "key": "272_CR39",
+      "locator": "105",
+      "year": 2017
+    },
+    {
+      "container_name": "Afr J Agric Resour Econ",
+      "extra": {
+        "authors": [
+          "J Ochieng"
+        ],
+        "unstructured": "Ochieng J, Owuor G, Bebe BO. Determinants of adoption of management interventions in indigenous chicken production in Kenya. Afr J Agric Resour Econ. 2012;7(1):39–50."
+      },
+      "index": 39,
+      "key": "272_CR40",
+      "locator": "39",
+      "year": 2012
+    },
+    {
+      "extra": {
+        "unstructured": "POGRBC. Your guide to world of chickens: using your chickens' manure as vegetable garden fertilizer; 1999. http://poultryone.com/gardens-and-misc/chickenmanure-html. Accessed 6 June 2017."
+      },
+      "index": 40,
+      "key": "272_CR41"
+    },
+    {
+      "extra": {
+        "unstructured": "Sonaiya E. The context and prospects for development of smallholder rural poultry production in Africa. In: Paper presented at the CTA-Seminar proceedings on smallholder rural poultry production; 1990."
+      },
+      "index": 41,
+      "key": "272_CR42"
+    },
+    {
+      "extra": {
+        "unstructured": "TALIRI. The role of chicken in the tanzanian economy and opportunities for development: an overview. First ACGG Tanzania Innovation Platform Meeting; 2015. https://www.slideshare.net/ILRI/acgg-tanzania-2015. Accessed 6 June 2017."
+      },
+      "index": 42,
+      "key": "272_CR43"
+    },
+    {
+      "extra": {
+        "unstructured": "TDHS-MIS. Tanzania Demographic and Health Survey and Malaria Indicator Survey (TDHS-MIS) 2015–16; 2016. https://www.dhsprogram.com/pubs/pdf/SR233/SR233.pdf. Accessed 13 June 2017"
+      },
+      "index": 43,
+      "key": "272_CR44"
+    },
+    {
+      "extra": {
+        "unstructured": "Thorne P. Crop-livestock interactions. a review of opportunities for developing integrated models. Consultant's Report, Systems Analysis and Impact Assessment Project. Nairobi, Kenya: International Livestock Research Institute; 1998."
+      },
+      "index": 44,
+      "key": "272_CR45"
+    },
+    {
+      "extra": {
+        "unstructured": "TNNS. Tanzania National Nutrition Survey 2014; 2014. https://www.unicef.org/esaro/Tanzania_National_Nutrition_Survey_2014_Final_Report_18012015.pdf. Accessed 13 June 2017."
+      },
+      "index": 45,
+      "key": "272_CR46"
+    },
+    {
+      "container_name": "J Food Compos Anal",
+      "extra": {
+        "authors": [
+          "NP Uusiku"
+        ],
+        "doi": "10.1016/j.jfca.2010.05.002",
+        "unstructured": "Uusiku NP, Oelofse A, Duodu KG, Bester MJ, Faber M. Nutritional value of leafy vegetables of sub-Saharan Africa and their potential contribution to human health: a review. J Food Compos Anal. 2010;23(6):499–509.",
+        "volume": "23"
+      },
+      "index": 46,
+      "key": "272_CR47",
+      "locator": "499",
+      "year": 2010
+    },
+    {
+      "extra": {
+        "unstructured": "Voh J, Ahmed B, Olufajo S, Dike M, Ishaku F (2001) Adoption of improved cowpea technologies in the savanna ecology of Nigeria. A report of survey conducted on PEDUNE/PRONAF project in Nigeria by Institute for Agricultural Research, Ahmadu Bello University Samaru. Zaria, Nigeria."
+      },
+      "index": 47,
+      "key": "272_CR48"
+    },
+    {
+      "container_name": "2016 Global hunger index: getting to zero hunger",
+      "extra": {
+        "authors": [
+          "K Von Grebmer"
+        ],
+        "unstructured": "Von Grebmer K, Bernstein J, Nabarro D, Prasai N, Amin S, Yohannes Y, et al. 2016 Global hunger index: getting to zero hunger. Washington: Intl Food Policy Res Inst; 2016.",
+        "volume-title": "2016 Global hunger index: getting to zero hunger"
+      },
+      "index": 48,
+      "key": "272_CR49",
+      "year": 2016
+    },
+    {
+      "container_name": "Indigenous vegetables in Tanzania: significance and prospects,",
+      "extra": {
+        "authors": [
+          "K Weinberger"
+        ],
+        "unstructured": "Weinberger K. Indigenous vegetables in Tanzania: significance and prospects, vol. 600. Tainan: AVRDC-WorldVegetableCenter; 2004.",
+        "volume-title": "Indigenous vegetables in Tanzania: significance and prospects,"
+      },
+      "index": 49,
+      "key": "272_CR50",
+      "year": 2004
+    },
+    {
+      "container_name": "World Dev",
+      "extra": {
+        "authors": [
+          "K Weinberger"
+        ],
+        "doi": "10.1016/j.worlddev.2007.05.002",
+        "unstructured": "Weinberger K, Lumpkin TA. Diversification into horticulture and poverty reduction: a research agenda. World Dev. 2007;35(8):1464–80.",
+        "volume": "35"
+      },
+      "index": 50,
+      "key": "272_CR51",
+      "locator": "1464",
+      "year": 2007
+    },
+    {
+      "extra": {
+        "doi": "10.2139/ssrn.781784",
+        "unstructured": "Weinberger K, Lumpkin A. Horticulture for poverty alleviation: the unfunded revolution. The World Vegetable Centre. AVRDC Publication (05-613); 2005."
+      },
+      "index": 51,
+      "key": "272_CR52"
+    },
+    {
+      "container_name": "Int J Parasitol",
+      "extra": {
+        "authors": [
+          "RB Williams"
+        ],
+        "doi": "10.1016/s0020-7519(99)00086-7",
+        "unstructured": "Williams RB. A compartmentalised model for the estimation of the cost of coccidiosis to the world's chicken production industry. Int J Parasitol. 1999;29(8):1209–29.",
+        "volume": "29"
+      },
+      "index": 52,
+      "key": "272_CR53",
+      "locator": "1209",
+      "year": 1999
+    }
+  ],
+  "release_date": "2021-01-12",
+  "release_stage": "published",
+  "release_type": "article-journal",
+  "release_year": 2021,
+  "revision": "f0df6ff2-c001-4f26-aa8a-b0d34d70f35c",
+  "state": "active",
+  "title": "Economic analysis of integrated vegetable–poultry production systems in the Babati District of Tanzania",
+  "volume": "10",
+  "work_id": "iac3kzv4hjfwdkigo7ggnn6t4q"
+}
