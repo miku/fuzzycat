@@ -1,0 +1,69 @@
+{
+  "abstracts": [
+    {
+      "content": "Extracellular matrix turnover is initiated, at least in part, by the regulated secretion of members of a family of matrix metalloproteinases. The authors show that interstitial collagenase, stromelysin, two gelatinases (the 72-kD and 92-kD type IV collagenases), and the tissue inhibitor of metalloproteinases (TIMP) are secreted into the culture medium of human retinal pigment epithelium (RPE). These enzymes and their inhibitor were identified by probing immunoblots of western transfers with specific polyclonal antibodies that were made against these proteins or against peptides containing unique sequences from these proteins. Stromelysin and the gelatinases are also active against substrates that are polymerized into polyacrylamide gel before electrophoresis and require metal ions (probably zinc and/or calcium) for activity. The phorbol mitogen, 12-tetradecanoylphorbol-13-acetate, differentially increases the levels of these metalloproteinases and TIMP found in retinal pigment epithelium culture medium with stromelysin and the 92-kD type IV collagenase responding most strongly and TIMP actually decreasing in certain cases. Additional changes in metalloproteinase profiles are observed after approximately 20 passage of several RPE lines in culture. Modulation of extracellular matrix turnover by changing RPE secretion of these matrix metalloproteinases and their TIMP, may play a central role in the normal function and in the pathology of the retina.",
+      "lang": "en",
+      "mimetype": "text/plain",
+      "sha1": "5d75572757018eb696c77b981078987d88e969c7"
+    }
+  ],
+  "container_id": "bktgmrvaorcfle3nbaxcwpsb44",
+  "contribs": [
+    {
+      "extra": {},
+      "given_name": "J P",
+      "index": 0,
+      "raw_affiliation": "Departments of Ophthalmology, Oregon Health Sciences University, Portland, 97201.",
+      "raw_name": "J P Alexander",
+      "role": "author",
+      "surname": "Alexander"
+    },
+    {
+      "extra": {},
+      "given_name": "J M",
+      "index": 1,
+      "raw_name": "J M Bradley",
+      "role": "author",
+      "surname": "Bradley"
+    },
+    {
+      "extra": {},
+      "given_name": "J D",
+      "index": 2,
+      "raw_name": "J D Gabourel",
+      "role": "author",
+      "surname": "Gabourel"
+    },
+    {
+      "extra": {},
+      "given_name": "T S",
+      "index": 3,
+      "raw_name": "T S Acott",
+      "role": "author",
+      "surname": "Acott"
+    }
+  ],
+  "ext_ids": {
+    "pmid": "2176183"
+  },
+  "extra": {
+    "pubmed": {
+      "pub_types": [
+        "Journal Article"
+      ]
+    }
+  },
+  "ident": "fy4tfzhcjnh7rj2r4v2mnyslne",
+  "issue": "12",
+  "language": "en",
+  "pages": "2520-8",
+  "refs": [],
+  "release_stage": "published",
+  "release_type": "article-journal",
+  "release_year": 1990,
+  "revision": "ca69676b-31bb-4900-87f3-4502dd3578d2",
+  "state": "active",
+  "title": "Expression of matrix metalloproteinases and inhibitor by human retinal pigment epithelium",
+  "volume": "31",
+  "work_id": "rjyxwziz2vcj5n4y6t2ofpkd6q"
+}

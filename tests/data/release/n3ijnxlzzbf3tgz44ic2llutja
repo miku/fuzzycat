@@ -1,0 +1,69 @@
+{
+  "abstracts": [
+    {
+      "content": "Extracellular matrix (ECM) turnover and remodeling are initiated, at least in part, by the regulated secretion of members of a family of matrix metalloproteinases. Human and bovine trabecular mesh-work in culture secrete interstitial collagenase, both the 72- and the 92-kD forms of type IV collagenase (gelatinases) and stromelysin, and the tissue inhibitor of metalloproteinases (TIMP). These proteinases and TIMP were identified by immunoblotting western transfers from sodium dodecylsulfate-polyacrylamide gel electrophoresis (SDS-PAGE) using several specific antiprotein and antipeptide polyclonal antibodies. Gelatinase and stromelysin enzymatic activities were also analyzed by substrate SDS-PAGE, in which proteinase substrates were polymerized into the gels before electrophoresis to allow subsequent activity assays. These matrix metalloproteinases and TIMP are secreted at low basal levels into trabecular culture medium; their secretion levels are increased several-fold by treatment of the cultures with the phorbol mitogen. 12-O-tetradecanoylphorbol-13-acetate (TPA). Characteristics of the trabecular matrix metalloproteinases and TIMP are similar to those secreted by numerous other tissues, including the retinal pigment epithelium. These proteinases may serve an important role in the maintenance and regulation of the trabecular extracellular matrix and, subsequently, of the aqueous humor outflow pathway in normal and glaucomatous eyes.",
+      "lang": "en",
+      "mimetype": "text/plain",
+      "sha1": "ac1d44d0940199d70ff335088dbe0136a82af1b4"
+    }
+  ],
+  "container_id": "bktgmrvaorcfle3nbaxcwpsb44",
+  "contribs": [
+    {
+      "extra": {},
+      "given_name": "J P",
+      "index": 0,
+      "raw_affiliation": "Department of Ophthalmology, School of Medicine, Oregon Health Sciences University, Portland 97201.",
+      "raw_name": "J P Alexander",
+      "role": "author",
+      "surname": "Alexander"
+    },
+    {
+      "extra": {},
+      "given_name": "J R",
+      "index": 1,
+      "raw_name": "J R Samples",
+      "role": "author",
+      "surname": "Samples"
+    },
+    {
+      "extra": {},
+      "given_name": "E M",
+      "index": 2,
+      "raw_name": "E M Van Buskirk",
+      "role": "author",
+      "surname": "Van Buskirk"
+    },
+    {
+      "extra": {},
+      "given_name": "T S",
+      "index": 3,
+      "raw_name": "T S Acott",
+      "role": "author",
+      "surname": "Acott"
+    }
+  ],
+  "ext_ids": {
+    "pmid": "1846130"
+  },
+  "extra": {
+    "pubmed": {
+      "pub_types": [
+        "Journal Article"
+      ]
+    }
+  },
+  "ident": "n3ijnxlzzbf3tgz44ic2llutja",
+  "issue": "1",
+  "language": "en",
+  "pages": "172-80",
+  "refs": [],
+  "release_stage": "published",
+  "release_type": "article-journal",
+  "release_year": 1991,
+  "revision": "1a505fdc-87a2-4848-ae60-1385eeee3eb9",
+  "state": "active",
+  "title": "Expression of matrix metalloproteinases and inhibitor by human trabecular meshwork",
+  "volume": "32",
+  "work_id": "evvvpozkofh4vbwlx7wbgpilni"
+}
