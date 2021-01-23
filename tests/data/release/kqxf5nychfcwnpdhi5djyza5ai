@@ -1,0 +1,38 @@
+{
+  "abstracts": [],
+  "container_id": "uy5mv2ncw5eahkdx47hkrglxmm",
+  "contribs": [
+    {
+      "extra": {
+        "seq": "first"
+      },
+      "index": 0,
+      "raw_name": "D Plump",
+      "role": "author"
+    }
+  ],
+  "ext_ids": {
+    "doi": "10.1016/s1571-0661(04)00210-5"
+  },
+  "extra": {
+    "crossref": {
+      "alternative-id": [
+        "S1571-0661(04)00210-5"
+      ],
+      "type": "journal-article"
+    }
+  },
+  "ident": "kqxf5nychfcwnpdhi5djyza5ai",
+  "language": "en",
+  "pages": "1-13",
+  "publisher": "Elsevier BV",
+  "refs": [],
+  "release_stage": "published",
+  "release_type": "article-journal",
+  "release_year": 2004,
+  "revision": "c01a917d-e5d7-41a9-a251-9270773710c3",
+  "state": "active",
+  "title": "Essentials of Term Graph Rewriting",
+  "volume": "51",
+  "work_id": "aqpyt7lsv5conoal2lg4jofgs4"
+}

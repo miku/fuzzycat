@@ -1,0 +1,48 @@
+{
+  "abstracts": [],
+  "container_id": "uy5mv2ncw5eahkdx47hkrglxmm",
+  "contribs": [
+    {
+      "extra": {
+        "seq": "first"
+      },
+      "index": 0,
+      "raw_name": "Detlef Plump",
+      "role": "author"
+    }
+  ],
+  "ext_ids": {
+    "core": "82567169",
+    "doi": "10.1016/s1571-0661(04)80210-x"
+  },
+  "extra": {
+    "crossref": {
+      "alternative-id": [
+        "S157106610480210X"
+      ],
+      "license": [
+        {
+          "URL": "http://creativecommons.org/licenses/by-nc-nd/3.0/",
+          "content-version": "vor",
+          "delay-in-days": 4107,
+          "start": "2013-07-29T00:00:00Z"
+        }
+      ],
+      "type": "journal-article"
+    }
+  },
+  "ident": "wwlxihtcv5a6je6yyfdq4mpk6y",
+  "language": "en",
+  "license_slug": "CC-BY-NC-ND",
+  "pages": "277-289",
+  "publisher": "Elsevier BV",
+  "refs": [],
+  "release_stage": "published",
+  "release_type": "article-journal",
+  "release_year": 2002,
+  "revision": "0cb3bb06-d684-4d4b-a83e-340933121e7d",
+  "state": "active",
+  "title": "Essentials of Term Graph Rewriting",
+  "volume": "51",
+  "work_id": "ueleht3boja2fagzlg2i64qapi"
+}
