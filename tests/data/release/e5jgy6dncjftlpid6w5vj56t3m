@@ -1,0 +1,77 @@
+{
+  "abstracts": [
+    {
+      "content": "(Abstract to follow)",
+      "lang": "en",
+      "mimetype": "text/plain",
+      "sha1": "16611bfed624701c780130b6c5796260bc2b7c8f"
+    }
+  ],
+  "container_id": "h2s7lebe3jabxc26f4xp3wkhwa",
+  "contribs": [
+    {
+      "given_name": "Georgios",
+      "index": 0,
+      "raw_name": "Georgios Diapoulis",
+      "role": "author",
+      "surname": "Diapoulis"
+    },
+    {
+      "given_name": "Ioannis",
+      "index": 1,
+      "raw_name": "Ioannis Zannos",
+      "role": "author",
+      "surname": "Zannos"
+    }
+  ],
+  "ext_ids": {
+    "doi": "10.5281/zenodo.850575"
+  },
+  "extra": {
+    "datacite": {
+      "license": [
+        {
+          "rights": "Creative Commons Attribution 4.0",
+          "rightsUri": "https://creativecommons.org/licenses/by/4.0"
+        },
+        {
+          "rights": "Open Access",
+          "rightsUri": "info:eu-repo/semantics/openAccess"
+        }
+      ],
+      "metadataVersion": 1,
+      "relations": [
+        {
+          "relatedIdentifier": "2518-3672",
+          "relatedIdentifierType": "ISSN",
+          "relationType": "IsPartOf"
+        },
+        {
+          "relatedIdentifier": "978-0-9845274-3-4",
+          "relatedIdentifierType": "ISBN",
+          "relationType": "IsPartOf"
+        },
+        {
+          "relatedIdentifier": "10.5281/zenodo.850574",
+          "relatedIdentifierType": "DOI",
+          "relationType": "IsVersionOf"
+        }
+      ],
+      "resourceType": "Conference paper",
+      "resourceTypeGeneral": "Text"
+    },
+    "release_month": 9
+  },
+  "ident": "e5jgy6dncjftlpid6w5vj56t3m",
+  "license_slug": "CC-BY",
+  "publisher": "Zenodo",
+  "refs": [],
+  "release_date": "2014-09-14",
+  "release_stage": "published",
+  "release_type": "article-journal",
+  "release_year": 2014,
+  "revision": "77a1ae3f-d91a-489e-8320-05f76bbcecce",
+  "state": "active",
+  "title": "Tangibility And Low-Level Live Coding",
+  "work_id": "lljomcklsrgk5psvc72gvnmatq"
+}

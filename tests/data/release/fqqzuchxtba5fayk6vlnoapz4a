@@ -1,0 +1,78 @@
+{
+  "abstracts": [
+    {
+      "content": "(Abstract to follow)",
+      "lang": "en",
+      "mimetype": "text/plain",
+      "sha1": "16611bfed624701c780130b6c5796260bc2b7c8f"
+    }
+  ],
+  "container_id": "h2s7lebe3jabxc26f4xp3wkhwa",
+  "contribs": [
+    {
+      "given_name": "Georgios",
+      "index": 0,
+      "raw_name": "Georgios Diapoulis",
+      "role": "author",
+      "surname": "Diapoulis"
+    },
+    {
+      "given_name": "Ioannis",
+      "index": 1,
+      "raw_name": "Ioannis Zannos",
+      "role": "author",
+      "surname": "Zannos"
+    }
+  ],
+  "ext_ids": {
+    "core": "144681520",
+    "doi": "10.5281/zenodo.850574"
+  },
+  "extra": {
+    "datacite": {
+      "license": [
+        {
+          "rights": "Creative Commons Attribution 4.0",
+          "rightsUri": "https://creativecommons.org/licenses/by/4.0"
+        },
+        {
+          "rights": "Open Access",
+          "rightsUri": "info:eu-repo/semantics/openAccess"
+        }
+      ],
+      "metadataVersion": 1,
+      "relations": [
+        {
+          "relatedIdentifier": "2518-3672",
+          "relatedIdentifierType": "ISSN",
+          "relationType": "IsPartOf"
+        },
+        {
+          "relatedIdentifier": "978-0-9845274-3-4",
+          "relatedIdentifierType": "ISBN",
+          "relationType": "IsPartOf"
+        },
+        {
+          "relatedIdentifier": "10.5281/zenodo.850575",
+          "relatedIdentifierType": "DOI",
+          "relationType": "HasVersion"
+        }
+      ],
+      "resourceType": "Conference paper",
+      "resourceTypeGeneral": "Text"
+    },
+    "release_month": 9
+  },
+  "ident": "fqqzuchxtba5fayk6vlnoapz4a",
+  "license_slug": "CC-BY",
+  "publisher": "Zenodo",
+  "refs": [],
+  "release_date": "2014-09-14",
+  "release_stage": "published",
+  "release_type": "article-journal",
+  "release_year": 2014,
+  "revision": "e94b181a-2495-422a-8c48-0c270739dc0e",
+  "state": "active",
+  "title": "Tangibility And Low-Level Live Coding",
+  "work_id": "mcqrf75y4vg4bnd7mefliml2ae"
+}
