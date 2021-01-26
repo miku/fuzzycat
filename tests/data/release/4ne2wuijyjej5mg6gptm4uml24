@@ -1,0 +1,184 @@
+{
+  "abstracts": [],
+  "container_id": "xfv7rdysezhxpa4oce7jejarnq",
+  "contribs": [
+    {
+      "extra": {
+        "seq": "first"
+      },
+      "index": 0,
+      "raw_name": "Alefiya Neemuchwala",
+      "role": "author"
+    },
+    {
+      "index": 1,
+      "raw_name": "Sarah Teatero",
+      "role": "author"
+    },
+    {
+      "index": 2,
+      "raw_name": "Taryn B.T. Athey",
+      "role": "author"
+    },
+    {
+      "index": 3,
+      "raw_name": "Allison McGeer",
+      "role": "author"
+    },
+    {
+      "index": 4,
+      "raw_name": "Nahuel Fittipaldi",
+      "role": "author"
+    }
+  ],
+  "ext_ids": {
+    "doi": "10.3201//eid2211.152064",
+    "pmcid": "PMC5088006",
+    "pmid": "27767925",
+    "wikidata_qid": "Q37381946"
+  },
+  "extra": {
+    "crossref": {
+      "type": "journal-article"
+    },
+    "pubmed": {
+      "pub_types": [
+        "Journal Article"
+      ]
+    }
+  },
+  "ident": "4ne2wuijyjej5mg6gptm4uml24",
+  "issue": "11",
+  "pages": "1941-1944",
+  "publisher": "Centers for Disease Control and Prevention (CDC)",
+  "refs": [
+    {
+      "extra": {
+        "pmid": "12791877",
+        "unstructured": "J Clin Microbiol. 2003 Jun;41(6):2530-6"
+      },
+      "index": 0,
+      "target_release_id": "lerwdgbz5zauzfomzxqs5ol3b4"
+    },
+    {
+      "extra": {
+        "pmid": "25941374",
+        "unstructured": "Proc Natl Acad Sci U S A. 2015 May 19;112(20):6431-6"
+      },
+      "index": 1,
+      "target_release_id": "6ud6fxcitzcnzp5htq3tz3nk6e"
+    },
+    {
+      "extra": {
+        "pmid": "24554752",
+        "unstructured": "J Clin Microbiol. 2014 May;52(5):1441-7"
+      },
+      "index": 2,
+      "target_release_id": "33mlckibibcgbmwmgurgf66vxu"
+    },
+    {
+      "extra": {
+        "pmid": "10068604",
+        "unstructured": "J Infect Dis. 1999 Apr;179(4):1030-3"
+      },
+      "index": 3,
+      "target_release_id": "2kqcblbck5bdxd2r3dirwkbfg4"
+    },
+    {
+      "extra": {
+        "pmid": "21824423",
+        "unstructured": "BMC Genomics. 2011 Aug 08;12:402"
+      },
+      "index": 4,
+      "target_release_id": "bz3lzogszjbi7diwpq5unxxkba"
+    },
+    {
+      "extra": {
+        "pmid": "22064866",
+        "unstructured": "Nucleic Acids Res. 2012 Jan;40(1):e6"
+      },
+      "index": 5,
+      "target_release_id": "25dbsevjtjc63gxos3o5vme35u"
+    },
+    {
+      "extra": {
+        "pmid": "19870257",
+        "unstructured": "J Exp Med. 1934 Mar 31;59(4):441-58"
+      },
+      "index": 6,
+      "target_release_id": "yhyylmqywjf3pbnh7hrps43csa"
+    },
+    {
+      "extra": {
+        "pmid": "25811284",
+        "unstructured": "Emerg Infect Dis. 2015 Apr;21(4):585-91"
+      },
+      "index": 7,
+      "target_release_id": "qgms757xzvfotecijqjfwiehqy"
+    },
+    {
+      "extra": {
+        "pmid": "18832470",
+        "unstructured": "Proc Natl Acad Sci U S A. 2008 Oct 14;105(41):15961-6"
+      },
+      "index": 8,
+      "target_release_id": "g72z63d4jvf5pdcsx73hhbmnsm"
+    },
+    {
+      "extra": {
+        "pmid": "23002446",
+        "unstructured": "J Infect Dis. 2012 Dec 1;206(11):1745-52"
+      },
+      "index": 9,
+      "target_release_id": "ya4tysqyofdb5g77quclvub7xa"
+    },
+    {
+      "extra": {
+        "pmid": "25088811",
+        "unstructured": "Nat Commun. 2014 Aug 04;5:4544"
+      },
+      "index": 10,
+      "target_release_id": "yj3qz6nzobah7myvtsq2hgb754"
+    },
+    {
+      "extra": {
+        "pmid": "15232197",
+        "unstructured": "Indian J Med Res. 2004 May;119 Suppl:208-12"
+      },
+      "index": 11,
+      "target_release_id": "q2qa5iz7mfff5nndeid3dox2aq"
+    },
+    {
+      "extra": {
+        "pmid": "19079253",
+        "unstructured": "Nat Methods. 2009 Jan;6(1):67-9"
+      },
+      "index": 12,
+      "target_release_id": "z7j3lph5sfdhhkwydcardaqlze"
+    },
+    {
+      "extra": {
+        "pmid": "19480572",
+        "unstructured": "Clin Infect Dis. 2009 Jul 1;49(1):85-92"
+      },
+      "index": 13,
+      "target_release_id": "eqeucep6lvaqrmifc3a7wmcqwm"
+    },
+    {
+      "extra": {
+        "pmid": "23028432",
+        "unstructured": "PLoS One. 2012;7(9):e42304"
+      },
+      "index": 14,
+      "target_release_id": "cv3lzwwi4nhznleg2ndrxizwfi"
+    }
+  ],
+  "release_stage": "published",
+  "release_type": "article-journal",
+  "release_year": 2016,
+  "revision": "8d5e0b80-ce13-4017-ba3b-5ce0890fe43d",
+  "state": "active",
+  "title": "Capsular Switching and Other Large-Scale Recombination Events in Invasive Sequence Type 1 Group BStreptococcus",
+  "volume": "22",
+  "work_id": "t5symkic4jhfphrqdlpfjqwlnq"
+}

@@ -1,0 +1,83 @@
+{
+  "abstracts": [
+    {
+      "content": "We report several cases of recombination events leading to capsular switching among sequence type (ST) 1 group B Streptococcus strains. These strains otherwise shared a common genome backbone with serotype V ST1 strains. However, the genomes of ST1 serotype V strains and those of serotypes VI, VII, and VIII strains differed substantially.",
+      "lang": "en",
+      "mimetype": "text/plain",
+      "sha1": "63316b21a2aaab7c039eff917610e84d733f0531"
+    }
+  ],
+  "container_id": "xfv7rdysezhxpa4oce7jejarnq",
+  "contribs": [
+    {
+      "index": 0,
+      "raw_name": "Alefiya Neemuchwala",
+      "role": "author"
+    },
+    {
+      "index": 1,
+      "raw_name": "Sarah Teatero",
+      "role": "author"
+    },
+    {
+      "index": 2,
+      "raw_name": "Taryn B.T. Athey",
+      "role": "author"
+    },
+    {
+      "index": 3,
+      "raw_name": "Allison McGeer",
+      "role": "author"
+    },
+    {
+      "index": 4,
+      "raw_name": "Nahuel Fittipaldi",
+      "role": "author"
+    }
+  ],
+  "ext_ids": {
+    "doaj": "e76ed92724754e159a0386a4a5aa6442",
+    "doi": "10.3201/eid2211.152064"
+  },
+  "extra": {
+    "country": "us",
+    "doaj": {
+      "keywords": [
+        "group B Streptococcus",
+        "capsular switching",
+        "recombination",
+        "whole-genome sequencing",
+        "bacteria",
+        "streptococci"
+      ],
+      "subject": [
+        {
+          "code": "R",
+          "scheme": "LCC",
+          "term": "Medicine"
+        },
+        {
+          "code": "RC109-216",
+          "scheme": "LCC",
+          "term": "Infectious and parasitic diseases"
+        }
+      ]
+    },
+    "release_month": 11
+  },
+  "ident": "7n532yhbbjgi5a3fgwsia45aue",
+  "issue": "11",
+  "language": "en",
+  "license_slug": "cc-by",
+  "pages": "1941-1944",
+  "publisher": "Centers for Disease Control and Prevention",
+  "refs": [],
+  "release_stage": "published",
+  "release_type": "article-journal",
+  "release_year": 2016,
+  "revision": "2c1d95aa-c8e2-449e-bb79-e9bb969597c9",
+  "state": "active",
+  "title": "Capsular Switching and Other Large-Scale Recombination Events in Invasive Sequence Type 1 Group B Streptococcus",
+  "volume": "22",
+  "work_id": "mu25u2pmz5eprajfkdyejlf3ym"
+}
