@@ -1,0 +1,380 @@
+{
+  "abstracts": [],
+  "container_id": "gc5sjntrizbuje6j765jrhan6a",
+  "contribs": [
+    {
+      "extra": {
+        "seq": "first"
+      },
+      "index": 0,
+      "raw_affiliation": "Kiel University, Kiel, Germany",
+      "raw_name": "Lukas Galke",
+      "role": "author"
+    },
+    {
+      "index": 1,
+      "raw_affiliation": "Kiel University, Kiel, Germany",
+      "raw_name": "Florian Mai",
+      "role": "author"
+    },
+    {
+      "index": 2,
+      "raw_affiliation": "ZBW - Leibniz Information Centre for Economics, Kiel, Germany",
+      "raw_name": "Iacopo Vagliano",
+      "role": "author"
+    },
+    {
+      "index": 3,
+      "raw_affiliation": "Kiel University, Kiel, Germany",
+      "raw_name": "Ansgar Scherp",
+      "role": "author"
+    }
+  ],
+  "ext_ids": {
+    "dblp": "conf/um/GalkeMVS18",
+    "doi": "10.1145/3209219.3209236"
+  },
+  "extra": {
+    "container_name": "Proceedings of the 26th Conference on User Modeling, Adaptation and Personalization  - UMAP '18",
+    "crossref": {
+      "funder": [
+        {
+          "award": [
+            "693092"
+          ],
+          "name": "EU H2020"
+        },
+        {
+          "award": [
+            "311018540"
+          ],
+          "name": "DFG"
+        }
+      ],
+      "license": [
+        {
+          "URL": "http://www.acm.org/publications/policies/copyright_policy#Background",
+          "content-version": "vor",
+          "delay-in-days": 183,
+          "start": "2018-07-03T00:00:00Z"
+        }
+      ],
+      "type": "proceedings-article"
+    },
+    "dblp": {
+      "part_of_key": "conf/um/2018",
+      "type": "inproceedings"
+    }
+  },
+  "ident": "yfevueeu2zarjdffri4z2vdyhq",
+  "pages": "197-205",
+  "publisher": "ACM Press",
+  "refs": [
+    {
+      "extra": {
+        "unstructured": "Julio Barbieri, Leandro G. M. Alvim, Filipe Braida, and Geraldo Zimbr ao. 2017. Autoencoders and recommender systems: COFILS approach. Expert Syst. Appl. Vol. 89 (2017), 81--90."
+      },
+      "index": 0,
+      "key": "key-10.1145/3209219.3209236-1"
+    },
+    {
+      "extra": {
+        "doi": "10.1007/s00799-015-0156-0",
+        "unstructured": "Joeran Beel, Bela Gipp, Stefan Langer, and Corinna Breitinger. 2016. paper recommender systems: a literature survey. International Journal on Digital Libraries Vol. 17, 4 (2016), 305--338."
+      },
+      "index": 1,
+      "key": "key-10.1145/3209219.3209236-2"
+    },
+    {
+      "extra": {
+        "unstructured": "Jöran Beel, Stefan Langer, Bela Gipp, and Andreas Nürnberger. 2014. The Architecture and Datasets of Docear's Research Paper Recommender System. D-Lib Magazine Vol. 20, 11/12 (2014)."
+      },
+      "index": 2,
+      "key": "key-10.1145/3209219.3209236-3"
+    },
+    {
+      "extra": {
+        "unstructured": "Yoshua Bengio, Aaron C. Courville, and Pascal Vincent. 2012. Unsupervised Feature Learning and Deep Learning: A Review and New Perspectives. CoRR Vol. abs/1206.5538 (2012)."
+      },
+      "index": 3,
+      "key": "key-10.1145/3209219.3209236-4"
+    },
+    {
+      "extra": {
+        "unstructured": "Johan Bollen and Herbert Van de Sompel. 2006. An architecture for the aggregation and analysis of scholarly usage data JCDL. ACM, 298--307."
+      },
+      "index": 4,
+      "key": "key-10.1145/3209219.3209236-5"
+    },
+    {
+      "extra": {
+        "doi": "10.1145/2467696.2467743",
+        "unstructured": "Cornelia Caragea, Adrian Silvescu, Prasenjit Mitra, and C. Lee Giles. 2013. Can't see the forest for the trees?: a citation recommendation system JCDL. ACM, 111--114."
+      },
+      "index": 5,
+      "key": "key-10.1145/3209219.3209236-6"
+    },
+    {
+      "extra": {
+        "unstructured": "Klaas Dellschaft and Steffen Staab. 2012. Measuring the influence of tag recommenders on the indexing quality in tagging systems HT. ACM, 73--82."
+      },
+      "index": 6,
+      "key": "key-10.1145/3209219.3209236-7"
+    },
+    {
+      "extra": {
+        "unstructured": "Travis Ebesu and Yi Fang. 2017. Neural Citation Network for Context-Aware Citation Recommendation SIGIR. ACM, 1093--1096."
+      },
+      "index": 7,
+      "key": "key-10.1145/3209219.3209236-8"
+    },
+    {
+      "extra": {
+        "unstructured": "Lukas Galke, Florian Mai, Alan Schelten, Dennis Brunsch, and Ansgar Scherp. 2017 a. Using Titles vs. Full-text as Source for Automated Semantic Document Annotation K-CAP. ACM, 20:1--20:4."
+      },
+      "index": 8,
+      "key": "key-10.1145/3209219.3209236-9"
+    },
+    {
+      "extra": {
+        "unstructured": "Lukas Galke, Ahmed Saleh, and Ansgar Scherp. 2017 b. Word Embeddings for Practical Information Retrieval GI-Jahrestagung (LNI), Vol. Vol. P-275. GI, 2155--2167."
+      },
+      "index": 9,
+      "key": "key-10.1145/3209219.3209236-10"
+    },
+    {
+      "extra": {
+        "doi": "10.1007/978-3-642-55991-4_29",
+        "unstructured": "Andreas Geyer-Schulz, Michael Hahsler, and Maximilian Jahn. 2002. Recommendations for virtual universities from observed user behavior. In Classification, Automation, and New Media. Springer, 273--280."
+      },
+      "index": 10,
+      "key": "key-10.1145/3209219.3209236-11"
+    },
+    {
+      "extra": {
+        "doi": "10.1145/276675.276685",
+        "unstructured": "C. Lee Giles, Kurt D. Bollacker, and Steve Lawrence. 1998. CiteSeer: An Automatic Citation Indexing System. In ACM DL. ACM, 89--98."
+      },
+      "index": 11,
+      "key": "key-10.1145/3209219.3209236-12"
+    },
+    {
+      "extra": {
+        "unstructured": "Bela Gipp, Norman Meuschke, and Mario Lipinski. 2015. CITREC: An Evaluation Framework for Citation-Based Similarity Measures based on TREC Genomics and PubMed Central Proceedings of the iConference 2015. Newport Beach, California. http://ischools.org/the-iconference/"
+      },
+      "index": 12,
+      "key": "key-10.1145/3209219.3209236-13"
+    },
+    {
+      "extra": {
+        "unstructured": "Ian J. Goodfellow, Jean Pouget-Abadie, Mehdi Mirza, Bing Xu, David Warde-Farley, Sherjil Ozair, Aaron C. Courville, and Yoshua Bengio. 2014. Generative Adversarial Nets. In NIPS. 2672--2680."
+      },
+      "index": 13,
+      "key": "key-10.1145/3209219.3209236-14"
+    },
+    {
+      "extra": {
+        "unstructured": "Gregor Große-Bölting, Chifumi Nishioka, and Ansgar Scherp. 2015. A Comparison of Different Strategies for Automated Semantic Document Annotation K-CAP. ACM, 8:1--8:8."
+      },
+      "index": 14,
+      "key": "key-10.1145/3209219.3209236-15"
+    },
+    {
+      "extra": {
+        "doi": "10.1145/2939672.2939754",
+        "unstructured": "Aditya Grover and Jure Leskovec. 2016. node2vec: Scalable Feature Learning for Networks. In KDD. ACM, 855--864."
+      },
+      "index": 15,
+      "key": "key-10.1145/3209219.3209236-16"
+    },
+    {
+      "extra": {
+        "doi": "10.1145/2396761.2398542",
+        "unstructured": "Wenyi Huang, Saurabh Kataria, Cornelia Caragea, Prasenjit Mitra, C. Lee Giles, and Lior Rokach. 2012. Recommending citations: translating papers into references CIKM. ACM, 1910--1914."
+      },
+      "index": 16,
+      "key": "key-10.1145/3209219.3209236-17"
+    },
+    {
+      "extra": {
+        "unstructured": "Wenyi Huang, Zhaohui Wu, Liang Chen, Prasenjit Mitra, and C. Lee Giles. 2015. A Neural Probabilistic Model for Context Based Citation Recommendation AAAI. AAAI Press, 2404--2410."
+      },
+      "index": 17,
+      "key": "key-10.1145/3209219.3209236-18"
+    },
+    {
+      "extra": {
+        "unstructured": "Diederik P. Kingma and Jimmy Ba. 2014. Adam: A Method for Stochastic Optimization. CoRR Vol. abs/1412.6980 (2014)."
+      },
+      "index": 18,
+      "key": "key-10.1145/3209219.3209236-19"
+    },
+    {
+      "extra": {
+        "unstructured": "Thomas N. Kipf and Max Welling. 2016. Semi-Supervised Classification with Graph Convolutional Networks. CoRR Vol. abs/1609.02907 (2016)."
+      },
+      "index": 19,
+      "key": "key-10.1145/3209219.3209236-20"
+    },
+    {
+      "extra": {
+        "unstructured": "Thomas N. Kipf and Max Welling. 2016. Variational Graph Auto-Encoders. CoRR Vol. abs/1611.07308 (2016). http://arxiv.org/abs/1611.07308"
+      },
+      "index": 20,
+      "key": "key-10.1145/3209219.3209236-21"
+    },
+    {
+      "extra": {
+        "unstructured": "Günter Klambauer, Thomas Unterthiner, Andreas Mayr, and Sepp Hochreiter. 2017. Self-Normalizing Neural Networks. In NIPS. 972--981."
+      },
+      "index": 21,
+      "key": "key-10.1145/3209219.3209236-22"
+    },
+    {
+      "extra": {
+        "unstructured": "Ralf Krestel, Peter Fankhauser, and Wolfgang Nejdl. 2009. Latent dirichlet allocation for tag recommendation RecSys. ACM, 61--68."
+      },
+      "index": 22,
+      "key": "key-10.1145/3209219.3209236-23"
+    },
+    {
+      "extra": {
+        "unstructured": "Alireza Makhzani, Jonathon Shlens, Navdeep Jaitly, and Ian J. Goodfellow. 2015. Adversarial Autoencoders. CoRR Vol. abs/1511.05644 (2015)."
+      },
+      "index": 23,
+      "key": "key-10.1145/3209219.3209236-24"
+    },
+    {
+      "extra": {
+        "unstructured": "Sean M. McNee, Istvan Albert, Dan Cosley, Prateep Gopalkrishnan, Shyong K. Lam, Al Mamunur Rashid, Joseph A. Konstan, and John Riedl. 2002. On the recommending of citations for research papers CSCW. ACM, 116--125."
+      },
+      "index": 24,
+      "key": "key-10.1145/3209219.3209236-25"
+    },
+    {
+      "extra": {
+        "unstructured": "Tomas Mikolov, Ilya Sutskever, Kai Chen, Gregory S. Corrado, and Jeffrey Dean. 2013. Distributed Representations of Words and Phrases and their Compositionality NIPS. 3111--3119."
+      },
+      "index": 25,
+      "key": "key-10.1145/3209219.3209236-26"
+    },
+    {
+      "extra": {
+        "unstructured": "Elena Monta nés, José Ramón Quevedo, Irene Dıaz, and José Ranilla. 2009. Collaborative Tag Recommendation System based on Logistic Regression DC@PKDD/ECML (CEUR Workshop Proceedings), Vol. Vol. 497. CEUR-WS.org."
+      },
+      "index": 26,
+      "key": "key-10.1145/3209219.3209236-27"
+    },
+    {
+      "extra": {
+        "unstructured": "Vinod Nair and Geoffrey E. Hinton. 2010. Rectified Linear Units Improve Restricted Boltzmann Machines ICML. Omnipress, 807--814."
+      },
+      "index": 27,
+      "key": "key-10.1145/3209219.3209236-28"
+    },
+    {
+      "extra": {
+        "unstructured": "Jinseok Nam, Eneldo Loza Mencía, Hyunwoo J. Kim, and Johannes Fürnkranz. 2017. Maximizing Subset Accuracy with Recurrent Neural Networks in Multi-label Classification. In NIPS. 5419--5429."
+      },
+      "index": 28,
+      "key": "key-10.1145/3209219.3209236-29"
+    },
+    {
+      "extra": {
+        "doi": "10.1145/3109859.3109889",
+        "unstructured": "Enrico Palumbo, Giuseppe Rizzo, and Raphaël Troncy. 2017. entity2rec: Learning User-Item Relatedness from Knowledge Graphs for Top-N Item Recommendation. In RecSys. ACM, 32--36."
+      },
+      "index": 29,
+      "key": "key-10.1145/3209219.3209236-30"
+    },
+    {
+      "extra": {
+        "doi": "10.1145/2623330.2623732",
+        "unstructured": "Bryan Perozzi, Rami Al-Rfou, and Steven Skiena. 2014. DeepWalk: online learning of social representations KDD. ACM, 701--710."
+      },
+      "index": 30,
+      "key": "key-10.1145/3209219.3209236-31"
+    },
+    {
+      "extra": {
+        "doi": "10.1145/2487788.2488008",
+        "unstructured": "Lisa Posch, Claudia Wagner, Philipp Singer, and Markus Strohmaier. 2013. Meaning as collective use: predicting semantic hashtag categories on twitter WWW (Companion Volume). International World Wide Web Conferences Steering Committee / ACM, 621--628."
+      },
+      "index": 31,
+      "key": "key-10.1145/3209219.3209236-32"
+    },
+    {
+      "extra": {
+        "doi": "10.1145/3109859.3109896",
+        "unstructured": "Massimo Quadrana, Alexandros Karatzoglou, Balázs Hidasi, and Paolo Cremonesi. 2017. Personalizing Session-based Recommendations with Hierarchical Recurrent Neural Networks. In RecSys. ACM, 130--137."
+      },
+      "index": 32,
+      "key": "key-10.1145/3209219.3209236-33"
+    },
+    {
+      "extra": {
+        "unstructured": "Jessica Rosati, Petar Ristoski, Tommaso Di Noia, Renato De Leone, and Heiko Paulheim. 2016. RDF Graph Embeddings for Content-based Recommender Systems CBRecSys@RecSys (CEUR Workshop Proceedings), Vol. Vol. 1673. CEUR-WS.org, 23--30."
+      },
+      "index": 33,
+      "key": "key-10.1145/3209219.3209236-34"
+    },
+    {
+      "extra": {
+        "doi": "10.1145/1526709.1526800",
+        "unstructured": "Shilad Sen, Jesse Vig, and John Riedl. 2009. Tagommenders: connecting users to items through tags WWW. ACM, 671--680."
+      },
+      "index": 34,
+      "key": "key-10.1145/3209219.3209236-35"
+    },
+    {
+      "extra": {
+        "unstructured": "Börkur Sigurbjörnsson and Roelof van Zwol. 2008. Flickr tag recommendation based on collective knowledge WWW. ACM, 327--336."
+      },
+      "index": 35,
+      "key": "key-10.1145/3209219.3209236-36"
+    },
+    {
+      "extra": {
+        "doi": "10.1002/asi.4630240406",
+        "unstructured": "Henry Small. 1973. Co-citation in the scientific literature: A new measure of the relationship between two documents. JASIS Vol. 24, 4 (1973), 265--269."
+      },
+      "index": 36,
+      "key": "key-10.1145/3209219.3209236-37"
+    },
+    {
+      "extra": {
+        "unstructured": "Nitish Srivastava, Geoffrey E. Hinton, Alex Krizhevsky, Ilya Sutskever, and Ruslan Salakhutdinov. 2014. Dropout: a simple way to prevent neural networks from overfitting. Journal of Machine Learning Research Vol. 15, 1 (2014), 1929--1958."
+      },
+      "index": 37,
+      "key": "key-10.1145/3209219.3209236-38"
+    },
+    {
+      "extra": {
+        "unstructured": "Martin Toepfer and Christin Seifert. 2017. Descriptor-Invariant Fusion Architectures for Automatic Subject Indexing JCDL. IEEE Computer Society, 31--40."
+      },
+      "index": 38,
+      "key": "key-10.1145/3209219.3209236-39"
+    },
+    {
+      "extra": {
+        "unstructured": "Hao Wang, Naiyan Wang, and Dit-Yan Yeung. 2015. Collaborative Deep Learning for Recommender Systems KDD. ACM, 1235--1244."
+      },
+      "index": 39,
+      "key": "key-10.1145/3209219.3209236-40"
+    },
+    {
+      "extra": {
+        "unstructured": "Paulus Franciscus Wouters et al. 1999. The citation culture. Ph.D. Dissertation. Universiteit van Amsterdam. https://pure.uva.nl/ws/files/3164315/8231_13.pdf"
+      },
+      "index": 40,
+      "key": "key-10.1145/3209219.3209236-41"
+    }
+  ],
+  "release_stage": "published",
+  "release_type": "paper-conference",
+  "release_year": 2018,
+  "revision": "81cc38a4-8b88-4351-ab00-47777f17e3f9",
+  "state": "active",
+  "title": "Multi-Modal Adversarial Autoencoders for Recommendations of Citations and Subject Labels",
+  "work_id": "e2p4bhol2zhljnxni5rzxiwvw4"
+}

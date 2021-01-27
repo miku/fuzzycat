@@ -1,0 +1,59 @@
+{
+  "abstracts": [
+    {
+      "content": "We present multi-modal adversarial autoencoders for recommendation and\nevaluate them on two different tasks: citation recommendation and subject label\nrecommendation. We analyze the effects of adversarial regularization, sparsity,\nand different input modalities. By conducting 408 experiments, we show that\nadversarial regularization consistently improves the performance of\nautoencoders for recommendation. We demonstrate, however, that the two tasks\ndiffer in the semantics of item co-occurrence in the sense that item\nco-occurrence resembles relatedness in case of citations, yet implies diversity\nin case of subject labels. Our results reveal that supplying the partial item\nset as input is only helpful, when item co-occurrence resembles relatedness.\nWhen facing a new recommendation task it is therefore crucial to consider the\nsemantics of item co-occurrence for the choice of an appropriate model.",
+      "lang": "en",
+      "mimetype": "text/plain",
+      "sha1": "66f79a4e50db9328d5c54909f5c7825e173a803a"
+    }
+  ],
+  "contribs": [
+    {
+      "index": 0,
+      "raw_name": "Lukas Galke",
+      "role": "author"
+    },
+    {
+      "index": 1,
+      "raw_name": "Florian Mai",
+      "role": "author"
+    },
+    {
+      "index": 2,
+      "raw_name": "Iacopo Vagliano",
+      "role": "author"
+    },
+    {
+      "index": 3,
+      "raw_name": "Ansgar Scherp",
+      "role": "author"
+    }
+  ],
+  "ext_ids": {
+    "arxiv": "1907.12366v1"
+  },
+  "extra": {
+    "arxiv": {
+      "base_id": "1907.12366",
+      "categories": [
+        "cs.IR",
+        "cs.LG",
+        "stat.ML"
+      ],
+      "comments": "Published in: UMAP '18 Proceedings of the 26th Conference on User\n  Modeling, Adaptation and Personalization Pages 197-205"
+    }
+  },
+  "ident": "4pejvip65bbkrcbf4jrd4jnhum",
+  "language": "en",
+  "license_slug": "ARXIV-1.0",
+  "refs": [],
+  "release_date": "2019-07-22",
+  "release_stage": "submitted",
+  "release_type": "article",
+  "release_year": 2019,
+  "revision": "a71e9bb6-50a1-4ddb-bb3b-a881e4ea5a7b",
+  "state": "active",
+  "title": "Multi-Modal Adversarial Autoencoders for Recommendations of Citations\n  and Subject Labels",
+  "version": "v1",
+  "work_id": "e2p4bhol2zhljnxni5rzxiwvw4"
+}
