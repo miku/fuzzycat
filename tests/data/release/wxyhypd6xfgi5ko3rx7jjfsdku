@@ -1,0 +1,47 @@
+{
+  "abstracts": [],
+  "container_id": "w47kezfuffdgvcobhv564rrlju",
+  "contribs": [
+    {
+      "extra": {
+        "seq": "first"
+      },
+      "index": 0,
+      "raw_name": "Christoffer Dall",
+      "role": "author"
+    },
+    {
+      "index": 1,
+      "raw_name": "Jason Nieh",
+      "role": "author"
+    }
+  ],
+  "ext_ids": {
+    "dblp": "conf/asplos/DallN14",
+    "doi": "10.1145/2541940.2541946"
+  },
+  "extra": {
+    "container_name": "Proceedings of the 19th international conference on Architectural support for programming languages and operating systems - ASPLOS '14",
+    "crossref": {
+      "type": "proceedings-article"
+    },
+    "dblp": {
+      "part_of_key": "conf/asplos/2014",
+      "type": "inproceedings"
+    },
+    "subtitle": [
+      "the design and implementation of the linux ARM hypervisor"
+    ]
+  },
+  "ident": "wxyhypd6xfgi5ko3rx7jjfsdku",
+  "pages": "333-348",
+  "publisher": "ACM Press",
+  "refs": [],
+  "release_stage": "published",
+  "release_type": "paper-conference",
+  "release_year": 2014,
+  "revision": "88f1a7fa-7c85-4b9a-9b65-0c1a01cc6481",
+  "state": "active",
+  "title": "KVM/ARM",
+  "work_id": "r36kttbmyjedvexooj7tf5mexm"
+}

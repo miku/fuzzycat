@@ -1,0 +1,41 @@
+{
+  "abstracts": [],
+  "container_id": "2kdpywuhxneg5f43movkk6ucce",
+  "contribs": [
+    {
+      "index": 0,
+      "raw_name": "Christoffer Dall",
+      "role": "author"
+    },
+    {
+      "index": 1,
+      "raw_name": "Shih-Wei Li",
+      "role": "author"
+    },
+    {
+      "index": 2,
+      "raw_name": "Jason Nieh",
+      "role": "author"
+    }
+  ],
+  "ext_ids": {
+    "dblp": "conf/usenix/DallLN17"
+  },
+  "extra": {
+    "dblp": {
+      "part_of_key": "conf/usenix/2017",
+      "type": "inproceedings"
+    },
+    "event": "USENIX Annual Technical Conference"
+  },
+  "ident": "6klkrtljjrbmno4nhd7r2lckdm",
+  "pages": "221-233",
+  "refs": [],
+  "release_stage": "published",
+  "release_type": "paper-conference",
+  "release_year": 2017,
+  "revision": "17420abf-8005-4569-81ff-8c2459afef9d",
+  "state": "active",
+  "title": "Optimizing the Design and Implementation of the Linux ARM Hypervisor",
+  "work_id": "frf3isrjhjgvfirk463dgqebpa"
+}

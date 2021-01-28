@@ -1,0 +1,310 @@
+{
+  "abstracts": [],
+  "container_id": "xu5bk2lj5rbdxlx6222nw7tsxi",
+  "contribs": [
+    {
+      "extra": {
+        "seq": "first"
+      },
+      "given_name": "Christoffer",
+      "index": 0,
+      "raw_affiliation": "Columbia University, New York, NY, USA",
+      "raw_name": "Christoffer Dall",
+      "role": "author",
+      "surname": "Dall"
+    },
+    {
+      "given_name": "Jason",
+      "index": 1,
+      "raw_affiliation": "Columbia University, New York, NY, USA",
+      "raw_name": "Jason Nieh",
+      "role": "author",
+      "surname": "Nieh"
+    }
+  ],
+  "ext_ids": {
+    "doi": "10.1145/2644865.2541946"
+  },
+  "extra": {
+    "crossref": {
+      "alternative-id": [
+        "10.1145/2644865.2541946"
+      ],
+      "subject": [
+        "Software",
+        "Computer Graphics and Computer-Aided Design"
+      ],
+      "type": "journal-article"
+    }
+  },
+  "ident": "fw244fmwsrdfrl4mjl3ckcs45y",
+  "language": "en",
+  "pages": "333-348",
+  "publisher": "Association for Computing Machinery (ACM)",
+  "refs": [
+    {
+      "extra": {
+        "doi": "10.1145/1168857.1168860"
+      },
+      "index": 0,
+      "key": "e_1_2_1_1_1"
+    },
+    {
+      "container_name": "Proceedings of the 2012 USENIX Annual Technical Conference",
+      "extra": {
+        "authors": [
+          "Agesen O."
+        ],
+        "volume-title": "Proceedings of the 2012 USENIX Annual Technical Conference"
+      },
+      "index": 1,
+      "key": "e_1_2_1_2_1",
+      "locator": "373",
+      "year": 2012
+    },
+    {
+      "extra": {
+        "unstructured": "ARM Ltd. ARM Energy Probe. http://www.arm.com/products/tools/arm-energy-probe.php.  ARM Ltd. ARM Energy Probe. http://www.arm.com/products/tools/arm-energy-probe.php."
+      },
+      "index": 2,
+      "key": "e_1_2_1_3_1"
+    },
+    {
+      "extra": {
+        "unstructured": "ARMLtd. ARMCortex-A15 Technical ReferenceManual ARM DDI 0438C Sept. 2011.  ARMLtd. ARMCortex-A15 Technical ReferenceManual ARM DDI 0438C Sept. 2011."
+      },
+      "index": 3,
+      "key": "e_1_2_1_4_1"
+    },
+    {
+      "extra": {
+        "unstructured": "ARMLtd. ARMGeneric Interrupt Controller Architecture version 2.0 ARMIHI 0048B June 2011.  ARMLtd. ARMGeneric Interrupt Controller Architecture version 2.0 ARMIHI 0048B June 2011."
+      },
+      "index": 4,
+      "key": "e_1_2_1_5_1"
+    },
+    {
+      "extra": {
+        "unstructured": "ARM Ltd. ARM Architecture Reference Manual ARMv7-A DDI0406C.b July 2012.  ARM Ltd. ARM Architecture Reference Manual ARMv7-A DDI0406C.b July 2012."
+      },
+      "index": 5,
+      "key": "e_1_2_1_6_1"
+    },
+    {
+      "extra": {
+        "unstructured": "ARM Ltd. ARM Architecture Reference Manual ARMv8-A DDI0487A.a Sept. 2013.  ARM Ltd. ARM Architecture Reference Manual ARMv8-A DDI0487A.a Sept. 2013."
+      },
+      "index": 6,
+      "key": "e_1_2_1_7_1"
+    },
+    {
+      "extra": {
+        "doi": "10.1145/945445.945462"
+      },
+      "index": 7,
+      "key": "e_1_2_1_8_1"
+    },
+    {
+      "extra": {
+        "doi": "10.1145/1899928.1899945"
+      },
+      "index": 8,
+      "key": "e_1_2_1_9_1"
+    },
+    {
+      "extra": {
+        "doi": "10.1145/2382553.2382554"
+      },
+      "index": 9,
+      "key": "e_1_2_1_10_1"
+    },
+    {
+      "extra": {
+        "unstructured": "C. Dall and A. Jones. KVM/ARM Unit Tests. https://github.com/columbia/kvm-unit-tests.  C. Dall and A. Jones. KVM/ARM Unit Tests. https://github.com/columbia/kvm-unit-tests."
+      },
+      "index": 10,
+      "key": "e_1_2_1_11_1"
+    },
+    {
+      "container_name": "Proceedings of the Ottawa Linux Symposium",
+      "extra": {
+        "authors": [
+          "Dall C."
+        ],
+        "volume-title": "Proceedings of the Ottawa Linux Symposium"
+      },
+      "index": 11,
+      "key": "e_1_2_1_12_1",
+      "locator": "45",
+      "year": 2010
+    },
+    {
+      "extra": {
+        "unstructured": "C. Dall and J. Nieh. Supporting KVMon the ARMarchitecture. LWN.net July 2013. http://lwn.net/Articles/557132/.  C. Dall and J. Nieh. Supporting KVMon the ARMarchitecture. LWN.net July 2013. http://lwn.net/Articles/557132/."
+      },
+      "index": 12,
+      "key": "e_1_2_1_13_1"
+    },
+    {
+      "extra": {
+        "unstructured": "David Brash Architecture Program Manager ARM Ltd. Personal communication Nov. 2012.  David Brash Architecture Program Manager ARM Ltd. Personal communication Nov. 2012."
+      },
+      "index": 13,
+      "key": "e_1_2_1_14_1"
+    },
+    {
+      "container_name": "Chung. ARMvisor: System Virtualization for ARM. In Proceedings of the Ottawa Linux Symposium (OLS)",
+      "extra": {
+        "authors": [
+          "Ding J.-H."
+        ],
+        "volume-title": "Chung. ARMvisor: System Virtualization for ARM. In Proceedings of the Ottawa Linux Symposium (OLS)"
+      },
+      "index": 14,
+      "key": "e_1_2_1_15_1",
+      "locator": "93",
+      "year": 2012
+    },
+    {
+      "extra": {
+        "unstructured": "General Dynamics. OKL4 Microvisor. http://www.ok-labs.com/products/okl4-microvisor.  General Dynamics. OKL4 Microvisor. http://www.ok-labs.com/products/okl4-microvisor."
+      },
+      "index": 15,
+      "key": "e_1_2_1_16_1"
+    },
+    {
+      "extra": {
+        "unstructured": "Green Hills Software. INTEGRITY Secure Virtualization. http://www.ghs.com/products/rtos/integrity_virtualization.html.  Green Hills Software. INTEGRITY Secure Virtualization. http://www.ghs.com/products/rtos/integrity_virtualization.html."
+      },
+      "index": 16,
+      "key": "e_1_2_1_17_1"
+    },
+    {
+      "extra": {
+        "doi": "10.1109/ccnc08.2007.64"
+      },
+      "index": 17,
+      "key": "e_1_2_1_18_1"
+    },
+    {
+      "extra": {
+        "unstructured": "InSignal Co. ArndaleBoard.org. http://arndaleboard.org.  InSignal Co. ArndaleBoard.org. http://arndaleboard.org."
+      },
+      "index": 18,
+      "key": "e_1_2_1_19_1"
+    },
+    {
+      "extra": {
+        "unstructured": "Intel Corporation. Intel 64 and IA-32 Architectures Software DevelopersManual 325462-044US Aug. 2012.  Intel Corporation. Intel 64 and IA-32 Architectures Software DevelopersManual 325462-044US Aug. 2012."
+      },
+      "index": 19,
+      "key": "e_1_2_1_20_1"
+    },
+    {
+      "extra": {
+        "unstructured": "A. Kivity. KVMUnit Tests. https://git.kernel.org/cgit/virt/kvm/kvm-unit-tests.git.  A. Kivity. KVMUnit Tests. https://git.kernel.org/cgit/virt/kvm/kvm-unit-tests.git."
+      },
+      "index": 20,
+      "key": "e_1_2_1_21_1"
+    },
+    {
+      "container_name": "Proceedings of the Ottawa Linux Symposium (OLS)",
+      "extra": {
+        "authors": [
+          "Kivity A."
+        ],
+        "volume-title": "Proceedings of the Ottawa Linux Symposium (OLS)"
+      },
+      "index": 21,
+      "key": "e_1_2_1_22_1",
+      "locator": "225",
+      "year": 2007
+    },
+    {
+      "extra": {
+        "unstructured": "KVM/ARM Mailing List. https://lists.cs.columbia.edu/cucslists/listinfo/kvmarm.  KVM/ARM Mailing List. https://lists.cs.columbia.edu/cucslists/listinfo/kvmarm."
+      },
+      "index": 22,
+      "key": "e_1_2_1_23_1"
+    },
+    {
+      "extra": {
+        "unstructured": "Linux ARM Kernel Mailing List. A15 H/W Virtualization Support Apr. 2011. http://archive.arm.linux.org.uk/lurker/message/20110412.204714.a36702d9.en.html.  Linux ARM Kernel Mailing List. A15 H/W Virtualization Support Apr. 2011. http://archive.arm.linux.org.uk/lurker/message/20110412.204714.a36702d9.en.html."
+      },
+      "index": 23,
+      "key": "e_1_2_1_24_1"
+    },
+    {
+      "container_name": "Proceedings of the 1996 USENIX Annual Technical Conference",
+      "extra": {
+        "authors": [
+          "McVoy L."
+        ],
+        "volume-title": "Proceedings of the 1996 USENIX Annual Technical Conference"
+      },
+      "index": 24,
+      "key": "e_1_2_1_25_1",
+      "locator": "279",
+      "year": 1996
+    },
+    {
+      "extra": {
+        "unstructured": "I. Molnar. Hackbench. http://people.redhat.com/mingo/cfs-scheduler/tools/hackbench.c.  I. Molnar. Hackbench. http://people.redhat.com/mingo/cfs-scheduler/tools/hackbench.c."
+      },
+      "index": 25,
+      "key": "e_1_2_1_26_1"
+    },
+    {
+      "extra": {
+        "doi": "10.1145/361011.361073"
+      },
+      "index": 26,
+      "key": "e_1_2_1_27_1"
+    },
+    {
+      "extra": {
+        "unstructured": "Red Bend Software. vLogixMobile. http://www.redbend.com/en/mobile-virtualization.  Red Bend Software. vLogixMobile. http://www.redbend.com/en/mobile-virtualization."
+      },
+      "index": 27,
+      "key": "e_1_2_1_28_1"
+    },
+    {
+      "extra": {
+        "doi": "10.1145/1400097.1400108"
+      },
+      "index": 28,
+      "key": "e_1_2_1_29_1"
+    },
+    {
+      "extra": {
+        "doi": "10.1145/1755913.1755935"
+      },
+      "index": 29,
+      "key": "e_1_2_1_30_1"
+    },
+    {
+      "extra": {
+        "doi": "10.1145/2103799.2103813"
+      },
+      "index": 30,
+      "key": "e_1_2_1_31_1"
+    },
+    {
+      "extra": {
+        "unstructured": "Xen.org. Xen ARM. http://xen.org/products/xen_arm.html.  Xen.org. Xen ARM. http://xen.org/products/xen_arm.html."
+      },
+      "index": 31,
+      "key": "e_1_2_1_32_1"
+    }
+  ],
+  "release_date": "2014-04-05",
+  "release_stage": "published",
+  "release_type": "article-journal",
+  "release_year": 2014,
+  "revision": "049c0c2b-fd6c-4240-9a2e-1c36cddeecd2",
+  "state": "active",
+  "subtitle": "the design and implementation of the linux ARM hypervisor",
+  "title": "KVM/ARM",
+  "volume": "49",
+  "work_id": "5lxvcyon7jcb3jahio24v5qha4"
+}
