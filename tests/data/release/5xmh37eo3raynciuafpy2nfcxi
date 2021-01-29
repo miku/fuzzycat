@@ -1,0 +1,68 @@
+{
+  "abstracts": [],
+  "container_id": "dogs2nidlzdtxigbzvv6d2bbc4",
+  "contribs": [
+    {
+      "extra": {
+        "seq": "first"
+      },
+      "index": 0,
+      "raw_name": "K. L. Munger",
+      "role": "author"
+    },
+    {
+      "index": 1,
+      "raw_name": "S. M. Zhang",
+      "role": "author"
+    },
+    {
+      "index": 2,
+      "raw_name": "E. O'Reilly",
+      "role": "author"
+    },
+    {
+      "index": 3,
+      "raw_name": "M. A. Hernan",
+      "role": "author"
+    },
+    {
+      "index": 4,
+      "raw_name": "M. J. Olek",
+      "role": "author"
+    },
+    {
+      "index": 5,
+      "raw_name": "W. C. Willett",
+      "role": "author"
+    },
+    {
+      "index": 6,
+      "raw_name": "A. Ascherio",
+      "role": "author"
+    }
+  ],
+  "ext_ids": {
+    "doi": "10.1212/01.wnl.0000101723.79681.38",
+    "pmid": "14718698",
+    "wikidata_qid": "Q34289402"
+  },
+  "extra": {
+    "crossref": {
+      "type": "journal-article"
+    }
+  },
+  "ident": "5xmh37eo3raynciuafpy2nfcxi",
+  "language": "en",
+  "pages": "60-65",
+  "publisher": "Ovid Technologies (Wolters Kluwer Health)",
+  "refs": [],
+  "release_date": "2004-01-12",
+  "release_stage": "published",
+  "release_type": "article-journal",
+  "release_year": 2004,
+  "revision": "282d6bdc-d949-4ced-ae51-3bf26eca209f",
+  "state": "active",
+  "title": "Vitamin D intake and incidence of multiple sclerosis",
+  "volume": "62",
+  "work_id": "32u56jgpw5ftzahtwyes5jksra"
+}
