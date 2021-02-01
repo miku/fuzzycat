@@ -8,6 +8,7 @@ import string
 
 import requests
 from glom import PathAccessError, glom
+from zstandard import ZstdDecompressor
 
 printable_no_punct = string.digits + string.ascii_letters + string.whitespace
 
@@ -178,3 +179,24 @@ def random_idents_from_query(query="*",
         raise RuntimeError('to few documents')
     idents = [doc["_source"]["ident"] for doc in payload["hits"]["hits"]]
     return random.sample(idents, r)
+
+
+def zstdlines(filename):
+    """
+    Generator over lines from a zstd compressed file.
+    """
+    decomp = ZstdDecompressor()
+    with open(filename, "rb") as f:
+        with decomp.stream_reader(f) as reader:
+            prev_line = ""
+            while True:
+                chunk = reader.read(65536)
+                if not chunk:
+                    break
+                string_data = chunk.decode('utf-8')
+                lines = string_data.split("\n")
+                for i, line in enumerate(lines[:-1]):
+                    if i == 0:
+                        line = prev_line + line
+                    yield line
+                prev_line = lines[-1]

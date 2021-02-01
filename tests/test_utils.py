@@ -1,7 +1,9 @@
 import pytest
+import os
 
 from fuzzycat.utils import (author_similarity_score, cut, jaccard, nwise, slugify_string,
-                            token_n_grams, tokenize_string, parse_page_string, dict_key_exists)
+                            token_n_grams, tokenize_string, parse_page_string, dict_key_exists,
+                            zstdlines)
 
 
 def test_slugify_string():
@@ -84,3 +86,15 @@ def test_page_page_string():
     assert parse_page_string("123-125") == (123, 125, 3)
     assert parse_page_string("123-124a") == (123, 124, 2)
     assert parse_page_string("1-1000") == (1, 1000, 1000)
+
+
+def test_zstdlines():
+    test_dir = os.path.join(os.path.dirname(os.path.realpath(__file__)), "data/zstd")
+    examples = (
+        (os.path.join(test_dir, "lines.txt.zst"), os.path.join(test_dir, "lines.txt")),
+        (os.path.join(test_dir, "empty.txt.zst"), os.path.join(test_dir, "empty.txt")),
+        (os.path.join(test_dir, "single.txt.zst"), os.path.join(test_dir, "single.txt")),
+    )
+    for zfn, fn in examples:
+        with open(fn) as f:
+            assert [s.strip() for s in f.readlines()] == list(zstdlines(zfn))

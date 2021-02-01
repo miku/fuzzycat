@@ -62,6 +62,7 @@ import fileinput
 import itertools
 import json
 import logging
+import multiprocessing
 import operator
 import os
 import re
@@ -75,8 +76,9 @@ from typing import IO, Any, Callable, Dict, Generator, List, Optional, Tuple
 
 import fuzzy
 import regex
+from zstandard import ZstdCompressor
 
-from fuzzycat.utils import cut, slugify_string
+from fuzzycat.utils import cut, slugify_string, zstdlines
 
 __all__ = [
     "release_key_title",
@@ -302,6 +304,8 @@ class Cluster:
 
     Two main options are iterable (TODO: work on parsed docs), and the key
     function to apply to value to group by.
+
+    TODO: We want compression.
     """
     def __init__(self,
                  iterable: collections.abc.Iterable,
@@ -313,6 +317,7 @@ class Cluster:
                  strict: bool = False,
                  min_cluster_size: int = 2,
                  max_cluster_size: int = 100,
+                 compress=False,
                  verbose=True):
         self.iterable: collections.abc.Iterable = iterable
         self.key: Callable[[Any], Tuple[str, str]] = key
@@ -324,6 +329,7 @@ class Cluster:
         self.min_cluster_size = min_cluster_size
         self.max_cluster_size = max_cluster_size
         self.verbose = verbose
+        self.compress = compress
         self.counter: Dict[str, int] = collections.Counter({
             "key_fail": 0,
             "key_ok": 0,
@@ -337,9 +343,15 @@ class Cluster:
         First map documents to keys, then group by keys, outline: json -> tsv
         -> sort -> group -> json.
         """
-        with tempfile.NamedTemporaryFile(delete=False, mode="w", prefix=self.prefix) as tf:
+        with tempfile.NamedTemporaryFile(delete=False, mode="wb", prefix=self.prefix) as tf:
+            if self.compress:
+                zc = ZstdCompressor(level=9, threads=multiprocessing.cpu_count())
+                writer = zc.stream_writer(tf)
+            else:
+                writer = tf
+            print(self.iterable)
             for i, line in enumerate(self.iterable):
-                if i % 100000 == 0 and self.verbose:
+                if self.verbose and i % 100000 == 0:
                     print("@{}".format(i), file=sys.stderr)
                 try:
                     doc = json.loads(line)
@@ -358,16 +370,26 @@ class Cluster:
                 self.counter["key_ok"] += 1
                 # XXX: if the line itself contains tabs, we need to remove
                 # them here; maybe offer TSV and JSON output and extra flag
-                print("{}\t{}\t{}".format(id, key, line.replace("\t", " ")), file=tf)
+                # XXX: this needs to be compressed (e.g. with 2B records, we
+                # fill up disk too quickly)
+                data = bytes("{}\t{}\t{}\n".format(id, key, line.replace("\t", " ")),
+                             encoding="utf-8")
+                writer.write(data)
+            if self.compress:
+                writer.flush()
 
         sf = self.sort(tf.name, opts='-k 2')
-        with open(sf) as f:
-            for doc in self.group_by(f, key=cut(f=1)):
-                if len(doc["v"]) < self.min_cluster_size:
-                    continue
-                self.counter["num_clusters"] += 1
-                json.dump(doc, self.output)
-                self.output.write("\n")
+        if self.compress:
+            f = zstdlines(sf)
+        else:
+            f = open(sf)
+
+        for doc in self.group_by(f, key=cut(f=1)):
+            if len(doc["v"]) < self.min_cluster_size:
+                continue
+            self.counter["num_clusters"] += 1
+            json.dump(doc, self.output)
+            self.output.write("\n")
 
         os.remove(sf)
         os.remove(tf.name)
@@ -383,9 +405,17 @@ class Cluster:
             env["TMPDIR"] = self.tmpdir
             if fast:
                 env["LC_ALL"] = "C"
-            subprocess.run(["sort"] + opts.split() + [filename], stdout=tf, env=env, check=True)
+            if self.compress:
+                render_env = " ".join(["{}={}".format(k, v) for k, v in os.environ.copy().items()])
+                output = shellout("zstdcat -T0 {input} | {env} sort {opts} | zstd -c9 > {output}",
+                                  input=filename,
+                                  env=render_env,
+                                  opts=opts)
+            else:
+                subprocess.run(["sort"] + opts.split() + [filename], stdout=tf, env=env, check=True)
+                output = tf.name
 
-        return tf.name
+        return output
 
     def group_by(self,
                  seq: collections.abc.Iterable,

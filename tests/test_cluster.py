@@ -109,20 +109,19 @@ def test_release_key_title_nysiis():
 
 def test_cluster():
     sio = io.StringIO()
-    cluster = Cluster([
-        json.dumps(line) for line in [
+    lines = [
+        json.dumps(doc) for doc in [
             {
                 "title": "hello world",
-                "ident": 1
+                "ident": 1,
             },
             {
                 "title": "hello world!",
-                "ident": 2
+                "ident": 2,
             },
         ]
-    ],
-                      release_key_title_normalized,
-                      output=sio)
+    ]
+    cluster = Cluster(lines, release_key_title_normalized, output=sio)
     stats = cluster.run()
     assert stats == {
         "key_fail": 0,
