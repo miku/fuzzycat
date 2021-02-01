@@ -28,6 +28,7 @@ unidecode = ">=0.10"
 requests = "*"
 dynaconf = "*"
 regex = "*"
+zstandard = "*"
 
 [requires]
 python_version = "3.7"
