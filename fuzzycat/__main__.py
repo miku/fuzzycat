@@ -92,6 +92,7 @@ def run_cluster(args):
     cluster = Cluster(iterable=fileinput.input(args.files),
                       key=types.get(args.type),
                       tmpdir=args.tmpdir,
+                      compress=args.compress,
                       key_denylist=key_denylist,
                       prefix=args.prefix)
     cluster.run()
@@ -217,6 +218,7 @@ if __name__ == '__main__':
 
     sub_cluster = subparsers.add_parser('cluster', help='group entities', parents=[parser])
     sub_cluster.set_defaults(func=run_cluster)
+    sub_cluster.add_argument('-C', '--compress', action="store_true", help='compress intermediate results')
     sub_cluster.add_argument('-f', '--files', default="-", help='input files')
     sub_cluster.add_argument('--key-denylist', help='file path to key denylist')
     sub_cluster.add_argument('--min-cluster-size',
