@@ -349,7 +349,6 @@ class Cluster:
                 writer = zc.stream_writer(tf)
             else:
                 writer = tf
-            print(self.iterable)
             for i, line in enumerate(self.iterable):
                 if self.verbose and i % 100000 == 0:
                     print("@{}".format(i), file=sys.stderr)
