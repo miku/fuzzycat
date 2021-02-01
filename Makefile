@@ -15,8 +15,8 @@ deps: ## Install dependencies from setup.py into pipenv
 	# version, https://github.com/microsoft/vscode-python/issues/5171
 	pipenv install --pre '-e .[dev]'
 
-.PHONY: style
-style: ## Apply import sorting and yapf source formatting on all files
+.PHONY: fmt
+fmt: ## Apply import sorting and yapf source formatting on all files
 	isort --atomic fuzzycat/*
 	yapf -p -i -r fuzzycat/*
 	yapf -p -i -r tests
