@@ -1,0 +1,55 @@
+{
+  "abstracts": [],
+  "container_id": "dysoj6ukqzbmnecr2bnq4lry3m",
+  "contribs": [
+    {
+      "extra": {
+        "seq": "first"
+      },
+      "index": 0,
+      "raw_affiliation": "Department of Psychiatry, Yale School of Medicine, New Haven, Connecticut",
+      "raw_name": "David A. Ross",
+      "role": "author"
+    },
+    {
+      "index": 1,
+      "raw_affiliation": "Department of Psychiatry, University of Pittsburgh School of Medicine, Pittsburgh, Pennsylvania",
+      "raw_name": "Michael J. Travis",
+      "role": "author"
+    },
+    {
+      "index": 2,
+      "raw_affiliation": "Department of Psychiatry, Columbia University Medical Center, New York, New York",
+      "raw_name": "Melissa R. Arbuckle",
+      "role": "author"
+    }
+  ],
+  "ext_ids": {
+    "doi": "10.1001/jamapsychiatry.2014.3199",
+    "pmcid": "PMC5347976",
+    "pmid": "25760896",
+    "wikidata_qid": "Q37696649"
+  },
+  "extra": {
+    "crossref": {
+      "type": "journal-article"
+    },
+    "subtitle": [
+      "Why Not Now?"
+    ]
+  },
+  "ident": "oywpkran5rfdnof3gs4lywqr6m",
+  "language": "en",
+  "pages": "413",
+  "publisher": "American Medical Association (AMA)",
+  "refs": [],
+  "release_date": "2015-05-01",
+  "release_stage": "published",
+  "release_type": "article-journal",
+  "release_year": 2015,
+  "revision": "73ae4ae3-c9a8-473b-9b1f-845fe2f6b5fe",
+  "state": "active",
+  "title": "The Future of Psychiatry as Clinical Neuroscience",
+  "volume": "72",
+  "work_id": "2rorcsd4irhtjfc5h4ufd3ca7a"
+}

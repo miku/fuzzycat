@@ -1,0 +1,115 @@
+{
+  "abstracts": [],
+  "container_id": "iwcbrlwz6jeb3pk2sbk3xrvkty",
+  "contribs": [
+    {
+      "extra": {
+        "seq": "first"
+      },
+      "index": 0,
+      "raw_name": "Charles F. Reynolds",
+      "role": "author"
+    },
+    {
+      "index": 1,
+      "raw_name": "David A. Lewis",
+      "role": "author"
+    },
+    {
+      "index": 2,
+      "raw_name": "Thomas Detre",
+      "role": "author"
+    },
+    {
+      "index": 3,
+      "raw_name": "Alan F. Schatzberg",
+      "role": "author"
+    },
+    {
+      "index": 4,
+      "raw_name": "David J. Kupfer",
+      "role": "author"
+    }
+  ],
+  "ext_ids": {
+    "doi": "10.1097/acm.0b013e31819a8052",
+    "pmcid": "PMC2769014",
+    "pmid": "19318776",
+    "wikidata_qid": "Q37402696"
+  },
+  "extra": {
+    "crossref": {
+      "type": "journal-article"
+    },
+    "pubmed": {
+      "pub_types": [
+        "Journal Article"
+      ]
+    },
+    "subtitle": [
+      ""
+    ]
+  },
+  "ident": "cjalthavzzgptho5pbo3mjhopy",
+  "language": "en",
+  "pages": "446-450",
+  "publisher": "Ovid Technologies (Wolters Kluwer Health)",
+  "refs": [
+    {
+      "extra": {
+        "pmid": "12090819",
+        "unstructured": "Arch Gen Psychiatry. 2002 Jul;59(7):657-60"
+      },
+      "index": 0,
+      "target_release_id": "iwaippuonvfr7omxhkh32lkpky"
+    },
+    {
+      "extra": {
+        "pmid": "12813122",
+        "unstructured": "JAMA. 2003 Jun 18;289(23):3161-6"
+      },
+      "index": 1,
+      "target_release_id": "h5tabiz6jneznigyk54avphfwa"
+    },
+    {
+      "extra": {
+        "pmid": "3578570",
+        "unstructured": "Am J Psychiatry. 1987 May;144(5):621-5"
+      },
+      "index": 2,
+      "target_release_id": "4ntytmk2offdlprrglgjioqw4u"
+    },
+    {
+      "extra": {
+        "pmid": "9075459",
+        "unstructured": "Arch Gen Psychiatry. 1997 Mar;54(3):201-4"
+      },
+      "index": 3,
+      "target_release_id": "n5sdl4en5rburexc3wyz6nh46m"
+    },
+    {
+      "extra": {
+        "pmid": "17679633",
+        "unstructured": "Arch Gen Psychiatry. 2007 Aug;64(8):886-92"
+      },
+      "index": 4,
+      "target_release_id": "raeriprihfbyvlwymf5zsn4fea"
+    },
+    {
+      "extra": {
+        "pmid": "18505948",
+        "unstructured": "JAMA. 2008 May 28;299(20):2391-400"
+      },
+      "index": 5,
+      "target_release_id": "lhvy2wdwzvby7h3i7kkmf3d4jm"
+    }
+  ],
+  "release_stage": "published",
+  "release_type": "article-journal",
+  "release_year": 2009,
+  "revision": "13c58dfd-d4bf-41ca-8bff-504053b05f8c",
+  "state": "active",
+  "title": "The Future of Psychiatry as Clinical Neuroscience",
+  "volume": "84",
+  "work_id": "n3i4kgaqinfg5murzatwznnkua"
+}
