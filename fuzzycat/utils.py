@@ -183,19 +183,32 @@ def random_idents_from_query(query="*",
     return random.sample(idents, r)
 
 
-def zstdlines(filename):
+def zstdlines(filename, encoding="utf-8", bufsize=65536):
     """
     Generator over lines from a zstd compressed file.
+
+    >>> for line in zstdlines("file.zst"):
+    ...     print(line)
+
     """
     decomp = ZstdDecompressor()
     with open(filename, "rb") as f:
         with decomp.stream_reader(f) as reader:
             prev_line = ""
             while True:
-                chunk = reader.read(65536)
+                chunk = reader.read(bufsize)
                 if not chunk:
                     break
-                string_data = chunk.decode('utf-8')
+                while True:
+                    # We start with bytes but want unicode, which might not
+                    # align; so we jitter around the end to complete the
+                    # codepoint.
+                    try:
+                        string_data = chunk.decode(encoding)
+                    except UnicodeDecodeError:
+                        chunk = chunk + reader.read(1)
+                    else:
+                        break
                 lines = string_data.split("\n")
                 for i, line in enumerate(lines[:-1]):
                     if i == 0:
