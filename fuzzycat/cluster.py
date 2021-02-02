@@ -371,7 +371,8 @@ class Cluster:
                 # them here; maybe offer TSV and JSON output and extra flag
                 # XXX: this needs to be compressed (e.g. with 2B records, we
                 # fill up disk too quickly)
-                data = bytes("{}\t{}\t{}\n".format(id, key, line.replace("\t", " ").strip()),
+                data = bytes("{}\t{}\t{}\n".format(id, key,
+                                                   line.replace("\t", " ").strip()),
                              encoding="utf-8")
                 writer.write(data)
             if self.compress:
@@ -405,10 +406,11 @@ class Cluster:
             if fast:
                 env["LC_ALL"] = "C"
             if self.compress:
-                output = shellout("zstdcat -T0 {input} | LC_ALL=C TMPDIR={tmpdir} sort {opts} | zstd -T0 -c9 > {output}",
-                                  input=filename,
-                                  tmpdir=self.tmpdir,
-                                  opts=opts)
+                output = shellout(
+                    "zstdcat -T0 {input} | LC_ALL=C TMPDIR={tmpdir} sort {opts} | zstd -T0 -c9 > {output}",
+                    input=filename,
+                    tmpdir=self.tmpdir,
+                    opts=opts)
             else:
                 subprocess.run(["sort"] + opts.split() + [filename], stdout=tf, env=env, check=True)
                 output = tf.name
