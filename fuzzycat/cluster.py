@@ -78,7 +78,7 @@ import fuzzy
 import regex
 from zstandard import ZstdCompressor
 
-from fuzzycat.utils import cut, slugify_string, zstdlines
+from fuzzycat.utils import cut, shellout, slugify_string, zstdlines
 
 __all__ = [
     "release_key_title",
