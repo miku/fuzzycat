@@ -191,8 +191,8 @@ def zstdlines(filename, encoding="utf-8", bufsize=65536):
     ...     print(line)
 
     """
-    decomp = ZstdDecompressor()
     with open(filename, "rb") as f:
+        decomp = ZstdDecompressor()
         with decomp.stream_reader(f) as reader:
             prev_line = ""
             while True:
