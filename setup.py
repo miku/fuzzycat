@@ -23,7 +23,7 @@ with open("README.md", "r") as fh:
         python_requires=">=3.5",
         zip_safe=False,
         entry_points={"console_scripts": [
-            "fuzzycat=fuzzycat.main:main"
+            "fuzzycat=fuzzycat"
         ]},
         install_requires=[
             "elasticsearch",

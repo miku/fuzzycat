@@ -25,6 +25,13 @@ fmt: ## Apply import sorting and yapf source formatting on all files
 dist: ## Create source distribution and wheel
 	python setup.py sdist bdist_wheel
 
+# https://engineering.fb.com/2018/07/13/data-infrastructure/xars-a-more-efficient-open-source-system-for-self-contained-executables/
+#
+# Required a build from source https://github.com/vasi/squashfuse, to get the squashfuse_ll (low level) executable.
+.PHONY: xar
+xar: ## Create a XAR standalone package (https://github.com/facebookincubator/xar, https://github.com/vasi/squashfuse)
+	python setup.py bdist_xar
+
 .PHONY: cov
 cov: ## Run coverage report
 	pytest --cov=fuzzycat fuzzycat/*.py tests/ # --cov-report annotate:cov_annotate --cov-report html
