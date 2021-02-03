@@ -39,7 +39,7 @@ items.
 ## Dataset
 
 For development, we worked on a `release_export_expanded.json` dump (113G/700G
-zstd/plain, 154203375 lines) and with the [fatcat
+zstd/plain, 154,203,375 lines) and with the [fatcat
 API](https://api.fatcat.wiki/).
 
 The development workflow looked something like the following.
@@ -61,7 +61,7 @@ Following algorithms are implemented (or planned):
 Example running clustering:
 
 ```
-$ python -m fuzzycat cluster -t tsandcrawler < data/re.json > cluster.json.zst
+$ python -m fuzzycat cluster -t tsandcrawler < data/re.json | zstd -c -T0 > cluster.json.zst
 ```
 
 Clustering works in a three step process:
@@ -69,6 +69,20 @@ Clustering works in a three step process:
 1. key extraction for each document (choose algorithm)
 2. sorting by keys (via [GNU sort](https://www.gnu.org/software/coreutils/manual/html_node/sort-invocation.html))
 3. group by key and write out ([itertools.groupby](https://docs.python.org/3/library/itertools.html#itertools.groupby))
+
+Note: For long running processes, this all-or-nothing approach is impractical;
+e.g. running clustering on the joint references and fatcat dataset (2B records)
+takes 24h+.
+
+Ideas:
+
+* [ ] make (sorted) key extraction a fast standalone thing
+
+> `cat data.jsonl | fuzzycat-key --algo X > data.key.tsv`
+
+Where `data.key` group (id, key, blob) or the like. Make this line speed (maybe
+w/ rust). Need to carry the blob, as we do not want to restrict options.
+
 
 ## Verification
 
