@@ -6,6 +6,7 @@ COMMANDS
     cluster
     verify
     verify_single
+    verify_ref
     release_match
 
   Run, e.g. fuzzycat cluster --help for more options.
@@ -38,6 +39,10 @@ EXAMPLES
         ]
       }
 
+  Verify clustered refs:
+
+      $ python -m fuzzycat verify-ref
+
   Release match (non-bulk).
 
       $ python -m fuzzycat release_match -q "hello world"
@@ -66,8 +71,8 @@ from fuzzycat.cluster import (Cluster, release_key_title, release_key_title_ngra
                               release_key_title_sandcrawler)
 from fuzzycat.entities import entity_to_dict
 from fuzzycat.matching import anything_to_entity, match_release_fuzzy
-from fuzzycat.utils import random_idents_from_query, random_word
 from fuzzycat.refs import RefsGroupVerifier
+from fuzzycat.utils import random_idents_from_query, random_word
 from fuzzycat.verify import GroupVerifier, verify
 
 logging.getLogger("requests").setLevel(logging.WARNING)
@@ -161,10 +166,11 @@ def run_verify_single(args):
     })
     print(json.dumps(result))
 
+
 def run_ref_verify(args):
-    verifier = RefsGroupVerifier(iterable=fileinput.input(files=args.files),
-                             verbose=args.verbose)
+    verifier = RefsGroupVerifier(iterable=fileinput.input(files=args.files), verbose=args.verbose)
     verifier.run()
+
 
 def run_release_match(args):
     """
@@ -253,7 +259,7 @@ if __name__ == '__main__':
     sub_verify_single.add_argument('-b', help='ident or url to release')
     sub_verify_single.set_defaults(func=run_verify_single)
 
-    sub_ref_verify = subparsers.add_parser('verify', help='verify ref groups', parents=[parser])
+    sub_ref_verify = subparsers.add_parser('verify_ref', help='verify ref groups', parents=[parser])
     sub_ref_verify.add_argument('-f', '--files', default="-", help='input files')
     sub_ref_verify.set_defaults(func=run_ref_verify)
 

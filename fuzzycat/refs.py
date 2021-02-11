@@ -4,9 +4,10 @@ import json
 import operator
 import sys
 
-from fuzzycat.verify import verify
-from fuzzycat.common import Reason, Status
 from glom import PathAccessError, glom
+
+from fuzzycat.common import Reason, Status
+from fuzzycat.verify import verify
 
 
 def find_release_entity(docs):
@@ -23,6 +24,7 @@ def find_release_entity(docs):
 
     raise ValueError("docs do not contain any release")
 
+
 def ref_entities(docs):
     """
     Genator yielding ref entities only.
@@ -34,14 +36,13 @@ def ref_entities(docs):
         except PathAccessError:
             continue
 
+
 class RefsGroupVerifier:
     """
     A specific verifier for grouped releases and references. We do not need to
     pair-wise compare, just compare one release to all references.
     """
-    def __init__(self,
-                 iterable: collections.abc.Iterable,
-                 verbose=False):
+    def __init__(self, iterable: collections.abc.Iterable, verbose=False):
         self.iterable: collections.abc.Iterable = iterable
         self.verbose: bool = verbose
         self.counter: Counter = collections.Counter()
@@ -64,4 +65,3 @@ class RefsGroupVerifier:
                       "https://fatcat.wiki/release/{}".format(b["ident"]), result, reason)
 
         self.counter["total"] = sum(v for _, v in self.counter.items())
-
