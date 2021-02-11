@@ -59,9 +59,9 @@ class RefsGroupVerifier:
             k, vs = get_key_values(doc)
             pivot = find_release_entity(vs)
             for entity in ref_entities(vs):
-                result, reason = verify(a, b)
+                result, reason = verify(pivot, entity)
                 self.counter[reason] += 1
-                print("https://fatcat.wiki/release/{}".format(a["ident"]),
-                      "https://fatcat.wiki/release/{}".format(b["ident"]), result, reason)
+                print("https://fatcat.wiki/release/{}".format(pivot["ident"]),
+                      "https://fatcat.wiki/release/{}".format(entity["ident"]), result, reason)
 
         self.counter["total"] = sum(v for _, v in self.counter.items())
