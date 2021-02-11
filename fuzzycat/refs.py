@@ -32,6 +32,10 @@ def ref_entities(docs):
     for doc in docs:
         try:
             if glom(doc, "extra.skate.status") == "ref":
+                # XXX: on the fly fix for int/str years
+                release_year = doc.get("release_year")
+                if release_year is not None and isinstance(release_year, str):
+                    doc["release_year"] = int(release_year)
                 yield doc
         except PathAccessError:
             continue
