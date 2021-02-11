@@ -219,3 +219,10 @@ $ cat data/sample.json | parallel -j 8 --pipe --roundrobin python -m fuzzycat.ma
 
 Interestingly, the parallel variants detects fewer clusters (because data is
 split and clusters are searched within each batch). TODO(miku): sort out sharding bug.
+
+# Notes on Refs
+
+* technique from fuzzycat ported in parts to
+  [skate](https://github.com/miku/skate) - to go from refs and release dataset
+to a number of clusters, relating references to releases
+* need to verify, but not the references against each other, only refs againt the release
