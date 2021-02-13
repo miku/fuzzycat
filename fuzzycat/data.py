@@ -1603,7 +1603,6 @@ TITLE_BLACKLIST = set([
     "kongresse – symposien – seminare – messen",
     "kongresse/veranstaltungen",
     "kongresskalender 2016",
-    "kongresskalender"
     "kongresskalender",
     "kongreßankündigung",
     "kongreßankündigungen",
@@ -1754,7 +1753,6 @@ TITLE_BLACKLIST = set([
     "medical diary of the week",
     "medical diary of the week.",
     "medical diary",
-    "medical diary."
     "medical diary.",
     "medical education",
     "medical education, registration and hospital service",
