@@ -500,6 +500,12 @@ def verify(a: Dict, b: Dict, min_title_length=5) -> Tuple[str, str]:
     if a_slug_title and b_slug_title and a_slug_title.strip().replace(
             " ", "") == b_slug_title.strip().replace(" ", ""):
         if len(a_slug_authors & b_slug_authors) > 0:
+            # At this point, year might differ, e.g.
+            # https://fatcat.wiki/release/2n7pyugxenb73gope52bn6m2ru vs
+            # https://fatcat.wiki/release/p4bettvcszgn5d3zls5ogdjk4u (found via refs).
+            if a_release_year and b_release_year and abs(int(a_release_year) -
+                                                         int(b_release_year)) > 4:
+                return Verify(Status.DIFFERENT, Reason.YEAR)
             return Verify(Status.STRONG, Reason.SLUG_TITLE_AUTHOR_MATCH)
 
     # if any([a_authors, b_authors]) and not (a_authors and b_authors):
