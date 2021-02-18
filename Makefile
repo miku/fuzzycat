@@ -41,11 +41,11 @@ test: ## Run coverage report
 	pytest -o log_cli=true -s -vvv fuzzycat/*.py tests/*.py
 
 .PHONY: lint
-lint: $(PY_FILES)
+lint: $(PY_FILES) ## Run pylint
 	pylint fuzzycat
 
 .PHONY: mypy
-mypy:
+mypy: ## Run mypy checks
 	mypy --strict $$(find fuzzycat -name "*py")
 
 .PHONY: clean
@@ -62,7 +62,7 @@ clean: ## Clean all artifacts
 
 # Upload requires https://github.com/pypa/twine and some configuration.
 .PHONY: upload
-upload: dist
+upload: dist ## Upload to pypi
 	# https://pypi.org/account/register/
 	# $ cat ~/.pypirc
 	# [pypi]
@@ -77,17 +77,17 @@ upload: dist
 	twine upload $(TWINE_OPTS) dist/*
 
 # ==== data related targets
-
-data/release_export_expanded.json.gz: ## Download release export
-	mkdir -p data
-	wget -c https://archive.org/download/$(FATCAT_BULK_EXPORT_ITEM)/release_export_expanded.json.gz -O $@
-
-data/container_export.json.gz: ## Download container export
-	mkdir -p data
-	wget -c https://archive.org/download/$(FATCAT_BULK_EXPORT_ITEM)/container_export.json.gz -O $@
-
-data/name_to_issn.json: data/issn.ndj ## Create a name to ISSN mapping (needs an ISSN JSON dump)
-	fuzzycat-issn --make-mapping $^ > $@
-
-names.db: data/issn.ndj
-	fuzzycat-issn --make-shelve -c basic -o names $^
+#
+# data/release_export_expanded.json.gz: ## Download release export
+# 	mkdir -p data
+# 	wget -c https://archive.org/download/$(FATCAT_BULK_EXPORT_ITEM)/release_export_expanded.json.gz -O $@
+#
+# data/container_export.json.gz: ## Download container export
+# 	mkdir -p data
+# 	wget -c https://archive.org/download/$(FATCAT_BULK_EXPORT_ITEM)/container_export.json.gz -O $@
+#
+# data/name_to_issn.json: data/issn.ndj ## Create a name to ISSN mapping (needs an ISSN JSON dump)
+# 	fuzzycat-issn --make-mapping $^ > $@
+#
+# names.db: data/issn.ndj
+#	fuzzycat-issn --make-shelve -c basic -o names $^
