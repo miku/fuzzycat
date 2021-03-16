@@ -65,7 +65,7 @@ def match_release_fuzzy(
             continue
         r = api.lookup_release(**{attr: value})
         if r:
-            return r
+            return [r]
 
     body = {
         "query": {
