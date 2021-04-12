@@ -19,6 +19,18 @@ CHEM_FORMULA = re.compile(r"([A-Z]{1,2}[0-9]{1,2})+")
 
 ParsedPages = collections.namedtuple("ParsedPages", "start end count")
 
+def es_compat_hits_total(resp):
+    """
+    Given a search response dict, support ES6 and ES7 style total value. See:
+    https://www.elastic.co/guide/en/elasticsearch/reference/current/breaking-changes-7.0.html
+
+    It is responsibility of the call site to set `track_total_hits` in ES7 to
+    get an exact number.
+    """
+    try:
+        return resp["hits"]["total"]["value"]
+    except TypeError:
+        return resp["hits"]["total"]
 
 def parse_page_string(s):
     """
@@ -177,7 +189,7 @@ def random_idents_from_query(query="*",
     if resp.status_code != 200:
         raise RuntimeError('could not query {} for random item: {}'.format(es, r.url))
     payload = resp.json()
-    if payload["hits"]["total"] < 2:
+    if es_compat_hits_total(payload) < 2:
         raise RuntimeError('to few documents')
     idents = [doc["_source"]["ident"] for doc in payload["hits"]["hits"]]
     return random.sample(idents, r)

@@ -12,6 +12,7 @@ from fatcat_openapi_client import ContainerEntity, DefaultApi, ReleaseEntity
 from fatcat_openapi_client.rest import ApiException
 
 from fuzzycat.entities import entity_from_dict, entity_from_json
+from fuzzycat.utils import es_compat_hits_total
 
 settings = Dynaconf(envvar_prefix="FUZZYCAT")
 FATCAT_API_URL = settings.get("FATCAT_API_URL", "https://api.fatcat.wiki/v0")
@@ -79,7 +80,7 @@ def match_release_fuzzy(
         "size": size,
     }
     resp = es.search(body=body, index="fatcat_release")
-    if resp["hits"]["total"] > 0:
+    if es_compat_hits_total(resp) > 0:
         return response_to_entity_list(resp, entity_type=ReleaseEntity, api=api)
 
     # Get fuzzy.
@@ -97,7 +98,7 @@ def match_release_fuzzy(
         "size": size,
     }
     resp = es.search(body=body, index="fatcat_release")
-    if resp["hits"]["total"] > 0:
+    if es_compat_hits_total(resp) > 0:
         return response_to_entity_list(resp, entity_type=ReleaseEntity, api=api)
 
     # TODO: perform more queries on other fields.
@@ -209,9 +210,9 @@ def anything_to_entity(
 
     if re.match("[0-9]{4}(-)?[0-9]{3,3}[0-9xx]", s):
         # TODO: make index name configurable
-        url = "{}/fatcat_{}/_search?q=issns:{}".format(es_url, entity_name, s)
+        url = "{}/fatcat_{}/_search?track_total_hits=true&q=issns:{}".format(es_url, entity_name, s)
         doc = requests.get(url).json()
-        if doc["hits"]["total"] == 1:
+        if es_compat_hits_total(resp) == 1:
             ident = doc["hits"]["hits"][0]["_source"]["ident"]
             url = "{}/{}/{}".format(api_url, entity_name, ident)
             return entity_from_json(requests.get(url).text, entity_type)

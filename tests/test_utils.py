@@ -3,7 +3,7 @@ import os
 
 from fuzzycat.utils import (author_similarity_score, cut, jaccard, nwise, slugify_string,
                             token_n_grams, tokenize_string, parse_page_string, dict_key_exists,
-                            zstdlines)
+                            zstdlines, es_compat_hits_total)
 
 
 def test_slugify_string():
@@ -98,3 +98,12 @@ def test_zstdlines():
     for zfn, fn in examples:
         with open(fn) as f:
             assert [s.strip() for s in f.readlines()] == list(zstdlines(zfn))
+
+def test_es_compat_hits_total():
+    cases = (
+        ({"hits": {"total": 6}}, 6),
+        ({"hits": {"total": {"value": 7, "relation": "eq"}}}, 7),
+    )
+    for r, expected in cases:
+        assert es_compat_hits_total(r) == expected
+
