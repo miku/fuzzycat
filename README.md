@@ -226,3 +226,11 @@ split and clusters are searched within each batch). TODO(miku): sort out shardin
   [skate](https://github.com/miku/skate) - to go from refs and release dataset
 to a number of clusters, relating references to releases
 * need to verify, but not the references against each other, only refs againt the release
+
+# Notes on Performance
+
+While running bulk (1B+) clustering and verification, even with parallel,
+fuzzycat got slow. The citation graph project therefore contains a
+reimplementation of `fuzzycat.verify` and related functions in Go, which in
+this case is an order of magnitude faster. See:
+[skate](https://git.archive.org/martin/cgraph/-/tree/master/skate).
