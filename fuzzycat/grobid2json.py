@@ -26,7 +26,8 @@ def all_authors(elem: Optional[ET.Element], ns: str = ns) -> List[Dict[str, Any]
             continue
         given_name = pn.findtext("./{%s}forename" % ns) or None
         surname = pn.findtext("./{%s}surname" % ns) or None
-        full_name = " ".join(pn.itertext())
+        full_name = " ".join(pn.itertext()).strip()
+        full_name = " ".join(full_name.split())
         obj: Dict[str, Any] = dict(name=full_name)
         if given_name:
             obj["given_name"] = given_name
