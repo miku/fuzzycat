@@ -99,11 +99,22 @@ def test_zstdlines():
         with open(fn) as f:
             assert [s.strip() for s in f.readlines()] == list(zstdlines(zfn))
 
+
 def test_es_compat_hits_total():
     cases = (
-        ({"hits": {"total": 6}}, 6),
-        ({"hits": {"total": {"value": 7, "relation": "eq"}}}, 7),
+        ({
+            "hits": {
+                "total": 6
+            }
+        }, 6),
+        ({
+            "hits": {
+                "total": {
+                    "value": 7,
+                    "relation": "eq"
+                }
+            }
+        }, 7),
     )
     for r, expected in cases:
         assert es_compat_hits_total(r) == expected
-

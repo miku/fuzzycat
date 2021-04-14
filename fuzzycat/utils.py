@@ -19,6 +19,7 @@ CHEM_FORMULA = re.compile(r"([A-Z]{1,2}[0-9]{1,2})+")
 
 ParsedPages = collections.namedtuple("ParsedPages", "start end count")
 
+
 def es_compat_hits_total(resp):
     """
     Given a search response dict, support ES6 and ES7 style total value. See:
@@ -31,6 +32,7 @@ def es_compat_hits_total(resp):
         return resp["hits"]["total"]["value"]
     except TypeError:
         return resp["hits"]["total"]
+
 
 def parse_page_string(s):
     """
