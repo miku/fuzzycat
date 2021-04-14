@@ -8,6 +8,7 @@ COMMANDS
     verify_single
     verify_ref
     release_match
+    unstructured
 
   Run, e.g. fuzzycat cluster --help for more options.
 
@@ -45,7 +46,7 @@ EXAMPLES
 
   Release match (non-bulk).
 
-      $ python -m fuzzycat release_match -q "hello world"
+      $ python -m fuzzycat release_match --value "hello world"
 
       TODO: Elasticsearch might not respond to POST queries (which is what the
       client library uses, see: https://git.io/JLssk).
@@ -63,6 +64,7 @@ import random
 import sys
 import tempfile
 
+import elasticsearch
 import requests
 from fatcat_openapi_client import ReleaseEntity
 
@@ -70,8 +72,10 @@ from fuzzycat.cluster import (Cluster, release_key_title, release_key_title_ngra
                               release_key_title_normalized, release_key_title_nysiis,
                               release_key_title_sandcrawler)
 from fuzzycat.entities import entity_to_dict
+from fuzzycat.grobid_unstructured import grobid_parse_unstructured
 from fuzzycat.matching import anything_to_entity, match_release_fuzzy
 from fuzzycat.refs import RefsGroupVerifier
+from fuzzycat.simple import closest_fuzzy_release_match
 from fuzzycat.utils import random_idents_from_query, random_word
 from fuzzycat.verify import GroupVerifier, verify
 
@@ -200,6 +204,29 @@ def run_release_match(args):
             print(json.dumps(vs))
 
 
+def run_unstructured(args):
+    """
+    Given a raw citation string, parse it and find "closest" match.
+
+    Uses lower-level routines instead of simple.closest_fuzzy_unstructured_match(raw_citation)
+    """
+    es_client = elasticsearch.Elasticsearch(args.es_url)
+
+    print("## Sending to GROBID...", file=sys.stderr)
+    release = grobid_parse_unstructured(args.raw_citation)
+    if not release:
+        print("Did not parse")
+        sys.exit(-1)
+    else:
+        print(entity_to_dict(release))
+    print("## Fuzzy matching...", file=sys.stderr)
+    closest = closest_fuzzy_release_match(release, es_client=es_client)
+    if not closest:
+        print("Did not match/verify")
+        sys.exit(-1)
+    print(f"{closest.status.name}\t{closest.reason.name}\trelease_{closest.release.ident}")
+
+
 if __name__ == '__main__':
     logging.basicConfig(
         level=logging.DEBUG,
@@ -276,6 +303,16 @@ if __name__ == '__main__':
         type=str,
     )
     sub_release_match.set_defaults(func=run_release_match)
+
+    sub_unstructured = subparsers.add_parser("unstructured",
+                                             help="parse and match unstructured citation string",
+                                             formatter_class=argparse.ArgumentDefaultsHelpFormatter)
+    sub_unstructured.add_argument(
+        "raw_citation",
+        help="unstructured/raw citation string",
+        type=str,
+    )
+    sub_unstructured.set_defaults(func=run_unstructured)
 
     args = parser.parse_args()
     if not args.__dict__.get("func"):
