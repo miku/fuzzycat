@@ -1,14 +1,13 @@
 from fuzzycat.matching import anything_to_entity, match_release_fuzzy
+from fuzzycat.config import settings
 from fatcat_openapi_client import ReleaseEntity
 import pytest
 import elasticsearch
 import logging
-from dynaconf import Dynaconf
 
 logger = logging.getLogger('test_matching')
 logger.setLevel(logging.DEBUG)
 
-settings = Dynaconf(envvar_prefix="FUZZYCAT")
 FATCAT_SEARCH_URL = settings.get("FATCAT_SEARCH_URL", "https://search.fatcat.wiki:443")
 
 

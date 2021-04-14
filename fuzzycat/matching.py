@@ -13,8 +13,8 @@ from fatcat_openapi_client.rest import ApiException
 
 from fuzzycat.entities import entity_from_dict, entity_from_json
 from fuzzycat.utils import es_compat_hits_total
+from fuzzycat.config import settings
 
-settings = Dynaconf(envvar_prefix="FUZZYCAT")
 FATCAT_API_URL = settings.get("FATCAT_API_URL", "https://api.fatcat.wiki/v0")
 
 
