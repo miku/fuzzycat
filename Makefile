@@ -11,9 +11,7 @@ help: ## Print info about all commands
 
 .PHONY: deps
 deps: ## Install dependencies from setup.py into pipenv
-	# We need to use --pre, because e.g. black is considered a pre-release
-	# version, https://github.com/microsoft/vscode-python/issues/5171
-	pipenv install --pre '-e .[dev]'
+	pipenv install --dev --deploy
 
 .PHONY: fmt
 fmt: ## Apply import sorting and yapf source formatting on all files
