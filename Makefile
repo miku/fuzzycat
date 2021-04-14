@@ -15,9 +15,9 @@ deps: ## Install dependencies from setup.py into pipenv
 
 .PHONY: fmt
 fmt: ## Apply import sorting and yapf source formatting on all files
-	isort --atomic fuzzycat/*
-	yapf -p -i -r fuzzycat/*
-	yapf -p -i -r tests
+	pipenv run isort --atomic fuzzycat/*
+	pipenv run yapf -p -i -r fuzzycat/*
+	pipenv run yapf -p -i -r tests
 
 .PHONY: dist
 dist: ## Create source distribution and wheel
@@ -32,19 +32,19 @@ xar: ## Create a XAR standalone package (https://github.com/facebookincubator/xa
 
 .PHONY: cov
 cov: ## Run coverage report
-	pytest --cov=fuzzycat fuzzycat/*.py tests/ # --cov-report annotate:cov_annotate --cov-report html
+	pipenv run pytest --cov=fuzzycat fuzzycat/*.py tests/ # --cov-report annotate:cov_annotate --cov-report html
 
 .PHONY: test
 test: ## Run coverage report
-	pytest -o log_cli=true -s -vvv fuzzycat/*.py tests/*.py
+	pipenv run pytest -o log_cli=true -s -vvv fuzzycat/*.py tests/*.py
 
 .PHONY: lint
 lint: $(PY_FILES) ## Run pylint
-	pylint fuzzycat
+	pipenv run pylint fuzzycat
 
 .PHONY: mypy
 mypy: ## Run mypy checks
-	mypy --strict $$(find fuzzycat -name "*py")
+	pipenv run mypy --strict $$(find fuzzycat -name "*py")
 
 .PHONY: clean
 clean: ## Clean all artifacts
