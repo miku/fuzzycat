@@ -13,11 +13,25 @@ settings = Dynaconf(envvar_prefix="FUZZYCAT")
 FATCAT_SEARCH_URL = settings.get("FATCAT_SEARCH_URL", "https://search.fatcat.wiki:443")
 
 
+def is_not_reachable(url, timeout=3):
+    return not is_reachable(url)
+
+def is_reachable(url, timeout=3):
+    """
+    Return true, if URL is reachable and returns HTTP 200.
+    """
+    try:
+        return requests.get(url, verify=False, timeout=timeout).ok
+    except Exception:
+        return False
+
 @pytest.fixture
 def es_client():
     return elasticsearch.Elasticsearch([FATCAT_SEARCH_URL])
 
 
+@pytest.mark.skipif(is_not_reachable(FATCAT_SEARCH_URL),
+                    reason="{} not reachable, use e.g. FUZZYCAT_FATCAT_SEARCH_URL=localhost:9200 to override".format(FATCAT_SEARCH_URL))
 def test_match_release_fuzzy(es_client, caplog):
     cases = (
         ("wtv64ahbdzgwnan7rllwr3nurm", 1),
