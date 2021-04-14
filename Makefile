@@ -17,36 +17,29 @@ deps: ## Install dependencies from setup.py into pipenv
 
 .PHONY: fmt
 fmt: ## Apply import sorting and yapf source formatting on all files
-	isort --atomic fuzzycat/*
-	yapf -p -i -r fuzzycat/*
-	yapf -p -i -r tests
+	pipenv run isort --atomic fuzzycat/*
+	pipenv run yapf -p -i -r fuzzycat/*
+	pipenv run yapf -p -i -r tests
 
 .PHONY: dist
 dist: ## Create source distribution and wheel
 	python setup.py sdist bdist_wheel
 
-# https://engineering.fb.com/2018/07/13/data-infrastructure/xars-a-more-efficient-open-source-system-for-self-contained-executables/
-#
-# Required a build from source https://github.com/vasi/squashfuse, to get the squashfuse_ll (low level) executable.
-.PHONY: xar
-xar: ## Create a XAR standalone package (https://github.com/facebookincubator/xar, https://github.com/vasi/squashfuse)
-	python setup.py bdist_xar
-
 .PHONY: cov
 cov: ## Run coverage report
-	pytest --cov=fuzzycat fuzzycat/*.py tests/ # --cov-report annotate:cov_annotate --cov-report html
+	pipenv run pytest --cov=fuzzycat fuzzycat/*.py tests/ # --cov-report annotate:cov_annotate --cov-report html
 
 .PHONY: test
 test: ## Run coverage report
-	pytest -o log_cli=true -s -vvv fuzzycat/*.py tests/*.py
+	pipenv run pytest -o log_cli=true -s -vvv fuzzycat/*.py tests/*.py
 
 .PHONY: lint
 lint: $(PY_FILES) ## Run pylint
-	pylint fuzzycat
+	pipenv run pylint fuzzycat
 
 .PHONY: mypy
 mypy: ## Run mypy checks
-	mypy --strict $$(find fuzzycat -name "*py")
+	pipenv run mypy --strict $$(find fuzzycat -name "*py")
 
 .PHONY: clean
 clean: ## Clean all artifacts
@@ -76,18 +69,3 @@ upload: dist ## Upload to pypi
 	# For automatic package deployments, also see: .gitlab-ci.yml.
 	twine upload $(TWINE_OPTS) dist/*
 
-# ==== data related targets
-#
-# data/release_export_expanded.json.gz: ## Download release export
-# 	mkdir -p data
-# 	wget -c https://archive.org/download/$(FATCAT_BULK_EXPORT_ITEM)/release_export_expanded.json.gz -O $@
-#
-# data/container_export.json.gz: ## Download container export
-# 	mkdir -p data
-# 	wget -c https://archive.org/download/$(FATCAT_BULK_EXPORT_ITEM)/container_export.json.gz -O $@
-#
-# data/name_to_issn.json: data/issn.ndj ## Create a name to ISSN mapping (needs an ISSN JSON dump)
-# 	fuzzycat-issn --make-mapping $^ > $@
-#
-# names.db: data/issn.ndj
-#	fuzzycat-issn --make-shelve -c basic -o names $^
