@@ -7,12 +7,10 @@ stages:
 
 before_script:
    - pip3 install --upgrade pip
-   - pip3 install pytest
 
 tests:
   stage: test
   script:
-    - python3 --version
-    - pipenv install
-    - pipenv run pytest -vv -s
-
+    - python3 --version && pipenv --version
+    - make deps
+    - make test
