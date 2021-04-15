@@ -14,4 +14,3 @@ tests:
     - python3 --version && pipenv --version
     - make deps
     - make test
-

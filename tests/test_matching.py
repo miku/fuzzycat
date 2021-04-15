@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 import logging
 import warnings
 
@@ -12,10 +13,16 @@ from fuzzycat.matching import anything_to_entity, match_release_fuzzy
 
 warnings.filterwarnings("ignore") # InsecureRequestWarning: Unverified HTTPS request is being made to host ...
 
+from fuzzycat.matching import anything_to_entity, match_release_fuzzy
+from fuzzycat.config import settings
+from fatcat_openapi_client import ReleaseEntity
+import pytest
+import elasticsearch
+import logging
+
 logger = logging.getLogger('test_matching')
 logger.setLevel(logging.DEBUG)
 
-settings = Dynaconf(envvar_prefix="FUZZYCAT")
 # ad-hoc override search server with: FUZZYCAT_FATCAT_SEARCH_URL=localhost:9200 pytest ...
 FATCAT_SEARCH_URL = settings.get("FATCAT_SEARCH_URL", "https://search.fatcat.wiki:443")
 
