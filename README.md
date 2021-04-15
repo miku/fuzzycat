@@ -10,6 +10,10 @@ To install with [pip](https://pypi.org/project/pip/), run:
 $ pip install fuzzycat
 ```
 
+![](static/192112067_046be9fd21_b.jpg)
+
+Photo by [Chika Watanabe](https://www.flickr.com/photos/chikawatanabe/192112067) (CC BY 2.0).
+
 ## Overview
 
 The fuzzycat library currently works on [fatcat database release
