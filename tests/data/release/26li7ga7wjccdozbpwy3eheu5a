@@ -1,0 +1,89 @@
+{
+  "abstracts": [
+    {
+      "content": "<jats:p>The website Sci-Hub enables users to download PDF versions of scholarly articles, including many articles that are paywalled at their journal's site. Sci-Hub has grown rapidly since its creation in 2011, but the extent of its coverage was unclear. Here we report that, as of March 2017, Sci-Hub's database contains 68.9% of the 81.6 million scholarly articles registered with Crossref and 85.2% of articles published in toll access journals. We find that coverage varies by discipline and publisher and that Sci-Hub preferentially covers popular, paywalled content. For toll access articles, green open access via licit services is quite limited, while Sci-Hub provides greater coverage than a major research university. Our interactive browser at <jats:uri>https://greenelab.github.io/scihub</jats:uri> allows users to explore these findings in more detail. For the first time, nearly all scholarly literature is available gratis to anyone with an Internet connection, suggesting the toll access business model will become unsustainable.</jats:p>",
+      "mimetype": "application/xml+jats",
+      "sha1": "ecdbb9fe1691174f61377defaa71df6b143f1321"
+    }
+  ],
+  "contribs": [
+    {
+      "creator_id": "yxkbizhg3vf7boybuxro5udr6y",
+      "extra": {
+        "seq": "first"
+      },
+      "index": 0,
+      "raw_affiliation": "Systems Pharmacology & Translational Therapeutics, University of Pennsylvania, Philadelphia, Pennsylvania, United States",
+      "raw_name": "Daniel S Himmelstein",
+      "role": "author"
+    },
+    {
+      "creator_id": "nxgmvjivpzcq5jdr2fbhsszthu",
+      "index": 1,
+      "raw_affiliation": "Bidwise, Inc, Miami, Florida, United States",
+      "raw_name": "Ariel R Romero",
+      "role": "author"
+    },
+    {
+      "index": 2,
+      "raw_affiliation": "Library Technology Services and Strategic Initiatives, University of Pennsylvania, Philadelphia, Pennsylvania, United States",
+      "raw_name": "Jacob G Levernier",
+      "role": "author"
+    },
+    {
+      "index": 3,
+      "raw_affiliation": "School of Life and Environmental Sciences, Deakin University, Melbourne, Australia",
+      "raw_name": "Thomas A Munro",
+      "role": "author"
+    },
+    {
+      "creator_id": "bu4uzptpd5ay7ov53ax35n727y",
+      "index": 4,
+      "raw_affiliation": "School of Information, University of Texas at Austin, Austin, Texas, United States",
+      "raw_name": "Stephen R McLaughlin",
+      "role": "author"
+    },
+    {
+      "creator_id": "67eesbmrjze7jk3u53u2fweiby",
+      "index": 5,
+      "raw_affiliation": "Department of Applied Bioinformatics, Goethe University Frankfurt, Frankfurt, Germany",
+      "raw_name": "Bastian Greshake Tzovaras",
+      "role": "author"
+    },
+    {
+      "creator_id": "mzdtbu47h5hhpmitrvzxwrnaly",
+      "index": 6,
+      "raw_affiliation": "Systems Pharmacology & Translational Therapeutics, University of Pennsylvania, Philadelphia, Pennsylvania, United States",
+      "raw_name": "Casey S Greene",
+      "role": "author"
+    }
+  ],
+  "ext_ids": {
+    "doi": "10.7287/peerj.preprints.3100v3"
+  },
+  "extra": {
+    "crossref": {
+      "license": [
+        {
+          "URL": "http://creativecommons.org/licenses/by/4.0/",
+          "content-version": "unspecified",
+          "delay-in-days": 0,
+          "start": "2018-02-02T00:00:00Z"
+        }
+      ],
+      "type": "posted-content"
+    },
+    "group-title": "PeerJ Preprints"
+  },
+  "ident": "26li7ga7wjccdozbpwy3eheu5a",
+  "license_slug": "CC-BY",
+  "publisher": "PeerJ",
+  "refs": [],
+  "release_date": "2018-02-02",
+  "release_type": "post",
+  "release_year": 2018,
+  "revision": "06bd3cca-d970-4342-9222-60f613f8e491",
+  "state": "active",
+  "title": "Sci-Hub provides access to nearly all scholarly literature",
+  "work_id": "zej7iipzqrdndkuihk7532755y"
+}

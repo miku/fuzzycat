@@ -1,0 +1,1892 @@
+{
+  "abstracts": [
+    {
+      "content": "<jats:p>The website Sci-Hub enables users to download PDF versions of scholarly articles, including many articles that are paywalled at their journal's site. Sci-Hub has grown rapidly since its creation in 2011, but the extent of its coverage has been unclear. Here we report that, as of March 2017, Sci-Hub's database contains 68.9% of the 81.6 million scholarly articles registered with Crossref and 85.1% of articles published in toll access journals. We find that coverage varies by discipline and publisher, and that Sci-Hub preferentially covers popular, paywalled content. For toll access articles, we find that Sci-Hub provides greater coverage than the University of Pennsylvania, a major research university in the United States. Green open access to toll access articles via licit services, on the other hand, remains quite limited. Our interactive browser at https://greenelab.github.io/scihub allows users to explore these findings in more detail. For the first time, nearly all scholarly literature is available gratis to anyone with an Internet connection, suggesting the toll access business model may become unsustainable.</jats:p>",
+      "mimetype": "application/xml+jats",
+      "sha1": "d233eb2f942a55c178c3f22d99096a179ab3be4c"
+    }
+  ],
+  "container_id": "en4qj5ijrbf5djxx7p5zzpjyoq",
+  "contribs": [
+    {
+      "creator_id": "yxkbizhg3vf7boybuxro5udr6y",
+      "extra": {
+        "seq": "first"
+      },
+      "index": 0,
+      "raw_affiliation": "Department of Systems Pharmacology and Translational Therapeutics, University of Pennsylvania, Philadelphia, United States",
+      "raw_name": "Daniel S Himmelstein",
+      "role": "author"
+    },
+    {
+      "creator_id": "nxgmvjivpzcq5jdr2fbhsszthu",
+      "index": 1,
+      "raw_affiliation": "Bidwise, Inc, Miami, United States",
+      "raw_name": "Ariel Rodriguez Romero",
+      "role": "author"
+    },
+    {
+      "creator_id": "bi53joz335cqlj63bq4mlwdf2m",
+      "index": 2,
+      "raw_affiliation": "Library Technology Services and Strategic Initiatives, University of Pennsylvania, Philadelphia, United States",
+      "raw_name": "Jacob G Levernier",
+      "role": "author"
+    },
+    {
+      "creator_id": "2yhupetjrfahfenvjfzfe4g7um",
+      "index": 3,
+      "raw_affiliation": "School of Life and Environmental Sciences, Deakin University, Melbourne, Australia",
+      "raw_name": "Thomas Anthony Munro",
+      "role": "author"
+    },
+    {
+      "creator_id": "bu4uzptpd5ay7ov53ax35n727y",
+      "index": 4,
+      "raw_affiliation": "School of Information, University of Texas at Austin, Austin, United States",
+      "raw_name": "Stephen Reid McLaughlin",
+      "role": "author"
+    },
+    {
+      "creator_id": "67eesbmrjze7jk3u53u2fweiby",
+      "index": 5,
+      "raw_affiliation": "Department of Applied Bioinformatics, Institute of Cell Biology and Neuroscience, Goethe University, Frankfurt, Germany",
+      "raw_name": "Bastian Greshake Tzovaras",
+      "role": "author"
+    },
+    {
+      "creator_id": "mzdtbu47h5hhpmitrvzxwrnaly",
+      "index": 6,
+      "raw_affiliation": "Department of Systems Pharmacology and Translational Therapeutics, University of Pennsylvania, Philadelphia, United States",
+      "raw_name": "Casey S Greene",
+      "role": "author"
+    }
+  ],
+  "ext_ids": {
+    "doi": "10.7554/elife.32822",
+    "pmcid": "PMC5832410",
+    "pmid": "29424689",
+    "wikidata_qid": "Q50051684"
+  },
+  "extra": {
+    "crossref": {
+      "alternative-id": [
+        "10.7554/eLife.32822"
+      ],
+      "archive": [
+        "CLOCKSS"
+      ],
+      "funder": [
+        {
+          "DOI": "10.13039/100000936",
+          "award": [
+            "GBMF 4552"
+          ],
+          "doi-asserted-by": "publisher",
+          "name": "Gordon and Betty Moore Foundation"
+        }
+      ],
+      "license": [
+        {
+          "URL": "http://creativecommons.org/licenses/by/4.0/",
+          "content-version": "vor",
+          "delay-in-days": 0,
+          "start": "2018-03-01T00:00:00Z"
+        }
+      ],
+      "subject": [
+        "General Biochemistry, Genetics and Molecular Biology",
+        "General Immunology and Microbiology",
+        "General Neuroscience",
+        "General Medicine"
+      ],
+      "type": "journal-article"
+    }
+  },
+  "ident": "rmj3qy2ncfb3haigk6muctmccy",
+  "language": "en",
+  "license_slug": "CC-BY",
+  "publisher": "eLife Sciences Publications, Ltd",
+  "refs": [
+    {
+      "container_name": "University of Nebraska-Lincoln",
+      "extra": {
+        "authors": [
+          "Archambault"
+        ],
+        "unstructured": "Archambault É, Amyot D, Deschamps P, Nicol A, Provencher F, Rebout L, Roberge G. 2014. Proportion of Open Access Papers Published in Peer-Reviewed Journals at the European and World Levels: 1996–2013. University of Nebraska-Lincoln. http://digitalcommons.unl.edu/scholcom/8 [Accessed February 7, 2018].",
+        "volume-title": "University of Nebraska-Lincoln"
+      },
+      "index": 0,
+      "key": "bib1",
+      "title": "Proportion of Open Access Papers Published in Peer-Reviewed Journals at the European and World Levels: 1996–2013",
+      "year": 2014
+    },
+    {
+      "container_name": "ARL Statistics 2014–2015",
+      "extra": {
+        "authors": [
+          "Association of Research Libraries"
+        ],
+        "unstructured": "Association of Research Libraries. 2017. Graph 4: Expenditure Trends in ARL Libraries, 1986-2015. ARL Statistics 2014–2015. http://www.arl.org/storage/documents/expenditure-trends.pdf [Accessed February 7, 2018].",
+        "volume-title": "ARL Statistics 2014–2015"
+      },
+      "index": 1,
+      "key": "bib2",
+      "title": "Graph 4: Expenditure Trends in ARL Libraries, 1986-2015",
+      "year": 2017
+    },
+    {
+      "container_name": "Eastern District Court of Virginia",
+      "extra": {
+        "authors": [
+          "Barnes A"
+        ],
+        "unstructured": "Barnes A L, Weslow D E, Gardner M J. 2017. Complaint – Document #1 of American Chemical Society v. Does – Case 1:17-cv-00726-LMB-JFA. Eastern District Court of Virginia. https://www.courtlistener.com/docket/6146630/1/american-chemical-society-v-does-1-99/ [Accessed February 7, 2018].",
+        "volume-title": "Eastern District Court of Virginia"
+      },
+      "index": 2,
+      "key": "bib3",
+      "title": "Complaint – Document #1 of American Chemical Society v. Does – Case 1:17-cv-00726-LMB-JFA",
+      "year": 2017
+    },
+    {
+      "container_name": "Nature Biotechnology",
+      "extra": {
+        "authors": [
+          "Beaulieu-Jones"
+        ],
+        "doi": "10.1038/nbt.3780",
+        "volume": "35"
+      },
+      "index": 3,
+      "key": "bib4",
+      "locator": "342",
+      "title": "Reproducibility of computational workflows is automated using continuous analysis",
+      "year": 2017
+    },
+    {
+      "container_name": "Nature",
+      "extra": {
+        "authors": [
+          "Becker"
+        ],
+        "doi": "10.1038/535011f",
+        "volume": "535"
+      },
+      "index": 4,
+      "key": "bib5",
+      "locator": "11",
+      "title": "Publisher under fire for fake article webpages",
+      "year": 2016
+    },
+    {
+      "container_name": "The Lancet Global Health",
+      "extra": {
+        "authors": [
+          "Bendezú-Quispe"
+        ],
+        "doi": "10.1016/s2214-109x(16)30188-7"
+      },
+      "index": 5,
+      "key": "bib6",
+      "locator": "e608",
+      "title": "Sci-Hub and medical practice: an ethical dilemma in Peru",
+      "year": 2016
+    },
+    {
+      "container_name": "arXiv",
+      "extra": {
+        "authors": [
+          "Benet"
+        ],
+        "unstructured": "Benet J. 2014. IPFS - Content Addressed, Versioned, P2P File System. arXiv. https://arxiv.org/abs/1407.3561v1 [Accessed February 7, 2018].",
+        "volume-title": "arXiv"
+      },
+      "index": 6,
+      "key": "bib7",
+      "title": "IPFS - Content Addressed, Versioned, P2P File System",
+      "year": 2014
+    },
+    {
+      "container_name": "PNAS",
+      "extra": {
+        "authors": [
+          "Bergstrom"
+        ],
+        "doi": "10.1073/pnas.1403006111",
+        "volume": "111"
+      },
+      "index": 7,
+      "key": "bib8",
+      "locator": "9425",
+      "title": "Evaluating big deal journal bundles",
+      "year": 2014
+    },
+    {
+      "container_name": "Electronic Markets",
+      "extra": {
+        "authors": [
+          "Björk"
+        ],
+        "doi": "10.1007/s12525-017-0249-2",
+        "volume": "27"
+      },
+      "index": 8,
+      "key": "bib9",
+      "locator": "101",
+      "title": "Scholarly journal publishing in transition- from restricted to open access",
+      "year": 2017
+    },
+    {
+      "container_name": "Copyrighting Creativity",
+      "extra": {
+        "authors": [
+          "Bodó"
+        ],
+        "doi": "10.2139/ssrn.2616636",
+        "volume-title": "Copyrighting Creativity"
+      },
+      "index": 9,
+      "key": "bib10",
+      "year": 2015
+    },
+    {
+      "extra": {
+        "authors": [
+          "Bodó"
+        ],
+        "doi": "10.2139/ssrn.2816925",
+        "unstructured": "Bodó B. 2016. Pirates in the Library An Inquiry into the Guerilla Open Access Movement. 8th Annual Workshop of the International Society for the History and Theory of Intellectual Property."
+      },
+      "index": 10,
+      "key": "bib11",
+      "title": "Pirates in the Library An Inquiry into the Guerilla Open Access Movement",
+      "year": 2016
+    },
+    {
+      "container_name": "Science",
+      "extra": {
+        "authors": [
+          "Bohannon"
+        ],
+        "doi": "10.1126/science.352.6285.511",
+        "volume": "352"
+      },
+      "index": 11,
+      "key": "bib12",
+      "locator": "511",
+      "title": "The frustrated science student behind Sci-Hub",
+      "year": 2016
+    },
+    {
+      "container_name": "Science",
+      "extra": {
+        "authors": [
+          "Bohannon"
+        ],
+        "doi": "10.1126/science.352.6285.508",
+        "volume": "352"
+      },
+      "index": 12,
+      "key": "bib13",
+      "locator": "508",
+      "title": "Who's downloading pirated papers? Everyone",
+      "year": 2016
+    },
+    {
+      "container_name": "Library Journal",
+      "extra": {
+        "authors": [
+          "Bosch"
+        ],
+        "unstructured": "Bosch S, Henderson K. 2017. New World, Same Model | Periodicals Price Survey 2017. Library Journal. http://lj.libraryjournal.com/2017/04/publishing/new-world-same-model-periodicals-price-survey-2017/ [Accessed February 7, 2018].",
+        "volume-title": "Library Journal"
+      },
+      "index": 13,
+      "key": "bib14",
+      "title": "New World, Same Model | Periodicals Price Survey 2017",
+      "year": 2017
+    },
+    {
+      "container_name": "PeerJ Preprints",
+      "extra": {
+        "authors": [
+          "Bosman"
+        ],
+        "doi": "10.7287/peerj.preprints.3520v1",
+        "volume-title": "PeerJ Preprints"
+      },
+      "index": 14,
+      "key": "bib15",
+      "title": "Open access levels: a quantitative exploration using Web of Science and oaDOI data",
+      "year": 2018
+    },
+    {
+      "container_name": "Scientometrics",
+      "extra": {
+        "authors": [
+          "Boudry"
+        ],
+        "doi": "10.1007/s11192-016-2225-6",
+        "volume": "110"
+      },
+      "index": 15,
+      "key": "bib16",
+      "locator": "1453",
+      "title": "Availability of digital object identifiers in publications archived by PubMed",
+      "year": 2017
+    },
+    {
+      "container_name": "Eastern District Court of Virginia",
+      "extra": {
+        "authors": [
+          "Brinkema L"
+        ],
+        "unstructured": "Brinkema L M. 2017. Order – Document #37 of American Chemical Society v. Sci-Hub – Case 1:17-cv-00726-LMB-JFA. Eastern District Court of Virginia. https://regmedia.co.uk/2017/11/07/sci_hub_block_order_short.pdf [Accessed February 7, 2018].",
+        "volume-title": "Eastern District Court of Virginia"
+      },
+      "index": 16,
+      "key": "bib17",
+      "title": "Order – Document #37 of American Chemical Society v. Sci-Hub – Case 1:17-cv-00726-LMB-JFA",
+      "year": 2017
+    },
+    {
+      "container_name": "BS ISO 26324:2012 Information and Documentation. Digital Object Identifier System",
+      "extra": {
+        "authors": [
+          "British Standards Institute"
+        ],
+        "doi": "10.3403/30177056",
+        "unstructured": "British Standards Institute. 2012. BS ISO 26324:2012 Information and Documentation. Digital Object Identifier System.",
+        "volume-title": "BS ISO 26324:2012 Information and Documentation. Digital Object Identifier System"
+      },
+      "index": 17,
+      "key": "bib18",
+      "year": 2012
+    },
+    {
+      "container_name": "D-Lib Magazine",
+      "extra": {
+        "authors": [
+          "Brook"
+        ],
+        "doi": "10.1045/november14-brook",
+        "volume": "20"
+      },
+      "index": 18,
+      "key": "bib19",
+      "title": "The social, political and legal aspects of text and data mining (TDM)",
+      "year": 2014
+    },
+    {
+      "container_name": "The Guardian",
+      "extra": {
+        "authors": [
+          "Buranyi"
+        ],
+        "unstructured": "Buranyi S. 2017. Is the staggeringly profitable business of scientific publishing bad for science?. The Guardian. https://www.theguardian.com/science/2017/jun/27/profitable-business-scientific-publishing-bad-for-science [Accessed February 7, 2018].",
+        "volume-title": "The Guardian"
+      },
+      "index": 19,
+      "key": "bib20",
+      "title": "Is the staggeringly profitable business of scientific publishing bad for science?",
+      "year": 2017
+    },
+    {
+      "container_name": "Journal of the Association for Information Science and Technology",
+      "extra": {
+        "authors": [
+          "Cabanac"
+        ],
+        "doi": "10.1002/asi.23445",
+        "volume": "67"
+      },
+      "index": 20,
+      "key": "bib21",
+      "locator": "874",
+      "title": "Bibliogifts in LibGen? A study of a text-sharing platform driven by biblioleaks and crowdsourcing",
+      "year": 2016
+    },
+    {
+      "container_name": "Figshare",
+      "extra": {
+        "authors": [
+          "Cabanac"
+        ],
+        "doi": "10.6084/m9.figshare.4906367.v1",
+        "volume-title": "Figshare"
+      },
+      "index": 21,
+      "key": "bib22",
+      "title": "Scimag catalogue of LibGen as of January 1st, 2014",
+      "year": 2017
+    },
+    {
+      "container_name": "bioRxiv",
+      "extra": {
+        "authors": [
+          "Ching"
+        ],
+        "doi": "10.1101/142760",
+        "volume-title": "bioRxiv"
+      },
+      "index": 22,
+      "key": "bib23",
+      "title": "Opportunities and obstacles for deep learning in biology and medicine",
+      "year": 2017
+    },
+    {
+      "container_name": "ConsenSys Media",
+      "extra": {
+        "authors": [
+          "ConsenSys"
+        ],
+        "unstructured": "ConsenSys. 2016. Decentralized Storage: The Backbone of the Third Web. ConsenSys Media. https://media.consensys.net/decentralized-storage-the-backbone-of-the-third-web-d4bc54e79700 [Accessed February 7, 2018].",
+        "volume-title": "ConsenSys Media"
+      },
+      "index": 23,
+      "key": "bib24",
+      "title": "Decentralized Storage: The Backbone of the Third Web",
+      "year": 2016
+    },
+    {
+      "container_name": "The Scholarly Kitchen",
+      "extra": {
+        "authors": [
+          "Davis"
+        ],
+        "unstructured": "Davis P. 2016. Two-step authentication: Finally coming to a university near you. The Scholarly Kitchen. https://scholarlykitchen.sspnet.org/2016/06/21/two-step-authentication-finally-coming-to-a-university-near-you/ [Accessed February 7, 2018].",
+        "volume-title": "The Scholarly Kitchen"
+      },
+      "index": 24,
+      "key": "bib25",
+      "title": "Two-step authentication: Finally coming to a university near you",
+      "year": 2016
+    },
+    {
+      "container_name": "Southern District Court of New York",
+      "extra": {
+        "authors": [
+          "DeMarco"
+        ],
+        "unstructured": "DeMarco JV, Hirschberg DM, Sen U. 2015a. Complaint – Document #1 of Elsevier Inc. v. Sci-Hub – Case 1:15-cv-04282-RWS. Southern District Court of New York. https://www.courtlistener.com/docket/4355308/1/elsevier-inc-v-sci-hub/ [Accessed February 7, 2018].",
+        "volume-title": "Southern District Court of New York"
+      },
+      "index": 25,
+      "key": "bib26",
+      "title": "Complaint – Document #1 of Elsevier Inc. v. Sci-Hub – Case 1:15-cv-04282-RWS",
+      "year": 2015
+    },
+    {
+      "container_name": "Southern District Court of New York",
+      "extra": {
+        "authors": [
+          "DeMarco"
+        ],
+        "unstructured": "DeMarco JV, Hirschberg DM, Sen U. 2015b. Memorandum of Law in Support of Motion – Document #6 of Elsevier Inc. v. Sci-Hub – Case 1:15-cv-04282-RWS. Southern District Court of New York. https://www.courtlistener.com/docket/4355308/6/elsevier-inc-v-sci-hub/ [Accessed February 7, 2018].",
+        "volume-title": "Southern District Court of New York"
+      },
+      "index": 26,
+      "key": "bib27",
+      "title": "Memorandum of Law in Support of Motion – Document #6 of Elsevier Inc. v. Sci-Hub – Case 1:15-cv-04282-RWS",
+      "year": 2015
+    },
+    {
+      "extra": {
+        "authors": [
+          "Dingledine"
+        ],
+        "unstructured": "Dingledine R, Mathewson N, Syverson P. 2004. Tor: The Second-Generation Onion Router. http://www.dtic.mil/docs/citations/ADA465464 [Accessed February 7, 2018]."
+      },
+      "index": 27,
+      "key": "bib28",
+      "title": "Tor: The Second-Generation Onion Router",
+      "year": 2004
+    },
+    {
+      "container_name": "Journal of Medical Internet Research",
+      "extra": {
+        "authors": [
+          "Dunn"
+        ],
+        "doi": "10.2196/jmir.3331",
+        "volume": "16"
+      },
+      "index": 28,
+      "key": "bib29",
+      "locator": "e112",
+      "title": "Is Biblioleaks inevitable?",
+      "year": 2014
+    },
+    {
+      "container_name": "EBSCO",
+      "extra": {
+        "authors": [
+          "EBSCO"
+        ],
+        "unstructured": "EBSCO. 2017. Five Year Journal Price Increase History (2013-2017). EBSCO. https://www.ebscohost.com/promoMaterials/Five_Year_Journal_Price_Increase_History_EBSCO_2013-2017.pdf [Accessed February 7, 2018].",
+        "volume-title": "EBSCO"
+      },
+      "index": 29,
+      "key": "bib30",
+      "title": "Five Year Journal Price Increase History (2013-2017)",
+      "year": 2017
+    },
+    {
+      "container_name": "Dryad Digital Repository",
+      "extra": {
+        "authors": [
+          "Elbakyan"
+        ],
+        "doi": "10.5061/dryad.q447c/1",
+        "volume-title": "Dryad Digital Repository"
+      },
+      "index": 30,
+      "key": "bib31",
+      "title": "Sci-Hub download data",
+      "year": 2016
+    },
+    {
+      "container_name": "Southern District Court of New York",
+      "extra": {
+        "authors": [
+          "Elbakyan"
+        ],
+        "unstructured": "Elbakyan A. 2015. Letter – Document #50 of Elsevier Inc. v. Sci-Hub – Case 1:15-cv-04282-RWS. Southern District Court of New York. https://www.courtlistener.com/docket/4355308/50/elsevier-inc-v-sci-hub/ [Accessed February 7, 2018].",
+        "volume-title": "Southern District Court of New York"
+      },
+      "index": 31,
+      "key": "bib32",
+      "title": "Letter – Document #50 of Elsevier Inc. v. Sci-Hub – Case 1:15-cv-04282-RWS",
+      "year": 2015
+    },
+    {
+      "container_name": "Engineuring",
+      "extra": {
+        "authors": [
+          "Elbakyan"
+        ],
+        "unstructured": "Elbakyan A. 2016a. Sci-Hub is a goal, changing the system is a method. Engineuring. https://engineuring.wordpress.com/2016/03/11/sci-hub-is-a-goal-changing-the-system-is-a-method/ [Accessed February 7, 2018].",
+        "volume-title": "Engineuring"
+      },
+      "index": 32,
+      "key": "bib33",
+      "title": "Sci-Hub is a goal, changing the system is a method",
+      "year": 2016
+    },
+    {
+      "container_name": "Engineuring",
+      "extra": {
+        "authors": [
+          "Elbakyan"
+        ],
+        "unstructured": "Elbakyan A. 2016b. Why Sci-Hub is the true solution for Open Access: reply to criticism. Engineuring. https://engineuring.wordpress.com/2016/02/24/why-sci-hub-is-the-true-solution-for-open-access-reply-to-criticism/ [Accessed February 7, 2018].",
+        "volume-title": "Engineuring"
+      },
+      "index": 33,
+      "key": "bib34",
+      "title": "Why Sci-Hub is the true solution for Open Access: reply to criticism",
+      "year": 2016
+    },
+    {
+      "container_name": "Engineuring",
+      "extra": {
+        "authors": [
+          "Elbakyan"
+        ],
+        "unstructured": "Elbakyan A. 2017. Some facts on Sci-Hub that Wikipedia gets wrong. Engineuring. https://engineuring.wordpress.com/2017/07/02/some-facts-on-sci-hub-that-wikipedia-gets-wrong/ [Accessed February 7, 2018].",
+        "volume-title": "Engineuring"
+      },
+      "index": 34,
+      "key": "bib35",
+      "title": "Some facts on Sci-Hub that Wikipedia gets wrong",
+      "year": 2017
+    },
+    {
+      "container_name": "Times Higher Education",
+      "extra": {
+        "authors": [
+          "Else"
+        ],
+        "unstructured": "Else H. 2017. Dutch lose access to OUP journals in subscription standoff. Times Higher Education. https://www.timeshighereducation.com/news/dutch-lose-access-oup-journals-subscription-standoff [Accessed February 7, 2018].",
+        "volume-title": "Times Higher Education"
+      },
+      "index": 35,
+      "key": "bib36",
+      "title": "Dutch lose access to OUP journals in subscription standoff",
+      "year": 2017
+    },
+    {
+      "container_name": "The Scholarly Kitchen",
+      "extra": {
+        "authors": [
+          "Esposito"
+        ],
+        "unstructured": "Esposito JJ. 2016. Sci-Hub and the four horsemen of the internet. The Scholarly Kitchen. https://scholarlykitchen.sspnet.org/2016/03/02/sci-hub-and-the-four-horsemen-of-the-internet/ [Accessed February 7, 2018].",
+        "volume-title": "The Scholarly Kitchen"
+      },
+      "index": 36,
+      "key": "bib37",
+      "title": "Sci-Hub and the four horsemen of the internet",
+      "year": 2016
+    },
+    {
+      "container_name": "The Scholarly Kitchen",
+      "extra": {
+        "authors": [
+          "Esposito"
+        ],
+        "unstructured": "Esposito JJ. 2017. Sci-Hub moves to the center of the ecosystem. The Scholarly Kitchen. https://scholarlykitchen.sspnet.org/2017/09/05/sci-hub-moves-center-ecosystem/ [Accessed February 7, 2018].",
+        "volume-title": "The Scholarly Kitchen"
+      },
+      "index": 37,
+      "key": "bib38",
+      "title": "Sci-Hub moves to the center of the ecosystem",
+      "year": 2017
+    },
+    {
+      "container_name": "Issues in Science and Technology Librarianship",
+      "extra": {
+        "authors": [
+          "Fernandez"
+        ],
+        "doi": "10.5062/f4g73bp3"
+      },
+      "index": 38,
+      "key": "bib39",
+      "title": "Factors in Science Journal Cancellation Projects: The Roles of Faculty Consultations and Data",
+      "year": 2014
+    },
+    {
+      "container_name": "Inside Higher Ed",
+      "extra": {
+        "authors": [
+          "Fister"
+        ],
+        "unstructured": "Fister B. 2017. Inevitably open. Inside Higher Ed. https://www.insidehighered.com/blogs/library-babel-fish/inevitably-open [Accessed February 7, 2018].",
+        "volume-title": "Inside Higher Ed"
+      },
+      "index": 39,
+      "key": "bib40",
+      "title": "Inevitably open",
+      "year": 2017
+    },
+    {
+      "container_name": "Communiqués, Bibliothèques, Université de Montréal",
+      "extra": {
+        "authors": [
+          "Gagnon"
+        ],
+        "unstructured": "Gagnon S. 2017. UdeM Libraries cancel Big Deal subscription to 2,231 periodical titles published by Taylor & Francis Group. Communiqués, Bibliothèques, Université de Montréal. http://www.bib.umontreal.ca/communiques/20170504-DC-annulation-taylor-francis-va.htm [Accessed February 7, 2018].",
+        "volume-title": "Communiqués, Bibliothèques, Université de Montréal"
+      },
+      "index": 40,
+      "key": "bib41",
+      "title": "UdeM Libraries cancel Big Deal subscription to 2,231 periodical titles published by Taylor & Francis Group",
+      "year": 2017
+    },
+    {
+      "container_name": "ACRL 2017",
+      "extra": {
+        "authors": [
+          "Gardner"
+        ],
+        "unstructured": "Gardner GJ, McLaughlin SR, Asher AD. 2017. Shadow Libraries and You: Sci-Hub Usage and the Future of ILL. ACRL 2017. https://hdl.handle.net/10760/30981 [Accessed February 7, 2018].",
+        "volume-title": "ACRL 2017"
+      },
+      "index": 41,
+      "key": "bib42",
+      "title": "Shadow Libraries and You: Sci-Hub Usage and the Future of ILL",
+      "year": 2017
+    },
+    {
+      "container_name": "Journal of Informetrics",
+      "extra": {
+        "authors": [
+          "Gorraiz"
+        ],
+        "doi": "10.1016/j.joi.2015.11.008",
+        "volume": "10"
+      },
+      "index": 42,
+      "key": "bib43",
+      "locator": "98",
+      "title": "Availability of digital object identifiers (DOIs) in Web of Science and Scopus",
+      "year": 2016
+    },
+    {
+      "container_name": "The Winnower",
+      "extra": {
+        "authors": [
+          "Greshake"
+        ],
+        "doi": "10.15200/winn.146485.57797"
+      },
+      "index": 43,
+      "key": "bib44",
+      "title": "Correlating the Sci-Hub data with World Bank Indicators and Identifying Academic Use",
+      "year": 2016
+    },
+    {
+      "container_name": "F1000Research",
+      "extra": {
+        "authors": [
+          "Greshake"
+        ],
+        "doi": "10.12688/f1000research.11366.1"
+      },
+      "index": 44,
+      "key": "bib45",
+      "locator": "541",
+      "title": "Looking into Pandora's Box: The Content of Sci-Hub and its Usage",
+      "year": 2017
+    },
+    {
+      "container_name": "Zenodo",
+      "extra": {
+        "authors": [
+          "Greshake"
+        ],
+        "doi": "10.5281/zenodo.472493",
+        "volume-title": "Zenodo"
+      },
+      "index": 45,
+      "key": "bib46",
+      "title": "Data and Scripts for Looking into Pandora's Box: The Content of Sci-Hub and its Usage",
+      "year": 2017
+    },
+    {
+      "container_name": "Figshare",
+      "extra": {
+        "authors": [
+          "Himmelstein"
+        ],
+        "doi": "10.6084/m9.figshare.5231245.v1",
+        "volume-title": "Figshare"
+      },
+      "index": 46,
+      "key": "bib47",
+      "title": "A user-friendly extract of the LibGen scimag metadata SQL dump on 2017-04-07",
+      "year": 2017
+    },
+    {
+      "container_name": "Figshare",
+      "extra": {
+        "authors": [
+          "Himmelstein"
+        ],
+        "doi": "10.6084/m9.figshare.4816720",
+        "volume-title": "Figshare"
+      },
+      "index": 47,
+      "key": "bib48",
+      "title": "Metadata for all DOIs in Crossref: JSON MongoDB exports of all works from the Crossref API",
+      "year": 2017
+    },
+    {
+      "container_name": "Satoshi Village",
+      "extra": {
+        "authors": [
+          "Himmelstein"
+        ],
+        "unstructured": "Himmelstein D. 2016. The licensing of bioRxiv preprints. Satoshi Village. http://blog.dhimmel.com/biorxiv-licenses/ [Accessed February 7, 2018].",
+        "volume-title": "Satoshi Village"
+      },
+      "index": 48,
+      "key": "bib49",
+      "title": "The licensing of bioRxiv preprints",
+      "year": 2016
+    },
+    {
+      "container_name": "PeerJ Preprints",
+      "extra": {
+        "authors": [
+          "Himmelstein"
+        ],
+        "doi": "10.7287/peerj.preprints.3100v1",
+        "volume-title": "PeerJ Preprints"
+      },
+      "index": 49,
+      "key": "bib50",
+      "title": "Sci-Hub provides access to nearly all scholarly literature",
+      "year": 2017
+    },
+    {
+      "container_name": "DOI Handbook",
+      "extra": {
+        "authors": [
+          "International DOI Foundation"
+        ],
+        "doi": "10.1000/182",
+        "volume-title": "DOI Handbook"
+      },
+      "index": 50,
+      "key": "bib51",
+      "year": 2017
+    },
+    {
+      "container_name": "The Guardian",
+      "extra": {
+        "authors": [
+          "Jha"
+        ],
+        "unstructured": "Jha A. 2012. Open access to research is inevitable, says Nature editor-in-chief. The Guardian. https://www.theguardian.com/science/2012/jun/08/open-access-research-inevitable-nature-editor [Accessed February 7, 2018].",
+        "volume-title": "The Guardian"
+      },
+      "index": 51,
+      "key": "bib52",
+      "title": "Open access to research is inevitable, says Nature editor-in-chief",
+      "year": 2012
+    },
+    {
+      "container_name": "Science",
+      "extra": {
+        "authors": [
+          "Kaiser"
+        ],
+        "doi": "10.1126/science.aaq0747"
+      },
+      "index": 52,
+      "key": "bib53",
+      "title": "Are preprints the future of biology? A survival guide for scientists",
+      "year": 2017
+    },
+    {
+      "container_name": "PLoS One",
+      "extra": {
+        "authors": [
+          "Khabsa"
+        ],
+        "doi": "10.1371/journal.pone.0093949"
+      },
+      "index": 53,
+      "key": "bib54",
+      "locator": "e93949",
+      "title": "The number of scholarly documents on the public web",
+      "year": 2014
+    },
+    {
+      "container_name": "Journal of Hymenoptera Research",
+      "extra": {
+        "authors": [
+          "Khalaim"
+        ],
+        "doi": "10.3897/jhr.58.12919",
+        "volume": "58"
+      },
+      "index": 54,
+      "key": "bib55",
+      "locator": "17",
+      "title": "Ichneumonidae (Hymenoptera) associated with xyelid sawflies (Hymenoptera, Xyelidae) in Mexico",
+      "year": 2017
+    },
+    {
+      "container_name": "Digital Libraries: Knowledge, Information, and Data in an Open Access Society",
+      "extra": {
+        "authors": [
+          "Kikkawa"
+        ],
+        "doi": "10.1007/978-3-319-49304-6_40"
+      },
+      "index": 55,
+      "key": "bib56",
+      "title": "DOI Links on Wikipedia",
+      "year": 2016
+    },
+    {
+      "container_name": "Serials Review",
+      "extra": {
+        "authors": [
+          "Kirsop"
+        ],
+        "doi": "10.1080/00987913.2005.10764998",
+        "volume": "31"
+      },
+      "index": 56,
+      "key": "bib57",
+      "locator": "246",
+      "title": "Transforming access to research literature for developing countries",
+      "year": 2005
+    },
+    {
+      "container_name": "Science Editing",
+      "extra": {
+        "authors": [
+          "Lammey"
+        ],
+        "doi": "10.6087/kcse.2014.1.13"
+      },
+      "index": 57,
+      "key": "bib58",
+      "locator": "13",
+      "title": "CrossRef developments and initiatives: an update on services for the scholarly publishing community from CrossRef",
+      "year": 2014
+    },
+    {
+      "container_name": "PLoS One",
+      "extra": {
+        "authors": [
+          "Larivière"
+        ],
+        "doi": "10.1371/journal.pone.0127502",
+        "volume": "10"
+      },
+      "index": 58,
+      "key": "bib59",
+      "locator": "e0127502",
+      "title": "The oligopoly of academic publishers in the digital era",
+      "year": 2015
+    },
+    {
+      "container_name": "Atlas Obscura",
+      "extra": {
+        "authors": [
+          "Laskow"
+        ],
+        "unstructured": "Laskow S. 2016. The Rise of Pirate Libraries. Atlas Obscura. http://www.atlasobscura.com/articles/the-rise-of-illegal-pirate-libraries [Accessed February 7, 2018].",
+        "volume-title": "Atlas Obscura"
+      },
+      "index": 59,
+      "key": "bib60",
+      "title": "The Rise of Pirate Libraries",
+      "year": 2016
+    },
+    {
+      "container_name": "Figshare",
+      "extra": {
+        "authors": [
+          "Lawson"
+        ],
+        "doi": "10.6084/m9.figshare.1186832.v23",
+        "volume-title": "Figshare"
+      },
+      "index": 60,
+      "key": "bib61",
+      "title": "Journal subscription costs - FOIs to UK universities",
+      "year": 2015
+    },
+    {
+      "container_name": "Figshare",
+      "extra": {
+        "authors": [
+          "Lawson"
+        ],
+        "doi": "10.6084/m9.figshare.4542433.v6",
+        "volume-title": "Figshare"
+      },
+      "index": 61,
+      "key": "bib62",
+      "title": "Journal subscription expenditure in the UK 2015-16",
+      "year": 2017
+    },
+    {
+      "container_name": "Insights the UKSG Journal",
+      "extra": {
+        "authors": [
+          "Lawson"
+        ],
+        "doi": "10.1629/uksg.333",
+        "volume": "30"
+      },
+      "index": 62,
+      "key": "bib63",
+      "locator": "25",
+      "title": "Access, ethics and piracy",
+      "year": 2017
+    },
+    {
+      "container_name": "College & Research Libraries",
+      "extra": {
+        "authors": [
+          "Lewis"
+        ],
+        "doi": "10.5860/crl-299",
+        "volume": "73"
+      },
+      "index": 63,
+      "key": "bib64",
+      "locator": "493",
+      "title": "The Inevitability of Open Access",
+      "year": 2012
+    },
+    {
+      "container_name": "F1000Research",
+      "extra": {
+        "authors": [
+          "Logan"
+        ],
+        "doi": "10.12688/f1000research.11415.1"
+      },
+      "index": 64,
+      "key": "bib65",
+      "locator": "518",
+      "title": "We can shift academic culture through publishing choices",
+      "year": 2017
+    },
+    {
+      "container_name": "Science",
+      "extra": {
+        "authors": [
+          "McKenzie"
+        ],
+        "doi": "10.1126/science.aan7164"
+      },
+      "index": 65,
+      "key": "bib66",
+      "title": "Sci-Hub's cache of pirated papers is so big, subscription journals are doomed, data analyst suggests",
+      "year": 2017
+    },
+    {
+      "container_name": "The Journal of Electronic Publishing",
+      "extra": {
+        "authors": [
+          "Meadows"
+        ],
+        "doi": "10.3998/3336451.0018.301",
+        "volume": "18"
+      },
+      "index": 66,
+      "key": "bib67",
+      "title": "Beyond Open: Expanding Access to Scholarly Content",
+      "year": 2015
+    },
+    {
+      "container_name": "PLoS One",
+      "extra": {
+        "authors": [
+          "Mejia"
+        ],
+        "doi": "10.1371/journal.pone.0185673",
+        "volume": "12"
+      },
+      "index": 67,
+      "key": "bib68",
+      "locator": "e0185673",
+      "title": "Use, knowledge, and perception of the scientific contribution of Sci-Hub in medical students: Study in six countries in Latin America",
+      "year": 2017
+    },
+    {
+      "container_name": "Life Extension Advocacy Foundation",
+      "extra": {
+        "authors": [
+          "Milova"
+        ],
+        "unstructured": "Milova E. 2017. Alexandra Elbakyan – Science Should be Open to all Not Behind Paywalls. Life Extension Advocacy Foundation. http://www.leafscience.org/alexandra-elbakyan/ [Accessed February 7, 2018].",
+        "volume-title": "Life Extension Advocacy Foundation"
+      },
+      "index": 68,
+      "key": "bib69",
+      "title": "Alexandra Elbakyan – Science Should be Open to all Not Behind Paywalls",
+      "year": 2017
+    },
+    {
+      "container_name": "Scientometrics",
+      "extra": {
+        "authors": [
+          "Mongeon"
+        ],
+        "doi": "10.1007/s11192-015-1765-5"
+      },
+      "index": 69,
+      "key": "bib70",
+      "title": "The journal coverage of Web of Science and Scopus: a comparative analysis",
+      "year": 2015
+    },
+    {
+      "container_name": "Simon Fraser University",
+      "extra": {
+        "authors": [
+          "Morrison"
+        ],
+        "unstructured": "Morrison HG. 2012. Freedom for scholarship in the internet age. Simon Fraser University. http://summit.sfu.ca/item/12537 [Accessed February 7, 2018].",
+        "volume-title": "Simon Fraser University"
+      },
+      "index": 70,
+      "key": "bib71",
+      "title": "Freedom for scholarship in the internet age",
+      "year": 2012
+    },
+    {
+      "container_name": "New York Times",
+      "extra": {
+        "authors": [
+          "Murphy"
+        ],
+        "unstructured": "Murphy K. 2016. Should All Research Papers Be Free?. New York Times. https://www.nytimes.com/2016/03/13/opinion/sunday/should-all-research-papers-be-free.html [Accessed February 7, 2018].",
+        "volume-title": "New York Times"
+      },
+      "index": 71,
+      "key": "bib72",
+      "title": "Should All Research Papers Be Free?",
+      "year": 2016
+    },
+    {
+      "container_name": "Figshare",
+      "extra": {
+        "authors": [
+          "OpenCitations"
+        ],
+        "doi": "10.6084/m9.figshare.5255368.v1",
+        "volume-title": "Figshare"
+      },
+      "index": 72,
+      "key": "bib73",
+      "title": "OCC dataset of all the identifiers, made on 2017-07-25",
+      "year": 2017
+    },
+    {
+      "container_name": "Figshare",
+      "extra": {
+        "authors": [
+          "OpenCitations"
+        ],
+        "doi": "10.6084/m9.figshare.5255365.v1",
+        "volume-title": "Figshare"
+      },
+      "index": 73,
+      "key": "bib74",
+      "title": "OCC dataset of all the bibliographic resources, made on 2017-07-25",
+      "year": 2017
+    },
+    {
+      "container_name": "Big Think",
+      "extra": {
+        "authors": [
+          "Oxenham"
+        ],
+        "unstructured": "Oxenham S. 2016. Meet the Robin Hood of Science. Big Think. http://bigthink.com/neurobonkers/a-pirate-bay-for-science [Accessed February 7, 2018].",
+        "volume-title": "Big Think"
+      },
+      "index": 74,
+      "key": "bib75",
+      "title": "Meet the Robin Hood of Science",
+      "year": 2016
+    },
+    {
+      "container_name": "Stand Alone",
+      "extra": {
+        "authors": [
+          "Paul"
+        ],
+        "doi": "10.3233/978-1-61499-769-6-118"
+      },
+      "index": 75,
+      "key": "bib76",
+      "title": "The transition to open access: The state of the market, offsetting deals, and a demonstrated model for fair open access with the open library of humanities",
+      "year": 2017
+    },
+    {
+      "container_name": "Journal of Documentation",
+      "extra": {
+        "authors": [
+          "Peroni"
+        ],
+        "doi": "10.1108/jd-12-2013-0166",
+        "volume": "71"
+      },
+      "index": 76,
+      "key": "bib77",
+      "locator": "253",
+      "title": "Setting our bibliographic references free: towards open citation data",
+      "year": 2015
+    },
+    {
+      "container_name": "Figshare",
+      "extra": {
+        "authors": [
+          "Peroni"
+        ],
+        "doi": "10.6084/m9.figshare.3443876.v3",
+        "volume-title": "Figshare"
+      },
+      "index": 77,
+      "key": "bib78",
+      "title": "Metadata for the OpenCitations Corpus",
+      "year": 2016
+    },
+    {
+      "container_name": "PeerJ",
+      "extra": {
+        "authors": [
+          "Piwowar"
+        ],
+        "doi": "10.7717/peerj.4375"
+      },
+      "index": 78,
+      "key": "bib79",
+      "locator": "e4375",
+      "title": "The State of OA: A large-scale analysis of the prevalence and impact of Open Access articles",
+      "year": 2018
+    },
+    {
+      "container_name": "Zenodo",
+      "extra": {
+        "authors": [
+          "Piwowar"
+        ],
+        "doi": "10.5281/zenodo.837902",
+        "volume-title": "Zenodo"
+      },
+      "index": 79,
+      "key": "bib80",
+      "title": "Data from: The State of OA: A large-scale analysis of the prevalence and impact of Open Access articles",
+      "year": 2017
+    },
+    {
+      "container_name": "Impactstory Blog",
+      "extra": {
+        "authors": [
+          "Piwowar"
+        ],
+        "unstructured": "Piwowar H. 2016. Introducing oaDOI: resolve a DOI straight to OA. Impactstory Blog. http://blog.impactstory.org/introducting-oadoi/ [Accessed February 7, 2018].",
+        "volume-title": "Impactstory Blog"
+      },
+      "index": 80,
+      "key": "bib81",
+      "title": "Introducing oaDOI: resolve a DOI straight to OA",
+      "year": 2016
+    },
+    {
+      "container_name": "Nature",
+      "extra": {
+        "authors": [
+          "Powell"
+        ],
+        "doi": "10.1038/530148a",
+        "volume": "530"
+      },
+      "index": 81,
+      "key": "bib82",
+      "locator": "148",
+      "title": "Does it take too long to publish research?",
+      "year": 2016
+    },
+    {
+      "container_name": "Serials: The Journal for the Serials Community",
+      "extra": {
+        "authors": [
+          "Prosser"
+        ],
+        "doi": "10.1629/2460",
+        "volume": "24"
+      },
+      "index": 82,
+      "key": "bib83",
+      "locator": "60",
+      "title": "Reassessing the value proposition: first steps towards a fair(er) price for scholarly journals",
+      "year": 2011
+    },
+    {
+      "container_name": "Attempting Elegance",
+      "extra": {
+        "authors": [
+          "Rogers"
+        ],
+        "unstructured": "Rogers J. 2012. Walking away from the American Chemical Society. Attempting Elegance. http://www.attemptingelegance.com/?p=1765 [Accessed February 7, 2018].",
+        "volume-title": "Attempting Elegance"
+      },
+      "index": 83,
+      "key": "bib84",
+      "title": "Walking away from the American Chemical Society",
+      "year": 2012
+    },
+    {
+      "container_name": "The Serials Librarian",
+      "extra": {
+        "authors": [
+          "Roth"
+        ],
+        "doi": "10.1300/j123v18n01_09",
+        "volume": "18"
+      },
+      "index": 84,
+      "key": "bib85",
+      "locator": "123",
+      "title": "The Serials Crisis Revisited",
+      "year": 1990
+    },
+    {
+      "container_name": "Chemical & Engineering News",
+      "extra": {
+        "authors": [
+          "Rovner"
+        ],
+        "unstructured": "Rovner SL. 2014. Online Access To ACS Publications Is Restored After Some Customers Were Unintentionally Blocked. Chemical & Engineering News. http://cen.acs.org/articles/92/web/2014/04/Online-Access-ACS-Publications-Restored.html [Accessed February 7, 2018].",
+        "volume-title": "Chemical & Engineering News"
+      },
+      "index": 85,
+      "key": "bib86",
+      "title": "Online Access To ACS Publications Is Restored After Some Customers Were Unintentionally Blocked",
+      "year": 2014
+    },
+    {
+      "container_name": "Library Conference Presentations and Speeches",
+      "extra": {
+        "authors": [
+          "Royster"
+        ],
+        "unstructured": "Royster P. 2016. A Brief History of Open Access. Library Conference Presentations and Speeches. http://digitalcommons.unl.edu/library_talks/123 [Accessed February 7, 2018].",
+        "volume-title": "Library Conference Presentations and Speeches"
+      },
+      "index": 86,
+      "key": "bib87",
+      "title": "A Brief History of Open Access",
+      "year": 2016
+    },
+    {
+      "container_name": "Sociological Methodology",
+      "extra": {
+        "authors": [
+          "Rubin"
+        ],
+        "doi": "10.2307/271031",
+        "volume": "17"
+      },
+      "index": 87,
+      "key": "bib88",
+      "locator": "131",
+      "title": "Logit-Based Interval Estimation for Binomial Data Using the Jeffreys Prior",
+      "year": 1987
+    },
+    {
+      "container_name": "IEEE Transactions on Visualization and Computer Graphics",
+      "extra": {
+        "authors": [
+          "Satyanarayan"
+        ],
+        "doi": "10.1109/tvcg.2016.2599030",
+        "volume": "23"
+      },
+      "index": 88,
+      "key": "bib89",
+      "locator": "341",
+      "title": "Vega-Lite: A Grammar of Interactive Graphics",
+      "year": 2017
+    },
+    {
+      "container_name": "Nature",
+      "extra": {
+        "authors": [
+          "Schiermeier"
+        ],
+        "doi": "10.1038/nature.2016.21223",
+        "volume": "541"
+      },
+      "index": 89,
+      "key": "bib90",
+      "locator": "13",
+      "title": "Scientists in Germany, Peru and Taiwan to lose access to Elsevier journals",
+      "year": 2016
+    },
+    {
+      "container_name": "Nature",
+      "extra": {
+        "authors": [
+          "Schiermeier"
+        ],
+        "doi": "10.1038/nature.2015.18876"
+      },
+      "index": 90,
+      "key": "bib91",
+      "title": "Pirate research-paper sites play hide-and-seek with publishers",
+      "year": 2015
+    },
+    {
+      "container_name": "Nature",
+      "extra": {
+        "authors": [
+          "Schiermeier"
+        ],
+        "doi": "10.1038/nature.2017.22196"
+      },
+      "index": 91,
+      "key": "bib92",
+      "title": "US court grants Elsevier millions in damages from Sci-Hub",
+      "year": 2017
+    },
+    {
+      "container_name": "Nature",
+      "extra": {
+        "authors": [
+          "Schiermeier"
+        ],
+        "doi": "10.1038/nature.2017.22971"
+      },
+      "index": 92,
+      "key": "bib93",
+      "title": "Pirate paper website Sci-Hub dealt another blow by US courts",
+      "year": 2017
+    },
+    {
+      "container_name": "Nature",
+      "extra": {
+        "authors": [
+          "Schiermeier"
+        ],
+        "doi": "10.1038/d41586-018-00093-7",
+        "volume": "553"
+      },
+      "index": 93,
+      "key": "bib94",
+      "locator": "137",
+      "title": "Germany vs Elsevier: universities win temporary journal access after refusing to pay fees",
+      "year": 2018
+    },
+    {
+      "container_name": "BMC Medicine",
+      "extra": {
+        "authors": [
+          "Shen"
+        ],
+        "doi": "10.1186/s12916-015-0469-2",
+        "volume": "13"
+      },
+      "index": 94,
+      "key": "bib95",
+      "locator": "230",
+      "title": "'Predatory' open access: a longitudinal study of article volumes and market characteristics",
+      "year": 2015
+    },
+    {
+      "container_name": "The Register",
+      "extra": {
+        "authors": [
+          "Silver"
+        ],
+        "unstructured": "Silver A. 2017. Sci-Hub domains inactive following court order. The Register. http://www.theregister.co.uk/2017/11/23/scihubs_become_inactive_following_court_order/ [Accessed February 7, 2018].",
+        "volume-title": "The Register"
+      },
+      "index": 95,
+      "key": "bib96",
+      "title": "Sci-Hub domains inactive following court order",
+      "year": 2017
+    },
+    {
+      "container_name": "Science",
+      "extra": {
+        "authors": [
+          "Singh Chawla"
+        ],
+        "doi": "10.1126/science.aaq0132"
+      },
+      "index": 96,
+      "key": "bib97",
+      "title": "Publishers go after networking site for illicit sharing of journal papers",
+      "year": 2017
+    },
+    {
+      "container_name": "Science",
+      "extra": {
+        "authors": [
+          "Singh Chawla"
+        ],
+        "doi": "10.1126/science.aaq1560"
+      },
+      "index": 97,
+      "key": "bib98",
+      "title": "Publishers take ResearchGate to court, alleging massive copyright infringement",
+      "year": 2017
+    },
+    {
+      "container_name": "Nature",
+      "extra": {
+        "authors": [
+          "Singh Chawla"
+        ],
+        "doi": "10.1038/d41586-017-05922-9",
+        "volume": "551"
+      },
+      "index": 98,
+      "key": "bib99",
+      "locator": "399",
+      "title": "Need a paper? Get a plug-in",
+      "year": 2017
+    },
+    {
+      "container_name": "Nature",
+      "extra": {
+        "authors": [
+          "Singh Chawla"
+        ],
+        "doi": "10.1038/nature.2017.21765"
+      },
+      "index": 99,
+      "key": "bib100",
+      "title": "Unpaywall finds free versions of paywalled papers",
+      "year": 2017
+    },
+    {
+      "container_name": "Foreign Policy",
+      "extra": {
+        "authors": [
+          "Standish"
+        ],
+        "unstructured": "Standish R. 2017. The World's Largest Free Scientific Resource Is Now Blocked in Russia. Foreign Policy. http://foreignpolicy.com/2017/09/06/the-worlds-largest-free-scientific-resource-is-now-blocked-in-russia/ [Accessed February 7, 2018].",
+        "volume-title": "Foreign Policy"
+      },
+      "index": 100,
+      "key": "bib101",
+      "title": "The World's Largest Free Scientific Resource Is Now Blocked in Russia",
+      "year": 2017
+    },
+    {
+      "container_name": "SPARC Open Access Newsletter",
+      "extra": {
+        "authors": [
+          "Suber"
+        ],
+        "unstructured": "Suber P. 2008. Gratis and libre open access. SPARC Open Access Newsletter. https://dash.harvard.edu/handle/1/4322580 [Accessed February 7, 2018].",
+        "volume-title": "SPARC Open Access Newsletter"
+      },
+      "index": 101,
+      "key": "bib102",
+      "title": "Gratis and libre open access",
+      "year": 2008
+    },
+    {
+      "extra": {
+        "authors": [
+          "Suber"
+        ],
+        "unstructured": "Suber P. 2017. Open Access. MIT Press. https://mitpress.mit.edu/books/open-access."
+      },
+      "index": 102,
+      "key": "bib103",
+      "title": "Open Access",
+      "year": 2017
+    },
+    {
+      "container_name": "College & Research Libraries News",
+      "extra": {
+        "authors": [
+          "Sutton"
+        ],
+        "doi": "10.5860/crln.72.11.8671",
+        "volume": "72"
+      },
+      "index": 103,
+      "key": "bib104",
+      "locator": "642",
+      "title": "Is free inevitable in scholarly communication?: The economics of open access",
+      "year": 2011
+    },
+    {
+      "container_name": "Southern District Court of New York",
+      "extra": {
+        "authors": [
+          "Sweet"
+        ],
+        "unstructured": "Sweet RW. 2015. Memorandum & Opinion – Document #53 of Elsevier Inc. v. Sci-Hub – Case 1:15-cv-04282-RWS. Southern District Court of New York. https://www.courtlistener.com/docket/4355308/53/elsevier-inc-v-sci-hub/ [Accessed February 7, 2018].",
+        "volume-title": "Southern District Court of New York"
+      },
+      "index": 104,
+      "key": "bib105",
+      "title": "Memorandum & Opinion – Document #53 of Elsevier Inc. v. Sci-Hub – Case 1:15-cv-04282-RWS",
+      "year": 2015
+    },
+    {
+      "container_name": "Southern District Court of New York",
+      "extra": {
+        "authors": [
+          "Sweet"
+        ],
+        "unstructured": "Sweet RW. 2017. Judgement – Document #87 of Elsevier Inc. v. Sci-Hub – Case 1:15-cv-04282-RWS. Southern District Court of New York. https://www.documentcloud.org/documents/3878258-2017-06-21-Elsevier-Sci-Hub-Final-Judgement.html [Accessed February 7, 2018].",
+        "volume-title": "Southern District Court of New York"
+      },
+      "index": 105,
+      "key": "bib106",
+      "title": "Judgement – Document #87 of Elsevier Inc. v. Sci-Hub – Case 1:15-cv-04282-RWS",
+      "year": 2017
+    },
+    {
+      "container_name": "F1000Research",
+      "extra": {
+        "authors": [
+          "Tennant"
+        ],
+        "doi": "10.12688/f1000research.8460.3"
+      },
+      "index": 106,
+      "key": "bib107",
+      "locator": "632",
+      "title": "The academic, economic and societal impacts of Open Access: an evidence-based review",
+      "year": 2016
+    },
+    {
+      "container_name": "Science",
+      "extra": {
+        "authors": [
+          "Travis"
+        ],
+        "doi": "10.1126/science.aaf5704"
+      },
+      "index": 107,
+      "key": "bib108",
+      "title": "In survey, most give thumbs-up to pirated papers",
+      "year": 2016
+    },
+    {
+      "container_name": "Zenodo",
+      "extra": {
+        "authors": [
+          "Tzovaras"
+        ],
+        "doi": "10.5281/zenodo.1158301",
+        "volume-title": "Zenodo"
+      },
+      "index": 108,
+      "key": "bib109",
+      "title": "Sci-Hub download log of 2017",
+      "year": 2018
+    },
+    {
+      "container_name": "TorrentFreak",
+      "extra": {
+        "authors": [
+          "Van der Sar"
+        ],
+        "unstructured": "Van der Sar E. 2015a. Elsevier Cracks Down on Pirated Scientific Articles. TorrentFreak. https://torrentfreak.com/elsevier-cracks-down-on-pirated-scientific-articles-150609/ [Accessed February 7, 2018].",
+        "volume-title": "TorrentFreak"
+      },
+      "index": 109,
+      "key": "bib110",
+      "title": "Elsevier Cracks Down on Pirated Scientific Articles",
+      "year": 2015
+    },
+    {
+      "container_name": "TorrentFreak",
+      "extra": {
+        "authors": [
+          "Van der Sar"
+        ],
+        "unstructured": "Van der Sar E. 2015b. Court Orders Shutdown of Libgen, Bookfi and Sci-Hub. TorrentFreak. https://torrentfreak.com/court-orders-shutdown-of-libgen-bookfi-and-sci-hub-151102/ [Accessed February 7, 2018].",
+        "volume-title": "TorrentFreak"
+      },
+      "index": 110,
+      "key": "bib111",
+      "title": "Court Orders Shutdown of Libgen, Bookfi and Sci-Hub",
+      "year": 2015
+    },
+    {
+      "container_name": "TorrentFreak",
+      "extra": {
+        "authors": [
+          "Van der Sar"
+        ],
+        "unstructured": "Van der Sar E. 2015c. Sci-Hub, BookFi and LibGen Resurface After Being Shut Down. TorrentFreak. https://torrentfreak.com/sci-hub-and-libgen-resurface-after-being-shut-down-151121/ [Accessed February 7, 2018].",
+        "volume-title": "TorrentFreak"
+      },
+      "index": 111,
+      "key": "bib112",
+      "title": "Sci-Hub, BookFi and LibGen Resurface After Being Shut Down",
+      "year": 2015
+    },
+    {
+      "container_name": "TorrentFreak",
+      "extra": {
+        "authors": [
+          "Van der Sar"
+        ],
+        "unstructured": "Van der Sar E. 2017a. Sci-Hub Ordered to Pay $15 Million in Piracy Damages. TorrentFreak. https://torrentfreak.com/sci-hub-ordered-to-pay-15-million-in-piracy-damages-170623/ [Accessed February 7, 2018].",
+        "volume-title": "TorrentFreak"
+      },
+      "index": 112,
+      "key": "bib113",
+      "title": "Sci-Hub Ordered to Pay $15 Million in Piracy Damages",
+      "year": 2017
+    },
+    {
+      "container_name": "TorrentFreak",
+      "extra": {
+        "authors": [
+          "Van der Sar"
+        ],
+        "unstructured": "Van der Sar E. 2017b. New Lawsuit Demands ISP Blockades Against \"Pirate\" Site Sci-Hub. TorrentFreak. https://torrentfreak.com/new-lawsuit-demands-isp-blockades-against-pirate-site-sci-hub-170629/ [Accessed February 7, 2018].",
+        "volume-title": "TorrentFreak"
+      },
+      "index": 113,
+      "key": "bib114",
+      "title": "New Lawsuit Demands ISP Blockades Against \"Pirate\" Site Sci-Hub",
+      "year": 2017
+    },
+    {
+      "container_name": "Philosophical Transactions of the Royal Society of London",
+      "extra": {
+        "authors": [
+          "van Leewenhoeck"
+        ],
+        "doi": "10.1098/rstl.1677.0003",
+        "volume": "12"
+      },
+      "index": 114,
+      "key": "bib115",
+      "locator": "821",
+      "title": "Observations, communicated to the publisher by Mr. Antony van Leewenhoeck, in a dutch Letter of the 9th Octob. 1676. here English'd: concerning little animals by him observed in rain-well-sea- and snow water; as also in water wherein pepper had lain infused",
+      "year": 1677
+    },
+    {
+      "container_name": "Nature",
+      "extra": {
+        "authors": [
+          "Van Noorden"
+        ],
+        "doi": "10.1038/483134a",
+        "volume": "483"
+      },
+      "index": 115,
+      "key": "bib116",
+      "locator": "134",
+      "title": "Trouble at the text mine",
+      "year": 2012
+    },
+    {
+      "container_name": "Nature",
+      "extra": {
+        "authors": [
+          "Van Noorden"
+        ],
+        "doi": "10.1038/500386a",
+        "volume": "500"
+      },
+      "index": 116,
+      "key": "bib117",
+      "locator": "386",
+      "title": "Half of 2011 papers now free to read",
+      "year": 2013
+    },
+    {
+      "container_name": "Nature",
+      "extra": {
+        "authors": [
+          "Van Noorden"
+        ],
+        "doi": "10.1038/495426a",
+        "volume": "495"
+      },
+      "index": 117,
+      "key": "bib118",
+      "locator": "426",
+      "title": "Open access: The true cost of science publishing",
+      "year": 2013
+    },
+    {
+      "container_name": "Nature",
+      "extra": {
+        "authors": [
+          "Van Noorden"
+        ],
+        "doi": "10.1038/508161a",
+        "volume": "508"
+      },
+      "index": 118,
+      "key": "bib119",
+      "locator": "161",
+      "title": "Funders punish open-access dodgers",
+      "year": 2014
+    },
+    {
+      "container_name": "Nature",
+      "extra": {
+        "authors": [
+          "Van Noorden"
+        ],
+        "doi": "10.1038/nature.2015.16731"
+      },
+      "index": 119,
+      "key": "bib120",
+      "title": "Nature owner merges with publishing giant",
+      "year": 2015
+    },
+    {
+      "container_name": "Nature",
+      "extra": {
+        "authors": [
+          "Van Noorden"
+        ],
+        "doi": "10.1038/540507a"
+      },
+      "index": 120,
+      "key": "bib121",
+      "title": "Alexandra Elbakyan: Paper pirate",
+      "year": 2016
+    },
+    {
+      "container_name": "Science",
+      "extra": {
+        "authors": [
+          "Vogel"
+        ],
+        "doi": "10.1126/science.aap7562"
+      },
+      "index": 121,
+      "key": "bib122",
+      "title": "A bold open-access push in Germany could change the future of academic publishing",
+      "year": 2017
+    },
+    {
+      "container_name": "Serials Review",
+      "extra": {
+        "authors": [
+          "Wang"
+        ],
+        "doi": "10.1080/00987913.2007.10765116",
+        "volume": "33"
+      },
+      "index": 122,
+      "key": "bib123",
+      "locator": "161",
+      "title": "Digital Object Identifiers and Their Use in Libraries",
+      "year": 2007
+    },
+    {
+      "container_name": "PLoS Computational Biology",
+      "extra": {
+        "authors": [
+          "Westergaard"
+        ],
+        "doi": "10.1371/journal.pcbi.1005962",
+        "volume": "14"
+      },
+      "index": 123,
+      "key": "bib124",
+      "locator": "e1005962",
+      "title": "A comprehensive and quantitative comparison of text-mining in 15 million full-text articles versus their corresponding abstracts",
+      "year": 2017
+    },
+    {
+      "container_name": "Southern District Court of New York",
+      "extra": {
+        "authors": [
+          "Woltermann"
+        ],
+        "unstructured": "Woltermann A. 2015. Declaration in Support of Motion – Document #8 Attachment #23 of Elsevier Inc. v. Sci-Hub – Case 1:15-cv-04282-RWS. Southern District Court of New York. https://www.courtlistener.com/docket/4355308/8/23/elsevier-inc-v-sci-hub/ [Accessed February 7, 2018].",
+        "volume-title": "Southern District Court of New York"
+      },
+      "index": 124,
+      "key": "bib125",
+      "title": "Declaration in Support of Motion – Document #8 Attachment #23 of Elsevier Inc. v. Sci-Hub – Case 1:15-cv-04282-RWS",
+      "year": 2015
+    },
+    {
+      "container_name": "Nature",
+      "extra": {
+        "authors": [
+          "Woolston"
+        ],
+        "doi": "10.1038/nature.2016.19841"
+      },
+      "index": 125,
+      "key": "bib126",
+      "title": "Paper piracy sparks online debate",
+      "year": 2016
+    }
+  ],
+  "release_date": "2018-03-01",
+  "release_stage": "published",
+  "release_type": "article-journal",
+  "release_year": 2018,
+  "revision": "7d30efac-817a-4adc-8498-2d2f44e34b8c",
+  "state": "active",
+  "title": "Sci-Hub provides access to nearly all scholarly literature",
+  "work_id": "zkl26xiwnbd53l5sjunlnrn5xi"
+}
