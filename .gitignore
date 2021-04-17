@@ -140,3 +140,6 @@ fixtures/cluster_title_normalized_dups_size_keylen.tsv
 
 sample_*txt
 sample_*zst
+
+# Ignore pyproject.toml for now
+/pyproject.toml
