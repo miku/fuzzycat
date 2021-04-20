@@ -1,0 +1,53 @@
+{
+  "abstracts": [],
+  "container_id": "wsx3rzhpingfvewcn5nwhfkq3e",
+  "contribs": [
+    {
+      "extra": {
+        "seq": "first"
+      },
+      "index": 0,
+      "raw_name": "LeRoy Beasley",
+      "role": "author"
+    },
+    {
+      "index": 1,
+      "raw_name": "N.J. Pullman",
+      "role": "author"
+    }
+  ],
+  "ext_ids": {
+    "core": "81927850",
+    "doi": "10.1016/0024-3795(92)90448-j"
+  },
+  "extra": {
+    "crossref": {
+      "alternative-id": [
+        "002437959290448J"
+      ],
+      "license": [
+        {
+          "URL": "http://www.elsevier.com/open-access/userlicense/1.0/",
+          "content-version": "vor",
+          "delay-in-days": 7868,
+          "start": "2013-07-17T00:00:00Z"
+        }
+      ],
+      "type": "journal-article"
+    }
+  },
+  "ident": "gemoztmhmvdtzpwzvble5hy3yy",
+  "language": "en",
+  "license_slug": "ELSEVIER-USER-1.0",
+  "pages": "217-229",
+  "publisher": "Elsevier BV",
+  "refs": [],
+  "release_stage": "published",
+  "release_type": "article-journal",
+  "release_year": 1992,
+  "revision": "94a41f88-4299-460c-af95-53a322a3562d",
+  "state": "active",
+  "title": "Linear operators strongly preserving idempotent matrices over semirings",
+  "volume": "160",
+  "work_id": "ua3zxltt3rbnbadonxgvyghj2q"
+}

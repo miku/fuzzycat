@@ -1,0 +1,53 @@
+{
+  "abstracts": [],
+  "container_id": "wsx3rzhpingfvewcn5nwhfkq3e",
+  "contribs": [
+    {
+      "extra": {
+        "seq": "first"
+      },
+      "index": 0,
+      "raw_name": "LeRoy B. Beasley",
+      "role": "author"
+    },
+    {
+      "index": 1,
+      "raw_name": "Sang-Gu Lee",
+      "role": "author"
+    }
+  ],
+  "ext_ids": {
+    "core": "82517634",
+    "doi": "10.1016/0024-3795(92)90394-p"
+  },
+  "extra": {
+    "crossref": {
+      "alternative-id": [
+        "002437959290394P"
+      ],
+      "license": [
+        {
+          "URL": "http://www.elsevier.com/open-access/userlicense/1.0/",
+          "content-version": "vor",
+          "delay-in-days": 7837,
+          "start": "2013-07-17T00:00:00Z"
+        }
+      ],
+      "type": "journal-article"
+    }
+  },
+  "ident": "s7aurx46xzhwtiuxybimwdduqe",
+  "language": "en",
+  "license_slug": "ELSEVIER-USER-1.0",
+  "pages": "589-599",
+  "publisher": "Elsevier BV",
+  "refs": [],
+  "release_stage": "published",
+  "release_type": "article-journal",
+  "release_year": 1992,
+  "revision": "27b7b9b1-5495-4a76-999a-acd1ef8014a2",
+  "state": "active",
+  "title": "Linear operators strongly preserving r-potent matrices over semirings",
+  "volume": "162-164",
+  "work_id": "cr2ybwqw45agjo2j7wsht2mfza"
+}
