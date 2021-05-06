@@ -1,0 +1,122 @@
+{
+  "abstracts": [
+    {
+      "content": "PHIT Cross-site paper on Research Capacity Building Data Collection Form Round 1 of Data Collection. (DOCX 36Â kb)",
+      "lang": "en",
+      "mimetype": "text/plain",
+      "sha1": "2186170a4f1effbfd07fc14b81e1db663fcfb41b"
+    }
+  ],
+  "contribs": [
+    {
+      "given_name": "Bethany",
+      "index": 0,
+      "raw_name": "Bethany Hedt-Gauthier",
+      "role": "author",
+      "surname": "Hedt-Gauthier"
+    },
+    {
+      "given_name": "Roma",
+      "index": 1,
+      "raw_name": "Roma Chilengi",
+      "role": "author",
+      "surname": "Chilengi"
+    },
+    {
+      "given_name": "Elizabeth",
+      "index": 2,
+      "raw_name": "Elizabeth Jackson",
+      "role": "author",
+      "surname": "Jackson"
+    },
+    {
+      "given_name": "Cathy",
+      "index": 3,
+      "raw_name": "Cathy Michel",
+      "role": "author",
+      "surname": "Michel"
+    },
+    {
+      "given_name": "Manuel",
+      "index": 4,
+      "raw_name": "Manuel Napua",
+      "role": "author",
+      "surname": "Napua"
+    },
+    {
+      "index": 5,
+      "raw_name": "Jackline Odhiambo",
+      "role": "author"
+    },
+    {
+      "index": 6,
+      "raw_name": "Ayaga Bawah",
+      "role": "author"
+    }
+  ],
+  "ext_ids": {
+    "doi": "10.6084/m9.figshare.5728902.v1"
+  },
+  "extra": {
+    "datacite": {
+      "license": [
+        {
+          "rights": "CC BY + CC0",
+          "rightsUri": "https://creativecommons.org/licenses/by/4.0"
+        }
+      ],
+      "metadataVersion": 2,
+      "relations": [
+        {
+          "relatedIdentifier": "10.1186/s12913-017-2657-6",
+          "relatedIdentifierType": "DOI",
+          "relationType": "IsSupplementTo"
+        },
+        {
+          "relatedIdentifier": "10.6084/m9.figshare.5728902",
+          "relatedIdentifierType": "DOI",
+          "relationType": "IsIdenticalTo"
+        }
+      ],
+      "resourceType": "Paper",
+      "resourceTypeGeneral": "Text",
+      "subjects": [
+        {
+          "subject": "Evolutionary Biology"
+        },
+        {
+          "subject": "Marine Biology"
+        },
+        {
+          "subject": "Cancer"
+        },
+        {
+          "subject": "Science Policy"
+        },
+        {
+          "schemeUri": "http://www.abs.gov.au/ausstats/abs@.nsf/0/6BB427AB9696C225CA2574180004463E",
+          "subject": "111714 Mental Health",
+          "subjectScheme": "FOR"
+        },
+        {
+          "schemeUri": "http://www.abs.gov.au/ausstats/abs@.nsf/0/6BB427AB9696C225CA2574180004463E",
+          "subject": "110309 Infectious Diseases",
+          "subjectScheme": "FOR"
+        }
+      ]
+    },
+    "release_month": 12
+  },
+  "ident": "2ri6mpanrzb63k3jn7ukzkl4ua",
+  "license_slug": "CC-BY",
+  "publisher": "Figshare",
+  "refs": [],
+  "release_date": "2017-12-22",
+  "release_stage": "published",
+  "release_type": "stub",
+  "release_year": 2017,
+  "revision": "30e2592d-1ae0-419c-9f9c-315794f21b10",
+  "state": "active",
+  "title": "Additional file 1: of Research capacity building integrated into PHIT projects: leveraging research and research funding to build national capacity",
+  "work_id": "vtq3fg4npzehti57hwk2pbtdfy"
+}

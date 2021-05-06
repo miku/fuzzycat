@@ -1,0 +1,665 @@
+{
+  "abstracts": [],
+  "container_id": "3nwt2t3wqff4rigjayo4xqjvdm",
+  "contribs": [
+    {
+      "extra": {
+        "seq": "first"
+      },
+      "index": 0,
+      "raw_name": "Bethany L. Hedt-Gauthier",
+      "role": "author"
+    },
+    {
+      "extra": {
+        "seq": "first"
+      },
+      "index": 1,
+      "role": "author"
+    },
+    {
+      "index": 2,
+      "raw_name": "Roma Chilengi",
+      "role": "author"
+    },
+    {
+      "index": 3,
+      "raw_name": "Elizabeth Jackson",
+      "role": "author"
+    },
+    {
+      "index": 4,
+      "raw_name": "Cathy Michel",
+      "role": "author"
+    },
+    {
+      "index": 5,
+      "raw_name": "Manuel Napua",
+      "role": "author"
+    },
+    {
+      "index": 6,
+      "raw_name": "Jackline Odhiambo",
+      "role": "author"
+    },
+    {
+      "index": 7,
+      "raw_name": "Ayaga Bawah",
+      "role": "author"
+    }
+  ],
+  "ext_ids": {
+    "doi": "10.1186/s12913-017-2657-6",
+    "pmcid": "PMC5763288",
+    "pmid": "29297405",
+    "wikidata_qid": "Q47215473"
+  },
+  "extra": {
+    "crossref": {
+      "alternative-id": [
+        "2657"
+      ],
+      "type": "journal-article"
+    }
+  },
+  "ident": "mdhf75qxurdcjk3s3dnke225o4",
+  "issue": "S3",
+  "language": "en",
+  "publisher": "Springer Nature",
+  "refs": [
+    {
+      "container_name": "Evidence-Based Med",
+      "extra": {
+        "authors": [
+          "G Yamey"
+        ],
+        "doi": "10.1136/ebm.2011.100060",
+        "unstructured": "Yamey G, Feachem R. Evidence-based policymaking in global health – the payoffs and pitfalls. Evidence-Based Med. 2011;16(4):97–9.",
+        "volume": "16"
+      },
+      "index": 0,
+      "key": "2657_CR1",
+      "locator": "97",
+      "year": 2011
+    },
+    {
+      "container_name": "BMC Med",
+      "extra": {
+        "authors": [
+          "GL Birbeck"
+        ],
+        "doi": "10.1186/1741-7015-11-223",
+        "unstructured": "Birbeck GL, Wiysonge CS, Mills EJ, et al. Global health: the importance of evidence-based medicine. BMC Med. 2013;11:223.",
+        "volume": "11"
+      },
+      "index": 1,
+      "key": "2657_CR2",
+      "locator": "223",
+      "year": 2013
+    },
+    {
+      "container_name": "BMC Health Serv Res",
+      "extra": {
+        "authors": [
+          "JM Kirigia"
+        ],
+        "doi": "10.1186/1472-6963-6-135",
+        "unstructured": "Kirigia JM, Wambebe C. Status of national health research systems in ten countries of the WHO African region. BMC Health Serv Res. 2006;6:135."
+      },
+      "index": 2,
+      "key": "2657_CR3",
+      "locator": "135",
+      "year": 2006
+    },
+    {
+      "container_name": "Bull World Health Organ",
+      "extra": {
+        "authors": [
+          "T Pang"
+        ],
+        "unstructured": "Pang T, Sadana R, Hanney S, et al. Knowledge for better health — a conceptual framework and foundation for health research systems. Bull World Health Organ. 2003;81(3):815–20.",
+        "volume": "81"
+      },
+      "index": 3,
+      "key": "2657_CR4",
+      "locator": "815",
+      "year": 2003
+    },
+    {
+      "container_name": "Int J Tuberc Lung Dis",
+      "extra": {
+        "authors": [
+          "K Bissell"
+        ],
+        "doi": "10.5588/ijtld.11.0170",
+        "unstructured": "Bissell K, Lee K, Freeman R. Analysing policy transfer: perspectives for operational research. Int J Tuberc Lung Dis. 2011;15(9):1140–8.",
+        "volume": "15"
+      },
+      "index": 4,
+      "key": "2657_CR5",
+      "locator": "1140",
+      "year": 2011
+    },
+    {
+      "container_name": "PanAfrican Med J",
+      "extra": {
+        "authors": [
+          "CJ Uneke"
+        ],
+        "unstructured": "Uneke CJ, Edeoha AE, Ndukwe CD, et al. Research priority setting for health policy and health systems strengthening in Nigeria: the policy makers and stakeholders' perspective and involvement. PanAfrican Med J. 2013;16:10.",
+        "volume": "16"
+      },
+      "index": 5,
+      "key": "2657_CR6",
+      "locator": "10",
+      "year": 2013
+    },
+    {
+      "container_name": "PLoS One",
+      "extra": {
+        "authors": [
+          "T Adam"
+        ],
+        "doi": "10.1371/journal.pone.0027263",
+        "issue": "11",
+        "unstructured": "Adam T, Ahmad S, Bigdeli M, Ghaffar A, Røttingen JA. Trends in health policy and systems research over the past decade: still too little capacity in low-income countries. PLoS One. 2011;6(11):e27263."
+      },
+      "index": 6,
+      "key": "2657_CR7",
+      "locator": "e27263",
+      "year": 2011
+    },
+    {
+      "container_name": "Health Res Policy Syst",
+      "extra": {
+        "authors": [
+          "R Kellerman"
+        ],
+        "doi": "10.1186/1478-4505-10-11",
+        "unstructured": "Kellerman R, Klipstein-Grobusch K, Weiner R, Wayling S, Fonn S. Investing in African research training institutions creates sustainable capacity for Africa: the case of the University of the Witwatersrand School of public health masters programme in epidemiology and biostatistics. Health Res Policy Syst. 2012;10(1):11.",
+        "volume": "10"
+      },
+      "index": 7,
+      "key": "2657_CR8",
+      "locator": "11",
+      "year": 2012
+    },
+    {
+      "container_name": "Bull World Health Organ",
+      "extra": {
+        "authors": [
+          "A Langer"
+        ],
+        "issue": "10",
+        "unstructured": "Langer A, Díaz-olavarrieta C, Berdichevsky K, Villar J. Why is research from developing countries underrepresented in international health literature, and what can be done about it? Bull World Health Organ. 2004;82(10):802–3.",
+        "volume": "82"
+      },
+      "index": 8,
+      "key": "2657_CR9",
+      "locator": "802",
+      "year": 2004
+    },
+    {
+      "container_name": "J R Soc Med",
+      "extra": {
+        "authors": [
+          "D Kebede"
+        ],
+        "doi": "10.1177/0141076813517681",
+        "issue": "15",
+        "unstructured": "Kebede D, Zielinski C, Mbondji PE, et al. Research output of health research institutions and its use in 42 sub-Saharan African countries: results of a questionnaire-based survey. J R Soc Med. 2014;107(15):105–14.",
+        "volume": "107"
+      },
+      "index": 9,
+      "key": "2657_CR10",
+      "locator": "105",
+      "year": 2014
+    },
+    {
+      "container_name": "Bull World Health Organ",
+      "extra": {
+        "authors": [
+          "MA Lansang"
+        ],
+        "issue": "10",
+        "unstructured": "Lansang MA, Dennis R. Building capacity in health research in the developing world. Bull World Health Organ. 2004;82(10):764–70.",
+        "volume": "82"
+      },
+      "index": 10,
+      "key": "2657_CR11",
+      "locator": "764",
+      "year": 2004
+    },
+    {
+      "container_name": "Glob Health Promot",
+      "extra": {
+        "authors": [
+          "CO Airhihenbuwa"
+        ],
+        "issue": "27",
+        "unstructured": "Airhihenbuwa CO, Shisana O, Zungu N, et al. Research capacity building: a US-south African partnership. Glob Health Promot. 2011;18(27):28–35.",
+        "volume": "18"
+      },
+      "index": 11,
+      "key": "2657_CR12",
+      "locator": "28",
+      "year": 2011
+    },
+    {
+      "extra": {
+        "unstructured": "Nuyens Y. 2005. No Development Without Research: A challenge for capacity strengthening. Global Forum for Health Research. [Online]. \nhttp://announcementsfiles.cohred.org/gfhr_pub/assoc/s14828e/s14828e.pdf\n\n. Accessed 4 Mar 2016."
+      },
+      "index": 12,
+      "key": "2657_CR13"
+    },
+    {
+      "container_name": "BMC Public Health",
+      "extra": {
+        "authors": [
+          "P Tugwell"
+        ],
+        "doi": "10.1186/1471-2458-6-151",
+        "unstructured": "Tugwell P, Sitthi-Amorn C, Hatcher-Roberts J, et al. Health Research profile to assess the capacity of low and middle income countries for equity-oriented research. BMC Public Health. 2006;6:151."
+      },
+      "index": 13,
+      "key": "2657_CR14",
+      "locator": "151",
+      "year": 2006
+    },
+    {
+      "container_name": "Malawi Med J",
+      "extra": {
+        "authors": [
+          "G Masukume"
+        ],
+        "unstructured": "Masukume G. A 54 year analysis of articles from Mpilo central hospital, Bulawayo, Zimbabwe - 168 articles cited 999 times. Malawi Med J. 2012;24(2):36–8.",
+        "volume": "24"
+      },
+      "index": 14,
+      "key": "2657_CR15",
+      "locator": "36",
+      "year": 2012
+    },
+    {
+      "extra": {
+        "unstructured": "National Institute of Health. 2010. RePORT: Building Global Health Research Capacity. [Online]. \nhttps://www.niehs.nih.gov/research/assets/docs/building_global_health_research_capacity_508.pdf\n\n. Accessed 8 Dec 2015."
+      },
+      "index": 15,
+      "key": "2657_CR16"
+    },
+    {
+      "extra": {
+        "unstructured": "Medical Research Council. 2015. Funding: Health systems initiative research call 3. [Online]. \nhttps://www.mrc.ac.uk/funding/browse/hsri-call-3/health-systems-research-initiative-call-3/\n\n. Accessed 8 Dec 2015."
+      },
+      "index": 16,
+      "key": "2657_CR17"
+    },
+    {
+      "container_name": "Health Res Policy Syst",
+      "extra": {
+        "authors": [
+          "S Bennett"
+        ],
+        "doi": "10.1186/1478-4505-10-7",
+        "unstructured": "Bennett S, Corluka A, Doherty J, Tangcharoensathien V. Approaches to developing the capacity of health policy analysis institutes: a comparative case study. Health Res Policy Syst. 2012;10(1):7.",
+        "volume": "10"
+      },
+      "index": 17,
+      "key": "2657_CR18",
+      "year": 2012
+    },
+    {
+      "extra": {
+        "unstructured": "African Health Initiative. Population Health Implementation and Training Partnerships. [Online]. \nhttp://www.ddcf.org/what-we-fund/african-health-initiative/\n\n. Accessed 22 Dec 2015."
+      },
+      "index": 18,
+      "key": "2657_CR19"
+    },
+    {
+      "container_name": "BMC Health Serv Res",
+      "extra": {
+        "authors": [
+          "JK Awoonor-Williams"
+        ],
+        "doi": "10.1186/1472-6963-13-s2-s3",
+        "issue": "Suppl 2",
+        "unstructured": "Awoonor-Williams JK, Bawah AA, Nyonator FK, et al. The Ghana essential health interventions program: a plausibility trial of the impact of health systems strengthening on maternal & child survival. BMC Health Serv Res. 2013;13(Suppl 2):S3.",
+        "volume": "13"
+      },
+      "index": 19,
+      "key": "2657_CR20",
+      "locator": "S3",
+      "year": 2013
+    },
+    {
+      "container_name": "BMC Health Serv Res",
+      "extra": {
+        "authors": [
+          "K Sherr"
+        ],
+        "doi": "10.1186/1472-6963-13-s2-s4",
+        "issue": "Suppl 2",
+        "unstructured": "Sherr K, Cuembelo F, Michel C, et al. Strengthening integrated primary health care in Sofala Mozambique. BMC Health Serv Res. 2013;13(Suppl 2):S4.",
+        "volume": "13"
+      },
+      "index": 20,
+      "key": "2657_CR21",
+      "locator": "S4",
+      "year": 2013
+    },
+    {
+      "container_name": "BMC Health Serv Res",
+      "extra": {
+        "authors": [
+          "PC Drobac"
+        ],
+        "doi": "10.1186/1472-6963-13-s2-s5",
+        "issue": "Suppl 2",
+        "unstructured": "Drobac PC, Basinga P, Condo J, et al. Comprehensive and integrated district health systems strengthening: the Rwanda population health implementation and training (PHIT) partnership. BMC Health Serv Res. 2013;13(Suppl 2):S5.",
+        "volume": "13"
+      },
+      "index": 21,
+      "key": "2657_CR22",
+      "locator": "S5",
+      "year": 2013
+    },
+    {
+      "container_name": "BMC Health Serv Res",
+      "extra": {
+        "authors": [
+          "K Ramsey"
+        ],
+        "doi": "10.1186/1472-6963-13-s2-s6",
+        "issue": "Suppl 2",
+        "unstructured": "Ramsey K, Hingora A, Kante M, et al. The Tanzania connect project: a cluster randomized trial of the child survival impact of adding paid community health workers to an existing facility-focused health system. BMC Health Serv Res. 2013;13(Suppl 2):S6.",
+        "volume": "13"
+      },
+      "index": 22,
+      "key": "2657_CR23",
+      "locator": "S6",
+      "year": 2013
+    },
+    {
+      "container_name": "BMC Health Serv Res",
+      "extra": {
+        "authors": [
+          "JSA Stringer"
+        ],
+        "doi": "10.1186/1472-6963-13-s2-s7",
+        "issue": "Suppl 2",
+        "unstructured": "Stringer JSA, Chisemble-Taylor A, Chibwesha CJ, et al. Protocol-driven primary care and community linkages to improve population health in rural Zambia: the better health outcomes through mentoring and assessment (BHOMA) project. BMC Health Serv Res. 2013;13(Suppl 2):S7.",
+        "volume": "13"
+      },
+      "index": 23,
+      "key": "2657_CR24",
+      "locator": "S7",
+      "year": 2013
+    },
+    {
+      "container_name": "BMC Health Serv Res",
+      "extra": {
+        "authors": [
+          "LR Hirschhorn"
+        ],
+        "doi": "10.1186/1472-6963-13-s2-s8",
+        "issue": "Suppl 2",
+        "unstructured": "Hirschhorn LR, Baynes C, Sherr K, et al. Approaches to ensuring and improving quality in the context of health system strengthening: a cross-site analysis of the five African health initiative partnership programs. BMC Health Serv Res. 2013;13(Suppl 2):S8.",
+        "volume": "13"
+      },
+      "index": 24,
+      "key": "2657_CR25",
+      "locator": "S8",
+      "year": 2013
+    },
+    {
+      "container_name": "BMC Health Serv Res",
+      "extra": {
+        "authors": [
+          "J Bryce"
+        ],
+        "doi": "10.1186/1472-6963-13-s2-s10",
+        "issue": "Suppl 2",
+        "unstructured": "Bryce J, Requejo JH, Moulton L, et al. A common evaluation framework for the African health initiative. BMC Health Serv Res. 2013;13(Suppl 2):S10.",
+        "volume": "13"
+      },
+      "index": 25,
+      "key": "2657_CR26",
+      "locator": "S10",
+      "year": 2013
+    },
+    {
+      "container_name": "BMC Heal Serv",
+      "extra": {
+        "authors": [
+          "W Mutale"
+        ],
+        "doi": "10.1186/1472-6963-13-s2-s9",
+        "issue": "Suppl 2",
+        "unstructured": "Mutale W, Chintu N, Amoroso C, et al. Improving health information systems for decision making across five sub-Saharan African countries: implementation strategies from the African health initiative. BMC Heal Serv. 2013;13(Suppl 2):S9.",
+        "volume": "13"
+      },
+      "index": 26,
+      "key": "2657_CR27",
+      "locator": "S9",
+      "year": 2013
+    },
+    {
+      "container_name": "BMC Health Serv Res",
+      "extra": {
+        "authors": [
+          "MT Bassett"
+        ],
+        "doi": "10.1186/1472-6963-13-s2-s2",
+        "issue": "Suppl 2",
+        "unstructured": "Bassett MT, Gallin EK, Adedokun L, Toner C. From the ground up: strengthening health systems at district level. BMC Health Serv Res. 2013;13(Suppl 2):S2.",
+        "volume": "13"
+      },
+      "index": 27,
+      "key": "2657_CR28",
+      "locator": "S2",
+      "year": 2013
+    },
+    {
+      "container_name": "BMC Fam Pract",
+      "extra": {
+        "authors": [
+          "J Cooke"
+        ],
+        "doi": "10.1186/1471-2296-6-44",
+        "unstructured": "Cooke J. A framework to evaluate research capacity building in health care. BMC Fam Pract. 2005;6:44."
+      },
+      "index": 28,
+      "key": "2657_CR29",
+      "locator": "44",
+      "year": 2005
+    },
+    {
+      "container_name": "Health Res Policy Syst",
+      "extra": {
+        "authors": [
+          "L Mugabo"
+        ],
+        "unstructured": "Mugabo L, Rouleau D, Odhiambo J, et al. Approaches and impact of non-academic research capacity strengthening training models in sub-Saharan Africa: a systematic review. Health Res Policy Syst. 2015;17:8.",
+        "volume": "17"
+      },
+      "index": 29,
+      "key": "2657_CR30",
+      "year": 2015
+    },
+    {
+      "container_name": "Health Res Policy Syst",
+      "extra": {
+        "authors": [
+          "R Banzi"
+        ],
+        "doi": "10.1186/1478-4505-9-26",
+        "unstructured": "Banzi R, Moja L, Pistotti V, Facchini A, Liberati A. Conceptual frameworks and empirical approaches used to assess the impact of health research: an overview of reviews. Health Res Policy Syst. 2011;9:26."
+      },
+      "index": 30,
+      "key": "2657_CR31",
+      "locator": "26",
+      "year": 2011
+    },
+    {
+      "container_name": "BMC Med Ethics",
+      "extra": {
+        "authors": [
+          "AJ Ajuwon"
+        ],
+        "doi": "10.1186/1472-6939-9-1",
+        "unstructured": "Ajuwon AJ, Kass N. Outcome of a research ethics training workshop among clinicians and scientists in a Nigerian university. BMC Med Ethics. 2008;9:1."
+      },
+      "index": 31,
+      "key": "2657_CR32",
+      "year": 2008
+    },
+    {
+      "container_name": "Pan Afr Med J",
+      "extra": {
+        "authors": [
+          "L Mbuagbaw"
+        ],
+        "doi": "10.4314/pamj.v8i1.71066",
+        "unstructured": "Mbuagbaw L, Wiysonge CS, Nsagha DS, Ongolo-Zogo P, Pantoja T. An introduction to systematic reviews and meta-analysis: a workshop report on promoting evidence based medical practice through capacity building in research synthesis. Pan Afr Med J. 2011;8:15."
+      },
+      "index": 32,
+      "key": "2657_CR33",
+      "locator": "15",
+      "year": 2011
+    },
+    {
+      "container_name": "PLoS Med",
+      "extra": {
+        "authors": [
+          "I Bates"
+        ],
+        "doi": "10.1371/journal.pmed.0030299",
+        "unstructured": "Bates I, Akoto AYO, Ansong D, et al. Evaluating health research capacity building: an evidence-based tool. PLoS Med. 2006;3(8):e30299."
+      },
+      "index": 33,
+      "key": "2657_CR34",
+      "locator": "e30299",
+      "year": 2006
+    },
+    {
+      "container_name": "Health Res Policy Syst",
+      "extra": {
+        "authors": [
+          "I Bates"
+        ],
+        "doi": "10.1186/1478-4505-9-14",
+        "unstructured": "Bates I, Taegtmeyer M, Squire SB, et al. Indicators of sustainable capacity building for health research: analysis of four African case studies. Health Res Policy Syst. 2011;9:14."
+      },
+      "index": 34,
+      "key": "2657_CR35",
+      "locator": "14",
+      "year": 2011
+    },
+    {
+      "container_name": "PLoS Negl Trop Dis",
+      "extra": {
+        "authors": [
+          "H Minja"
+        ],
+        "doi": "10.1371/journal.pntd.0001351",
+        "issue": "10",
+        "unstructured": "Minja H, Nsanzabana C, Maure C, et al. Impact of health research capacity strengthening in low- and middle-income countries: the case of WHO/TDR programmes. PLoS Negl Trop Dis. 2011;5(10):e1351."
+      },
+      "index": 35,
+      "key": "2657_CR36",
+      "locator": "e1351",
+      "year": 2011
+    },
+    {
+      "container_name": "Lancet Infect Dis",
+      "extra": {
+        "authors": [
+          "R Zachariah"
+        ],
+        "doi": "10.1016/s1473-3099(09)70229-4",
+        "issue": "11",
+        "unstructured": "Zachariah R, Harries AD, Ishikawa N, et al. Operational research in low-income countries: what, why, and how? Lancet Infect Dis. 2009;9(11):711–7."
+      },
+      "index": 36,
+      "key": "2657_CR37",
+      "locator": "711",
+      "year": 2009
+    },
+    {
+      "container_name": "Int J of Tuberc Lung Dis",
+      "extra": {
+        "authors": [
+          "R Zachariah"
+        ],
+        "doi": "10.5588/ijtld.11.0316",
+        "issue": "10",
+        "unstructured": "Zachariah R, Reid T, Srinath S, et al. Building leadership capacity and future leaders in operational research in low-income countries : why and how? Int J of Tuberc Lung Dis. 2011;15(10):1426–35.",
+        "volume": "15"
+      },
+      "index": 37,
+      "key": "2657_CR38",
+      "locator": "1426",
+      "year": 2011
+    },
+    {
+      "container_name": "Public Health Action",
+      "extra": {
+        "authors": [
+          "A Ramsay"
+        ],
+        "doi": "10.5588/pha.14.0011",
+        "unstructured": "Ramsay A, Harries AD, Zachariah R, et al. The structured operational research and training initiative for public health programmes. Public Health Action. 2014;4(2):79–84."
+      },
+      "index": 38,
+      "key": "2657_CR39",
+      "locator": "79",
+      "year": 2014
+    },
+    {
+      "container_name": "Public Health Action",
+      "extra": {
+        "authors": [
+          "AD Harries"
+        ],
+        "doi": "10.5588/pha.13.0071",
+        "issue": "s1",
+        "unstructured": "Harries AD, Marais B, Kool B, et al. Mentorship for operational research capacity building: hands-on or hands-off? Public Health Action. 2014;4(s1):S56–8."
+      },
+      "index": 39,
+      "key": "2657_CR40",
+      "locator": "S56",
+      "year": 2014
+    },
+    {
+      "container_name": "Tropical Med Int Health",
+      "extra": {
+        "authors": [
+          "R Zachariah"
+        ],
+        "doi": "10.1111/j.1365-3156.2012.03072.x",
+        "issue": "11",
+        "unstructured": "Zachariah R, Reid T, Ford N, et al. The 2012 world health report \"no health without research\": the endpoint needs to go beyond publication outputs. Tropical Med Int Health. 2012;17(11):1409–11.",
+        "volume": "17"
+      },
+      "index": 40,
+      "key": "2657_CR41",
+      "locator": "1409",
+      "year": 2012
+    },
+    {
+      "extra": {
+        "unstructured": "Ghaffar A, Ijsselmuiden C, Zicker F. 2010. Changing Mindsets: Research capacity strengthening in low- and middle-income countries. Council on Health Research for Development, Global Forum for Health Research, Special Programme for Research & Training in Tropical Diseases. [Online]. \nhttp://www.who.int/tdr/publications/tdr-research-publications/changing_mindsets/en/\n\n. Accessed 19 Oct 2015."
+      },
+      "index": 41,
+      "key": "2657_CR42"
+    }
+  ],
+  "release_stage": "published",
+  "release_type": "article-journal",
+  "release_year": 2017,
+  "revision": "b4b42bc8-8d9d-4ad2-bb36-959abf1ae9c2",
+  "state": "active",
+  "title": "Research capacity building integrated into PHIT projects: leveraging research and research funding to build national capacity",
+  "volume": "17",
+  "work_id": "3wlz3otl4nbb7gri5jdhomzgni"
+}

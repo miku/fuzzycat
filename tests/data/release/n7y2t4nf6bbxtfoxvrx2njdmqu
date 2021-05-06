@@ -1,0 +1,298 @@
+{
+  "abstracts": [
+    {
+      "content": "Background: Inadequate research capacity impedes the development of evidence-based health programming in sub-Saharan Africa. However, funding for research capacity building (RCB) is often insufficient and restricted, limiting institutions' ability to address current RCB needs. The Doris Duke Charitable Foundation's African Health Initiative (AHI) funded Population Health Implementation and Training (PHIT) partnership projects in five African countries (Ghana, Mozambique, Rwanda, Tanzania and Zambia) to implement health systems strengthening initiatives inclusive of RCB. Methods: Using Cooke's framework for RCB, RCB activity leaders from each country reported on RCB priorities, activities, program metrics, ongoing challenges and solutions. These were synthesized by the authorship team, identifying common challenges and lessons learned. Results: For most countries, each of the RCB domains from Cooke's framework was a high priority. In about half of the countries, domain specific activities happened prior to PHIT. During PHIT, specific RCB activities varied across countries. However, all five countries used AHI funding to improve research administrative support and infrastructure, implement research trainings and support mentorship activities and research dissemination. While outcomes data were not systematically collected, countries reported holding 54 research trainings, forming 56 mentor-mentee relationships, training 201 individuals and awarding 22 PhD and Masters-level scholarships. Over the 5 years, 116 manuscripts were developed. Of the 59 manuscripts published in peer-reviewed journals, 29 had national first authors and 18 had national senior authors. Trainees participated in 99 conferences and projects held 37 forums with policy makers to facilitate research translation into policy. Conclusion: All five PHIT projects strongly reported an increase in RCB activities and commended the Doris Duke Charitable Foundation for prioritizing RCB, funding RCB at adequate levels and time frames and for allowing flexibil [...]",
+      "lang": "en",
+      "mimetype": "text/plain",
+      "sha1": "6c5b9ac67c96761e52a57812535cab156f5c764c"
+    }
+  ],
+  "contribs": [
+    {
+      "index": 0,
+      "raw_name": "João Luis Manuel",
+      "role": "author"
+    },
+    {
+      "index": 1,
+      "raw_name": "Agnes Binagwaho",
+      "role": "author"
+    },
+    {
+      "index": 2,
+      "raw_name": "Belinda Afriyie Nimako",
+      "role": "author"
+    },
+    {
+      "index": 3,
+      "raw_name": "John Koku Awoonor-Williams",
+      "role": "author"
+    },
+    {
+      "index": 4,
+      "raw_name": "Felix Cyamatare Rwabukwisi",
+      "role": "author"
+    },
+    {
+      "index": 5,
+      "raw_name": "Anatole Manzi",
+      "role": "author"
+    },
+    {
+      "index": 6,
+      "raw_name": "Peter Drobac",
+      "role": "author"
+    },
+    {
+      "index": 7,
+      "raw_name": "Pearl Kyei",
+      "role": "author"
+    },
+    {
+      "index": 8,
+      "raw_name": "Jeffrey Stringer",
+      "role": "author"
+    },
+    {
+      "index": 9,
+      "raw_name": "Didi Bertrand Farmer",
+      "role": "author"
+    },
+    {
+      "index": 10,
+      "raw_name": "Michael Lemba",
+      "role": "author"
+    },
+    {
+      "index": 11,
+      "raw_name": "Kate Ramsey",
+      "role": "author"
+    },
+    {
+      "index": 12,
+      "raw_name": "Bradley Wagenaar",
+      "role": "author"
+    },
+    {
+      "index": 13,
+      "raw_name": "Ahmed Hingora",
+      "role": "author"
+    },
+    {
+      "index": 14,
+      "raw_name": "Kassimu Tani",
+      "role": "author"
+    },
+    {
+      "index": 15,
+      "raw_name": "Bethany L. Hedt-Gauthier",
+      "role": "author"
+    },
+    {
+      "index": 16,
+      "raw_name": "Masoso Chisala",
+      "role": "author"
+    },
+    {
+      "index": 17,
+      "raw_name": "Wilbroad Mutale",
+      "role": "author"
+    },
+    {
+      "index": 18,
+      "raw_name": "Adriana Biney",
+      "role": "author"
+    },
+    {
+      "index": 19,
+      "raw_name": "Roma Chilengi",
+      "role": "author"
+    },
+    {
+      "index": 20,
+      "raw_name": "Almamy Malick Kante",
+      "role": "author"
+    },
+    {
+      "index": 21,
+      "raw_name": "Helen Ayles",
+      "role": "author"
+    },
+    {
+      "index": 22,
+      "raw_name": "Elizabeth Jackson",
+      "role": "author"
+    },
+    {
+      "index": 23,
+      "raw_name": "Colin Baynes",
+      "role": "author"
+    },
+    {
+      "index": 24,
+      "raw_name": "Ayaga Bawah",
+      "role": "author"
+    },
+    {
+      "index": 25,
+      "raw_name": "Dominic Mboya",
+      "role": "author"
+    },
+    {
+      "index": 26,
+      "raw_name": "Amon Exavery",
+      "role": "author"
+    },
+    {
+      "index": 27,
+      "raw_name": "Neil Gupta",
+      "role": "author"
+    },
+    {
+      "index": 28,
+      "raw_name": "Jackline Odhiambo",
+      "role": "author"
+    },
+    {
+      "index": 29,
+      "raw_name": "Fatuma Manzi",
+      "role": "author"
+    },
+    {
+      "index": 30,
+      "raw_name": "Lisa R. Hirschhorn",
+      "role": "author"
+    },
+    {
+      "index": 31,
+      "raw_name": "Manuel Napua",
+      "role": "author"
+    },
+    {
+      "index": 32,
+      "raw_name": "Kenneth Sherr",
+      "role": "author"
+    },
+    {
+      "index": 33,
+      "raw_name": "Senga Pemba",
+      "role": "author"
+    },
+    {
+      "index": 34,
+      "raw_name": "Catherine Henley",
+      "role": "author"
+    },
+    {
+      "index": 35,
+      "raw_name": "Mary Mulenga",
+      "role": "author"
+    },
+    {
+      "index": 36,
+      "raw_name": "Cathy Michel",
+      "role": "author"
+    },
+    {
+      "index": 37,
+      "raw_name": "Catherine Michel",
+      "role": "author"
+    },
+    {
+      "index": 38,
+      "raw_name": "Fulgence Nkikabahizi",
+      "role": "author"
+    },
+    {
+      "index": 39,
+      "raw_name": "Marina Kariaganis",
+      "role": "author"
+    },
+    {
+      "index": 40,
+      "raw_name": "Elizabeth F. Jackson",
+      "role": "author"
+    },
+    {
+      "index": 41,
+      "raw_name": "Alusio Pio",
+      "role": "author"
+    },
+    {
+      "index": 42,
+      "raw_name": "Dennis Musatwe",
+      "role": "author"
+    },
+    {
+      "index": 43,
+      "raw_name": "Nicholas Kanlisi",
+      "role": "author"
+    },
+    {
+      "index": 44,
+      "raw_name": "Patrick O. Asuming",
+      "role": "author"
+    },
+    {
+      "index": 45,
+      "raw_name": "James Phillips",
+      "role": "author"
+    },
+    {
+      "index": 46,
+      "raw_name": "Jeanine Condo",
+      "role": "author"
+    },
+    {
+      "index": 47,
+      "raw_name": "Cindy Chirwa",
+      "role": "author"
+    },
+    {
+      "index": 48,
+      "raw_name": "Mallory C. Sheff",
+      "role": "author"
+    },
+    {
+      "index": 49,
+      "raw_name": "Sarah Gimbel",
+      "role": "author"
+    },
+    {
+      "index": 50,
+      "raw_name": "Fatima Cuembelo",
+      "role": "author"
+    },
+    {
+      "index": 51,
+      "raw_name": "Moses Mwanza",
+      "role": "author"
+    }
+  ],
+  "ext_ids": {
+    "doi": "10.17615/b9ra-bj23"
+  },
+  "extra": {
+    "datacite": {
+      "license": [
+        {
+          "rights": "In Copyright",
+          "rightsUri": "http://rightsstatements.org/vocab/InC/1.0/"
+        }
+      ],
+      "resourceType": "Article",
+      "resourceTypeGeneral": "Text"
+    }
+  },
+  "ident": "n7y2t4nf6bbxtfoxvrx2njdmqu",
+  "language": "en",
+  "license_slug": "RS-INC",
+  "publisher": "The University of North Carolina at Chapel Hill University Libraries",
+  "refs": [],
+  "release_stage": "published",
+  "release_year": 2017,
+  "revision": "0b973f11-c398-4ae8-b8dc-da0f5f47efd1",
+  "state": "active",
+  "title": "Research capacity building integrated into PHIT projects: leveraging research and research funding to build national capacity",
+  "work_id": "g2euqdwzdveivkpqajc6bct7j4"
+}

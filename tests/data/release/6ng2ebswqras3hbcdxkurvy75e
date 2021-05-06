@@ -1,0 +1,137 @@
+{
+  "abstracts": [
+    {
+      "content": "Metrics table outlining each countryâ s indicator measurement. (DOCX 32Â kb)",
+      "lang": "en",
+      "mimetype": "text/plain",
+      "sha1": "5e47a6a700ab58491309223bcad36dd9a9422dbb"
+    }
+  ],
+  "contribs": [
+    {
+      "given_name": "Bethany",
+      "index": 0,
+      "raw_name": "Bethany Hedt-Gauthier",
+      "role": "author",
+      "surname": "Hedt-Gauthier"
+    },
+    {
+      "given_name": "Roma",
+      "index": 1,
+      "raw_name": "Roma Chilengi",
+      "role": "author",
+      "surname": "Chilengi"
+    },
+    {
+      "given_name": "Elizabeth",
+      "index": 2,
+      "raw_name": "Elizabeth Jackson",
+      "role": "author",
+      "surname": "Jackson"
+    },
+    {
+      "given_name": "Cathy",
+      "index": 3,
+      "raw_name": "Cathy Michel",
+      "role": "author",
+      "surname": "Michel"
+    },
+    {
+      "given_name": "Manuel",
+      "index": 4,
+      "raw_name": "Manuel Napua",
+      "role": "author",
+      "surname": "Napua"
+    },
+    {
+      "index": 5,
+      "raw_name": "Jackline Odhiambo",
+      "role": "author"
+    },
+    {
+      "index": 6,
+      "raw_name": "Ayaga Bawah",
+      "role": "author"
+    }
+  ],
+  "ext_ids": {
+    "doi": "10.6084/m9.figshare.5728926"
+  },
+  "extra": {
+    "container_name": "figshare.com",
+    "datacite": {
+      "license": [
+        {
+          "rights": "Creative Commons Attribution 4.0 International",
+          "rightsIdentifier": "cc-by-4.0",
+          "rightsIdentifierScheme": "SPDX",
+          "rightsUri": "https://creativecommons.org/licenses/by/4.0/legalcode",
+          "schemeUri": "https://spdx.org/licenses/"
+        }
+      ],
+      "metadataVersion": 1,
+      "relations": [
+        {
+          "relatedIdentifier": "10.1186/s12913-017-2657-6",
+          "relatedIdentifierType": "DOI",
+          "relationType": "IsSupplementTo"
+        }
+      ],
+      "resourceType": "Journal contribution",
+      "resourceTypeGeneral": "Text",
+      "subjects": [
+        {
+          "subject": "Microbiology"
+        },
+        {
+          "schemeUri": "http://www.oecd.org/science/inno/38235147.pdf",
+          "subject": "FOS: Biological sciences",
+          "subjectScheme": "Fields of Science and Technology (FOS)"
+        },
+        {
+          "subject": "FOS: Biological sciences",
+          "subjectScheme": "Fields of Science and Technology (FOS)"
+        },
+        {
+          "subject": "Evolutionary Biology"
+        },
+        {
+          "subject": "Cancer"
+        },
+        {
+          "subject": "Science Policy"
+        },
+        {
+          "subject": "111714 Mental Health",
+          "subjectScheme": "FOR"
+        },
+        {
+          "schemeUri": "http://www.oecd.org/science/inno/38235147.pdf",
+          "subject": "FOS: Health sciences",
+          "subjectScheme": "Fields of Science and Technology (FOS)"
+        },
+        {
+          "subject": "FOS: Health sciences",
+          "subjectScheme": "Fields of Science and Technology (FOS)"
+        },
+        {
+          "subject": "110309 Infectious Diseases",
+          "subjectScheme": "FOR"
+        }
+      ]
+    },
+    "release_month": 12
+  },
+  "ident": "6ng2ebswqras3hbcdxkurvy75e",
+  "license_slug": "CC-BY",
+  "publisher": "figshare",
+  "refs": [],
+  "release_date": "2017-12-22",
+  "release_stage": "published",
+  "release_type": "component",
+  "release_year": 2017,
+  "revision": "25d4a47d-b622-4725-add1-d662aaa8a9e0",
+  "state": "active",
+  "title": "Additional file 2: of Research capacity building integrated into PHIT projects: leveraging research and research funding to build national capacity",
+  "work_id": "nuxbrsi5kbdj7pli5yyudbe23e"
+}

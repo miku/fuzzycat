@@ -1,0 +1,119 @@
+{
+  "abstracts": [
+    {
+      "content": "Background\n                Inadequate research capacity impedes the development of evidence-based health programming in sub-Saharan Africa. However, funding for research capacity building (RCB) is often insufficient and restricted, limiting institutions' ability to address current RCB needs. The Doris Duke Charitable Foundation's African Health Initiative (AHI) funded Population Health Implementation and Training (PHIT) partnership projects in five African countries (Ghana, Mozambique, Rwanda, Tanzania and Zambia) to implement health systems strengthening initiatives inclusive of RCB.\n              \n              \n                Methods\n                Using Cooke's framework for RCB, RCB activity leaders from each country reported on RCB priorities, activities, program metrics, ongoing challenges and solutions. These were synthesized by the authorship team, identifying common challenges and lessons learned.\n              \n              \n                Results\n                For most countries, each of the RCB domains from Cooke's framework was a high priority. In about half of the countries, domain specific activities happened prior to PHIT. During PHIT, specific RCB activities varied across countries. However, all five countries used AHI funding to improve research administrative support and infrastructure, implement research trainings and support mentorship activities and research dissemination. While outcomes data were not systematically collected, countries reported holding 54 research trainings, forming 56 mentor-mentee relationships, training 201 individuals and awarding 22 PhD and Masters-level scholarships. Over the 5 years, 116 manuscripts were developed. Of the 59 manuscripts published in peer-reviewed journals, 29 had national first authors and 18 had national senior authors. Trainees participated in 99 conferences and projects held 37 forums with policy makers to facilitate research translation into policy.\n              \n              \n                Conclusion\n                All five PHIT proj [...]",
+      "lang": "en",
+      "mimetype": "text/plain",
+      "sha1": "7b372f6e0937990955c7defa2ba4084de34c9078"
+    }
+  ],
+  "container_id": "3nwt2t3wqff4rigjayo4xqjvdm",
+  "contribs": [
+    {
+      "given_name": "Bethany L.",
+      "index": 0,
+      "raw_name": "Bethany L. Hedt-Gauthier",
+      "role": "author",
+      "surname": "Hedt-Gauthier"
+    },
+    {
+      "given_name": "Roma",
+      "index": 1,
+      "raw_name": "Roma Chilengi",
+      "role": "author",
+      "surname": "Chilengi"
+    },
+    {
+      "given_name": "Elizabeth",
+      "index": 2,
+      "raw_name": "Elizabeth Jackson",
+      "role": "author",
+      "surname": "Jackson"
+    },
+    {
+      "given_name": "Cathy",
+      "index": 3,
+      "raw_name": "Cathy Michel",
+      "role": "author",
+      "surname": "Michel"
+    },
+    {
+      "given_name": "Manuel",
+      "index": 4,
+      "raw_name": "Manuel Napua",
+      "role": "author",
+      "surname": "Napua"
+    },
+    {
+      "given_name": "Jackline",
+      "index": 5,
+      "raw_name": "Jackline Odhiambo",
+      "role": "author",
+      "surname": "Odhiambo"
+    },
+    {
+      "given_name": "Ayaga A.",
+      "index": 6,
+      "raw_name": "Ayaga A. Bawah",
+      "role": "author",
+      "surname": "Bawah"
+    },
+    {
+      "index": 7,
+      "raw_name": "AHI PHIT Partnership Collaborative",
+      "role": "author"
+    }
+  ],
+  "ext_ids": {
+    "doi": "10.7916/d8c83ntz"
+  },
+  "extra": {
+    "datacite": {
+      "metadataVersion": 1,
+      "relations": [
+        {
+          "relatedIdentifier": "1472-6963",
+          "relatedIdentifierType": "ISSN",
+          "relationType": "IsPartOf"
+        },
+        {
+          "relatedIdentifierType": "ISBN",
+          "relationType": "IsPartOf"
+        },
+        {
+          "relatedIdentifier": "10.1186/s12913-017-2657-6",
+          "relatedIdentifierType": "DOI",
+          "relationType": "IsVariantFormOf"
+        }
+      ],
+      "resourceType": "Articles",
+      "resourceTypeGeneral": "Text",
+      "subjects": [
+        {
+          "subject": "Public health"
+        },
+        {
+          "subject": "Public health--Research"
+        },
+        {
+          "subject": "Research grants"
+        },
+        {
+          "subject": "World health"
+        }
+      ]
+    },
+    "release_month": 12
+  },
+  "ident": "bc5oxs2asfdmvbxixg4pxz4oeu",
+  "publisher": "Columbia University",
+  "refs": [],
+  "release_date": "2017-12-24",
+  "release_stage": "published",
+  "release_type": "article-journal",
+  "release_year": 2017,
+  "revision": "8a7f0990-18a0-4e38-ad4e-6ad0f2814a08",
+  "state": "active",
+  "title": "Research capacity building integrated into PHIT projects: leveraging research and research funding to build national capacity",
+  "work_id": "o73xkfgmhbgvbmbidrbj2hwtci"
+}
