@@ -1,0 +1,239 @@
+{
+  "abstracts": [],
+  "container_id": "5gkyphro5zglpk6cuby2t37exm",
+  "contribs": [
+    {
+      "extra": {
+        "seq": "first"
+      },
+      "index": 0,
+      "raw_name": "Yucel Birol",
+      "role": "author"
+    }
+  ],
+  "ext_ids": {
+    "doi": "10.1007/s11663-013-9860-6"
+  },
+  "extra": {
+    "crossref": {
+      "alternative-id": [
+        "9860"
+      ],
+      "type": "journal-article"
+    }
+  },
+  "ident": "odhq7tbwibdipkd4lie24cc3gu",
+  "language": "en",
+  "pages": "969-973",
+  "publisher": "Springer Nature",
+  "refs": [
+    {
+      "extra": {
+        "unstructured": "J.R. Davis, ed.: Copper and Copper Alloys, ASM Specialty Handbook, ASM International, Materials Park, OH, 2001."
+      },
+      "index": 0,
+      "key": "9860_CR1"
+    },
+    {
+      "extra": {
+        "unstructured": "A. Cibula: J. Inst. Met., 1953-1954, vol. 82, pp. 513–23."
+      },
+      "index": 1,
+      "key": "9860_CR2"
+    },
+    {
+      "container_name": "AFS Trans.",
+      "extra": {
+        "authors": [
+          "M. Sadayappan"
+        ],
+        "unstructured": "M. Sadayappan, D. Cousineau, R. Zavadil, M. Sahoo and H. Michels, AFS Trans., 2002, vol. 110, pp. 505-514.",
+        "volume": "110"
+      },
+      "index": 2,
+      "key": "9860_CR3",
+      "locator": "505",
+      "year": 2002
+    },
+    {
+      "extra": {
+        "unstructured": "F.A. Fasoyinu, M. Sadayappan, R. Zadavil, and M. Sahoo: Proc. Conf. 4th Decenn. Int. Conf. Solidif. Process., Sheffield, U.K. 1997."
+      },
+      "index": 3,
+      "key": "9860_CR4"
+    },
+    {
+      "extra": {
+        "unstructured": "A.A. Chin: European Patent, No: 1887092, 2008."
+      },
+      "index": 4,
+      "key": "9860_CR5"
+    },
+    {
+      "extra": {
+        "unstructured": "J.C. Schumacher and R.W. Baier: United States Patent, No: 3001855, 1961."
+      },
+      "index": 5,
+      "key": "9860_CR6"
+    },
+    {
+      "extra": {
+        "unstructured": "W.J. Kroll, N.P. Nies, and E.W. Fajans: United States Patent, No: 2893842, 1959."
+      },
+      "index": 6,
+      "key": "9860_CR7"
+    },
+    {
+      "extra": {
+        "unstructured": "H. Haag: London Patent, No: 747287, 1956."
+      },
+      "index": 7,
+      "key": "9860_CR8"
+    },
+    {
+      "container_name": "Int. J. Powder Metall.",
+      "extra": {
+        "authors": [
+          "R. Ricceri"
+        ],
+        "unstructured": "R. Ricceri, P. Matteazzi: Int. J. Powder Metall., 2003, vol. 3, pp. 48–52."
+      },
+      "index": 8,
+      "key": "9860_CR9",
+      "locator": "48",
+      "year": 2003
+    },
+    {
+      "extra": {
+        "unstructured": "S. Boily., H.D. Alamdari, R. Dubuc, and J. Gaudet: WIPO Patent, No: 03051773, 2003."
+      },
+      "index": 9,
+      "key": "9860_CR10"
+    },
+    {
+      "extra": {
+        "unstructured": "P.N. Nies, E.W. Fajans, L.L. Thomas, L.E. Hiebert, and V. Morgan: United States Patent, No: 2832730, 1958."
+      },
+      "index": 10,
+      "key": "9860_CR11"
+    },
+    {
+      "extra": {
+        "unstructured": "D.R. Stern and Q.H. Mckenna: United States Patent, No: 2892762, 1959."
+      },
+      "index": 11,
+      "key": "9860_CR12"
+    },
+    {
+      "extra": {
+        "unstructured": "D.R. Stern: United States Patent, No: 2839367, 1958."
+      },
+      "index": 12,
+      "key": "9860_CR13"
+    },
+    {
+      "extra": {
+        "unstructured": "W.L. Robb: United States Patent, No: 3115393, 1963."
+      },
+      "index": 13,
+      "key": "9860_CR14"
+    },
+    {
+      "extra": {
+        "unstructured": "L.H. Jansen: Kirk-Othmer Encyclopedia of Chemical Technology. DOI:  10.1002/0471238961.0215181510011419.a01.pub3 , 2001."
+      },
+      "index": 14,
+      "key": "9860_CR15"
+    },
+    {
+      "container_name": "Metallurgica",
+      "extra": {
+        "authors": [
+          "F. Lihl"
+        ],
+        "unstructured": "F. Lihl and O. Fleischl, Metall, 1954, vol. 8, pp. 11-19."
+      },
+      "index": 15,
+      "key": "9860_CR16",
+      "locator": "11",
+      "year": 1954
+    },
+    {
+      "container_name": "Mater. Chem. Phys.",
+      "extra": {
+        "authors": [
+          "Y. Birol"
+        ],
+        "doi": "10.1016/j.matchemphys.2012.08.030",
+        "unstructured": "Y. Birol: Mater. Chem. Phys., 2012, vol.136, pp. 963–66.",
+        "volume": "136"
+      },
+      "index": 16,
+      "key": "9860_CR17",
+      "locator": "963",
+      "year": 2012
+    },
+    {
+      "extra": {
+        "doi": "10.1007/s11663-012-9771-y",
+        "unstructured": "Y. Birol: Mater. Metall. Trans. B. DOI: 10.1007/s11663-012-9771-y ."
+      },
+      "index": 17,
+      "key": "9860_CR18"
+    },
+    {
+      "container_name": "J. Phase Equilib.",
+      "extra": {
+        "authors": [
+          "H. Okamoto"
+        ],
+        "doi": "10.1007/bf02667494",
+        "unstructured": "H. Okamoto, J. Phase Equilibria, 1992, vol. 13, pp. 213-214.",
+        "volume": "13"
+      },
+      "index": 18,
+      "key": "9860_CR19",
+      "locator": "213",
+      "year": 1992
+    },
+    {
+      "container_name": "J. Chem. Eng. Jpn.",
+      "extra": {
+        "authors": [
+          "A. Ekmekyapar"
+        ],
+        "doi": "10.1252/jcej.07we288",
+        "unstructured": "A. Ekmekyapar, C.A. Basar and M.Yuceer: J. Chem. Eng. Japan, 2009, vol. 42, pp. 478-484.",
+        "volume": "42"
+      },
+      "index": 19,
+      "key": "9860_CR20",
+      "locator": "478",
+      "year": 2009
+    },
+    {
+      "container_name": "J. Alloys Compd.",
+      "extra": {
+        "authors": [
+          "C.P. Wang"
+        ],
+        "doi": "10.1016/j.jallcom.2009.03.101",
+        "unstructured": "C.P.Wang, S.H. Guo, A.T. Tang, F.S. Pan, X.J. Liu, K. Ishida, J. Alloys Compds., 2009, vol. 482, pp. 67-72.",
+        "volume": "482"
+      },
+      "index": 20,
+      "key": "9860_CR21",
+      "locator": "67",
+      "year": 2009
+    }
+  ],
+  "release_date": "2013-05-11",
+  "release_stage": "published",
+  "release_type": "article-journal",
+  "release_year": 2013,
+  "revision": "61c7c135-39d7-47b6-a7c5-c5de00f1bb28",
+  "state": "active",
+  "title": "Response to Thermal Exposure of Ball-Milled Cu-Mg/B2O3 Powder Blends",
+  "volume": "44",
+  "work_id": "d7c6ukjcfjgfhjaopb6fkd7oum"
+}

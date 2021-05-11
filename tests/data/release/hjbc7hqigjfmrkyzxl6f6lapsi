@@ -1,0 +1,363 @@
+{
+  "abstracts": [],
+  "container_id": "5gkyphro5zglpk6cuby2t37exm",
+  "contribs": [
+    {
+      "extra": {
+        "seq": "first"
+      },
+      "index": 0,
+      "raw_name": "Yucel Birol",
+      "role": "author"
+    }
+  ],
+  "ext_ids": {
+    "doi": "10.1007/s11663-012-9771-y"
+  },
+  "extra": {
+    "crossref": {
+      "alternative-id": [
+        "9771"
+      ],
+      "type": "journal-article"
+    }
+  },
+  "ident": "hjbc7hqigjfmrkyzxl6f6lapsi",
+  "language": "en",
+  "pages": "359-364",
+  "publisher": "Springer Nature",
+  "refs": [
+    {
+      "container_name": "Mater. Charact.",
+      "extra": {
+        "authors": [
+          "Z.H. Melgarejo"
+        ],
+        "doi": "10.1016/j.matchar.2009.11.002",
+        "unstructured": "Z.H. Melgarejo, P.J. Resto, D.S. Stone and O.M. Suárez: Mater. Charact., 2010, vol. 61, pp. 135–40.",
+        "volume": "61"
+      },
+      "index": 0,
+      "key": "9771_CR1",
+      "locator": "135",
+      "year": 2010
+    },
+    {
+      "container_name": "JOM",
+      "extra": {
+        "authors": [
+          "A.C. Hall"
+        ],
+        "doi": "10.1007/s11837-000-0046-8",
+        "unstructured": "A.C. Hall and J. Economy: JOM, 2000, vol. 52, pp. 42-44.",
+        "volume": "52"
+      },
+      "index": 1,
+      "key": "9771_CR2",
+      "locator": "42",
+      "year": 2000
+    },
+    {
+      "container_name": "Mater. Charact.",
+      "extra": {
+        "authors": [
+          "N.B. Duque"
+        ],
+        "doi": "10.1016/j.matchar.2005.04.005",
+        "unstructured": "N.B. Duque, Z.H. Melgarejo and O.M. Suarez: Mater. Charact., 2005, vol. 55, pp. 167–71.",
+        "volume": "55"
+      },
+      "index": 2,
+      "key": "9771_CR3",
+      "locator": "167",
+      "year": 2005
+    },
+    {
+      "container_name": "Boron and Refractory Borides",
+      "extra": {
+        "authors": [
+          "D.E. Mahagin"
+        ],
+        "doi": "10.1007/978-3-642-66620-9_33",
+        "unstructured": "D.E. Mahagin and R.E. Dahl, in: V.I. Matkovich (Ed.), Boron and Refractory Borides, Springer, Berlin, 1977, pp. 613–32.",
+        "volume-title": "Boron and Refractory Borides"
+      },
+      "index": 3,
+      "key": "9771_CR4",
+      "locator": "613",
+      "year": 1977
+    },
+    {
+      "container_name": "Light Metals",
+      "extra": {
+        "authors": [
+          "WC Setzer"
+        ],
+        "unstructured": "W.C. Setzer and G.W. Boone: Light Metals, TMS, San Diego, CA, 1992, pp. 837-43.",
+        "volume-title": "Light Metals"
+      },
+      "index": 4,
+      "key": "9771_CR5",
+      "locator": "837",
+      "year": 1992
+    },
+    {
+      "extra": {
+        "unstructured": "P.S. Cooper and M.A. Kearns: Proceedings of 5th International Conference on Materials Science Forum, Transtec Publ. Ltd., Zurich, 1996, pp. 141–46."
+      },
+      "index": 5,
+      "key": "9771_CR6"
+    },
+    {
+      "container_name": "Light Metals",
+      "extra": {
+        "authors": [
+          "PS Cooper"
+        ],
+        "unstructured": "P.S. Cooper, R. Cook and M.A. Kearns: Light Metals, TMS, San Diego, CA, 1997, pp. 809-14.",
+        "volume-title": "Light Metals"
+      },
+      "index": 6,
+      "key": "9771_CR7",
+      "locator": "809",
+      "year": 1997
+    },
+    {
+      "container_name": "J. Chin. Foundryman's Assoc.",
+      "extra": {
+        "authors": [
+          "H.T. Lu"
+        ],
+        "unstructured": "H.T. Lu, L.C. Wang and S.K. Kung: J. Chin. Foundryman's Assoc., 1981, vol. 29, pp. 10–18.",
+        "volume": "29"
+      },
+      "index": 7,
+      "key": "9771_CR8",
+      "locator": "10",
+      "year": 1981
+    },
+    {
+      "container_name": "Light Metals",
+      "extra": {
+        "authors": [
+          "P.A. Tøndel"
+        ],
+        "unstructured": "P.A. Tøndel, G. Halvorsen and L. Arnberg: Light Metals, TMS, Warrendale, PA, 1993, pp. 783–90.",
+        "volume-title": "Light Metals"
+      },
+      "index": 8,
+      "key": "9771_CR9",
+      "locator": "783",
+      "year": 1993
+    },
+    {
+      "container_name": "AFS Trans.",
+      "extra": {
+        "authors": [
+          "G.K. Sigworth"
+        ],
+        "unstructured": "G.K. Sigworth and M.M. Guzowski: AFS Trans., 1985, vol. 93, pp. 907–12.",
+        "volume": "93"
+      },
+      "index": 9,
+      "key": "9771_CR10",
+      "locator": "907",
+      "year": 1985
+    },
+    {
+      "container_name": "Mater. Sci. Technol.",
+      "extra": {
+        "authors": [
+          "Y. Birol"
+        ],
+        "doi": "10.1179/1743284711y.0000000058",
+        "unstructured": "Y. Birol: Mater. Sci. Technol., 2012, vol. 28, pp. 481–86.",
+        "volume": "28"
+      },
+      "index": 10,
+      "key": "9771_CR11",
+      "locator": "481",
+      "year": 2012
+    },
+    {
+      "container_name": "Mater. Sci. Technol.",
+      "extra": {
+        "authors": [
+          "Y. Birol"
+        ],
+        "doi": "10.1179/1743284711y.0000000041",
+        "unstructured": "Y. Birol: Mater. Sci. Technol., 2012, vol. 28, pp. 363–67.",
+        "volume": "28"
+      },
+      "index": 11,
+      "key": "9771_CR12",
+      "locator": "363",
+      "year": 2012
+    },
+    {
+      "container_name": "J. Alloys Compd.",
+      "extra": {
+        "authors": [
+          "Y. Birol"
+        ],
+        "doi": "10.1016/j.jallcom.2011.10.010",
+        "unstructured": "Y. Birol: J. Alloys Compd., 2012, vol. 513, pp. 150–53.",
+        "volume": "513"
+      },
+      "index": 12,
+      "key": "9771_CR13",
+      "locator": "150",
+      "year": 2012
+    },
+    {
+      "container_name": "Int. J. Cast Met. Res.",
+      "extra": {
+        "authors": [
+          "Y. Birol"
+        ],
+        "doi": "10.1179/1743133611y.000000001155",
+        "unstructured": "Y. Birol: Int. J. Cast Met. Res., 2012, vol. 25, pp. 117–20.",
+        "volume": "25"
+      },
+      "index": 13,
+      "key": "9771_CR14",
+      "locator": "117",
+      "year": 2012
+    },
+    {
+      "container_name": "Mater. Sci. Technol.",
+      "extra": {
+        "authors": [
+          "Y. Birol"
+        ],
+        "doi": "10.1179/1743284711y.0000000031",
+        "unstructured": "Y. Birol: Mater. Sci. Technol., 2011, vol. 27, pp. 1846–50.",
+        "volume": "27"
+      },
+      "index": 14,
+      "key": "9771_CR15",
+      "locator": "1846",
+      "year": 2011
+    },
+    {
+      "container_name": "J. Alloys Compd.",
+      "extra": {
+        "authors": [
+          "Y. Birol"
+        ],
+        "doi": "10.1016/j.jallcom.2006.10.009",
+        "unstructured": "Y. Birol: J. Alloys Compd., 2007, vol. 443, pp. 94–98.",
+        "volume": "443"
+      },
+      "index": 15,
+      "key": "9771_CR16",
+      "locator": "94",
+      "year": 2007
+    },
+    {
+      "extra": {
+        "unstructured": "M. Alliot, J.C. Beguin, M. Moutach, and J.C. Percheron: U.S. Patent 3,961,995, 1976."
+      },
+      "index": 16,
+      "key": "9771_CR17"
+    },
+    {
+      "extra": {
+        "unstructured": "D.K. Young, W.C. Setzer, F.P. Koch, R.A. Rapp, M.J. Pryor, and N. Jarrett: U.S. Patent 5,415,708, 1995."
+      },
+      "index": 17,
+      "key": "9771_CR18"
+    },
+    {
+      "extra": {
+        "unstructured": "D.K. Young, W.C. Setzer, F.P. Koch, R.A. Rapp, M.J. Pryor, and N. Jarrett: U.S. Patent 5,484,493, 1996."
+      },
+      "index": 18,
+      "key": "9771_CR19"
+    },
+    {
+      "container_name": "Mater. Sci. Forum",
+      "extra": {
+        "authors": [
+          "A. Hardman"
+        ],
+        "doi": "10.4028/www.scientific.net/msf.217-222.247",
+        "unstructured": "A. Hardman and F.H. Hayes: Mater. Sci. Forum, 1996, vol. 217–222, pp. 247–52.",
+        "volume": "217–222"
+      },
+      "index": 19,
+      "key": "9771_CR20",
+      "locator": "247",
+      "year": 1996
+    },
+    {
+      "container_name": "J. Alloy. Compd.",
+      "extra": {
+        "authors": [
+          "T.S. Krishnan"
+        ],
+        "doi": "10.1016/s0925-8388(98)00217-5",
+        "unstructured": "T.S. Krishnan, P.K. Rajagopalan, B.R. Gund, J. Krishnan and D.K. Bose: J. Alloy. Compd., 1998, vol. 269, pp. 138–40.",
+        "volume": "269"
+      },
+      "index": 20,
+      "key": "9771_CR21",
+      "locator": "138",
+      "year": 1998
+    },
+    {
+      "container_name": "J. Alloys Compd.",
+      "extra": {
+        "authors": [
+          "Y. Birol"
+        ],
+        "doi": "10.1016/j.jallcom.2007.04.036",
+        "unstructured": "Y. Birol: J. Alloys Compd., 2008, vol. 458, pp. 271–76.",
+        "volume": "458"
+      },
+      "index": 21,
+      "key": "9771_CR22",
+      "locator": "271",
+      "year": 2008
+    },
+    {
+      "container_name": "J. Chem. Eng. Jpn.",
+      "extra": {
+        "authors": [
+          "A. Ekmekyapar"
+        ],
+        "doi": "10.1252/jcej.07we288",
+        "unstructured": "A. Ekmekyapar, C.A. Basar and M. Yuceer: J. Chem. Eng. Jpn., 2009, vol. 42, pp. 478-84.",
+        "volume": "42"
+      },
+      "index": 22,
+      "key": "9771_CR23",
+      "locator": "478",
+      "year": 2009
+    },
+    {
+      "container_name": "Chem. Eng. Process.",
+      "extra": {
+        "authors": [
+          "O. Sahin"
+        ],
+        "doi": "10.1016/s0255-2701(01)00123-4",
+        "unstructured": "O. Sahin and A. N. Bulutcu: Chem. Eng. Process., 2002, vol. 41, pp. 135–41.",
+        "volume": "41"
+      },
+      "index": 23,
+      "key": "9771_CR24",
+      "locator": "135",
+      "year": 2002
+    }
+  ],
+  "release_date": "2012-12-01",
+  "release_stage": "published",
+  "release_type": "article-journal",
+  "release_year": 2012,
+  "revision": "35dae482-6844-4398-b60f-d961e4b4f053",
+  "state": "active",
+  "title": "Response to Thermal Exposure of Ball-Milled Aluminum-Borax Powder Blends",
+  "volume": "44",
+  "work_id": "bbazzbwoevc4ngq72biijrspji"
+}
