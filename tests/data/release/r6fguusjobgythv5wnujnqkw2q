@@ -1,0 +1,39 @@
+{
+  "abstracts": [],
+  "container_id": "lzfv534ahfcedh4w6sklgjsxvm",
+  "contribs": [
+    {
+      "extra": {
+        "seq": "first"
+      },
+      "index": 0,
+      "raw_name": "HANS BURCHARDT",
+      "role": "author"
+    }
+  ],
+  "ext_ids": {
+    "doi": "10.1097/00003086-198304000-00005"
+  },
+  "extra": {
+    "crossref": {
+      "type": "journal-article"
+    },
+    "subtitle": [
+      ""
+    ]
+  },
+  "ident": "r6fguusjobgythv5wnujnqkw2q",
+  "issue": "174",
+  "language": "en",
+  "pages": "28???42",
+  "publisher": "Ovid Technologies (Wolters Kluwer Health)",
+  "refs": [],
+  "release_stage": "published",
+  "release_type": "article-journal",
+  "release_year": 1983,
+  "revision": "bc3e393f-bb47-4445-889b-33bc42a8ed72",
+  "state": "active",
+  "title": "The Biology of Bone Graft Repair",
+  "volume": "&NA;",
+  "work_id": "jla7l6xurbcgbbhu2xeujov45e"
+}

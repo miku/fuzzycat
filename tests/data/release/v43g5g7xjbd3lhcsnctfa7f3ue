@@ -1,0 +1,43 @@
+{
+  "abstracts": [
+    {
+      "content": "Cancellous and cortical autografts histologically have three differences: (1) cancellous grafts are revascularized more rapidly and completely than cortical grafts; (2) creeping substitution of cancellous bone initially involves an appositional bone formation phase, followed by a resorptive phase, whereas cortical grafts undergo a reverse creeping substitution process; (3) cancellous grafts tend to repair completely with time, whereas cortical grafts remain as admixtures of necrotic and viable bone. Physiologic skeletal metabolic factors influence the rate, amount, and completeness of bone repair and graft incorporation. The mechanical strengths of cancellous and cortical grafts are correlated with their respective repair processes: cancellous grafts tend to be strengthened first, whereas cortical grafts are weakened. Bone allografts are influenced by the same immunologic factors as other tissue grafts. Fresh bone allografts may be rejected by the host's immune system. The histoincompatibility antigens of bone allografts are presumably the proteins or glycoproteins on cell surfaces. The matrix proteins may or may not elicit graft rejection. The rejection of a bone allograft is considered to be a cellular rather than a humoral response, although the humoral component may play a part. The degree of the host response to an allograft may be related to the antigen concentration and total dose. The rejection of a bone allograft is histologically expressed by the disruption of vessels, an inflammatory process including lymphocytes, fibrous encapsulation, peripheral graft resorption, callus bridging, nonunions, and fatigue fractures.",
+      "lang": "en",
+      "mimetype": "text/plain",
+      "sha1": "3ee33363983c7e6e04b9f91e95e5db75e0cacab0"
+    }
+  ],
+  "container_id": "lzfv534ahfcedh4w6sklgjsxvm",
+  "contribs": [
+    {
+      "extra": {},
+      "given_name": "H",
+      "index": 0,
+      "raw_name": "H Burchardt",
+      "role": "author",
+      "surname": "Burchardt"
+    }
+  ],
+  "ext_ids": {
+    "pmid": "6339139"
+  },
+  "extra": {
+    "pubmed": {
+      "pub_types": [
+        "Journal Article"
+      ]
+    }
+  },
+  "ident": "v43g5g7xjbd3lhcsnctfa7f3ue",
+  "issue": "174",
+  "language": "en",
+  "pages": "28-42",
+  "refs": [],
+  "release_stage": "published",
+  "release_type": "article-journal",
+  "release_year": 1983,
+  "revision": "51b2e69a-f91b-4c7f-bf86-9451e6cfaba6",
+  "state": "active",
+  "title": "The biology of bone graft repair",
+  "work_id": "bc7ves4j7fe5rhbdvcmn4k2miu"
+}
