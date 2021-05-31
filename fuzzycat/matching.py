@@ -64,7 +64,13 @@ def match_release_fuzzy(
         value = getattr(ext_ids, attr)
         if not value:
             continue
-        r = api.lookup_release(**{attr: value})
+        try:
+            r = api.lookup_release(**{attr: value})
+        except fatcat_openapi_client.rest.ApiException as err:
+            if err.status in [404, 400]:
+                r = None
+            else:
+                raise err
         if r:
             return [r]
 
