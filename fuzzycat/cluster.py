@@ -58,15 +58,12 @@ Features and integration.
 """
 
 import collections
-import fileinput
 import itertools
 import json
-import logging
 import multiprocessing
 import operator
 import os
 import re
-import string
 import subprocess
 import sys
 import tempfile

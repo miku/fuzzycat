@@ -37,6 +37,7 @@ with open("README.md", "r") as fh:
             "toml",
             "unidecode>=0.10",
             "zstandard",
+            "dynaconf>=1",
         ],
         extras_require={"dev": [
             "ipython",

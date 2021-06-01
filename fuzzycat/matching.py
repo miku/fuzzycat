@@ -7,7 +7,6 @@ import elasticsearch
 import elasticsearch_dsl
 import fatcat_openapi_client
 import requests
-from dynaconf import Dynaconf
 from fatcat_openapi_client import ContainerEntity, DefaultApi, ReleaseEntity
 from fatcat_openapi_client.rest import ApiException
 
@@ -64,7 +63,13 @@ def match_release_fuzzy(
         value = getattr(ext_ids, attr)
         if not value:
             continue
-        r = api.lookup_release(**{attr: value})
+        try:
+            r = api.lookup_release(**{attr: value})
+        except fatcat_openapi_client.rest.ApiException as err:
+            if err.status in [404, 400]:
+                r = None
+            else:
+                raise err
         if r:
             return [r]
 

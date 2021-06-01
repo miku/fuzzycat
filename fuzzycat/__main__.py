@@ -60,7 +60,6 @@ import io
 import json
 import logging
 import pstats
-import random
 import sys
 import tempfile
 
