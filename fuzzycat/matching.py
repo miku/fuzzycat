@@ -7,7 +7,6 @@ import elasticsearch
 import elasticsearch_dsl
 import fatcat_openapi_client
 import requests
-from dynaconf import Dynaconf
 from fatcat_openapi_client import ContainerEntity, DefaultApi, ReleaseEntity
 from fatcat_openapi_client.rest import ApiException
 

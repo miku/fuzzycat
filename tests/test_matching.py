@@ -4,7 +4,6 @@ import warnings
 import elasticsearch
 import pytest
 import requests
-from dynaconf import Dynaconf
 from fatcat_openapi_client import ReleaseEntity
 
 from fuzzycat.entities import entity_from_dict

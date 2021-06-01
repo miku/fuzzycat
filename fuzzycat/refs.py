@@ -1,12 +1,10 @@
 import collections
-import itertools
 import json
 import operator
 import sys
 
 from glom import PathAccessError, glom
 
-from fuzzycat.common import Reason, Status
 from fuzzycat.verify import verify
 
 

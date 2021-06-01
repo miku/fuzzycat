@@ -11,7 +11,7 @@ TODO: more general versions which handle multiple reference strings in a batch?
 import io
 import sys
 import xml.etree.ElementTree as ET
-from typing import Any, Optional, Tuple
+from typing import Optional
 
 import requests
 from fatcat_openapi_client import ReleaseContrib, ReleaseEntity, ReleaseExtIds
