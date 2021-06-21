@@ -1,0 +1,491 @@
+{
+  "abstracts": [],
+  "container_id": "hm5redp6wzc6baljrmzqlxr4fa",
+  "contribs": [
+    {
+      "extra": {
+        "more_affiliations": [
+          "Department of Mathematics, Pabna University of Science and Technology, Pabna, Bangladesh"
+        ],
+        "seq": "first"
+      },
+      "given_name": "Md Nur",
+      "index": 0,
+      "raw_affiliation": "School of Mathematical Sciences, University of Science and Technology of China, Hefei, People's Republic of China",
+      "raw_name": "Md Nur Alam",
+      "role": "author",
+      "surname": "Alam"
+    },
+    {
+      "creator_id": "zerctehodncthig4up3t2lnq64",
+      "given_name": "Cemil",
+      "index": 1,
+      "raw_affiliation": "Department of Mathematics, Faculty of Sciences, Van Yuzuncu Yil University, Van, Turkey",
+      "raw_name": "Cemil Tunç",
+      "role": "author",
+      "surname": "Tunç"
+    }
+  ],
+  "ext_ids": {
+    "doi": "10.1080/16583655.2019.1708542"
+  },
+  "extra": {
+    "crossref": {
+      "alternative-id": [
+        "10.1080/16583655.2019.1708542"
+      ],
+      "license": [
+        {
+          "URL": "http://creativecommons.org/licenses/by/4.0/",
+          "content-version": "vor",
+          "delay-in-days": 0,
+          "start": "2019-12-30T00:00:00Z"
+        }
+      ],
+      "type": "journal-article"
+    }
+  },
+  "ident": "pgcuewadijepxllmccksczqwku",
+  "language": "en",
+  "license_slug": "CC-BY",
+  "pages": "94-100",
+  "publisher": "Informa UK Limited",
+  "refs": [
+    {
+      "extra": {
+        "doi": "10.1016/j.physa.2017.10.010"
+      },
+      "index": 0,
+      "key": "CIT0001"
+    },
+    {
+      "extra": {
+        "doi": "10.1186/s13662-017-1148-8"
+      },
+      "index": 1,
+      "key": "CIT0003"
+    },
+    {
+      "container_name": "Eur Phys J Plus",
+      "extra": {
+        "authors": [
+          "Hammouch Z"
+        ],
+        "volume": "248"
+      },
+      "index": 2,
+      "key": "CIT0004",
+      "locator": "133",
+      "year": 2018
+    },
+    {
+      "extra": {
+        "doi": "10.1016/j.physa.2016.12.081"
+      },
+      "index": 3,
+      "key": "CIT0005"
+    },
+    {
+      "extra": {
+        "doi": "10.1016/j.ijleo.2017.07.011"
+      },
+      "index": 4,
+      "key": "CIT0006"
+    },
+    {
+      "extra": {
+        "doi": "10.1016/j.jtusci.2016.11.004"
+      },
+      "index": 5,
+      "key": "CIT0007"
+    },
+    {
+      "extra": {
+        "doi": "10.3390/math4010006"
+      },
+      "index": 6,
+      "key": "CIT0008"
+    },
+    {
+      "extra": {
+        "doi": "10.1016/j.aej.2016.04.024"
+      },
+      "index": 7,
+      "key": "CIT0009"
+    },
+    {
+      "extra": {
+        "doi": "10.1016/j.ijleo.2017.02.004"
+      },
+      "index": 8,
+      "key": "CIT0010"
+    },
+    {
+      "extra": {
+        "doi": "10.1016/j.spmi.2017.03.006"
+      },
+      "index": 9,
+      "key": "CIT0011"
+    },
+    {
+      "extra": {
+        "doi": "10.1007/s12043-014-0776-8"
+      },
+      "index": 10,
+      "key": "CIT0012"
+    },
+    {
+      "extra": {
+        "doi": "10.1016/j.rinp.2018.02.012"
+      },
+      "index": 11,
+      "key": "CIT0013"
+    },
+    {
+      "extra": {
+        "doi": "10.1016/j.joes.2019.05.003"
+      },
+      "index": 12,
+      "key": "CIT0014"
+    },
+    {
+      "extra": {
+        "doi": "10.1016/j.rinp.2015.07.001"
+      },
+      "index": 13,
+      "key": "CIT0015"
+    },
+    {
+      "extra": {
+        "doi": "10.1007/s11082-017-0895-9"
+      },
+      "index": 14,
+      "key": "CIT0016"
+    },
+    {
+      "extra": {
+        "doi": "10.1142/s021798491750186x"
+      },
+      "index": 15,
+      "key": "CIT0017"
+    },
+    {
+      "extra": {
+        "doi": "10.1088/1674-1056/23/2/020203"
+      },
+      "index": 16,
+      "key": "CIT0018"
+    },
+    {
+      "extra": {
+        "doi": "10.1007/s11082-017-1191-4"
+      },
+      "index": 17,
+      "key": "CIT0019"
+    },
+    {
+      "extra": {
+        "doi": "10.1016/j.rinp.2017.12.051"
+      },
+      "index": 18,
+      "key": "CIT0020"
+    },
+    {
+      "extra": {
+        "doi": "10.1016/j.physa.2015.12.072"
+      },
+      "index": 19,
+      "key": "CIT0021"
+    },
+    {
+      "extra": {
+        "doi": "10.1016/j.ijleo.2016.10.031"
+      },
+      "index": 20,
+      "key": "CIT0022"
+    },
+    {
+      "extra": {
+        "doi": "10.1007/s11071-017-3916-0"
+      },
+      "index": 21,
+      "key": "CIT0023"
+    },
+    {
+      "extra": {
+        "doi": "10.1007/978-3-030-11662-0_16"
+      },
+      "index": 22,
+      "key": "CIT0024"
+    },
+    {
+      "extra": {
+        "doi": "10.1016/j.camwa.2018.06.016"
+      },
+      "index": 23,
+      "key": "CIT0025"
+    },
+    {
+      "extra": {
+        "doi": "10.1016/j.oceaneng.2016.11.052"
+      },
+      "index": 24,
+      "key": "CIT0026"
+    },
+    {
+      "container_name": "Revista Mexicana de Fisica",
+      "extra": {
+        "authors": [
+          "Martinez HY"
+        ],
+        "volume": "62"
+      },
+      "index": 25,
+      "key": "CIT0027",
+      "locator": "310",
+      "year": 2016
+    },
+    {
+      "extra": {
+        "doi": "10.1515/nleng-2018-0163"
+      },
+      "index": 26,
+      "key": "CIT0028"
+    },
+    {
+      "extra": {
+        "doi": "10.1080/16583655.2018.1515303"
+      },
+      "index": 27,
+      "key": "CIT0029"
+    },
+    {
+      "extra": {
+        "doi": "10.1016/j.cjph.2019.09.005"
+      },
+      "index": 28,
+      "key": "CIT0030"
+    },
+    {
+      "extra": {
+        "doi": "10.1080/16583655.2018.1537642"
+      },
+      "index": 29,
+      "key": "CIT0031"
+    },
+    {
+      "container_name": "Eng Sci Tech",
+      "extra": {
+        "authors": [
+          "Tiwanaa MH"
+        ],
+        "volume": "20"
+      },
+      "index": 30,
+      "key": "CIT0032",
+      "locator": "672",
+      "year": 2017
+    },
+    {
+      "extra": {
+        "doi": "10.1080/16583655.2019.1576265"
+      },
+      "index": 31,
+      "key": "CIT0033"
+    },
+    {
+      "extra": {
+        "doi": "10.1134/s0965542516010103"
+      },
+      "index": 32,
+      "key": "CIT0034"
+    },
+    {
+      "extra": {
+        "doi": "10.1080/16583655.2018.1491690"
+      },
+      "index": 33,
+      "key": "CIT0035"
+    },
+    {
+      "extra": {
+        "doi": "10.1515/math-2015-0052"
+      },
+      "index": 34,
+      "key": "CIT0036"
+    },
+    {
+      "extra": {
+        "doi": "10.1080/16583655.2018.1510149"
+      },
+      "index": 35,
+      "key": "CIT0037"
+    },
+    {
+      "extra": {
+        "doi": "10.1016/j.ijsolstr.2016.02.020"
+      },
+      "index": 36,
+      "key": "CIT0038"
+    },
+    {
+      "extra": {
+        "doi": "10.1080/16583655.2018.1469283"
+      },
+      "index": 37,
+      "key": "CIT0039"
+    },
+    {
+      "extra": {
+        "doi": "10.1016/j.rinp.2017.11.023"
+      },
+      "index": 38,
+      "key": "CIT0040"
+    },
+    {
+      "extra": {
+        "doi": "10.1016/j.ijleo.2017.10.104"
+      },
+      "index": 39,
+      "key": "CIT0041"
+    },
+    {
+      "extra": {
+        "doi": "10.1002/num.22171"
+      },
+      "index": 40,
+      "key": "CIT0042"
+    },
+    {
+      "extra": {
+        "doi": "10.1016/j.rinp.2017.11.023"
+      },
+      "index": 41,
+      "key": "CIT0043"
+    },
+    {
+      "extra": {
+        "doi": "10.1142/s0218625x1450036x"
+      },
+      "index": 42,
+      "key": "CIT0044"
+    },
+    {
+      "extra": {
+        "doi": "10.1177/1687814017692946"
+      },
+      "index": 43,
+      "key": "CIT0045"
+    },
+    {
+      "extra": {
+        "doi": "10.3103/s1541308x11020117"
+      },
+      "index": 44,
+      "key": "CIT0046"
+    },
+    {
+      "container_name": "Chinese Phys B",
+      "extra": {
+        "authors": [
+          "Zhou DZ"
+        ],
+        "doi": "10.1088/1674-1056/19/9/090205",
+        "volume": "19"
+      },
+      "index": 45,
+      "key": "CIT0047",
+      "locator": "090205",
+      "year": 2010
+    },
+    {
+      "extra": {
+        "doi": "10.1016/j.cam.2014.01.002"
+      },
+      "index": 46,
+      "key": "CIT0048"
+    },
+    {
+      "extra": {
+        "doi": "10.1515/math-2015-0081"
+      },
+      "index": 47,
+      "key": "CIT0049"
+    },
+    {
+      "extra": {
+        "doi": "10.1016/j.cam.2014.10.016"
+      },
+      "index": 48,
+      "key": "CIT0050"
+    },
+    {
+      "extra": {
+        "doi": "10.1080/16583655.2019.1678897"
+      },
+      "index": 49,
+      "key": "CIT0051"
+    },
+    {
+      "container_name": "Num Com Meth Sci Eng",
+      "extra": {
+        "authors": [
+          "Golmankhaneh AK."
+        ]
+      },
+      "index": 50,
+      "key": "CIT0052",
+      "locator": "57",
+      "year": 2019
+    },
+    {
+      "extra": {
+        "doi": "10.3390/fractalfract3020031"
+      },
+      "index": 51,
+      "key": "CIT0053"
+    },
+    {
+      "container_name": "Eng Sci Tech",
+      "extra": {
+        "authors": [
+          "Hameed M"
+        ],
+        "volume": "18"
+      },
+      "index": 52,
+      "key": "CIT0055",
+      "locator": "496",
+      "year": 2015
+    },
+    {
+      "container_name": "Inter J Comput Sci",
+      "extra": {
+        "authors": [
+          "Ma X"
+        ],
+        "volume": "10"
+      },
+      "index": 53,
+      "key": "CIT0056",
+      "locator": "62",
+      "year": 2013
+    },
+    {
+      "extra": {
+        "doi": "10.1080/16583655.2019.1595359"
+      },
+      "index": 54,
+      "key": "CIT0057"
+    }
+  ],
+  "release_date": "2019-12-30",
+  "release_stage": "published",
+  "release_type": "article-journal",
+  "release_year": 2019,
+  "revision": "979c54af-eac9-4302-ab13-094a9fd457cf",
+  "state": "active",
+  "title": "Constructions of the optical solitons and other solitons to the conformable fractional Zakharov–Kuznetsov equation with power law nonlinearity",
+  "volume": "14",
+  "work_id": "x36ei2qjffcz7hciga5mvwcgn4"
+}

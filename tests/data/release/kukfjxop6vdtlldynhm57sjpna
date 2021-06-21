@@ -1,0 +1,79 @@
+{
+  "abstracts": [
+    {
+      "content": "<jats:title>Abstract</jats:title>\n<jats:p>In this work, we consider the (3+1) dimensional conformable fractional Zakharov-Kuznetsov equation with power law nonlinearity. Solitary wave solutions, soliton wave solutions, elliptic wave solutions, and periodic (hyperbolic) wave rational solutions are obtained by means of the unified method. The solutions showed that this method provides us with a powerful mathematical tool for solving nonlinear conformable fractional evolution equations in various fields of applied sciences.</jats:p>",
+      "mimetype": "application/xml+jats",
+      "sha1": "65925469ab36d8ab5ef03ea660b790ce89aa2ca3"
+    }
+  ],
+  "container_id": "gsce6selufe75hcbrfoxtlgzai",
+  "contribs": [
+    {
+      "extra": {
+        "seq": "first"
+      },
+      "index": 0,
+      "raw_name": "M.S. Osman",
+      "role": "author"
+    },
+    {
+      "index": 1,
+      "raw_name": "Hadi Rezazadeh",
+      "role": "author"
+    },
+    {
+      "index": 2,
+      "raw_name": "Mostafa Eslami",
+      "role": "author"
+    }
+  ],
+  "ext_ids": {
+    "doi": "10.1515/nleng-2018-0163"
+  },
+  "extra": {
+    "crossref": {
+      "license": [
+        {
+          "URL": "http://creativecommons.org/licenses/by/4.0",
+          "content-version": "unspecified",
+          "delay-in-days": 0,
+          "start": "2019-01-28T00:00:00Z"
+        }
+      ],
+      "subject": [
+        "General Engineering",
+        "Modelling and Simulation",
+        "Computer Networks and Communications",
+        "General Chemical Engineering"
+      ],
+      "type": "journal-article"
+    }
+  },
+  "ident": "kukfjxop6vdtlldynhm57sjpna",
+  "license_slug": "CC-BY",
+  "pages": "559-567",
+  "publisher": "Walter de Gruyter GmbH",
+  "refs": [
+    {
+      "container_name": "Mathematics Mathematics",
+      "extra": {
+        "authors": [
+          "Chung"
+        ]
+      },
+      "index": 0,
+      "key": "ref611",
+      "locator": "279",
+      "title": "Journal of computational and Applied Fractional Newton mechanics with con - formable fractional derivative Journal of Computational and Applied Sheikhani",
+      "year": 2015
+    }
+  ],
+  "release_date": "2019-01-28",
+  "release_stage": "published",
+  "release_type": "article-journal",
+  "release_year": 2019,
+  "revision": "3880566b-9408-4164-8d41-f700fd92a377",
+  "state": "active",
+  "title": "Traveling wave solutions for (3+1) dimensional conformable fractional Zakharov-Kuznetsov equation with power law nonlinearity",
+  "work_id": "xtwgxuyljrhsrbesgmxx2oufxq"
+}

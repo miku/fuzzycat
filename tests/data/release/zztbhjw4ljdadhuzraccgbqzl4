@@ -1,0 +1,766 @@
+{
+  "abstracts": [],
+  "container_id": "sqyteyh3czexjiu76vsekzglma",
+  "contribs": [
+    {
+      "extra": {
+        "seq": "first"
+      },
+      "index": 0,
+      "raw_name": "Farid Samsami Khodadad",
+      "role": "author"
+    },
+    {
+      "index": 1,
+      "raw_name": "Fakhroddin Nazari",
+      "role": "author"
+    },
+    {
+      "index": 2,
+      "raw_name": "Mostafa Eslami",
+      "role": "author"
+    },
+    {
+      "index": 3,
+      "raw_name": "Hadi Rezazadeh",
+      "role": "author"
+    }
+  ],
+  "ext_ids": {
+    "doi": "10.1007/s11082-017-1225-y"
+  },
+  "extra": {
+    "crossref": {
+      "alternative-id": [
+        "1225"
+      ],
+      "license": [
+        {
+          "URL": "http://www.springer.com/tdm",
+          "content-version": "unspecified",
+          "delay-in-days": 0,
+          "start": "2017-11-01T00:00:00Z"
+        }
+      ],
+      "type": "journal-article"
+    }
+  },
+  "ident": "zztbhjw4ljdadhuzraccgbqzl4",
+  "issue": "11",
+  "language": "en",
+  "publisher": "Springer Nature",
+  "refs": [
+    {
+      "container_name": "Waves Random Complex Media",
+      "extra": {
+        "authors": [
+          "E Aksoy"
+        ],
+        "doi": "10.1080/17455030.2015.1125037",
+        "unstructured": "Aksoy, E., Kaplan, M., Bekir, A.: Exponential rational function method for space-time fractional differential equations. Waves Random Complex Media 26(2), 142–151 (2016)",
+        "volume": "26"
+      },
+      "index": 0,
+      "key": "1225_CR1",
+      "locator": "142",
+      "year": 2016
+    },
+    {
+      "container_name": "Nonlinear Eng.",
+      "extra": {
+        "authors": [
+          "H Aminikhah"
+        ],
+        "doi": "10.1515/nleng-2014-0018",
+        "unstructured": "Aminikhah, H., Sheikhani, A.R., Rezazadeh, H.: Exact solutions for the fractional differential equations by using the first integral method. Nonlinear Eng. 4(1), 15–22 (2015)"
+      },
+      "index": 1,
+      "key": "1225_CR2",
+      "locator": "15",
+      "year": 2015
+    },
+    {
+      "container_name": "Sci. Iran. Trans. B Mech. Eng.",
+      "extra": {
+        "authors": [
+          "H Aminikhah"
+        ],
+        "unstructured": "Aminikhah, H., Sheikhani, A.R., Rezazadeh, H.: Sub-equation method for the fractional regularized long-wave equations with conformable fractional derivatives. Sci. Iran. Trans. B Mech. Eng. 23(3), 1048 (2016)",
+        "volume": "23"
+      },
+      "index": 2,
+      "key": "1225_CR3",
+      "locator": "1048",
+      "year": 2016
+    },
+    {
+      "extra": {
+        "unstructured": "Bekir, A., Güner, Ö., Cevikel, A.C.: Fractional complex transform and exp-function methods for fractional differential equations. In: Abstract and Applied Analysis, vol. 2013. Hindawi Publishing Corporation (2013)"
+      },
+      "index": 3,
+      "key": "1225_CR4"
+    },
+    {
+      "container_name": "Rom. J. Phys.",
+      "extra": {
+        "authors": [
+          "A Bekir"
+        ],
+        "issue": "3–4",
+        "unstructured": "Bekir, A., Guner, O., Bhrawy, A.H., Biswas, A.: Solving nonlinear fractional differential equations using exp-function and G'/G-expansion methods. Rom. J. Phys. 60(3–4), 360–378 (2015a)",
+        "volume": "60"
+      },
+      "index": 4,
+      "key": "1225_CR5",
+      "locator": "360",
+      "year": 2015
+    },
+    {
+      "container_name": "AIP Conference Proceedings",
+      "extra": {
+        "authors": [
+          "A Bekir"
+        ],
+        "unstructured": "Bekir, A., Güner, Ö., Aksoy, E., Pandır, Y.: Functional variable method for the nonlinear fractional differential equations. In: Simos, T.E., Tsitouras, C. (eds.) AIP Conference Proceedings, vol. 1648, 1st edn, p. 730001. AIP Publishing, Melville (2015b)",
+        "volume-title": "AIP Conference Proceedings"
+      },
+      "index": 5,
+      "key": "1225_CR6",
+      "locator": "730001",
+      "year": 2015
+    },
+    {
+      "container_name": "Commun. Nonlinear Sci. Numer. Simul.",
+      "extra": {
+        "authors": [
+          "A Biswas"
+        ],
+        "doi": "10.1016/j.cnsns.2008.10.004",
+        "unstructured": "Biswas, A., Zerrad, E.: 1-soliton solution of the Zakharov–Kuznetsov equation with dual-power law nonlinearity. Commun. Nonlinear Sci. Numer. Simul. 14(9), 3574–3577 (2009)",
+        "volume": "14"
+      },
+      "index": 6,
+      "key": "1225_CR7",
+      "locator": "3574",
+      "year": 2009
+    },
+    {
+      "container_name": "J. Appl. Math. Stat. Inform.",
+      "extra": {
+        "authors": [
+          "Y Çenesiz"
+        ],
+        "doi": "10.1515/jamsi-2016-0007",
+        "unstructured": "Çenesiz, Y., Kurt, A.: New fractional complex transform for conformable fractional partial differential equations. J. Appl. Math. Stat. Inform. 12(2), 41–47 (2016)",
+        "volume": "12"
+      },
+      "index": 7,
+      "key": "1225_CR8",
+      "locator": "41",
+      "year": 2016
+    },
+    {
+      "container_name": "Waves Random Complex Media",
+      "extra": {
+        "authors": [
+          "Y Çenesiz"
+        ],
+        "doi": "10.1080/17455030.2016.1205237",
+        "unstructured": "Çenesiz, Y., Baleanu, D., Kurt, A., Tasbozan, O.: New exact solutions of Burgers' type equations with conformable derivative. Waves Random Complex Media 27(1), 103–116 (2017a)",
+        "volume": "27"
+      },
+      "index": 8,
+      "key": "1225_CR9",
+      "locator": "103",
+      "year": 2017
+    },
+    {
+      "container_name": "Tbilisi Math. J.",
+      "extra": {
+        "authors": [
+          "Y Çenesiz"
+        ],
+        "doi": "10.1515/tmj-2017-0010",
+        "unstructured": "Çenesiz, Y., Tasbozan, O., Kurt, A.: Functional variable method for conformable fractional modified KdV-ZK equation and Maccari system. Tbilisi Math. J. 10(1), 117–125 (2017b)",
+        "volume": "10"
+      },
+      "index": 9,
+      "key": "1225_CR10",
+      "locator": "117",
+      "year": 2017
+    },
+    {
+      "container_name": "Int. J. Nonlinear Sci.",
+      "extra": {
+        "authors": [
+          "G Ebadi"
+        ],
+        "unstructured": "Ebadi, G.: Solitons and other solutions to Zakharov–Kuznetsov equation with dual-power law nonlinearity. Int. J. Nonlinear Sci. 16(3), 248–254 (2013)",
+        "volume": "16"
+      },
+      "index": 10,
+      "key": "1225_CR11",
+      "locator": "248",
+      "year": 2013
+    },
+    {
+      "container_name": "Opt. Int. J. Light Electron Opt.",
+      "extra": {
+        "authors": [
+          "M Ekici"
+        ],
+        "doi": "10.1016/j.ijleo.2016.09.006",
+        "issue": "22",
+        "unstructured": "Ekici, M., Mirzazadeh, M., Zhou, Q., Moshokoa, S.P., Biswas, A., Belic, M.: Solitons in optical metamaterials with fractional temporal evolution. Opt. Int. J. Light Electron Opt. 127(22), 10879–10897 (2016a)",
+        "volume": "127"
+      },
+      "index": 11,
+      "key": "1225_CR12",
+      "locator": "10879",
+      "year": 2016
+    },
+    {
+      "container_name": "Opt. Int. J. Light Electron Opt.",
+      "extra": {
+        "authors": [
+          "M Ekici"
+        ],
+        "doi": "10.1016/j.ijleo.2016.08.076",
+        "issue": "22",
+        "unstructured": "Ekici, M., Mirzazadeh, M., Eslami, M., Zhou, Q., Moshokoa, S.P., Biswas, A., Belic, M.: Optical soliton perturbation with fractional-temporal evolution by first integral method with conformable fractional derivatives. Opt. Int. J. Light Electron Opt. 127(22), 10659–10669 (2016b)",
+        "volume": "127"
+      },
+      "index": 12,
+      "key": "1225_CR13",
+      "locator": "10659",
+      "year": 2016
+    },
+    {
+      "container_name": "Phys. Scr.",
+      "extra": {
+        "authors": [
+          "MF El-Sabbagh"
+        ],
+        "doi": "10.1088/0031-8949/80/01/015006",
+        "unstructured": "El-Sabbagh, M.F., Hassan, M.M., Abdel-Salam, E.A.: Quasi-periodic waves and their interactions in the (2 + 1)-dimensional modified dispersive water-wave system. Phys. Scr. 80(1), 015006 (2009)",
+        "volume": "80"
+      },
+      "index": 13,
+      "key": "1225_CR14",
+      "locator": "015006",
+      "year": 2009
+    },
+    {
+      "container_name": "Appl. Math. Comput.",
+      "extra": {
+        "authors": [
+          "M Eslami"
+        ],
+        "unstructured": "Eslami, M.: Exact traveling wave solutions to the fractional coupled nonlinear Schrodinger equations. Appl. Math. Comput. 285, 141–148 (2016)",
+        "volume": "285"
+      },
+      "index": 14,
+      "key": "1225_CR15",
+      "locator": "141",
+      "year": 2016
+    },
+    {
+      "container_name": "Calcolo",
+      "extra": {
+        "authors": [
+          "M Eslami"
+        ],
+        "doi": "10.1007/s10092-015-0158-8",
+        "unstructured": "Eslami, M., Rezazadeh, H.: The first integral method for Wu-Zhang system with conformable time-fractional derivative. Calcolo 53(3), 475–485 (2016)",
+        "volume": "53"
+      },
+      "index": 15,
+      "key": "1225_CR16",
+      "locator": "475",
+      "year": 2016
+    },
+    {
+      "container_name": "J. King Saud Univ. Sci.",
+      "extra": {
+        "authors": [
+          "M. Eslami"
+        ],
+        "doi": "10.1016/j.jksus.2010.08.003",
+        "unstructured": "Eslami, M., Neyrame, A., Ebrahimi, M.: Explicit solutions of nonlinear (2+1)-dimensional dispersive long wave equation. J. King Saud Univ. Sci. 24(1):69–71 (2012)",
+        "volume": "24"
+      },
+      "index": 16,
+      "key": "1225_CR49",
+      "locator": "69",
+      "year": 2012
+    },
+    {
+      "container_name": "Indian J. Phys.",
+      "extra": {
+        "authors": [
+          "M Eslami"
+        ],
+        "doi": "10.1007/s12648-013-0401-6",
+        "unstructured": "Eslami, M., Vajargah, B.F., Mirzazadeh, M., Biswas, A.: Application of first integral method to fractional partial differential equations. Indian J. Phys. 88(2), 177–184 (2014)",
+        "volume": "88"
+      },
+      "index": 17,
+      "key": "1225_CR17",
+      "locator": "177",
+      "year": 2014
+    },
+    {
+      "container_name": "Opt. Quant. Electron.",
+      "extra": {
+        "authors": [
+          "M Eslami"
+        ],
+        "doi": "10.1007/s11082-017-1112-6",
+        "unstructured": "Eslami, M., Rezazadeh, H., Rezazadeh, M., Mosavi, S.S.: Exact solutions to the space-time fractional Schrödinger-Hirota equation and the space-time modified KDV-Zakharov–Kuznetsov equation. Opt. Quant. Electron. 49(8), 279 (2017)",
+        "volume": "49"
+      },
+      "index": 18,
+      "key": "1225_CR18",
+      "locator": "279",
+      "year": 2017
+    },
+    {
+      "container_name": "Waves Random Complex Media",
+      "extra": {
+        "authors": [
+          "O Guner"
+        ],
+        "doi": "10.1080/17455030.2016.1213462",
+        "unstructured": "Guner, O., Bekir, A.: A novel method for nonlinear fractional differential equations using symbolic computation. Waves Random Complex Media 27(1), 163–170 (2017)",
+        "volume": "27"
+      },
+      "index": 19,
+      "key": "1225_CR19",
+      "locator": "163",
+      "year": 2017
+    },
+    {
+      "container_name": "Phys. Lett. A",
+      "extra": {
+        "authors": [
+          "N Hongsit"
+        ],
+        "doi": "10.1016/j.physleta.2007.12.005",
+        "issue": "14",
+        "unstructured": "Hongsit, N., Allen, M.A., Rowlands, G.: Growth rate of transverse instabilities of solitary pulse solutions to a family of modified Zakharov–Kuznetsov equations. Phys. Lett. A 372(14), 2420–2422 (2008)",
+        "volume": "372"
+      },
+      "index": 20,
+      "key": "1225_CR20",
+      "locator": "2420",
+      "year": 2008
+    },
+    {
+      "container_name": "SeMA J. Boletín de la Sociedad Española de Matemática Aplicada",
+      "extra": {
+        "authors": [
+          "AN Hossein abadi"
+        ],
+        "unstructured": "Hossein abadi, A.N., Agheli, B., Darzi, R.: Exact travelling wave solutions for some nonlinear time fractional fifth-order Caudrey–Dodd–Gibbon equation by G′/G-expansion method. SeMA J. Boletín de la Sociedad Española de Matemática Aplicada 73(2), 121–129 (2016)",
+        "volume": "73"
+      },
+      "index": 21,
+      "key": "1225_CR21",
+      "locator": "121",
+      "year": 2016
+    },
+    {
+      "container_name": "Waves Random Complex Media",
+      "extra": {
+        "authors": [
+          "K Hosseini"
+        ],
+        "doi": "10.1080/17455030.2017.1296983",
+        "unstructured": "Hosseini, K., Ansari, R.: New exact solutions of nonlinear conformable time-fractional Boussinesq equations using the modified Kudryashov method. Waves Random Complex Media 27(4), 628–636 (2017)",
+        "volume": "27"
+      },
+      "index": 22,
+      "key": "1225_CR22",
+      "locator": "628",
+      "year": 2017
+    },
+    {
+      "container_name": "Opt. Int. J. Light Electron Opt.",
+      "extra": {
+        "authors": [
+          "K Hosseini"
+        ],
+        "doi": "10.1016/j.ijleo.2016.10.136",
+        "unstructured": "Hosseini, K., Mayeli, P., Ansari, R.: Modified Kudryashov method for solving the conformable time-fractional Klein–Gordon equations with quadratic and cubic nonlinearities. Opt. Int. J. Light Electron Opt. 130, 737–742 (2017a)",
+        "volume": "130"
+      },
+      "index": 23,
+      "key": "1225_CR23",
+      "locator": "737",
+      "year": 2017
+    },
+    {
+      "container_name": "Opt. Int. J. Light Electron Opt.",
+      "extra": {
+        "authors": [
+          "K Hosseini"
+        ],
+        "doi": "10.1016/j.ijleo.2016.12.032",
+        "unstructured": "Hosseini, K., Bekir, A., Ansari, R.: New exact solutions of the conformable time-fractional Cahn-Allen and Cahn-Hilliard equations using the modified Kudryashov method. Opt. Int. J. Light Electron Opt. 132, 203–209 (2017b)",
+        "volume": "132"
+      },
+      "index": 24,
+      "key": "1225_CR24",
+      "locator": "203",
+      "year": 2017
+    },
+    {
+      "container_name": "Opt. Quant. Electron.",
+      "extra": {
+        "authors": [
+          "K Hosseini"
+        ],
+        "doi": "10.1007/s11082-017-0968-9",
+        "unstructured": "Hosseini, K., Bekir, A., Ansari, R.: Exact solutions of nonlinear conformable time-fractional Boussinesq equations using the exp (− φ(ε))-expantion method. Opt. Quant. Electron. 49(4), 131 (2017c)",
+        "volume": "49"
+      },
+      "index": 25,
+      "key": "1225_CR25",
+      "locator": "131",
+      "year": 2017
+    },
+    {
+      "container_name": "Waves Random Complex Media",
+      "extra": {
+        "authors": [
+          "K Hosseini"
+        ],
+        "doi": "10.1080/17455030.2017.1362133",
+        "unstructured": "Hosseini, K., Mayeli, P., Ansari, R.: Bright and singular soliton solutions of the conformable time-fractional Klein-Gordon equations with different nonlinearities. Waves Random Complex Media 26, 1–9 (2017d)",
+        "volume": "26"
+      },
+      "index": 26,
+      "key": "1225_CR26",
+      "year": 2017
+    },
+    {
+      "container_name": "Chaos Solitons Fractals",
+      "extra": {
+        "authors": [
+          "OS Iyiola"
+        ],
+        "doi": "10.1016/j.chaos.2016.11.003",
+        "unstructured": "Iyiola, O.S., Tasbozan, O., Kurt, A., Çenesiz, Y.: On the analytical solutions of the system of conformable time-fractional Robertson equations with 1-D diffusion. Chaos Solitons Fractals 94, 1–7 (2017)",
+        "volume": "94"
+      },
+      "index": 27,
+      "key": "1225_CR27",
+      "year": 2017
+    },
+    {
+      "container_name": "Nonlinear Dyn.",
+      "extra": {
+        "authors": [
+          "H Jafari"
+        ],
+        "doi": "10.1007/s11071-015-2091-4",
+        "unstructured": "Jafari, H., Kadkhoda, N., Baleanu, D.: Fractional Lie group method of the time-fractional Boussinesq equation. Nonlinear Dyn. 81(3), 1569–1574 (2015)",
+        "volume": "81"
+      },
+      "index": 28,
+      "key": "1225_CR28",
+      "locator": "1569",
+      "year": 2015
+    },
+    {
+      "container_name": "J. Comput. Appl. Math.",
+      "extra": {
+        "authors": [
+          "R Khalil"
+        ],
+        "doi": "10.1016/j.cam.2014.01.002",
+        "unstructured": "Khalil, R., Al Horani, M., Yousef, A., Sababheh, M.: A new definition of fractional derivative. J. Comput. Appl. Math. 264, 65–70 (2014)",
+        "volume": "264"
+      },
+      "index": 29,
+      "key": "1225_CR29",
+      "locator": "65",
+      "year": 2014
+    },
+    {
+      "container_name": "Opt. Quant. Electron.",
+      "extra": {
+        "authors": [
+          "A Korkmaz"
+        ],
+        "doi": "10.1007/s11082-017-1116-2",
+        "unstructured": "Korkmaz, A., Hosseini, K.: Exact solutions of a nonlinear conformable time-fractional parabolic equation with exponential nonlinearity using reliable methods. Opt. Quant. Electron. 49(8), 278 (2017)",
+        "volume": "49"
+      },
+      "index": 30,
+      "key": "1225_CR30",
+      "locator": "278",
+      "year": 2017
+    },
+    {
+      "extra": {
+        "unstructured": "Kurt, A., Tasbozan, O., Cenesiz, Y., Baleanu, D.: New exact solutions for some nonlinear conformable PDEs using exp-function method. In: International Conference on Applied Mathematics and Analysis in Memory of Gusein Sh. Guseinov. Atilim University Ankara, Turkey (2016)"
+      },
+      "index": 31,
+      "key": "1225_CR31"
+    },
+    {
+      "container_name": "Open Phys.",
+      "extra": {
+        "authors": [
+          "A Kurt"
+        ],
+        "doi": "10.1515/phys-2015-0045",
+        "unstructured": "Kurt, A., Çenesiz, Y., Tasbozan, O.: On the solution of Burgers' equation with the new fractional derivative. Open Phys. 13(1), 355–360 (2015)",
+        "volume": "13"
+      },
+      "index": 32,
+      "key": "1225_CR32",
+      "locator": "355",
+      "year": 2015
+    },
+    {
+      "container_name": "Bull. Math. Sci. Appl.",
+      "extra": {
+        "authors": [
+          "A Kurt"
+        ],
+        "unstructured": "Kurt, A., Tasbozan, O., Cenesiz, Y.: Homotopy analysis method for conformable burgers-korteweg-de vries equation. Bull. Math. Sci. Appl. 17, 17–23 (2016)",
+        "volume": "17"
+      },
+      "index": 33,
+      "key": "1225_CR33",
+      "locator": "17",
+      "year": 2016
+    },
+    {
+      "container_name": "Phys. Lett. A",
+      "extra": {
+        "authors": [
+          "XQ Liu"
+        ],
+        "doi": "10.1016/s0375-9601(02)00517-0",
+        "unstructured": "Liu, X.Q., Jiang, S.: The sec q-tanh q-method and its applications. Phys. Lett. A 298(4), 253–258 (2002)",
+        "volume": "298"
+      },
+      "index": 34,
+      "key": "1225_CR34",
+      "locator": "253",
+      "year": 2002
+    },
+    {
+      "container_name": "Indian J. Phys.",
+      "extra": {
+        "authors": [
+          "J Manafian"
+        ],
+        "doi": "10.1007/s12648-016-0912-z",
+        "unstructured": "Manafian, J., Lakestani, M.: A new analytical approach to solve some of the fractional-order partial differential equations. Indian J. Phys. 91(3), 243–258 (2017)",
+        "volume": "91"
+      },
+      "index": 35,
+      "key": "1225_CR35",
+      "locator": "243",
+      "year": 2017
+    },
+    {
+      "container_name": "Comput. Appl. Math.",
+      "extra": {
+        "authors": [
+          "M Mirzazadeh"
+        ],
+        "doi": "10.1007/s40314-013-0098-3",
+        "unstructured": "Mirzazadeh, M., Eslami, M., Biswas, A.: Soliton solutions of the generalized Klein–Gordon equation by using G′/G -expansion method. Comput. Appl. Math. 33(3), 831–839 (2014)",
+        "volume": "33"
+      },
+      "index": 36,
+      "key": "1225_CR36",
+      "locator": "831",
+      "year": 2014
+    },
+    {
+      "container_name": "Euro. Phys. J. Plus",
+      "extra": {
+        "authors": [
+          "M Mirzazadeh"
+        ],
+        "doi": "10.1140/epjp/i2016-16166-7",
+        "unstructured": "Mirzazadeh, M., Ekici, M., Sonmezoglu, A., Ortakaya, S., Eslami, M., Biswas, A.: Soliton solutions to a few fractional nonlinear evolution equations in shallow water wave dynamics. Euro. Phys. J. Plus 131(5), 1–11 (2016)",
+        "volume": "131"
+      },
+      "index": 37,
+      "key": "1225_CR37",
+      "year": 2016
+    },
+    {
+      "container_name": "Phys. Lett. A",
+      "extra": {
+        "authors": [
+          "Y Ren"
+        ],
+        "doi": "10.1016/j.physleta.2006.04.082",
+        "unstructured": "Ren, Y., Zhang, H.: New generalized hyperbolic functions and auto-Bäcklund transformation to find new exact solutions of the (2 + 1)-dimensional NNV equation. Phys. Lett. A 357(6), 438–448 (2006)",
+        "volume": "357"
+      },
+      "index": 38,
+      "key": "1225_CR38",
+      "locator": "438",
+      "year": 2006
+    },
+    {
+      "container_name": "Comput. Res. Progress Appl. Sci. Eng.",
+      "extra": {
+        "authors": [
+          "H Rezazadeh"
+        ],
+        "unstructured": "Rezazadeh, H., Ziabarya, B.P.: Sub-equation method for the conformable fractional generalized kuramotosivashinsky equation. Comput. Res. Progress Appl. Sci. Eng. 2(3), 106–109 (2016)"
+      },
+      "index": 39,
+      "key": "1225_CR39",
+      "locator": "106",
+      "year": 2016
+    },
+    {
+      "container_name": "Appl. Appl. Math. Int. J.",
+      "extra": {
+        "authors": [
+          "H Rezazadeh"
+        ],
+        "unstructured": "Rezazadeh, H., Khodadad, F.S., Manafian, J.: New structure for exact solutions of nonlinear time fractional Sharma-Tasso-Olver equation via conformable fractional derivative. Appl. Appl. Math. Int. J. 12(1), 405–414 (2016)",
+        "volume": "12"
+      },
+      "index": 40,
+      "key": "1225_CR40",
+      "locator": "405",
+      "year": 2016
+    },
+    {
+      "container_name": "Iran. J. Numer. Anal. Optim.",
+      "extra": {
+        "authors": [
+          "H Rezazadeh"
+        ],
+        "unstructured": "Rezazadeh, H., Aminikhah, H., Refahi Sheikhani, A.H.: Stability analysis of conformable fractional systems. Iran. J. Numer. Anal. Optim. 7(1), 13–32 (2017)"
+      },
+      "index": 41,
+      "key": "1225_CR41",
+      "locator": "13",
+      "year": 2017
+    },
+    {
+      "container_name": "Ain Shams Eng. J.",
+      "extra": {
+        "authors": [
+          "N Taghizadeh"
+        ],
+        "doi": "10.1016/j.asej.2013.01.006",
+        "unstructured": "Taghizadeh, N., Mirzazadeh, M., Rahimian, M., Akbari, M.: Application of the simplest equation method to some time-fractional partial differential equations. Ain Shams Eng. J. 4(4), 897–902 (2013)"
+      },
+      "index": 42,
+      "key": "1225_CR42",
+      "locator": "897",
+      "year": 2013
+    },
+    {
+      "container_name": "Acta. Math. Appl. Sin. Engl. Ser.",
+      "extra": {
+        "authors": [
+          "RA Talarposhti"
+        ],
+        "doi": "10.1007/s10255-016-0571-z",
+        "unstructured": "Talarposhti, R.A., Ghasemi, S.E., Rahmani, Y., Ganji, D.D.: Application of exp-function method to wave solutions of the Sine-Gordon and Ostrovsky equations. Acta. Math. Appl. Sin. Engl. Ser. 32(3), 571–578 (2016)",
+        "volume": "32"
+      },
+      "index": 43,
+      "key": "1225_CR43",
+      "locator": "571",
+      "year": 2016
+    },
+    {
+      "container_name": "Nonlinear Dyn.",
+      "extra": {
+        "authors": [
+          "H Tariq"
+        ],
+        "doi": "10.1007/s11071-016-3262-7",
+        "unstructured": "Tariq, H., Akram, G.: New traveling wave exact and approximate solutions for the nonlinear Cahn-Allen equation: evolution of a nonconserved quantity. Nonlinear Dyn. 88(1), 581–594 (2017)",
+        "volume": "88"
+      },
+      "index": 44,
+      "key": "1225_CR44",
+      "locator": "581",
+      "year": 2017
+    },
+    {
+      "container_name": "Euro. Phys. J. Plus",
+      "extra": {
+        "authors": [
+          "O Tasbozan"
+        ],
+        "doi": "10.1140/epjp/i2016-16244-x",
+        "unstructured": "Tasbozan, O., Çenesiz, Y., Kurt, A.: New solutions for conformable fractional Boussinesq and combined KdV-mKdV equations using Jacobi elliptic function expansion method. Euro. Phys. J. Plus 131, 244 (2016)",
+        "volume": "131"
+      },
+      "index": 45,
+      "key": "1225_CR45",
+      "locator": "244",
+      "year": 2016
+    },
+    {
+      "container_name": "Nonlinear Dyn.",
+      "extra": {
+        "authors": [
+          "GW Wang"
+        ],
+        "doi": "10.1007/s11071-013-1150-y",
+        "unstructured": "Wang, G.W., Xu, T.Z.: Invariant analysis and exact solutions of nonlinear time fractional Sharma-Tasso-Olver equation by Lie group analysis. Nonlinear Dyn. 76(1), 571–580 (2014)",
+        "volume": "76"
+      },
+      "index": 46,
+      "key": "1225_CR46",
+      "locator": "571",
+      "year": 2014
+    },
+    {
+      "container_name": "Appl. Math. Comput.",
+      "extra": {
+        "authors": [
+          "LH Zhang"
+        ],
+        "unstructured": "Zhang, L.H.: Travelling wave solutions for the generalized Zakharov–Kuznetsov equation with higher-order nonlinear terms. Appl. Math. Comput. 208(1), 144–155 (2009)",
+        "volume": "208"
+      },
+      "index": 47,
+      "key": "1225_CR47",
+      "locator": "144",
+      "year": 2009
+    },
+    {
+      "container_name": "Calcolo",
+      "extra": {
+        "authors": [
+          "D Zhao"
+        ],
+        "doi": "10.1007/s10092-017-0213-8",
+        "unstructured": "Zhao, D., Luo, M.: General conformable fractional derivative and its physical interpretation. Calcolo 54, 1–15 (2017)",
+        "volume": "54"
+      },
+      "index": 48,
+      "key": "1225_CR48",
+      "year": 2017
+    }
+  ],
+  "release_stage": "published",
+  "release_type": "article-journal",
+  "release_year": 2017,
+  "revision": "eb6b5edd-dc4b-4afc-830b-ffe1ade5dbcb",
+  "state": "active",
+  "title": "Soliton solutions of the conformable fractional Zakharov–Kuznetsov equation with dual-power law nonlinearity",
+  "volume": "49",
+  "work_id": "6k3sszsc5rhhfdd57u4nasuhke"
+}
