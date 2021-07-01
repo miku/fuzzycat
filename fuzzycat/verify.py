@@ -597,7 +597,9 @@ def verify(a: Dict, b: Dict, min_title_length=5) -> Tuple[str, str]:
     try:
         a_parsed_pages = parse_page_string(glom(a, "pages"))
         b_parsed_pages = parse_page_string(glom(b, "pages"))
-        if abs(a_parsed_pages.count - b_parsed_pages.count) > 5:
+        if (a_parsed_pages.count != None
+                and b_parsed_pages.count != None
+                and abs(a_parsed_pages.count - b_parsed_pages.count) > 5):
             return Verify(Status.DIFFERENT, Reason.PAGE_COUNT)
     except (ValueError, PathAccessError):
         pass

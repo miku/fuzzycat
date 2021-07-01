@@ -35,20 +35,32 @@ def es_compat_hits_total(resp):
 
 def parse_page_string(s):
     """
-    Parse typical page strings, e.g. 150-180.
+    Parse typical page strings, e.g. 150-180 or p123.
+
+    If only a single page number is found, returns that first page and None for
+    end page and count. If two are found, and they are consistent as a range,
+    returns the start, end, and count.
+
+    Does not handle lists of page numbers, roman numerals, and several other
+    patterns.
     """
     if not s:
         raise ValueError('page parsing: empty string')
+    if s[0].lower() in ('p', 'e'):
+        s = s[1:]
     if s.isnumeric():
-        return ParsedPages(start=int(s), end=int(s), count=1)
+        return ParsedPages(start=int(s), end=None, count=None)
     page_pattern = re.compile("([0-9]{1,})-([0-9]{1,})")
     match = page_pattern.match(s)
     if not match:
         raise ValueError('cannot parse page pattern from {}'.format(s))
     start, end = match.groups()
     if len(end) == 1 and start and start[-1] < end:
-        # 261-5, odd, but happens
+        # '261-5', odd, but happens
         end = start[:-1] + end
+    elif len(end) == 2 and start and start[-2:] < end:
+        # '577-89', also happens
+        end = start[:-2] + end
     a, b = int(start), int(end)
     if a > b:
         raise ValueError('invalid page range: {}'.format(s))

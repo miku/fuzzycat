@@ -77,15 +77,20 @@ def test_dict_key_exists():
 
 
 def test_page_page_string():
-    reject = ("", "123-2", "123-120", "123a-124", "-2-1")
+    reject = ("", "123-2", "123-120", "123a-124", "-2-1", "I-II", "xv-xvi", "p")
     for s in reject:
         with pytest.raises(ValueError):
             assert parse_page_string(s)
-    assert parse_page_string("123") == (123, 123, 1)
+    assert parse_page_string("123") == (123, None, None)
+    assert parse_page_string("90-90") == (90, 90, 1)
     assert parse_page_string("123-5") == (123, 125, 3)
     assert parse_page_string("123-125") == (123, 125, 3)
     assert parse_page_string("123-124a") == (123, 124, 2)
     assert parse_page_string("1-1000") == (1, 1000, 1000)
+    assert parse_page_string("p55") == (55, None, None)
+    assert parse_page_string("p55-65") == (55, 65, 11)
+    assert parse_page_string("e1234") == (1234, None, None)
+    assert parse_page_string("577-89") == (577, 589, 13)
 
 
 def test_zstdlines():
