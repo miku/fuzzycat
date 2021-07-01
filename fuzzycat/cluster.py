@@ -151,10 +151,20 @@ SANDCRAWLER_CHAR_MAP = {
     '\N{Latin capital letter T with stroke}': 'T',
     '\N{Latin small letter t with stroke}': 't',
 
-    # bnewbold additions
+    # bnewbold additions; mostly Latin-ish OCR ambiguous
     '\N{MICRO SIGN}': 'u',
     '\N{LATIN SMALL LETTER C}': 'c',
     '\N{LATIN SMALL LETTER F WITH HOOK}': 'f',
+    '\N{Greek Small Letter Alpha}': 'a',
+    '\N{Greek Small Letter Beta}': 'b',
+    '\N{Greek Small Letter Iota}': 'i',
+    '\N{Greek Small Letter Kappa}': 'k',
+    '\N{Greek Small Letter Chi}': 'x',
+    '\N{Greek Small Letter Upsilon}': 'u',
+    '\N{Greek Small Letter Nu}': 'v',
+    '\N{Greek Small Letter Gamma}': 'y',
+    '\N{Greek Small Letter Tau}': 't',
+    '\N{Greek Small Letter Omicron}': 'o',
     # bnewbold map-to-null (for non-printing stuff not in the regex)
     '\N{PARTIAL DIFFERENTIAL}': '',
     '\N{LATIN LETTER INVERTED GLOTTAL STOP}': '',
@@ -193,7 +203,7 @@ def sandcrawler_slugify(raw: str) -> str:
     slug = slug.replace("&apos;", "'")
 
     # iterate over all chars and replace from map, if in map; then lower-case again
-    slug = ''.join([SANDCRAWLER_CHAR_MAP.get(c, c) for c in slug])
+    slug = ''.join([SANDCRAWLER_CHAR_MAP.get(c, c) for c in slug]).lower()
 
     # early bailout before executing regex
     if not slug:
@@ -217,6 +227,7 @@ def test_sandcrawler_slugify() -> None:
         ("علمية", "علمية"),
         ("期刊的数字", "期刊的数字"),
         ("les pré-impressions explorées à partir", "lespreimpressionsexploreesapartir"),
+        ("γ-Globulin", "yglobulin"),
 
         # "MICRO SIGN"
         ("\xb5meter", "umeter"),
