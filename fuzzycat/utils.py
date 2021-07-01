@@ -6,6 +6,7 @@ import re
 import string
 import subprocess
 import tempfile
+from typing import Optional
 
 import requests
 from glom import PathAccessError, glom
@@ -80,6 +81,19 @@ def dict_key_exists(doc, path):
     else:
         return True
 
+def clean_doi(raw: Optional[str]) -> Optional[str]:
+    if not raw:
+        return None
+    raw = raw.strip().lower()
+    if raw.startswith("doi:"):
+        raw = raw[4:]
+    if not "10." in raw:
+        return None
+    if not raw.startswith("10."):
+        raw = raw[raw.find("10."):]
+    if raw[7:9] == "//":
+        raw = raw[:8] + raw[9:]
+    return raw
 
 def doi_prefix(v):
     """

@@ -92,7 +92,7 @@ from fuzzycat.data import (CONTAINER_NAME_BLACKLIST, PUBLISHER_BLACKLIST, TITLE_
 from fuzzycat.entities import entity_to_dict
 from fuzzycat.utils import (author_similarity_score, contains_chemical_formula, dict_key_exists,
                             doi_prefix, has_doi_prefix, jaccard, num_project, parse_page_string,
-                            slugify_string)
+                            slugify_string, clean_doi)
 
 Verify = collections.namedtuple("Verify", "status reason")
 
@@ -167,8 +167,8 @@ def verify(a: Dict, b: Dict, min_title_length=5) -> Tuple[str, str]:
 
     # A few items have the same DOI.
     try:
-        a_doi = glom(a, "ext_ids.doi")
-        b_doi = glom(b, "ext_ids.doi")
+        a_doi = clean_doi(glom(a, "ext_ids.doi"))
+        b_doi = clean_doi(glom(b, "ext_ids.doi"))
         if a_doi is not None and a_doi == b_doi:
             return Verify(Status.EXACT, Reason.DOI)
     except PathAccessError:
