@@ -1,240 +1,98 @@
-# fuzzycat (wip)
 
-Fuzzy matching utilities for [fatcat](https://fatcat.wiki).
+<div align="center">
+<!-- Photo is CC BY 2.0 by Chika Watanabe from flickr -->
+<a href="https://www.flickr.com/photos/chikawatanabe/192112067">
+<img src="static/192112067_046be9fd21_b.jpg">
+</a>
+</div>
+
+`fuzzycat`: bibliographic fuzzy matching for fatcat.wiki
+========================================================
 
 ![https://pypi.org/project/fuzzycat/](https://img.shields.io/pypi/v/fuzzycat?style=flat-square)
 
-To install with [pip](https://pypi.org/project/pip/), run:
+This Python library contains routines for finding near-duplicate bibliographic
+entities (primarily research papers), and estimating whether two metadata
+records describe the same work (or variations of the same work). Some routines
+are designed to work "offline" with batches of billions of sorted metadata
+records, and others are designed to work "online" making queries against hosted
+web services and catalogs.
+
+`fuzzycat` was originally developed by Martin Czygan at the Internet Archive,
+and is used in the construction of a citation graph and to identify duplicate
+records in the [fatcat.wiki](https://fatcat.wiki) catalog and
+[scholar.archive.org](https://scholar.archive.org) search index.
+
+**DISCLAIMER:** this tool is still under development, as indicated by the "0"
+major version. The interface, semantics, and behavior are likely to be tweaked.
+
+
+## Quickstart
+
+Inside a `virtualenv` (or similar), install with [pip](https://pypi.org/project/pip/):
 
 ```
-$ pip install fuzzycat
+pip install fuzzycat
 ```
 
-![](static/192112067_046be9fd21_b.jpg)
+The `fuzzycat.simple` module contains high-level helpers which query Internet
+Archive hosted services:
 
-Photo by [Chika Watanabe](https://www.flickr.com/photos/chikawatanabe/192112067) (CC BY 2.0).
+    import elasticsearch
+    from fuzzycat.simple import *
 
-## Overview
+    es_client = elasticsearch.Elasticsearch("https://search.fatcat.wiki:443")
 
-The fuzzycat library currently works on [fatcat database release
-dumps](https://archive.org/details/fatcat_snapshots_and_exports?&sort=-publicdate)
-and can cluster similar release items, that is it can find clusters and can
-verify match candidates.
+    # parses reference using GROBID (at https://grobid.qa.fatcat.wiki),
+    # then queries Elasticsearch (at https://search.fatcat.wiki),
+    # then scores candidates against latest catalog record fetched from
+    #  https://api.fatcat.wiki
+    best_match = closest_fuzzy_unstructured_match(
+        """Cunningham HB, Weis JJ, Taveras LR, Huerta S. Mesh migration following abdominal hernia repair: a comprehensive review. Hernia. 2019 Apr;23(2):235-243. doi: 10.1007/s10029-019-01898-9. Epub 2019 Jan 30. PMID: 30701369.""",
+        es_client=es_client)
 
-For example we can identify:
+    print(best_match)
+    # FuzzyReleaseMatchResult(status=<Status.EXACT: 'exact'>, reason=<Reason.DOI: 'doi'>, release={...})
 
-* versions of various items (arxiv, figshare, datacite, ...)
-* preprint and published pairs
-* similar items from different sources
+    # same as above, but without the GROBID parsing, and returns multiple results
+    matches = close_fuzzy_biblio_matches(
+        dict(
+            title="Mesh migration following abdominal hernia repair: a comprehensive review",
+            first_author="Cunningham",
+            year=2019,
+            journal="Hernia",
+        ),
+        es_client=es_client,
+    )
 
-## TODO
+A CLI tool is included for processing records in UNIX stdin/stdout pipelines:
 
-* [ ] take a list of title strings and return match candidates (faster than
-  elasticsearch); e.g. derive a key and find similar keys some cached clusters
-* [ ] take a list of title, author documents and return match candidates; e.g.
-  key may depend on title only, but verification can be more precise
-* [ ] take a more complete, yet partial document and return match candidates
-
-For this to work, we will need to have cluster from fatcat precomputed and
-cache. We also might want to have it sorted by key (which is a side effect of
-clustering) so we can binary search into the cluster file for the above todo
-items.
-
-## Dataset
-
-For development, we worked on a `release_export_expanded.json` dump (113G/700G
-zstd/plain, 154,203,375 lines) and with the [fatcat
-API](https://api.fatcat.wiki/).
-
-The development workflow looked something like the following.
-
-![](notes/steps.png)
-
-## Clustering
-
-Clustering derives sets of similar documents from a [fatcat database release
-dump](https://archive.org/details/fatcat_snapshots_and_exports?&sort=-publicdate).
-
-Following algorithms are implemented (or planned):
-
-* [x] exact title matches (title)
-* [x] normalized title matches (tnorm)
-* [x] NYSIIS encoded title matches (tnysi)
-* [x] extended title normalization (tsandcrawler)
-
-Example running clustering:
-
-```
-$ python -m fuzzycat cluster -t tsandcrawler < data/re.json | zstd -c -T0 > cluster.json.zst
-```
-
-Clustering works in a three step process:
-
-1. key extraction for each document (choose algorithm)
-2. sorting by keys (via [GNU sort](https://www.gnu.org/software/coreutils/manual/html_node/sort-invocation.html))
-3. group by key and write out ([itertools.groupby](https://docs.python.org/3/library/itertools.html#itertools.groupby))
-
-Note: For long running processes, this all-or-nothing approach is impractical;
-e.g. running clustering on the joint references and fatcat dataset (2B records)
-takes 24h+.
-
-Ideas:
-
-* [ ] make (sorted) key extraction a fast standalone thing
-
-> `cat data.jsonl | fuzzycat-key --algo X > data.key.tsv`
-
-Where `data.key` group (id, key, blob) or the like. Make this line speed (maybe
-w/ rust). Need to carry the blob, as we do not want to restrict options.
+    # print usage
+    python -m fuzzycat
 
 
-## Verification
+## Features and Use-Cases
 
-Run verification (pairwise *double-check* of match candidates in a cluster).
+The **`cgraph`** system builds on top of this library to build a citation graph
+by processing billions of structured and unstructured reference records
+extracted from scholarly papers.
 
-```
-$ time zstdcat -T0 sample_cluster.json.zst | python -m fuzzycat verify > sample_verify.txt
+Automated imports of metadata records into the fatcat catalog use fuzzycat to
+filter new metadata which look like duplicates of existing records from other
+sources.
 
-real    7m56.713s
-user    8m50.703s
-sys     0m29.262s
-```
+In conjunction with standard command-line tools (like `sort`), fatcat bulk
+metadata snapshots can be clustered and reduced into groups to flag duplicate
+records for merging.
 
-This is a one-pass operation. For processing 150M docs, we very much depend on
-the documents being on disk in a file (we keep the complete document in the
-clustering result).
+Extracted reference strings from any source (webpages, books, papers, wikis,
+databases, etc) can be resolved against the fatcat catalog of scholarly papers.
 
-Example results:
 
-```
-3450874 Status.EXACT Reason.TITLE_AUTHOR_MATCH
-2619990 Status.STRONG Reason.SLUG_TITLE_AUTHOR_MATCH
-2487633 Status.DIFFERENT Reason.YEAR
-2434532 Status.EXACT Reason.WORK_ID
-2085006 Status.DIFFERENT Reason.CONTRIB_INTERSECTION_EMPTY
-1397420 Status.DIFFERENT Reason.SHARED_DOI_PREFIX
-1355852 Status.DIFFERENT Reason.RELEASE_TYPE
-1290162 Status.AMBIGUOUS Reason.DUMMY
-1145511 Status.DIFFERENT Reason.BOOK_CHAPTER
-1009657 Status.DIFFERENT Reason.DATASET_DOI
- 996503 Status.STRONG Reason.PMID_DOI_PAIR
- 868951 Status.EXACT Reason.DATACITE_VERSION
- 796216 Status.STRONG Reason.DATACITE_RELATED_ID
- 704154 Status.STRONG Reason.FIGSHARE_VERSION
- 534963 Status.STRONG Reason.VERSIONED_DOI
- 343310 Status.STRONG Reason.TOKENIZED_AUTHORS
- 334974 Status.STRONG Reason.JACCARD_AUTHORS
- 293835 Status.STRONG Reason.PREPRINT_PUBLISHED
- 269366 Status.DIFFERENT Reason.COMPONENT
- 263626 Status.DIFFERENT Reason.SUBTITLE
- 224021 Status.AMBIGUOUS Reason.SHORT_TITLE
- 152990 Status.DIFFERENT Reason.PAGE_COUNT
- 133811 Status.AMBIGUOUS Reason.CUSTOM_PREFIX_10_5860_CHOICE_REVIEW
- 122600 Status.AMBIGUOUS Reason.CUSTOM_PREFIX_10_7916
-  79664 Status.STRONG Reason.CUSTOM_IEEE_ARXIV
-  46649 Status.DIFFERENT Reason.CUSTOM_PREFIX_10_14288
-  39797 Status.DIFFERENT Reason.JSTOR_ID
-  38598 Status.STRONG Reason.CUSTOM_BSI_UNDATED
-  18907 Status.STRONG Reason.CUSTOM_BSI_SUBDOC
-  15465 Status.EXACT Reason.DOI
-  13393 Status.DIFFERENT Reason.CUSTOM_IOP_MA_PATTERN
-  10378 Status.DIFFERENT Reason.CONTAINER
-   3081 Status.AMBIGUOUS Reason.BLACKLISTED
-   2504 Status.AMBIGUOUS Reason.BLACKLISTED_FRAGMENT
-   1273 Status.AMBIGUOUS Reason.APPENDIX
-   1063 Status.DIFFERENT Reason.TITLE_FILENAME
-    104 Status.DIFFERENT Reason.NUM_DIFF
-      4 Status.STRONG Reason.ARXIV_VERSION
-```
+## Support and Acknowledgements
 
-## A full run
+Work on this software received support from the Andrew W. Mellon Foundation
+through multiple phases of the ["Ensuring the Persistent Access of Open Access
+Journal Literature"](https://mellon.org/grants/grants-database/advanced-search/?amount-low=&amount-high=&year-start=&year-end=&city=&state=&country=&q=%22Ensuring+the+Persistent+Access%22&per_page=25) project (see [original announcement](http://blog.archive.org/2018/03/05/andrew-w-mellon-foundation-awards-grant-to-the-internet-archive-for-long-tail-journal-preservation/)).
 
-Single threaded, 42h.
-
-```
-$ time zstdcat -T0 release_export_expanded.json.zst | \
-    TMPDIR=/bigger/tmp python -m fuzzycat cluster --tmpdir /bigger/tmp -t tsandcrawler | \
-    zstd -c9 > cluster_tsandcrawler.json.zst
-{
-  "key_fail": 0,
-  "key_ok": 154202433,
-  "key_empty": 942,
-  "key_denylist": 0,
-  "num_clusters": 124321361
-}
-
-real    2559m7.880s
-user    2605m41.347s
-sys     118m38.141s
-```
-
-So, 29881072 (about 20%) docs in the potentially duplicated set. Verification (about 15h w/o parallel):
-
-```
-$ time zstdcat -T0 cluster_tsandcrawler.json.zst | python -m fuzzycat verify | \
-    zstd -c9 > cluster_tsandcrawler_verified_3c7378.tsv.zst
-
-...
-
-real    927m28.631s
-user    939m32.761s
-sys     36m47.602s
-```
-
-----
-
-# Misc
-
-## Use cases
-
-* [ ] take a release entity database dump as JSON lines and cluster releases
-  (according to various algorithms)
-* [ ] take cluster information and run a verification step (misc algorithms)
-* [ ] create a dataset that contains grouping of releases under works
-* [ ] command line tools to generate cache keys, e.g. to match reference
-  strings to release titles (this needs some transparent setup, e.g. filling of
-a cache before ops)
-
-## Usage
-
-Release clusters start with release entities json lines.
-
-```shell
-$ cat data/sample.json | python -m fuzzycat cluster -t title > out.json
-```
-
-Clustering 1M records (single core) takes about 64s (15K docs/s).
-
-```shell
-$ head -1 out.json
-{
-  "k": "裏表紙",
-  "v": [
-    ...
-  ]
-}
-```
-
-Using GNU parallel to make it faster.
-
-```
-$ cat data/sample.json | parallel -j 8 --pipe --roundrobin python -m fuzzycat.main cluster -t title
-```
-
-Interestingly, the parallel variants detects fewer clusters (because data is
-split and clusters are searched within each batch). TODO(miku): sort out sharding bug.
-
-# Notes on Refs
-
-* technique from fuzzycat ported in parts to
-  [skate](https://github.com/miku/skate) - to go from refs and release dataset
-to a number of clusters, relating references to releases
-* need to verify, but not the references against each other, only refs againt the release
-
-# Notes on Performance
-
-While running bulk (1B+) clustering and verification, even with parallel,
-fuzzycat got slow. The citation graph project therefore contains a
-reimplementation of `fuzzycat.verify` and related functions in Go, which in
-this case is an order of magnitude faster. See:
-[skate](https://git.archive.org/martin/cgraph/-/tree/master/skate).
+Additional acknowledgements [at fatcat.wiki](https://fatcat.wiki/about).
