@@ -1,0 +1,33 @@
+{
+  "abstracts": [],
+  "contribs": [
+    {
+      "extra": {
+        "seq": "first"
+      },
+      "index": 0,
+      "raw_name": "Per Brinch Hansen",
+      "role": "author"
+    }
+  ],
+  "ext_ids": {
+    "doi": "10.1007/978-1-4757-3472-0_11"
+  },
+  "extra": {
+    "container_name": "The Origin of Concurrent Programming",
+    "crossref": {
+      "type": "book-chapter"
+    }
+  },
+  "ident": "a5w6vw2pojcbpdqwr4pbljs4my",
+  "pages": "297-318",
+  "publisher": "Springer New York",
+  "refs": [],
+  "release_stage": "published",
+  "release_type": "chapter",
+  "release_year": 1975,
+  "revision": "390de494-9a92-48da-a455-a55894fb8542",
+  "state": "active",
+  "title": "The Programming Language Concurrent Pascal",
+  "work_id": "bjuhfso3prgopfpbvaxpv3rnky"
+}

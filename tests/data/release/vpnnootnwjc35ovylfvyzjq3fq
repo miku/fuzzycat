@@ -1,0 +1,33 @@
+{
+  "abstracts": [],
+  "contribs": [
+    {
+      "extra": {
+        "seq": "first"
+      },
+      "index": 0,
+      "raw_name": "P. Brinch-Hansen",
+      "role": "author"
+    }
+  ],
+  "ext_ids": {
+    "doi": "10.1007/978-3-662-09507-2_17"
+  },
+  "extra": {
+    "container_name": "Programming Languages",
+    "crossref": {
+      "type": "book-chapter"
+    }
+  },
+  "ident": "vpnnootnwjc35ovylfvyzjq3fq",
+  "pages": "264-272",
+  "publisher": "Springer Berlin Heidelberg",
+  "refs": [],
+  "release_stage": "published",
+  "release_type": "chapter",
+  "release_year": 1983,
+  "revision": "d090a9e6-d2c6-4df9-b25b-88d9e2c962be",
+  "state": "active",
+  "title": "The Programming Language Concurrent Pascal",
+  "work_id": "zpiapu3atzgg3ap235zlo7n3qi"
+}

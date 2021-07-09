@@ -1,0 +1,33 @@
+{
+  "abstracts": [],
+  "contribs": [
+    {
+      "extra": {
+        "seq": "first"
+      },
+      "index": 0,
+      "raw_name": "Per Brinch Hansen",
+      "role": "author"
+    }
+  ],
+  "ext_ids": {
+    "doi": "10.1007/978-1-4612-6315-9_19"
+  },
+  "extra": {
+    "container_name": "Programming Methodology",
+    "crossref": {
+      "type": "book-chapter"
+    }
+  },
+  "ident": "c3alu7csn5hyre6fuykhgby7za",
+  "pages": "244-261",
+  "publisher": "Springer New York",
+  "refs": [],
+  "release_stage": "published",
+  "release_type": "chapter",
+  "release_year": 1978,
+  "revision": "bd41b695-83b5-4578-aa0f-9fb64127a244",
+  "state": "active",
+  "title": "The Programming Language Concurrent Pascal",
+  "work_id": "iji5kr4eajdn3fcln5eofhi3zm"
+}

@@ -1,0 +1,33 @@
+{
+  "abstracts": [],
+  "container_id": "2w3awgokqne6te4nvlofavy5a4",
+  "contribs": [
+    {
+      "extra": {
+        "seq": "first"
+      },
+      "index": 0,
+      "raw_name": "Per Brinch Hansen",
+      "role": "author"
+    }
+  ],
+  "ext_ids": {
+    "doi": "10.1007/3-540-07994-7_50"
+  },
+  "extra": {
+    "crossref": {
+      "type": "book-chapter"
+    }
+  },
+  "ident": "prxzzz63kventfyviovrgyw7bq",
+  "pages": "82-110",
+  "publisher": "Springer Berlin Heidelberg",
+  "refs": [],
+  "release_stage": "published",
+  "release_type": "chapter",
+  "release_year": 1976,
+  "revision": "e1220df2-c0bd-4748-a26b-48af38803349",
+  "state": "active",
+  "title": "The programming language concurrent pascal",
+  "work_id": "qmbmdbqt7jgdlphvkxfm6fuup4"
+}

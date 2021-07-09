@@ -1,0 +1,34 @@
+{
+  "abstracts": [],
+  "container_id": "dthyqga2onff5nwf4agwqtrhxi",
+  "contribs": [
+    {
+      "extra": {
+        "seq": "first"
+      },
+      "index": 0,
+      "raw_name": "Per Brinch Hansen",
+      "role": "author"
+    }
+  ],
+  "ext_ids": {
+    "doi": "10.1109/tse.1975.6312840"
+  },
+  "extra": {
+    "crossref": {
+      "type": "journal-article"
+    }
+  },
+  "ident": "em7vs7m56fhzfh2onmqpihvmdy",
+  "pages": "199-207",
+  "publisher": "Institute of Electrical and Electronics Engineers (IEEE)",
+  "refs": [],
+  "release_stage": "published",
+  "release_type": "article-journal",
+  "release_year": 1975,
+  "revision": "cb529109-965d-436e-95db-c0d3aa11efc2",
+  "state": "active",
+  "title": "The programming language Concurrent Pascal",
+  "volume": "SE-1",
+  "work_id": "agze5ddqinhgzcs6pmigf6xk2i"
+}
