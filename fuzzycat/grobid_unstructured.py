@@ -18,6 +18,7 @@ from fatcat_openapi_client import ReleaseContrib, ReleaseEntity, ReleaseExtIds
 
 from fuzzycat.config import settings
 from fuzzycat.grobid2json import biblio_info
+from fuzzycat.utils import clean_doi
 
 GROBID_API_BASE = settings.get("GROBID_API_BASE", "https://grobid.qa.fatcat.wiki")
 
@@ -89,7 +90,7 @@ def grobid_ref_to_release(ref: dict) -> ReleaseEntity:
         issue=ref.get("issue"),
         pages=ref.get("pages"),
         ext_ids=ReleaseExtIds(
-            doi=ref.get("doi"),
+            doi=clean_doi(ref.get("doi")),
             pmid=ref.get("pmid"),
             pmcid=ref.get("pmcid"),
             arxiv=ref.get("arxiv_id"),

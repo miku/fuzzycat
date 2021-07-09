@@ -3,7 +3,7 @@ import os
 
 from fuzzycat.utils import (author_similarity_score, cut, jaccard, nwise, slugify_string,
                             token_n_grams, tokenize_string, parse_page_string, dict_key_exists,
-                            zstdlines, es_compat_hits_total)
+                            zstdlines, es_compat_hits_total, clean_doi)
 
 
 def test_slugify_string():
@@ -77,15 +77,20 @@ def test_dict_key_exists():
 
 
 def test_page_page_string():
-    reject = ("", "123-2", "123-120", "123a-124", "-2-1")
+    reject = ("", "123-2", "123-120", "123a-124", "-2-1", "I-II", "xv-xvi", "p")
     for s in reject:
         with pytest.raises(ValueError):
             assert parse_page_string(s)
-    assert parse_page_string("123") == (123, 123, 1)
+    assert parse_page_string("123") == (123, None, None)
+    assert parse_page_string("90-90") == (90, 90, 1)
     assert parse_page_string("123-5") == (123, 125, 3)
     assert parse_page_string("123-125") == (123, 125, 3)
     assert parse_page_string("123-124a") == (123, 124, 2)
     assert parse_page_string("1-1000") == (1, 1000, 1000)
+    assert parse_page_string("p55") == (55, None, None)
+    assert parse_page_string("p55-65") == (55, 65, 11)
+    assert parse_page_string("e1234") == (1234, None, None)
+    assert parse_page_string("577-89") == (577, 589, 13)
 
 
 def test_zstdlines():
@@ -118,3 +123,16 @@ def test_es_compat_hits_total():
     )
     for r, expected in cases:
         assert es_compat_hits_total(r) == expected
+
+def test_clean_doi():
+    assert clean_doi(None) == None
+    assert clean_doi("blah") == None
+    assert clean_doi("10.1234/asdf ") == "10.1234/asdf"
+    assert clean_doi("10.1037//0002-9432.72.1.50") == "10.1037/0002-9432.72.1.50"
+    assert clean_doi("10.1037/0002-9432.72.1.50") == "10.1037/0002-9432.72.1.50"
+    assert clean_doi("http://doi.org/10.1234/asdf ") == "10.1234/asdf"
+    # GROBID mangled DOI
+    assert clean_doi("21924DOI10.1234/asdf ") == "10.1234/asdf"
+    assert clean_doi("https://dx.doi.org/10.1234/asdf ") == "10.1234/asdf"
+    assert clean_doi("doi:10.1234/asdf ") == "10.1234/asdf"
+    assert clean_doi("10.7326/M20-6817") == "10.7326/m20-6817"
