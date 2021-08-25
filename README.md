@@ -73,7 +73,7 @@ A CLI tool is included for processing records in UNIX stdin/stdout pipelines:
 
 ## Features and Use-Cases
 
-The **`cgraph`** system builds on top of this library to build a citation graph
+The **`refcat`** system builds on top of this library to build a citation graph
 by processing billions of structured and unstructured reference records
 extracted from scholarly papers.
 

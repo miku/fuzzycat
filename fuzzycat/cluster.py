@@ -52,7 +52,7 @@ Matching releases to non-release entities.
 
 Features and integration.
 
-* work grouping at import time; random pdfs; requires strong verification (vs cgraph)
+* work grouping at import time; random pdfs; requires strong verification (vs refcat)
 * email out to OCI
 
 """
