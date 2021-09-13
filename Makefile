@@ -1,11 +1,9 @@
 SHELL := /bin/bash
-FATCAT_BULK_EXPORT_ITEM := fatcat_bulk_exports_2020-08-05
 PY_FILES := $(shell find fuzzycat -name '*.py')
 
 .PHONY: help
 help: ## Print info about all commands
 	@echo "Commands:"
-	@echo
 	@grep -E '^[/.a-zA-Z_-]+:.*?## .*$$' $(MAKEFILE_LIST) | awk 'BEGIN {FS = ":.*?## "}; {printf "    \033[01;32m%-40s\033[0m %s\n", $$1, $$2}'
 
 
