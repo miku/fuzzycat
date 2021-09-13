@@ -27,7 +27,6 @@ with open("README.md", "r") as fh:
         ]},
         install_requires=[
             "dynaconf>=1",
-            "elasticsearch",
             "elasticsearch-dsl",
             "fatcat-openapi-client", # https://pypi.org/project/fatcat-openapi-client/
             "ftfy",

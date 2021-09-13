@@ -11,6 +11,6 @@ before_script:
 tests:
   stage: test
   script:
-    - python3 --version && pipenv --version
+    - python3 --version
     - make deps
     - make test

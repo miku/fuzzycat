@@ -8,14 +8,15 @@ help: ## Print info about all commands
 
 
 .PHONY: deps
-deps: ## Install dependencies from setup.py into pipenv
-	pipenv install --dev --deploy
+deps: ## Install dependencies and dev dependencies from setup.py
+	pip install -e .
+	pip install -e .[dev]
 
 .PHONY: fmt
 fmt: ## Apply import sorting and yapf source formatting on all files
-	pipenv run isort --atomic fuzzycat/*
-	pipenv run yapf -p -i -r fuzzycat/*
-	pipenv run yapf -p -i -r tests
+	isort --atomic fuzzycat/*
+	yapf -p -i -r fuzzycat/*
+	yapf -p -i -r tests
 
 .PHONY: dist
 dist: ## Create source distribution and wheel
@@ -23,35 +24,22 @@ dist: ## Create source distribution and wheel
 
 .PHONY: cov
 cov: ## Run coverage report
-	pipenv run pytest --cov=fuzzycat fuzzycat/*.py tests/ # --cov-report annotate:cov_annotate --cov-report html
+	pytest --cov=fuzzycat fuzzycat/*.py tests/ # --cov-report annotate:cov_annotate --cov-report html
 
 .PHONY: test
-test: ## Run coverage report
-	pipenv run pytest -o log_cli=true -s -vvv fuzzycat/*.py tests/*.py
+test: ## Run tests
+	pytest -o log_cli=true -s -vvv fuzzycat/*.py tests/*.py
 
 .PHONY: lint
 lint: $(PY_FILES) ## Run pylint
-	pipenv run pylint fuzzycat
+	pylint fuzzycat
 
 .PHONY: mypy
 mypy: ## Run mypy checks
-	pipenv run mypy --strict $$(find fuzzycat -name "*py")
+	mypy --strict $$(find fuzzycat -name "*py")
 
-.PHONY: clean
-clean: ## Clean all artifacts
-	rm -rf build
-	rm -rf dist
-	rm -rf fuzzycat.egg-info/
-	rm -rf .pytest_cache/
-	rm -rf .coverage
-	rm -rf htmlcov/
-	rm -rf cov_annotate/
-	rm -rf .mypy_cache/
-	find . -name "__pycache__" -type d -exec rm -rf {} \;
-
-# Upload requires https://github.com/pypa/twine and some configuration.
 .PHONY: upload
-upload: dist ## Upload to pypi
+upload: dist ## Upload to pypi, requires https://github.com/pypa/twine and some configuration.
 	# https://pypi.org/account/register/
 	# $ cat ~/.pypirc
 	# [pypi]
@@ -64,4 +52,16 @@ upload: dist ## Upload to pypi
 	#
 	# For automatic package deployments, also see: .gitlab-ci.yml.
 	twine upload $(TWINE_OPTS) dist/*
+
+.PHONY: clean
+clean: ## Clean all artifacts
+	rm -rf build
+	rm -rf dist
+	rm -rf fuzzycat.egg-info/
+	rm -rf .pytest_cache/
+	rm -rf .coverage
+	rm -rf htmlcov/
+	rm -rf cov_annotate/
+	rm -rf .mypy_cache/
+	find . -name "__pycache__" -type d -exec rm -rf {} \;
 
