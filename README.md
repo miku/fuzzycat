@@ -19,7 +19,8 @@ records, and others are designed to work "online" making queries against hosted
 web services and catalogs.
 
 `fuzzycat` was originally developed by Martin Czygan at the Internet Archive,
-and is used in the construction of a citation graph and to identify duplicate
+and is used in the construction of a [citation
+graph](https://gitlab.com/internetarchive/refcat) and to identify duplicate
 records in the [fatcat.wiki](https://fatcat.wiki) catalog and
 [scholar.archive.org](https://scholar.archive.org) search index.
 
@@ -73,9 +74,11 @@ A CLI tool is included for processing records in UNIX stdin/stdout pipelines:
 
 ## Features and Use-Cases
 
-The **`refcat`** system builds on top of this library to build a citation graph
-by processing billions of structured and unstructured reference records
-extracted from scholarly papers.
+The [refcat project](https://gitlab.com/internetarchive/refcat) builds on top
+of this library to build a citation graph by processing billions of structured
+and unstructured reference records extracted from scholarly papers (note: jfor
+performance critical parts, some code has been ported to Go, albeit the test
+suite is shared between the Python and Go implementations).
 
 Automated imports of metadata records into the fatcat catalog use fuzzycat to
 filter new metadata which look like duplicates of existing records from other
