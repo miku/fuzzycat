@@ -71,7 +71,7 @@ import unicodedata
 from dataclasses import dataclass
 from typing import IO, Any, Callable, Dict, Generator, List, Optional, Tuple
 
-import fuzzy
+import jellyfish
 import regex
 import zstandard
 
@@ -122,7 +122,7 @@ def release_key_title_nysiis(doc: KeyDoc) -> Tuple[str, str]:
     Use NYSIIS New York State Identification and Intelligence System.
     """
     ident, title = release_key_title(doc)
-    return (ident, fuzzy.nysiis(title))
+    return (ident, jellyfish.nysiis(title))
 
 
 # from http://zderadicka.eu/removing-diacritics-marks-from-strings/
