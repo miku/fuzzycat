@@ -76,31 +76,31 @@ def test_release_key_title_nysiis():
         Case(input={
             'ident': '',
             'title': 'simhash'
-        }, output=('', 'SANAS')),
+        }, output=('', 'SANM')),
         Case(input={
             'ident': '',
             'title': 'Simhash'
-        }, output=('', 'SANAS')),
+        }, output=('', 'SANM')),
         Case(input={
             'ident': '',
             'title': 'Sim  hash'
-        }, output=('', 'SANAS')),
+        }, output=('', 'SAN')),
         Case(input={
             'ident': '',
             'title': 'THE year 1929'
-        }, output=('', 'TAR')),
+        }, output=('', 'T')),
         Case(input={
             'ident': '',
             'title': '2019?'
-        }, output=('', '')),
+        }, output=('', '2019?')),
         Case(input={
             'ident': '123',
             'title': 'H~~2019?'
-        }, output=('123', 'H')),
+        }, output=('123', 'H~2019?')),
         Case(input={
             'ident': '123',
             'title': '世界'
-        }, output=('123', '')),
+        }, output=('123', '世界')),
     )
     for case in cases:
         assert case.output == release_key_title_nysiis(case.input), 'failed case {}'.format(
