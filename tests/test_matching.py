@@ -72,6 +72,24 @@ def test_match_release_fuzzy(es_client, caplog):
             "ext_ids": {}
         }, 5),
         ({
+            "title": "unlikelytitle",
+            "ext_ids": {}
+        }, 0),
+        ({
+            "title": "Imminent dystopia",
+            "ext_ids": {}
+        }, 2),
+        ({
+            "title": "",
+            "contribs": [{"raw_name": "Aristoteles"}],
+            "ext_ids": {}
+        }, 5),
+        ({
+            "title": "Letter",
+            "contribs": [{"raw_name": "Claudel"}],
+            "ext_ids": {}
+        }, 1),
+        ({
             "title": "The Future of Digital Scholarship",
             "contribs": [{
                 "raw_name": "Costantino Thanos"
@@ -83,6 +101,6 @@ def test_match_release_fuzzy(es_client, caplog):
         entity = entity_from_dict(doc, ReleaseEntity)
         result = match_release_fuzzy(entity, es=es_client)
         with caplog.at_level(logging.INFO):
-            logging.info("[{}] given {}, found {}, {}".format(i, entity.title, len(result),
+            logging.info("[{}] given title '{}', found {}, {}".format(i, entity.title, len(result),
                                                               [v.title for v in result]))
-        assert len(result) == count
+        assert len(result) == count, doc

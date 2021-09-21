@@ -73,12 +73,83 @@ def match_release_fuzzy(
         if r:
             return [r]
 
+
+    if release.title is not None and release.contribs is not None:
+        names = " ".join([c.raw_name for c in release.contribs])
+        body = {
+            "track_total_hits": True,
+            "query": {
+                "bool": {
+                    "must": [
+                        {
+                            "match": {
+                                "title": {
+                                    "query": release.title,
+                                    "operator": "AND",
+                                    "fuzziness": "AUTO",
+                                },
+                            }
+                        },
+                        {
+                            "match": {
+                                "contrib_names": {
+                                    "query": names,
+                                    "operator": "AND",
+                                    "fuzziness": "AUTO",
+                                }
+                            }
+                        },
+                    ],
+                },
+            },
+            "size": size,
+        }
+        resp = es.search(body=body, index="fatcat_release")
+        if es_compat_hits_total(resp) > 0:
+            return response_to_entity_list(resp, entity_type=ReleaseEntity, size=size, api=api)
+
+        body = {
+            "track_total_hits": True,
+            "query": {
+                "bool": {
+                    "should": [
+                        {
+                            "match": {
+                                "title": {
+                                    "query": release.title,
+                                    "operator": "AND",
+                                    "fuzziness": "AUTO",
+                                },
+                            }
+                        },
+                        {
+                            "match": {
+                                "contrib_names": {
+                                    "query": names,
+                                    "operator": "AND",
+                                    "fuzziness": "AUTO",
+                                }
+                            }
+                        },
+                    ],
+                },
+            },
+            "size": size,
+        }
+        resp = es.search(body=body, index="fatcat_release")
+        if es_compat_hits_total(resp) > 0:
+            return response_to_entity_list(resp, entity_type=ReleaseEntity, size=size, api=api)
+
+    # Note: If the title is short, we will get lots of results here; do we need
+    # to check for title length or result set length length or result set
+    # length here?
     body = {
+        "track_total_hits": True,
         "query": {
             "match": {
                 "title": {
                     "query": release.title,
-                    "operator": "AND"
+                    "operator": "AND",
                 }
             }
         },
@@ -91,6 +162,7 @@ def match_release_fuzzy(
     # Get fuzzy.
     # https://www.elastic.co/guide/en/elasticsearch/reference/current/common-options.html#fuzziness
     body = {
+        "track_total_hits": True,
         "query": {
             "match": {
                 "title": {
