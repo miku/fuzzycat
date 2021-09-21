@@ -81,6 +81,7 @@ def dict_key_exists(doc, path):
     else:
         return True
 
+
 def clean_doi(raw: Optional[str]) -> Optional[str]:
     if not raw:
         return None
@@ -94,6 +95,7 @@ def clean_doi(raw: Optional[str]) -> Optional[str]:
     if raw[7:9] == "//":
         raw = raw[:8] + raw[9:]
     return raw
+
 
 def doi_prefix(v):
     """

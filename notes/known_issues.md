@@ -102,3 +102,20 @@ $ python -m fuzzycat verify_single | jq .
   ]
 }
 ```
+
+## "jaccard authors" can be too weak
+
+```
+$ python -m fuzzycat verify_single | jq .
+{
+  "extra": {
+    "q": "https://fatcat.wiki/release/search?q=canes"
+  },
+  "a": "https://fatcat.wiki/release/ivhoiqvjt5cpxbdzzbuco7eciq",
+  "b": "https://fatcat.wiki/release/hprvn76ls5cbbkl2ypsyijojmu",
+  "r": [
+    "strong",
+    "jaccard_authors"
+  ]
+}
+```

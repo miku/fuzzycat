@@ -1,6 +1,11 @@
-steps.png: steps.dot
+TARGETS = workflow_schema.png
+
+.PHONY: all
+all: $(TARGETS)
+
+%.png: %.dot
 	dot -Tpng $^ > $@
 
 .PHONY: clean
 clean:
-	rm -rf steps.png
+	rm -rf $(TARGETS)

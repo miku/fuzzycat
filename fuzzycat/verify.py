@@ -90,9 +90,9 @@ from fuzzycat.common import Reason, Status
 from fuzzycat.data import (CONTAINER_NAME_BLACKLIST, PUBLISHER_BLACKLIST, TITLE_BLACKLIST,
                            TITLE_FRAGMENT_BLACKLIST)
 from fuzzycat.entities import entity_to_dict
-from fuzzycat.utils import (author_similarity_score, contains_chemical_formula, dict_key_exists,
-                            doi_prefix, has_doi_prefix, jaccard, num_project, parse_page_string,
-                            slugify_string, clean_doi)
+from fuzzycat.utils import (author_similarity_score, clean_doi, contains_chemical_formula,
+                            dict_key_exists, doi_prefix, has_doi_prefix, jaccard, num_project,
+                            parse_page_string, slugify_string)
 
 Verify = collections.namedtuple("Verify", "status reason")
 
@@ -597,8 +597,7 @@ def verify(a: Dict, b: Dict, min_title_length=5) -> Tuple[str, str]:
     try:
         a_parsed_pages = parse_page_string(glom(a, "pages"))
         b_parsed_pages = parse_page_string(glom(b, "pages"))
-        if (a_parsed_pages.count != None
-                and b_parsed_pages.count != None
+        if (a_parsed_pages.count != None and b_parsed_pages.count != None
                 and abs(a_parsed_pages.count - b_parsed_pages.count) > 5):
             return Verify(Status.DIFFERENT, Reason.PAGE_COUNT)
     except (ValueError, PathAccessError):
