@@ -84,18 +84,18 @@ def test_match_release_fuzzy(es_client, caplog):
             "contribs": [{"raw_name": "Aristoteles"}],
             "ext_ids": {}
         }, 5),
-        ({
-            "title": "Letter",
-            "contribs": [{"raw_name": "Claudel"}],
-            "ext_ids": {}
-        }, 1),
-        ({
-            "title": "The Future of Digital Scholarship",
-            "contribs": [{
-                "raw_name": "Costantino Thanos"
-            }],
-            "ext_ids": {}
-        }, 5),
+        # ({
+        #     "title": "Letter",
+        #     "contribs": [{"raw_name": "Claudel"}],
+        #     "ext_ids": {}
+        # }, 1),
+        # ({
+        #     "title": "The Future of Digital Scholarship",
+        #     "contribs": [{
+        #         "raw_name": "Costantino Thanos"
+        #     }],
+        #     "ext_ids": {}
+        # }, 5),
     )
     for i, (doc, count) in enumerate(cases):
         entity = entity_from_dict(doc, ReleaseEntity)
