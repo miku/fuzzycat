@@ -10,9 +10,9 @@ import requests
 from fatcat_openapi_client import ContainerEntity, DefaultApi, ReleaseEntity
 from fatcat_openapi_client.rest import ApiException
 
+from fuzzycat.config import settings
 from fuzzycat.entities import entity_from_dict, entity_from_json
 from fuzzycat.utils import es_compat_hits_total
-from fuzzycat.config import settings
 
 FATCAT_API_URL = settings.get("FATCAT_API_URL", "https://api.fatcat.wiki/v0")
 
@@ -105,6 +105,7 @@ def match_release_fuzzy(
     resp = es.search(body=body, index="fatcat_release")
     if es_compat_hits_total(resp) > 0:
         return response_to_entity_list(resp, entity_type=ReleaseEntity, size=size, api=api)
+
 
     # TODO: perform more queries on other fields.
     return []

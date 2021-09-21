@@ -25,8 +25,8 @@ from fuzzycat.common import Reason, Status
 from fuzzycat.entities import entity_to_dict
 from fuzzycat.grobid_unstructured import grobid_parse_unstructured
 from fuzzycat.matching import match_release_fuzzy
-from fuzzycat.verify import verify
 from fuzzycat.utils import clean_doi
+from fuzzycat.verify import verify
 
 
 @dataclass

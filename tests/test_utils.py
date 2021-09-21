@@ -124,6 +124,7 @@ def test_es_compat_hits_total():
     for r, expected in cases:
         assert es_compat_hits_total(r) == expected
 
+
 def test_clean_doi():
     assert clean_doi(None) == None
     assert clean_doi("blah") == None
