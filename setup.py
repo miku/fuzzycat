@@ -26,14 +26,14 @@ with open("README.md", "r") as fh:
             "fuzzycat=fuzzycat:__main__"
         ]},
         install_requires=[
-            "dynaconf>=1",
-            "elasticsearch-dsl",
-            "fatcat-openapi-client", # https://pypi.org/project/fatcat-openapi-client/
+            "dynaconf>=3",
+             "elasticsearch-dsl>=7.0.0,<8.0.0",
+            "fatcat-openapi-client>=0.3.3", # https://pypi.org/project/fatcat-openapi-client/
             "ftfy",
             "glom",
             "jellyfish",
             "regex",
-            "requests",
+            "requests>=2",
             "toml",
             "unidecode>=0.10",
             "zstandard",
