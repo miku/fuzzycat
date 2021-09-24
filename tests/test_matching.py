@@ -81,7 +81,9 @@ def test_match_release_fuzzy(es_client, caplog):
         }, 2),
         ({
             "title": "",
-            "contribs": [{"raw_name": "Aristoteles"}],
+            "contribs": [{
+                "raw_name": "Aristoteles"
+            }],
             "ext_ids": {}
         }, 5),
         # ({
@@ -102,5 +104,5 @@ def test_match_release_fuzzy(es_client, caplog):
         result = match_release_fuzzy(entity, es=es_client)
         with caplog.at_level(logging.INFO):
             logging.info("[{}] given title '{}', found {}, {}".format(i, entity.title, len(result),
-                                                              [v.title for v in result]))
+                                                                      [v.title for v in result]))
         assert len(result) == count, doc

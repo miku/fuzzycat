@@ -91,7 +91,7 @@ from fuzzycat.data import (CONTAINER_NAME_BLACKLIST, PUBLISHER_BLACKLIST, TITLE_
                            TITLE_FRAGMENT_BLACKLIST)
 from fuzzycat.entities import entity_to_dict
 from fuzzycat.utils import (author_similarity_score, clean_doi, contains_chemical_formula,
-                            dict_key_exists, doi_prefix, has_doi_prefix, jaccard, num_project,
+                            dict_has_key, doi_prefix, has_doi_prefix, jaccard, num_project,
                             parse_page_string, slugify_string)
 
 Verify = collections.namedtuple("Verify", "status reason")
@@ -233,10 +233,10 @@ def verify(a: Dict, b: Dict, min_title_length=5) -> Tuple[str, str]:
         if has_doi_prefix(a_doi, "10.3403") and has_doi_prefix(b_doi, "10.3403"):
             if a_doi + "u" == b_doi or b_doi + "u" == a_doi:
                 return Verify(Status.STRONG, Reason.CUSTOM_BSI_UNDATED)
-            if a_title == b_title and ((dict_key_exists(a, "extra.subtitle")
-                                        and not dict_key_exists(b, "extra.subtitle")) or
-                                       (dict_key_exists(b, "extra.subtitle")
-                                        and not dict_key_exists(a, "extra.subtitle"))):
+            if a_title == b_title and ((dict_has_key(a, "extra.subtitle")
+                                        and not dict_has_key(b, "extra.subtitle")) or
+                                       (dict_has_key(b, "extra.subtitle")
+                                        and not dict_has_key(a, "extra.subtitle"))):
                 return Verify(Status.STRONG, Reason.CUSTOM_BSI_SUBDOC)
     except PathAccessError:
         pass
@@ -301,7 +301,7 @@ def verify(a: Dict, b: Dict, min_title_length=5) -> Tuple[str, str]:
     # beware: we have versions and "isPartOf", e.g.
     # https://api.fatcat.wiki/v0/release/ybxygpeypbaq5pfrztu3z2itw4
     # Datacite md schema: https://doi.org/10.14454/7xq3-zf69
-    if dict_key_exists(a, "extra.datacite") and dict_key_exists(b, "extra.datacite"):
+    if dict_has_key(a, "extra.datacite") and dict_has_key(b, "extra.datacite"):
         whitelist = set([
             "HasPart",
             "HasVersion",
@@ -511,8 +511,8 @@ def verify(a: Dict, b: Dict, min_title_length=5) -> Tuple[str, str]:
     # if any([a_authors, b_authors]) and not (a_authors and b_authors):
     # Does not cover case, where both authors are empty.
     if a_release_year == b_release_year and a_title_lower == b_title_lower:
-        if ((dict_key_exists(a, "ext_ids.pmid") and dict_key_exists(b, "ext_ids.doi"))
-                or (dict_key_exists(b, "ext_ids.pmid") and dict_key_exists(a, "ext_ids.doi"))):
+        if ((dict_has_key(a, "ext_ids.pmid") and dict_has_key(b, "ext_ids.doi"))
+                or (dict_has_key(b, "ext_ids.pmid") and dict_has_key(a, "ext_ids.doi"))):
             return Verify(Status.STRONG, Reason.PMID_DOI_PAIR)
 
     # Two JSTOR items will probably be different.

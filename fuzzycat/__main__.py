@@ -3,22 +3,13 @@
 
 COMMANDS
 
-    cluster
     verify
     verify_single
     verify_ref
     release_match
     unstructured
 
-  Run, e.g. fuzzycat cluster --help for more options.
-
 EXAMPLES
-
-  Clustering with GNU parallel.
-
-      $ zstdcat -T0 release_export_expanded.json.zst |
-          parallel --tmpdir /fast/tmp --roundrobin --pipe -j 4 |
-          python -m fuzzycat.main cluster --tmpdir /fast/tmp -t tnorm > clusters.jsonl
 
   Bulk verification.
 
@@ -67,9 +58,6 @@ import elasticsearch
 import requests
 from fatcat_openapi_client import ReleaseEntity
 
-from fuzzycat.cluster import (Cluster, release_key_title, release_key_title_ngram,
-                              release_key_title_normalized, release_key_title_nysiis,
-                              release_key_title_sandcrawler)
 from fuzzycat.entities import entity_to_dict
 from fuzzycat.grobid_unstructured import grobid_parse_unstructured
 from fuzzycat.matching import anything_to_entity, match_release_fuzzy
@@ -80,32 +68,6 @@ from fuzzycat.verify import GroupVerifier, verify
 
 logging.getLogger("requests").setLevel(logging.WARNING)
 logging.getLogger("urllib3").setLevel(logging.WARNING)
-
-
-def run_cluster(args):
-    """
-    Run clustering over release entities from database dump.
-    """
-    logger = logging.getLogger('main.run_cluster')
-    types = {
-        'title': release_key_title,
-        'tnorm': release_key_title_normalized,
-        'tnysi': release_key_title_nysiis,
-        'tss': release_key_title_ngram,
-        'tsandcrawler': release_key_title_sandcrawler,
-    }
-    key_denylist = None
-    if args.key_denylist:
-        with open(args.key_denylist, 'r') as f:
-            key_denylist = [l.strip() for l in f.readlines()]
-    cluster = Cluster(iterable=fileinput.input(args.files),
-                      key=types.get(args.type),
-                      tmpdir=args.tmpdir,
-                      compress=args.compress,
-                      key_denylist=key_denylist,
-                      prefix=args.prefix)
-    cluster.run()
-    logger.debug(json.dumps(dict(cluster.counter)))
 
 
 def run_verify(args):
@@ -252,23 +214,6 @@ if __name__ == '__main__':
     parser.add_argument("-s", "--size", help="number of results to return", default=5, type=int)
     parser.add_argument("-v", "--verbose", help="be verbose", action='store_true')
     subparsers = parser.add_subparsers()
-
-    sub_cluster = subparsers.add_parser('cluster', help='group entities', parents=[parser])
-    sub_cluster.set_defaults(func=run_cluster)
-    sub_cluster.add_argument('-C',
-                             '--compress',
-                             action="store_true",
-                             help='compress intermediate results')
-    sub_cluster.add_argument('-f', '--files', default="-", help='input files')
-    sub_cluster.add_argument('--key-denylist', help='file path to key denylist')
-    sub_cluster.add_argument('--min-cluster-size',
-                             default=2,
-                             type=int,
-                             help='ignore smaller clusters')
-    sub_cluster.add_argument('-t',
-                             '--type',
-                             default='title',
-                             help='cluster algorithm: title, tnorm, tnysi, tss, tsandcrawler')
 
     sub_verify = subparsers.add_parser('verify', help='verify groups', parents=[parser])
     sub_verify.add_argument('-f', '--files', default="-", help='input files')

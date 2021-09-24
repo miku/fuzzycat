@@ -73,7 +73,6 @@ def match_release_fuzzy(
         if r:
             return [r]
 
-
     if release.title is not None and release.contribs is not None:
         names = " ".join([c.raw_name for c in release.contribs])
         body = {
@@ -177,7 +176,6 @@ def match_release_fuzzy(
     resp = es.search(body=body, index="fatcat_release")
     if es_compat_hits_total(resp) > 0:
         return response_to_entity_list(resp, entity_type=ReleaseEntity, size=size, api=api)
-
 
     # TODO: perform more queries on other fields.
     return []

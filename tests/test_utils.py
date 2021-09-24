@@ -2,7 +2,7 @@ import pytest
 import os
 
 from fuzzycat.utils import (author_similarity_score, cut, jaccard, nwise, slugify_string,
-                            token_n_grams, tokenize_string, parse_page_string, dict_key_exists,
+                            token_n_grams, tokenize_string, parse_page_string, dict_has_key,
                             zstdlines, es_compat_hits_total, clean_doi)
 
 
@@ -67,13 +67,13 @@ def test_nwise():
     assert list(nwise([1, 2, 3, 4, 5], n=3)) == [(1, 2, 3), (4, 5)]
 
 
-def test_dict_key_exists():
-    assert dict_key_exists({}, "") is False
-    assert dict_key_exists({"a": "a"}, "a") == True
-    assert dict_key_exists({"a": "a"}, "b") == False
-    assert dict_key_exists({"a": {"b": "c"}}, "a.b") == True
-    assert dict_key_exists({"a": {"b": None}}, "a.b") == True
-    assert dict_key_exists({"a": {"b": "c"}}, "a.b.c") == False
+def test_dict_has_key():
+    assert dict_has_key({}, "") is False
+    assert dict_has_key({"a": "a"}, "a") == True
+    assert dict_has_key({"a": "a"}, "b") == False
+    assert dict_has_key({"a": {"b": "c"}}, "a.b") == True
+    assert dict_has_key({"a": {"b": None}}, "a.b") == True
+    assert dict_has_key({"a": {"b": "c"}}, "a.b.c") == False
 
 
 def test_page_page_string():

@@ -26,12 +26,12 @@ def es_compat_hits_total(resp):
     https://www.elastic.co/guide/en/elasticsearch/reference/current/breaking-changes-7.0.html
 
     It is responsibility of the call site to set `track_total_hits` in ES7 to
-    get an exact number.
+    get an exact number (https://www.elastic.co/guide/en/elasticsearch/reference/master/search-your-data.html#track-total-hits).
     """
     try:
-        return resp["hits"]["total"]["value"]
+        return resp["hits"]["total"]["value"]  # ES7
     except TypeError:
-        return resp["hits"]["total"]
+        return resp["hits"]["total"]  # ES6
 
 
 def parse_page_string(s):
@@ -44,6 +44,8 @@ def parse_page_string(s):
 
     Does not handle lists of page numbers, roman numerals, and several other
     patterns.
+
+    Returns a named tuple with start, end and count fields.
     """
     if not s:
         raise ValueError('page parsing: empty string')
@@ -69,7 +71,7 @@ def parse_page_string(s):
     return ParsedPages(start=a, end=b, count=count)
 
 
-def dict_key_exists(doc, path):
+def dict_has_key(doc, path):
     """
     Return true, if key in a dictionary at a given path exists. XXX: probably
     already in glom.
@@ -101,7 +103,10 @@ def doi_prefix(v):
     """
     Return the prefix of a DOI.
     """
-    return v.split("/")[0]
+    parts = v.split("/")
+    if len(parts) == 1:
+        raise ValueError("invalid doi: {}".format(v))
+    return parts[0]
 
 
 def has_doi_prefix(v, prefix="10.1234"):
